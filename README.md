@@ -90,6 +90,27 @@ silent upstream layout change is exactly how a graph starts inventing holders.
 
 MIT. Data belongs to the registries cited in each node's `source` and `url`.
 
+## Asia-Pacific: China, Taiwan, and what Japan/Korea actually require
+
+| source | what it gives | status |
+|---|---|---|
+| Shanghai Stock Exchange | 1,604 listed companies: name, A-share code, board, listing date | live, keyless |
+| Shenzhen Stock Exchange | 2,906 listed companies: name, code, industry, listing date | live, keyless |
+| Taiwan MOEA open data | full registration by 統一編號: status, capital, paid-in, address | live, keyless |
+
+The Chinese exchanges publish rosters, not ownership. A Chinese listed company therefore
+gets a node and a citation and no invented shareholders. Shenzhen pages at a fixed 20 rows,
+so the full roster costs ~146 requests and is cached for 24 hours; Shanghai returns 25 rows
+and only honours the page window when `beginPage` and `endPage` are both set to `pageNo` —
+without them it replays pages 1..N and a paging loop silently accumulates duplicates.
+
+Japan and Korea are not in this table because neither is reachable without a credential.
+EDINET needs a Subscription-Key; DART needs a `crtfc_key`; data.go.kr returns
+`SERVICE_KEY_IS_NULL`; gBizINFO errors out; the NTA 法人番号 full dump needs a POST with a
+CSRF token. `gsxt.gov.cn` and `creditchina.gov.cn` present self-signed certificates and a
+JS cookie challenge, and the commercial aggregators block automated clients. These are
+recorded as blocked rather than quietly dropped.
+
 ## Non-US registries, and the UK index
 
 Added 2026-10-23. Every adapter below was written against a response actually observed on

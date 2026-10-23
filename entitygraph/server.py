@@ -45,7 +45,7 @@ class Handler(BaseHTTPRequestHandler):
                 "ok": True, "version": __version__,
                 "cache": os.environ.get("ENTITYGRAPH_CACHE", ".cache"),
                 "sources": ["GLEIF", "SEC EDGAR", "OpenSanctions"],
-                "registries": ["FR", "NO", "DK", "FI", "CH", "CZ", "BR"],
+                "registries": ["FR", "NO", "DK", "FI", "CH", "CZ", "BR", "GB", "CN", "TW"],
                 "uk_index": ukmod.stats(os.environ.get("ENTITYGRAPH_UK_DB", "uk.sqlite")),
             })
 

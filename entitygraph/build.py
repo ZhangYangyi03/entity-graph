@@ -10,6 +10,7 @@ from . import sources
 from .holders import classify, holders_in_filing
 from . import registries
 from . import uk as ukmod
+from . import asia
 
 NOW = lambda: _dt.datetime.now(_dt.timezone.utc).isoformat(timespec="seconds")
 
@@ -175,6 +176,24 @@ def build(name: str | None = None, *, lei: str | None = None, cik: str | None = 
             reg_hits.extend(got)
         elif name and not os.path.exists(uk_db):
             note("GB registry", "lookup", f"no index at {uk_db}; run python -m entitygraph.ingest")
+
+    # China and Taiwan: the exchanges publish listed-company rosters; Taiwan's MOEA API
+    # answers by 統一編號 only. Neither publishes shareholders, so these add company nodes
+    # and a citation, never people, and the mismatch with "Asia-Pacific coverage" should be
+    # read that way.
+    if name and ("CN" in (countries or ("CN",))):
+        try:
+            for rec in asia.china_search(name, limit=3):
+                if rec.get("id") not in {r.get("id") for r in reg_hits if r.get("country") == "CN"}:
+                    reg_hits.append(rec)
+        except Exception as e:
+            note("CN exchanges", "roster", e)
+    tw_id = registry_id if registry_country == "TW" else None
+    if tw_id:
+        try:
+            reg_hits.extend(asia.taiwan_by_id(tw_id))
+        except Exception as e:
+            note("TW MOEA", "lookup", e)
 
     for rec in reg_hits:
         cc = rec.get("country") or "XX"
