@@ -51,6 +51,10 @@ INDEXES = """
 CREATE INDEX IF NOT EXISTS idx_companies_name ON companies(name);
 CREATE INDEX IF NOT EXISTS idx_psc_company    ON psc(company_number);
 """
+# A LIKE '%x%' scan over 5.7M rows took ~3s. A leading-anchored LIKE can use an index,
+# so the fast path is a prefix index and a query that always anchors: exact match first,
+# then prefix, then (only if nothing was found) the slow contains-scan.
+PREFIX_INDEX = "CREATE INDEX IF NOT EXISTS idx_companies_name_prefix ON companies(name COLLATE NOCASE);"
 
 
 def _page_links(page: str, pattern: str) -> list[str]:
@@ -253,21 +257,39 @@ def _jsonl_rows_from_file(path: str):
 
 
 def lookup(db_path: str, *, number: str | None = None, name: str | None = None,
-           limit: int = 3) -> list[dict]:
-    """Answer from the index. Returns the same record shape as the other registries."""
+           limit: int = 3, contains: bool = False) -> list[dict]:
+    """Answer from the index. Returns the same record shape as the other registries.
+
+    Name lookup is tiered on purpose: exact, then prefix (both index-backed), and only if
+    neither hits does it fall back to a contains-scan -- which is correct but takes seconds
+    on 5.7M rows, so it is the last resort rather than the default.
+    """
     if not os.path.exists(db_path):
         return []
     con = open_db(db_path)
+    rows = []
     if number:
-        cur = con.execute("SELECT * FROM companies WHERE company_number=?", (number.strip().upper(),))
+        rows = con.execute("SELECT * FROM companies WHERE company_number=?",
+                           (number.strip().upper(),)).fetchall()
+        cols = [c[0] for c in con.execute("SELECT * FROM companies LIMIT 0").description]
     elif name:
-        cur = con.execute("SELECT * FROM companies WHERE name LIKE ? LIMIT ?",
-                          (f"%{name}%", limit))
+        cols = [c[0] for c in con.execute("SELECT * FROM companies LIMIT 0").description]
+        q = name.strip()
+        rows = con.execute(
+            "SELECT * FROM companies WHERE name = ? COLLATE NOCASE LIMIT ?", (q, limit)).fetchall()
+        if not rows:
+            rows = con.execute(
+                "SELECT * FROM companies WHERE name LIKE ? COLLATE NOCASE LIMIT ?",
+                (q + "%", limit)).fetchall()
+        if not rows and contains:
+            rows = con.execute(
+                "SELECT * FROM companies WHERE name LIKE ? COLLATE NOCASE LIMIT ?",
+                ("%" + q + "%", limit)).fetchall()
     else:
         return []
-    cols = [c[0] for c in cur.description]
+
     out = []
-    for row in cur.fetchall():
+    for row in rows:
         d = dict(zip(cols, row))
         psc = con.execute("SELECT name, kind, natures FROM psc WHERE company_number=?",
                           (d["company_number"],)).fetchall()
@@ -277,7 +299,7 @@ def lookup(db_path: str, *, number: str | None = None, name: str | None = None,
             "officers": [{"name": p[0], "role": f"PSC ({p[2]})" if p[2] else "PSC"} for p in psc],
             "attributes": {"status": d["status"], "company_type": d["company_type"],
                            "incorporated": d["incorporation"], "sic": d["sic"]},
-            "url": f"https://find-and-update.company-information.service.gov.uk/company/{d['company_number']}",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/" + d["company_number"],
         })
     return out
 
@@ -356,9 +378,14 @@ def ingest_basic_bytes(db_path: str, zip_path: str, limit_rows: int = 3000000,
     then skipped and counted, so `consumed` is where this call actually stopped.
     """
     con = open_db(db_path)
+    # WAL + NORMAL, not MEMORY/OFF: the bulk load gets interrupted on this host (a killed
+    # call leaves a half-written page and then EVERY later query says 'database disk image
+    # is malformed'). WAL keeps the last committed transaction intact no matter where the
+    # process dies, at the cost of a slower flush -- a trade worth taking for a load that
+    # is expected to be interrupted.
+    con.execute("PRAGMA journal_mode=WAL")
+    con.execute("PRAGMA synchronous=NORMAL")
     con.execute("DROP INDEX IF EXISTS idx_companies_name")
-    con.execute("PRAGMA journal_mode=MEMORY")
-    con.execute("PRAGMA synchronous=OFF")
 
     member = csv_member(zip_path)
     row = con.execute("SELECT v FROM meta WHERE k='basic_offset'").fetchone()
@@ -407,6 +434,11 @@ def ingest_basic_bytes(db_path: str, zip_path: str, limit_rows: int = 3000000,
                 if len(batch) >= 20000:
                     con.executemany("INSERT OR REPLACE INTO companies VALUES (?,?,?,?,?,?,?)", batch)
                     batch.clear()
+                    # Commit the rows AND the resume point together, so a kill can only
+                    # cost the current batch, never the whole run.
+                    con.execute("INSERT OR REPLACE INTO meta VALUES ('basic_offset', ?)",
+                                (str(consumed),))
+                    con.commit()
             if batch:
                 con.executemany("INSERT OR REPLACE INTO companies VALUES (?,?,?,?,?,?,?)", batch)
             con.execute("INSERT OR REPLACE INTO meta VALUES ('basic_offset', ?)", (str(consumed),))

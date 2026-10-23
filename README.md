@@ -89,3 +89,45 @@ silent upstream layout change is exactly how a graph starts inventing holders.
 ## Licence
 
 MIT. Data belongs to the registries cited in each node's `source` and `url`.
+
+## Non-US registries, and the UK index
+
+Added 2026-10-23. Every adapter below was written against a response actually observed on
+that date, not against documentation -- the field names here are the ones the services send.
+
+    country  registry                        key?   officers?
+    FR       recherche-entreprises (INSEE)   no     yes -- dirigeants, name + quality
+    NO       Brønnøysund (Brreg) + roller    no     yes -- CEO, board, signatories
+    DK       CVR via cvrapi                  no     no  -- the free endpoint returns owners: null
+    FI       PRH avoindata v3                no     no
+    CH       Zefix (POST search)             no     no
+    CZ       ARES (lookup by IČO)            no     no
+    BR       ReceitaWS (lookup by CNPJ)      no     yes -- qsa partners
+    GB       Companies House bulk snapshot   no     yes -- persons with significant control
+
+Lookup by name or by national id:
+
+    $ python -m entitygraph.cli build --name Carrefour --country FR --format summary
+    nodes 20  edges 14      # 14 officer_of edges from the French registry
+
+    $ python -m entitygraph.cli build --registry-id 33000167000101 --country BR --format summary
+
+### Why the UK is an ingest, not a request
+
+The Companies House bulk feed decompresses to 2.8 GB of CSV for company records and ~2.5 GB
+across 33 shards for PSC. That cannot sit behind a request, so it becomes a local SQLite
+index and lookups cost an indexed SELECT:
+
+    $ python -m entitygraph.ingest --db uk.sqlite --basic --psc-shards 33
+
+Measured here: 5,704,703 companies and 499,971 PSC rows (shard 1 of 33) in a 720 MB index.
+Name lookup is tiered -- exact, then prefix (both index-backed, 2-25 ms), then a
+contains-scan only if neither hit.
+
+Two things this cost, both fixed rather than worked around:
+
+- A truncated download reported itself as `not a zip file`; the file is now checked against
+  Content-Length and resumed with a Range request.
+- Interrupting the load left `database disk image is malformed` on every later query. The
+  load now runs in WAL with per-batch commits, so a kill costs one batch and the index
+  stays valid -- `PRAGMA integrity_check` returns `ok` after each interruption.
