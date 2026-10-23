@@ -104,12 +104,20 @@ so the full roster costs ~146 requests and is cached for 24 hours; Shanghai retu
 and only honours the page window when `beginPage` and `endPage` are both set to `pageNo` —
 without them it replays pages 1..N and a paging loop silently accumulates duplicates.
 
-Japan and Korea are not in this table because neither is reachable without a credential.
-EDINET needs a Subscription-Key; DART needs a `crtfc_key`; data.go.kr returns
-`SERVICE_KEY_IS_NULL`; gBizINFO errors out; the NTA 法人番号 full dump needs a POST with a
-CSRF token. `gsxt.gov.cn` and `creditchina.gov.cn` present self-signed certificates and a
-JS cookie challenge, and the commercial aggregators block automated clients. These are
-recorded as blocked rather than quietly dropped.
+Korea is in the project too, and it is the only source that needs a key. OpenDART issues
+one free against an email; it is read from `OPENDART_API_KEY`, never committed. Measured on
+삼성전자 (corp_code 00126380): profile with ticker 005930 and both CEOs, 2,782 filings in
+2026, and 43 major-shareholder rows (지분공시), each citing its receipt number. Without the
+key the source is skipped with a note rather than returning an empty list, because an empty
+list and a missing credential look identical downstream and only one of them is honest.
+
+Japan is the gap. EDINET's API answers `401 Access denied due to invalid subscription key`
+and its issuance is a reviewed request, not a form you can post to; gBizINFO errors out on
+the search endpoint; the NTA 法人番号 full dump needs a POST with a CSRF token, which is
+feasible but unwritten. Mainland China's gsxt.gov.cn and creditchina.gov.cn present
+self-signed certificates plus a JS cookie challenge, and the commercial aggregators
+(tianyancha 418, qcc) block automated clients. These are recorded as blocked rather than
+quietly dropped.
 
 ## Non-US registries, and the UK index
 

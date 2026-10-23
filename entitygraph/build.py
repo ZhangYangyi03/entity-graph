@@ -11,6 +11,7 @@ from .holders import classify, holders_in_filing
 from . import registries
 from . import uk as ukmod
 from . import asia
+from . import korea
 
 NOW = lambda: _dt.datetime.now(_dt.timezone.utc).isoformat(timespec="seconds")
 
@@ -188,6 +189,18 @@ def build(name: str | None = None, *, lei: str | None = None, cik: str | None = 
                     reg_hits.append(rec)
         except Exception as e:
             note("CN exchanges", "roster", e)
+    # Korea: OpenDART needs a key, so it is the one source that is skipped rather than
+    # queried when the key is absent -- and it says so instead of returning an empty list.
+    if registry_country == "KR" or ("KR" in (countries or ())):
+        try:
+            kr = korea.lookup(name=name, corp_code=registry_id if registry_country == "KR" else None)
+            known = {r.get("id") for r in reg_hits if r.get("country") == "KR"}
+            reg_hits.extend(r for r in kr if r.get("id") not in known)
+        except korea.DartNoKey:
+            note("KR registry", "lookup", "OPENDART_API_KEY not set; Korean source skipped")
+        except Exception as e:
+            note("KR registry", "lookup", e)
+
     tw_id = registry_id if registry_country == "TW" else None
     if tw_id:
         try:
