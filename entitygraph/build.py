@@ -12,6 +12,7 @@ from . import registries
 from . import uk as ukmod
 from . import asia
 from . import korea
+from . import japan
 
 NOW = lambda: _dt.datetime.now(_dt.timezone.utc).isoformat(timespec="seconds")
 
@@ -200,6 +201,22 @@ def build(name: str | None = None, *, lei: str | None = None, cik: str | None = 
             note("KR registry", "lookup", "OPENDART_API_KEY not set; Korean source skipped")
         except Exception as e:
             note("KR registry", "lookup", e)
+
+    # Japan is an ingest, like the UK: 5.8 M entities in a 1.6 GB SQLite. Absent index is
+    # reported as "not loaded", never as "no such company".
+    jp_db = os.environ.get("ENTITYGRAPH_JP_DB", "jp.sqlite")
+    if registry_country in (None, "JP") and name:
+        try:
+            jp = japan.lookup(jp_db, name=name,
+                              houjin_bangou=registry_id if registry_country == "JP" else None)
+            known = {r.get("id") for r in reg_hits if r.get("country") == "JP"}
+            reg_hits.extend(r for r in jp if r.get("id") not in known)
+        except Exception as e:
+            note("JP registry", "lookup", e)
+        if not jp_db or not os.path.exists(jp_db):
+            if registry_country == "JP":
+                note("JP registry", "lookup",
+                     f"no index at {jp_db}; run python -m entitygraph.ingest --jp")
 
     tw_id = registry_id if registry_country == "TW" else None
     if tw_id:

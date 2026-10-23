@@ -111,13 +111,18 @@ one free against an email; it is read from `OPENDART_API_KEY`, never committed. 
 key the source is skipped with a note rather than returning an empty list, because an empty
 list and a missing credential look identical downstream and only one of them is honest.
 
-Japan is the gap. EDINET's API answers `401 Access denied due to invalid subscription key`
-and its issuance is a reviewed request, not a form you can post to; gBizINFO errors out on
-the search endpoint; the NTA 法人番号 full dump needs a POST with a CSRF token, which is
-feasible but unwritten. Mainland China's gsxt.gov.cn and creditchina.gov.cn present
-self-signed certificates plus a JS cookie challenge, and the commercial aggregators
-(tianyancha 418, qcc) block automated clients. These are recorded as blocked rather than
-quietly dropped.
+Japan is now in too, as an ingest rather than a request path. The NTA publishes a monthly
+full dump fetched by POSTing a form with a CSRF token; unpacked it is a 1 GB Shift-JIS CSV
+of 5,837,980 legal entities, loaded into a 1.6 GB SQLite. Exact and suffix-tolerant name
+lookup answer in 0-2 ms. It carries corporate number, name, kana, registered address and
+prefecture, and no directors or shareholders at all -- a Japanese node from this source
+must never grow officer edges.
+
+EDINET remains out of reach: its API answers 401 without a reviewed subscription key, and
+gBizINFO errors on the search endpoint. Mainland China's gsxt.gov.cn and
+creditchina.gov.cn present self-signed certificates plus a JS cookie challenge, and the
+commercial aggregators (tianyancha 418) block automated clients. These are recorded as
+blocked rather than quietly dropped.
 
 ## Non-US registries, and the UK index
 
