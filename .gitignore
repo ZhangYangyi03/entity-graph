@@ -9,3 +9,10 @@ venv/
 .env
 # apple.graph.json is a measured artefact quoted in README.md, so it stays
 out/
+
+# Local bulk index: hundreds of MB, rebuilt by python -m entitygraph.ingest
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.log
+

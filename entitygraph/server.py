@@ -3,6 +3,7 @@
 Three endpoints, matching what the analysis actually needs:
   GET /entity?name=...&cik=...   build a graph around a company
   GET /entity/{lei}              the same by identifier
+  GET /uk/stats                  how many UK companies / PSC rows the local index holds
   GET /health                    what the process can reach, and what it cached
 """
 from __future__ import annotations
@@ -15,6 +16,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from . import __version__
 from .build import build
 from .resolve import Resolver
+from . import uk as ukmod
 
 
 def _json(handler, code: int, payload) -> None:
@@ -43,7 +45,12 @@ class Handler(BaseHTTPRequestHandler):
                 "ok": True, "version": __version__,
                 "cache": os.environ.get("ENTITYGRAPH_CACHE", ".cache"),
                 "sources": ["GLEIF", "SEC EDGAR", "OpenSanctions"],
+                "registries": ["FR", "NO", "DK", "FI", "CH", "CZ", "BR"],
+                "uk_index": ukmod.stats(os.environ.get("ENTITYGRAPH_UK_DB", "uk.sqlite")),
             })
+
+        if parts[0] == "uk" and len(parts) > 1 and parts[1] == "stats":
+            return _json(self, 200, ukmod.stats(os.environ.get("ENTITYGRAPH_UK_DB", "uk.sqlite")))
 
         if parts[0] == "entity":
             if len(parts) > 1:
@@ -53,7 +60,11 @@ class Handler(BaseHTTPRequestHandler):
                 cik = (qs.get("cik") or [None])[0]
                 if not name and not cik:
                     return _json(self, 400, {"error": "give ?name= or ?cik= or /entity/{lei}"})
-                g = build(name=name, cik=cik)
+                cc = qs.get("country")
+                g = build(name=name, cik=cik, countries=cc,
+                          registry_id=(qs.get("id") or [None])[0],
+                          registry_country=(cc[0] if cc else None),
+                          officers=(qs.get("officers") or ["1"])[0] not in ("0", "false"))
             payload = g.to_dict()
             payload["stats"] = g.stats()
             payload["notes"] = getattr(g, "_notes", [])
@@ -62,7 +73,8 @@ class Handler(BaseHTTPRequestHandler):
                     (qs.get("name") or [""])[0])] if qs.get("name") else []
             return _json(self, 200, payload)
 
-        return _json(self, 404, {"error": "unknown path", "paths": ["/entity", "/entity/{lei}", "/health"]})
+        return _json(self, 404, {"error": "unknown path",
+                                 "paths": ["/entity", "/entity/{lei}", "/uk/stats", "/health"]})
 
 
 def main() -> None:

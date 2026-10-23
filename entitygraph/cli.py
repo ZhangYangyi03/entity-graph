@@ -17,6 +17,11 @@ def main(argv=None) -> int:
     b.add_argument("--name")
     b.add_argument("--lei")
     b.add_argument("--cik")
+    b.add_argument("--country", action="append",
+                   help="restrict registry lookup to one or more ISO codes (FR, NO, DK, FI, CH, CZ, BR)")
+    b.add_argument("--registry-id", metavar="ID",
+                   help="look up by national id instead of name (needs --country)")
+    b.add_argument("--no-officers", action="store_true", help="skip officer/director expansion")
     b.add_argument("--format", choices=["json", "lines", "summary"], default="summary")
     b.add_argument("--out")
 
@@ -27,7 +32,9 @@ def main(argv=None) -> int:
     args = ap.parse_args(argv)
 
     if args.cmd == "build":
-        g = build(name=args.name, lei=args.lei, cik=args.cik)
+        g = build(name=args.name, lei=args.lei, cik=args.cik, countries=args.country,
+                  registry_id=args.registry_id, registry_country=args.country[0] if args.country else None,
+                  officers=not args.no_officers)
         if args.format == "json":
             out = g.to_json()
         elif args.format == "lines":

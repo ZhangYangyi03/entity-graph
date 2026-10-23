@@ -2,11 +2,14 @@
 from __future__ import annotations
 
 import datetime as _dt
+import os
 
 from .fetch import FetchError, get, q
 from .model import Edge, Graph, Node
 from . import sources
 from .holders import classify, holders_in_filing
+from . import registries
+from . import uk as ukmod
 
 NOW = lambda: _dt.datetime.now(_dt.timezone.utc).isoformat(timespec="seconds")
 
@@ -51,7 +54,9 @@ def _lei_node(match: dict, url: str) -> tuple[Node, list[Node], list[Edge]]:
 
 
 def build(name: str | None = None, *, lei: str | None = None, cik: str | None = None,
-          depth: int = 1, sanction_check: bool = True, graph: Graph | None = None) -> Graph:
+          depth: int = 1, sanction_check: bool = True, graph: Graph | None = None,
+          registry_id: str | None = None, registry_country: str | None = None,
+          countries: list[str] | None = None, officers: bool = True) -> Graph:
     """Build (or extend) a graph around one entity.
 
     Only sources that need no paid key are called. Each call is wrapped so one dead
@@ -150,6 +155,57 @@ def build(name: str | None = None, *, lei: str | None = None, cik: str | None = 
                 g.add_edge(Edge(src=child.key, dst=parent.key, rel=rel,
                                 attrs={"filing": s.get("filing"), "accession": s.get("accession")},
                                 source="SEC EDGAR", url=s.get("url", ""), fetched_at=NOW()))
+
+    # ---- non-US national registries ------------------------------------------------
+    # Each hit becomes a company node keyed by its own national id, plus person nodes for
+    # the officers the registry actually publishes. No name-only joins: a registry hit is
+    # attached by its own identifier and carries its own URL.
+    reg_hits: list[dict] = []
+    if registry_id and registry_country:
+        reg_hits.extend(registries.lookup_id(registry_id, registry_country))
+    elif name:
+        reg_hits.extend(registries.lookup_name(name, countries))
+
+    # UK lives in a local SQLite index (494 MB + 2.5 GB of bulk data cannot sit on a
+    # request path). Absent index means "not loaded", which is reported, not guessed.
+    uk_db = os.environ.get("ENTITYGRAPH_UK_DB", "uk.sqlite")
+    if registry_country in (None, "GB") and (name or registry_id):
+        got = ukmod.lookup(uk_db, number=registry_id, name=name)
+        if got:
+            reg_hits.extend(got)
+        elif name and not os.path.exists(uk_db):
+            note("GB registry", "lookup", f"no index at {uk_db}; run python -m entitygraph.ingest")
+
+    for rec in reg_hits:
+        cc = rec.get("country") or "XX"
+        key = f"reg:{cc}:{rec.get('id')}"
+        if not rec.get("name"):
+            continue
+        node = g.add_node(Node(key=key, kind="company", label=rec["name"], attrs={
+            "country": cc, "address": rec.get("address"), **(rec.get("attributes") or {})},
+            source=f"{cc} registry", url=rec.get("url") or "", fetched_at=NOW()))
+        if lei and len(matches) == 1:
+            # Same entity seen by two sources: an alias edge, not a merge. Merging on a
+            # name would be a guess; the alias can be checked by a human and is labelled.
+            g.add_edge(Edge(src=key, dst=f"lei:{matches[0]['id']}", rel="same_as",
+                            attrs={"basis": "registry lookup by name"}, source=f"{cc} registry",
+                            url=rec.get("url") or "", fetched_at=NOW()))
+        if officers:
+            try:
+                loader = registries.OFFICER_LOADERS.get(cc)
+                roster = loader(rec) if loader else [(o.get("name"), o.get("role"))
+                                                     for o in rec.get("officers", [])]
+            except Exception as e:
+                note(f"{cc} registry", "officers", e)
+                roster = []
+            for who, role in roster:
+                if not who:
+                    continue
+                pk = "person:" + _slug(who)
+                g.add_node(Node(key=pk, kind="person", label=who, attrs={"role": role},
+                                source=f"{cc} registry", url=rec.get("url") or "", fetched_at=NOW()))
+                g.add_edge(Edge(src=pk, dst=key, rel="officer_of", attrs={"role": role},
+                                source=f"{cc} registry", url=rec.get("url") or "", fetched_at=NOW()))
 
     if sanction_check:
         target = name or (matches[0]["attributes"]["entity"]["legalName"]["name"] if matches else None)
