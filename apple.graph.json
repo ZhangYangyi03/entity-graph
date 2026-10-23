@@ -1,0 +1,1715 @@
+{
+  "nodes": [
+    {
+      "key": "cik:320193",
+      "kind": "company",
+      "label": "CIK 320193",
+      "attrs": {
+        "cik": "320193"
+      },
+      "source": "SEC EDGAR",
+      "url": "https://data.sec.gov/submissions/CIK0000320193.json",
+      "fetched_at": "2026-10-23T05:10:34+00:00"
+    },
+    {
+      "key": "holder:warren-e-buffett",
+      "kind": "person",
+      "label": "Warren E. Buffett",
+      "attrs": {
+        "shares": 255300329,
+        "percent": 5.4,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:berkshire-hathaway-inc",
+      "kind": "company",
+      "label": "Berkshire Hathaway Inc",
+      "attrs": {
+        "shares": 255300329,
+        "percent": 5.4,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:national-indemnity-company",
+      "kind": "company",
+      "label": "National Indemnity Company",
+      "attrs": {
+        "shares": 210800329,
+        "percent": 4.4,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:geico-corporation",
+      "kind": "company",
+      "label": "GEICO Corporation",
+      "attrs": {
+        "shares": 15385747,
+        "percent": 0.3,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:government-employees-insurance-company",
+      "kind": "company",
+      "label": "Government Employees Insurance Company",
+      "attrs": {
+        "shares": 12255747,
+        "percent": 0.3,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:columbia-insurance-company",
+      "kind": "company",
+      "label": "Columbia Insurance Company",
+      "attrs": {
+        "shares": 1909800,
+        "percent": 0.4,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:berkshire-hathaway-assurance-corporation",
+      "kind": "company",
+      "label": "Berkshire Hathaway Assurance Corporation",
+      "attrs": {
+        "shares": 1441000,
+        "percent": null,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:finial-reinsurance-company",
+      "kind": "company",
+      "label": "Finial Reinsurance Company",
+      "attrs": {
+        "shares": 451000,
+        "percent": null,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:national-indemnity-company-of-the-south",
+      "kind": "company",
+      "label": "National Indemnity Company of the South",
+      "attrs": {
+        "shares": 91000,
+        "percent": 0.3,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:berkshire-hathaway-specialty-insurance-company",
+      "kind": "company",
+      "label": "Berkshire Hathaway Specialty Insurance Company",
+      "attrs": {
+        "shares": 1381000,
+        "percent": 0.3,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:national-fire-marine-insurance-company",
+      "kind": "company",
+      "label": "National Fire & Marine Insurance Company",
+      "attrs": {
+        "shares": 13640000,
+        "percent": 0.3,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:redwood-fire-casualty-insurance-company",
+      "kind": "company",
+      "label": "Redwood Fire & Casualty Insurance Company",
+      "attrs": {
+        "shares": 1664000,
+        "percent": null,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:national-indemnity-company-of-mid-america",
+      "kind": "company",
+      "label": "National Indemnity Company of Mid America",
+      "attrs": {
+        "shares": 137000,
+        "percent": null,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:oak-river-insurance-company",
+      "kind": "company",
+      "label": "Oak River Insurance Company",
+      "attrs": {
+        "shares": 271000,
+        "percent": null,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:amguard-insurance-company",
+      "kind": "company",
+      "label": "AmGUARD Insurance Company",
+      "attrs": {
+        "shares": 216000,
+        "percent": null,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:berkshire-hathaway-homestate-insurance-company",
+      "kind": "company",
+      "label": "Berkshire Hathaway Homestate Insurance Company",
+      "attrs": {
+        "shares": 960000,
+        "percent": null,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:berkshire-hathaway-direct-insurance-company",
+      "kind": "company",
+      "label": "Berkshire Hathaway Direct Insurance Company",
+      "attrs": {
+        "shares": 54000,
+        "percent": null,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:national-liability-fire-insurance-company",
+      "kind": "company",
+      "label": "National Liability & Fire Insurance Company",
+      "attrs": {
+        "shares": 678000,
+        "percent": 0.1,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:cypress-insurance-company",
+      "kind": "company",
+      "label": "Cypress Insurance Company",
+      "attrs": {
+        "shares": 681000,
+        "percent": 0.1,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:medpro-group-inc",
+      "kind": "company",
+      "label": "MedPro Group Inc",
+      "attrs": {
+        "shares": 3038000,
+        "percent": 0.1,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:the-medical-protective-company",
+      "kind": "company",
+      "label": "The Medical Protective Company",
+      "attrs": {
+        "shares": 2588000,
+        "percent": 0.1,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:princeton-insurance-company",
+      "kind": "company",
+      "label": "Princeton Insurance Company",
+      "attrs": {
+        "shares": 270000,
+        "percent": null,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:berkshire-hathaway-life-insurance-company-of-nebraska",
+      "kind": "company",
+      "label": "Berkshire Hathaway Life Insurance Company of Nebraska",
+      "attrs": {
+        "shares": 960000,
+        "percent": null,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:old-united-casualty-company",
+      "kind": "company",
+      "label": "Old United Casualty Company",
+      "attrs": {
+        "shares": 105000,
+        "percent": null,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:old-united-life-insurance-company",
+      "kind": "company",
+      "label": "Old United Life Insurance Company",
+      "attrs": {
+        "shares": 74000,
+        "percent": null,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:mount-vernon-fire-insurance-company",
+      "kind": "company",
+      "label": "Mount Vernon Fire Insurance Company",
+      "attrs": {
+        "shares": 454000,
+        "percent": null,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:radnor-specialty-insurance-company",
+      "kind": "company",
+      "label": "Radnor Specialty Insurance Company",
+      "attrs": {
+        "shares": 36000,
+        "percent": null,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:united-states-liability-insurance-company",
+      "kind": "company",
+      "label": "United States Liability Insurance Company",
+      "attrs": {
+        "shares": 454000,
+        "percent": null,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:plico-inc",
+      "kind": "company",
+      "label": "PLICO Inc",
+      "attrs": {
+        "shares": 180000,
+        "percent": null,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:geico-choice-insurance-company",
+      "kind": "company",
+      "label": "GEICO Choice Insurance Company",
+      "attrs": {
+        "shares": 550000,
+        "percent": null,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:geico-indemnity-insurance-company",
+      "kind": "company",
+      "label": "GEICO Indemnity Insurance Company",
+      "attrs": {
+        "shares": 1298000,
+        "percent": null,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:geico-secure-insurance-company",
+      "kind": "company",
+      "label": "GEICO Secure Insurance Company",
+      "attrs": {
+        "shares": 366000,
+        "percent": 0.1,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:geico-advantage-insurance-company",
+      "kind": "company",
+      "label": "GEICO Advantage Insurance Company",
+      "attrs": {
+        "shares": 916000,
+        "percent": 0.1,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:general-re-corporation",
+      "kind": "company",
+      "label": "General Re Corporation",
+      "attrs": {
+        "shares": 5711000,
+        "percent": 0.1,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:general-reinsurance-corporation",
+      "kind": "company",
+      "label": "General Reinsurance Corporation",
+      "attrs": {
+        "shares": 5711000,
+        "percent": 0.1,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:general-re-life-corporation",
+      "kind": "company",
+      "label": "General Re Life Corporation",
+      "attrs": {
+        "shares": 1172000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:general-star-indemnity-company",
+      "kind": "company",
+      "label": "General Star Indemnity Company",
+      "attrs": {
+        "shares": 181000,
+        "percent": null,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:general-star-national-insurance-company",
+      "kind": "company",
+      "label": "General Star National Insurance Company",
+      "attrs": {
+        "shares": 45000,
+        "percent": null,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:genesis-insurance-company",
+      "kind": "company",
+      "label": "Genesis Insurance Company",
+      "attrs": {
+        "shares": 45000,
+        "percent": null,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:east-guard-insurance-company",
+      "kind": "company",
+      "label": "East Guard Insurance Company",
+      "attrs": {
+        "shares": 72000,
+        "percent": null,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:applied-underwriters-captive-risk-assurance-company-inc",
+      "kind": "company",
+      "label": "Applied Underwriters Captive Risk Assurance Company, Inc",
+      "attrs": {
+        "shares": 45000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:california-insurance-company",
+      "kind": "company",
+      "label": "California Insurance Company",
+      "attrs": {
+        "shares": 419000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:continental-indemnity-company",
+      "kind": "company",
+      "label": "Continental Indemnity Company",
+      "attrs": {
+        "shares": 73000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:central-states-indemnity-company-of-omaha",
+      "kind": "company",
+      "label": "Central States Indemnity Company of Omaha",
+      "attrs": {
+        "shares": 173000,
+        "percent": null,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:mlmic-insurance-company",
+      "kind": "company",
+      "label": "MLMIC Insurance Company",
+      "attrs": {
+        "shares": 75850,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:brilliant-national-services-inc",
+      "kind": "company",
+      "label": "Brilliant National Services, Inc",
+      "attrs": {
+        "shares": 310000,
+        "percent": null,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:nrg-america-holding-company",
+      "kind": "company",
+      "label": "NRG America Holding Company",
+      "attrs": {
+        "shares": 240000,
+        "percent": null,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:mpp-company-inc",
+      "kind": "company",
+      "label": "MPP Company Inc",
+      "attrs": {
+        "shares": 916000,
+        "percent": null,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:eastguard-insurance-company",
+      "kind": "company",
+      "label": "EastGUARD Insurance Company",
+      "attrs": {
+        "shares": 228000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312524036431/d751537dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:norguard-insurance-company",
+      "kind": "company",
+      "label": "NorGUARD Insurance Company",
+      "attrs": {
+        "shares": 1112000,
+        "percent": null,
+        "_sources": [
+          "SEC EDGAR"
+        ]
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312524036431/d751537dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "key": "holder:alleghany-corporation",
+      "kind": "company",
+      "label": "Alleghany Corporation",
+      "attrs": {
+        "shares": 333856,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312523038262/d382361dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "key": "holder:transatlantic-reinsurance-company",
+      "kind": "company",
+      "label": "Transatlantic Reinsurance Company",
+      "attrs": {
+        "shares": 252298,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312523038262/d382361dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "key": "holder:capitol-indemnity-corporation",
+      "kind": "company",
+      "label": "Capitol Indemnity Corporation",
+      "attrs": {
+        "shares": 4600,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312523038262/d382361dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "key": "holder:capitol-specialty-insurance-company",
+      "kind": "company",
+      "label": "Capitol Specialty Insurance Company",
+      "attrs": {
+        "shares": 332,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312523038262/d382361dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "key": "holder:platte-river-insurance-company",
+      "kind": "company",
+      "label": "Platte River Insurance Company",
+      "attrs": {
+        "shares": 678,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312523038262/d382361dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "key": "holder:rsui-indemnity-company",
+      "kind": "company",
+      "label": "RSUI Indemnity Company",
+      "attrs": {
+        "shares": 75948,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312523038262/d382361dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "key": "holder:british-insurance-company-of-cayman",
+      "kind": "company",
+      "label": "British Insurance Company of Cayman",
+      "attrs": {
+        "shares": 152225,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312523038262/d382361dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "key": "holder:central-states-indenmity-company-of-omaha",
+      "kind": "company",
+      "label": "Central States Indenmity Company of Omaha",
+      "attrs": {
+        "shares": 692000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    }
+  ],
+  "edges": [
+    {
+      "src": "holder:warren-e-buffett",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 907559761,
+        "percent": 5.4
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:berkshire-hathaway-inc",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 907559761,
+        "percent": 5.4
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:national-indemnity-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 756032154,
+        "percent": 4.5
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:geico-corporation",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 61542988,
+        "percent": 0.4
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:government-employees-insurance-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 49022988,
+        "percent": 0.3
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:columbia-insurance-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 76091400,
+        "percent": 0.5
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:berkshire-hathaway-assurance-corporation",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 5764000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:finial-reinsurance-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 1804000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:national-indemnity-company-of-the-south",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 364000,
+        "percent": 0.3
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:berkshire-hathaway-specialty-insurance-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 5524000,
+        "percent": 0.3
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:national-fire-marine-insurance-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 47832000,
+        "percent": 0.3
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:redwood-fire-casualty-insurance-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 2676000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:national-indemnity-company-of-mid-america",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 548000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:oak-river-insurance-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 1084000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:amguard-insurance-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 864000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:berkshire-hathaway-homestate-insurance-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 3840000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:berkshire-hathaway-direct-insurance-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 216000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:national-liability-fire-insurance-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 2712000,
+        "percent": 0.1
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:cypress-insurance-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 2724000,
+        "percent": 0.1
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:medpro-group-inc",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 12152000,
+        "percent": 0.1
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:the-medical-protective-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 10352000,
+        "percent": 0.1
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:princeton-insurance-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 1080000,
+        "percent": 0.1
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:berkshire-hathaway-life-insurance-company-of-nebraska",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 24260000,
+        "percent": 0.1
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:old-united-casualty-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 420000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:old-united-life-insurance-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 296000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:mount-vernon-fire-insurance-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 1816000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:radnor-specialty-insurance-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 144000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:united-states-liability-insurance-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 1816000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:plico-inc",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 720000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:geico-choice-insurance-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 2200000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:geico-indemnity-insurance-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 5192000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:geico-secure-insurance-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 1464000,
+        "percent": 0.1
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:geico-advantage-insurance-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 3664000,
+        "percent": 0.1
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:general-re-corporation",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 20424207,
+        "percent": 0.1
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:general-reinsurance-corporation",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 19340207,
+        "percent": 0.1
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:general-re-life-corporation",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G",
+        "date": "2019-02-14",
+        "accession": "0001193125-19-041014",
+        "shares": 1172000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "src": "holder:general-star-indemnity-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 724000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:general-star-national-insurance-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 180000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:genesis-insurance-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 180000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:east-guard-insurance-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 228000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:applied-underwriters-captive-risk-assurance-company-inc",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G",
+        "date": "2019-02-14",
+        "accession": "0001193125-19-041014",
+        "shares": 45000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "src": "holder:california-insurance-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G",
+        "date": "2019-02-14",
+        "accession": "0001193125-19-041014",
+        "shares": 419000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "src": "holder:continental-indemnity-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G",
+        "date": "2019-02-14",
+        "accession": "0001193125-19-041014",
+        "shares": 73000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "src": "holder:central-states-indemnity-company-of-omaha",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2023-02-14",
+        "accession": "0001193125-23-038262",
+        "shares": 692000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312523038262/d382361dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:mlmic-insurance-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G",
+        "date": "2019-02-14",
+        "accession": "0001193125-19-041014",
+        "shares": 75850,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312519041014/d667611dsc13g.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "src": "holder:brilliant-national-services-inc",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 959632,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:nrg-america-holding-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 960000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:mpp-company-inc",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 3664000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:eastguard-insurance-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2024-02-14",
+        "accession": "0001193125-24-036431",
+        "shares": 228000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312524036431/d751537dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:04+00:00"
+    },
+    {
+      "src": "holder:norguard-insurance-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 1112000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:alleghany-corporation",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2023-02-14",
+        "accession": "0001193125-23-038262",
+        "shares": 333856,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312523038262/d382361dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:transatlantic-reinsurance-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2023-02-14",
+        "accession": "0001193125-23-038262",
+        "shares": 252298,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312523038262/d382361dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:capitol-indemnity-corporation",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2023-02-14",
+        "accession": "0001193125-23-038262",
+        "shares": 4600,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312523038262/d382361dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:capitol-specialty-insurance-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2023-02-14",
+        "accession": "0001193125-23-038262",
+        "shares": 332,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312523038262/d382361dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:platte-river-insurance-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2023-02-14",
+        "accession": "0001193125-23-038262",
+        "shares": 678,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312523038262/d382361dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:rsui-indemnity-company",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2023-02-14",
+        "accession": "0001193125-23-038262",
+        "shares": 75948,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312523038262/d382361dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:british-insurance-company-of-cayman",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2023-02-14",
+        "accession": "0001193125-23-038262",
+        "shares": 152225,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312523038262/d382361dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    },
+    {
+      "src": "holder:central-states-indenmity-company-of-omaha",
+      "dst": "cik:320193",
+      "rel": "holder_of",
+      "attrs": {
+        "form": "SC 13G/A",
+        "date": "2021-02-16",
+        "accession": "0001193125-21-044816",
+        "shares": 692000,
+        "percent": null
+      },
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312521044816/d107461dsc13ga.htm",
+      "fetched_at": "2026-10-23T05:11:05+00:00"
+    }
+  ]
+}

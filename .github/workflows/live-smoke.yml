@@ -1,0 +1,20 @@
+name: live-smoke
+
+# Hits the real registries. Kept separate from ci so a flaky upstream never blocks a push,
+# and scheduled rather than triggered, so it cannot hammer anyone.
+on:
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e ".[dev]"
+      - name: build a real graph
+        run: python -m entitygraph.cli build --name "Berkshire Hathaway" --format summary

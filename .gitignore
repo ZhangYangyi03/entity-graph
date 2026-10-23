@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.cache/
+dist/
+build/
+*.egg-info/
+.venv/
+venv/
+.env
+# apple.graph.json is a measured artefact quoted in README.md, so it stays
+out/
