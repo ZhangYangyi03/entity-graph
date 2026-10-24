@@ -13,6 +13,7 @@ from . import uk as ukmod
 from . import asia
 from . import korea
 from . import japan
+from . import china
 
 NOW = lambda: _dt.datetime.now(_dt.timezone.utc).isoformat(timespec="seconds")
 
@@ -190,6 +191,21 @@ def build(name: str | None = None, *, lei: str | None = None, cik: str | None = 
                     reg_hits.append(rec)
         except Exception as e:
             note("CN exchanges", "roster", e)
+
+    # Tianyancha Open Platform (合规付费 API): 工商信息 + 股东 + 对外投资 + 法定代表人。
+    # 需要 TIANYANCHA_TOKEN；缺 key 时与 Korea 一样跳过并记录，而非假装干净。
+    cn_id = registry_id if registry_country == "CN" else None
+    if (name or cn_id) and ("CN" in (countries or ("CN",)) or registry_country == "CN"):
+        try:
+            hits = china.china_search(cn_id or name, limit=3)
+            known = {r.get("id") for r in reg_hits if r.get("country") == "CN"}
+            reg_hits.extend(r for r in hits if r.get("id") not in known)
+        except china.TianyanchaNoKey:
+            note("CN registry (Tianyancha)", "lookup",
+                 "TIANYANCHA_TOKEN not set; China registry source skipped")
+        except Exception as e:
+            note("CN registry (Tianyancha)", "lookup", e)
+
     # Korea: OpenDART needs a key, so it is the one source that is skipped rather than
     # queried when the key is absent -- and it says so instead of returning an empty list.
     if registry_country == "KR" or ("KR" in (countries or ())):
@@ -255,6 +271,36 @@ def build(name: str | None = None, *, lei: str | None = None, cik: str | None = 
                                 source=f"{cc} registry", url=rec.get("url") or "", fetched_at=NOW()))
                 g.add_edge(Edge(src=pk, dst=key, rel="officer_of", attrs={"role": role},
                                 source=f"{cc} registry", url=rec.get("url") or "", fetched_at=NOW()))
+
+        # Tianyancha 特有：股东（holder_of）与对外投资（invests_in），来自 attributes。
+        attrs = rec.get("attributes") or {}
+        for sh in attrs.get("shareholders", []):
+            if not sh.get("name"):
+                continue
+            sk = "company:" + _slug(sh["name"]) if sh.get("type") in ("company", "法人", "机构") \
+                else "holder:" + _slug(sh["name"])
+            g.add_node(Node(key=sk, kind="company" if sk.startswith("company:") else "person",
+                            label=sh["name"],
+                            attrs={"percent": sh.get("percent"), "capital": sh.get("capital")},
+                            source=f"{cc} registry (Tianyancha)", url=rec.get("url") or "",
+                            fetched_at=NOW()))
+            g.add_edge(Edge(src=sk, dst=key, rel="holder_of",
+                            attrs={"percent": sh.get("percent"), "capital": sh.get("capital")},
+                            source=f"{cc} registry (Tianyancha)", url=rec.get("url") or "",
+                            fetched_at=NOW()))
+        for iv in attrs.get("investments", []):
+            if not iv.get("name"):
+                continue
+            ik = f"reg:{cc}:{iv.get('credit_code') or _slug(iv['name'])}"
+            g.add_node(Node(key=ik, kind="company", label=iv["name"],
+                            attrs={"percent": iv.get("percent"),
+                                   "legal_person": iv.get("legal_person")},
+                            source=f"{cc} registry (Tianyancha)", url=rec.get("url") or "",
+                            fetched_at=NOW()))
+            g.add_edge(Edge(src=key, dst=ik, rel="invests_in",
+                            attrs={"percent": iv.get("percent")},
+                            source=f"{cc} registry (Tianyancha)", url=rec.get("url") or "",
+                            fetched_at=NOW()))
 
     if sanction_check:
         target = name or (matches[0]["attributes"]["entity"]["legalName"]["name"] if matches else None)
