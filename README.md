@@ -97,7 +97,7 @@ MIT. Data belongs to the registries cited in each node's `source` and `url`.
 | Shanghai Stock Exchange | 1,604 listed companies: name, A-share code, board, listing date | live, keyless |
 | Shenzhen Stock Exchange | 2,906 listed companies: name, code, industry, listing date | live, keyless |
 | Taiwan MOEA open data | full registration by 統一編號: status, capital, paid-in, address | live, keyless |
-| Tianyancha Open Platform | 工商信息 + 股东 + 对外投资 + 法定代表人（企业/事业单位/国企） | live, needs `TIANYANCHA_TOKEN` |
+| Qichacha Open Platform | 工商信息 + 股东 + 对外投资 + 法定代表人（企业/事业单位/国企） | live, needs `QCC_APP_KEY` + `QCC_SECRET_KEY` |
 
 The Chinese exchanges publish rosters, not ownership. A Chinese listed company therefore
 gets a node and a citation and no invented shareholders. Shenzhen pages at a fixed 20 rows,
@@ -106,15 +106,15 @@ and only honours the page window when `beginPage` and `endPage` are both set to 
 without them it replays pages 1..N and a paging loop silently accumulates duplicates.
 
 Mainland-China *ownership* (shareholders, legal representative, outbound investments) comes
-from the **Tianyancha Open Platform** (`open.tianyancha.com`), the paid, licensed API — not
-a scrape of the consumer site, which is deliberately blocked (see below). It answers by
+from the **Qichacha Open Platform** (`openapi.qcc.com`), the paid, licensed API — not a
+scrape of the consumer site, which is deliberately blocked (see below). It answers by
 company name or by 统一社会信用代码 and returns the legal person, org type, capital,
 shareholders (with their percentages) and investments, so a state-owned enterprise or a
-事业单位 resolves to a real ownership edge instead of a bare name. The token is read from
-`TIANYANCHA_TOKEN`, never committed; without it the source is skipped with a note, exactly
-like the Korean OpenDART source.
+事业单位 resolves to a real ownership edge instead of a bare name. The AppKey and SecretKey
+are read from `QCC_APP_KEY` and `QCC_SECRET_KEY`, never committed; without them the source
+is skipped with a note, exactly like the Korean OpenDART source.
 
-    $ TIANYANCHA_TOKEN=<token> python -m entitygraph.cli build --name 天津协医 --country CN
+    $ QCC_APP_KEY=<key> QCC_SECRET_KEY=<secret> python -m entitygraph.cli build --name 天津协医 --country CN
 
 
 Korea is in the project too, and it is the only source that needs a key. OpenDART issues
@@ -135,8 +135,8 @@ EDINET remains out of reach: its API answers 401 without a reviewed subscription
 gBizINFO errors on the search endpoint. Mainland China's gsxt.gov.cn and
 creditchina.gov.cn present self-signed certificates plus a JS cookie challenge, and the
 consumer aggregator sites (tianyancha 418) block automated clients. These are recorded as
-blocked rather than quietly dropped — the licensed Open Platform API above is the sanctioned
-route to the same underlying registry data.
+blocked rather than quietly dropped — the licensed Open Platform API above (Qichacha) is the
+sanctioned route to the same underlying registry data.
 
 ## Non-US registries, and the UK index
 

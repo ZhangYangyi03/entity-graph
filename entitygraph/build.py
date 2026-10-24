@@ -192,19 +192,19 @@ def build(name: str | None = None, *, lei: str | None = None, cik: str | None = 
         except Exception as e:
             note("CN exchanges", "roster", e)
 
-    # Tianyancha Open Platform (合规付费 API): 工商信息 + 股东 + 对外投资 + 法定代表人。
-    # 需要 TIANYANCHA_TOKEN；缺 key 时与 Korea 一样跳过并记录，而非假装干净。
+    # Qichacha Open Platform (企查查开放平台, 合规付费 API): 工商信息 + 股东 + 对外投资 + 法定代表人。
+    # 需要 QCC_APP_KEY + QCC_SECRET_KEY；缺 key 时与 Korea 一样跳过并记录，而非假装干净。
     cn_id = registry_id if registry_country == "CN" else None
     if (name or cn_id) and ("CN" in (countries or ("CN",)) or registry_country == "CN"):
         try:
             hits = china.china_search(cn_id or name, limit=3)
             known = {r.get("id") for r in reg_hits if r.get("country") == "CN"}
             reg_hits.extend(r for r in hits if r.get("id") not in known)
-        except china.TianyanchaNoKey:
-            note("CN registry (Tianyancha)", "lookup",
-                 "TIANYANCHA_TOKEN not set; China registry source skipped")
+        except china.QccNoKey:
+            note("CN registry (Qichacha)", "lookup",
+                 "QCC_APP_KEY/QCC_SECRET_KEY not set; China registry source skipped")
         except Exception as e:
-            note("CN registry (Tianyancha)", "lookup", e)
+            note("CN registry (Qichacha)", "lookup", e)
 
     # Korea: OpenDART needs a key, so it is the one source that is skipped rather than
     # queried when the key is absent -- and it says so instead of returning an empty list.
@@ -272,7 +272,7 @@ def build(name: str | None = None, *, lei: str | None = None, cik: str | None = 
                 g.add_edge(Edge(src=pk, dst=key, rel="officer_of", attrs={"role": role},
                                 source=f"{cc} registry", url=rec.get("url") or "", fetched_at=NOW()))
 
-        # Tianyancha 特有：股东（holder_of）与对外投资（invests_in），来自 attributes。
+        # 中国工商数据源特有：股东（holder_of）与对外投资（invests_in），来自 attributes。
         attrs = rec.get("attributes") or {}
         for sh in attrs.get("shareholders", []):
             if not sh.get("name"):
@@ -282,11 +282,11 @@ def build(name: str | None = None, *, lei: str | None = None, cik: str | None = 
             g.add_node(Node(key=sk, kind="company" if sk.startswith("company:") else "person",
                             label=sh["name"],
                             attrs={"percent": sh.get("percent"), "capital": sh.get("capital")},
-                            source=f"{cc} registry (Tianyancha)", url=rec.get("url") or "",
+                            source=f"{cc} registry (Qichacha)", url=rec.get("url") or "",
                             fetched_at=NOW()))
             g.add_edge(Edge(src=sk, dst=key, rel="holder_of",
                             attrs={"percent": sh.get("percent"), "capital": sh.get("capital")},
-                            source=f"{cc} registry (Tianyancha)", url=rec.get("url") or "",
+                            source=f"{cc} registry (Qichacha)", url=rec.get("url") or "",
                             fetched_at=NOW()))
         for iv in attrs.get("investments", []):
             if not iv.get("name"):
@@ -295,11 +295,11 @@ def build(name: str | None = None, *, lei: str | None = None, cik: str | None = 
             g.add_node(Node(key=ik, kind="company", label=iv["name"],
                             attrs={"percent": iv.get("percent"),
                                    "legal_person": iv.get("legal_person")},
-                            source=f"{cc} registry (Tianyancha)", url=rec.get("url") or "",
+                            source=f"{cc} registry (Qichacha)", url=rec.get("url") or "",
                             fetched_at=NOW()))
             g.add_edge(Edge(src=key, dst=ik, rel="invests_in",
                             attrs={"percent": iv.get("percent")},
-                            source=f"{cc} registry (Tianyancha)", url=rec.get("url") or "",
+                            source=f"{cc} registry (Qichacha)", url=rec.get("url") or "",
                             fetched_at=NOW()))
 
     if sanction_check:
