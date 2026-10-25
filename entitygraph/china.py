@@ -39,6 +39,9 @@ from .fetch import get, q
 API_HOST = "https://api.qichacha.com"
 DEFAULT_TIMEOUT = 30.0
 
+# 最近一次调用的企查查状态码，供 last_status() 上报「未购买/欠费」等非数据性失败。
+_LAST_STATUS = {"code": ""}
+
 
 class QccNoKey(RuntimeError):
     """Raised when QCC_APP_KEY / QCC_SECRET_KEY are not set; mirrors korea.DartNoKey."""
@@ -71,14 +74,32 @@ def _call(path: str, params: dict) -> dict:
     return get(url, ttl=86400.0, timeout=DEFAULT_TIMEOUT, headers=headers)
 
 
+# 企查查状态码：200=成功，201=无结果，214=未购买该接口，其余为各类无效请求。
+# 只有 200 才是成功；其余要么无数据、要么账号权限/额度问题。
+_STATUS_MEANING = {
+    "200": "ok",
+    "201": "no result",
+    "214": "接口未购买/未开通（需企业实名 + 应用场景审核 + 购买套餐）",
+    "102": "Key 欠费",
+    "107": "IP 禁止或签名错误",
+}
+
+
 def _result(data: dict) -> dict | None:
     """企查查 wraps results in {"Status":"200","Result":{...}}."""
     if not isinstance(data, dict):
         return None
+    _LAST_STATUS["code"] = str(data.get("Status"))
     if str(data.get("Status")) != "200":
         return None
     r = data.get("Result")
     return r if isinstance(r, dict) else None
+
+
+def last_status() -> str:
+    """最近一次调用的企查查状态码 + 含义，供 build 层把「未购买」这类问题如实上报。"""
+    code = str(_LAST_STATUS["code"])
+    return f"{code} ({_STATUS_MEANING.get(code, 'unknown')})"
 
 
 def _pick(data: dict, *keys: str) -> str:
@@ -90,12 +111,12 @@ def _pick(data: dict, *keys: str) -> str:
 
 
 def baseinfo(keyword: str) -> dict | None:
-    """企业工商信息（ApiCode 735 或 410）。返回照面信息 + 股东 + 主要人员等。
+    """企业工商信息（ApiCode 410）。返回工商照面信息。
 
-    企查查「企业工商详情」(735) 一次返回 Partners(股东)/Employees(主要人员)/Branches
-    等；这里用 410「企业工商信息」拿照面字段，股东走独立接口 holders()。
+    接口地址 /ECIV4/GetBasicDetailsByName，Query 参数是 `keyword`（不是 searchKey）。
+    注意：该接口「限企业实名用户 + 应用场景审核」，未开通时返回 Status=214。
     """
-    r = _result(_call("/ECIInfoVerify/GetBasicDetailsByName", {"key": _appkey(), "searchKey": keyword}))
+    r = _result(_call("/ECIV4/GetBasicDetailsByName", {"key": _appkey(), "keyword": keyword}))
     return r
 
 
@@ -104,8 +125,11 @@ def _appkey() -> str:
 
 
 def holders(keyword: str) -> list[dict]:
-    """股东信息（工商登记，ApiCode 731）。含 StockName/StockPercent/StockType。"""
-    r = _result(_call("/ECIPartners/GetList", {"key": _appkey(), "searchKey": keyword}))
+    """股东信息（工商登记，ApiCode 731）。含 StockName/StockPercent/StockType。
+
+    接口地址 /ECIPartner/GetList（ECIPartner 单数）。
+    """
+    r = _result(_call("/ECIPartner/GetList", {"key": _appkey(), "searchKey": keyword}))
     if not r:
         return []
     return r.get("Partners") or r.get("Data") or []
