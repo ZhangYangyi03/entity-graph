@@ -30,6 +30,64 @@ One edge, in full:
 That is Buffett's stake parsed from the cover page of the filing itself, not from a
 summary table.
 
+
+## Currencies, products and banks
+
+The company graph answers *who owns whom*. This half answers the other banking question:
+*which currency, which product, at what rate, in which country, from which bank*. Same rule
+as everywhere else in this repository -- every node and edge carries the endpoint it came
+from.
+
+Measured on 2026-10-30, `banking.graph.json` (10.4 MB):
+
+    $ python -m entitygraph.cli banking --format summary
+    nodes 8192  edges 8295
+    kinds: bank=4217, bank_holding=3318, country=422, currency=178,
+           bank_product=56, feature=1
+    rels:  licensed_in=4217, subsidiary_of=3536, legal_tender_in=277,
+           has_metric=160, offered_in=76, rate_against=29
+
+    source                 needs a key?  what it contributes
+    SIX (ISO 4217)         no            178 official currencies: alpha code, numeric
+                                         code, minor units, and the countries using them
+    ECB eurofxref          no            29 currencies against the euro, 64 days of fixings
+    ECB Data API (MIR)     no            euro-area bank rate on one product (house-purchase
+                                         loans, new business), 21 country series
+    Reserve Bank of Australia F5/F6  no  54 Australian lending products: small-business
+                                         variable/overdraft, housing loans by lender type,
+                                         rate type and borrower
+    Bank of Canada Valet   no            prime business rate, daily
+    World Bank (WDI)       no            lending and deposit rates for 160 countries
+    FDIC BankFind          no            4,217 active US banks with assets, deposits, net
+                                         income, charter, regulator, and holding company
+
+Two questions the graph can answer, both from the file, offline:
+
+    $ python -m entitygraph.cli query banks --top 5
+    $ python -m entitygraph.cli query rates --country euro --top 5
+
+The holding-company edge is a real join, not a name guess: FDIC publishes RSSDHCR, a
+regulatory RSSD id, so `bank:fdic:10004` joins `bank_holding:rssd:1249691` on an
+identifier. 2,264 of the 4,217 banks also carry an LEI, which is the same join key the
+company graph uses.
+
+### What this cost, and the two bugs worth naming
+
+The ECB's MIR endpoint looks like it carries a dozen products. It does not: 11 of the 12
+series keys (2110 through 2260) return 404 on the same dimension pattern, and only 2250
+answers. Rather than invent siblings, the module reports the one product it can cite and
+the breadth comes from RBA's F5/F6 tables instead. There is a test that pins this
+(`test_mir_does_not_invent_product_keys`).
+
+The country key is the other one. SIX writes registry-style names -- "UNITED STATES OF
+AMERICA (THE)", "NETHERLANDS (THE)", "CONGO (THE DEMOCRATIC REPUBLIC OF THE)" -- while FDIC
+says "United States". The first build produced 4,219 edges pointing at country nodes that
+did not exist: every bank unlicensed-in, every MIR rate offered nowhere. The fix normalises
+the decorations before the alias lookup, and the build now ends with an integrity note that
+counts dangling edges, so this cannot come back silently:
+
+    note integrity  ok  every edge has both endpoints
+
 ## Sources, and why these
 
     source            needs a key?   what it contributes
@@ -51,7 +109,7 @@ Claiming otherwise would have meant special-casing a source that returns 401.
     python -m entitygraph.cli build --name "Berkshire Hathaway" --format json --out bh.json
     python -m entitygraph.server          # {host}:8087/entity?name=...  /entity/{lei}
 
-    pytest -q                             # 15 tests, no network
+    pytest -q                             # 60 tests, no network
 
 ## Design choices that are load-bearing
 

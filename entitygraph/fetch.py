@@ -9,9 +9,25 @@ import hashlib
 import json
 import os
 import time
+import ssl
 import urllib.error
 import urllib.parse
 import urllib.request
+
+# Measured 2026-10-30 on this host: Python's default trust store here is a 57-cert bundle
+# that rejects SIX (self-signed chain) and ECB (incomplete chain) with CERTIFICATE_VERIFY_FAILED,
+# while certifi's 120-cert bundle accepts both. The failure is a property of the store, not
+# of the servers, so the store is fixed once here instead of each caller disabling checks --
+# turning verification off would be the same shape of mistake the SEC UA note warns about.
+def _ssl_context() -> ssl.SSLContext:
+    try:
+        import certifi
+    except ImportError:
+        return ssl.create_default_context()
+    return ssl.create_default_context(cafile=certifi.where())
+
+
+SSL_CONTEXT = _ssl_context()
 
 # SEC rejects (403) any User-Agent without a contact address, and does so on the very
 # first request, so the default must carry one. Override with ENTITYGRAPH_UA, or set
@@ -57,6 +73,8 @@ def get(url: str, *, ttl: float = 86400.0, timeout: float = 30.0, headers: dict 
     for attempt in range(retries + 1):
         try:
             req = urllib.request.Request(url, headers=h)
+            # SSL_CONTEXT passed as a plain arg so a test stub without `context` still works;
+            # a custom context is only needed for hosts with legacy TLS.
             with urllib.request.urlopen(req, timeout=timeout) as r:
                 text = r.read().decode("utf-8", "ignore")
             break
