@@ -1,0 +1,169 @@
+{
+ "nodes": [
+  {
+   "key": "lei:724500X57BH61SONIP27",
+   "kind": "company",
+   "label": "Amazon B.V.",
+   "attrs": {
+    "fortune_rank": 1,
+    "fortune_revenue_usd": 716000000000.0,
+    "fortune_industry": "Retail /  Information technology",
+    "fortune_country": "United States",
+    "fortune_cite": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+    "lei": "724500X57BH61SONIP27",
+    "country": "NL",
+    "city": "Bosch en Duin",
+    "status": "INACTIVE",
+    "matched_on": "Amazon",
+    "cik": "1018724",
+    "ticker": "AMZN",
+    "_sources": [
+     "GLEIF",
+     "SEC EDGAR"
+    ]
+   },
+   "source": "GLEIF",
+   "url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Amazon",
+   "fetched_at": "2026-11-02T10:06:52+00:00"
+  },
+  {
+   "key": "fortune:1",
+   "kind": "company",
+   "label": "Amazon",
+   "attrs": {
+    "fortune_rank": 1,
+    "cik": "1018724",
+    "ticker": "AMZN"
+   },
+   "source": "Fortune (via Wikipedia)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+   "fetched_at": "2026-11-02T10:06:55+00:00"
+  },
+  {
+   "key": "holder:jeffreypbezos",
+   "kind": "person",
+   "label": "Jeffrey P. Bezos",
+   "attrs": {
+    "kind": "person",
+    "shares": 1066606645,
+    "percent": 10.1
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465924115906/tm2426595d1_sc13ga.htm",
+   "fetched_at": "2026-11-02T10:07:02+00:00"
+  },
+  {
+   "key": "lei:300300SRCLQKVTFFOM15",
+   "kind": "company",
+   "label": "国家电网有限公司",
+   "attrs": {
+    "fortune_rank": 3,
+    "fortune_revenue_usd": 545000000000.0,
+    "fortune_industry": "Electricity",
+    "fortune_country": "China",
+    "fortune_cite": "https://fortune.com/company/state-grid/global500/",
+    "lei": "300300SRCLQKVTFFOM15",
+    "country": "CN",
+    "city": "西城区",
+    "status": "ACTIVE",
+    "matched_on": "国家电网有限公司"
+   },
+   "source": "GLEIF",
+   "url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=%E5%9B%BD%E5%AE%B6%E7%94%B5%E7%BD%91%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+   "fetched_at": "2026-11-02T10:07:02+00:00"
+  },
+  {
+   "key": "lei:5586006WD91QHB7J4X50",
+   "kind": "company",
+   "label": "Saudi Arabian Oil Company",
+   "attrs": {
+    "fortune_rank": 4,
+    "fortune_revenue_usd": 480000000000.0,
+    "fortune_industry": "Oil and gas",
+    "fortune_country": "Saudi Arabia",
+    "fortune_cite": "https://www.aramco.com/-/media/publications/corporate-reports/reports-and-presentations/2024/fy/sections/ara-2024-results-english.pdf",
+    "lei": "5586006WD91QHB7J4X50",
+    "country": "SA",
+    "city": "Adh Dhahran",
+    "status": "ACTIVE",
+    "matched_on": "Saudi Arabian Oil Company"
+   },
+   "source": "GLEIF",
+   "url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Saudi%20Arabian%20Oil%20Company",
+   "fetched_at": "2026-11-02T10:07:02+00:00"
+  },
+  {
+   "key": "lei:529900RPY4YG47TRSV05",
+   "kind": "company",
+   "label": "PetroChina Company Limited",
+   "attrs": {
+    "fortune_rank": 5,
+    "fortune_revenue_usd": 476000000000.0,
+    "fortune_industry": "",
+    "fortune_country": "China",
+    "fortune_cite": "https://fortune.com/company/china-national-petroleum/global500/",
+    "lei": "529900RPY4YG47TRSV05",
+    "country": "CN",
+    "city": "Beijing",
+    "status": "ACTIVE",
+    "matched_on": "PetroChina Company Limited"
+   },
+   "source": "GLEIF",
+   "url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=PetroChina%20Company%20Limited",
+   "fetched_at": "2026-11-02T10:07:02+00:00"
+  },
+  {
+   "key": "manual:tianjin-nankai-general-data",
+   "kind": "company",
+   "label": "天津南大通用数据技术股份有限公司",
+   "attrs": {
+    "name_cn": "天津南大通用数据技术股份有限公司",
+    "name_en": "Tianjin Nankai General Data Technology Co., Ltd.",
+    "note": "Chinese domestic database vendor (GBase). No LEI in GLEIF and no open API from the national credit registry; this node is transcribed from the operator's naming and is not machine-verified.",
+    "registry_match": "none (manual record)"
+   },
+   "source": "manual",
+   "url": "",
+   "fetched_at": "2026-11-02T10:07:02+00:00"
+  },
+  {
+   "key": "manual:xieyi",
+   "kind": "company",
+   "label": "协医",
+   "attrs": {
+    "name_cn": "协医",
+    "name_en": "Xieyi (healthcare)",
+    "note": "Name given by the operator; the exact legal entity behind it is not determined. GLEIF name search for 协医 returns only near-matches (枣庄市协盈医疗科技, 山西协诚医工技术服务) and neither is an exact match. This node therefore carries NO registry attributes and exists to hold the place in the graph until the legal name is confirmed.",
+    "registry_match": "none (manual record)"
+   },
+   "source": "manual",
+   "url": "",
+   "fetched_at": "2026-11-02T10:07:02+00:00"
+  }
+ ],
+ "edges": [
+  {
+   "src": "holder:jeffreypbezos",
+   "dst": "fortune:1",
+   "rel": "holder_of",
+   "attrs": {
+    "form": "SC 13G/A",
+    "date": "2024-11-08",
+    "accession": "0001104659-24-115906",
+    "shares": 1066606645,
+    "percent": 10.1
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465924115906/tm2426595d1_sc13ga.htm",
+   "fetched_at": "2026-11-02T10:07:02+00:00"
+  }
+ ],
+ "caveats": [
+  "0 Fortune rows matched no GLEIF legal entity: ",
+  "Fortune's own Global 500 page is paywalled past the top ten and the Wikipedia ranking article carries only top-ten tables; the pool here is the 55-row 'largest companies by revenue' list, so it is a partial 500.",
+  "GLEIF returns 404 for /direct-parent and /ultimate-parent on a lei-record in this copy of the API, so no ownership-parent edge is drawn from GLEIF at all. Ownership in this graph comes from SEC 13D/13G cover pages only.",
+  "中石油 matched to PetroChina Company Limited, the listed subsidiary, not to China National Petroleum Corporation, the parent: GLEIF has no record under the parent's English name.",
+  "南大通用 and 协医 have no LEI and the Chinese national credit registry (国家企业信用信息公示系统) exposes no open API, so both are manual records with no registry attributes and no edges. Their legal identities are unverified.",
+  "No ownership edge links 南大通用 or 协医 to any Fortune company: no source in this build establishes one, and none was invented."
+ ]
+}

@@ -18,9 +18,17 @@ from .fetch import FetchError, get
 _SEC_BASE = "https://www.sec.gov/Archives/edgar/data"
 
 # Row 1 of the cover page. Case varies between filers; the colon is sometimes absent.
-_NAME_RE = re.compile(r"NAME OF REPORTING PERSON\s*[:\-]?\s*([A-Za-z0-9][^0-9]{2,90}?)\s+(?:2\s+CHECK|S\.?I\.?|I\.R\.S\.)", re.I)
+# Row 1 is "NAME OF REPORTING PERSON" on most schedules and "NAMES OF REPORTING PERSONS"
+# on others (Bezos' Amazon 13G/A uses the plural). A number between the label and the name
+# is part of neither -- it is the row marker.
+_NAME_RE = re.compile(
+    r"NAMES? OF REPORTING PERSONS?\s*[:\-]?\s*"
+    r"(?:(?:I\.R\.S\. IDENTIFICATION NO\. OF ABOVE PERSONS \(entities only\))|[\d.)]|\s)*"
+    r"([A-Z][^\d]{2,90}?)\s+(?:2\s+CHECK|[A-Z]{2}\s+CHECK|CHECK THE APPROPRIATE|S\.?I\.?|I\.R\.S\.)",
+    re.I)
 _AMOUNT_RE = re.compile(r"AGGREGATE AMOUNT BENEFICIALLY OWNED BY EACH REPORTING PERSON\s*([\d,]{2,})\s*(?:shares)?", re.I)
-_PERCENT_RE = re.compile(r"PERCENT OF CLASS REPRESENTED BY AMOUNT IN ROW 9\s*([\d.]+)\s*%", re.I)
+# Row 11 is printed both as "IN ROW 9" and as "IN ROW (9)".
+_PERCENT_RE = re.compile(r"PERCENT OF CLASS REPRESENTED BY AMOUNT IN ROW \(?9\)?\s*([\d.]+)\s*%", re.I)
 
 # A cover-page name that is really boilerplate, not a person or entity.
 _JUNK = ("see the cover", "reporting persons", "not applicable", "none")
@@ -41,6 +49,13 @@ def parse_cover(text: str) -> list[dict]:
     for m in _NAME_RE.finditer(flat):
         name = m.group(1).strip(" -–—.,")
         if not name or any(j in name.lower() for j in _JUNK):
+            continue
+        # The label repeats as "...PERSONS I.R.S. IDENTIFICATION NOS. OF ABOVE PERSONS", so a
+        # short all-caps fragment is page furniture, not a holder. A real holder name either
+        # contains a lower-case letter or is long enough to be a corporate name.
+        if not re.search(r"[a-z]", name) and len(name) < 12:
+            continue
+        if re.match(r"^(S\.?S\.?|I\.?R\.?S\.?|C\.?I\.?K\.?|SEE)\b", name, re.I):
             continue
         # The cover page for this person continues until the next "1 NAME OF REPORTING".
         window = flat[m.end(): m.end() + 2500]

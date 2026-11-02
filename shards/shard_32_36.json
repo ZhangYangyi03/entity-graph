@@ -1,0 +1,166 @@
+{
+ "nodes": [
+  {
+   "key": "fortune:chinarailwayengineering",
+   "kind": "company",
+   "label": "China Railway Engineering Corporation",
+   "attrs": {
+    "fortune_rank": 39,
+    "fortune_revenue_usd": 178000000000.0,
+    "fortune_industry": "Construction",
+    "fortune_country": "China",
+    "fortune_cite": "https://fortune.com/company/china-railway-engineering/global500/",
+    "registry_match": "none",
+    "note": "Fortune lists this name; no GLEIF record matched exactly, so there is no legal-entity identity behind this node yet."
+   },
+   "source": "Fortune (via Wikipedia)",
+   "url": "https://fortune.com/company/china-railway-engineering/global500/",
+   "fetched_at": "2026-11-02T10:09:21+00:00"
+  },
+  {
+   "key": "lei:549300D2X85WHEH82V07",
+   "kind": "company",
+   "label": "CARGILL NV",
+   "attrs": {
+    "fortune_rank": 40,
+    "fortune_revenue_usd": 177000000000.0,
+    "fortune_industry": "Conglomerate",
+    "fortune_country": "United States",
+    "fortune_cite": "https://www.forbes.com/lists/largest-private-companies/",
+    "lei": "549300D2X85WHEH82V07",
+    "country": "BE",
+    "city": "MECHELEN",
+    "status": "ACTIVE",
+    "matched_on": "Cargill"
+   },
+   "source": "GLEIF",
+   "url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Cargill",
+   "fetched_at": "2026-11-02T10:09:24+00:00"
+  },
+  {
+   "key": "lei:20S05OYHG0MQM4VUIC57",
+   "kind": "company",
+   "label": "FORD MOTOR COMPANY",
+   "attrs": {
+    "fortune_rank": 41,
+    "fortune_revenue_usd": 176000000000.0,
+    "fortune_industry": "Automotive",
+    "fortune_country": "United States",
+    "fortune_cite": "https://fortune.com/company/ford-motor/fortune500/",
+    "lei": "20S05OYHG0MQM4VUIC57",
+    "country": "US",
+    "city": "WILMINGTON",
+    "status": "ACTIVE",
+    "matched_on": "Ford Motor Company",
+    "cik": "37996",
+    "ticker": "F",
+    "_sources": [
+     "GLEIF",
+     "SEC EDGAR"
+    ]
+   },
+   "source": "GLEIF",
+   "url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Ford%20Motor%20Company",
+   "fetched_at": "2026-11-02T10:09:25+00:00"
+  },
+  {
+   "key": "fortune:41",
+   "kind": "company",
+   "label": "Ford Motor Company",
+   "attrs": {
+    "fortune_rank": 41,
+    "cik": "37996",
+    "ticker": "F"
+   },
+   "source": "Fortune (via Wikipedia)",
+   "url": "https://fortune.com/company/ford-motor/fortune500/",
+   "fetched_at": "2026-11-02T10:09:25+00:00"
+  },
+  {
+   "key": "holder:statestreet",
+   "kind": "person",
+   "label": "STATE STREET CORPORATION",
+   "attrs": {
+    "kind": "company",
+    "shares": null,
+    "percent": 8.38
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/37996/000009375124000310/0000093751-24-000310.txt",
+   "fetched_at": "2026-11-02T10:09:31+00:00"
+  },
+  {
+   "key": "lei:254900LPUJ0AL3OPPN30",
+   "kind": "company",
+   "label": "Bank of China",
+   "attrs": {
+    "fortune_rank": 42,
+    "fortune_revenue_usd": 172000000000.0,
+    "fortune_industry": "Financials",
+    "fortune_country": "China",
+    "fortune_cite": "https://fortune.com/company/bank-of-china/",
+    "lei": "254900LPUJ0AL3OPPN30",
+    "country": "US",
+    "city": "New York",
+    "status": "ACTIVE",
+    "matched_on": "Bank of China"
+   },
+   "source": "GLEIF",
+   "url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Bank%20of%20China",
+   "fetched_at": "2026-11-02T10:09:31+00:00"
+  },
+  {
+   "key": "manual:tianjin-nankai-general-data",
+   "kind": "company",
+   "label": "天津南大通用数据技术股份有限公司",
+   "attrs": {
+    "name_cn": "天津南大通用数据技术股份有限公司",
+    "name_en": "Tianjin Nankai General Data Technology Co., Ltd.",
+    "note": "Chinese domestic database vendor (GBase). No LEI in GLEIF and no open API from the national credit registry; this node is transcribed from the operator's naming and is not machine-verified.",
+    "registry_match": "none (manual record)"
+   },
+   "source": "manual",
+   "url": "",
+   "fetched_at": "2026-11-02T10:09:31+00:00"
+  },
+  {
+   "key": "manual:xieyi",
+   "kind": "company",
+   "label": "协医",
+   "attrs": {
+    "name_cn": "协医",
+    "name_en": "Xieyi (healthcare)",
+    "note": "Name given by the operator; the exact legal entity behind it is not determined. GLEIF name search for 协医 returns only near-matches (枣庄市协盈医疗科技, 山西协诚医工技术服务) and neither is an exact match. This node therefore carries NO registry attributes and exists to hold the place in the graph until the legal name is confirmed.",
+    "registry_match": "none (manual record)"
+   },
+   "source": "manual",
+   "url": "",
+   "fetched_at": "2026-11-02T10:09:31+00:00"
+  }
+ ],
+ "edges": [
+  {
+   "src": "holder:statestreet",
+   "dst": "fortune:41",
+   "rel": "holder_of",
+   "attrs": {
+    "form": "SC 13G/A",
+    "date": "2024-01-29",
+    "accession": "0000093751-24-000310",
+    "shares": null,
+    "percent": 8.38
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/37996/000009375124000310/0000093751-24-000310.txt",
+   "fetched_at": "2026-11-02T10:09:31+00:00"
+  }
+ ],
+ "caveats": [
+  "1 Fortune rows matched no GLEIF legal entity: China Railway Engineering Corporation",
+  "Fortune's own Global 500 page is paywalled past the top ten and the Wikipedia ranking article carries only top-ten tables; the pool here is the 55-row 'largest companies by revenue' list, so it is a partial 500.",
+  "GLEIF returns 404 for /direct-parent and /ultimate-parent on a lei-record in this copy of the API, so no ownership-parent edge is drawn from GLEIF at all. Ownership in this graph comes from SEC 13D/13G cover pages only.",
+  "中石油 matched to PetroChina Company Limited, the listed subsidiary, not to China National Petroleum Corporation, the parent: GLEIF has no record under the parent's English name.",
+  "南大通用 and 协医 have no LEI and the Chinese national credit registry (国家企业信用信息公示系统) exposes no open API, so both are manual records with no registry attributes and no edges. Their legal identities are unverified.",
+  "No ownership edge links 南大通用 or 协医 to any Fortune company: no source in this build establishes one, and none was invented."
+ ]
+}

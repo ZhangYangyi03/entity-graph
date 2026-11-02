@@ -1,0 +1,446 @@
+{
+ "source": "https://en.wikipedia.org/wiki/List_of_largest_companies_by_revenue",
+ "url": "https://en.wikipedia.org/w/index.php?title=List_of_largest_companies_by_revenue&action=raw",
+ "rows": [
+  {
+   "rank": 1,
+   "company": "Amazon",
+   "country": "USA",
+   "industry": "Retail /  Information technology",
+   "revenue_usd": 716000000000.0,
+   "cite_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm"
+  },
+  {
+   "rank": 3,
+   "company": "State Grid Corporation of China",
+   "country": "China",
+   "industry": "Electricity",
+   "revenue_usd": 545000000000.0,
+   "cite_url": "https://fortune.com/company/state-grid/global500/"
+  },
+  {
+   "rank": 4,
+   "company": "Saudi Aramco",
+   "country": "Saudi Arabia",
+   "industry": "| Oil and gas",
+   "revenue_usd": 480000000000.0,
+   "cite_url": "https://www.aramco.com/-/media/publications/corporate-reports/reports-and-presentations/2024/fy/sections/ara-2024-results-english.pdf"
+  },
+  {
+   "rank": 5,
+   "company": "China National Petroleum Corporation",
+   "country": "China",
+   "industry": "|  25.2",
+   "revenue_usd": 476000000000.0,
+   "cite_url": "https://fortune.com/company/china-national-petroleum/global500/"
+  },
+  {
+   "rank": 6,
+   "company": "China Petrochemical Corporation",
+   "country": "China",
+   "industry": "| 9.3",
+   "revenue_usd": 429000000000.0,
+   "cite_url": "https://fortune.com/company/sinopec-group/global500/"
+  },
+  {
+   "rank": 8,
+   "company": "Alphabet",
+   "country": null,
+   "industry": "| 132",
+   "revenue_usd": 402000000000.0,
+   "cite_url": "https://www.theverge.com/news/874161/google-400-billion-revenue-q4-2025-earnings"
+  },
+  {
+   "rank": 9,
+   "company": "UnitedHealth Group",
+   "country": null,
+   "industry": "Healthcare",
+   "revenue_usd": 400000000000.0,
+   "cite_url": "https://www.sec.gov/ix?doc=/Archives/edgar/data/731766/000073176625000063/unh-20241231.htm"
+  },
+  {
+   "rank": 10,
+   "company": "Berkshire Hathaway",
+   "country": null,
+   "industry": "Financials",
+   "revenue_usd": 371000000000.0,
+   "cite_url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm#consolidated_balance_sheets"
+  },
+  {
+   "rank": 11,
+   "company": "CVS Health",
+   "country": null,
+   "industry": "Healthcare",
+   "revenue_usd": 357000000000.0,
+   "cite_url": "https://fortune.com/company/cvs-health/global500/"
+  },
+  {
+   "rank": 12,
+   "company": "Volkswagen Group",
+   "country": "Germany",
+   "industry": "Automotive",
+   "revenue_usd": 348000000000.0,
+   "cite_url": "https://fortune.com/company/volkswagen/global500/"
+  },
+  {
+   "rank": 13,
+   "company": "ExxonMobil",
+   "country": "USA",
+   "industry": "Oil and gas",
+   "revenue_usd": 344000000000.0,
+   "cite_url": "https://fortune.com/company/exxon-mobil/global500/"
+  },
+  {
+   "rank": 14,
+   "company": "Microsoft",
+   "country": "USA",
+   "industry": "Information technology",
+   "revenue_usd": 332000000000.0,
+   "cite_url": "https://techcrunch.com/2026/07/29/microsoft-logs-3-2b-from-anthropic-investment-but-openai-was-a-mixed-bag/"
+  },
+  {
+   "rank": 15,
+   "company": "Vitol",
+   "country": null,
+   "industry": "Commodities",
+   "revenue_usd": 331000000000.0,
+   "cite_url": "https://www.vitol.com/vitol-2024-volumes-and-review/"
+  },
+  {
+   "rank": 16,
+   "company": "Shell",
+   "country": "UK",
+   "industry": "Oil and gas",
+   "revenue_usd": 323000000000.0,
+   "cite_url": "https://fortune.com/company/royal-dutch-shell/global500/"
+  },
+  {
+   "rank": 17,
+   "company": "China State Construction Engineering",
+   "country": "China",
+   "industry": "Construction",
+   "revenue_usd": 320000000000.0,
+   "cite_url": "https://fortune.com/company/china-state-construction-engineering/global500/"
+  },
+  {
+   "rank": 18,
+   "company": "Toyota",
+   "country": "Japan",
+   "industry": "Automotive",
+   "revenue_usd": 312000000000.0,
+   "cite_url": "https://fortune.com/company/toyota-motor/global500/"
+  },
+  {
+   "rank": 19,
+   "company": "McKesson",
+   "country": "USA",
+   "industry": "| Healthcare",
+   "revenue_usd": 308000000000.0,
+   "cite_url": "https://fortune.com/company/mckesson/global500/"
+  },
+  {
+   "rank": 20,
+   "company": "Cencora",
+   "country": "USA",
+   "industry": "| 1.7",
+   "revenue_usd": 262000000000.0,
+   "cite_url": "https://fortune.com/company/amerisourcebergen/global500/"
+  },
+  {
+   "rank": 21,
+   "company": "Samsung Electronics",
+   "country": "South Korea",
+   "industry": "Information technology",
+   "revenue_usd": 249000000000.0,
+   "cite_url": "https://fortune.com/company/samsung-electronics/global500/"
+  },
+  {
+   "rank": 22,
+   "company": "Trafigura",
+   "country": "Singapore",
+   "industry": "Commodities",
+   "revenue_usd": 244000000000.0,
+   "cite_url": "https://fortune.com/company/trafigura-group/global500/"
+  },
+  {
+   "rank": 23,
+   "company": "Costco",
+   "country": "USA",
+   "industry": "Retail",
+   "revenue_usd": 242000000000.0,
+   "cite_url": "https://fortune.com/company/costco/global500/"
+  },
+  {
+   "rank": 24,
+   "company": "JPMorgan Chase",
+   "country": "USA",
+   "industry": "|Financials",
+   "revenue_usd": 239000000000.0,
+   "cite_url": "https://fortune.com/company/jpmorgan-chase/"
+  },
+  {
+   "rank": 25,
+   "company": "Industrial and Commercial Bank of China",
+   "country": "China",
+   "industry": "| 51.4",
+   "revenue_usd": 222000000000.0,
+   "cite_url": "https://fortune.com/company/industrial-commercial-bank-of-china/global500/"
+  },
+  {
+   "rank": 26,
+   "company": "Schwarz Gruppe",
+   "country": "Germany",
+   "industry": "Retail",
+   "revenue_usd": 220000000000.0,
+   "cite_url": "https://gruppe.schwarz/en"
+  },
+  {
+   "rank": 27,
+   "company": "TotalEnergies",
+   "country": "France",
+   "industry": "Oil and gas",
+   "revenue_usd": 218000000000.0,
+   "cite_url": "https://fortune.com/company/total/global500/"
+  },
+  {
+   "rank": 28,
+   "company": "Glencore",
+   "country": "Switzerland",
+   "industry": "Commodities",
+   "revenue_usd": 217000000000.0,
+   "cite_url": "https://fortune.com/company/glencore/global500/"
+  },
+  {
+   "rank": 30,
+   "company": "BP",
+   "country": "UK",
+   "industry": "Oil and gas",
+   "revenue_usd": 213000000000.0,
+   "cite_url": "https://fortune.com/company/bp/global500/"
+  },
+  {
+   "rank": 31,
+   "company": "Cardinal Health",
+   "country": "USA",
+   "industry": "Healthcare",
+   "revenue_usd": 205000000000.0,
+   "cite_url": "https://fortune.com/company/cardinal-health/global500/"
+  },
+  {
+   "rank": 34,
+   "company": "Chevron",
+   "country": null,
+   "industry": "Oil and gas",
+   "revenue_usd": 200000000000.0,
+   "cite_url": "https://fortune.com/company/chevron/global500/"
+  },
+  {
+   "rank": 35,
+   "company": "China Construction Bank",
+   "country": "China",
+   "industry": "Financials",
+   "revenue_usd": 199000000000.0,
+   "cite_url": "https://fortune.com/company/china-construction-bank/global500/"
+  },
+  {
+   "rank": 36,
+   "company": "Foxconn",
+   "country": "Taiwan",
+   "industry": "Electronics",
+   "revenue_usd": 197000000000.0,
+   "cite_url": "https://fortune.com/company/hon-hai-precision-industry/global500/"
+  },
+  {
+   "rank": 38,
+   "company": "Agricultural Bank of China",
+   "country": "China",
+   "industry": "Financials",
+   "revenue_usd": 192000000000.0,
+   "cite_url": "https://fortune.com/company/agricultural-bank-of-china/global500/"
+  },
+  {
+   "rank": 39,
+   "company": "China Railway Engineering Corporation",
+   "country": "China",
+   "industry": "Construction",
+   "revenue_usd": 178000000000.0,
+   "cite_url": "https://fortune.com/company/china-railway-engineering/global500/"
+  },
+  {
+   "rank": 40,
+   "company": "Cargill",
+   "country": "USA",
+   "industry": "Conglomerate",
+   "revenue_usd": 177000000000.0,
+   "cite_url": "https://www.forbes.com/lists/largest-private-companies/"
+  },
+  {
+   "rank": 41,
+   "company": "Ford Motor Company",
+   "country": "USA",
+   "industry": "Automotive",
+   "revenue_usd": 176000000000.0,
+   "cite_url": "https://fortune.com/company/ford-motor/fortune500/"
+  },
+  {
+   "rank": 42,
+   "company": "Bank of China",
+   "country": "China",
+   "industry": "|Financials",
+   "revenue_usd": 172000000000.0,
+   "cite_url": "https://fortune.com/company/bank-of-china/"
+  },
+  {
+   "rank": 43,
+   "company": "Bank of America",
+   "country": "USA",
+   "industry": "| 26.5",
+   "revenue_usd": 171000000000.0,
+   "cite_url": "https://fortune.com/company/bank-of-america-corp/"
+  },
+  {
+   "rank": 44,
+   "company": "General Motors",
+   "country": "USA",
+   "industry": "Automotive",
+   "revenue_usd": 171000000000.0,
+   "cite_url": "https://fortune.com/company/general-motors/"
+  },
+  {
+   "rank": 45,
+   "company": "Elevance Health",
+   "country": "USA",
+   "industry": "Healthcare",
+   "revenue_usd": 171000000000.0,
+   "cite_url": "https://fortune.com/company/elevance-health/"
+  },
+  {
+   "rank": 46,
+   "company": "BMW Group",
+   "country": "Germany",
+   "industry": "| Automotive",
+   "revenue_usd": 168000000000.0,
+   "cite_url": "https://fortune.com/company/bmw-group/"
+  },
+  {
+   "rank": 48,
+   "company": "China Railway Construction Corporation",
+   "country": "China",
+   "industry": "Construction",
+   "revenue_usd": 160000000000.0,
+   "cite_url": "https://fortune.com/company/china-railway-construction/global500/"
+  },
+  {
+   "rank": 49,
+   "company": "Baowu",
+   "country": "China",
+   "industry": "Steel",
+   "revenue_usd": 157000000000.0,
+   "cite_url": "https://fortune.com/company/china-baowu-steel-group/global500/"
+  },
+  {
+   "rank": 50,
+   "company": "SK Group",
+   "country": "South Korea",
+   "industry": "Financials",
+   "revenue_usd": 153000000000.0,
+   "cite_url": "https://www.thebell.co.kr/front/newsview.asp?key=202604141550584960106159"
+  },
+  {
+   "rank": 1,
+   "company": "|  |{{flag|United States}}",
+   "country": null,
+   "industry": "23",
+   "revenue_usd": null,
+   "cite_url": ""
+  },
+  {
+   "rank": 2,
+   "company": "|  |{{flag|China}}",
+   "country": null,
+   "industry": "11",
+   "revenue_usd": null,
+   "cite_url": ""
+  },
+  {
+   "rank": 3,
+   "company": "|  |{{flag|Germany}}",
+   "country": null,
+   "industry": "4",
+   "revenue_usd": null,
+   "cite_url": ""
+  },
+  {
+   "rank": 4,
+   "company": "|  |{{flag|United Kingdom}}",
+   "country": null,
+   "industry": "2",
+   "revenue_usd": null,
+   "cite_url": ""
+  },
+  {
+   "rank": 4,
+   "company": "|  |{{flag|South Korea}}",
+   "country": null,
+   "industry": "2",
+   "revenue_usd": null,
+   "cite_url": ""
+  },
+  {
+   "rank": 4,
+   "company": "|  |{{flag|Switzerland}}",
+   "country": null,
+   "industry": "2",
+   "revenue_usd": null,
+   "cite_url": ""
+  },
+  {
+   "rank": 5,
+   "company": "|  |{{flag|Japan}}",
+   "country": null,
+   "industry": "1",
+   "revenue_usd": null,
+   "cite_url": ""
+  },
+  {
+   "rank": 5,
+   "company": "| |{{FRA}}",
+   "country": null,
+   "industry": "1",
+   "revenue_usd": null,
+   "cite_url": ""
+  },
+  {
+   "rank": 5,
+   "company": "|  |{{flag|Netherlands}}",
+   "country": null,
+   "industry": "1",
+   "revenue_usd": null,
+   "cite_url": ""
+  },
+  {
+   "rank": 5,
+   "company": "|  |{{flag|Saudi Arabia}}",
+   "country": null,
+   "industry": "1",
+   "revenue_usd": null,
+   "cite_url": ""
+  },
+  {
+   "rank": 5,
+   "company": "|  |{{flag|Singapore}}",
+   "country": null,
+   "industry": "1",
+   "revenue_usd": null,
+   "cite_url": ""
+  },
+  {
+   "rank": 5,
+   "company": "|  |{{flag|Taiwan}}",
+   "country": null,
+   "industry": "1",
+   "revenue_usd": null,
+   "cite_url": ""
+  }
+ ]
+}

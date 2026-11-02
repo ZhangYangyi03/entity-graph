@@ -1,0 +1,235 @@
+{
+ "nodes": [
+  {
+   "key": "lei:529900A2OB24EZ5B3J19",
+   "kind": "company",
+   "label": "China Petroleum & Chemical Corporation",
+   "attrs": {
+    "fortune_rank": 6,
+    "fortune_revenue_usd": 429000000000.0,
+    "fortune_industry": "",
+    "fortune_country": "China",
+    "fortune_cite": "https://fortune.com/company/sinopec-group/global500/",
+    "lei": "529900A2OB24EZ5B3J19",
+    "country": "CN",
+    "city": "Peking",
+    "status": "ACTIVE",
+    "matched_on": "China Petroleum & Chemical Corporation"
+   },
+   "source": "GLEIF",
+   "url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=China%20Petroleum%20%26%20Chemical%20Corporation",
+   "fetched_at": "2026-11-02T10:07:06+00:00"
+  },
+  {
+   "key": "lei:549300DKRZQT8LMQQI72",
+   "kind": "company",
+   "label": "ALPHABET LTD",
+   "attrs": {
+    "fortune_rank": 8,
+    "fortune_revenue_usd": 402000000000.0,
+    "fortune_industry": "",
+    "fortune_country": null,
+    "fortune_cite": "https://www.theverge.com/news/874161/google-400-billion-revenue-q4-2025-earnings",
+    "lei": "549300DKRZQT8LMQQI72",
+    "country": "SC",
+    "city": "VICTORIA",
+    "status": "ACTIVE",
+    "matched_on": "Alphabet",
+    "cik": "1652044",
+    "ticker": "GOOGL",
+    "_sources": [
+     "GLEIF",
+     "SEC EDGAR"
+    ]
+   },
+   "source": "GLEIF",
+   "url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Alphabet",
+   "fetched_at": "2026-11-02T10:07:09+00:00"
+  },
+  {
+   "key": "fortune:8",
+   "kind": "company",
+   "label": "Alphabet",
+   "attrs": {
+    "fortune_rank": 8,
+    "cik": "1652044",
+    "ticker": "GOOGL"
+   },
+   "source": "Fortune (via Wikipedia)",
+   "url": "https://www.theverge.com/news/874161/google-400-billion-revenue-q4-2025-earnings",
+   "fetched_at": "2026-11-02T10:07:09+00:00"
+  },
+  {
+   "key": "lei:549300GHBMY8T5GXDE41",
+   "kind": "company",
+   "label": "UNITEDHEALTH GROUP INCORPORATED",
+   "attrs": {
+    "fortune_rank": 9,
+    "fortune_revenue_usd": 400000000000.0,
+    "fortune_industry": "Healthcare",
+    "fortune_country": null,
+    "fortune_cite": "https://www.sec.gov/ix?doc=/Archives/edgar/data/731766/000073176625000063/unh-20241231.htm",
+    "lei": "549300GHBMY8T5GXDE41",
+    "country": "US",
+    "city": "WILMINGTON",
+    "status": "ACTIVE",
+    "matched_on": "UnitedHealth Group Incorporated",
+    "cik": "731766",
+    "ticker": "UNH",
+    "_sources": [
+     "GLEIF",
+     "SEC EDGAR"
+    ]
+   },
+   "source": "GLEIF",
+   "url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=UnitedHealth%20Group%20Incorporated",
+   "fetched_at": "2026-11-02T10:07:16+00:00"
+  },
+  {
+   "key": "fortune:9",
+   "kind": "company",
+   "label": "UnitedHealth Group",
+   "attrs": {
+    "fortune_rank": 9,
+    "cik": "731766",
+    "ticker": "UNH"
+   },
+   "source": "Fortune (via Wikipedia)",
+   "url": "https://www.sec.gov/ix?doc=/Archives/edgar/data/731766/000073176625000063/unh-20241231.htm",
+   "fetched_at": "2026-11-02T10:07:16+00:00"
+  },
+  {
+   "key": "lei:5493000C01ZX7D35SD85",
+   "kind": "company",
+   "label": "BERKSHIRE HATHAWAY INC.",
+   "attrs": {
+    "fortune_rank": 10,
+    "fortune_revenue_usd": 371000000000.0,
+    "fortune_industry": "Financials",
+    "fortune_country": null,
+    "fortune_cite": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm#consolidated_balance_sheets",
+    "lei": "5493000C01ZX7D35SD85",
+    "country": "US",
+    "city": "WILMINGTON",
+    "status": "ACTIVE",
+    "matched_on": "Berkshire Hathaway",
+    "cik": "1067983",
+    "ticker": "BRK-B",
+    "_sources": [
+     "GLEIF",
+     "SEC EDGAR"
+    ]
+   },
+   "source": "GLEIF",
+   "url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Berkshire%20Hathaway",
+   "fetched_at": "2026-11-02T10:07:21+00:00"
+  },
+  {
+   "key": "fortune:10",
+   "kind": "company",
+   "label": "Berkshire Hathaway",
+   "attrs": {
+    "fortune_rank": 10,
+    "cik": "1067983",
+    "ticker": "BRK-B"
+   },
+   "source": "Fortune (via Wikipedia)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm#consolidated_balance_sheets",
+   "fetched_at": "2026-11-02T10:07:21+00:00"
+  },
+  {
+   "key": "holder:warrenebuffett",
+   "kind": "person",
+   "label": "Warren E. Buffett",
+   "attrs": {
+    "kind": "person",
+    "shares": 206363,
+    "percent": null
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312524265100/d34884dsc13da.htm",
+   "fetched_at": "2026-11-02T10:07:27+00:00"
+  },
+  {
+   "key": "holder:statestreet",
+   "kind": "person",
+   "label": "STATE STREET CORPORATION",
+   "attrs": {
+    "kind": "company",
+    "shares": null,
+    "percent": 5.3
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000009375124000358/0000093751-24-000358.txt",
+   "fetched_at": "2026-11-02T10:07:27+00:00"
+  },
+  {
+   "key": "manual:tianjin-nankai-general-data",
+   "kind": "company",
+   "label": "天津南大通用数据技术股份有限公司",
+   "attrs": {
+    "name_cn": "天津南大通用数据技术股份有限公司",
+    "name_en": "Tianjin Nankai General Data Technology Co., Ltd.",
+    "note": "Chinese domestic database vendor (GBase). No LEI in GLEIF and no open API from the national credit registry; this node is transcribed from the operator's naming and is not machine-verified.",
+    "registry_match": "none (manual record)"
+   },
+   "source": "manual",
+   "url": "",
+   "fetched_at": "2026-11-02T10:07:27+00:00"
+  },
+  {
+   "key": "manual:xieyi",
+   "kind": "company",
+   "label": "协医",
+   "attrs": {
+    "name_cn": "协医",
+    "name_en": "Xieyi (healthcare)",
+    "note": "Name given by the operator; the exact legal entity behind it is not determined. GLEIF name search for 协医 returns only near-matches (枣庄市协盈医疗科技, 山西协诚医工技术服务) and neither is an exact match. This node therefore carries NO registry attributes and exists to hold the place in the graph until the legal name is confirmed.",
+    "registry_match": "none (manual record)"
+   },
+   "source": "manual",
+   "url": "",
+   "fetched_at": "2026-11-02T10:07:27+00:00"
+  }
+ ],
+ "edges": [
+  {
+   "src": "holder:warrenebuffett",
+   "dst": "fortune:10",
+   "rel": "holder_of",
+   "attrs": {
+    "form": "SC 13D/A",
+    "date": "2024-11-25",
+    "accession": "0001193125-24-265100",
+    "shares": 206363,
+    "percent": null
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312524265100/d34884dsc13da.htm",
+   "fetched_at": "2026-11-02T10:07:27+00:00"
+  },
+  {
+   "src": "holder:statestreet",
+   "dst": "fortune:10",
+   "rel": "holder_of",
+   "attrs": {
+    "form": "SC 13G/A",
+    "date": "2024-01-29",
+    "accession": "0000093751-24-000358",
+    "shares": null,
+    "percent": 5.3
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000009375124000358/0000093751-24-000358.txt",
+   "fetched_at": "2026-11-02T10:07:27+00:00"
+  }
+ ],
+ "caveats": [
+  "0 Fortune rows matched no GLEIF legal entity: ",
+  "Fortune's own Global 500 page is paywalled past the top ten and the Wikipedia ranking article carries only top-ten tables; the pool here is the 55-row 'largest companies by revenue' list, so it is a partial 500.",
+  "GLEIF returns 404 for /direct-parent and /ultimate-parent on a lei-record in this copy of the API, so no ownership-parent edge is drawn from GLEIF at all. Ownership in this graph comes from SEC 13D/13G cover pages only.",
+  "中石油 matched to PetroChina Company Limited, the listed subsidiary, not to China National Petroleum Corporation, the parent: GLEIF has no record under the parent's English name.",
+  "南大通用 and 协医 have no LEI and the Chinese national credit registry (国家企业信用信息公示系统) exposes no open API, so both are manual records with no registry attributes and no edges. Their legal identities are unverified.",
+  "No ownership edge links 南大通用 or 协医 to any Fortune company: no source in this build establishes one, and none was invented."
+ ]
+}

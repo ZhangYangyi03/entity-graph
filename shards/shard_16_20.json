@@ -1,0 +1,219 @@
+{
+ "nodes": [
+  {
+   "key": "lei:549300WZWOM80UCFSF54",
+   "kind": "company",
+   "label": "MCKESSON CORPORATION",
+   "attrs": {
+    "fortune_rank": 19,
+    "fortune_revenue_usd": 308000000000.0,
+    "fortune_industry": "Healthcare",
+    "fortune_country": "United States",
+    "fortune_cite": "https://fortune.com/company/mckesson/global500/",
+    "lei": "549300WZWOM80UCFSF54",
+    "country": "US",
+    "city": "WILMINGTON",
+    "status": "ACTIVE",
+    "matched_on": "McKesson",
+    "cik": "927653",
+    "ticker": "MCK",
+    "_sources": [
+     "GLEIF",
+     "SEC EDGAR"
+    ]
+   },
+   "source": "GLEIF",
+   "url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=McKesson",
+   "fetched_at": "2026-11-02T10:08:10+00:00"
+  },
+  {
+   "key": "fortune:19",
+   "kind": "company",
+   "label": "McKesson",
+   "attrs": {
+    "fortune_rank": 19,
+    "cik": "927653",
+    "ticker": "MCK"
+   },
+   "source": "Fortune (via Wikipedia)",
+   "url": "https://fortune.com/company/mckesson/global500/",
+   "fetched_at": "2026-11-02T10:08:13+00:00"
+  },
+  {
+   "key": "lei:AI8GXW8LG5WK7E9UD086",
+   "kind": "company",
+   "label": "CENCORA, INC.",
+   "attrs": {
+    "fortune_rank": 20,
+    "fortune_revenue_usd": 262000000000.0,
+    "fortune_industry": "",
+    "fortune_country": "United States",
+    "fortune_cite": "https://fortune.com/company/amerisourcebergen/global500/",
+    "lei": "AI8GXW8LG5WK7E9UD086",
+    "country": "US",
+    "city": "WILMINGTON",
+    "status": "ACTIVE",
+    "matched_on": "Cencora",
+    "cik": "1140859",
+    "ticker": "COR",
+    "_sources": [
+     "GLEIF",
+     "SEC EDGAR"
+    ]
+   },
+   "source": "GLEIF",
+   "url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Cencora",
+   "fetched_at": "2026-11-02T10:08:19+00:00"
+  },
+  {
+   "key": "fortune:20",
+   "kind": "company",
+   "label": "Cencora",
+   "attrs": {
+    "fortune_rank": 20,
+    "cik": "1140859",
+    "ticker": "COR"
+   },
+   "source": "Fortune (via Wikipedia)",
+   "url": "https://fortune.com/company/amerisourcebergen/global500/",
+   "fetched_at": "2026-11-02T10:08:19+00:00"
+  },
+  {
+   "key": "holder:walgreensbootsalliance",
+   "kind": "person",
+   "label": "Walgreens Boots Alliance Holdings LLC",
+   "attrs": {
+    "kind": "company",
+    "shares": 19980000,
+    "percent": null,
+    "_sources": [
+     "SEC EDGAR"
+    ]
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/1140859/000119312524203644/d858961dsc13da.htm",
+   "fetched_at": "2026-11-02T10:08:25+00:00"
+  },
+  {
+   "key": "holder:wbainvestments",
+   "kind": "person",
+   "label": "WBA Investments, Inc",
+   "attrs": {
+    "kind": "company",
+    "shares": 19980000,
+    "percent": null
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/1140859/000119312524203644/d858961dsc13da.htm",
+   "fetched_at": "2026-11-02T10:08:25+00:00"
+  },
+  {
+   "key": "lei:335800A16O7QD1TDQO62",
+   "kind": "company",
+   "label": "SAMSUNG ELECTRONICS COMPANY LIMITED",
+   "attrs": {
+    "fortune_rank": 21,
+    "fortune_revenue_usd": 249000000000.0,
+    "fortune_industry": "Information technology",
+    "fortune_country": "South Korea",
+    "fortune_cite": "https://fortune.com/company/samsung-electronics/global500/",
+    "lei": "335800A16O7QD1TDQO62",
+    "country": "IN",
+    "city": "MUMBAI",
+    "status": "ACTIVE",
+    "matched_on": "Samsung Electronics"
+   },
+   "source": "GLEIF",
+   "url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Samsung%20Electronics",
+   "fetched_at": "2026-11-02T10:08:25+00:00"
+  },
+  {
+   "key": "lei:549300CUMQGCKKDP0S73",
+   "kind": "company",
+   "label": "TRAFIGURA LIMITED",
+   "attrs": {
+    "fortune_rank": 22,
+    "fortune_revenue_usd": 244000000000.0,
+    "fortune_industry": "Commodities",
+    "fortune_country": "Singapore",
+    "fortune_cite": "https://fortune.com/company/trafigura-group/global500/",
+    "lei": "549300CUMQGCKKDP0S73",
+    "country": "GB",
+    "city": "LONDON",
+    "status": "ACTIVE",
+    "matched_on": "Trafigura"
+   },
+   "source": "GLEIF",
+   "url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Trafigura",
+   "fetched_at": "2026-11-02T10:08:25+00:00"
+  },
+  {
+   "key": "manual:tianjin-nankai-general-data",
+   "kind": "company",
+   "label": "天津南大通用数据技术股份有限公司",
+   "attrs": {
+    "name_cn": "天津南大通用数据技术股份有限公司",
+    "name_en": "Tianjin Nankai General Data Technology Co., Ltd.",
+    "note": "Chinese domestic database vendor (GBase). No LEI in GLEIF and no open API from the national credit registry; this node is transcribed from the operator's naming and is not machine-verified.",
+    "registry_match": "none (manual record)"
+   },
+   "source": "manual",
+   "url": "",
+   "fetched_at": "2026-11-02T10:08:25+00:00"
+  },
+  {
+   "key": "manual:xieyi",
+   "kind": "company",
+   "label": "协医",
+   "attrs": {
+    "name_cn": "协医",
+    "name_en": "Xieyi (healthcare)",
+    "note": "Name given by the operator; the exact legal entity behind it is not determined. GLEIF name search for 协医 returns only near-matches (枣庄市协盈医疗科技, 山西协诚医工技术服务) and neither is an exact match. This node therefore carries NO registry attributes and exists to hold the place in the graph until the legal name is confirmed.",
+    "registry_match": "none (manual record)"
+   },
+   "source": "manual",
+   "url": "",
+   "fetched_at": "2026-11-02T10:08:25+00:00"
+  }
+ ],
+ "edges": [
+  {
+   "src": "holder:walgreensbootsalliance",
+   "dst": "fortune:20",
+   "rel": "holder_of",
+   "attrs": {
+    "form": "SC 13D/A",
+    "date": "2024-08-20",
+    "accession": "0001193125-24-203644",
+    "shares": 19980000,
+    "percent": null
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/1140859/000119312524203644/d858961dsc13da.htm",
+   "fetched_at": "2026-11-02T10:08:25+00:00"
+  },
+  {
+   "src": "holder:wbainvestments",
+   "dst": "fortune:20",
+   "rel": "holder_of",
+   "attrs": {
+    "form": "SC 13D/A",
+    "date": "2024-08-20",
+    "accession": "0001193125-24-203644",
+    "shares": 19980000,
+    "percent": null
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/1140859/000119312524203644/d858961dsc13da.htm",
+   "fetched_at": "2026-11-02T10:08:25+00:00"
+  }
+ ],
+ "caveats": [
+  "0 Fortune rows matched no GLEIF legal entity: ",
+  "Fortune's own Global 500 page is paywalled past the top ten and the Wikipedia ranking article carries only top-ten tables; the pool here is the 55-row 'largest companies by revenue' list, so it is a partial 500.",
+  "GLEIF returns 404 for /direct-parent and /ultimate-parent on a lei-record in this copy of the API, so no ownership-parent edge is drawn from GLEIF at all. Ownership in this graph comes from SEC 13D/13G cover pages only.",
+  "中石油 matched to PetroChina Company Limited, the listed subsidiary, not to China National Petroleum Corporation, the parent: GLEIF has no record under the parent's English name.",
+  "南大通用 and 协医 have no LEI and the Chinese national credit registry (国家企业信用信息公示系统) exposes no open API, so both are manual records with no registry attributes and no edges. Their legal identities are unverified.",
+  "No ownership edge links 南大通用 or 协医 to any Fortune company: no source in this build establishes one, and none was invented."
+ ]
+}

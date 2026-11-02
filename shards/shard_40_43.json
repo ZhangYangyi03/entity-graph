@@ -1,0 +1,92 @@
+{
+ "nodes": [
+  {
+   "key": "fortune:chinarailwayconstruction",
+   "kind": "company",
+   "label": "China Railway Construction Corporation",
+   "attrs": {
+    "fortune_rank": 48,
+    "fortune_revenue_usd": 160000000000.0,
+    "fortune_industry": "Construction",
+    "fortune_country": "China",
+    "fortune_cite": "https://fortune.com/company/china-railway-construction/global500/",
+    "registry_match": "none",
+    "note": "Fortune lists this name; no GLEIF record matched exactly, so there is no legal-entity identity behind this node yet."
+   },
+   "source": "Fortune (via Wikipedia)",
+   "url": "https://fortune.com/company/china-railway-construction/global500/",
+   "fetched_at": "2026-11-02T10:09:52+00:00"
+  },
+  {
+   "key": "fortune:baowu",
+   "kind": "company",
+   "label": "Baowu",
+   "attrs": {
+    "fortune_rank": 49,
+    "fortune_revenue_usd": 157000000000.0,
+    "fortune_industry": "Steel",
+    "fortune_country": "China",
+    "fortune_cite": "https://fortune.com/company/china-baowu-steel-group/global500/",
+    "registry_match": "none",
+    "note": "Fortune lists this name; no GLEIF record matched exactly, so there is no legal-entity identity behind this node yet."
+   },
+   "source": "Fortune (via Wikipedia)",
+   "url": "https://fortune.com/company/china-baowu-steel-group/global500/",
+   "fetched_at": "2026-11-02T10:09:54+00:00"
+  },
+  {
+   "key": "fortune:skgroup",
+   "kind": "company",
+   "label": "SK Group",
+   "attrs": {
+    "fortune_rank": 50,
+    "fortune_revenue_usd": 153000000000.0,
+    "fortune_industry": "Financials",
+    "fortune_country": "South Korea",
+    "fortune_cite": "https://www.thebell.co.kr/front/newsview.asp?key=202604141550584960106159",
+    "registry_match": "none",
+    "note": "Fortune lists this name; no GLEIF record matched exactly, so there is no legal-entity identity behind this node yet."
+   },
+   "source": "Fortune (via Wikipedia)",
+   "url": "https://www.thebell.co.kr/front/newsview.asp?key=202604141550584960106159",
+   "fetched_at": "2026-11-02T10:09:54+00:00"
+  },
+  {
+   "key": "manual:tianjin-nankai-general-data",
+   "kind": "company",
+   "label": "天津南大通用数据技术股份有限公司",
+   "attrs": {
+    "name_cn": "天津南大通用数据技术股份有限公司",
+    "name_en": "Tianjin Nankai General Data Technology Co., Ltd.",
+    "note": "Chinese domestic database vendor (GBase). No LEI in GLEIF and no open API from the national credit registry; this node is transcribed from the operator's naming and is not machine-verified.",
+    "registry_match": "none (manual record)"
+   },
+   "source": "manual",
+   "url": "",
+   "fetched_at": "2026-11-02T10:09:55+00:00"
+  },
+  {
+   "key": "manual:xieyi",
+   "kind": "company",
+   "label": "协医",
+   "attrs": {
+    "name_cn": "协医",
+    "name_en": "Xieyi (healthcare)",
+    "note": "Name given by the operator; the exact legal entity behind it is not determined. GLEIF name search for 协医 returns only near-matches (枣庄市协盈医疗科技, 山西协诚医工技术服务) and neither is an exact match. This node therefore carries NO registry attributes and exists to hold the place in the graph until the legal name is confirmed.",
+    "registry_match": "none (manual record)"
+   },
+   "source": "manual",
+   "url": "",
+   "fetched_at": "2026-11-02T10:09:55+00:00"
+  }
+ ],
+ "edges": [],
+ "caveats": [
+  "3 Fortune rows matched no GLEIF legal entity: Baowu, China Railway Construction Corporation, SK Group",
+  "Fortune's own Global 500 page is paywalled past the top ten and the Wikipedia ranking article carries only top-ten tables; the pool here is the 55-row 'largest companies by revenue' list, so it is a partial 500.",
+  "GLEIF returns 404 for /direct-parent and /ultimate-parent on a lei-record in this copy of the API, so no ownership-parent edge is drawn from GLEIF at all. Ownership in this graph comes from SEC 13D/13G cover pages only.",
+  "中石油 matched to PetroChina Company Limited, the listed subsidiary, not to China National Petroleum Corporation, the parent: GLEIF has no record under the parent's English name.",
+  "南大通用 and 协医 have no LEI and the Chinese national credit registry (国家企业信用信息公示系统) exposes no open API, so both are manual records with no registry attributes and no edges. Their legal identities are unverified.",
+  "No ownership edge links 南大通用 or 协医 to any Fortune company: no source in this build establishes one, and none was invented."
+ ]
+}

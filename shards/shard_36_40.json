@@ -1,0 +1,325 @@
+{
+ "nodes": [
+  {
+   "key": "lei:9DJT3UXIJIZJI4WXO774",
+   "kind": "company",
+   "label": "BANK OF AMERICA CORPORATION",
+   "attrs": {
+    "fortune_rank": 43,
+    "fortune_revenue_usd": 171000000000.0,
+    "fortune_industry": "",
+    "fortune_country": "United States",
+    "fortune_cite": "https://fortune.com/company/bank-of-america-corp/",
+    "lei": "9DJT3UXIJIZJI4WXO774",
+    "country": "US",
+    "city": "WILMINGTON",
+    "status": "ACTIVE",
+    "matched_on": "Bank of America"
+   },
+   "source": "GLEIF",
+   "url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Bank%20of%20America",
+   "fetched_at": "2026-11-02T10:09:34+00:00"
+  },
+  {
+   "key": "lei:6488WGUD2TY76047V783",
+   "kind": "company",
+   "label": "GENERAL MOTORS",
+   "attrs": {
+    "fortune_rank": 44,
+    "fortune_revenue_usd": 171000000000.0,
+    "fortune_industry": "Automotive",
+    "fortune_country": "United States",
+    "fortune_cite": "https://fortune.com/company/general-motors/",
+    "lei": "6488WGUD2TY76047V783",
+    "country": "IN",
+    "city": "Bhojpur",
+    "status": "ACTIVE",
+    "matched_on": "General Motors",
+    "cik": "1467858",
+    "ticker": "GM",
+    "_sources": [
+     "GLEIF",
+     "SEC EDGAR"
+    ]
+   },
+   "source": "GLEIF",
+   "url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=General%20Motors",
+   "fetched_at": "2026-11-02T10:09:38+00:00"
+  },
+  {
+   "key": "fortune:44",
+   "kind": "company",
+   "label": "General Motors",
+   "attrs": {
+    "fortune_rank": 44,
+    "cik": "1467858",
+    "ticker": "GM"
+   },
+   "source": "Fortune (via Wikipedia)",
+   "url": "https://fortune.com/company/general-motors/",
+   "fetched_at": "2026-11-02T10:09:38+00:00"
+  },
+  {
+   "key": "holder:warrenebuffett",
+   "kind": "person",
+   "label": "Warren E. Buffett",
+   "attrs": {
+    "kind": "person",
+    "shares": 60000000,
+    "percent": 4.1
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/1467858/000119312522041648/d486259dsc13ga.htm",
+   "fetched_at": "2026-11-02T10:09:43+00:00"
+  },
+  {
+   "key": "holder:berkshirehathaway",
+   "kind": "person",
+   "label": "Berkshire Hathaway Inc",
+   "attrs": {
+    "kind": "company",
+    "shares": 60000000,
+    "percent": 4.1
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/1467858/000119312522041648/d486259dsc13ga.htm",
+   "fetched_at": "2026-11-02T10:09:43+00:00"
+  },
+  {
+   "key": "holder:nationalindemnity",
+   "kind": "person",
+   "label": "National Indemnity Company",
+   "attrs": {
+    "kind": "company",
+    "shares": 39707162,
+    "percent": 2.7
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/1467858/000119312522041648/d486259dsc13ga.htm",
+   "fetched_at": "2026-11-02T10:09:43+00:00"
+  },
+  {
+   "key": "holder:gei",
+   "kind": "person",
+   "label": "GEICO Corporation",
+   "attrs": {
+    "kind": "company",
+    "shares": 24887209,
+    "percent": 1.7
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/1467858/000119312522041648/d486259dsc13ga.htm",
+   "fetched_at": "2026-11-02T10:09:43+00:00"
+  },
+  {
+   "key": "holder:governmentemployeesinsurance",
+   "kind": "person",
+   "label": "Government Employees Insurance Company",
+   "attrs": {
+    "kind": "company",
+    "shares": 11739909,
+    "percent": 0.8
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/1467858/000119312522041648/d486259dsc13ga.htm",
+   "fetched_at": "2026-11-02T10:09:43+00:00"
+  },
+  {
+   "key": "holder:geicoindemnity",
+   "kind": "person",
+   "label": "GEICO Indemnity Company",
+   "attrs": {
+    "kind": "company",
+    "shares": 7945845,
+    "percent": 0.5
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/1467858/000119312522041648/d486259dsc13ga.htm",
+   "fetched_at": "2026-11-02T10:09:43+00:00"
+  },
+  {
+   "key": "lei:8MYN82XMYQH89CTMTH67",
+   "kind": "company",
+   "label": "ELEVANCE HEALTH, INC.",
+   "attrs": {
+    "fortune_rank": 45,
+    "fortune_revenue_usd": 171000000000.0,
+    "fortune_industry": "Healthcare",
+    "fortune_country": "United States",
+    "fortune_cite": "https://fortune.com/company/elevance-health/",
+    "lei": "8MYN82XMYQH89CTMTH67",
+    "country": "US",
+    "city": "INDIANAPOLIS",
+    "status": "ACTIVE",
+    "matched_on": "Elevance Health",
+    "cik": "1156039",
+    "ticker": "ELV",
+    "_sources": [
+     "GLEIF",
+     "SEC EDGAR"
+    ]
+   },
+   "source": "GLEIF",
+   "url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Elevance%20Health",
+   "fetched_at": "2026-11-02T10:09:43+00:00"
+  },
+  {
+   "key": "fortune:45",
+   "kind": "company",
+   "label": "Elevance Health",
+   "attrs": {
+    "fortune_rank": 45,
+    "cik": "1156039",
+    "ticker": "ELV"
+   },
+   "source": "Fortune (via Wikipedia)",
+   "url": "https://fortune.com/company/elevance-health/",
+   "fetched_at": "2026-11-02T10:09:43+00:00"
+  },
+  {
+   "key": "fortune:bmw",
+   "kind": "company",
+   "label": "BMW Group",
+   "attrs": {
+    "fortune_rank": 46,
+    "fortune_revenue_usd": 168000000000.0,
+    "fortune_industry": "Automotive",
+    "fortune_country": "Germany",
+    "fortune_cite": "https://fortune.com/company/bmw-group/",
+    "registry_match": "none",
+    "note": "Fortune lists this name; no GLEIF record matched exactly, so there is no legal-entity identity behind this node yet."
+   },
+   "source": "Fortune (via Wikipedia)",
+   "url": "https://fortune.com/company/bmw-group/",
+   "fetched_at": "2026-11-02T10:09:49+00:00"
+  },
+  {
+   "key": "manual:tianjin-nankai-general-data",
+   "kind": "company",
+   "label": "天津南大通用数据技术股份有限公司",
+   "attrs": {
+    "name_cn": "天津南大通用数据技术股份有限公司",
+    "name_en": "Tianjin Nankai General Data Technology Co., Ltd.",
+    "note": "Chinese domestic database vendor (GBase). No LEI in GLEIF and no open API from the national credit registry; this node is transcribed from the operator's naming and is not machine-verified.",
+    "registry_match": "none (manual record)"
+   },
+   "source": "manual",
+   "url": "",
+   "fetched_at": "2026-11-02T10:09:49+00:00"
+  },
+  {
+   "key": "manual:xieyi",
+   "kind": "company",
+   "label": "协医",
+   "attrs": {
+    "name_cn": "协医",
+    "name_en": "Xieyi (healthcare)",
+    "note": "Name given by the operator; the exact legal entity behind it is not determined. GLEIF name search for 协医 returns only near-matches (枣庄市协盈医疗科技, 山西协诚医工技术服务) and neither is an exact match. This node therefore carries NO registry attributes and exists to hold the place in the graph until the legal name is confirmed.",
+    "registry_match": "none (manual record)"
+   },
+   "source": "manual",
+   "url": "",
+   "fetched_at": "2026-11-02T10:09:49+00:00"
+  }
+ ],
+ "edges": [
+  {
+   "src": "holder:warrenebuffett",
+   "dst": "fortune:44",
+   "rel": "holder_of",
+   "attrs": {
+    "form": "SC 13G/A",
+    "date": "2022-02-14",
+    "accession": "0001193125-22-041648",
+    "shares": 60000000,
+    "percent": 4.1
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/1467858/000119312522041648/d486259dsc13ga.htm",
+   "fetched_at": "2026-11-02T10:09:43+00:00"
+  },
+  {
+   "src": "holder:berkshirehathaway",
+   "dst": "fortune:44",
+   "rel": "holder_of",
+   "attrs": {
+    "form": "SC 13G/A",
+    "date": "2022-02-14",
+    "accession": "0001193125-22-041648",
+    "shares": 60000000,
+    "percent": 4.1
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/1467858/000119312522041648/d486259dsc13ga.htm",
+   "fetched_at": "2026-11-02T10:09:43+00:00"
+  },
+  {
+   "src": "holder:nationalindemnity",
+   "dst": "fortune:44",
+   "rel": "holder_of",
+   "attrs": {
+    "form": "SC 13G/A",
+    "date": "2022-02-14",
+    "accession": "0001193125-22-041648",
+    "shares": 39707162,
+    "percent": 2.7
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/1467858/000119312522041648/d486259dsc13ga.htm",
+   "fetched_at": "2026-11-02T10:09:43+00:00"
+  },
+  {
+   "src": "holder:gei",
+   "dst": "fortune:44",
+   "rel": "holder_of",
+   "attrs": {
+    "form": "SC 13G/A",
+    "date": "2022-02-14",
+    "accession": "0001193125-22-041648",
+    "shares": 24887209,
+    "percent": 1.7
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/1467858/000119312522041648/d486259dsc13ga.htm",
+   "fetched_at": "2026-11-02T10:09:43+00:00"
+  },
+  {
+   "src": "holder:governmentemployeesinsurance",
+   "dst": "fortune:44",
+   "rel": "holder_of",
+   "attrs": {
+    "form": "SC 13G/A",
+    "date": "2022-02-14",
+    "accession": "0001193125-22-041648",
+    "shares": 11739909,
+    "percent": 0.8
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/1467858/000119312522041648/d486259dsc13ga.htm",
+   "fetched_at": "2026-11-02T10:09:43+00:00"
+  },
+  {
+   "src": "holder:geicoindemnity",
+   "dst": "fortune:44",
+   "rel": "holder_of",
+   "attrs": {
+    "form": "SC 13G/A",
+    "date": "2022-02-14",
+    "accession": "0001193125-22-041648",
+    "shares": 7945845,
+    "percent": 0.5
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/1467858/000119312522041648/d486259dsc13ga.htm",
+   "fetched_at": "2026-11-02T10:09:43+00:00"
+  }
+ ],
+ "caveats": [
+  "1 Fortune rows matched no GLEIF legal entity: BMW Group",
+  "Fortune's own Global 500 page is paywalled past the top ten and the Wikipedia ranking article carries only top-ten tables; the pool here is the 55-row 'largest companies by revenue' list, so it is a partial 500.",
+  "GLEIF returns 404 for /direct-parent and /ultimate-parent on a lei-record in this copy of the API, so no ownership-parent edge is drawn from GLEIF at all. Ownership in this graph comes from SEC 13D/13G cover pages only.",
+  "中石油 matched to PetroChina Company Limited, the listed subsidiary, not to China National Petroleum Corporation, the parent: GLEIF has no record under the parent's English name.",
+  "南大通用 and 协医 have no LEI and the Chinese national credit registry (国家企业信用信息公示系统) exposes no open API, so both are manual records with no registry attributes and no edges. Their legal identities are unverified.",
+  "No ownership edge links 南大通用 or 协医 to any Fortune company: no source in this build establishes one, and none was invented."
+ ]
+}

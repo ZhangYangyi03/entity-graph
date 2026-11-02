@@ -1,0 +1,306 @@
+{
+ "nodes": [
+  {
+   "key": "lei:254900JAIX71VO1NS489",
+   "kind": "company",
+   "label": "CHEVRON LIMITED",
+   "attrs": {
+    "fortune_rank": 34,
+    "fortune_revenue_usd": 200000000000.0,
+    "fortune_industry": "Oil and gas",
+    "fortune_country": null,
+    "fortune_cite": "https://fortune.com/company/chevron/global500/",
+    "lei": "254900JAIX71VO1NS489",
+    "country": "MT",
+    "city": "MARSASKALA",
+    "status": "ACTIVE",
+    "matched_on": "Chevron",
+    "cik": "93410",
+    "ticker": "CVX",
+    "_sources": [
+     "GLEIF",
+     "SEC EDGAR"
+    ]
+   },
+   "source": "GLEIF",
+   "url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Chevron",
+   "fetched_at": "2026-11-02T10:09:05+00:00"
+  },
+  {
+   "key": "fortune:34",
+   "kind": "company",
+   "label": "Chevron",
+   "attrs": {
+    "fortune_rank": 34,
+    "cik": "93410",
+    "ticker": "CVX"
+   },
+   "source": "Fortune (via Wikipedia)",
+   "url": "https://fortune.com/company/chevron/global500/",
+   "fetched_at": "2026-11-02T10:09:08+00:00"
+  },
+  {
+   "key": "holder:statestreet",
+   "kind": "person",
+   "label": "STATE STREET CORPORATION",
+   "attrs": {
+    "kind": "company",
+    "shares": 159117156,
+    "percent": 8.7
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/93410/000009375124000727/0000093751-24-000727.txt",
+   "fetched_at": "2026-11-02T10:09:14+00:00"
+  },
+  {
+   "key": "holder:warrenebuffett",
+   "kind": "person",
+   "label": "Warren E. Buffett",
+   "attrs": {
+    "kind": "person",
+    "shares": 126093326,
+    "percent": 6.7
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/93410/000119312524036487/d756261dsc13ga.htm",
+   "fetched_at": "2026-11-02T10:09:14+00:00"
+  },
+  {
+   "key": "holder:berkshirehathaway",
+   "kind": "person",
+   "label": "Berkshire Hathaway Inc",
+   "attrs": {
+    "kind": "company",
+    "shares": 126093326,
+    "percent": 6.7
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/93410/000119312524036487/d756261dsc13ga.htm",
+   "fetched_at": "2026-11-02T10:09:14+00:00"
+  },
+  {
+   "key": "holder:nationalindemnity",
+   "kind": "person",
+   "label": "National Indemnity Company",
+   "attrs": {
+    "kind": "company",
+    "shares": 101640925,
+    "percent": 5.4
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/93410/000119312524036487/d756261dsc13ga.htm",
+   "fetched_at": "2026-11-02T10:09:14+00:00"
+  },
+  {
+   "key": "holder:gei",
+   "kind": "person",
+   "label": "GEICO Corporation",
+   "attrs": {
+    "kind": "company",
+    "shares": 40000000,
+    "percent": 2.1
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/93410/000119312524036487/d756261dsc13ga.htm",
+   "fetched_at": "2026-11-02T10:09:14+00:00"
+  },
+  {
+   "key": "holder:governmentemployeesinsurance",
+   "kind": "person",
+   "label": "Government Employees Insurance Company",
+   "attrs": {
+    "kind": "company",
+    "shares": 40000000,
+    "percent": 2.1
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/93410/000119312524036487/d756261dsc13ga.htm",
+   "fetched_at": "2026-11-02T10:09:14+00:00"
+  },
+  {
+   "key": "lei:2549006EHFY98CQJZN84",
+   "kind": "company",
+   "label": "China Construction Bank Corporation",
+   "attrs": {
+    "fortune_rank": 35,
+    "fortune_revenue_usd": 199000000000.0,
+    "fortune_industry": "Financials",
+    "fortune_country": "China",
+    "fortune_cite": "https://fortune.com/company/china-construction-bank/global500/",
+    "lei": "2549006EHFY98CQJZN84",
+    "country": "NZ",
+    "city": "Auckland",
+    "status": "ACTIVE",
+    "matched_on": "China Construction Bank"
+   },
+   "source": "GLEIF",
+   "url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=China%20Construction%20Bank",
+   "fetched_at": "2026-11-02T10:09:14+00:00"
+  },
+  {
+   "key": "fortune:foxconn",
+   "kind": "company",
+   "label": "Foxconn",
+   "attrs": {
+    "fortune_rank": 36,
+    "fortune_revenue_usd": 197000000000.0,
+    "fortune_industry": "Electronics",
+    "fortune_country": "Taiwan",
+    "fortune_cite": "https://fortune.com/company/hon-hai-precision-industry/global500/",
+    "registry_match": "none",
+    "note": "Fortune lists this name; no GLEIF record matched exactly, so there is no legal-entity identity behind this node yet."
+   },
+   "source": "Fortune (via Wikipedia)",
+   "url": "https://fortune.com/company/hon-hai-precision-industry/global500/",
+   "fetched_at": "2026-11-02T10:09:14+00:00"
+  },
+  {
+   "key": "lei:549300E7TSGLCOVSY746",
+   "kind": "company",
+   "label": "中国农业银行股份有限公司",
+   "attrs": {
+    "fortune_rank": 38,
+    "fortune_revenue_usd": 192000000000.0,
+    "fortune_industry": "Financials",
+    "fortune_country": "China",
+    "fortune_cite": "https://fortune.com/company/agricultural-bank-of-china/global500/",
+    "lei": "549300E7TSGLCOVSY746",
+    "country": "CN",
+    "city": "东城区",
+    "status": "ACTIVE",
+    "matched_on": "中国农业银行股份有限公司"
+   },
+   "source": "GLEIF",
+   "url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=%E4%B8%AD%E5%9B%BD%E5%86%9C%E4%B8%9A%E9%93%B6%E8%A1%8C%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+   "fetched_at": "2026-11-02T10:09:14+00:00"
+  },
+  {
+   "key": "manual:tianjin-nankai-general-data",
+   "kind": "company",
+   "label": "天津南大通用数据技术股份有限公司",
+   "attrs": {
+    "name_cn": "天津南大通用数据技术股份有限公司",
+    "name_en": "Tianjin Nankai General Data Technology Co., Ltd.",
+    "note": "Chinese domestic database vendor (GBase). No LEI in GLEIF and no open API from the national credit registry; this node is transcribed from the operator's naming and is not machine-verified.",
+    "registry_match": "none (manual record)"
+   },
+   "source": "manual",
+   "url": "",
+   "fetched_at": "2026-11-02T10:09:15+00:00"
+  },
+  {
+   "key": "manual:xieyi",
+   "kind": "company",
+   "label": "协医",
+   "attrs": {
+    "name_cn": "协医",
+    "name_en": "Xieyi (healthcare)",
+    "note": "Name given by the operator; the exact legal entity behind it is not determined. GLEIF name search for 协医 returns only near-matches (枣庄市协盈医疗科技, 山西协诚医工技术服务) and neither is an exact match. This node therefore carries NO registry attributes and exists to hold the place in the graph until the legal name is confirmed.",
+    "registry_match": "none (manual record)"
+   },
+   "source": "manual",
+   "url": "",
+   "fetched_at": "2026-11-02T10:09:15+00:00"
+  }
+ ],
+ "edges": [
+  {
+   "src": "holder:statestreet",
+   "dst": "fortune:34",
+   "rel": "holder_of",
+   "attrs": {
+    "form": "SC 13G/A",
+    "date": "2024-10-16",
+    "accession": "0000093751-24-000727",
+    "shares": 159117156,
+    "percent": 8.7
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/93410/000009375124000727/0000093751-24-000727.txt",
+   "fetched_at": "2026-11-02T10:09:14+00:00"
+  },
+  {
+   "src": "holder:warrenebuffett",
+   "dst": "fortune:34",
+   "rel": "holder_of",
+   "attrs": {
+    "form": "SC 13G/A",
+    "date": "2024-02-14",
+    "accession": "0001193125-24-036487",
+    "shares": 126093326,
+    "percent": 6.7
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/93410/000119312524036487/d756261dsc13ga.htm",
+   "fetched_at": "2026-11-02T10:09:14+00:00"
+  },
+  {
+   "src": "holder:berkshirehathaway",
+   "dst": "fortune:34",
+   "rel": "holder_of",
+   "attrs": {
+    "form": "SC 13G/A",
+    "date": "2024-02-14",
+    "accession": "0001193125-24-036487",
+    "shares": 126093326,
+    "percent": 6.7
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/93410/000119312524036487/d756261dsc13ga.htm",
+   "fetched_at": "2026-11-02T10:09:14+00:00"
+  },
+  {
+   "src": "holder:nationalindemnity",
+   "dst": "fortune:34",
+   "rel": "holder_of",
+   "attrs": {
+    "form": "SC 13G/A",
+    "date": "2024-02-14",
+    "accession": "0001193125-24-036487",
+    "shares": 101640925,
+    "percent": 5.4
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/93410/000119312524036487/d756261dsc13ga.htm",
+   "fetched_at": "2026-11-02T10:09:14+00:00"
+  },
+  {
+   "src": "holder:gei",
+   "dst": "fortune:34",
+   "rel": "holder_of",
+   "attrs": {
+    "form": "SC 13G/A",
+    "date": "2024-02-14",
+    "accession": "0001193125-24-036487",
+    "shares": 40000000,
+    "percent": 2.1
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/93410/000119312524036487/d756261dsc13ga.htm",
+   "fetched_at": "2026-11-02T10:09:14+00:00"
+  },
+  {
+   "src": "holder:governmentemployeesinsurance",
+   "dst": "fortune:34",
+   "rel": "holder_of",
+   "attrs": {
+    "form": "SC 13G/A",
+    "date": "2024-02-14",
+    "accession": "0001193125-24-036487",
+    "shares": 40000000,
+    "percent": 2.1
+   },
+   "source": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/93410/000119312524036487/d756261dsc13ga.htm",
+   "fetched_at": "2026-11-02T10:09:14+00:00"
+  }
+ ],
+ "caveats": [
+  "1 Fortune rows matched no GLEIF legal entity: Foxconn",
+  "Fortune's own Global 500 page is paywalled past the top ten and the Wikipedia ranking article carries only top-ten tables; the pool here is the 55-row 'largest companies by revenue' list, so it is a partial 500.",
+  "GLEIF returns 404 for /direct-parent and /ultimate-parent on a lei-record in this copy of the API, so no ownership-parent edge is drawn from GLEIF at all. Ownership in this graph comes from SEC 13D/13G cover pages only.",
+  "中石油 matched to PetroChina Company Limited, the listed subsidiary, not to China National Petroleum Corporation, the parent: GLEIF has no record under the parent's English name.",
+  "南大通用 and 协医 have no LEI and the Chinese national credit registry (国家企业信用信息公示系统) exposes no open API, so both are manual records with no registry attributes and no edges. Their legal identities are unverified.",
+  "No ownership edge links 南大通用 or 协医 to any Fortune company: no source in this build establishes one, and none was invented."
+ ]
+}

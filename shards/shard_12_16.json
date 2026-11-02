@@ -1,0 +1,140 @@
+{
+ "nodes": [
+  {
+   "key": "lei:213800RMU1ZFW9LWZZ75",
+   "kind": "company",
+   "label": "VITOL B.V.",
+   "attrs": {
+    "fortune_rank": 15,
+    "fortune_revenue_usd": 331000000000.0,
+    "fortune_industry": "Commodities",
+    "fortune_country": null,
+    "fortune_cite": "https://www.vitol.com/vitol-2024-volumes-and-review/",
+    "lei": "213800RMU1ZFW9LWZZ75",
+    "country": "NL",
+    "city": "ROTTERDAM",
+    "status": "ACTIVE",
+    "matched_on": "Vitol"
+   },
+   "source": "GLEIF",
+   "url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Vitol",
+   "fetched_at": "2026-11-02T10:07:53+00:00"
+  },
+  {
+   "key": "lei:21380068P1DRHMJ8KU70",
+   "kind": "company",
+   "label": "SHELL PLC",
+   "attrs": {
+    "fortune_rank": 16,
+    "fortune_revenue_usd": 323000000000.0,
+    "fortune_industry": "Oil and gas",
+    "fortune_country": "United Kingdom",
+    "fortune_cite": "https://fortune.com/company/royal-dutch-shell/global500/",
+    "lei": "21380068P1DRHMJ8KU70",
+    "country": "GB",
+    "city": "LONDON",
+    "status": "ACTIVE",
+    "matched_on": "Shell",
+    "cik": "1306965",
+    "ticker": "SHEL",
+    "_sources": [
+     "GLEIF",
+     "SEC EDGAR"
+    ]
+   },
+   "source": "GLEIF",
+   "url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Shell",
+   "fetched_at": "2026-11-02T10:07:57+00:00"
+  },
+  {
+   "key": "fortune:16",
+   "kind": "company",
+   "label": "Shell",
+   "attrs": {
+    "fortune_rank": 16,
+    "cik": "1306965",
+    "ticker": "SHEL"
+   },
+   "source": "Fortune (via Wikipedia)",
+   "url": "https://fortune.com/company/royal-dutch-shell/global500/",
+   "fetched_at": "2026-11-02T10:07:57+00:00"
+  },
+  {
+   "key": "lei:300300CWW8WOEV3BR645",
+   "kind": "company",
+   "label": "中国建筑股份有限公司",
+   "attrs": {
+    "fortune_rank": 17,
+    "fortune_revenue_usd": 320000000000.0,
+    "fortune_industry": "Construction",
+    "fortune_country": "China",
+    "fortune_cite": "https://fortune.com/company/china-state-construction-engineering/global500/",
+    "lei": "300300CWW8WOEV3BR645",
+    "country": "CN",
+    "city": "海淀区",
+    "status": "ACTIVE",
+    "matched_on": "中国建筑股份有限公司"
+   },
+   "source": "GLEIF",
+   "url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=%E4%B8%AD%E5%9B%BD%E5%BB%BA%E7%AD%91%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+   "fetched_at": "2026-11-02T10:08:03+00:00"
+  },
+  {
+   "key": "lei:5493006W3QUS5LMH6R84",
+   "kind": "company",
+   "label": "トヨタ自動車株式会社",
+   "attrs": {
+    "fortune_rank": 18,
+    "fortune_revenue_usd": 312000000000.0,
+    "fortune_industry": "Automotive",
+    "fortune_country": "Japan",
+    "fortune_cite": "https://fortune.com/company/toyota-motor/global500/",
+    "lei": "5493006W3QUS5LMH6R84",
+    "country": "JP",
+    "city": "愛知県 豊田市",
+    "status": "ACTIVE",
+    "matched_on": "トヨタ自動車株式会社"
+   },
+   "source": "GLEIF",
+   "url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=%E3%83%88%E3%83%A8%E3%82%BF%E8%87%AA%E5%8B%95%E8%BB%8A%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE",
+   "fetched_at": "2026-11-02T10:08:03+00:00"
+  },
+  {
+   "key": "manual:tianjin-nankai-general-data",
+   "kind": "company",
+   "label": "天津南大通用数据技术股份有限公司",
+   "attrs": {
+    "name_cn": "天津南大通用数据技术股份有限公司",
+    "name_en": "Tianjin Nankai General Data Technology Co., Ltd.",
+    "note": "Chinese domestic database vendor (GBase). No LEI in GLEIF and no open API from the national credit registry; this node is transcribed from the operator's naming and is not machine-verified.",
+    "registry_match": "none (manual record)"
+   },
+   "source": "manual",
+   "url": "",
+   "fetched_at": "2026-11-02T10:08:03+00:00"
+  },
+  {
+   "key": "manual:xieyi",
+   "kind": "company",
+   "label": "协医",
+   "attrs": {
+    "name_cn": "协医",
+    "name_en": "Xieyi (healthcare)",
+    "note": "Name given by the operator; the exact legal entity behind it is not determined. GLEIF name search for 协医 returns only near-matches (枣庄市协盈医疗科技, 山西协诚医工技术服务) and neither is an exact match. This node therefore carries NO registry attributes and exists to hold the place in the graph until the legal name is confirmed.",
+    "registry_match": "none (manual record)"
+   },
+   "source": "manual",
+   "url": "",
+   "fetched_at": "2026-11-02T10:08:03+00:00"
+  }
+ ],
+ "edges": [],
+ "caveats": [
+  "0 Fortune rows matched no GLEIF legal entity: ",
+  "Fortune's own Global 500 page is paywalled past the top ten and the Wikipedia ranking article carries only top-ten tables; the pool here is the 55-row 'largest companies by revenue' list, so it is a partial 500.",
+  "GLEIF returns 404 for /direct-parent and /ultimate-parent on a lei-record in this copy of the API, so no ownership-parent edge is drawn from GLEIF at all. Ownership in this graph comes from SEC 13D/13G cover pages only.",
+  "中石油 matched to PetroChina Company Limited, the listed subsidiary, not to China National Petroleum Corporation, the parent: GLEIF has no record under the parent's English name.",
+  "南大通用 and 协医 have no LEI and the Chinese national credit registry (国家企业信用信息公示系统) exposes no open API, so both are manual records with no registry attributes and no edges. Their legal identities are unverified.",
+  "No ownership edge links 南大通用 or 协医 to any Fortune company: no source in this build establishes one, and none was invented."
+ ]
+}

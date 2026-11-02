@@ -1,0 +1,178 @@
+{
+ "nodes": [
+  {
+   "key": "lei:549300EJG376EN5NQE29",
+   "kind": "company",
+   "label": "CVS HEALTH CORPORATION",
+   "attrs": {
+    "fortune_rank": 11,
+    "fortune_revenue_usd": 357000000000.0,
+    "fortune_industry": "Healthcare",
+    "fortune_country": null,
+    "fortune_cite": "https://fortune.com/company/cvs-health/global500/",
+    "lei": "549300EJG376EN5NQE29",
+    "country": "US",
+    "city": "WILMINGTON",
+    "status": "ACTIVE",
+    "matched_on": "CVS Health",
+    "cik": "64803",
+    "ticker": "CVS",
+    "_sources": [
+     "GLEIF",
+     "SEC EDGAR"
+    ]
+   },
+   "source": "GLEIF",
+   "url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=CVS%20Health",
+   "fetched_at": "2026-11-02T10:07:30+00:00"
+  },
+  {
+   "key": "fortune:11",
+   "kind": "company",
+   "label": "CVS Health",
+   "attrs": {
+    "fortune_rank": 11,
+    "cik": "64803",
+    "ticker": "CVS"
+   },
+   "source": "Fortune (via Wikipedia)",
+   "url": "https://fortune.com/company/cvs-health/global500/",
+   "fetched_at": "2026-11-02T10:07:34+00:00"
+  },
+  {
+   "key": "lei:549300PSVDV3P50KHS39",
+   "kind": "company",
+   "label": "VOLKSWAGEN AKTIENGESELLSCHAFT",
+   "attrs": {
+    "fortune_rank": 12,
+    "fortune_revenue_usd": 348000000000.0,
+    "fortune_industry": "Automotive",
+    "fortune_country": "Germany",
+    "fortune_cite": "https://fortune.com/company/volkswagen/global500/",
+    "lei": "549300PSVDV3P50KHS39",
+    "country": "DE",
+    "city": "WOLFSBURG",
+    "status": "NULL",
+    "matched_on": "VOLKSWAGEN AKTIENGESELLSCHAFT"
+   },
+   "source": "GLEIF",
+   "url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=VOLKSWAGEN%20AKTIENGESELLSCHAFT",
+   "fetched_at": "2026-11-02T10:07:40+00:00"
+  },
+  {
+   "key": "lei:J3WHBG0MTS7O8ZVMDC91",
+   "kind": "company",
+   "label": "EXXON MOBIL CORPORATION",
+   "attrs": {
+    "fortune_rank": 13,
+    "fortune_revenue_usd": 344000000000.0,
+    "fortune_industry": "Oil and gas",
+    "fortune_country": "United States",
+    "fortune_cite": "https://fortune.com/company/exxon-mobil/global500/",
+    "lei": "J3WHBG0MTS7O8ZVMDC91",
+    "country": "US",
+    "city": "Ewing",
+    "status": "ACTIVE",
+    "matched_on": "Exxon Mobil Corporation",
+    "cik": "2115436",
+    "ticker": "XOM",
+    "_sources": [
+     "GLEIF",
+     "SEC EDGAR"
+    ]
+   },
+   "source": "GLEIF",
+   "url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Exxon%20Mobil%20Corporation",
+   "fetched_at": "2026-11-02T10:07:40+00:00"
+  },
+  {
+   "key": "fortune:13",
+   "kind": "company",
+   "label": "ExxonMobil",
+   "attrs": {
+    "fortune_rank": 13,
+    "cik": "2115436",
+    "ticker": "XOM"
+   },
+   "source": "Fortune (via Wikipedia)",
+   "url": "https://fortune.com/company/exxon-mobil/global500/",
+   "fetched_at": "2026-11-02T10:07:40+00:00"
+  },
+  {
+   "key": "lei:967600DJA1Q8K13MZ845",
+   "kind": "company",
+   "label": "Microsoft",
+   "attrs": {
+    "fortune_rank": 14,
+    "fortune_revenue_usd": 332000000000.0,
+    "fortune_industry": "Information technology",
+    "fortune_country": "United States",
+    "fortune_cite": "https://techcrunch.com/2026/07/29/microsoft-logs-3-2b-from-anthropic-investment-but-openai-was-a-mixed-bag/",
+    "lei": "967600DJA1Q8K13MZ845",
+    "country": "BE",
+    "city": "Zaventem",
+    "status": "ACTIVE",
+    "matched_on": "Microsoft",
+    "cik": "789019",
+    "ticker": "MSFT",
+    "_sources": [
+     "GLEIF",
+     "SEC EDGAR"
+    ]
+   },
+   "source": "GLEIF",
+   "url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Microsoft",
+   "fetched_at": "2026-11-02T10:07:44+00:00"
+  },
+  {
+   "key": "fortune:14",
+   "kind": "company",
+   "label": "Microsoft",
+   "attrs": {
+    "fortune_rank": 14,
+    "cik": "789019",
+    "ticker": "MSFT"
+   },
+   "source": "Fortune (via Wikipedia)",
+   "url": "https://techcrunch.com/2026/07/29/microsoft-logs-3-2b-from-anthropic-investment-but-openai-was-a-mixed-bag/",
+   "fetched_at": "2026-11-02T10:07:44+00:00"
+  },
+  {
+   "key": "manual:tianjin-nankai-general-data",
+   "kind": "company",
+   "label": "天津南大通用数据技术股份有限公司",
+   "attrs": {
+    "name_cn": "天津南大通用数据技术股份有限公司",
+    "name_en": "Tianjin Nankai General Data Technology Co., Ltd.",
+    "note": "Chinese domestic database vendor (GBase). No LEI in GLEIF and no open API from the national credit registry; this node is transcribed from the operator's naming and is not machine-verified.",
+    "registry_match": "none (manual record)"
+   },
+   "source": "manual",
+   "url": "",
+   "fetched_at": "2026-11-02T10:07:50+00:00"
+  },
+  {
+   "key": "manual:xieyi",
+   "kind": "company",
+   "label": "协医",
+   "attrs": {
+    "name_cn": "协医",
+    "name_en": "Xieyi (healthcare)",
+    "note": "Name given by the operator; the exact legal entity behind it is not determined. GLEIF name search for 协医 returns only near-matches (枣庄市协盈医疗科技, 山西协诚医工技术服务) and neither is an exact match. This node therefore carries NO registry attributes and exists to hold the place in the graph until the legal name is confirmed.",
+    "registry_match": "none (manual record)"
+   },
+   "source": "manual",
+   "url": "",
+   "fetched_at": "2026-11-02T10:07:50+00:00"
+  }
+ ],
+ "edges": [],
+ "caveats": [
+  "0 Fortune rows matched no GLEIF legal entity: ",
+  "Fortune's own Global 500 page is paywalled past the top ten and the Wikipedia ranking article carries only top-ten tables; the pool here is the 55-row 'largest companies by revenue' list, so it is a partial 500.",
+  "GLEIF returns 404 for /direct-parent and /ultimate-parent on a lei-record in this copy of the API, so no ownership-parent edge is drawn from GLEIF at all. Ownership in this graph comes from SEC 13D/13G cover pages only.",
+  "中石油 matched to PetroChina Company Limited, the listed subsidiary, not to China National Petroleum Corporation, the parent: GLEIF has no record under the parent's English name.",
+  "南大通用 and 协医 have no LEI and the Chinese national credit registry (国家企业信用信息公示系统) exposes no open API, so both are manual records with no registry attributes and no edges. Their legal identities are unverified.",
+  "No ownership edge links 南大通用 or 协医 to any Fortune company: no source in this build establishes one, and none was invented."
+ ]
+}
