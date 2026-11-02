@@ -108,6 +108,89 @@ def _emit(sub: Graph, fmt: str) -> int:
     return 0
 
 
+def _orbit(args) -> int:
+    """Where things are, and which two of them are close. Reads files, never the network."""
+    import json as _json
+    from . import orbit as _o
+
+    if not args.elements:
+        print("need at least one --elements file (CelesTrak GP JSON)", file=sys.stderr)
+        return 2
+
+    elements = []
+    for path in args.elements:
+        for rec in _json.load(open(path, encoding="utf-8")):
+            elements.append(_o.from_gp(rec))
+    t0 = max(e.epoch_ts for e in elements)
+
+    if args.what == "catalog":
+        import collections as _c
+        alts = [e.altitude for e in elements]
+        bands = _c.Counter("LEO" if h < 2000 else ("MEO" if h < 30000 else "GEO+") for h in alts)
+        out = {
+            "objects": len(elements),
+            "epoch": max(e.epoch for e in elements),
+            "altitude_km": {"min": min(alts), "median": sorted(alts)[len(alts) // 2],
+                            "max": max(alts)},
+            "bands": dict(bands),
+        }
+        if args.satcat:
+            from . import satcat as _sat
+            rows = _sat.parse_rows(_json.load(open(args.satcat, encoding="utf-8")))
+            out["catalogue"] = _sat.summary(rows)
+        if args.format == "json":
+            print(_json.dumps(out, ensure_ascii=False, indent=2))
+        else:
+            print(f"objects {out['objects']}  epoch {out['epoch'][:19]}")
+            print(f"altitude_km  min {out['altitude_km']['min']:.0f}  "
+                  f"median {out['altitude_km']['median']:.0f}  max {out['altitude_km']['max']:.0f}")
+            print("bands: " + " ".join(f"{k}={v}" for k, v in sorted(bands.items())))
+            cat = out.get("catalogue")
+            if cat:
+                print(f"on orbit {cat['on_orbit']}  types: " +
+                      " ".join(f"{k}={v}" for k, v in cat["by_object_type"].items()))
+                print("top owners:   " + "  ".join(
+                    f"{k}={v}" for k, v in list(cat["by_owner"].items())[:8]))
+                print("top operators:" + "  ".join(
+                    f"{k}={v}" for k, v in list(cat["by_operator"].items())[:8]))
+        return 0
+
+    # close approaches
+    pairs = _o.candidate_pairs(elements)
+    real = [(a, b) for a, b in pairs if not _o.is_duplicate_geometry(a, b)]
+    # Centre the window on the freshest element epoch rather than running forward from it:
+    # element sets of different ages all describe the same instant well at their own epoch,
+    # and a forward window spends its time extrapolating the oldest ones.
+    t_start = t0 - args.window_min * 60.0
+    hours = (args.window_min * 2) / 60.0
+    hits = _o.screen(real, t_start, hours=hours, step_s=args.step,
+                     threshold_km=args.threshold)
+    best = {}
+    for h in hits:
+        k = (h.a, h.b)
+        if k not in best or h.km < best[k].km:
+            best[k] = h
+    ranked = sorted(best.values(), key=lambda h: h.km)[:args.top]
+
+    if args.format == "json":
+        print(_json.dumps([{"a": h.a, "b": h.b, "km": round(h.km, 3), "t": h.iso}
+                           for h in ranked], ensure_ascii=False, indent=2))
+        return 0
+
+    print(f"objects {len(elements)}  candidates {len(pairs)} "
+          f"(identical geometry {len(pairs) - len(real)})  "
+          f"window ±{args.window_min:g}min  step {args.step:g}s  "
+          f"threshold {args.threshold:g}km")
+    print(f"pairs within threshold: {len(best)}")
+    if not ranked:
+        print("none at this sampling. That is not the same as none at all: the minimum "
+              "between two samples is lower than anything reported here.")
+        return 0
+    for h in ranked:
+        print(f"{h.km:9.3f} km  {h.iso}  {h.a[:28]:<28} <-> {h.b[:28]}")
+    return 0
+
+
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(prog="entitygraph")
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -151,7 +234,23 @@ def main(argv=None) -> int:
     h.add_argument("--check", action="store_true", help="only report which edges carry no date")
     h.add_argument("--format", choices=["summary", "lines", "json"], default="summary")
 
+    orb = sub.add_parser("orbit", help="positions and close approaches from CelesTrak elements")
+    orb.add_argument("what", choices=["catalog", "close"])
+    orb.add_argument("--elements", action="append",
+                     help="GP JSON file(s) from CelesTrak; repeatable")
+    orb.add_argument("--satcat", help="satcat JSON file, for owner/operator joins")
+    orb.add_argument("--hours", type=float, default=2.0, help="window length for `close`")
+    orb.add_argument("--step", type=float, default=60.0, help="sampling step in seconds")
+    orb.add_argument("--threshold", type=float, default=25.0, help="report pairs within this many km")
+    orb.add_argument("--window-min", type=float, default=30.0,
+                     help="minutes before and after the epoch to sample")
+    orb.add_argument("--top", type=int, default=15)
+    orb.add_argument("--format", choices=["summary", "json"], default="summary")
+
     args = ap.parse_args(argv)
+
+    if args.cmd == "orbit":
+        return _orbit(args)
 
     if args.cmd == "build":
         g = build(name=args.name, lei=args.lei, cik=args.cik, countries=args.country,

@@ -279,3 +279,72 @@ and `Timeline.segment()` walks the history change-point by change-point, so no s
 to be guessed.
 
 ---
+
+## Orbit: where the catalogue says things are, and how close they get
+
+CelesTrak publishes mean element sets for everything in orbit. This module turns them into
+positions and into a screening pass, and it turns the satellite catalogue into graph edges.
+
+Two halves, and the second is the point.
+
+The geometry is Kepler plus secular J2, written out in `entitygraph/orbit.py` with no
+dependency, because a closed-form formula can be checked against the source and a numerical
+integrator can only be trusted on reputation:
+
+    orbit              altitude / period    textbook
+    geostationary      35786 km / 1436 min  35786 km / 1436 min
+    GPS                20183 km /  718 min  20200 km /  718 min
+    ISS                  419 km / 92.95 min   420 km / 92.9 min
+
+What it is not: SGP4. No drag, no short-period terms, no debris catalogue. It is a screening
+pass, and any result says so with the sampling it used.
+
+Run against 11,823 objects from five CelesTrak groups (starlink, gps-ops, geo, science,
+stations), window ±30 minutes around the freshest element epoch, sampled every 120 s,
+reporting everything within 25 km:
+
+    4.483 km  2026-11-02T23:55:57Z  STARLINK-35792  <-> STARLINK-35841
+    7.325 km  2026-11-02T22:55:57Z  STARLINK-4663   <-> STARLINK-34446
+    8.204 km  2026-11-02T23:03:57Z  STARLINK-3781   <-> STARLINK-32808
+    8.705 km  2026-11-02T23:55:57Z  STARLINK-5462   <-> STARLINK-5467
+
+    16 pairs within 25 km. 1 km: none. 10 km: three.
+
+Every one of them is a Starlink. That is not a filter: 11,156 of the 11,823 objects are
+Starlink, and a constellation of eleven thousand satellites in a handful of shells will
+dominate any measurement of who is near whom.
+
+Three things the first attempt got wrong, kept here because each one is the sort of error
+that produces a confident wrong number:
+
+    the sieve that was too fine   Bucketing candidate pairs on (inclination, RAAN, argp) at
+                                  0.5 degrees returned 914 pairs out of 11,823 objects and
+                                  found zero approaches. Planes are not that precise. Whole
+                                  degrees keeps the shells intact and the count at 53,281.
+    the duplicate that was not    Dock modules are published with bit-identical elements and
+                                  propagate to distance zero forever; the ISS and its two
+                                  modules produced 17 phantom "0.000 km" events. They are now
+                                  excluded by an exact comparison, and by nothing looser.
+    the finding that looked like  The obvious next move was to widen that duplicate test to
+    the artefact                  0.15 km and make the suspicious Starlink pairs disappear.
+                                  Measured first: those pairs differ by 3 to 8 km of
+                                  semi-major axis with epochs hours apart. That is two
+                                  satellites drifting in one shell -- a real approach. The
+                                  tolerance stayed at bit-exact and the finding stayed.
+
+Then the graph. `satcat` carries OWNER, LAUNCH_DATE, OBJECT_TYPE, apogee and perigee for
+17,376 objects, which is enough to hang satellites off the entity graph:
+
+    on orbit 17376   types: PAY=17372 R/B=4
+    top owners     US=13101  PRC=1578  UK=700  CIS=378  JPN=149  FR=78  IND=78
+    top operators  SpaceX=11184  Eutelsat OneWeb=651  Shanghai Spacecom=257  China SatNet=252
+
+    python -m entitygraph.cli orbit catalog --elements ... --satcat satcat_active.json
+
+An edge from a satellite to a company exists only where the catalogue's OWNER code names an
+operator, or where a declared series mapping does. `TBD` -- 152 objects whose owner is not
+established -- gets no edge at all. Manufacturer and launch provider are not in this source,
+so no edge is invented for them; the launch date the catalogue does state becomes
+`valid_from`, which is what lets these satellites enter the timeline.
+
+---
