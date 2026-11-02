@@ -464,3 +464,71 @@ What it does instead is the part that can be audited: who owns what, when it wen
 it is, and how close things get -- with every edge carrying the URL it came from and every
 refusal stated. That is an entity-graph project about space, not a military AI, and the
 distinction is the point.
+
+## SGP4, and the 4.483 km that was not there
+
+The first version of `orbit.py` propagated with Kepler plus secular J2, no drag. On the
+2026-11-02 catalogue it reported the closest approach in the sky:
+
+    4.483 km   STARLINK-35792 <-> STARLINK-35841   2026-11-02T23:55:57Z
+
+SGP4 puts the same pair 1,937 km apart at that instant. One of the two is wrong and there is
+no guesswork about which. Their mean motions differ by 0.0130 rev/day, so they drift apart in
+phase at 4.7 degrees per day and would take 77 days to line up -- while the drag term on the
+first one (ndot 0.0199 rev/day^2, a hundred times the catalogue median; both objects are low
+and decaying) changes its mean motion by 0.0307 rev/day over the 37 hours of extrapolation,
+which is 2.4 times the gap between them. A propagator that holds the mean motion constant
+therefore invents a meeting that the drag term takes away. That is the whole mechanism.
+
+So SGP4 is the default now. It is vendored in `entitygraph/_sgp4` -- MIT, from the `sgp4`
+package, which wraps Vallado's official C++ -- because `entity-graph` has kept its dependency
+count at zero and this does not have to break that. Nothing in it is edited except the import
+paths. It earns the default by reproducing the published verification vectors rather than by
+reputation:
+
+    $ python -m pytest tests/test_sgp4_ver.py -q
+    4 passed
+
+    700 lines of tcppver.out compared field by field at 2e-7 km
+    33 verification cases, including the 7 that are supposed to fail
+    worst deviation across all 667 propagated samples: 1.153e-07 km
+
+Rebuilding the TLE from CelesTrak's GP JSON took three tries and each failure is a test now:
+the designator is compressed (`1998-067A` -> `98067A`, 8 columns), catalogue numbers above
+99999 use alpha-5 (`100408` -> `A0408`), and BSTAR's mantissa is `0.NNNNN` so its exponent is
+one higher than the scientific one (`0.00011739` -> ` 11739-3`). All 11,823 objects in the
+sweep rebuild and re-parse; the number round-trips through the parser.
+
+### What the two propagators disagree by
+
+    $ python -m entitygraph.cli orbit compare --elements gp_stations.json
+
+    elapsed   median km   p90 km   max km
+      0.00d      11.75    11.75    12.30
+      1.00d      60.08   318.20  1197.23
+      7.00d     540.01  4019.84 12818.24
+
+The disagreement is already 11.75 km at the elements' own epoch, before any extrapolation.
+That is what "no short-period terms" means in kilometres: rotating the J2 position about the
+orbit normal by 0.1 degrees -- 1.55 seconds of travel -- collapses the gap to 0.75 km, so 11
+of those kilometres are along-track phase and 0.75 km is radial. The closed form is fine for
+"which shell is this in" and not fine for "how close did these two get", which is why it is
+no longer the one answering the second question.
+
+### Refinement, not sampling
+
+Sampling reports the nearest sample, which is always farther than the real minimum. Measured
+on the surviving real events, 120 s sampling overstated the minimum by 0.008 to 3.592 km --
+the same size as the distances being reported. `screen()` now collapses consecutive in-
+threshold samples of one pair into one event and runs a golden-section search to the actual
+minimum, and prints both numbers so the step's error is visible rather than assumed small.
+
+    $ python -m entitygraph.cli orbit close --elements gp_starlink.json ...
+    objects 11823  candidates 53281  window +/-30min  step 120s  threshold 25km  propagator sgp4
+    close approaches: 8  (each sampled minimum refined to the real minimum)
+        4.168 km  (step said 4.168, +0.000)  STARLINK-2319 <-> STARLINK-33745
+        4.171 km  (step said 4.179, +0.008)  STARLINK-4663 <-> STARLINK-34446
+        7.353 km  (step said 7.950, +0.597)  STARLINK-5462 <-> STARLINK-5467
+       10.978 km  (step said 14.570, +3.592) STARLINK-2386 <-> STARLINK-3153
+
+A full sweep of 11,823 objects is 36 seconds.

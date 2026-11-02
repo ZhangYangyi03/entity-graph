@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
 import sys
 
 from .build import build
@@ -121,6 +122,55 @@ def _emit(sub: Graph, fmt: str) -> int:
     return 0
 
 
+def _orbit_compare(elements, args) -> int:
+    """How far apart do the two propagators drift on the same objects?
+
+    This is why SGP4 is the default. The closed-form version is correct at its own epoch and
+    diverges afterwards; the question the comparison answers is how fast, on real elements,
+    and it prints the number rather than asserting it.
+    """
+    import json as _json
+    from . import orbit as _o
+    from ._sgp4.model import WGS72, Satrec
+
+    rows = []
+    for el in elements:
+        if not el.line1:
+            line1, line2 = _o._gp_to_tle(el)
+        else:
+            line1, line2 = el.line1, el.line2
+        satrec = Satrec.twoline2rv(line1, line2)
+        for days in (0.0, 0.25, 1.0, 3.0, 7.0):
+            t = el.epoch_ts + days * 86400.0
+            error, position, _velocity = satrec.sgp4_tsince(days * 1440.0)
+            if error:
+                continue
+            j2 = _o.eci(el, t)
+            rows.append({"name": el.name, "days": days,
+                         "km": math.dist(position, j2),
+                         "altitude": el.altitude})
+
+    if args.format == "json":
+        print(_json.dumps(rows, ensure_ascii=False, indent=2))
+        return 0
+
+    print(f"{len(rows)} samples over {len(elements)} objects: how far SGP4 and the J2 "
+          f"closed form disagree.")
+    print("At 0.00d the two are already ~11.7 km apart: that is the short-period J2 terms "
+          "the closed form omits, mostly along-track.")
+    print()
+    print("elapsed   median km   p90 km   max km")
+    by_day = {}
+    for r in rows:
+        by_day.setdefault(r["days"], []).append(r["km"])
+    for days in sorted(by_day):
+        values = sorted(by_day[days])
+        median = values[len(values) // 2]
+        p90 = values[min(len(values) - 1, int(len(values) * 0.9))]
+        print(f"{days:>6.2f}d  {median:>9.2f}  {p90:>7.2f}  {max(values):>7.2f}")
+    return 0
+
+
 def _orbit(args) -> int:
     """Where things are, and which two of them are close. Reads files, never the network."""
     import json as _json
@@ -207,6 +257,9 @@ def _orbit(args) -> int:
                   f"expected {'/'.join(m['expected'])}")
         return 0
 
+    if args.what == "compare":
+        return _orbit_compare(elements, args)
+
     # close approaches
     pairs = _o.candidate_pairs(elements)
     real = [(a, b) for a, b in pairs if not _o.is_duplicate_geometry(a, b)]
@@ -215,14 +268,12 @@ def _orbit(args) -> int:
     # and a forward window spends its time extrapolating the oldest ones.
     t_start = t0 - args.window_min * 60.0
     hours = (args.window_min * 2) / 60.0
-    hits = _o.screen(real, t_start, hours=hours, step_s=args.step,
-                     threshold_km=args.threshold)
-    best = {}
-    for h in hits:
-        k = (h.a, h.b)
-        if k not in best or h.km < best[k].km:
-            best[k] = h
-    ranked = sorted(best.values(), key=lambda h: h.km)[:args.top]
+    # screen() already collapses consecutive samples of one approach into a single event and
+    # then refines it to the true minimum, so there is nothing left to dedupe here.
+    ranked = _o.screen(real, t_start, hours=hours, step_s=args.step,
+                       threshold_km=args.threshold,
+                       propagator=args.propagator)[:args.top]
+    best = ranked
 
     if args.format == "json":
         print(_json.dumps([{"a": h.a, "b": h.b, "km": round(h.km, 3), "t": h.iso}
@@ -231,15 +282,17 @@ def _orbit(args) -> int:
 
     print(f"objects {len(elements)}  candidates {len(pairs)} "
           f"(identical geometry {len(pairs) - len(real)})  "
-          f"window ±{args.window_min:g}min  step {args.step:g}s  "
-          f"threshold {args.threshold:g}km")
-    print(f"pairs within threshold: {len(best)}")
+          f"window +/-{args.window_min:g}min  step {args.step:g}s  "
+          f"threshold {args.threshold:g}km  propagator {args.propagator}")
+    print(f"close approaches: {len(best)}  (each sampled minimum refined to the real minimum)")
     if not ranked:
         print("none at this sampling. That is not the same as none at all: the minimum "
               "between two samples is lower than anything reported here.")
         return 0
     for h in ranked:
-        print(f"{h.km:9.3f} km  {h.iso}  {h.a[:28]:<28} <-> {h.b[:28]}")
+        drift = h.sampled_km - h.km
+        print(f"{h.km:9.3f} km  (step said {h.sampled_km:.3f}, {drift:+.3f})  "
+              f"{h.iso}  {h.a[:26]:<26} <-> {h.b[:26]}")
     return 0
 
 
@@ -287,7 +340,7 @@ def main(argv=None) -> int:
     h.add_argument("--format", choices=["summary", "lines", "json"], default="summary")
 
     orb = sub.add_parser("orbit", help="positions and close approaches from CelesTrak elements")
-    orb.add_argument("what", choices=["catalog", "close", "military"])
+    orb.add_argument("what", choices=["catalog", "close", "military", "compare"])
     orb.add_argument("--elements", action="append",
                      help="GP JSON file(s) from CelesTrak; repeatable")
     orb.add_argument("--satcat", help="satcat JSON file, for owner/operator joins")
@@ -297,6 +350,8 @@ def main(argv=None) -> int:
     orb.add_argument("--window-min", type=float, default=30.0,
                      help="minutes before and after the epoch to sample")
     orb.add_argument("--top", type=int, default=15)
+    orb.add_argument("--propagator", choices=["sgp4", "j2"], default="sgp4",
+                     help="sgp4 (the real thing, default) or j2 (the hand-written closed form)")
     orb.add_argument("--format", choices=["summary", "json"], default="summary")
 
     args = ap.parse_args(argv)
