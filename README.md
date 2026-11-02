@@ -348,3 +348,119 @@ so no edge is invented for them; the launch date the catalogue does state become
 `valid_from`, which is what lets these satellites enter the timeline.
 
 ---
+
+## Military and dual-use satellites: what the orbit says about the label
+
+The catalogue names things. Those names carry claims -- a satellite called SBIRS is a missile
+warning satellite, one called AEHF is a protected communications satellite. The catalogue
+also states an orbit, independently of the name. Two claims, one check:
+
+    python -m entitygraph.cli orbit military --satcat satcat_active.json
+
+    980 declared military / dual-use objects   (19 with no orbit stated)
+
+    role                     count   bands
+    US military designation    523   LEO=390 GEO=67 MEO=48 ?=18
+    reconnaissance             167   LEO=164 GEO=1 MEO=2
+    navigation                  86   MEO=62 GEO=23 LEO=1
+    experimental                62   LEO=56 GEO=4 MEO=2
+    remote sensing              60   LEO=57 GEO=3
+    signals intelligence        28   GEO=22 LEO=4 MEO=2
+    protected comms             10   GEO=10
+    wideband comms              10   GEO=10
+    missile warning              8   GEO=8
+    mobile comms                 5   GEO=5
+
+    orbit disagrees with declared role: 0
+
+A zero that means something, because three disagreements were found and fixed first:
+
+    RIGIDSPHERE 2 (LCS 4)   matched "DSP" as a substring and was audited as a missile-warning
+                            satellite in low orbit. Matching a three-letter key anywhere in a
+                            name is a claim this project should not make; the entry was
+                            narrowed to "DSP 20" .. "DSP 23".
+    SAPPHIRE                declared missile warning, flies at 780 km. Canada's Sapphire is
+                            a space-surveillance sensor for the US Space Surveillance
+                            Network, not a warning bird. The declaration was wrong, the
+                            orbit was right.
+    YAOGAN-41               declared reconnaissance, sits at 35,800 km. Checked instead of
+                            assumed: Yaogan-41 really is a geostationary stare, and the
+                            family spans LEO imagers and GEO watches both. The role's
+                            compatible bands were wrong, not the satellite.
+
+19 objects have no orbit in the catalogue at all -- apogee and perigee zero. They are
+counted as "?" and excluded from the comparison, because an object with no stated orbit can
+neither agree nor disagree, and calling its band "LEO" would be inventing the number.
+
+What this comparison cannot do is separate a military satellite from a civilian one. It
+reads the published name. A satellite with no descriptive name -- "USA 555" -- is a US
+military designation and nothing more; where it flies is stated, what it does is not.
+
+---
+
+### The same graph through the timeline
+
+`satcat.graph.json` (17 MB checked in) is that catalogue as an entity graph: 17,419 nodes and
+29,488 edges, every edge dated with the launch date the catalogue states. Because the edges
+carry dates, the time machine works on satellites without any new code:
+
+    $ python -m entitygraph.cli history --graph satcat.graph.json --as-of 2021-06-01
+    nodes 2233  edges 3071
+    kinds: company=11 country=28 satellite=2194
+    rels:  operated_by=1018 owned_by_state=2053
+
+    $ python -m entitygraph.cli history --graph satcat.graph.json --as-of 2025-06-01
+    nodes 10740  edges 18606
+
+Finding that took a bug fix in the history loader: it looked up the source's default date
+attribute and ignored the `valid_from` an edge already carried, so all 29,488 satellite edges
+were reported as undated and every slice came back empty. An edge that already says when it
+starts does not need a rule to tell it.
+
+### The curve, and the caveat that makes it worth reading
+
+    year   new   PRC    US   CIS  other   cumulative (PRC / US)
+    2015    19    11     7     0      1     175  (61 / 89)
+    2018    46    34    10     2      0     256  (111 / 116)
+    2021    44    37     6     0      1     367  (189 / 142)
+    2023    51    41     6     3      1     491  (272 / 175)
+    2024   146    28   117     1      0     637  (300 / 292)
+    2026   188    31   153     4      0     966  (371 / 543)
+
+2026 is a partial year and is undercounted; the file's freshest element epoch is
+2026-11-01, so it covers ten months.
+
+Read as a census of what is up there now, arranged by launch date, this is one of the
+clearest things in the repository:
+
+    China's cumulative declared military/dual-use count overtakes the United States' in
+    2019 (131 vs 120) and stays ahead until 2024 -- driven by Yaogan (167 objects) and other
+    named series.
+
+    The United States went from 6 declared launches in 2021 to 117 in 2024. That is a change
+    in the cataloguing, not a claim about the sky: the objects are "USA 350" through
+    "USA 725", sequential designations with no descriptive name, which is what the US
+    publishes when it does not want to say what a satellite is. China names its satellites,
+    the US numbers them, and a count of names therefore counts two different things.
+
+Both statements are true and neither is the whole story, which is why both are printed. The
+sweep that produces them is declared-name only, and the last section of this README says
+where that stops.
+
+### The gap to military satellite AI
+
+This project does not do any of the following, and no amount of data volume would make it:
+
+    sensor fusion       turning raw imagery, SIGINT or radar returns into tracks and
+                        identifications. The catalogue has no pixels in it.
+    orbital-edge AI     orbit determination and conjunction prediction on high-fidelity
+                        propagation with the full debris catalogue. What is here is a
+                        screening pass at 120 s resolution, and it says so.
+    tactical inference  what a constellation is FOR. "YAOGAN-41 sits in GEO" is a checkable
+                        statement; "YAOGAN-41 is watching the Pacific Fleet" is not, and is
+                        not derivable from these sources.
+
+What it does instead is the part that can be audited: who owns what, when it went up, where
+it is, and how close things get -- with every edge carrying the URL it came from and every
+refusal stated. That is an entity-graph project about space, not a military AI, and the
+distinction is the point.

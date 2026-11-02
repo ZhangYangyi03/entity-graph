@@ -59,6 +59,14 @@ def _date_raw(raw: dict, g: Graph) -> tuple[Graph, list[dict]]:
     notes: list[dict] = []
     for rec in raw["edges"]:
         e = Edge(**rec)
+        # A date the edge already carries wins over the source's default attribute: the
+        # satellite catalogue writes valid_from per edge (the launch date) while the default
+        # map for its source expects `date`, and using the default would have silently
+        # dropped all 29,488 of them.
+        if (e.attrs.get("valid_from") or e.attrs.get("date")
+                or (e.attrs.get("valid_to") is not None)):
+            by_triple.setdefault(e.key, []).append(e)
+            continue
         m = DEFAULT_MAPS.get(e.source)
         if not m:
             notes.append({"what": "undated", "source": e.source, "key": list(e.key),
@@ -70,11 +78,16 @@ def _date_raw(raw: dict, g: Graph) -> tuple[Graph, list[dict]]:
     for n in g.nodes.values():
         out.add_node(n)
     st = SideTable()
+    def _start(e) -> str:
+        return _date_of(str(e.attrs.get("valid_from") or e.attrs.get("date") or ""))
+
     for key, edges in by_triple.items():
-        edges = sorted(edges, key=lambda e: _date_of(str(e.attrs.get("date", ""))))
+        edges = sorted(edges, key=_start)
         for i, e in enumerate(edges):
-            start = _date_of(str(e.attrs.get("date", "")))
-            end = (_date_of(str(edges[i + 1].attrs.get("date", ""))) if i + 1 < len(edges) else "")
+            start = _start(e)
+            end = (_date_of(str(edges[i + 1].attrs.get("valid_from")
+                                or edges[i + 1].attrs.get("date") or ""))
+                   if i + 1 < len(edges) else "")
             attrs = {**e.attrs, "valid_from": start}
             if end and end > start:
                 attrs["valid_to"] = end
@@ -113,15 +126,15 @@ def _orbit(args) -> int:
     import json as _json
     from . import orbit as _o
 
-    if not args.elements:
-        print("need at least one --elements file (CelesTrak GP JSON)", file=sys.stderr)
-        return 2
-
+    # `military` reads only the catalogue; the element files are not needed for it.
     elements = []
-    for path in args.elements:
+    for path in (args.elements or []):
         for rec in _json.load(open(path, encoding="utf-8")):
             elements.append(_o.from_gp(rec))
-    t0 = max(e.epoch_ts for e in elements)
+    if not elements and args.what != "military":
+        print("need at least one --elements file (CelesTrak GP JSON)", file=sys.stderr)
+        return 2
+    t0 = max((e.epoch_ts for e in elements), default=0.0)
 
     if args.what == "catalog":
         import collections as _c
@@ -153,6 +166,45 @@ def _orbit(args) -> int:
                     f"{k}={v}" for k, v in list(cat["by_owner"].items())[:8]))
                 print("top operators:" + "  ".join(
                     f"{k}={v}" for k, v in list(cat["by_operator"].items())[:8]))
+        return 0
+
+    if args.what == "military":
+        from . import satcat as _sat
+        if not args.satcat:
+            print("military needs --satcat", file=sys.stderr)
+            return 2
+        rows = [r for r in _sat.parse_rows(_json.load(open(args.satcat, encoding="utf-8")))
+                if not r.decay_date]
+        a = _sat.mission_audit(rows)
+        if args.format == "json":
+            out = dict(a)
+            out["launch_timeline"] = _sat.launch_timeline(rows)
+            print(_json.dumps(out, ensure_ascii=False, indent=2))
+            return 0
+        no_orbit = sum(1 for r in rows
+                       if _sat.military_series_of(r.name)[0] and _sat.band_of(r) == "?")
+        print(f"declared military / dual-use objects: {a['declared_objects']}"
+              f"   (no orbit stated: {no_orbit})")
+        print()
+        print("role                     count   bands")
+        for role, v in a["by_role"].items():
+            b = " ".join(f"{k}={n}" for k, n in sorted(v["bands"].items()))
+            print(f"{role:<24} {v['count']:>5}   {b}")
+        tl = _sat.launch_timeline(rows)
+        cum = {"PRC": 0, "US": 0, "CIS": 0, "other": 0}
+        print()
+        print("declared military / dual-use, still on orbit, by launch year")
+        print("year   new   PRC    US   CIS  other   cumulative PRC / US")
+        for y, d in tl.items():
+            for k in cum:
+                cum[k] += d[k]
+            print(f"{y}  {d['total']:>4}  {d['PRC']:>4}  {d['US']:>4}  {d['CIS']:>4}  "
+                  f"{d['other']:>5}   {sum(cum.values()):>5}  ({cum['PRC']} / {cum['US']})")
+        print()
+        print(f"orbit disagrees with declared role: {len(a['mismatches'])}")
+        for m in a["mismatches"]:
+            print(f"  {m['name'][:28]:<28} {m['role']:<22} {m['band']:<4} "
+                  f"expected {'/'.join(m['expected'])}")
         return 0
 
     # close approaches
@@ -235,7 +287,7 @@ def main(argv=None) -> int:
     h.add_argument("--format", choices=["summary", "lines", "json"], default="summary")
 
     orb = sub.add_parser("orbit", help="positions and close approaches from CelesTrak elements")
-    orb.add_argument("what", choices=["catalog", "close"])
+    orb.add_argument("what", choices=["catalog", "close", "military"])
     orb.add_argument("--elements", action="append",
                      help="GP JSON file(s) from CelesTrak; repeatable")
     orb.add_argument("--satcat", help="satcat JSON file, for owner/operator joins")

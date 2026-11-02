@@ -80,6 +80,112 @@ def operator_of(object_name: str, owner_code: str) -> str:
     return OPERATOR_NAMES.get((owner_code or "").upper(), "")
 
 
+# Military and dual-use series, by the name the catalogue publishes. This is a DECLARED
+# list, not a classifier: a satellite is here because its published name says so, and each
+# entry carries the role a reader would expect it to fly. The orbit columns then act as a
+# check on the declaration -- a "missile warning" satellite sitting in low Earth orbit is
+# either not that, or its name is being used for something else, and the mission audit below
+# reports the disagreement instead of hiding it.
+MILITARY_SERIES = {
+    # United States
+    "SBIRS":      ("missile warning", "US"),
+    "DSP 20":     ("missile warning", "US"),
+    "DSP 21":     ("missile warning", "US"),
+    "DSP 22":     ("missile warning", "US"),
+    "DSP 23":     ("missile warning", "US"),
+    "AEHF":       ("protected comms", "US"),
+    "MILSTAR":    ("protected comms", "US"),
+    "WGS":        ("wideband comms", "US"),
+    "MUOS":       ("mobile comms", "US"),
+    "DSCS":       ("wideband comms", "US"),
+    "NROL":       ("classified", "US"),
+    "LACROSSE":   ("radar imaging", "US"),
+    "TOPAZ":      ("radar imaging", "US"),
+    "ONYX":       ("radar imaging", "US"),
+    "MENTOR":     ("signals intelligence", "US"),
+    "TRUMPET":    ("signals intelligence", "US"),
+    "MERCURY":    ("signals intelligence", "US"),
+    "MISTY":      ("optical reconnaissance", "US"),
+    "KH-":        ("optical reconnaissance", "US"),
+    "USA ":       ("US military designation", "US"),
+    # China
+    "YAOGAN":     ("reconnaissance", "PRC"),
+    "GAOFEN":     ("remote sensing", "PRC"),
+    "JIANBING":   ("reconnaissance", "PRC"),
+    "TJS":        ("signals intelligence", "PRC"),
+    "SHIYAN":     ("experimental", "PRC"),
+    # Russia
+    "PERSONA":    ("optical reconnaissance", "CIS"),
+    "BARS-M":     ("optical reconnaissance", "CIS"),
+    "LOTOS":      ("signals intelligence", "CIS"),
+    "PION":       ("signals intelligence", "CIS"),
+    "KONDOR":     ("radar imaging", "CIS"),
+    "MERIDIAN":   ("comms", "CIS"),
+    "LUCH":       ("relay", "CIS"),
+    "GLONASS":    ("navigation", "CIS"),
+    "PARUS":      ("navigation", "CIS"),
+    "TSIKLON":    ("navigation", "CIS"),
+    # Others
+    "SKYNET":     ("comms", "UK"),
+    "SYRACUSE":   ("comms", "FR"),
+    "SICRAL":     ("comms", "IT"),
+    # Canada's Sapphire flies in LEO as a space-surveillance sensor feeding the US Space
+    # Surveillance Network -- not a missile-warning bird, whatever the constellation of the
+    # same name elsewhere might suggest.
+    "SAPPHIRE":   ("space surveillance", "CA"),
+    "BEIDOU":     ("navigation", "PRC"),
+    "NAVSTAR":    ("navigation", "US"),
+    "GPS":        ("navigation", "US"),
+}
+
+# Role -> the orbital band that role can actually work from. Used only to flag a
+# disagreement, never to override the catalogue.
+COMPATIBLE_BANDS = {
+    "missile warning": {"GEO", "HEO", "MEO"},
+    "protected comms": {"GEO", "HEO", "MEO"},
+    "wideband comms": {"GEO", "HEO", "MEO"},
+    "mobile comms": {"GEO", "HEO", "MEO"},
+    "relay": {"GEO", "HEO"},
+    "navigation": {"MEO", "GEO", "HEO", "LEO"},
+    # Yaogan is China's catch-all designation and the family really does span both: most are
+    # LEO imagers, while the Yaogan-41 GEO trio is a persistent stare from geostationary --
+    # exactly the migration that makes this analysis worth doing at all.
+    "reconnaissance": {"LEO", "MEO", "GEO"},
+    "optical reconnaissance": {"LEO", "MEO"},
+    "radar imaging": {"LEO", "MEO"},
+    "remote sensing": {"LEO", "MEO", "GEO"},
+    "signals intelligence": {"LEO", "MEO", "GEO", "HEO"},
+    "classified": {"LEO", "MEO", "GEO", "HEO"},
+    "space surveillance": {"LEO", "MEO", "GEO", "HEO"},
+    "experimental": {"LEO", "MEO", "GEO", "HEO"},
+    "comms": {"LEO", "MEO", "GEO", "HEO"},
+    "US military designation": {"LEO", "MEO", "GEO", "HEO"},
+}
+
+
+def band_of(row: "CatalogueRow") -> str:
+    """Orbital regime from the catalogue's own apogee and perigee.
+
+    "?" means the catalogue states no orbit for this object. That is not a mismatch and it
+    is not a quiet "LEO": 18 objects in the current file have apogee and perigee of zero,
+    and calling them anything would be inventing the number this whole module refuses to
+    invent. They are counted and reported separately.
+    """
+    h = (row.apogee + row.perigee) / 2.0
+    if h <= 0:
+        return "?"
+    return "LEO" if h < 2000 else ("MEO" if h < 30000 else "GEO")
+
+
+def military_series_of(name: str) -> tuple[str, str]:
+    """(role, operator nation) for a declared military series, else ("", "")."""
+    up = (name or "").upper()
+    for key, (role, who) in MILITARY_SERIES.items():
+        if key in up:
+            return role, who
+    return "", ""
+
+
 @dataclass
 class CatalogueRow:
     name: str
@@ -111,6 +217,63 @@ def parse_rows(records) -> list[CatalogueRow]:
             apogee=num("APOGEE"), perigee=num("PERIGEE"), period=num("PERIOD"),
         ))
     return out
+
+
+def mission_audit(rows: list[CatalogueRow]) -> dict:
+    """Does the orbit agree with the declared role?
+
+    A declared role is a claim. The catalogue states the orbit independently, so the two
+    can be compared -- and the disagreements are the useful output, not the agreements.
+    Every row that lands outside its role's compatible band is returned with both numbers.
+    """
+    by_role: dict[str, dict] = {}
+    mismatches = []
+    for r in rows:
+        if r.decay_date:
+            continue
+        role, who = military_series_of(r.name)
+        if not role:
+            continue
+        b = band_of(r)
+        slot = by_role.setdefault(role, {"count": 0, "bands": {}, "nations": {}})
+        slot["count"] += 1
+        slot["bands"][b] = slot["bands"].get(b, 0) + 1
+        slot["nations"][who] = slot["nations"].get(who, 0) + 1
+        if b == "?":
+            continue          # no orbit stated: cannot agree or disagree
+        if b not in COMPATIBLE_BANDS.get(role, set()):
+            mismatches.append({"name": r.name, "role": role, "band": b,
+                               "apogee": r.apogee, "perigee": r.perigee,
+                               "expected": sorted(COMPATIBLE_BANDS.get(role, []))})
+    return {
+        "by_role": dict(sorted(by_role.items(), key=lambda kv: -kv[1]["count"])),
+        "mismatches": mismatches,
+        "declared_objects": sum(s["count"] for s in by_role.values()),
+    }
+
+
+def launch_timeline(rows: list[CatalogueRow], since: int = 2000) -> dict:
+    """Declared military/dual-use objects still on orbit, by launch year and nation.
+
+    The honest denominator is important here: this counts objects that are STILL ON ORBIT
+    and were launched in that year, not what was launched. A satellite that decayed is gone
+    from the file, so an old year reads low. The series is a census of what is up there now,
+    arranged by when it went up, and it is only meaningful read that way.
+    """
+    out: dict[int, dict] = {}
+    for r in rows:
+        if r.decay_date or not r.launch_date:
+            continue
+        year = int(r.launch_date[:4])
+        if year < since:
+            continue
+        role, who = military_series_of(r.name)
+        if not role:
+            continue
+        slot = out.setdefault(year, {"PRC": 0, "US": 0, "CIS": 0, "other": 0, "total": 0})
+        slot[who if who in ("PRC", "US", "CIS") else "other"] += 1
+        slot["total"] += 1
+    return dict(sorted(out.items()))
 
 
 def summary(rows: list[CatalogueRow]) -> dict:
