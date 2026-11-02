@@ -107,6 +107,7 @@ def test_a_failing_source_becomes_a_note_not_an_exception(monkeypatch):
     monkeypatch.setattr(banking, "boc_prime_rate", lambda *a, **kw: [])
     monkeypatch.setattr(banking, "wb_rates", lambda *a, **kw: ({}, []))
     monkeypatch.setattr(banking, "ecb_mir_products", lambda *a, **kw: ([], []))
+    monkeypatch.setattr(banking, "iso4217", lambda *a, **kw: ([], []))
     g = banking.build_currency_graph(rates=False, banks=False)
     note = [n for n in g._notes if n["source"] == "RBA F5/F6"]
     assert note and note[0]["what"] == "fetch"
@@ -120,6 +121,7 @@ def test_integrity_note_reports_zero_dangling_edges(monkeypatch):
     monkeypatch.setattr(banking, "boc_prime_rate", lambda *a, **kw: [])
     monkeypatch.setattr(banking, "wb_rates", lambda *a, **kw: ({}, []))
     monkeypatch.setattr(banking, "ecb_mir_products", lambda *a, **kw: ([], []))
+    monkeypatch.setattr(banking, "iso4217", lambda *a, **kw: ([], []))
     g = banking.build_currency_graph(rates=False, banks=False)
     integrity = [n for n in g._notes if n["source"] == "integrity"]
     assert integrity and integrity[0]["what"] == "ok", integrity
@@ -139,7 +141,15 @@ def test_mir_does_not_invent_product_keys(monkeypatch):
 
 # ------------------------------------------------------------------ the graph itself
 
-def test_a_built_graph_serialises_and_reads_back():
+def test_a_built_graph_serialises_and_reads_back(monkeypatch):
+    """No live feed at all. Without these four stubs this test still went to the World
+    Bank's currency endpoint -- 13.5 s on a clean clone, quiet on any machine that had the
+    answer cached, which is the worst shape for a leak to have."""
+    monkeypatch.setattr(banking, "rba_products", lambda *a, **kw: [])
+    monkeypatch.setattr(banking, "boc_prime_rate", lambda *a, **kw: [])
+    monkeypatch.setattr(banking, "wb_rates", lambda *a, **kw: ({}, []))
+    monkeypatch.setattr(banking, "ecb_mir_products", lambda *a, **kw: ([], []))
+    monkeypatch.setattr(banking, "iso4217", lambda *a, **kw: ([], []))
     g = banking.build_currency_graph(rates=False, banks=False, products=False)
     import json
     blob = json.loads(g.to_json())

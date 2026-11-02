@@ -7,9 +7,28 @@ Bank. Pointing HTTP_PROXY at a black hole does not show this -- a connection ref
 connection that times out both look like "offline" from inside a test. Pulling the socket
 closed does, so it is pulled.
 """
+import os
 import socket
+import tempfile
 
 import pytest
+
+
+@pytest.fixture(autouse=True, scope="session")
+def _isolated_cache():
+    """Point the on-disk fetch cache at a fresh directory for the whole session.
+
+    The cache is what still reached the World Bank after the socket was closed: a
+    populated .cache in the checkout made the test pass in 1.0 s, and a clean clone made
+    the same test wait 13 s for a connection it was never going to get. A test that passes
+    only where somebody has already fetched is not a test of the code.
+    """
+    import entitygraph.fetch as fetch
+    tmp = tempfile.mkdtemp(prefix="eg-cache-")
+    old = fetch.CACHE_DIR
+    fetch.CACHE_DIR = tmp
+    yield
+    fetch.CACHE_DIR = old
 
 
 @pytest.fixture(autouse=True)
