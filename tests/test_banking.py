@@ -101,6 +101,12 @@ def test_a_failing_source_becomes_a_note_not_an_exception(monkeypatch):
         raise banking.FetchError("404 https://example.invalid")
 
     monkeypatch.setattr(banking, "rba_products", boom)
+    # The other live feeds must be stubbed too: with only RBA stubbed, a machine with a
+    # real network goes to Canada/World Bank and back, and an offline machine hangs until
+    # the OS timeout. Neither is this test's subject -- it is about the note.
+    monkeypatch.setattr(banking, "boc_prime_rate", lambda *a, **kw: [])
+    monkeypatch.setattr(banking, "wb_rates", lambda *a, **kw: ({}, []))
+    monkeypatch.setattr(banking, "ecb_mir_products", lambda *a, **kw: ([], []))
     g = banking.build_currency_graph(rates=False, banks=False)
     note = [n for n in g._notes if n["source"] == "RBA F5/F6"]
     assert note and note[0]["what"] == "fetch"
@@ -110,6 +116,10 @@ def test_a_failing_source_becomes_a_note_not_an_exception(monkeypatch):
 def test_integrity_note_reports_zero_dangling_edges(monkeypatch):
     """Every edge must have both endpoints. This is the check that caught the country
     spelling bug, so it is pinned rather than trusted."""
+    monkeypatch.setattr(banking, "rba_products", lambda *a, **kw: [])
+    monkeypatch.setattr(banking, "boc_prime_rate", lambda *a, **kw: [])
+    monkeypatch.setattr(banking, "wb_rates", lambda *a, **kw: ({}, []))
+    monkeypatch.setattr(banking, "ecb_mir_products", lambda *a, **kw: ([], []))
     g = banking.build_currency_graph(rates=False, banks=False)
     integrity = [n for n in g._notes if n["source"] == "integrity"]
     assert integrity and integrity[0]["what"] == "ok", integrity

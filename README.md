@@ -237,3 +237,45 @@ Two things this cost, both fixed rather than worked around:
 - Interrupting the load left `database disk image is malformed` on every later query. The
   load now runs in WAL with per-batch commits, so a kill costs one batch and the index
   stays valid -- `PRAGMA integrity_check` returns `ok` after each interruption.
+
+## Time: what the graph looked like then
+
+A graph with one copy of each relationship answers "who owns whom today". It cannot answer
+"who owned whom in 2020", because the four years of filings that came after have overwritten
+it. `entitygraph.history` and `entitygraph.timeline` add the missing half of the provenance
+rule: every edge must say *when* it was true and what ended it, exactly as it already has to
+say where it came from.
+
+Measured on `apple.graph.json` (58 SC 13D/G edges, four signature dates 2019-02-14 →
+2024-02-14):
+
+    $ python -m entitygraph.cli history --graph apple.graph.json --between 2018-01-01 2025-01-01
+    2018-01-01 .. 2019-02-14   edges    0  nodes    0
+    2019-02-14 .. 2021-02-16   edges    5  nodes    6
+    2021-02-16 .. 2023-02-14   edges   49  nodes   50
+    2023-02-14 .. 2024-02-14   edges   57  nodes   58
+    2024-02-14 .. 2025-01-01   edges   58  nodes   59
+
+Four dates, four different graphs, every one of them reproducible from the filings the
+edges already cite. `--as-of 2019-06-01` returns the five holders that were on the cover
+pages in 2019 and nothing that arrived later.
+
+Three rules make it honest rather than decorative:
+
+    half-open intervals     [valid_from, valid_to). The day a superseding filing is signed
+                            belongs to the new version, so two versions never both hold on
+                            the same date.
+    no invented dates       an edge whose source has no date mapping is left undated and
+                            listed by `--check`. A made-up date is worse than a missing one:
+                            it makes a slice look authoritative when it is not.
+    overlap is an error     two versions of one triple live on the same date, the side table
+                            raises. The archive contradicting itself is not something to
+                            average away.
+
+Why a side table. `Graph` keys edges by `(src, rel, dst)`, so loading four years of filings
+into one throws away every version but the last. `SideTable` keeps them all and a slice pulls
+the right one back in. `SideTable.contradictions()` names any triple whose versions overlap,
+and `Timeline.segment()` walks the history change-point by change-point, so no step size has
+to be guessed.
+
+---

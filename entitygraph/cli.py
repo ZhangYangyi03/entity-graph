@@ -9,6 +9,105 @@ from .build import build
 from .resolve import Resolver
 
 
+
+def _history(args) -> int:
+    from .history import SideTable
+    from .model import Edge, Graph, Node
+    from .timeline import Timeline, from_graph
+
+    raw = json.load(open(args.graph, encoding="utf-8"))
+    g = Graph()
+    for n in raw["nodes"]:
+        g.add_node(Node(**n))
+    if raw["edges"]:
+        st, notes = _date_raw(raw, g)      # already dated, already versioned
+    else:
+        dated, notes = from_graph(g)
+        st = SideTable.from_graph(dated)
+
+    if args.check:
+        chk = Timeline(_collapse(st, g)).check()
+        print(f"edges {chk['edges']}  undated {len(chk['undated'])}  inverted {len(chk['inverted'])}")
+        for n in notes[:10]:
+            print(f"  undated  {n['source']}  {n['key'][0]} -{n['key'][1]}-> {n['key'][2]}")
+        return 0
+
+    if args.as_of:
+        return _emit(st.as_of(args.as_of, graph=g), args.format)
+    if args.between:
+        start, end = args.between
+        for b, nxt, sub in Timeline(_collapse(st, g)).segment(start, end):
+            print(f"{b} .. {nxt}   edges {len(sub.edges):>4}  nodes {len(sub.nodes):>4}")
+        return 0
+    ap_err = "pass --as-of, --between or --check"
+    print(ap_err)
+    return 2
+
+
+def _date_raw(raw: dict, g: Graph) -> tuple[Graph, list[dict]]:
+    """Load the edges with their dates straight out of the JSON.
+
+    A Graph keys edges by (src, rel, dst), so loading a four-year history into one throws
+    away every version but the last. The history commands therefore date the *raw* records
+    and hand the side table the versions, using the graph only for nodes.
+    """
+    from .history import SideTable
+    from .model import Edge, Graph
+    from .timeline import DEFAULT_MAPS, _date_of
+
+    by_triple: dict[tuple[str, str, str], list[Edge]] = {}
+    notes: list[dict] = []
+    for rec in raw["edges"]:
+        e = Edge(**rec)
+        m = DEFAULT_MAPS.get(e.source)
+        if not m:
+            notes.append({"what": "undated", "source": e.source, "key": list(e.key),
+                          "why": "no date attribute mapped for this source"})
+            continue
+        by_triple.setdefault(e.key, []).append(e)
+
+    out = Graph()
+    for n in g.nodes.values():
+        out.add_node(n)
+    st = SideTable()
+    for key, edges in by_triple.items():
+        edges = sorted(edges, key=lambda e: _date_of(str(e.attrs.get("date", ""))))
+        for i, e in enumerate(edges):
+            start = _date_of(str(e.attrs.get("date", "")))
+            end = (_date_of(str(edges[i + 1].attrs.get("date", ""))) if i + 1 < len(edges) else "")
+            attrs = {**e.attrs, "valid_from": start}
+            if end and end > start:
+                attrs["valid_to"] = end
+            st.add(Edge(src=e.src, dst=e.dst, rel=e.rel, attrs=attrs,
+                        source=e.source, url=e.url, fetched_at=e.fetched_at),
+                   supersedes=(edges[i + 1].url if i + 1 < len(edges) else ""))
+    return st, notes
+
+
+def _collapse(st, g) -> object:
+    """A dated Graph for segment walking: nodes from g, edges as of the latest start."""
+    from .model import Graph
+    out = Graph()
+    for n in g.nodes.values():
+        out.add_node(n)
+    for e in st.collapse().edges.values():
+        out.edges[e.key] = e
+    return out
+
+
+def _emit(sub: Graph, fmt: str) -> int:
+    if fmt == "json":
+        print(sub.to_json())
+    elif fmt == "lines":
+        print(sub.dumps_lines())
+    else:
+        d = sub.stats()
+        print(f"nodes {d['nodes']}  edges {d['edges']}")
+        print("kinds: " + " ".join(f"{k}={v}" for k, v in sorted(d["by_kind"].items())))
+        print("rels:  " + " ".join(f"{k}={v}" for k, v in sorted(d["by_rel"].items())))
+    return 0
+
+
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(prog="entitygraph")
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -43,6 +142,14 @@ def main(argv=None) -> int:
     q.add_argument("--top", type=int, default=10)
     q.add_argument("what", choices=["banks", "products", "currencies", "countries", "rates"])
     q.add_argument("--country", help="ISO-ish country key, e.g. united-states")
+
+    h = sub.add_parser("history", help="ask a graph what it looked like on a date")
+    h.add_argument("--graph", required=True, help="graph JSON built earlier (e.g. apple.graph.json)")
+    h.add_argument("--as-of", metavar="YYYY-MM-DD", help="slice on this date")
+    h.add_argument("--between", nargs=2, metavar=("START", "END"),
+                   help="walk every segment between two dates")
+    h.add_argument("--check", action="store_true", help="only report which edges carry no date")
+    h.add_argument("--format", choices=["summary", "lines", "json"], default="summary")
 
     args = ap.parse_args(argv)
 
@@ -133,6 +240,9 @@ def main(argv=None) -> int:
                 if shown >= args.top:
                     break
         return 0
+
+    if args.cmd == "history":
+        return _history(args)
 
     if args.cmd == "search":
         from .model import Graph, Node, Edge
