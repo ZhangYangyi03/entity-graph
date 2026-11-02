@@ -18,8 +18,14 @@ def _offline(monkeypatch, registry_hit=None):
     monkeypatch.setattr(buildmod.japan, "lookup", lambda *a, **kw: [], raising=False)
     monkeypatch.setattr(buildmod.china, "lookup", lambda *a, **kw: [], raising=False)
     monkeypatch.setattr(buildmod.ukmod, "lookup", lambda *a, **kw: [], raising=False)
+    # registries.py opens its own sockets for the national registries; the module-level
+    # `get` stub above does not cover that path, which is why this test spent 46 s on
+    # api.gleif.org and www.zefix.ch before conftest.py started refusing connections.
+    monkeypatch.setattr(R, "SEARCHERS", {}, raising=False)
     if registry_hit is not None:
         monkeypatch.setattr(R, "lookup_name", lambda name, countries=None: registry_hit)
+    else:
+        monkeypatch.setattr(R, "lookup_name", lambda name, countries=None: [])
 def test_registry_hit_becomes_company_plus_officers(monkeypatch):
     _offline(monkeypatch, registry_hit=[{
         "id": "652014051", "name": "CARREFOUR", "country": "FR",
