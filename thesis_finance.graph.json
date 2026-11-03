@@ -1,0 +1,4678 @@
+{
+ "nodes": [
+  {
+   "key": "actor:96b499814b64",
+   "kind": "actor",
+   "label": "荷兰的股票相比佛罗伦萨",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:690486c21318",
+   "kind": "concept",
+   "label": "证券交易市场可以公共交易",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:63396cbe6565",
+   "kind": "concept",
+   "label": "投了资，有钱赚，没钱最多亏投的资，但是赚之后投的也拿不回来不影响企业，退出时拿分…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "投了资，有钱赚，没钱最多亏投的资，但是赚之后投的也拿不回来不影响企业，退出时拿分红或转让股份"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:f0ddd10f3818",
+   "kind": "concept",
+   "label": "可以随时把股份",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:2655ca745530",
+   "kind": "concept",
+   "label": "给下一个人拿回现金",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:f4120d4f2e87",
+   "kind": "actor",
+   "label": "李嘉图",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:4a8b7c74d6a3",
+   "kind": "actor",
+   "label": "马尔萨斯",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:ea1c933d710d",
+   "kind": "actor",
+   "label": "萨伊",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:a47114cf7ba9",
+   "kind": "actor",
+   "label": "亚当斯密",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:63e39c890914",
+   "kind": "concept",
+   "label": "古典经济学：亚当斯密劳动价值+自由常态、李嘉图边际主义、马尔萨斯周期危机、萨伊定…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "古典经济学：亚当斯密劳动价值+自由常态、李嘉图边际主义、马尔萨斯周期危机、萨伊定律：唯供主义/供给创造需求"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:21e036d1df0f",
+   "kind": "actor",
+   "label": "马克思",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:7f8f2c28e689",
+   "kind": "concept",
+   "label": "剩余价值根基",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:3db28d2aa514",
+   "kind": "actor",
+   "label": "萨伊+劳动价值",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:d9edb91adeb6",
+   "kind": "actor",
+   "label": "凯恩斯",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:553590fabfa9",
+   "kind": "actor",
+   "label": "斯密",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:f95d200af890",
+   "kind": "actor",
+   "label": "凯恩斯：否定萨伊定律/剩余价值+否定斯密传统/否定自然调节/肯定资本主义自我毁灭…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "凯恩斯：否定萨伊定律/剩余价值+否定斯密传统/否定自然调节/肯定资本主义自我毁灭，就业本位倡导赤字政策"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:da85afc6eb40",
+   "kind": "actor",
+   "label": "哈耶克",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:cb53a2df878a",
+   "kind": "concept",
+   "label": "新古典：哈耶克奥地利学派，市场均衡论，边际主义革命（追求适度曲线）",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "新古典：哈耶克奥地利学派，市场均衡论，边际主义革命（追求适度曲线）"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:ead8b5800408",
+   "kind": "concept",
+   "label": "个体需求/主观价值",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:aeab8340c043",
+   "kind": "concept",
+   "label": "劳动价值+理性演绎反观察统计/反计划经济",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:fa5161fccfd2",
+   "kind": "concept",
+   "label": "古典经济学",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:ee6203ec29d8",
+   "kind": "concept",
+   "label": "5个支柱",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:0056252a8c18",
+   "kind": "actor",
+   "label": "唐大陶",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:7754e111eb0e",
+   "kind": "actor",
+   "label": "邱濬",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:dd11ea5ac6b5",
+   "kind": "actor",
+   "label": "管仲",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:89529a17f16e",
+   "kind": "actor",
+   "label": "亚当斯密1劳动价值（邱濬2自由自我调节（唐大陶、李嘉图3边际主义（管仲、马尔萨斯…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "亚当斯密1劳动价值（邱濬2自由自我调节（唐大陶、李嘉图3边际主义（管仲、马尔萨斯4周期危机（邱濬、萨伊5供给创需（唐大陶"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:0a2614c1bc13",
+   "kind": "concept",
+   "label": "24是相矛盾的，35是矛盾的",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "24是相矛盾的，35是矛盾的"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:589635b8b61a",
+   "kind": "actor",
+   "label": "马克思＝1+4+5-2无视3",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "马克思＝1+4+5-2无视3"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:97f5d717aa2f",
+   "kind": "actor",
+   "label": "凯恩斯＝3+4-5-2-1",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "凯恩斯＝3+4-5-2-1"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:df758cdc13f1",
+   "kind": "actor",
+   "label": "陆九渊",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:6854adf3e24b",
+   "kind": "concept",
+   "label": "新古典又",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:2870b9b26b94",
+   "kind": "concept",
+   "label": "一个6主观价值论（陆九渊和1矛盾",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:0600fae48f7a",
+   "kind": "actor",
+   "label": "哈耶克＝2+3+6-5-4-1",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "哈耶克＝2+3+6-5-4-1"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:a0aac92e7a8e",
+   "kind": "actor",
+   "label": "尤斯蒂",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:279eb3a58751",
+   "kind": "actor",
+   "label": "汉密尔顿",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:b318c7b27064",
+   "kind": "actor",
+   "label": "李斯特",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:016e786bbb5e",
+   "kind": "actor",
+   "label": "尤斯蒂中国化重商主义→汉密尔顿美国学派→李斯特国民经济学→马克思",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "尤斯蒂中国化重商主义→汉密尔顿美国学派→李斯特国民经济学→马克思"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:4d021f5d9c4a",
+   "kind": "actor",
+   "label": "美国学派:国家基建+央行调控+关税保工业",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "美国学派:国家基建+央行调控+关税保工业"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:d8ff73033100",
+   "kind": "concept",
+   "label": "地租负资产",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:b393a98e90bf",
+   "kind": "actor",
+   "label": "拉萨尔",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:79b6c874f0ea",
+   "kind": "concept",
+   "label": "工人公社",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:bc352f76dd57",
+   "kind": "concept",
+   "label": "农反资+最低工资铁律",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:bebc08bccdea",
+   "kind": "actor",
+   "label": "王茂荫",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:e4e7780b2608",
+   "kind": "actor",
+   "label": "马克思资本论第一章致敬从俄传教士得知的徽商户部侍郎陕西监察御史王茂荫的货币经济理…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "马克思资本论第一章致敬从俄传教士得知的徽商户部侍郎陕西监察御史王茂荫的货币经济理论"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:ce11e300f050",
+   "kind": "concept",
+   "label": "雇工协议只能货币工资",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:93d76681a9d8",
+   "kind": "concept",
+   "label": "就业不充分物价上涨工人逆来顺受",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:d2a6b1dc2d8f",
+   "kind": "concept",
+   "label": "重商主义:管制手段+出口倒向+金银本位",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "重商主义:管制手段+出口倒向+金银本位"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:f8cc61c9eed1",
+   "kind": "concept",
+   "label": "工业产生",
+   "attrs": {
+    "verified": false,
+    "section": true
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:59a77985a772",
+   "kind": "concept",
+   "label": "古典自由:批管制限制市场+自由手段+商品本位",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "古典自由:批管制限制市场+自由手段+商品本位"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:e89b8b92e814",
+   "kind": "concept",
+   "label": "工业过剩",
+   "attrs": {
+    "verified": false,
+    "section": true
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:8f9b4535a8a9",
+   "kind": "concept",
+   "label": "新古典:边际效应+主观价值大于劳动",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "新古典:边际效应+主观价值大于劳动"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:ee247aa28d52",
+   "kind": "concept",
+   "label": "电器化机器成本上升",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "电器化机器成本上升"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:81f468cccc2e",
+   "kind": "actor",
+   "label": "凯恩斯:工人议价权下降，反失业",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "凯恩斯:工人议价权下降，反失业"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:bb3f9b27be41",
+   "kind": "concept",
+   "label": "信息化",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:512cae67c18b",
+   "kind": "concept",
+   "label": "迁移成本低",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:5efbad21bce7",
+   "kind": "concept",
+   "label": "英镑",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:2b0685975468",
+   "kind": "concept",
+   "label": "普通法的案例可预测性",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:e20007e4ea37",
+   "kind": "concept",
+   "label": "欧元",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:eaa24fdf4841",
+   "kind": "concept",
+   "label": "非美元结算体系",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:8815d9569f75",
+   "kind": "concept",
+   "label": "日元",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:d0e41a95ea8c",
+   "kind": "concept",
+   "label": "大量海外资产美债",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:67631a35bb7a",
+   "kind": "concept",
+   "label": "瑞郎低息是为了减少买入",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:7d73bc20940f",
+   "kind": "concept",
+   "label": "升值影响出口",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:5f1224287ee8",
+   "kind": "actor",
+   "label": "降息不如印钞效果立竿见影，还有银行准备金率越低放水越多效果更快",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "降息不如印钞效果立竿见影，还有银行准备金率越低放水越多效果更快"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:6b4ef328bcd2",
+   "kind": "actor",
+   "label": "冷战早期欧洲银行不要脸故意放出超额美元，让市场去兑换美国黄金，结果美国当然兑不出…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "冷战早期欧洲银行不要脸故意放出超额美元，让市场去兑换美国黄金，结果美国当然兑不出来破坏了布雷顿森林体系，因冷战赌美国给他兜底不敢抛弃欧洲"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:edd9f48b5a0f",
+   "kind": "actor",
+   "label": "安倍",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:58900e7adafe",
+   "kind": "actor",
+   "label": "安倍经济学量化宽松",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:cb084cac9ba7",
+   "kind": "concept",
+   "label": "自己跟自己借钱",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:c32256c27f6e",
+   "kind": "actor",
+   "label": "安倍也是像美元霸权一样印钱维持僵尸福利式岗位的就业，信日元的被安倍白嫖，不信的就…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "安倍也是像美元霸权一样印钱维持僵尸福利式岗位的就业，信日元的被安倍白嫖，不信的就利好日元贬值制造业竞争力"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:7f9f08394cda",
+   "kind": "actor",
+   "label": "相当于政府靠抬高汇率",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:6289ad84ffe7",
+   "kind": "actor",
+   "label": "泡沫发给民间钱变向还给政府了",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:af7a42389ecb",
+   "kind": "actor",
+   "label": "日本远没到抛售美债这一步就救成了",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "日本远没到抛售美债这一步就救成了"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:b31c5f3d11df",
+   "kind": "actor",
+   "label": "希腊无货币主权卖信用，无老龄化和制造业天然通缩抵消，玩不了这个",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "希腊无货币主权卖信用，无老龄化和制造业天然通缩抵消，玩不了这个"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:944e9f8da1b7",
+   "kind": "concept",
+   "label": "脱欧",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:c06de23696fa",
+   "kind": "concept",
+   "label": "失去一次性过英欧双层监管的优势",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:2f302ef20045",
+   "kind": "actor",
+   "label": "量化宽松也叫债务货币化，美联储央行要多印钱给政府国债基建兜底，稀释国债却也避免更…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "量化宽松也叫债务货币化，美联储央行要多印钱给政府国债基建兜底，稀释国债却也避免更大危机"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:9876b14e1faf",
+   "kind": "actor",
+   "label": "韦伯",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:a05c3539e8f2",
+   "kind": "actor",
+   "label": "亚当斯密看了习学记言写出了国富论，马克思韦伯看了明夷待访录写出了资本主义与新教伦…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "亚当斯密看了习学记言写出了国富论，马克思韦伯看了明夷待访录写出了资本主义与新教伦理"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:1c50779b980d",
+   "kind": "concept",
+   "label": "金融卖的",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:7b2a8f425310",
+   "kind": "concept",
+   "label": "预期共识",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:e633ea17a90a",
+   "kind": "concept",
+   "label": "卖未来的东西",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:d4a2cd7f8e73",
+   "kind": "concept",
+   "label": "诈骗的温床",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:2e42c2c20da7",
+   "kind": "concept",
+   "label": "学阀是打不完的",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:676f51493aee",
+   "kind": "concept",
+   "label": "没有人知道一个学术路径是不是对的",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:4709b69d7ec2",
+   "kind": "concept",
+   "label": "高杠杆",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:e9dfdde4f1e5",
+   "kind": "concept",
+   "label": "少本金借大钱高风险",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:aae37a9f7eba",
+   "kind": "actor",
+   "label": "资本天然短视喜欢虚拟房地产而非长期硬科技，需要政府监管疏导",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "资本天然短视喜欢虚拟房地产而非长期硬科技，需要政府监管疏导"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:35974a8ef7d4",
+   "kind": "concept",
+   "label": "房地产自有率低",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:c916a908791d",
+   "kind": "concept",
+   "label": "房产税不如租房",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:296a50969c6a",
+   "kind": "concept",
+   "label": "放贷中介费极高且禁止房东赶人",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:c41162b66bbc",
+   "kind": "concept",
+   "label": "修缮不足",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:3454aa0e8e6a",
+   "kind": "concept",
+   "label": "是长资本",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:8be6b28193cd",
+   "kind": "concept",
+   "label": "重要来源",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:8728d58faf03",
+   "kind": "actor",
+   "label": "欧洲除了荷兰风投全靠银行，而银行需要储备金比养老金害怕风险，且欧洲中东大量能源和…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "欧洲除了荷兰风投全靠银行，而银行需要储备金比养老金害怕风险，且欧洲中东大量能源和养老金主权基金给美国托管"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:e31e6f30ba80",
+   "kind": "actor",
+   "label": "安倍从01开始学出软银24比率超过美国韩国类似",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "安倍从01开始学出软银24比率超过美国韩国类似"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:0dafd9e3dd4f",
+   "kind": "concept",
+   "label": "有阿里投互联网企业",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:d883dd4c818d",
+   "kind": "concept",
+   "label": "b站、美团、拼多多",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:d3f789938047",
+   "kind": "actor",
+   "label": "中央政府20%，地方70%，民间10%",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "中央政府20%，地方70%，民间10%"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:7a40ecb4620c",
+   "kind": "actor",
+   "label": "中国资本",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:7d8e1fb99137",
+   "kind": "concept",
+   "label": "缺少基础创新耐心",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:d293c4d7ec5d",
+   "kind": "concept",
+   "label": "容易",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:bbe6b7554158",
+   "kind": "concept",
+   "label": "变相腐败",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:f709aa2926e0",
+   "kind": "concept",
+   "label": "香港金融资本耐心很差，市场太小没传统",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "香港金融资本耐心很差，市场太小没传统"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:878f6244f0e8",
+   "kind": "actor",
+   "label": "美国人养老金15%，本土金融机构25%，散户15%，欧洲人养老金10%，亚洲土豪…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "美国人养老金15%，本土金融机构25%，散户15%，欧洲人养老金10%，亚洲土豪10%，中东和加澳5%"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:3fe5d21401a5",
+   "kind": "actor",
+   "label": "李泽楷",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:cd3109c50189",
+   "kind": "actor",
+   "label": "被一个南非报业公司",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:9549bb9fd38c",
+   "kind": "concept",
+   "label": "赚了自己市值几十倍",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:0ebd46a255fa",
+   "kind": "concept",
+   "label": "华为因拉不到",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:31f59b74a0d4",
+   "kind": "concept",
+   "label": "才搞全员持股世界首个",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:018240432e47",
+   "kind": "actor",
+   "label": "中国企业",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:93a7cd086e27",
+   "kind": "concept",
+   "label": "通过港股AB股同股不同权",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:11dd302d58f6",
+   "kind": "actor",
+   "label": "马云",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:02d3b01f2aa8",
+   "kind": "actor",
+   "label": "马云发明合伙人制架空软银股东董事会",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "马云发明合伙人制架空软银股东董事会"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:dc3548fa03b9",
+   "kind": "concept",
+   "label": "国资入股民企",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "国资入股民企"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:29612f221958",
+   "kind": "actor",
+   "label": "美国18年之后23年彻底禁止美国资本投资中国科技，中央加大投资杠杆，但地方拿到钱…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "美国18年之后23年彻底禁止美国资本投资中国科技，中央加大投资杠杆，但地方拿到钱还债为主，投资不足"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:39353321c78e",
+   "kind": "concept",
+   "label": "房地产这种金融模式",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:0007617014fb",
+   "kind": "concept",
+   "label": "一种很适合制造业",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:75a5e1bc515e",
+   "kind": "concept",
+   "label": "房地产",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:64545af70cfb",
+   "kind": "concept",
+   "label": "国债+以工代赈",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:9a71ad6ad10e",
+   "kind": "concept",
+   "label": "股票",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:5674f8950011",
+   "kind": "concept",
+   "label": "同质化的类似钱卖了能买一样量",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:398e41d5d707",
+   "kind": "concept",
+   "label": "杠杆率过高",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:193dfd4f03fe",
+   "kind": "concept",
+   "label": "用很少的本金",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:1ad87c33c267",
+   "kind": "concept",
+   "label": "热钱",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:6286b1da031e",
+   "kind": "concept",
+   "label": "国际短期投机资本",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:f3622eef7d45",
+   "kind": "concept",
+   "label": "华盛顿共识新自由主义允许跌后还",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "华盛顿共识新自由主义允许跌后还"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:73189735c0c2",
+   "kind": "concept",
+   "label": "买是所有权",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:ca4df97429ff",
+   "kind": "concept",
+   "label": "使用权能吃利息",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:fc78985c1934",
+   "kind": "actor",
+   "label": "索罗斯",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:9f36f71c9c07",
+   "kind": "concept",
+   "label": "做空",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:f24086f2e6fd",
+   "kind": "concept",
+   "label": "借会跌的股票换钱",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:5927816b6b99",
+   "kind": "concept",
+   "label": "抄底",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:cf72637aec42",
+   "kind": "concept",
+   "label": "做空的反面",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:a6dfd585281a",
+   "kind": "concept",
+   "label": "舟山和共青城",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:61b61c1098ab",
+   "kind": "actor",
+   "label": "中国的开曼",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:da4376c8672d",
+   "kind": "concept",
+   "label": "拉萨",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:0dd3fd7abe79",
+   "kind": "concept",
+   "label": "西部开发也类似",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:165697bbbeba",
+   "kind": "concept",
+   "label": "开曼群岛、维尔京、百慕大",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:302864ad9ff4",
+   "kind": "actor",
+   "label": "英国普通法",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:0c2686600e58",
+   "kind": "actor",
+   "label": "开曼多高风险对冲基金何上市",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "开曼多高风险对冲基金何上市"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:7d9c593e05a6",
+   "kind": "concept",
+   "label": "维尔京多持股",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "维尔京多持股"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:c68e89aef978",
+   "kind": "concept",
+   "label": "百慕大多巨额保险",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "百慕大多巨额保险"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:8efb6223a631",
+   "kind": "concept",
+   "label": "GDP算增值",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:624e36e962a8",
+   "kind": "concept",
+   "label": "和这个无关",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:2199943ddf5c",
+   "kind": "concept",
+   "label": "货币",
+   "attrs": {
+    "verified": false,
+    "section": true
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:d07179901b2a",
+   "kind": "concept",
+   "label": "唐朝飞钱票据→宋朝交子纸币",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "唐朝飞钱票据→宋朝交子纸币"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:101806f57c32",
+   "kind": "actor",
+   "label": "中国",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:b0ec23007021",
+   "kind": "concept",
+   "label": "纸币普及太早",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:dab1838043a4",
+   "kind": "actor",
+   "label": "牛顿",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:e34f5a011a33",
+   "kind": "concept",
+   "label": "秘鲁",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:2d17b37eb79d",
+   "kind": "concept",
+   "label": "银贬值牛顿开始金本位",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:c12785ff1a5e",
+   "kind": "concept",
+   "label": "自由主义时代的货币体系：唐：银-铜→宋元：银-铜-纸→明：银-铜→明清：银",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "自由主义时代的货币体系：唐：银-铜→宋元：银-铜-纸→明：银-铜→明清：银"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:7e3f7b0cc908",
+   "kind": "actor",
+   "label": "世界牙买加体系/中国铜本位体系-宋元布雷顿森林系→元明牙买加体系→明末银本位体系",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "世界牙买加体系/中国铜本位体系-宋元布雷顿森林系→元明牙买加体系→明末银本位体系"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:56b58e2dcbc7",
+   "kind": "concept",
+   "label": "贾湖开始贝币，周朝开始贵金属，秦汉开始统一",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "贾湖开始贝币，周朝开始贵金属，秦汉开始统一"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:01c272c338db",
+   "kind": "concept",
+   "label": "无货币→多货币→单一贵金属→单一纸币，是个货币秦制化/集中化趋势",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "无货币→多货币→单一贵金属→单一纸币，是个货币秦制化/集中化趋势"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:66516a819470",
+   "kind": "concept",
+   "label": "金本位",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:12fede6c1358",
+   "kind": "concept",
+   "label": "金银并用",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:a424fdd8e53d",
+   "kind": "actor",
+   "label": "雍正",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:e67585a37eae",
+   "kind": "actor",
+   "label": "中国雍正银本位，英国牛顿金本位",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "中国雍正银本位，英国牛顿金本位"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:e346edf340c8",
+   "kind": "concept",
+   "label": "英-直接用金银子-金属本位",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "英-直接用金银子-金属本位"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:4d8832e66306",
+   "kind": "actor",
+   "label": "英国纸币化金汇兑威信扫地，美国实践",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "英国纸币化金汇兑威信扫地，美国实践"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:96c482b01d1d",
+   "kind": "concept",
+   "label": "美-国家通货绑定金银-布雷顿森林",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "美-国家通货绑定金银-布雷顿森林"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:320a22da3da7",
+   "kind": "actor",
+   "label": "尼克松",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:f43f80ae9d37",
+   "kind": "actor",
+   "label": "尼克松取缔",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "尼克松取缔"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:3be8299ab4b3",
+   "kind": "concept",
+   "label": "美-不挂钩贵金属的国际货币-牙买加体系",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "美-不挂钩贵金属的国际货币-牙买加体系"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:70c7b591549c",
+   "kind": "concept",
+   "label": "布雷顿一共没多少年还调整了，固定也白固定",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "布雷顿一共没多少年还调整了，固定也白固定"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:1b7a3e30770e",
+   "kind": "actor",
+   "label": "货币发行严格受限于黄金储备，政府无法随意印钞，大萧条后放弃金本位是大众民主短期期…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "货币发行严格受限于黄金储备，政府无法随意印钞，大萧条后放弃金本位是大众民主短期期望政府扩权刺激压过了资本长期自我维护"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:dfae1720623c",
+   "kind": "concept",
+   "label": "黄金避险强，流动性差，当市场上国际货币因加息匮乏时，黄金会贬值，",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "黄金避险强，流动性差，当市场上国际货币因加息匮乏时，黄金会贬值，"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:1d15683bb259",
+   "kind": "concept",
+   "label": "生产力一直涨，通货需要一直增要不然就要通缩，贵金属枯竭被淘汰，美元必须一直印保持…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "生产力一直涨，通货需要一直增要不然就要通缩，贵金属枯竭被淘汰，美元必须一直印保持逆差"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:01ba9f9714db",
+   "kind": "actor",
+   "label": "丘吉尔",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:e879c34d47e7",
+   "kind": "concept",
+   "label": "英镑1925丘吉尔强行恢复绑定黄金，导致高汇率工业流失大罢工",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "英镑1925丘吉尔强行恢复绑定黄金，导致高汇率工业流失大罢工"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:df298d1ae935",
+   "kind": "concept",
+   "label": "死守高汇率",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:7441bb316a6a",
+   "kind": "concept",
+   "label": "1949大贬值",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:c672cb3d4129",
+   "kind": "concept",
+   "label": "1960s外资疯狂外逃，提高利息留住外资，1967大罢工债务太多绷不住被迫贬值求…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "1960s外资疯狂外逃，提高利息留住外资，1967大罢工债务太多绷不住被迫贬值求助IMF"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:d00d4c608282",
+   "kind": "concept",
+   "label": "最终被索罗斯92年彻底打废",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "最终被索罗斯92年彻底打废"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:3a6ca0ed846d",
+   "kind": "concept",
+   "label": "美元霸权潮汐",
+   "attrs": {
+    "verified": false,
+    "section": true
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:705f81d00e3d",
+   "kind": "actor",
+   "label": "美国降息＝借贷容易钱多＝美国通胀＝美国物价增＝美国资本输出",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "美国降息＝借贷容易钱多＝美国通胀＝美国物价增＝美国资本输出"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:b31e09cf8f98",
+   "kind": "actor",
+   "label": "美债给美元背书，先降息后加息→先外国后美国企业借贷成本增加→先外国后美国物价上涨…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "美债给美元背书，先降息后加息→先外国后美国企业借贷成本增加→先外国后美国物价上涨/通胀,先外国后美国从外部进口便宜→外国投资长期还没收益，没法还钱债务危机→资本流出再流回唯一的避风港美国"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:ce0a2e4feca0",
+   "kind": "concept",
+   "label": "外国",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:38ba523f0c34",
+   "kind": "concept",
+   "label": "先减价后加价",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:1f5c502f603e",
+   "kind": "actor",
+   "label": "美国制造的欧亚大陆战争",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:18b1f4d37bc3",
+   "kind": "concept",
+   "label": "倒会让美元升值",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:3a34b62acc2b",
+   "kind": "concept",
+   "label": "加息",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:c03e6b8c91ca",
+   "kind": "concept",
+   "label": "财政集权",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:ee2ab7bce38d",
+   "kind": "actor",
+   "label": "富达先锋等主权货币基金存户美国人民和外国美债/主权基金利益一致希望美元加息，而世…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "富达先锋等主权货币基金存户美国人民和外国美债/主权基金利益一致希望美元加息，而世界企业希望降息，降息时买国债可以锁定利息赚回相对优势"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:c367cc73ef98",
+   "kind": "concept",
+   "label": "每2-3年一变",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "每2-3年一变"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:43d107b01f58",
+   "kind": "concept",
+   "label": "1.美元在不断放水增加通胀降低信用",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "1.美元在不断放水增加通胀降低信用"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:a7176f67e90a",
+   "kind": "actor",
+   "label": "2.中国制造在不断制造通缩，减缓美元放水的通胀效果",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "2.中国制造在不断制造通缩，减缓美元放水的通胀效果"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:57dc68d70123",
+   "kind": "concept",
+   "label": "1.石油危机会",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:3e58bb33e8b7",
+   "kind": "actor",
+   "label": "美国通胀+失业/滞涨",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:40f89a4cd1d9",
+   "kind": "concept",
+   "label": "不仅得到石油也可以制造混乱",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:25ffabe28988",
+   "kind": "concept",
+   "label": "向增加美元信用",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:24641c340588",
+   "kind": "concept",
+   "label": "现在之所以要崩",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:ed96d5c39d3d",
+   "kind": "actor",
+   "label": "中国制造业不再无限扩张抛售了40%美债",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:99827e603566",
+   "kind": "actor",
+   "label": "日本占15%，中国英国欧盟各10%，海湾5%",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "日本占15%，中国英国欧盟各10%，海湾5%"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:72cb035fabfd",
+   "kind": "actor",
+   "label": "中国和沙特这样抛售美债",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:e819163c0c51",
+   "kind": "actor",
+   "label": "给美国制造金融危机",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:bde8b35cda95",
+   "kind": "actor",
+   "label": "沃尔克",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:9adb24d95136",
+   "kind": "actor",
+   "label": "1951《美联储-财政部协议》，朝鲜战争后政府逼美联储压低利率被拒绝，宣布美联储…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "1951《美联储-财政部协议》，朝鲜战争后政府逼美联储压低利率被拒绝，宣布美联储独立，尼克松试图收回结果降息引发滞涨，沃尔克之后才真独立"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:d7c3ecd25e2e",
+   "kind": "actor",
+   "label": "政府总",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:aa297d14e535",
+   "kind": "concept",
+   "label": "倾向于降息讨好选民",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:cb368d14765f",
+   "kind": "concept",
+   "label": "代价",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:2b67e9a4dced",
+   "kind": "concept",
+   "label": "国债利息压力加大",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:c524fc3ed343",
+   "kind": "actor",
+   "label": "里根",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:699f77af846c",
+   "kind": "concept",
+   "label": "解决不了失业",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:24c51b32e9dc",
+   "kind": "concept",
+   "label": "社会撕裂严重",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:85860b88d448",
+   "kind": "actor",
+   "label": "格林斯潘",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:ea2f7d953c25",
+   "kind": "concept",
+   "label": "迷信安兰德加剧自由放任金融",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:83865a378ffb",
+   "kind": "concept",
+   "label": "超额消费留下巨大泡沫和次贷成08危机",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:43f33c37a592",
+   "kind": "actor",
+   "label": "伯南克",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:42947c4176c1",
+   "kind": "actor",
+   "label": "伯南克发明量化宽松，因为缺乏可信抵押物制度上救不了雷曼兄弟引发连锁反应",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "伯南克发明量化宽松，因为缺乏可信抵押物制度上救不了雷曼兄弟引发连锁反应"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:a3081635fe77",
+   "kind": "actor",
+   "label": "鲍威尔",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:1b2be0f352f0",
+   "kind": "actor",
+   "label": "鲍威尔疫情2020外国囤积美元避险，破纪录大印钞释放资本救美企，避免雷曼兄弟破产…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "鲍威尔疫情2020外国囤积美元避险，破纪录大印钞释放资本救美企，避免雷曼兄弟破产重演，但没计算产品断供太乐观22才结束通胀严重，又大加息"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:433a9a166f13",
+   "kind": "concept",
+   "label": "现在中日抛售美元，为避免信用彻底破产，只能顶着关税通胀威胁，缓慢降息输出资本贬值…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "现在中日抛售美元，为避免信用彻底破产，只能顶着关税通胀威胁，缓慢降息输出资本贬值美元，加息本土企业就会破产"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:2559f81a548c",
+   "kind": "concept",
+   "label": "更早的",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:ce1ae1ca4fe4",
+   "kind": "actor",
+   "label": "瑞典和英国",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:83bccdf2f54c",
+   "kind": "concept",
+   "label": "却没想到滞涨是",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:0b8957f4a209",
+   "kind": "concept",
+   "label": "石油生产成本",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:48f8f04457f5",
+   "kind": "actor",
+   "label": "菲利普斯曲线在只考虑市场且劳资都无对政府预测的情况下是成立的",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "菲利普斯曲线在只考虑市场且劳资都无对政府预测的情况下是成立的"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:20be80794d95",
+   "kind": "concept",
+   "label": "滞涨",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:1f3e110cf294",
+   "kind": "concept",
+   "label": "通胀型萧条",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:0a2c91cec6c8",
+   "kind": "concept",
+   "label": "结果",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:34bae23922e2",
+   "kind": "concept",
+   "label": "戒断比石油国家还惨",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:c0b9bf00bbc7",
+   "kind": "concept",
+   "label": "80石油美元回流、97亚洲金融危机类似大萧条，低息热钱→债务太高→汇率降低→物价…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "80石油美元回流、97亚洲金融危机类似大萧条，低息热钱→债务太高→汇率降低→物价下跌→市场萎缩需求崩溃"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:cfba183d0f15",
+   "kind": "actor",
+   "label": "92黑色星期三华尔街冲击欧洲，德国、瑞士强行固定汇率扛住，法国国企下场且有核能，…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "92黑色星期三华尔街冲击欧洲，德国、瑞士强行固定汇率扛住，法国国企下场且有核能，英镑、意大利里拉、芬兰马克、瑞典克朗大贬值，北欧石油能源足制造业复苏，英国、意大利经济崩溃"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:d5f996c20479",
+   "kind": "actor",
+   "label": "印度在亚洲金融危机表现的挺出色，也是因为自由化不久就遇见科威特断油缺外汇和黑色星…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "印度在亚洲金融危机表现的挺出色，也是因为自由化不久就遇见科威特断油缺外汇和黑色星期三，有金融管制"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:03de88c1edf5",
+   "kind": "actor",
+   "label": "奥巴马",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:82e697223282",
+   "kind": "actor",
+   "label": "国会决定债务上限，在野党经常压低债务上限逼美国国债违约，制造经济危机攻击执政党，…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "国会决定债务上限，在野党经常压低债务上限逼美国国债违约，制造经济危机攻击执政党，共和党对奥巴马医保，民主党对川普长城都干过"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:a5aae888d825",
+   "kind": "actor",
+   "label": "美国违约之后",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:9f30fab26f05",
+   "kind": "concept",
+   "label": "债利率会上升财政紧张",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:3f21dc57ed05",
+   "kind": "concept",
+   "label": "通胀就三个原因，市场少了，原材料人力便宜了，预期太高金融泡沫破了",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "通胀就三个原因，市场少了，原材料人力便宜了，预期太高金融泡沫破了"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:5e106c32cfb6",
+   "kind": "concept",
+   "label": "预期",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:f178948b1b59",
+   "kind": "concept",
+   "label": "一种市场惯性",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:464fcfc918f3",
+   "kind": "actor",
+   "label": "东亚中东买美国国债",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:e2d422da2cb1",
+   "kind": "concept",
+   "label": "外汇人质",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:cf11d311f773",
+   "kind": "concept",
+   "label": "08因为东亚欧洲美债囤积",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:6ebc10dcf582",
+   "kind": "actor",
+   "label": "美元信用暴涨都投资美国金融",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:e483f1e4b576",
+   "kind": "concept",
+   "label": "也是",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:e4d829e29f12",
+   "kind": "concept",
+   "label": "欧债危机后欧猪破产",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:ecc05f94dea7",
+   "kind": "concept",
+   "label": "南欧",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:4d17fba7edf8",
+   "kind": "concept",
+   "label": "转移支付",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:358fdd4b6efd",
+   "kind": "concept",
+   "label": "搞量化宽松货币大放水和滞涨情况一样，只能通过科技腾飞解决",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "搞量化宽松货币大放水和滞涨情况一样，只能通过科技腾飞解决"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:ce440d7b5d6e",
+   "kind": "concept",
+   "label": "三个原因居然",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:91ed01fbcfa7",
+   "kind": "concept",
+   "label": "通过一个量化宽松的办法",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:08915b385810",
+   "kind": "concept",
+   "label": "金融信用和预期破产，不是产业流失这种硬伤，其实用以工代赈都没问题",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "金融信用和预期破产，不是产业流失这种硬伤，其实用以工代赈都没问题"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:b83268827944",
+   "kind": "actor",
+   "label": "所以说对中国而言，次贷/地方债/石油危机，都一点不重要，遇见市场萎缩随便基建以工…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "所以说对中国而言，次贷/地方债/石油危机，都一点不重要，遇见市场萎缩随便基建以工代赈，遇见产业流失可以镇压工会提供廉劳弥补原料成本"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:24746de12587",
+   "kind": "concept",
+   "label": "以工代赈基建的金融化",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:30a6357cce5c",
+   "kind": "actor",
+   "label": "德国租房房价控制，新加坡直接租房八成国有化",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "德国租房房价控制，新加坡直接租房八成国有化"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:3f7913d03f18",
+   "kind": "actor",
+   "label": "美国从里根之后对量化宽松撒币大法路径依赖了，包治百病但需要用科技补，结果快乐教育…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "美国从里根之后对量化宽松撒币大法路径依赖了，包治百病但需要用科技补，结果快乐教育补不上"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:a0272a59a086",
+   "kind": "actor",
+   "label": "周小川",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:9e4e3bbf213a",
+   "kind": "actor",
+   "label": "央行周小川",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:4875b6c32764",
+   "kind": "concept",
+   "label": "美元霸权",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:2b3be66b55c1",
+   "kind": "actor",
+   "label": "中国多美债",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:8a62645192a2",
+   "kind": "concept",
+   "label": "信任美元",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:f5521591e8f8",
+   "kind": "actor",
+   "label": "蒋介石",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:6f01618928f9",
+   "kind": "actor",
+   "label": "埃尔多安",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:90de68c23135",
+   "kind": "actor",
+   "label": "蒋介石和埃尔多安加息比美国还猛配合旅游业制造更强避风港",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "蒋介石和埃尔多安加息比美国还猛配合旅游业制造更强避风港"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:fbc801298d21",
+   "kind": "actor",
+   "label": "中本聪",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:f1397db39aa8",
+   "kind": "actor",
+   "label": "中本聪比特币",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:7f81a4f72e34",
+   "kind": "concept",
+   "label": "国际货币去中心化对抗华尔街印钞",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:f2bf63b8f9ec",
+   "kind": "concept",
+   "label": "美元",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:4b69d846032e",
+   "kind": "concept",
+   "label": "国际货币",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:1fcc9db596f9",
+   "kind": "concept",
+   "label": "楼市",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:69fa2e78f568",
+   "kind": "concept",
+   "label": "国债股市",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:783fca55b130",
+   "kind": "concept",
+   "label": "教育科研",
+   "attrs": {
+    "verified": false,
+    "section": true
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:3f5c53d8c095",
+   "kind": "actor",
+   "label": "英国通过专利法和学校私营应用",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:8b4751be83fe",
+   "kind": "actor",
+   "label": "法国纯贵族官办学院数理化",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:46430c0ab3ea",
+   "kind": "actor",
+   "label": "德国通过工程校企合作大学，应用转化超过英国",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "德国通过工程校企合作大学，应用转化超过英国"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:f1a7082e5f2d",
+   "kind": "actor",
+   "label": "美国引进德国模式保留英国模式",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "美国引进德国模式保留英国模式"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:a2cc9b72a5d4",
+   "kind": "actor",
+   "label": "苏联模式",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:e70a61dd03a3",
+   "kind": "actor",
+   "label": "法国国家主导",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:fd27b9cd18c1",
+   "kind": "concept",
+   "label": "北欧是低淘汰风险",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:7699423be3b1",
+   "kind": "concept",
+   "label": "试错创新",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:022688eb994f",
+   "kind": "actor",
+   "label": "美国因为自治传统和种族矛盾",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:5a3542fefb89",
+   "kind": "concept",
+   "label": "学北欧模式学失败了",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:b84e50e4a012",
+   "kind": "actor",
+   "label": "中国通过苏联式政府控制企业发挥规模优势，但对市场开放和法国趋同，现代又追求高等转…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "中国通过苏联式政府控制企业发挥规模优势，但对市场开放和法国趋同，现代又追求高等转型德国模式，基础转型北欧模式"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:4ab05e31b0c6",
+   "kind": "concept",
+   "label": "最完美的基础教育应该",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:e9fca030f18e",
+   "kind": "concept",
+   "label": "私立英式",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:ee7c8ac53562",
+   "kind": "concept",
+   "label": "欧陆死于福利太高，技工足却价格高，英美死于分化太绝，精英够但底层当不了技工",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "欧陆死于福利太高，技工足却价格高，英美死于分化太绝，精英够但底层当不了技工"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:73e7869c30fa",
+   "kind": "actor",
+   "label": "中国培养精英不够，但便宜且分化绝抬高平均水平且廉价弥补",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "中国培养精英不够，但便宜且分化绝抬高平均水平且廉价弥补"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:d997c7725d9f",
+   "kind": "concept",
+   "label": "医疗制度",
+   "attrs": {
+    "verified": false,
+    "section": true
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:5d406d376750",
+   "kind": "actor",
+   "label": "英国北欧国家承包靠排队",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "英国北欧国家承包靠排队"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:6ca300d11a0f",
+   "kind": "actor",
+   "label": "德国日韩",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:bb0bed260ec6",
+   "kind": "actor",
+   "label": "基金共济强制交不同款但同待遇",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:1916a070645c",
+   "kind": "concept",
+   "label": "新加坡强迫个人储蓄公积金",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "新加坡强迫个人储蓄公积金"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:1a26edf94a81",
+   "kind": "concept",
+   "label": "其他",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:f451558e58a6",
+   "kind": "concept",
+   "label": "纯市场金融自负盈亏",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:15cb2ecf805e",
+   "kind": "actor",
+   "label": "中国职工类似德日，居民(农民流民)类似英国，18医保局集中采买砍价，公立医院不赚…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "中国职工类似德日，居民(农民流民)类似英国，18医保局集中采买砍价，公立医院不赚钱"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:c256d91f304a",
+   "kind": "actor",
+   "label": "英国工业先发优势也执行技术封锁，依然被德国美国超过",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "英国工业先发优势也执行技术封锁，依然被德国美国超过"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:2e0d6c46f8b0",
+   "kind": "actor",
+   "label": "英国资本",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:724663d35bdf",
+   "kind": "actor",
+   "label": "美国技术转让且难以戒断成内奸",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:ed61fdecfbe4",
+   "kind": "concept",
+   "label": "改进型专利钻空子",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:46417221492c",
+   "kind": "concept",
+   "label": "98%盗版",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:6c7b5663420e",
+   "kind": "actor",
+   "label": "​三是美国搞国家工业",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:bbdc46904845",
+   "kind": "actor",
+   "label": "德国搞全国标准化零件减换品成本",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:f6c38f072d6d",
+   "kind": "actor",
+   "label": "美国统一语言有",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:f46086daddf3",
+   "kind": "actor",
+   "label": "英国殖民地、如今欧盟的市场整合度",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:2d1093550636",
+   "kind": "actor",
+   "label": "美国",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:0e6a5ebe1736",
+   "kind": "actor",
+   "label": "英国贵族私立教育且模仿德国",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:30e76d6edba9",
+   "kind": "actor",
+   "label": "克虏伯",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:00dea3343b3e",
+   "kind": "actor",
+   "label": "斯莱特",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:db51f773cd82",
+   "kind": "concept",
+   "label": "都是",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "actor:7dbd680cb2c7",
+   "kind": "actor",
+   "label": "偷师英国封锁的高级技术",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:657c87f1dcf1",
+   "kind": "concept",
+   "label": "自由贸易——全球化加入WTO",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "自由贸易——全球化加入WTO"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:d64d6a130b45",
+   "kind": "concept",
+   "label": "​盗版起步——temu产品和各种互联网App不必多说",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "​盗版起步——temu产品和各种互联网App不必多说"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:362efe2e74c8",
+   "kind": "concept",
+   "label": "​国家",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:6400172bb20a",
+   "kind": "concept",
+   "label": "和生产标准化——举国体制",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:bc9d10caad01",
+   "kind": "concept",
+   "label": "​市场大小和整合度——十亿统一语言市场",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "​市场大小和整合度——十亿统一语言市场"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "key": "concept:88877fdb8e0f",
+   "kind": "concept",
+   "label": "​技术移民和间谍——留学生霸占全世界头部高校实验室",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "​技术移民和间谍——留学生霸占全世界头部高校实验室"
+   },
+   "source": "operator:inbox/金融.docx",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  }
+ ],
+ "edges": [
+  {
+   "src": "actor:96b499814b64",
+   "dst": "concept:690486c21318",
+   "rel": "adds_to",
+   "attrs": {
+    "status": "asserted",
+    "line": 3,
+    "text": "荷兰的股票相比佛罗伦萨，多了证券交易市场可以公共交易，匿名买卖，部分转让，面额标准化，彻底去熟人化，永久存续有限责任"
+   },
+   "source": "operator:inbox/金融.docx#L3",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:f0ddd10f3818",
+   "dst": "concept:2655ca745530",
+   "rel": "sells",
+   "attrs": {
+    "status": "asserted",
+    "line": 5,
+    "text": "股权不是债券，没有到期日不能找公司还本金，但可以随时把股份卖给下一个人拿回现金"
+   },
+   "source": "operator:inbox/金融.docx#L5",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:7f8f2c28e689",
+   "dst": "actor:3db28d2aa514",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 8,
+    "text": "马克思：剩余价值根基是萨伊+劳动价值"
+   },
+   "source": "operator:inbox/金融.docx#L8",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:ead8b5800408",
+   "dst": "concept:aeab8340c043",
+   "rel": "opposes",
+   "attrs": {
+    "status": "asserted",
+    "line": 11,
+    "text": "奥地利学派：个体需求/主观价值反劳动价值+理性演绎反观察统计/反计划经济，逆向马主义超放任自由企业家精神"
+   },
+   "source": "operator:inbox/金融.docx#L11",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:fa5161fccfd2",
+   "dst": "concept:ee6203ec29d8",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 13,
+    "text": "古典经济学就是5个支柱"
+   },
+   "source": "operator:inbox/金融.docx#L13",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:6854adf3e24b",
+   "dst": "concept:2870b9b26b94",
+   "rel": "adds_to",
+   "attrs": {
+    "status": "asserted",
+    "line": 18,
+    "text": "新古典又多了一个6主观价值论（陆九渊和1矛盾"
+   },
+   "source": "operator:inbox/金融.docx#L18",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "actor:f4120d4f2e87",
+   "dst": "concept:d8ff73033100",
+   "rel": "opposes",
+   "attrs": {
+    "status": "asserted",
+    "line": 23,
+    "text": "李嘉图vs马尔萨斯，都继承斯密，李嘉图反地租负资产，马尔萨斯支持地租为福利凯恩斯继承"
+   },
+   "source": "operator:inbox/金融.docx#L23",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:79b6c874f0ea",
+   "dst": "concept:bc352f76dd57",
+   "rel": "opposes",
+   "attrs": {
+    "status": "asserted",
+    "line": 24,
+    "text": "拉萨尔主义:工人公社反农反资+最低工资铁律"
+   },
+   "source": "operator:inbox/金融.docx#L24",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:ce11e300f050",
+   "dst": "concept:93d76681a9d8",
+   "rel": "because_of",
+   "attrs": {
+    "status": "asserted",
+    "line": 26,
+    "text": "凯恩斯把充分就业比喻成真空不存在，雇工协议只能货币工资，因为就业不充分物价上涨工人逆来顺受，最丰裕最贫困。"
+   },
+   "source": "operator:inbox/金融.docx#L26",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:bb3f9b27be41",
+   "dst": "concept:512cae67c18b",
+   "rel": "because_of",
+   "attrs": {
+    "status": "asserted",
+    "line": 35,
+    "text": "信息化因为迁移成本低，生产资料成本容易被弥补，互联网服务器和AI算力都是如此"
+   },
+   "source": "operator:inbox/金融.docx#L35",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:5efbad21bce7",
+   "dst": "concept:2b0685975468",
+   "rel": "relies_on",
+   "attrs": {
+    "status": "asserted",
+    "line": 37,
+    "text": "英镑靠的是普通法的案例可预测性，和交易的人多的汇率稳定性"
+   },
+   "source": "operator:inbox/金融.docx#L37",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:e20007e4ea37",
+   "dst": "concept:eaa24fdf4841",
+   "rel": "relies_on",
+   "attrs": {
+    "status": "asserted",
+    "line": 38,
+    "text": "欧元靠的是非美元结算体系"
+   },
+   "source": "operator:inbox/金融.docx#L38",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:8815d9569f75",
+   "dst": "concept:d0e41a95ea8c",
+   "rel": "relies_on",
+   "attrs": {
+    "status": "asserted",
+    "line": 39,
+    "text": "日元靠的是大量海外资产美债，和为了救国内僵尸企业国债把日元搞成低利息美元兑换券，政府和外国资本一起促日元贬值拿日元化债"
+   },
+   "source": "operator:inbox/金融.docx#L39",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:67631a35bb7a",
+   "dst": "concept:7d73bc20940f",
+   "rel": "causes",
+   "attrs": {
+    "status": "asserted",
+    "line": 40,
+    "text": "瑞郎低息是为了减少买入导致升值影响出口，日元低息是为了政府还债容易"
+   },
+   "source": "operator:inbox/金融.docx#L40",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "actor:58900e7adafe",
+   "dst": "concept:cb084cac9ba7",
+   "rel": "means",
+   "attrs": {
+    "status": "asserted",
+    "line": 46,
+    "text": "安倍经济学量化宽松意思是自己跟自己借钱，用政府信用换经济增长的人造通货膨胀"
+   },
+   "source": "operator:inbox/金融.docx#L46",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "actor:7f9f08394cda",
+   "dst": "actor:6289ad84ffe7",
+   "rel": "causes",
+   "attrs": {
+    "status": "asserted",
+    "line": 48,
+    "text": "日本政府也大发国债，老百姓存钱多，泡沫破了没别的选择，就拿存的钱买，相当于政府靠抬高汇率产生泡沫发给民间钱变向还给政府了"
+   },
+   "source": "operator:inbox/金融.docx#L48",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:944e9f8da1b7",
+   "dst": "concept:c06de23696fa",
+   "rel": "causes",
+   "attrs": {
+    "status": "asserted",
+    "line": 51,
+    "text": "英国08之前从没有量化宽松维持最高信用，脱欧导致失去一次性过英欧双层监管的优势"
+   },
+   "source": "operator:inbox/金融.docx#L51",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:1c50779b980d",
+   "dst": "concept:7b2a8f425310",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 56,
+    "text": "金融卖的是预期共识，实业卖的是实物时间"
+   },
+   "source": "operator:inbox/金融.docx#L56",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:e633ea17a90a",
+   "dst": "concept:d4a2cd7f8e73",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 57,
+    "text": "金融卖的未来钱，学术卖的未来技术，卖未来的东西都是诈骗的温床"
+   },
+   "source": "operator:inbox/金融.docx#L57",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:2e42c2c20da7",
+   "dst": "concept:676f51493aee",
+   "rel": "because_of",
+   "attrs": {
+    "status": "asserted",
+    "line": 58,
+    "text": "学阀是打不完的，因为没有人知道一个学术路径是不是对的，而没有成果的情况下，你无法判断他是真心科研还是故意骗钱，而不给投资永远说你落后基础科学"
+   },
+   "source": "operator:inbox/金融.docx#L58",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:4709b69d7ec2",
+   "dst": "concept:e9dfdde4f1e5",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 60,
+    "text": "高杠杆是少本金借大钱高风险，比如房地产"
+   },
+   "source": "operator:inbox/金融.docx#L60",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:35974a8ef7d4",
+   "dst": "concept:c916a908791d",
+   "rel": "because_of",
+   "attrs": {
+    "status": "asserted",
+    "line": 62,
+    "text": "美国通过低储蓄利率逼人买理财产品，房地产自有率低因为房产税不如租房"
+   },
+   "source": "operator:inbox/金融.docx#L62",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:296a50969c6a",
+   "dst": "concept:c41162b66bbc",
+   "rel": "causes",
+   "attrs": {
+    "status": "asserted",
+    "line": 63,
+    "text": "德国房屋自有率也低，因为放贷中介费极高且禁止房东赶人，导致修缮不足"
+   },
+   "source": "operator:inbox/金融.docx#L63",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:3454aa0e8e6a",
+   "dst": "concept:8be6b28193cd",
+   "rel": "invests_in",
+   "attrs": {
+    "status": "asserted",
+    "line": 65,
+    "text": "美国74年确立养老金默认金融化，是长资本投资的重要来源，科技股权纳斯达克模式08之后崛起，培养谷歌苹果确立美国软件霸权"
+   },
+   "source": "operator:inbox/金融.docx#L65",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:0dafd9e3dd4f",
+   "dst": "concept:d883dd4c818d",
+   "rel": "incubates",
+   "attrs": {
+    "status": "asserted",
+    "line": 68,
+    "text": "中国15年才学，有阿里投互联网企业孵化b站、美团、拼多多，合肥模式用股权换产业落地孵化了蔚来、长鑫，私人如高瓴资本、弘尚投互联网和医药"
+   },
+   "source": "operator:inbox/金融.docx#L68",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "actor:7a40ecb4620c",
+   "dst": "concept:7d8e1fb99137",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 70,
+    "text": "中国资本是缺少基础创新耐心，工程应用耐心中国的政府基建更强。"
+   },
+   "source": "operator:inbox/金融.docx#L70",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:d293c4d7ec5d",
+   "dst": "concept:bbe6b7554158",
+   "rel": "becomes",
+   "attrs": {
+    "status": "asserted",
+    "line": 71,
+    "text": "要确立地方政府的科技资本耐心，不能让地方官员长周期投资的科技被5年任期打断，或者成果落到下一任手里，但依然无法解决公共权力无法有限责任制，容易变成变相腐败，最终必然是变成权力私有贵族政治"
+   },
+   "source": "operator:inbox/金融.docx#L71",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "actor:cd3109c50189",
+   "dst": "concept:9549bb9fd38c",
+   "rel": "controls",
+   "attrs": {
+    "status": "asserted",
+    "line": 75,
+    "text": "腾讯在00年互联网泡沫爆炸之后，没人投资，被一个南非报业公司控股，赚了自己市值几十倍，李泽楷退出太早也没太赚到"
+   },
+   "source": "operator:inbox/金融.docx#L75",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:0ebd46a255fa",
+   "dst": "concept:31f59b74a0d4",
+   "rel": "invests_in",
+   "attrs": {
+    "status": "asserted",
+    "line": 76,
+    "text": "华为因拉不到投资才搞全员持股世界首个，缺乏大股份，难以被华尔街收购，01虚拟股份制改革只分红不决策，效绩配股，辞职自动退股"
+   },
+   "source": "operator:inbox/金融.docx#L76",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "actor:018240432e47",
+   "dst": "concept:93a7cd086e27",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 77,
+    "text": "中国企业都是通过港股AB股同股不同权，或者如字节跳动压根不上市"
+   },
+   "source": "operator:inbox/金融.docx#L77",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:39353321c78e",
+   "dst": "concept:0007617014fb",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 82,
+    "text": "房地产这种金融模式就是一种很适合制造业，而不适合IT软件的方式，因为制造业实物厂房机器可以抵押而代码人才用户不行，中国恰好98房改之后承接制造业，所以在别的国家纷纷因房地产爆雷的时候，中国反而是刚打开房地产引擎"
+   },
+   "source": "operator:inbox/金融.docx#L82",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:75a5e1bc515e",
+   "dst": "concept:64545af70cfb",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 83,
+    "text": "房地产本质是国债+以工代赈，亚洲金融危机中国政府没钱以工代赈，通过房地产拉动内需，顺便解决贫民住房"
+   },
+   "source": "operator:inbox/金融.docx#L83",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:9a71ad6ad10e",
+   "dst": "concept:5674f8950011",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 85,
+    "text": "股票是同质化的类似钱卖了能买一样量"
+   },
+   "source": "operator:inbox/金融.docx#L85",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:398e41d5d707",
+   "dst": "concept:193dfd4f03fe",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 86,
+    "text": "杠杆率过高，就是用很少的本金，借了巨额的钱去赌博"
+   },
+   "source": "operator:inbox/金融.docx#L86",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:1ad87c33c267",
+   "dst": "concept:6286b1da031e",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 87,
+    "text": "热钱就是国际短期投机资本，有利可图就快速涌入风吹草动就快速撤离"
+   },
+   "source": "operator:inbox/金融.docx#L87",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:73189735c0c2",
+   "dst": "concept:ca4df97429ff",
+   "rel": "borrows",
+   "attrs": {
+    "status": "asserted",
+    "line": 89,
+    "text": "买是所有权，借是使用权能吃利息"
+   },
+   "source": "operator:inbox/金融.docx#L89",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:9f36f71c9c07",
+   "dst": "concept:f24086f2e6fd",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 90,
+    "text": "做空就是借会跌的股票换钱，跌后还的少，索罗斯专门借此发展中国家"
+   },
+   "source": "operator:inbox/金融.docx#L90",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:5927816b6b99",
+   "dst": "concept:cf72637aec42",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 91,
+    "text": "抄底是做空的反面，赌回涨，低价买入"
+   },
+   "source": "operator:inbox/金融.docx#L91",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:a6dfd585281a",
+   "dst": "actor:61b61c1098ab",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 93,
+    "text": "荷兰三明治，外国收钱→荷兰→外国运营→百慕大利润避税，正在被堵上，舟山和共青城是中国的开曼，香港是中国的荷兰"
+   },
+   "source": "operator:inbox/金融.docx#L93",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:da4376c8672d",
+   "dst": "concept:0dd3fd7abe79",
+   "rel": "because_of",
+   "attrs": {
+    "status": "asserted",
+    "line": 94,
+    "text": "爱尔兰和卢森堡欧盟低税区，知识产权存放地，经常作为荷兰三明治的外两层，拉萨因为西部开发也类似"
+   },
+   "source": "operator:inbox/金融.docx#L94",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:165697bbbeba",
+   "dst": "actor:302864ad9ff4",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 95,
+    "text": "开曼群岛、维尔京、百慕大都是英国普通法，保密黑箱"
+   },
+   "source": "operator:inbox/金融.docx#L95",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:8efb6223a631",
+   "dst": "concept:624e36e962a8",
+   "rel": "therefore",
+   "attrs": {
+    "status": "asserted",
+    "line": 99,
+    "text": "GDP算增值所以和这个无关"
+   },
+   "source": "operator:inbox/金融.docx#L99",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "actor:101806f57c32",
+   "dst": "concept:b0ec23007021",
+   "rel": "because_of",
+   "attrs": {
+    "status": "asserted",
+    "line": 103,
+    "text": "中国因为纸币普及太早，商业革命完成靠纸币促进流动性，缺乏寻找贵金属大航海的动力"
+   },
+   "source": "operator:inbox/金融.docx#L103",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:e34f5a011a33",
+   "dst": "concept:2d17b37eb79d",
+   "rel": "causes",
+   "attrs": {
+    "status": "asserted",
+    "line": 104,
+    "text": "西方罗马灭亡之后都是银本位，中国银用于大额铜用于小额，唐朝铜枯竭，秘鲁导致银贬值牛顿开始金本位"
+   },
+   "source": "operator:inbox/金融.docx#L104",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:66516a819470",
+   "dst": "concept:12fede6c1358",
+   "rel": "replaces",
+   "attrs": {
+    "status": "asserted",
+    "line": 111,
+    "text": "金本位取代金银并用，因为金银火耗互换投机"
+   },
+   "source": "operator:inbox/金融.docx#L111",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:df298d1ae935",
+   "dst": "concept:7441bb316a6a",
+   "rel": "causes",
+   "attrs": {
+    "status": "asserted",
+    "line": 126,
+    "text": "1944承认美元主导，死守高汇率导致1949大贬值"
+   },
+   "source": "operator:inbox/金融.docx#L126",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:ce0a2e4feca0",
+   "dst": "concept:38ba523f0c34",
+   "rel": "means",
+   "attrs": {
+    "status": "asserted",
+    "line": 133,
+    "text": "外国相当于先减价后加价，你别上当贪小便宜非得降息时搞投资，美国元随便潮汐波动，你就随波逐流，根本收割不了你"
+   },
+   "source": "operator:inbox/金融.docx#L133",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "actor:1f5c502f603e",
+   "dst": "concept:18b1f4d37bc3",
+   "rel": "opposes",
+   "attrs": {
+    "status": "asserted",
+    "line": 134,
+    "text": "美国制造的欧亚大陆战争反倒会让美元升值"
+   },
+   "source": "operator:inbox/金融.docx#L134",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:3a34b62acc2b",
+   "dst": "concept:c03e6b8c91ca",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 135,
+    "text": "加息是财政集权，对外国借钱者不好借流入美国，市场流入国债和银行，抑制消费减少通胀，对存基金钱的好利息多"
+   },
+   "source": "operator:inbox/金融.docx#L135",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:57dc68d70123",
+   "dst": "actor:3e58bb33e8b7",
+   "rel": "causes",
+   "attrs": {
+    "status": "asserted",
+    "line": 141,
+    "text": "1.石油危机会导致美国通胀+失业/滞涨"
+   },
+   "source": "operator:inbox/金融.docx#L141",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:40f89a4cd1d9",
+   "dst": "concept:25ffabe28988",
+   "rel": "opposes",
+   "attrs": {
+    "status": "asserted",
+    "line": 142,
+    "text": "2.美军中东抢劫石油，不仅得到石油也可以制造混乱反向增加美元信用"
+   },
+   "source": "operator:inbox/金融.docx#L142",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:24641c340588",
+   "dst": "actor:ed96d5c39d3d",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 143,
+    "text": "现在之所以要崩，是中国制造业不再无限扩张抛售了40%美债，美国通胀无人兜底"
+   },
+   "source": "operator:inbox/金融.docx#L143",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "actor:72cb035fabfd",
+   "dst": "actor:e819163c0c51",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 145,
+    "text": "全球化体系英国这种金融国比中国更依赖，哪怕美元信用变差也要囤，中国和沙特这样抛售美债就是给美国制造金融危机，和80年代石油增产对苏联影响差不多"
+   },
+   "source": "operator:inbox/金融.docx#L145",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "actor:d7c3ecd25e2e",
+   "dst": "concept:aa297d14e535",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 148,
+    "text": "政府总是倾向于降息讨好选民，让小资中产容易贷款"
+   },
+   "source": "operator:inbox/金融.docx#L148",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:cb368d14765f",
+   "dst": "concept:2b67e9a4dced",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 149,
+    "text": "79沃尔克暴力加息，吸干拉美新兴市场，美国企业钱也收进政府抑制了通胀，创造十年繁荣，代价是国债利息压力加大，但当时美国国债规模很小"
+   },
+   "source": "operator:inbox/金融.docx#L149",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:699f77af846c",
+   "dst": "concept:24c51b32e9dc",
+   "rel": "causes",
+   "attrs": {
+    "status": "asserted",
+    "line": 150,
+    "text": "沃尔克方法对滞涨只治疗了通胀，解决不了失业，导致社会撕裂严重，可能引发内战让美元信用彻底破产，里根取缔金融监管导致高杠杆次贷膨胀是87股灾前奏"
+   },
+   "source": "operator:inbox/金融.docx#L150",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:ea2f7d953c25",
+   "dst": "concept:83865a378ffb",
+   "rel": "causes",
+   "attrs": {
+    "status": "asserted",
+    "line": 151,
+    "text": "87格林斯潘降息，中日买美国债激增资本富裕，让银行放水救促进需求救市，电脑量化自动下限挤兑87股灾、97亚洲金融危机、00互联网泡沫、01 911，迷信安兰德加剧自由放任金融，导致超额消费留下巨大泡沫和次贷成08危机，但抵制印钱化债"
+   },
+   "source": "operator:inbox/金融.docx#L151",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:2559f81a548c",
+   "dst": "actor:ce1ae1ca4fe4",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 156,
+    "text": "德国马克47年就搞银行，独立比美国51更早，60年代禁止外汇干扰，扛过石油危机和滞涨因此货币信用更高欧元优势，因滞涨81才取消但也只追求主导欧洲，更早的是瑞典和英国"
+   },
+   "source": "operator:inbox/金融.docx#L156",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:83bccdf2f54c",
+   "dst": "concept:0b8957f4a209",
+   "rel": "because_of",
+   "attrs": {
+    "status": "asserted",
+    "line": 158,
+    "text": "滞涨之前迷信菲利普斯曲线，通胀和失业率反比，支持通胀，却没想到滞涨是因为石油生产成本"
+   },
+   "source": "operator:inbox/金融.docx#L158",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:20be80794d95",
+   "dst": "concept:1f3e110cf294",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 160,
+    "text": "滞涨是通胀型萧条，大萧条是通缩型，前者伴随物价不降反涨更可怕，萧条因需求不足，滞涨因原材料价格暴涨只能加息收水和减税增福利"
+   },
+   "source": "operator:inbox/金融.docx#L160",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:0a2c91cec6c8",
+   "dst": "concept:34bae23922e2",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 162,
+    "text": "石油危机之后有一次借债小阳春，因为海湾国家通过石油大发横财，从西方工业界民间搜刮的美元，全被石油寡头送去西方银行，然后银行大量放低息债，基本都是给第三世界国家借，南斯拉夫，拉美，波兰罗马尼亚都借了一大堆，变向也分享吃了石油红利，但是结果就是戒断比石油国家还惨，因为石油国家好歹不用还本金，只是戒断而已，中国这时候因为货币信用太低了，被IMF拉黑了但也有日本赔款，因祸得福，亚洲四小龙则是用对了地方"
+   },
+   "source": "operator:inbox/金融.docx#L162",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "actor:a5aae888d825",
+   "dst": "concept:9f30fab26f05",
+   "rel": "borrows",
+   "attrs": {
+    "status": "asserted",
+    "line": 171,
+    "text": "美国违约之后借债利率会上升财政紧张，外国抛售美元，结束全球化"
+   },
+   "source": "operator:inbox/金融.docx#L171",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:5e106c32cfb6",
+   "dst": "concept:f178948b1b59",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 174,
+    "text": "预期是一种市场惯性"
+   },
+   "source": "operator:inbox/金融.docx#L174",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "actor:464fcfc918f3",
+   "dst": "concept:e2d422da2cb1",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 175,
+    "text": "东亚中东买美国国债是外汇人质，但本质借美联储手财政集权收益稳定，留在本国会像欧元一样高汇率影响制造业"
+   },
+   "source": "operator:inbox/金融.docx#L175",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:cf11d311f773",
+   "dst": "actor:6ebc10dcf582",
+   "rel": "causes",
+   "attrs": {
+    "status": "asserted",
+    "line": 176,
+    "text": "08因为东亚欧洲美债囤积导致美元信用暴涨都投资美国金融，银行热情多放次贷给低信用屁民收不回来后，央行量化宽松，导致美元信用破产投资流入欧盟，欧盟高预期冲出泡沫导致欧债危机"
+   },
+   "source": "operator:inbox/金融.docx#L176",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:e483f1e4b576",
+   "dst": "concept:e4d829e29f12",
+   "rel": "because_of",
+   "attrs": {
+    "status": "asserted",
+    "line": 177,
+    "text": "欧元非要升值，资本涌入投资南欧房地产成泡沫，银行破产政府救银行成欧债危机，也是因为欧债危机后欧猪破产，欧盟为了维持欧元区不分裂搞量化宽松，许诺破产则无限买入国债避免美国做空，疫情后直接搞联合债务"
+   },
+   "source": "operator:inbox/金融.docx#L177",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:ecc05f94dea7",
+   "dst": "concept:4d17fba7edf8",
+   "rel": "relies_on",
+   "attrs": {
+    "status": "asserted",
+    "line": 178,
+    "text": "欧元因为国际信任买入太多升值影响制造业德国对外出口，也扼杀南欧东欧制造业，但德国可以用南欧市场弥补，南欧靠转移支付"
+   },
+   "source": "operator:inbox/金融.docx#L178",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:ce440d7b5d6e",
+   "dst": "concept:91ed01fbcfa7",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 181,
+    "text": "海湾原材料涨价，日本汇率太高，美国屁民信用太差，三个原因居然都是通过一个量化宽松的办法，但是量化宽松的前提，要么科技爆炸，要么是产品输出国，要么有货币霸权"
+   },
+   "source": "operator:inbox/金融.docx#L181",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:75a5e1bc515e",
+   "dst": "concept:24746de12587",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 185,
+    "text": "房地产是以工代赈基建的金融化，不买房人钱就会囤银行，但基建这路边际效用不赚钱了银行就不会房贷给基建，不能用基建解决"
+   },
+   "source": "operator:inbox/金融.docx#L185",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "actor:9e4e3bbf213a",
+   "dst": "concept:4875b6c32764",
+   "rel": "opposes",
+   "attrs": {
+    "status": "asserted",
+    "line": 189,
+    "text": "央行周小川反美元霸权，市场化汇改15811汇改RMB加入SDR"
+   },
+   "source": "operator:inbox/金融.docx#L189",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "actor:2b3be66b55c1",
+   "dst": "concept:8a62645192a2",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 191,
+    "text": "中国多美债就是信任美元，降息时中国输出资本最多而非美国"
+   },
+   "source": "operator:inbox/金融.docx#L191",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "actor:f1397db39aa8",
+   "dst": "concept:7f81a4f72e34",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 193,
+    "text": "中本聪比特币是国际货币去中心化对抗华尔街印钞，地位类似虚拟黄金，最终却被华尔街合法化收编发币方也大买美债"
+   },
+   "source": "operator:inbox/金融.docx#L193",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:f2bf63b8f9ec",
+   "dst": "concept:4b69d846032e",
+   "rel": "because_of",
+   "attrs": {
+    "status": "asserted",
+    "line": 194,
+    "text": "美元因为是国际货币，怎么印也永远通胀贬值不了，钱不贬值就没法劫富济贫，让美国贫富差距加大"
+   },
+   "source": "operator:inbox/金融.docx#L194",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:1fcc9db596f9",
+   "dst": "concept:69fa2e78f568",
+   "rel": "means",
+   "attrs": {
+    "status": "asserted",
+    "line": 196,
+    "text": "98房改市场化，贵房价多财政分配给廉价工厂用地，吸引外资技术，楼市相当于国债股市"
+   },
+   "source": "operator:inbox/金融.docx#L196",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "actor:3f5c53d8c095",
+   "dst": "actor:8b4751be83fe",
+   "rel": "exceeds",
+   "attrs": {
+    "status": "asserted",
+    "line": 200,
+    "text": "英国通过专利法和学校私营应用超过法国纯贵族官办学院数理化，成工业革命"
+   },
+   "source": "operator:inbox/金融.docx#L200",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "actor:a2cc9b72a5d4",
+   "dst": "actor:e70a61dd03a3",
+   "rel": "imitates",
+   "attrs": {
+    "status": "asserted",
+    "line": 203,
+    "text": "苏联模式模仿法国国家主导，但法国更精英苏联更计划"
+   },
+   "source": "operator:inbox/金融.docx#L203",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:fd27b9cd18c1",
+   "dst": "concept:7699423be3b1",
+   "rel": "causes",
+   "attrs": {
+    "status": "asserted",
+    "line": 204,
+    "text": "北欧是低淘汰风险产生试错创新，其实说就是强行造有闲阶级进行搞法国模式"
+   },
+   "source": "operator:inbox/金融.docx#L204",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "actor:022688eb994f",
+   "dst": "concept:5a3542fefb89",
+   "rel": "causes",
+   "attrs": {
+    "status": "asserted",
+    "line": 205,
+    "text": "美国因为自治传统和种族矛盾，导致学北欧模式学失败了，自治传统导致联邦不可能像北欧一样统一拨款平均教育资源，再涉及南北黑白教材不统一，最后异化成快乐教育和文化战争"
+   },
+   "source": "operator:inbox/金融.docx#L205",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:4ab05e31b0c6",
+   "dst": "concept:e9fca030f18e",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 208,
+    "text": "最完美的基础教育应该是，私立英式，公立欧陆式，无福利"
+   },
+   "source": "operator:inbox/金融.docx#L208",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "actor:6ca300d11a0f",
+   "dst": "actor:bb0bed260ec6",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 214,
+    "text": "德国日韩是基金共济强制交不同款但同待遇"
+   },
+   "source": "operator:inbox/金融.docx#L214",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:1a26edf94a81",
+   "dst": "concept:f451558e58a6",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 216,
+    "text": "美国除了奥巴马试图德国化失败，其他都是纯市场金融自负盈亏"
+   },
+   "source": "operator:inbox/金融.docx#L216",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "actor:2e0d6c46f8b0",
+   "dst": "actor:724663d35bdf",
+   "rel": "invests_in",
+   "attrs": {
+    "status": "asserted",
+    "line": 220,
+    "text": "一是被自由主义坑害，英国资本投资美国技术转让且难以戒断成内奸，如今全球化跨国资本对中国亦然"
+   },
+   "source": "operator:inbox/金融.docx#L220",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:ed61fdecfbe4",
+   "dst": "concept:46417221492c",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 221,
+    "text": "​二是德国搞盗版劣质产品，逼英国出台1887商标法限制德国盗版，美国则用宽松专利法，改进型专利钻空子本质98%盗版"
+   },
+   "source": "operator:inbox/金融.docx#L221",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "actor:6c7b5663420e",
+   "dst": "actor:bbdc46904845",
+   "rel": "invests_in",
+   "attrs": {
+    "status": "asserted",
+    "line": 222,
+    "text": "​三是美国搞国家工业投资，德国搞全国标准化零件减换品成本"
+   },
+   "source": "operator:inbox/金融.docx#L222",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "actor:f6c38f072d6d",
+   "dst": "actor:f46086daddf3",
+   "rel": "exceeds",
+   "attrs": {
+    "status": "asserted",
+    "line": 223,
+    "text": "​四是德国一千万规模市场和美国一亿规模市场驱动创新，最终也是一亿打败一千万，且美国统一语言有超过英国殖民地、如今欧盟的市场整合度"
+   },
+   "source": "operator:inbox/金融.docx#L223",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "actor:2d1093550636",
+   "dst": "actor:0e6a5ebe1736",
+   "rel": "inherits_from",
+   "attrs": {
+    "status": "asserted",
+    "line": 224,
+    "text": "​五是德国搞校企合一教育和公立免费教育，美国继承英国贵族私立教育且模仿德国"
+   },
+   "source": "operator:inbox/金融.docx#L224",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:db51f773cd82",
+   "dst": "actor:7dbd680cb2c7",
+   "rel": "imitates",
+   "attrs": {
+    "status": "asserted",
+    "line": 225,
+    "text": "​六是技术间谍和技术移民，如美国工业之父塞缪尔·斯莱特和普鲁士军工巨头阿尔弗雷德·克虏伯，都是模仿偷师英国封锁的高级技术"
+   },
+   "source": "operator:inbox/金融.docx#L225",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  },
+  {
+   "src": "concept:362efe2e74c8",
+   "dst": "concept:6400172bb20a",
+   "rel": "invests_in",
+   "attrs": {
+    "status": "asserted",
+    "line": 229,
+    "text": "​国家投资和生产标准化——举国体制"
+   },
+   "source": "operator:inbox/金融.docx#L229",
+   "url": "",
+   "fetched_at": "2026-11-03T01:46:11+00:00"
+  }
+ ],
+ "meta": {
+  "input": "inbox/金融.docx",
+  "sha1": "20684327a69299f776c4b36004585b11105604b9",
+  "fetched_at": "2026-11-03T01:46:11+00:00",
+  "rules": [
+   "edge 必须有 source",
+   "人写的主张默认 status=asserted",
+   "错误与矛盾进 quarantine，不静默丢弃"
+  ],
+  "caveats": [
+   {
+    "line": 7,
+    "text": "古典经济学：亚当斯密劳动价值+自由常态、李嘉图边际主义、马尔萨斯周期危机、萨伊定律：唯供主义/供给创造需求",
+    "caveat": "李嘉图是地租与比较优势，边际主义归杰文斯/门格尔/瓦尔拉斯；此行把两人对调了"
+   },
+   {
+    "line": 14,
+    "text": "亚当斯密1劳动价值（邱濬2自由自我调节（唐大陶、李嘉图3边际主义（管仲、马尔萨斯4周期危机（邱濬、萨伊5供给创需（唐大陶",
+    "caveat": "李嘉图是地租与比较优势，边际主义归杰文斯/门格尔/瓦尔拉斯；此行把两人对调了"
+   },
+   {
+    "line": 54,
+    "text": "亚当斯密看了习学记言写出了国富论，马克思韦伯看了明夷待访录写出了资本主义与新教伦理",
+    "caveat": "叶适《习学记言》早于《国富论》约六百年，无传播路径证据；这是一条须标注为假说的类比"
+   },
+   {
+    "line": 54,
+    "text": "亚当斯密看了习学记言写出了国富论，马克思韦伯看了明夷待访录写出了资本主义与新教伦理",
+    "caveat": "同上：黄宗羲《明夷待访录》与韦伯《新教伦理》无文献链，属假说"
+   }
+  ]
+ }
+}

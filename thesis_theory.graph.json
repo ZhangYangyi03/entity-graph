@@ -1,0 +1,3776 @@
+{
+ "nodes": [
+  {
+   "key": "concept:c84c6578511d",
+   "kind": "concept",
+   "label": "# 儒政论纲",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "# 儒政论纲"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:d3af16f165d0",
+   "kind": "concept",
+   "label": "## 摘要",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "## 摘要"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:0b9041519549",
+   "kind": "concept",
+   "label": "本文建构\"儒政\"理论框架，以周秦之变为文明演进的基本动力，以儒家伦理为根基、封建…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "本文建构\"儒政\"理论框架，以周秦之变为文明演进的基本动力，以儒家伦理为根基、封建制为范型，重估从商鞅变法至大众民主的制度变迁。核心论点：政治组织的根本张力不在\"专制vs民主\"，而在\"封建vs郡县\"所代表的两种组织原则——前者以\"亲亲尊尊\"为伦理内核，追求家国同构的小共同体自治；后者以\"刑名法度\"为工具，追求纵向穿透的大共同体统制。本文提出\"周秦循环\"为核心解释模型，论证儒家礼乐封建制在平衡人性二欲、维系文明延续性方面的比较优势，并与自由主义、社会主义、保守主义、社群主义展开系统对话。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:4f2b04d85957",
+   "kind": "concept",
+   "label": "**关键词**：儒政；周秦之变；封建制；郡县制；儒法斗争；家国同构；经权之辨",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**关键词**：儒政；周秦之变；封建制；郡县制；儒法斗争；家国同构；经权之辨"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:b790edee67a4",
+   "kind": "concept",
+   "label": "## 一、引言：问题意识与理论定位",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "## 一、引言：问题意识与理论定位"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:00cb5dace102",
+   "kind": "concept",
+   "label": "### 1.1 为什么要重提\"儒政\"",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 1.1 为什么要重提\"儒政\""
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "actor:04b221ff08f0",
+   "kind": "actor",
+   "label": "中国政治思想史的研究长期受制于两套叙述框架：其一为\"现代化范式\"，将郡县制、科举…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "中国政治思想史的研究长期受制于两套叙述框架：其一为\"现代化范式\"，将郡县制、科举制、官僚制视为中国对世界制度文明的主要贡献，并以此为尺度衡量传统的\"进步性\"；其二为\"专制主义范式\"，将秦以来两千年的政治形态概括为\"东方专制主义\"，儒家在其中或被判定为专制统治的意识形态工具，或被剥离为某种\"批判性资源\"而与其所依附的制度环境割裂研究。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:28f29bcd87b4",
+   "kind": "concept",
+   "label": "\"封建\"",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:c04541ee6a65",
+   "kind": "concept",
+   "label": "落后的",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:3278a88c74d0",
+   "kind": "concept",
+   "label": "更深层的问题意识在于：现代政治哲学的主流话语——无论是自由主义的个体权利本位、社…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "更深层的问题意识在于：现代政治哲学的主流话语——无论是自由主义的个体权利本位、社会主义的分配正义诉求，还是保守主义的传统守护——都在不同程度上回避了一个根本的存在论问题：**人从未选择是否被出生**。这一\"被抛入世界\"的原初处境，决定了政治的首要任务不是实现某种抽象的理想，而是为人的两种基本欲望（支配与服从）提供制度化的平衡通道。现代政治的种种危机——民主的原子化、福利的怨恨循环、法条的道德真空——本质上都可以追溯到对这一存在论前提的遗忘。儒政论正是要回到这一根基处，重新审视政治秩序的伦理基础。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:bffdefa92782",
+   "kind": "concept",
+   "label": "### 1.2 \"儒政\"的界定",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 1.2 \"儒政\"的界定"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:84fa822ecc18",
+   "kind": "concept",
+   "label": "所谓\"儒政\"，并非指儒家参与治政的历史事实，亦非儒家学说在制度史中的被动应用。本…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "所谓\"儒政\"，并非指儒家参与治政的历史事实，亦非儒家学说在制度史中的被动应用。本文所界定的\"儒政\"包含三重含义："
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:de47534be0fe",
+   "kind": "concept",
+   "label": "而非对伦理关系的",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:b1e19ce41ef8",
+   "kind": "concept",
+   "label": "或超越",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:7259bd32da20",
+   "kind": "concept",
+   "label": "儒家制度观的核心",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:26e9fae7aa03",
+   "kind": "concept",
+   "label": "\"礼\"",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:1c8afc0656f8",
+   "kind": "concept",
+   "label": "**其三，作为历史评判尺度的儒政。** 本文将以儒家的核心关切——君臣契约的稳定…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**其三，作为历史评判尺度的儒政。** 本文将以儒家的核心关切——君臣契约的稳定性、家国同构的完整性、德性培养的制度条件——作为评判历代制度得失的根本尺度。由此出发，法家被理解为对儒政的制度性反动，秦制被理解为对周礼的系统性颠覆，而历代王朝的治乱循环则可以归结为周制与秦制、儒政与法政之间的摆动。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:5d92e55020db",
+   "kind": "concept",
+   "label": "### 1.3 理论预设与研究方法",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 1.3 理论预设与研究方法"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:e2b10c4b72b0",
+   "kind": "concept",
+   "label": "本文的理论预设可以概括为以下命题：",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "本文的理论预设可以概括为以下命题："
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:e13791e3609e",
+   "kind": "concept",
+   "label": "人无法选择",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:20a7a0a47d1d",
+   "kind": "concept",
+   "label": "否被出生",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:9bcd7807dee8",
+   "kind": "concept",
+   "label": "**命题二（组织原理预设）**：人类政治组织只有两种基本类型——\"封建制\"与\"郡…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**命题二（组织原理预设）**：人类政治组织只有两种基本类型——\"封建制\"与\"郡县制\"。封建制的本质是\"分全权\"：中央将军事、财政、司法权一体授予地方领主，领主以世袭方式长期经营，由此形成责任与利益的深度绑定。郡县制的本质是\"分职权\"：中央将行政、监察、军事权分授不同部门与流官，通过任期制与制衡实现\"以官制官\"，其代价是责任链条的断裂与短期行为的普遍化。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:cddd24fa891b",
+   "kind": "concept",
+   "label": "每一次集权冲动都会",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:ca476f542b6e",
+   "kind": "concept",
+   "label": "小共同体的瓦解和基层治理能力的衰退",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:485716e0d20b",
+   "kind": "concept",
+   "label": "在方法上，本文采取\"以经解史\"的进路，即以儒家经典（《论语》《孟子》《礼记》《春…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "在方法上，本文采取\"以经解史\"的进路，即以儒家经典（《论语》《孟子》《礼记》《春秋》及其三传）中提炼的核心范畴（君臣、名分、德位、礼让、复仇、权变等）作为分析工具，重新审视从三代到明清、从中国到西方的制度史料。本文不追求\"客观历史\"的还原，而自觉地进行\"经学式\"的政治哲学建构。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:18077ac93f46",
+   "kind": "concept",
+   "label": "## 二、人性根基：阴阳二欲与原初强迫",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "## 二、人性根基：阴阳二欲与原初强迫"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:9393373acc3c",
+   "kind": "concept",
+   "label": "### 2.1 \"被出生\"的原初强迫",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 2.1 \"被出生\"的原初强迫"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:c859aa8cb39d",
+   "kind": "concept",
+   "label": "**人从未主动选择",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:0170fecb0cc7",
+   "kind": "concept",
+   "label": "这一原初强迫",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:31b83dc13551",
+   "kind": "concept",
+   "label": "两种根本性的应激冲动",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:3f0f29499da5",
+   "kind": "concept",
+   "label": "人试图证明\"我",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:a5ee6f0dec57",
+   "kind": "concept",
+   "label": "完全被动的玩偶\"",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:772ef4766084",
+   "kind": "concept",
+   "label": "**阴欲（欲服从）**——对强迫的妥协。既然无法抵抗外部绝对力量，人选择主动交出…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**阴欲（欲服从）**——对强迫的妥协。既然无法抵抗外部绝对力量，人选择主动交出自我，依附于更强大的客体，在\"被庇护\"中寻求安全感。这是一种向内坍缩的依附性建构，表现为归属欲、效忠欲和安全感需求。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:b5d7d48f6f35",
+   "kind": "concept",
+   "label": "只要人处于\"被出生\"的强迫状态，这两种冲动就永远不可消除。一切政治制度都在为这两…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "只要人处于\"被出生\"的强迫状态，这两种冲动就永远不可消除。一切政治制度都在为这两种欲望寻找表达通道——或偏于释放阳欲（民主、自由、革命），或偏于满足阴欲（专制、威权、集体主义），或寻求二者的动态平衡（儒政/周礼）。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:2e5fe806b071",
+   "kind": "concept",
+   "label": "### 2.2 \"升米恩，斗米仇\"：人欲的非单向度性",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 2.2 \"升米恩，斗米仇\"：人欲的非单向度性"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:dba3a3036e76",
+   "kind": "concept",
+   "label": "欲望",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:4bcf61829b64",
+   "kind": "concept",
+   "label": "单向度的——越满足越感恩、越平等越和谐",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:95a4409eccd8",
+   "kind": "concept",
+   "label": "而是",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:8f085328a49f",
+   "kind": "concept",
+   "label": "某个阈值后转化为怨恨和\"应得感\"",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:686bef6dd6c8",
+   "kind": "concept",
+   "label": "无节制的福利供给培养的",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:a9f04123e034",
+   "kind": "concept",
+   "label": "感恩的公民",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:65f9fdc23261",
+   "kind": "concept",
+   "label": "节制本身即",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:505be3e53243",
+   "kind": "concept",
+   "label": "恩义的前提**——不给是常态",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:a9a04d8097d7",
+   "kind": "concept",
+   "label": "### 2.3 阴阳二欲的平衡之道",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 2.3 阴阳二欲的平衡之道"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:7c256aee09eb",
+   "kind": "concept",
+   "label": "儒政的伟大之处在于：它不幻想消灭任何一种欲望，也不试图无限满足任何一种欲望，而是…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "儒政的伟大之处在于：它不幻想消灭任何一种欲望，也不试图无限满足任何一种欲望，而是通过制度设计让二者形成互锁的稳态。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:6520cf70a83e",
+   "kind": "concept",
+   "label": "周礼的差序结构——君臣、父子、夫妇——为阳欲提供了\"支配\"的合法边界（君对臣、父…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "周礼的差序结构——君臣、父子、夫妇——为阳欲提供了\"支配\"的合法边界（君对臣、父对子、夫对妻），同时为阴欲提供了\"服从\"的可靠对象（臣对君、子对父、妻对夫）。每个人都在某些关系中处于\"阳位\"（支配者），在另一些关系中处于\"阴位\"（服从者）。这种\"人人皆有阳位与阴位\"的交叉结构，使得二欲都能得到表达，又都不会过度膨胀。这正是中庸之道在人性层面的体现——\"发而皆中节谓之和\"。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:9b8e94a1e639",
+   "kind": "concept",
+   "label": "## 三、性别与婚姻：阴阳二欲的制度化起点",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "## 三、性别与婚姻：阴阳二欲的制度化起点"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:eb2ad369e45b",
+   "kind": "concept",
+   "label": "### 3.1 男女差异与主奴辩证法",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 3.1 男女差异与主奴辩证法"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:d16323ab33f1",
+   "kind": "concept",
+   "label": "阴阳二欲在性别关系中有最直观的体现。男女在生殖功能上的差异——男性外射、女性内纳…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "阴阳二欲在性别关系中有最直观的体现。男女在生殖功能上的差异——男性外射、女性内纳——构成了阳欲（外扩、主动、支配）与阴欲（内敛、被动、接纳）的自然隐喻。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:7a3d1c62e00a",
+   "kind": "concept",
+   "label": "都会导致主动者对被动者",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:95163c897800",
+   "kind": "concept",
+   "label": "依赖性——这正是主奴辩证法",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:e60cfea0a374",
+   "kind": "concept",
+   "label": "儒政的正妻-妾制度正是",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:c1dbcebc0f4f",
+   "kind": "concept",
+   "label": "避免这种阴阳失衡",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:3059d044e97a",
+   "kind": "concept",
+   "label": "### 3.2 正妻与妾：经权在婚姻中的体现",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 3.2 正妻与妾：经权在婚姻中的体现"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:b6c3293828ea",
+   "kind": "concept",
+   "label": "**正妻是婚姻之经**——她是宗法继承的根基、家族主位的象征。娶妻重德不重色，\"…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**正妻是婚姻之经**——她是宗法继承的根基、家族主位的象征。娶妻重德不重色，\"贤贤易色\"——品格高于容貌。正妻所出为嫡，承宗庙、继爵位，此乃天经地义。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:9cce75a5b08a",
+   "kind": "concept",
+   "label": "**妾是对美色诱惑的权宜之计**——人性有色欲，禁之不绝，故以妾为权宜出口。妾可…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**妾是对美色诱惑的权宜之计**——人性有色欲，禁之不绝，故以妾为权宜出口。妾可宠而不可尊，可育而不可嫡。一夫一妻多妾制的天才在于：既不为色欲所困（不禁），又不让色欲僭越（不滥）。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:4fe3931fafb5",
+   "kind": "concept",
+   "label": "以妾为妻者家乱——这与\"以霸为王、以权为经者国亡\"是同一结构。",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "以妾为妻者家乱——这与\"以霸为王、以权为经者国亡\"是同一结构。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:81bd0a22cab8",
+   "kind": "concept",
+   "label": "### 3.3 一夫一妻制的批判",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 3.3 一夫一妻制的批判"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:813ae5813e90",
+   "kind": "concept",
+   "label": "其结果",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:aaf3d8b60b43",
+   "kind": "concept",
+   "label": "性道德的提升",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:4c38ace3329e",
+   "kind": "concept",
+   "label": "靠颜值得到的婚姻持续不了",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:3feb1476bb23",
+   "kind": "concept",
+   "label": "漂亮无法避免家暴或出轨——娘家才行",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:423953c3f3f9",
+   "kind": "concept",
+   "label": "## 四、家庭伦理：五伦同构与远近亲疏",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "## 四、家庭伦理：五伦同构与远近亲疏"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:3c470a32db72",
+   "kind": "concept",
+   "label": "### 4.1 五伦的差序结构",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 4.1 五伦的差序结构"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:c6dfb87e2de6",
+   "kind": "concept",
+   "label": "儒家伦理的起点是家庭中的五种基本关系：君臣、父子、夫妇、兄弟、朋友。这五伦不是并…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "儒家伦理的起点是家庭中的五种基本关系：君臣、父子、夫妇、兄弟、朋友。这五伦不是并列的，而是以\"亲亲\"为圆心向外扩展的差序结构。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:eb53b6a1a759",
+   "kind": "concept",
+   "label": "**天合（血缘）＞人合（政治/婚姻）**。父子之亲是天合，不可解约；君臣之义是人…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**天合（血缘）＞人合（政治/婚姻）**。父子之亲是天合，不可解约；君臣之义是人合，可以解约（\"君使臣以礼，臣事君以忠\"——不礼则去）。人不能选择父母，但可以选择君主。这决定了效忠的优先级：**亲＞君＞天下**。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:abc619433983",
+   "kind": "concept",
+   "label": "舜可以",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:00fce0407978",
+   "kind": "concept",
+   "label": "父亲放弃天下",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:22b1b049f07e",
+   "kind": "concept",
+   "label": "### 4.2 家国同构：修齐治平的扩展逻辑",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 4.2 家国同构：修齐治平的扩展逻辑"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:24d461e1b5f0",
+   "kind": "concept",
+   "label": "\"修齐治平\"",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:c51c1a379caf",
+   "kind": "concept",
+   "label": "简单的\"由小到大\"的规模扩展",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:1f8ee2e9d27e",
+   "kind": "concept",
+   "label": "这意味着政治关系不被理解为与日常生活断裂的\"公共领域\"规则，而是从最亲密的私人关…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "这意味着政治关系不被理解为与日常生活断裂的\"公共领域\"规则，而是从最亲密的私人关系向外辐射的自然延伸。君主的权威来自\"父\"的隐喻，臣子的忠诚来自\"子\"的责任。政治被\"人伦化\"了，也因此被\"去陌生化\"了。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:2b48ed69f398",
+   "kind": "concept",
+   "label": "### 4.3 墨家\"兼爱\"与庄子\"齐物\"的批判",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 4.3 墨家\"兼爱\"与庄子\"齐物\"的批判"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:7e88d34794d6",
+   "kind": "concept",
+   "label": "这在儒政论看来",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:f99d439de609",
+   "kind": "concept",
+   "label": "对\"亲亲\"这一伦理之\"经\"的根本否定",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:a7d71787db26",
+   "kind": "concept",
+   "label": "庄子所谓\"齐物\"，正是对墨家式平等主义的深刻讽刺。\"齐物\"不是\"万物平等\"，而是…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "庄子所谓\"齐物\"，正是对墨家式平等主义的深刻讽刺。\"齐物\"不是\"万物平等\"，而是指出\"以平等为口号抹平一切差异\"本身就是一种暴力——它把不同的物强行\"齐\"到同一个标准之下，恰恰是对万物本真差异的践踏。**差异是不可齐的，强行\"齐物\"恰恰是最不\"齐物\"的暴政。** 墨家兼爱、法家一律平等、现代民主一人一票，都是这种\"强行齐物\"的不同版本。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:8285afc67f10",
+   "kind": "concept",
+   "label": "亲疏远近本身",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:aa972e7f5362",
+   "kind": "concept",
+   "label": "经**",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:f8ca2fb64daa",
+   "kind": "concept",
+   "label": "## 五、经权之辨：儒政的方法论核心",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "## 五、经权之辨：儒政的方法论核心"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:cddcbab6229d",
+   "kind": "concept",
+   "label": "### 5.1 经权的基本界定",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 5.1 经权的基本界定"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:e6bed6042d81",
+   "kind": "concept",
+   "label": "**经是天经地义**——不可更易的根本原则（君臣名分、嫡庶伦序、父子之亲、礼乐教…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**经是天经地义**——不可更易的根本原则（君臣名分、嫡庶伦序、父子之亲、礼乐教化）。**权是权宜之计**——面对具体情境时的变通权衡。孔子曰\"可与立，未可与权\"——权是最高境界。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:0f2913e97bca",
+   "kind": "concept",
+   "label": "经权关系：**经为体，权为用；经为本，权为末**。法家以权代经（一切皆可变），墨…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "经权关系：**经为体，权为用；经为本，权为末**。法家以权代经（一切皆可变），墨家以经废权（一切皆同，不分亲疏），儒政执经行权。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:194c90088149",
+   "kind": "concept",
+   "label": "**王道为经，霸道为权**。霸道只能在\"非常态\"下作为权宜之计，一旦危机过去必须…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**王道为经，霸道为权**。霸道只能在\"非常态\"下作为权宜之计，一旦危机过去必须\"复归于经\"。若以霸道为常态（秦制、宋制、资本主义），则经权倒置，堕落与邪恶涌入。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:00c7ee305a34",
+   "kind": "concept",
+   "label": "### 5.2 理性推理的祛魅：经验传统为经",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 5.2 理性推理的祛魅：经验传统为经"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:027df059f1a3",
+   "kind": "concept",
+   "label": "**理性推理本身就是\"权\"而非\"经\"**：演绎逻辑、体系构建、抽象论证是从经验传…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**理性推理本身就是\"权\"而非\"经\"**：演绎逻辑、体系构建、抽象论证是从经验传统中抽象出的次级工具。真正的\"经\"是经验传统本身——祖辈做法、习惯先例。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:cd389d3da701",
+   "kind": "concept",
+   "label": "判断力的",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:a21c2a9ce793",
+   "kind": "concept",
+   "label": "阶级性产生的习惯判断",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:290f5d7c0840",
+   "kind": "concept",
+   "label": "## 六、制度精神：礼治、封建与经权结构",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "## 六、制度精神：礼治、封建与经权结构"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:faa16462173d",
+   "kind": "concept",
+   "label": "### 6.1 礼治作为\"习惯法\"",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 6.1 礼治作为\"习惯法\""
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:b85ce8e169c5",
+   "kind": "concept",
+   "label": "礼是一套基于习惯的行为规范体系，与成文法在以下维度根本不同：",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "礼是一套基于习惯的行为规范体系，与成文法在以下维度根本不同："
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:90a21fdc412b",
+   "kind": "concept",
+   "label": "| 维度 | 礼（习惯法/经） | 法（成文法/权） |",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "| 维度 | 礼（习惯法/经） | 法（成文法/权） |"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:8b4d008b4357",
+   "kind": "concept",
+   "label": "|------|----------------|---------------…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "|------|----------------|----------------|"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:74081aeb796c",
+   "kind": "concept",
+   "label": "| 规范来源 | 历史惯例、先例、圣贤垂范 | 立法者制定、法官解释 |",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "| 规范来源 | 历史惯例、先例、圣贤垂范 | 立法者制定、法官解释 |"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:0e3986eea256",
+   "kind": "concept",
+   "label": "| 适用原则 | 因人而异（\"礼不下庶人\"） | 一律平等 |",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "| 适用原则 | 因人而异（\"礼不下庶人\"） | 一律平等 |"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:0b4a24ea4e09",
+   "kind": "concept",
+   "label": "| 变更方式 | 缓慢演化、例随事增 | 明令废立、法典编纂 |",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "| 变更方式 | 缓慢演化、例随事增 | 明令废立、法典编纂 |"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:83c31b0e843d",
+   "kind": "concept",
+   "label": "| 制裁手段 | 舆论、羞耻、和解、复仇 | 国家刑罚 |",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "| 制裁手段 | 舆论、羞耻、和解、复仇 | 国家刑罚 |"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:68e435827144",
+   "kind": "concept",
+   "label": "| 培养目标 | 君子（有德者） | 守法公民（无德亦可） |",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "| 培养目标 | 君子（有德者） | 守法公民（无德亦可） |"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:75b66739428e",
+   "kind": "concept",
+   "label": "**礼治培养君子，法治培养\"不犯法的坏人\"。** 礼治的优势在弹性（孔子\"权\"）…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**礼治培养君子，法治培养\"不犯法的坏人\"。** 礼治的优势在弹性（孔子\"权\"）和去中心化，无需庞大官僚体系。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:752bcbfbd9c1",
+   "kind": "concept",
+   "label": "### 6.2 分封制的组织逻辑",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 6.2 分封制的组织逻辑"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:849b9d00deee",
+   "kind": "concept",
+   "label": "**全权授予**、**世袭",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:6794737051cb",
+   "kind": "concept",
+   "label": "**、**多层效忠**、**文武合一**",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:259ba270ce2a",
+   "kind": "concept",
+   "label": "外交也",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:d7ccd5d9f9c8",
+   "kind": "concept",
+   "label": "军财循环的延伸",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:0a8c622e0e06",
+   "kind": "concept",
+   "label": "### 6.3 国野之辨与阶级位阶",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 6.3 国野之辨与阶级位阶"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:ec4e81b79d17",
+   "kind": "concept",
+   "label": "**国人为经**（征服者及其后裔，承担军事义务，政治主体）；**野人为权**（被…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**国人为经**（征服者及其后裔，承担军事义务，政治主体）；**野人为权**（被征服土著，从事生产提供赋税，财政来源）。**军事为经，财政为权；军主财辅。** 当财政凌驾于军事之上（宋代以文制武），便是经权倒置。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:950e0af4ab20",
+   "kind": "concept",
+   "label": "| 位阶 | 身份 | 角色 | 地位 |",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "| 位阶 | 身份 | 角色 | 地位 |"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:afee6b60ec95",
+   "kind": "concept",
+   "label": "|------|------|------|------|",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "|------|------|------|------|"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:bc5ba98b68df",
+   "kind": "concept",
+   "label": "| 经 | 封建贵族（国人） | 军事安全与礼法秩序 | 政治主体，合法性源头 …",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "| 经 | 封建贵族（国人） | 军事安全与礼法秩序 | 政治主体，合法性源头 |"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:8c00406a8751",
+   "kind": "concept",
+   "label": "| 权 | 资产阶级（野人精英） | 财政资源 | 权宜参与者，可富不可贵 |",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "| 权 | 资产阶级（野人精英） | 财政资源 | 权宜参与者，可富不可贵 |"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:e5a95fb67c8f",
+   "kind": "concept",
+   "label": "| 末 | 化外之民 | 未纳入秩序者 | 无政治权利，需归化 |",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "| 末 | 化外之民 | 未纳入秩序者 | 无政治权利，需归化 |"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:d5a1a7b81ee5",
+   "kind": "concept",
+   "label": "### 6.4 选拔制度：世袭为经，察举与科举皆为权",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 6.4 选拔制度：世袭为经，察举与科举皆为权"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:99359f5c74fe",
+   "kind": "concept",
+   "label": "**世袭继承是经**——它提供了政治秩序最基本的确定性：继承规则清晰、权力交接可…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**世袭继承是经**——它提供了政治秩序最基本的确定性：继承规则清晰、权力交接可预期、效忠对象明确。世袭把\"谁当统治者\"这个最可能引发内战的问题，交给了出生的事实来解决。出身（天命/血统）不可后天习得，不可替代，此乃天经地义。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:05764cc86b15",
+   "kind": "concept",
+   "label": "二者",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:6ea916f307e7",
+   "kind": "concept",
+   "label": "都是权",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:1a4805cc2fb3",
+   "kind": "concept",
+   "label": "这种\"熟悉\"本身",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:a1eca6783980",
+   "kind": "concept",
+   "label": "信任的基础",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:24dec230ddfa",
+   "kind": "concept",
+   "label": "把活生生的、有乡评口碑的人",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:d0d81012d9ea",
+   "kind": "concept",
+   "label": "纸面上的、可批量评分的\"答案\"",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:752a366ab45a",
+   "kind": "concept",
+   "label": "用陌生取代熟悉",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:f44add12c35e",
+   "kind": "concept",
+   "label": "用权取代了经**",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:98c53717773a",
+   "kind": "concept",
+   "label": "一切后天的",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:559f32dc13e2",
+   "kind": "concept",
+   "label": "廉价的",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:2fc2fb3c7278",
+   "kind": "concept",
+   "label": "## 七、历史动力：周秦循环与儒法斗争",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "## 七、历史动力：周秦循环与儒法斗争"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:205829f59078",
+   "kind": "concept",
+   "label": "### 7.1 周秦之变的三重危机",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 7.1 周秦之变的三重危机"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:8c444b9af32b",
+   "kind": "concept",
+   "label": "以立法者意志",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:a9d014c96a30",
+   "kind": "concept",
+   "label": "历史习惯",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:0bc4e5c7003a",
+   "kind": "concept",
+   "label": "### 7.2 商鞅变法：以权代经",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 7.2 商鞅变法：以权代经"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:394200deb98b",
+   "kind": "concept",
+   "label": "废井田、行郡县、定军爵、行连坐——以\"权\"（成文法、军功爵、郡县制）取代\"经\"（…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "废井田、行郡县、定军爵、行连坐——以\"权\"（成文法、军功爵、郡县制）取代\"经\"（礼治、世袭、封建）。秦制以权为经。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:05345321e321",
+   "kind": "concept",
+   "label": "### 7.3 法家三重起源与儒家四维批判",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 7.3 法家三重起源与儒家四维批判"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:2c0a0c097c90",
+   "kind": "concept",
+   "label": "民主泛滥",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:bd23de148c06",
+   "kind": "concept",
+   "label": "专制、儒家内部异化、战争压力倒逼",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:b559e51e0093",
+   "kind": "concept",
+   "label": "**儒家批判**：德位分离（\"不义而富且贵，于我如浮云\"）、契约精神毁灭（以\"计…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**儒家批判**：德位分离（\"不义而富且贵，于我如浮云\"）、契约精神毁灭（以\"计数\"取代\"信\"）、小共同体瓦解（\"分异令\"）、短视理性主义。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:46bbc5be8647",
+   "kind": "concept",
+   "label": "### 7.4 秦制的三重悖论",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 7.4 秦制的三重悖论"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:59d38485deb8",
+   "kind": "concept",
+   "label": "**权力越集中，治理越失效**——流官无地方根基、无长期激励，只求任内指标。**…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**权力越集中，治理越失效**——流官无地方根基、无长期激励，只求任内指标。**消灭中间等级=制造流民**——土地私有化使农民破产，既无宗族保护。**法治越严苛，社会越虚伪**——孔子\"道之以政，齐之以刑，民免而无耻\"。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:733ca1ee6cbb",
+   "kind": "concept",
+   "label": "### 7.5 霸道长期化的堕落机制",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 7.5 霸道长期化的堕落机制"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:281becdc00ea",
+   "kind": "concept",
+   "label": "**长期的霸道会本末倒置，让权宜大开，涌入堕落与邪恶。**",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**长期的霸道会本末倒置，让权宜大开，涌入堕落与邪恶。**"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:030ff2cc40fd",
+   "kind": "concept",
+   "label": "三重堕落：**以力代德的恶性循环**（威慑通胀，刑罚不断加重而敬畏递减）、**权…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "三重堕落：**以力代德的恶性循环**（威慑通胀，刑罚不断加重而敬畏递减）、**权宜手段的自我合法化**（卑劣手段被\"效率\"名义合理化）、**德性退场后恶填充真空**（社会不再培养君子，只能生产钻营者）。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:62f480bffb92",
+   "kind": "concept",
+   "label": "秦二世而亡**——不是",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:887f5d0c23eb",
+   "kind": "concept",
+   "label": "不够霸道",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:70b24a2abe1e",
+   "kind": "concept",
+   "label": "### 7.6 儒法斗争三次高峰与博弈结果",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 7.6 儒法斗争三次高峰与博弈结果"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:5ef451f4e683",
+   "kind": "concept",
+   "label": "最稳定的",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:f4c345b00879",
+   "kind": "concept",
+   "label": "\"名郡县而实封建\"",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:3cff05046311",
+   "kind": "concept",
+   "label": "### 7.7 宋与资本主义：霸道长期化的两个典范",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 7.7 宋与资本主义：霸道长期化的两个典范"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:77169ecc7b8e",
+   "kind": "concept",
+   "label": "不断\"变法\"以新权宜",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:9b56a9fc1468",
+   "kind": "concept",
+   "label": "旧权宜",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:8f190c51d65f",
+   "kind": "concept",
+   "label": "内核",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:b0690be2b48e",
+   "kind": "concept",
+   "label": "**财取代军",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:f5366daeae1e",
+   "kind": "concept",
+   "label": "## 八、合法性与效忠：政治秩序的两根支柱",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "## 八、合法性与效忠：政治秩序的两根支柱"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:3b4c00816872",
+   "kind": "concept",
+   "label": "### 8.1 合法性的两个根本来源",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 8.1 合法性的两个根本来源"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:b9a271019c2b",
+   "kind": "concept",
+   "label": "征服**",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:a00b18e98a4d",
+   "kind": "concept",
+   "label": "最原初的合法性——以武力建立秩序",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:013e612047e7",
+   "kind": "concept",
+   "label": "### 8.2 \"正\"与\"润\"的含义",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 8.2 \"正\"与\"润\"的含义"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:ea56552c58a4",
+   "kind": "concept",
+   "label": "**\"正\"** 指向权力来源是否正当：与旧政权无君臣名分而取天下为\"正\"，有旧君…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**\"正\"** 指向权力来源是否正当：与旧政权无君臣名分而取天下为\"正\"，有旧君臣名分而背弃之为\"不正\"。**\"润\"** 指向权宜性与临时性：割据、受禅、推举皆属\"润\"政。**正为经，润为权**。五代十国称\"润朝\"，恰因其处于\"正\"与\"不正\"之间。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:0be2e5e49c2e",
+   "kind": "concept",
+   "label": "篡位＜造",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:29ac98838ddb",
+   "kind": "concept",
+   "label": "＜征服",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:bf96a291666a",
+   "kind": "concept",
+   "label": "**篡位**最低——名分已定而背弃之。**造反**居中——未被纳入君臣体系的边缘…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**篡位**最低——名分已定而背弃之。**造反**居中——未被纳入君臣体系的边缘力量反抗。**征服**最高——与旧政权无君臣名分，且承担全部安全责任。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:8898b9923af6",
+   "kind": "concept",
+   "label": "### 8.4 效忠的三重结构",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 8.4 效忠的三重结构"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:c5990123e9bc",
+   "kind": "concept",
+   "label": "**优先级：亲（血缘）＞君（直接恩主）＞天下（抽象共同体）**。",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**优先级：亲（血缘）＞君（直接恩主）＞天下（抽象共同体）**。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:a343845cf626",
+   "kind": "concept",
+   "label": "确认了\"忠\"的根基",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:ab8e4e631799",
+   "kind": "concept",
+   "label": "对直接主君的忠诚",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:67055d67b7eb",
+   "kind": "concept",
+   "label": "## 九、成文法批判：子产铸刑书到现代法系",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "## 九、成文法批判：子产铸刑书到现代法系"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:0cd3392bcc06",
+   "kind": "concept",
+   "label": "### 9.1 子产铸刑书：以权代经的起点",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 9.1 子产铸刑书：以权代经的起点"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:e857014faa7f",
+   "kind": "concept",
+   "label": "\"成文法以立法者意志",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:fd39c7504d68",
+   "kind": "concept",
+   "label": "### 9.2 成文法的三重堕落逻辑",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 9.2 成文法的三重堕落逻辑"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:05ad066e8ef1",
+   "kind": "concept",
+   "label": "**从\"习惯总结\"到\"立法强加\"**——礼是生活长出来的，法是书斋写出来的。**…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**从\"习惯总结\"到\"立法强加\"**——礼是生活长出来的，法是书斋写出来的。**从\"裁判依据\"到\"统治工具\"**——\"法治独立\"的本质是律师专制。**从\"有限成文化\"到\"全面法典化\"**——法律触角越长，自由越少；法条越密，德性越薄。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:51b3a8e32d79",
+   "kind": "concept",
+   "label": "### 9.3 现代英法法系的本质：知识阶层的智力殖民",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 9.3 现代英法法系的本质：知识阶层的智力殖民"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:b68ca46aae11",
+   "kind": "concept",
+   "label": "把法官",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:fc47f6258ac8",
+   "kind": "concept",
+   "label": "法条的自动售货机——输入案情",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:a08bc1dd72e5",
+   "kind": "concept",
+   "label": "法律",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:423c8e5a14a5",
+   "kind": "concept",
+   "label": "只有读过法学院的人才能操作的技术黑箱",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:dba2135e6df1",
+   "kind": "concept",
+   "label": "**礼治培养君子，法治培养\"不犯法的坏人\"。**",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**礼治培养君子，法治培养\"不犯法的坏人\"。**"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:e9d0c70ff43b",
+   "kind": "concept",
+   "label": "## 十、比较制度分析：四种封建原型与文明差异",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "## 十、比较制度分析：四种封建原型与文明差异"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:bf596c0672eb",
+   "kind": "concept",
+   "label": "### 10.1 四种封建原型",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 10.1 四种封建原型"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:83e073b8e7b2",
+   "kind": "concept",
+   "label": "**礼乐封建（周制）**——家国同构，文武合一。优势：人伦与政治和谐。劣势：扩张…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**礼乐封建（周制）**——家国同构，文武合一。优势：人伦与政治和谐。劣势：扩张停止后内斗。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "actor:ae1875c33121",
+   "kind": "actor",
+   "label": "**种姓封建（印度）**——祭祀高于王权，戎祀高度分离。优势：文明延续性极强。劣…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**种姓封建（印度）**——祭祀高于王权，戎祀高度分离。优势：文明延续性极强。劣势：扩张动力不足。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:77f7550226a0",
+   "kind": "concept",
+   "label": "**亚伯拉罕封建（中东-西欧）**——神-君二元。优势：教权制衡。劣势：一神教排…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**亚伯拉罕封建（中东-西欧）**——神-君二元。优势：教权制衡。劣势：一神教排他性。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:87256b6e891f",
+   "kind": "concept",
+   "label": "**资本封建（近代欧洲）**——契约司法、财产权。优势：与工业结合。劣势：拜金消…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**资本封建（近代欧洲）**——契约司法、财产权。优势：与工业结合。劣势：拜金消解人伦。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:164464e88f7b",
+   "kind": "concept",
+   "label": "### 10.2 延续性与戎祀分离的关系",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 10.2 延续性与戎祀分离的关系"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:5874286512bc",
+   "kind": "concept",
+   "label": "文明的政治延续性，很大程度上取决于\"戎\"与\"祀\"的关系。",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "文明的政治延续性，很大程度上取决于\"戎\"与\"祀\"的关系。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:209decb14217",
+   "kind": "concept",
+   "label": "**戎祀高度合一**（礼乐封建、早期伊斯兰）——权威集中、行动力强，但军事失败则…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**戎祀高度合一**（礼乐封建、早期伊斯兰）——权威集中、行动力强，但军事失败则合法性结构随之崩塌。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "actor:2e697198de26",
+   "kind": "actor",
+   "label": "**戎祀高度分离**（种姓印度）——王朝更替、文明永续，征服者必须接受原有祭司阶…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**戎祀高度分离**（种姓印度）——王朝更替、文明永续，征服者必须接受原有祭司阶层的文化权威，最终被\"印度化\"。这一模式赋予文明惊人的韧性。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:697a2069b303",
+   "kind": "concept",
+   "label": "**戎祀部分分离**（西欧中世）——教皇与皇帝的双头格局为政治斗争提供了\"超政治…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**戎祀部分分离**（西欧中世）——教皇与皇帝的双头格局为政治斗争提供了\"超政治的裁判者\"，但也为政教冲突埋下伏笔。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:69168aecb6ad",
+   "kind": "concept",
+   "label": "儒政的独特之处在于：既保持\"祀\"（礼乐教化）对\"戎\"（军事征伐）的伦理约束（\"国…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "儒政的独特之处在于：既保持\"祀\"（礼乐教化）对\"戎\"（军事征伐）的伦理约束（\"国之大事，在祀与戎\"，祀在前），又未使二者完全分离而陷入精神权威与世俗权力的长期对抗。这是一种有张力的统一。其脆弱性在于：当戎的力量过度膨胀（如战国七雄），祀的约束失效；当祀被官方化（如汉代经学），其约束力也变质为装饰。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "actor:fa4e24a0b128",
+   "kind": "actor",
+   "label": "### 10.3 为何中国未",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:3333c0d74555",
+   "kind": "concept",
+   "label": "\"封建—宪政\"过渡？",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:77903c5d163c",
+   "kind": "concept",
+   "label": "**大一统规模效应**——统一提供了\"不做选择的选择\"。**正统vs契约**——…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**大一统规模效应**——统一提供了\"不做选择的选择\"。**正统vs契约**——争论\"谁统治\"而非\"可换制度\"。**无中间武装等级**——问题不在\"无教会\"而在\"无诸侯\"。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:c9f0bf765f99",
+   "kind": "concept",
+   "label": "**最深层次**：宪政的\"店小二逻辑\"降维打击儒政的\"宗族逻辑\"——国王沦为可随…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**最深层次**：宪政的\"店小二逻辑\"降维打击儒政的\"宗族逻辑\"——国王沦为可随时更换的CEO，忠义降级为满意度。强调立宪而非忠义，只会加剧猜忌。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:8affda5c79fa",
+   "kind": "concept",
+   "label": "### 10.4 现代民主制的\"周秦化\"",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 10.4 现代民主制的\"周秦化\""
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:9a124ddbefad",
+   "kind": "concept",
+   "label": "**原子化效应**（一人一票否认中间等级加权）、**官僚化与短视化**（民选政客…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**原子化效应**（一人一票否认中间等级加权）、**官僚化与短视化**（民选政客如流官）、**凯撒主义宿命**（民主消解自治→民众呼唤强人）、**去伦理化**（合法来自\"程序正义\"不问\"掌权者有德否\"）。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:a008f77cc82e",
+   "kind": "concept",
+   "label": "## 十一、外生冲击：蛮族、瘟疫与技术变迁",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "## 十一、外生冲击：蛮族、瘟疫与技术变迁"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:38b13038120d",
+   "kind": "concept",
+   "label": "### 11.1 蛮族入侵",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 11.1 蛮族入侵"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:5252d0c8a169",
+   "kind": "concept",
+   "label": "容易在战争中坐大",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:9fdf494992db",
+   "kind": "concept",
+   "label": "新的军阀",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:b003ee364168",
+   "kind": "concept",
+   "label": "讽刺的",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:f2adecf94a07",
+   "kind": "concept",
+   "label": "蛮族入主中原后",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:56afe7e0d008",
+   "kind": "concept",
+   "label": "### 11.2 瘟疫",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 11.2 瘟疫"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:ee34c04b7dd3",
+   "kind": "concept",
+   "label": "大规模瘟疫对秦制的冲击尤为剧烈，因为秦制化的社会缺少自治能力——平日全靠国家统筹…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "大规模瘟疫对秦制的冲击尤为剧烈，因为秦制化的社会缺少自治能力——平日全靠国家统筹，一旦国家也因瘟疫瘫痪，整个社会秩序瞬间崩溃。而在封建制下，地方领主可以在中央失能的情况下继续维持本地秩序，小共同体的\"抗冲击性\"远高于原子化社会。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:2fac192c8622",
+   "kind": "concept",
+   "label": "### 11.3 技术变迁",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 11.3 技术变迁"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:fa245a809601",
+   "kind": "concept",
+   "label": "贵族战车优势被步兵方阵",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:70f7bd71e719",
+   "kind": "concept",
+   "label": "这是春秋战国封建制崩溃的重要技术背景",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:6db996acf588",
+   "kind": "concept",
+   "label": "但技术永远不能单独解释制度变迁——同样的火器在欧洲引发\"军事革命\"并促进绝对君主…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "但技术永远不能单独解释制度变迁——同样的火器在欧洲引发\"军事革命\"并促进绝对君主制，在日本却伴随\"战国时代\"的分裂，说明制度有超越技术的自主惯性。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "actor:dab1838043a4",
+   "kind": "actor",
+   "label": "牛顿",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:975a79f2dfdf",
+   "kind": "concept",
+   "label": "每个领主",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:a4bcb1969359",
+   "kind": "concept",
+   "label": "竞争中生存和扩张",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:8870417036e9",
+   "kind": "concept",
+   "label": "更为关键的是，封建制下\"有限战争\"的常态——领主之间的冲突通常以俘虏赎买、领土调…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "更为关键的是，封建制下\"有限战争\"的常态——领主之间的冲突通常以俘虏赎买、领土调整和联姻和解告终，而非以灭国和屠杀为目标——为知识精英的跨国流动创造了条件：一个学者在某个领地被驱逐，可以在另一个领地找到庇护；一个技艺在某个城市被禁止，可以在另一个城市得到发展。这种\"竞争性宽容\"是郡县制大一统下\"定于一尊\"的学术格局所无法提供的。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:b0ffc649d18a",
+   "kind": "concept",
+   "label": "技术创新的活力本身",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:3f76ca008567",
+   "kind": "concept",
+   "label": "封建制的多元竞争和贵族赞助结构",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:ed6d2156dc0a",
+   "kind": "concept",
+   "label": "这一历史经验对儒政论的启示",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:765aa8978281",
+   "kind": "concept",
+   "label": "**郡县制在\"集中力量办大事\"方面的优势",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:19bea4519f34",
+   "kind": "concept",
+   "label": "## 十二、结论：儒政的当代意义",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "## 十二、结论：儒政的当代意义"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:14003a8bb0fa",
+   "kind": "concept",
+   "label": "### 12.1 十个核心命题",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 12.1 十个核心命题"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:759690f0aa6b",
+   "kind": "concept",
+   "label": "**一**：政治组织只有封建与郡县两种，无线性先进与否。",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**一**：政治组织只有封建与郡县两种，无线性先进与否。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "actor:c86e835b8da7",
+   "kind": "actor",
+   "label": "中国历史深层动力",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:2f9a5eaedf8d",
+   "kind": "concept",
+   "label": "\"周秦循环\"",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:8f60e73675f7",
+   "kind": "concept",
+   "label": "**三**：儒政核心价值——家国同构、君臣契约、礼让权变、远近亲疏——提供不同于…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**三**：儒政核心价值——家国同构、君臣契约、礼让权变、远近亲疏——提供不同于自由主义和法家统制主义的伦理方案。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:d2919832b2a2",
+   "kind": "concept",
+   "label": "现代性政治危机",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:047acf31fa12",
+   "kind": "concept",
+   "label": "\"秦制逻辑的全球实现\"",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:1dc7e8c2ff08",
+   "kind": "concept",
+   "label": "是对伦理之\"经\"的",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:aae1549ed1a6",
+   "kind": "concept",
+   "label": "庄子\"齐物\"讽刺了强行抹平差异的暴政",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:8badb8df3e0b",
+   "kind": "concept",
+   "label": "**六**：合法性来源唯征服与世袭。正≠润——正为经，润为权。政治实权只有军＞财…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**六**：合法性来源唯征服与世袭。正≠润——正为经，润为权。政治实权只有军＞财循环。军为经、财为权；封建贵族为经、资产阶级为权、化外为末。世袭继承是经，察举科举皆为权——科举用陌生取代了熟悉。大位不可以智取。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:97b5e8e1ebb7",
+   "kind": "concept",
+   "label": "**七**：效忠优先级为亲＞君＞天下。可以为亲君父而弑天下君，不能大义灭亲。",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**七**：效忠优先级为亲＞君＞天下。可以为亲君父而弑天下君，不能大义灭亲。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:e27b03c227b4",
+   "kind": "concept",
+   "label": "现代法系",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:8e40a293729d",
+   "kind": "concept",
+   "label": "知识阶层通过垄断法律解释权实现的智力殖民",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:dc16f6a61015",
+   "kind": "concept",
+   "label": "**九**：四种封建原型中，礼乐封建在人伦与政治和谐方面具有独特优势；戎祀关系决…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**九**：四种封建原型中，礼乐封建在人伦与政治和谐方面具有独特优势；戎祀关系决定了文明的延续性模式。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:f7da5ca9b7ec",
+   "kind": "concept",
+   "label": "蛮族、瘟疫、技术等外生冲击",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:8a14a2892378",
+   "kind": "concept",
+   "label": "周秦循环切换的重要催化剂",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:4c885336c7ad",
+   "kind": "concept",
+   "label": "### 12.2 与当代政治哲学的对话",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 12.2 与当代政治哲学的对话"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:304e2af36714",
+   "kind": "concept",
+   "label": "**与自由主义的对话：** 自由主义强调\"个体权利\"的优先性，儒政论则指出\"个体…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**与自由主义的对话：** 自由主义强调\"个体权利\"的优先性，儒政论则指出\"个体\"是被建构出来的——在脱离家庭、宗族、乡党之后，个体既无身份认同也无安全网络。权利不是\"自然状态\"下就有的东西，它只能在一个有组织的社会秩序中得到保障。与其问\"个体的权利如何被尊重\"，不如问\"什么样的共同体最能保障其成员的有尊严生活\"。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:ae6f742b2f4b",
+   "kind": "concept",
+   "label": "儒政论则指出经济不平等只",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:d2736e399a2c",
+   "kind": "concept",
+   "label": "\"德性不平等\"的次生表现",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:112fbb2fb346",
+   "kind": "concept",
+   "label": "儒政论提供了这种分析——传统",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:8b8db553d663",
+   "kind": "concept",
+   "label": "靠\"尊重传统\"的说教维系的",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:c84026fdfd83",
+   "kind": "concept",
+   "label": "与自由主义的斗争",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:3f4acb7022d5",
+   "kind": "concept",
+   "label": "制度性的",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:075fd059715b",
+   "kind": "concept",
+   "label": "### 12.3 儒政作为\"第三种可能性\"",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 12.3 儒政作为\"第三种可能性\""
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:d1487d312fbf",
+   "kind": "concept",
+   "label": "既非威权，亦非民主，而是\"有等级的共同体自治\"——以伦理关系维系、世袭领主和家族…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "既非威权，亦非民主，而是\"有等级的共同体自治\"——以伦理关系维系、世袭领主和家族网络为组织载体、多层级自下而上的秩序生成。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:64aa169bb6bb",
+   "kind": "concept",
+   "label": "### 12.4 余论：\"礼失求诸野\"",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "### 12.4 余论：\"礼失求诸野\""
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:50926044b129",
+   "kind": "concept",
+   "label": "是在\"经\"缺失时对\"经\"的",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:61994613b04e",
+   "kind": "concept",
+   "label": "而非对\"经\"的替代",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:84b63c105a60",
+   "kind": "concept",
+   "label": "让家庭能够真正",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:569deda66d56",
+   "kind": "concept",
+   "label": "\"教养\"的起点而不只是\"生育\"的单位",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:eabf3996a8b9",
+   "kind": "concept",
+   "label": "它们会",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:bf05e9d13972",
+   "kind": "concept",
+   "label": "对国家权力的制衡力量——不是通过对抗",
+   "attrs": {
+    "verified": false
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:fabe6e1e8e33",
+   "kind": "concept",
+   "label": "**参考文献**",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "**参考文献**"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:c6d8dbaf7bdd",
+   "kind": "concept",
+   "label": "[1] 杨伯峻. 论语译注[M]. 北京: 中华书局, 1980.",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "[1] 杨伯峻. 论语译注[M]. 北京: 中华书局, 1980."
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:b17890487d69",
+   "kind": "concept",
+   "label": "[2] 杨伯峻. 孟子译注[M]. 北京: 中华书局, 1960.",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "[2] 杨伯峻. 孟子译注[M]. 北京: 中华书局, 1960."
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:08835c87aef9",
+   "kind": "concept",
+   "label": "[3] 王文锦. 礼记译解[M]. 北京: 中华书局, 2001.",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "[3] 王文锦. 礼记译解[M]. 北京: 中华书局, 2001."
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:ecf6d539796d",
+   "kind": "concept",
+   "label": "[4] 杨伯峻. 春秋左传注[M]. 北京: 中华书局, 1990.",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "[4] 杨伯峻. 春秋左传注[M]. 北京: 中华书局, 1990."
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:513f55c0f76f",
+   "kind": "concept",
+   "label": "[5] 王先谦. 荀子集解[M]. 北京: 中华书局, 1988.",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "[5] 王先谦. 荀子集解[M]. 北京: 中华书局, 1988."
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:3742d4493da5",
+   "kind": "concept",
+   "label": "[6] 王先慎. 韩非子集解[M]. 北京: 中华书局, 1998.",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "[6] 王先慎. 韩非子集解[M]. 北京: 中华书局, 1998."
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:6be1c60215fd",
+   "kind": "concept",
+   "label": "[7] 司马迁. 史记[M]. 北京: 中华书局, 1959.",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "[7] 司马迁. 史记[M]. 北京: 中华书局, 1959."
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:e59ae31becec",
+   "kind": "concept",
+   "label": "[8] 班固. 汉书[M]. 北京: 中华书局, 1962.",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "[8] 班固. 汉书[M]. 北京: 中华书局, 1962."
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:dcf6b73fc68c",
+   "kind": "concept",
+   "label": "[9] 司马光. 资治通鉴[M]. 北京: 中华书局, 1956.",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "[9] 司马光. 资治通鉴[M]. 北京: 中华书局, 1956."
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "actor:849a5a6bccc1",
+   "kind": "actor",
+   "label": "[10] 瞿同祖. 中国法律与中国社会[M]. 北京: 商务印书馆, 2010.",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "[10] 瞿同祖. 中国法律与中国社会[M]. 北京: 商务印书馆, 2010."
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:dcd38e714ce6",
+   "kind": "concept",
+   "label": "[11] 钱穆. 国史大纲[M]. 北京: 商务印书馆, 1996.",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "[11] 钱穆. 国史大纲[M]. 北京: 商务印书馆, 1996."
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "actor:ddd4a4766ab1",
+   "kind": "actor",
+   "label": "[12] 钱穆. 中国历代政治得失[M]. 北京: 三联书店, 2001.",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "[12] 钱穆. 中国历代政治得失[M]. 北京: 三联书店, 2001."
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "actor:c1857bcffa05",
+   "kind": "actor",
+   "label": "[13] 费孝通. 乡土中国 生育制度[M]. 北京: 北京大学出版社, 199…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "[13] 费孝通. 乡土中国 生育制度[M]. 北京: 北京大学出版社, 1998."
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "actor:211b5da47a23",
+   "kind": "actor",
+   "label": "[14] 阎步克. 士大夫政治演生史稿[M]. 北京: 北京大学出版社, 199…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "[14] 阎步克. 士大夫政治演生史稿[M]. 北京: 北京大学出版社, 1996."
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:c04d43dc1fbf",
+   "kind": "concept",
+   "label": "[15] Weber, M. The Religion of China[M].…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "[15] Weber, M. The Religion of China[M]. New York: Free Press, 1968."
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "key": "concept:710f07139784",
+   "kind": "concept",
+   "label": "[16] Fukuyama, F. The Origins of Politic…",
+   "attrs": {
+    "verified": false,
+    "as_sentence": "[16] Fukuyama, F. The Origins of Political Order[M]. New York: Farrar, Straus and Giroux, 2011."
+   },
+   "source": "operator:inbox/儒政论纲(1).docx",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  }
+ ],
+ "edges": [
+  {
+   "src": "concept:28f29bcd87b4",
+   "dst": "concept:c04541ee6a65",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 16,
+    "text": "这两种范式共享一个前提：即\"封建\"与\"郡县\"之间存在着一条由进步史观划定的鸿沟，\"封建\"是落后的，\"郡县\"是先进的。本文试图对这一前提进行彻底的反思性批判，并在此批判之上重建一种以儒家经典为核心解释资源的政治理论——即\"儒政\"论。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L16",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:de47534be0fe",
+   "dst": "concept:b1e19ce41ef8",
+   "rel": "opposes",
+   "attrs": {
+    "status": "asserted",
+    "line": 24,
+    "text": "**其一，作为伦理系统的儒政。** 这是最深层的结构。它以\"亲亲尊尊\"为出发点，以\"五伦同构\"为组织原理，以\"修齐治平\"为扩展路径，构建了一套从人身到家国再到天下的连续性秩序。在这套秩序中，政治关系被理解为伦理关系的延伸，而非对伦理关系的否定或超越。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L24",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:7259bd32da20",
+   "dst": "concept:26e9fae7aa03",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 26,
+    "text": "**其二，作为制度精神的儒政。** 儒家对制度的理解不同于法家的\"立法以制人\"。儒家制度观的核心是\"礼\"，而\"礼\"的本质是将伦理规范转化为可操作的仪式、习惯和等级秩序。\"礼\"不强求一律，而追求\"和而不同\"；不依赖强力推行，而通过\"刑不上大夫，礼不下庶人\"的差异化原则，使不同阶层的人各安其位、各尽其分。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L26",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:e13791e3609e",
+   "dst": "concept:20a7a0a47d1d",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 34,
+    "text": "**命题一（人性预设）**：人的政治行为根植于两种基本冲动——\"欲支配\"（主动、阳、外扩）与\"欲服从\"（被动、阴、内敛）。这两种冲动的产生，根源于人的存在论困境：人无法选择是否被出生，这种**原初的强迫**构成了人最基本的生存创伤。阳欲是对\"被强迫感\"的主动反击，阴欲则是对\"被强迫感\"的被动妥协。任何稳定的政治秩序都必须为这两种冲动同时提供制度化的表达通道。周礼通过\"君臣、父子、夫妇\"的差序结构实现了二者的动态平衡。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L34",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:cddd24fa891b",
+   "dst": "concept:ca476f542b6e",
+   "rel": "causes",
+   "attrs": {
+    "status": "asserted",
+    "line": 38,
+    "text": "**命题三（历史动力学预设）**：制度变迁不是线性进步的，而是\"周秦循环\"的周期性摆动。每一次集权冲动（秦制化）都会导致小共同体的瓦解和基层治理能力的衰退，而每一次衰退又会呼唤某种形式的\"复封建\"（周制化）。这一摆动是人类组织理性的内在局限，不以人的意志为转移。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L38",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:c859aa8cb39d",
+   "dst": "concept:20a7a0a47d1d",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 47,
+    "text": "一切政治理论的起点，必须回到一个被现代思想刻意遗忘的基本事实：**人从未主动选择是否被出生。** 这种\"被抛入世界\"的处境，构成了人最基本的生存创伤。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L47",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:0170fecb0cc7",
+   "dst": "concept:31b83dc13551",
+   "rel": "causes",
+   "attrs": {
+    "status": "asserted",
+    "line": 49,
+    "text": "人无法拒绝\"被出生\"，因此只能在\"如何活着\"中寻找主体性。这一原初强迫产生了两种根本性的应激冲动："
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L49",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:3f0f29499da5",
+   "dst": "concept:a5ee6f0dec57",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 51,
+    "text": "**阳欲（欲支配）**——对强迫的反击。通过支配他人、改造环境、建立秩序，人试图证明\"我不是完全被动的玩偶\"。这是一种向外求索的主体性建构，表现为征服欲、创造欲和掌控欲。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L51",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:dba3a3036e76",
+   "dst": "concept:4bcf61829b64",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 59,
+    "text": "现代福利主义和政治平等主义共享一个错误预设：欲望是单向度的——越满足越感恩、越平等越和谐。\"升米恩，斗米仇\"揭示了这一预设的荒谬。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L59",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:95a4409eccd8",
+   "dst": "concept:8f085328a49f",
+   "rel": "exceeds",
+   "attrs": {
+    "status": "asserted",
+    "line": 61,
+    "text": "给一升米是救命之恩，受者感恩戴德；给一斗米却养出仇人，受者视之为\"理所当然\"，一旦不给便心生怨恨。**欲望不是越满足越感恩的线性过程，而是超过某个阈值后转化为怨恨和\"应得感\"。** 越满足越贪婪，越施舍越仇恨——这不是道德的败坏，而是人欲的固有逻辑。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L61",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:686bef6dd6c8",
+   "dst": "concept:a9f04123e034",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 63,
+    "text": "这一铁律在政治领域有精准对应：无节制的福利供给培养的不是感恩的公民，而是\"既要又要\"的怨民；无差等的\"兼爱\"口号取消的正是爱的差别性与珍贵性；无限扩张的民主承诺制造的不是满意，而是不断攀升的期望值与永无止境的不满。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L63",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:65f9fdc23261",
+   "dst": "concept:505be3e53243",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 65,
+    "text": "**节制本身即是恩义的前提**——不给是常态，给才是恩典。一旦\"给\"成为常态，\"不给\"便成为罪恶。儒政的礼制正是通过对欲望的制度化节制来维持感恩与互信的可能。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L65",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:7a3d1c62e00a",
+   "dst": "concept:95163c897800",
+   "rel": "causes",
+   "attrs": {
+    "status": "asserted",
+    "line": 80,
+    "text": "任何对支配性的追求，都会导致主动者对被动者产生依赖性——这正是主奴辩证法。专制君主追求剥夺臣下，最终成为近臣的傀儡；过度阳刚的男人追求支配女人，最终在情感上沦为女人的奴隶。**执着于纯阳必将导致阴阳反转。**"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L80",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:e60cfea0a374",
+   "dst": "concept:c1dbcebc0f4f",
+   "rel": "purpose_is",
+   "attrs": {
+    "status": "asserted",
+    "line": 82,
+    "text": "儒政的正妻-妾制度正是为了避免这种阴阳失衡，为色欲提供制度化出口（妾）而维护主位秩序（妻）。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L82",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:813ae5813e90",
+   "dst": "concept:aaf3d8b60b43",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 94,
+    "text": "现代一夫一妻制取消了妻妾之别，以\"平等\"为名抹平了婚姻内部的尊卑差序。其结果不是性道德的提升，而是全面\"丫鬟化\"——没有妾的制度化出口，色欲只能以地下方式泛滥；没有正妻的尊位保障，婚姻成了随时可解约的临时合同。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L94",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:4c38ace3329e",
+   "dst": "concept:3feb1476bb23",
+   "rel": "because_of",
+   "attrs": {
+    "status": "asserted",
+    "line": 96,
+    "text": "**自由恋爱把颜值计价了**——颜值可以弥补出身低，助长舔狗暴金币。靠颜值得到的婚姻持续不了，因为漂亮无法避免家暴或出轨——娘家才行。自由恋爱实际上取消了\"门当户对\"这一婚姻的\"经\"，代之以\"看脸\"这一权宜之\"权\"。长期自由恋爱的结果，是婚姻从\"宗族联盟\"降格为\"情感消费\"。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L96",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:abc619433983",
+   "dst": "concept:00fce0407978",
+   "rel": "purpose_is",
+   "attrs": {
+    "status": "asserted",
+    "line": 107,
+    "text": "**可以为父杀君，不能为君杀父**。父为子隐、子为父隐——家庭内部的包庇不是\"腐败\"，而是人伦的底线。孟子\"窃负而逃\"明确表达了这一伦理：舜可以为了父亲放弃天下。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L107",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:24d461e1b5f0",
+   "dst": "concept:c51c1a379caf",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 111,
+    "text": "\"修齐治平\"不是简单的\"由小到大\"的规模扩展，而是**结构同源性**——家庭中父子、夫妇、兄弟的关系模式，在国家层面映射为君臣、上下、长幼的关系模式。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L111",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:7e88d34794d6",
+   "dst": "concept:f99d439de609",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 117,
+    "text": "墨家主张\"兼爱\"——无差等之爱，视人之父若其父。这在儒政论看来，是对\"亲亲\"这一伦理之\"经\"的根本否定。墨家的世界观过于简化，以为个体是平等相同的单子，可以施以同一套规则。它分不清远近亲疏，不理解人伦的差序结构。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L117",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:8285afc67f10",
+   "dst": "concept:aa972e7f5362",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 121,
+    "text": "**亲疏远近本身就是经**，不可被\"兼爱\"或\"平等\"的抽象口号取代。对陌生人可以\"权宜地施以仁\"，但绝不能以\"兼爱\"之名取消对亲人的特殊义务。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L121",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:cd389d3da701",
+   "dst": "concept:a21c2a9ce793",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 138,
+    "text": "理性推理的致命问题是\"无根\"：脱离具体经验、没有习惯支撑的推理，理性和疯狂没有区别。判断力的本质是阶级性产生的习惯判断，习惯判断产生健全常识。先有经验，后有推理；先有传统，后有批判。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L138",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:849b9d00deee",
+   "dst": "concept:6794737051cb",
+   "rel": "inherits_from",
+   "attrs": {
+    "status": "asserted",
+    "line": 159,
+    "text": "分封制的本质是**分全权**：军事、行政、司法、财政一体授予地方领主，世袭经营。其特征为：**全权授予**（权力责任完整对应）、**世袭继承**（长期激励，家产责任）、**多层效忠**（缓冲地带）、**文武合一**（\"有文事者必有武备\"）。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L159",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:259ba270ce2a",
+   "dst": "concept:d7ccd5d9f9c8",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 161,
+    "text": "**政治实权只有军＞财循环**，其余皆为假权力。军高于财的逻辑：财需要军的保护——没有暴力垄断提供的安全秩序，财富与通货无从稳定；军即使缺饷也能靠\"抢\"维持自身。外交也是军财循环的延伸。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L161",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:05764cc86b15",
+   "dst": "concept:6ea916f307e7",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 177,
+    "text": "**选拔制度皆为权**——无论是察举还是科举，都是在世袭无法覆盖的职位上使用的权宜之计。**察举优于科举**，但二者本质都是权。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L177",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:1a4805cc2fb3",
+   "dst": "concept:a1eca6783980",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 179,
+    "text": "察举是地方分权选拔，根据能力品性察举，熟人社会中的推荐——**察举保留了\"熟悉\"这一要素**：举荐者认识被举荐者，知道他的品性、家世、乡评。这种\"熟悉\"本身就是信任的基础。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L179",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:24dec230ddfa",
+   "dst": "concept:d0d81012d9ea",
+   "rel": "becomes",
+   "attrs": {
+    "status": "asserted",
+    "line": 181,
+    "text": "科举是中央集权选拔，以统一考试取士——**科举是用\"陌生\"取代了\"熟悉\"**：考官不认识考生，考生之间互不相识，唯一连接他们的是抽象的文字答卷。科举是理性主义化的察举，把活生生的、有乡评口碑的人，变成了纸面上的、可批量评分的\"答案\"。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L181",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:752a366ab45a",
+   "dst": "concept:f44add12c35e",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 183,
+    "text": "**用陌生取代熟悉，就是用权取代了经**。熟人社会中的选拔有温度、有责任（举主对被举者负责），陌生人社会中的选拔只有规则、只有分数。这正是郡县制取代封建制在选拔领域的映射——正如流官取代世袭领主，是用陌生人的治理取代了熟悉者的经营。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L183",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:98c53717773a",
+   "dst": "concept:559f32dc13e2",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 185,
+    "text": "一切后天的都是廉价的。能做同一套题的人以万计，但能继承一个家族政治传统的人，只有他的子嗣。**大位不可以智取**——以考试、选举、算计获得的权力，是对政治伦理的根本败坏。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L185",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:8c444b9af32b",
+   "dst": "concept:a9d014c96a30",
+   "rel": "replaces",
+   "attrs": {
+    "status": "asserted",
+    "line": 192,
+    "text": "**扩张停止与边军失控**——可扩张空间饱和，军事领主转为向内吞噬。**成文法兴起与礼治式微**——子产铸刑书，以立法者意志取代历史习惯。**养士取代选士**——士人脱离乡土，知识阶层\"无根化\"。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L192",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:2c0a0c097c90",
+   "dst": "concept:bd23de148c06",
+   "rel": "causes",
+   "attrs": {
+    "status": "asserted",
+    "line": 200,
+    "text": "**法家起源**：民主泛滥导致专制（大蒐礼议政放大，成文法压制贵族，君主独尊）、儒家内部异化（法家多出儒家，继承秩序抛弃伦理）、战争压力倒逼。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L200",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:62f480bffb92",
+   "dst": "concept:887f5d0c23eb",
+   "rel": "because_of",
+   "attrs": {
+    "status": "asserted",
+    "line": 214,
+    "text": "**秦二世而亡**——不是因为不够霸道，而是因为太霸道，把权宜当成了天经地义。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L214",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:5ef451f4e683",
+   "dst": "concept:f4c345b00879",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 218,
+    "text": "**荀子**：\"礼者，法之大分\"。**董仲舒**：以经释律。**宋明理学**：天理或成专制背书。博弈结果：最稳定的是\"名郡县而实封建\"。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L218",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:77169ecc7b8e",
+   "dst": "concept:9b56a9fc1468",
+   "rel": "replaces",
+   "attrs": {
+    "status": "asserted",
+    "line": 222,
+    "text": "**宋朝**杯酒释兵权，以文制武，军（经）置于财（权）管控之下。不断\"变法\"以新权宜取代旧权宜。**以富致弱**——当财凌驾于军，国家失去自保根基。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L222",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:8f190c51d65f",
+   "dst": "concept:b0690be2b48e",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 224,
+    "text": "**资本主义**以\"资本增殖\"为最高逻辑，以\"契约自由\"和\"法治保障\"为外衣，内核是**财取代军，资产阶级取代封建贵族，权取代经**。资本逻辑取代伦理逻辑、法律关系取代人伦关系、短期绩效取代长期责任——霸道长期化的终极形态。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L224",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:b9a271019c2b",
+   "dst": "concept:a00b18e98a4d",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 231,
+    "text": "**征服**是最原初的合法性——以武力建立秩序。**世袭**是合法性的延续形式——通过血缘传递提供确定性。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L231",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:0be2e5e49c2e",
+   "dst": "concept:29ac98838ddb",
+   "rel": "opposes",
+   "attrs": {
+    "status": "asserted",
+    "line": 237,
+    "text": "### 8.3 三种获取方式：篡位＜造反＜征服"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L237",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:a343845cf626",
+   "dst": "concept:ab8e4e631799",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 245,
+    "text": "刘邦赦蒯彻（忠于其主）而杀丁固（叛其主），确认了\"忠\"的根基是对直接主君的忠诚。**可以为亲君父而弑天下君，不能大义灭亲**——孟子\"窃负而逃\"明确：亲＞君。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L245",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:e857014faa7f",
+   "dst": "concept:a9d014c96a30",
+   "rel": "replaces",
+   "attrs": {
+    "status": "asserted",
+    "line": 252,
+    "text": "公元前536年，子产\"铸刑书\"。孔子不置一词，叔向直言：\"民知有辟，则不忌于上……并争心，以征于书，而徼幸以成之。\"成文法以立法者意志取代历史习惯。这是政治堕落的转折点。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L252",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:b68ca46aae11",
+   "dst": "concept:fc47f6258ac8",
+   "rel": "becomes",
+   "attrs": {
+    "status": "asserted",
+    "line": 260,
+    "text": "**大陆法系**以\"理性法典\"为理想，把法官变成法条的自动售货机——输入案情，输出判决，法官不需要德性，只需要\"正确适用法律\"。**判例法系**以\"遵循先例\"相标榜，实则先例一旦确立就获得比习惯更高的权威，法官通过选择解释先例制造新规则。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L260",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:a08bc1dd72e5",
+   "dst": "concept:423c8e5a14a5",
+   "rel": "becomes",
+   "attrs": {
+    "status": "asserted",
+    "line": 262,
+    "text": "二者的共同本质是**知识阶层通过垄断法律解释权实现的智力殖民**——普通人看不懂法条、找不到先例、打不起官司，法律变成了只有读过法学院的人才能操作的技术黑箱。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L262",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "actor:fa4e24a0b128",
+   "dst": "concept:3333c0d74555",
+   "rel": "causes",
+   "attrs": {
+    "status": "asserted",
+    "line": 291,
+    "text": "### 10.3 为何中国未产生\"封建—宪政\"过渡？"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L291",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:5252d0c8a169",
+   "dst": "concept:9fdf494992db",
+   "rel": "becomes",
+   "attrs": {
+    "status": "asserted",
+    "line": 306,
+    "text": "蛮族入侵不仅是对军事防线的考验，更是对政治组织模式的考验。秦制化王朝面对蛮族有两个致命弱点：其一，边军将领拥兵自重，容易在战争中坐大成为新的军阀；其二，中央政府在战败后迅速丧失威信，地方精英纷纷自保，实质上走向\"再封建\"。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L306",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:b003ee364168",
+   "dst": "concept:f2adecf94a07",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 308,
+    "text": "讽刺的是，蛮族入主中原后，常常采取比汉人王朝更\"封建\"的统治方式（如北魏军镇制、辽部族制、金猛安谋克制、清八旗与盟旗制），因为这是他们在草原上熟悉且有效的组织方式。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L308",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:fa245a809601",
+   "dst": "concept:70f7bd71e719",
+   "rel": "replaces",
+   "attrs": {
+    "status": "asserted",
+    "line": 316,
+    "text": "技术（尤其是军事技术）的变迁常打破既有的权力平衡。铁器普及使平民士兵战斗力提升，贵族战车优势被步兵方阵取代，这是春秋战国封建制崩溃的重要技术背景。火器传入使中央更容易压制地方城堡的抵抗，明清两代的中央集权程度远超唐宋。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L316",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:975a79f2dfdf",
+   "dst": "concept:a4bcb1969359",
+   "rel": "purpose_is",
+   "attrs": {
+    "status": "asserted",
+    "line": 320,
+    "text": "**技术对封建制的深层意义需要从更积极的维度加以审视。** 欧洲近代科技革命的源头，恰恰植根于封建制的多元竞争结构之中。封建制下的政治实体林立——王国、公国、伯爵领、自由城市、主教领地——形成了一个天然的\"制度实验室\"。每个领主为了在竞争中生存和扩张，都有动力资助能够转化为军事优势的技术创新（天文导航、火药配方、冶金工艺、工程机械），以及能够提升统治合法性的文艺创作（史诗、建筑、音乐、绘画）。贵族脱产阶层的存在，为长期、非功利性的科学研究提供了物质基础和闲暇条件——伽利略受雇于美第奇家族，开普勒服务于帝国宫廷，牛顿的《原理》写作得到哈雷（贵族出身）的资助，这些都是封建赞助制度的产物。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L320",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:b0ffc649d18a",
+   "dst": "concept:3f76ca008567",
+   "rel": "relies_on",
+   "attrs": {
+    "status": "asserted",
+    "line": 324,
+    "text": "**技术因此对封建制构成了一个深刻的悖论：** 一方面，新军事技术（火器、棱堡、职业军队）在长时段上瓦解了封建骑士的军事垄断，为中央集权提供了物质条件（此为\"挑战\"）；另一方面，技术创新的活力本身依赖封建制的多元竞争和贵族赞助结构，欧洲科学革命和工业革命并非郡县制国家的产物，而是封建欧洲的制度红利（此为\"加固\"）。**欧洲科技并不起源于对封建制的否定，而恰恰起源于封建制内部，并在相当长的历史时期内服务于封建制的扩展——** 航海技术推动了殖民封建主义（东印度公司的\"商业封建\"），军事工程加固了领主堡垒，印刷术巩固了领地内的法律和宗教统一。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L324",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:ed6d2156dc0a",
+   "dst": "concept:765aa8978281",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 326,
+    "text": "这一历史经验对儒政论的启示是：**郡县制在\"集中力量办大事\"方面的优势（中国四大发明、大运河、长城），是以牺牲长期科学突破为代价的。** 秦制化体制下，技术服务于中央的行政和军事目标，方向单一，缺乏多元试错的空间。欧洲封建制的\"落后\"（分裂、战争、等级制）恰恰是其科技崛起的制度温床——这是进步史观无法解释的悖论，却是儒政论\"封建vs郡县\"分析框架的有力佐证。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L326",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "actor:c86e835b8da7",
+   "dst": "concept:2f9a5eaedf8d",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 335,
+    "text": "**二**：中国历史深层动力是\"周秦循环\"。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L335",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:d2919832b2a2",
+   "dst": "concept:047acf31fa12",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 339,
+    "text": "**四**：现代性政治危机本质是\"秦制逻辑的全球实现\"。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L339",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:1dc7e8c2ff08",
+   "dst": "concept:aae1549ed1a6",
+   "rel": "opposes",
+   "attrs": {
+    "status": "asserted",
+    "line": 341,
+    "text": "**五**：人欲非单向度，\"升米恩斗米仇\"——节制本身是恩义的前提。墨家\"兼爱\"不分亲疏，是对伦理之\"经\"的否定；庄子\"齐物\"讽刺了强行抹平差异的暴政。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L341",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:e27b03c227b4",
+   "dst": "concept:8e40a293729d",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 347,
+    "text": "**八**：子产铸刑书开启了以权代经的历史进程。现代法系本质是知识阶层通过垄断法律解释权实现的智力殖民。法治不是文明的进步，而是德性退场后的替代品。礼治培养君子，法治只培养\"不犯法的坏人\"。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L347",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:f7da5ca9b7ec",
+   "dst": "concept:8a14a2892378",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 351,
+    "text": "**十**：蛮族、瘟疫、技术等外生冲击是周秦循环切换的重要催化剂，但制度的内在惯性超越技术的单方面决定作用。欧洲科技的崛起恰恰植根于封建制的多元竞争、贵族赞助和有限战争结构，技术既挑战封建制又为其扩展提供动力——这一悖论印证了封建制作为\"经\"的制度韧性。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L351",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:ae6f742b2f4b",
+   "dst": "concept:d2736e399a2c",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 357,
+    "text": "**与社会主义的对话：** 社会主义关注\"经济不平等\"，儒政论则指出经济不平等只是\"德性不平等\"的次生表现。解决贫富差距的治本之策不是财富再分配（这只会培养依赖心理），而是恢复小共同体的自治能力——让每个人在他所属的共同体中有位置、有责任、有尊严。无恒产者无恒心，无恒心则无恒德，财富分配解决不了德性匮乏的问题。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L357",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:112fbb2fb346",
+   "dst": "concept:8b8db553d663",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 359,
+    "text": "**与保守主义的对话：** 保守主义重视传统和秩序，但常常缺少对\"传统何以维系\"的制度分析。儒政论提供了这种分析——传统不是靠\"尊重传统\"的说教维系的，而是靠世袭领主、地方自治、宗族网络、礼乐教化这些具体制度维系的。当制度被摧毁，传统就只剩下怀旧的空壳。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L359",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:c84026fdfd83",
+   "dst": "concept:3f4acb7022d5",
+   "rel": "is_a",
+   "attrs": {
+    "status": "asserted",
+    "line": 361,
+    "text": "**与社群主义的对话：** 社群主义强调\"共同体对个体的构成性作用\"，与儒政论有高度亲和性。但社群主义仍然在自由主义的范畴内说话——它要求自由主义\"承认\"社群的价值，却没有追问\"如果自由主义不承认怎么办\"。儒政论则从儒法斗争的历史经验中得出结论：与自由主义（及其法家前身）的斗争是制度性的，不是话语性的。你不可能用\"论证\"说服一个集权者分权，你只能用制度安排去制衡他。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L361",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:50926044b129",
+   "dst": "concept:61994613b04e",
+   "rel": "imitates",
+   "attrs": {
+    "status": "asserted",
+    "line": 369,
+    "text": "当代基层的宗族、行会、同乡会——这些\"非正式\"自治实践是\"野\"中的\"礼\"。它们是权宜之计，是在\"经\"缺失时对\"经\"的模仿，而非对\"经\"的替代。礼失而求诸野，但野终究不能替代国——正如权终究不能替代经。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L369",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:84b63c105a60",
+   "dst": "concept:569deda66d56",
+   "rel": "becomes",
+   "attrs": {
+    "status": "asserted",
+    "line": 371,
+    "text": "真正的儒政复兴，不是从上到下的\"儒学推广\"，更不是\"国学热\"式的文化消费，而是在民间重新培育小共同体的自治能力：让宗族能够调节内部纠纷而不必事事诉讼，让行业公会能够制定标准而不必全靠政府审批，让地方精英能够组织公益而不必等待财政拨款，让家庭能够真正成为\"教养\"的起点而不只是\"生育\"的单位。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L371",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  },
+  {
+   "src": "concept:eabf3996a8b9",
+   "dst": "concept:bf05e9d13972",
+   "rel": "becomes",
+   "attrs": {
+    "status": "asserted",
+    "line": 373,
+    "text": "当这些小共同体足够强大和成熟时，它们会成为对国家权力的制衡力量——不是通过对抗，而是通过\"我能自己处理\"的实际能力。到那时，秦制的过度扩张将失去其社会基础，周制的精神将在一个新的时代重新获得制度表达。"
+   },
+   "source": "operator:inbox/儒政论纲(1).docx#L373",
+   "url": "",
+   "fetched_at": "2026-07-15T08:08:55+00:00"
+  }
+ ],
+ "meta": {
+  "input": "inbox/儒政论纲(1).docx",
+  "sha1": "f834999d1d3ed959deaca0c2080c640fedd89e7a",
+  "fetched_at": "2026-07-15T08:08:55+00:00",
+  "rules": [
+   "edge 必须有 source",
+   "人写的主张默认 status=asserted",
+   "错误与矛盾进 quarantine，不静默丢弃"
+  ],
+  "caveats": []
+ }
+}
