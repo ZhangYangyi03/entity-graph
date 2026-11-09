@@ -101,7 +101,24 @@ def sync(repo, remote, branch, dry, message=None):
     if dry:
         return f"DRY-RUN would commit {len(lines)} changed path(s): {lines[:6]}"
 
-    rc, out, err = git(repo, "add", "-A")
+    # Stage ONLY the data artefacts this sync owns. A blanket `add -A`
+    # once picked up two 8 MB Sogou input-method binaries left in the tree.
+    paths = []
+    for pat in DATA_GLOBS:
+        for f in repo.glob(pat):
+            if f.is_file() and ".git" not in f.parts:
+                paths.append(str(f.relative_to(repo)).replace(os.sep, "/"))
+    # plus the sync tool + its docs/log, and any already-modified tracked data
+    for extra in ("sync_clean_to_github.py", "watch_and_sync.cmd",
+                  "watch_and_sync.vbs", "_launch_watcher.py",
+                  "sync_state.json", "WEB_COVERAGE.md", "COMPANIES.md",
+                  "NOTES.md", "README.md"):
+        if (repo / extra).is_file():
+            paths.append(extra)
+    paths = sorted(set(paths))
+    if not paths:
+        return "clean (no data artefacts to stage)"
+    rc, out, err = git(repo, "add", "--", *paths)
     if rc != 0:
         return f"FAIL git add: {err[:200]}"
     rc, out, err = git(repo, "diff", "--cached", "--stat")
