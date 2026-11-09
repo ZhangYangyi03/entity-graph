@@ -26644,18 +26644,6 @@
    "fetched_at": "2026-11-09T08:26:06Z"
   },
   {
-   "src": "org_cn:d13ff9ea1152",
-   "dst": "org_cn:d13ff9ea1152",
-   "rel": "overseen_by",
-   "attrs": {
-    "status": "asserted",
-    "evidence": "The Chinese People's Political Consultative Conference (CPPCC) is a political advisory body in the People's Republic of China and a ce"
-   },
-   "source": "wikipedia:cn_orgs.json",
-   "url": "https://en.wikipedia.org/wiki/Chinese_People's_Political_Consultative_Conference",
-   "fetched_at": "2026-11-09T08:26:06Z"
-  },
-  {
    "src": "org_cn:b33d494fc8d3",
    "dst": "org_cn:16c1ec046253",
    "rel": "overseen_by",
