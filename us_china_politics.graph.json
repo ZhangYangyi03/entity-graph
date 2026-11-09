@@ -17336,6 +17336,159 @@
    "source": "wikipedia:cn_orgs.json",
    "url": "https://en.wikipedia.org/wiki/State_Council",
    "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "key": "org_cn:c50504c41c11",
+   "kind": "org_cn",
+   "label": "Overseas Chinese Affairs Office",
+   "attrs": {
+    "kind_zh": "政治/侨务机构",
+    "zh": "国务院侨务办公室",
+    "side": "CN",
+    "found": true
+   },
+   "source": "wikipedia:cn_orgs_extra.json",
+   "url": "https://en.wikipedia.org/wiki/Overseas_Chinese_Affairs_Office",
+   "fetched_at": "2026-11-09T08:40:59Z"
+  },
+  {
+   "key": "org_cn:e03258dd2296",
+   "kind": "org_cn",
+   "label": "All-China Federation of Returned Overseas Chinese",
+   "attrs": {
+    "kind_zh": "人民团体",
+    "zh": "中华全国归国华侨联合会",
+    "side": "CN",
+    "found": true
+   },
+   "source": "wikipedia:cn_orgs_extra.json",
+   "url": "https://en.wikipedia.org/wiki/All-China_Federation_of_Returned_Overseas_Chinese",
+   "fetched_at": "2026-11-09T08:40:59Z"
+  },
+  {
+   "key": "org_cn:a00e223d354a",
+   "kind": "org_cn",
+   "label": "China Association for Science and Technology",
+   "attrs": {
+    "kind_zh": "人民团体",
+    "zh": "中国科学技术协会",
+    "side": "CN",
+    "found": true
+   },
+   "source": "wikipedia:cn_orgs_extra.json",
+   "url": "https://en.wikipedia.org/wiki/China_Association_for_Science_and_Technology",
+   "fetched_at": "2026-11-09T08:40:59Z"
+  },
+  {
+   "key": "org_cn:5f17fe28681d",
+   "kind": "org_cn",
+   "label": "China Federation of Literary and Art Circles",
+   "attrs": {
+    "kind_zh": "人民团体",
+    "zh": "中国文学艺术界联合会",
+    "side": "CN",
+    "found": true
+   },
+   "source": "wikipedia:cn_orgs_extra.json",
+   "url": "https://en.wikipedia.org/wiki/China_Federation_of_Literary_and_Art_Circles",
+   "fetched_at": "2026-11-09T08:40:59Z"
+  },
+  {
+   "key": "org_cn:d5e956c40e3b",
+   "kind": "org_cn",
+   "label": "China Law Society",
+   "attrs": {
+    "kind_zh": "人民团体",
+    "zh": "中国法学会",
+    "side": "CN",
+    "found": true
+   },
+   "source": "wikipedia:cn_orgs_extra.json",
+   "url": "https://en.wikipedia.org/wiki/China_Law_Society",
+   "fetched_at": "2026-11-09T08:40:59Z"
+  },
+  {
+   "key": "org_cn:9ce6f23d936e",
+   "kind": "org_cn",
+   "label": "China Institute of International Studies",
+   "attrs": {
+    "kind_zh": "智库/研究机构",
+    "zh": "中国国际问题研究院",
+    "side": "CN",
+    "found": true
+   },
+   "source": "wikipedia:cn_orgs_extra.json",
+   "url": "https://en.wikipedia.org/wiki/China_Institute_of_International_Studies",
+   "fetched_at": "2026-11-09T08:40:59Z"
+  },
+  {
+   "key": "org_cn:23a035389fa0",
+   "kind": "org_cn",
+   "label": "Ministry of Foreign Affairs",
+   "attrs": {
+    "kind_zh": "上级/关联机构",
+    "side": "CN",
+    "status": "text_derived"
+   },
+   "source": "wikipedia:cn_orgs_extra.json",
+   "url": "https://en.wikipedia.org/wiki/Ministry_of_Foreign_Affairs",
+   "fetched_at": "2026-11-09T08:40:59Z"
+  },
+  {
+   "key": "org_cn:28d693630692",
+   "kind": "org_cn",
+   "label": "Chinese Academy of Social Sciences",
+   "attrs": {
+    "kind_zh": "智库/研究机构",
+    "zh": "中国社会科学院",
+    "side": "CN",
+    "found": true
+   },
+   "source": "wikipedia:cn_orgs_extra.json",
+   "url": "https://en.wikipedia.org/wiki/Chinese_Academy_of_Social_Sciences",
+   "fetched_at": "2026-11-09T08:40:59Z"
+  },
+  {
+   "key": "org_cn:b22a91064fa4",
+   "kind": "org_cn",
+   "label": "China Council for the Promotion of Peaceful National Reunification",
+   "attrs": {
+    "kind_zh": "政治/民间团体",
+    "zh": "中国和平统一促进会",
+    "side": "CN",
+    "found": true
+   },
+   "source": "wikipedia:cn_orgs_extra.json",
+   "url": "https://en.wikipedia.org/wiki/China_Council_for_the_Promotion_of_Peaceful_National_Reunification",
+   "fetched_at": "2026-11-09T08:40:59Z"
+  },
+  {
+   "key": "org_cn:3a1979991ced",
+   "kind": "org_cn",
+   "label": "China National Democratic Construction Association",
+   "attrs": {
+    "kind_zh": "民主党派",
+    "zh": "中国民主建国会",
+    "side": "CN",
+    "found": true
+   },
+   "source": "wikipedia:cn_orgs_extra.json",
+   "url": "https://en.wikipedia.org/wiki/China_National_Democratic_Construction_Association",
+   "fetched_at": "2026-11-09T08:40:59Z"
+  },
+  {
+   "key": "org_cn:07bf25919983",
+   "kind": "org_cn",
+   "label": "Chinese Society of International Law",
+   "attrs": {
+    "kind_zh": "学术民间团体",
+    "zh": "中国国际法学会",
+    "side": "CN",
+    "found": true
+   },
+   "source": "wikipedia:cn_orgs_extra.json",
+   "url": "https://en.wikipedia.org/wiki/Chinese_Society_of_International_Law",
+   "fetched_at": "2026-11-09T08:40:59Z"
   }
  ],
  "edges": [
@@ -34122,6 +34275,198 @@
    "source": "wikipedia:US-China_Business_Council.wiki",
    "url": "https://en.wikipedia.org/wiki/Chinese_Communist_Party",
    "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "src": "org_cn:c50504c41c11",
+   "dst": "org_cn:d7629b2f26be",
+   "rel": "associated_with",
+   "attrs": {
+    "status": "text_derived",
+    "evidence": "he Overseas Chinese Affairs Office of the State Council (OCAO) is an external name of the United Front Work Department (UFWD) of the Central Committee of the Chinese Communist Party. The Committee of Overseas"
+   },
+   "source": "wikipedia:cn_orgs_extra.json",
+   "url": "https://en.wikipedia.org/wiki/Overseas_Chinese_Affairs_Office",
+   "fetched_at": "2026-11-09T08:40:59Z"
+  },
+  {
+   "src": "org_cn:c50504c41c11",
+   "dst": "org_cn:ed9dba4cfb81",
+   "rel": "associated_with",
+   "attrs": {
+    "status": "text_derived",
+    "evidence": " external name of the United Front Work Department (UFWD) of the Central Committee of the Chinese Communist Party. The Committee of Overseas Chinese Affairs was established in 1949 and existed until 1970"
+   },
+   "source": "wikipedia:cn_orgs_extra.json",
+   "url": "https://en.wikipedia.org/wiki/Overseas_Chinese_Affairs_Office",
+   "fetched_at": "2026-11-09T08:40:59Z"
+  },
+  {
+   "src": "org_cn:c50504c41c11",
+   "dst": "org_cn:549510c437bc",
+   "rel": "associated_with",
+   "attrs": {
+    "status": "text_derived",
+    "evidence": "The Overseas Chinese Affairs Office of the State Council (OCAO) is an external name of the United Front Work Department (UFWD) of the Central Comm"
+   },
+   "source": "wikipedia:cn_orgs_extra.json",
+   "url": "https://en.wikipedia.org/wiki/Overseas_Chinese_Affairs_Office",
+   "fetched_at": "2026-11-09T08:40:59Z"
+  },
+  {
+   "src": "org_cn:e03258dd2296",
+   "dst": "org_cn:ed9dba4cfb81",
+   "rel": "associated_with",
+   "attrs": {
+    "status": "text_derived",
+    "evidence": "-China Federation of Returned Overseas Chinese (ACFROC) is a people's organization of the Chinese Communist Party (CCP) to influence overseas Chinese. Part of the united front, ACFROC has 27 seats on the"
+   },
+   "source": "wikipedia:cn_orgs_extra.json",
+   "url": "https://en.wikipedia.org/wiki/All-China_Federation_of_Returned_Overseas_Chinese",
+   "fetched_at": "2026-11-09T08:40:59Z"
+  },
+  {
+   "src": "org_cn:e03258dd2296",
+   "dst": "org_cn:6428b41db1fe",
+   "rel": "associated_with",
+   "attrs": {
+    "status": "text_derived",
+    "evidence": "(CCP) to influence overseas Chinese. Part of the united front, ACFROC has 27 seats on the national committee of the Chinese People's Political Consultative Conference."
+   },
+   "source": "wikipedia:cn_orgs_extra.json",
+   "url": "https://en.wikipedia.org/wiki/All-China_Federation_of_Returned_Overseas_Chinese",
+   "fetched_at": "2026-11-09T08:40:59Z"
+  },
+  {
+   "src": "org_cn:e03258dd2296",
+   "dst": "org_cn:d13ff9ea1152",
+   "rel": "associated_with",
+   "attrs": {
+    "status": "text_derived",
+    "evidence": "s Chinese. Part of the united front, ACFROC has 27 seats on the national committee of the Chinese People's Political Consultative Conference."
+   },
+   "source": "wikipedia:cn_orgs_extra.json",
+   "url": "https://en.wikipedia.org/wiki/All-China_Federation_of_Returned_Overseas_Chinese",
+   "fetched_at": "2026-11-09T08:40:59Z"
+  },
+  {
+   "src": "org_cn:a00e223d354a",
+   "dst": "org_cn:ed9dba4cfb81",
+   "rel": "associated_with",
+   "attrs": {
+    "status": "text_derived",
+    "evidence": " Its stated goal is to act as a link between the science and technology community and the Chinese Communist Party (CCP) and government. CAST is a constituent member of the Chinese People's Political Cons"
+   },
+   "source": "wikipedia:cn_orgs_extra.json",
+   "url": "https://en.wikipedia.org/wiki/China_Association_for_Science_and_Technology",
+   "fetched_at": "2026-11-09T08:40:59Z"
+  },
+  {
+   "src": "org_cn:a00e223d354a",
+   "dst": "org_cn:d13ff9ea1152",
+   "rel": "associated_with",
+   "attrs": {
+    "status": "text_derived",
+    "evidence": "and the Chinese Communist Party (CCP) and government. CAST is a constituent member of the Chinese People's Political Consultative Conference (CPPCC). Wan Gang is the current president of the national committee of CAST. He Junke se"
+   },
+   "source": "wikipedia:cn_orgs_extra.json",
+   "url": "https://en.wikipedia.org/wiki/China_Association_for_Science_and_Technology",
+   "fetched_at": "2026-11-09T08:40:59Z"
+  },
+  {
+   "src": "org_cn:5f17fe28681d",
+   "dst": "org_cn:d13ff9ea1152",
+   "rel": "associated_with",
+   "attrs": {
+    "status": "text_derived",
+    "evidence": "mposed of nationwide associations of writers and artists. CFLAC is one of the founders of Chinese People's Political Consultative Conference. CFLAC includes artist associations which are involved in such activities as academic stu"
+   },
+   "source": "wikipedia:cn_orgs_extra.json",
+   "url": "https://en.wikipedia.org/wiki/China_Federation_of_Literary_and_Art_Circles",
+   "fetched_at": "2026-11-09T08:40:59Z"
+  },
+  {
+   "src": "org_cn:9ce6f23d936e",
+   "dst": "org_cn:549510c437bc",
+   "rel": "associated_with",
+   "attrs": {
+    "status": "text_derived",
+    "evidence": "8, the China Center for International Affairs, formerly a research institution of China's State Council, was incorporated with CIIS."
+   },
+   "source": "wikipedia:cn_orgs_extra.json",
+   "url": "https://en.wikipedia.org/wiki/China_Institute_of_International_Studies",
+   "fetched_at": "2026-11-09T08:40:59Z"
+  },
+  {
+   "src": "org_cn:9ce6f23d936e",
+   "dst": "org_cn:23a035389fa0",
+   "rel": "associated_with",
+   "attrs": {
+    "status": "text_derived",
+    "evidence": "yin: Zhōngguó Guójì Wèntí Yánjiūsuǒ) is a research institute directly administered by the Ministry of Foreign Affairs of the People's Republic of China. The Institute primarily focuses on issues associated w"
+   },
+   "source": "wikipedia:cn_orgs_extra.json",
+   "url": "https://en.wikipedia.org/wiki/China_Institute_of_International_Studies",
+   "fetched_at": "2026-11-09T08:40:59Z"
+  },
+  {
+   "src": "org_cn:28d693630692",
+   "dst": "org_cn:549510c437bc",
+   "rel": "associated_with",
+   "attrs": {
+    "status": "text_derived",
+    "evidence": "hink tank of the People's Republic of China. It is a ministry-level institution under the State Council. The CASS is considered the country's top academic institution for philosophy and social "
+   },
+   "source": "wikipedia:cn_orgs_extra.json",
+   "url": "https://en.wikipedia.org/wiki/Chinese_Academy_of_Social_Sciences",
+   "fetched_at": "2026-11-09T08:40:59Z"
+  },
+  {
+   "src": "org_cn:b22a91064fa4",
+   "dst": "org_cn:d7629b2f26be",
+   "rel": "associated_with",
+   "attrs": {
+    "status": "text_derived",
+    "evidence": "as founded in 1988 by Taiwanese author Chen Yingzhen in Beijing under the guidance of the United Front Work Department (UFWD) of the Central Committee of the Chinese Communist Party (CCP), and operates under "
+   },
+   "source": "wikipedia:cn_orgs_extra.json",
+   "url": "https://en.wikipedia.org/wiki/China_Council_for_the_Promotion_of_Peaceful_National_Reunification",
+   "fetched_at": "2026-11-09T08:40:59Z"
+  },
+  {
+   "src": "org_cn:b22a91064fa4",
+   "dst": "org_cn:ed9dba4cfb81",
+   "rel": "associated_with",
+   "attrs": {
+    "status": "text_derived",
+    "evidence": "r the guidance of the United Front Work Department (UFWD) of the Central Committee of the Chinese Communist Party (CCP), and operates under the UFWD's control. The organization officially supports unific"
+   },
+   "source": "wikipedia:cn_orgs_extra.json",
+   "url": "https://en.wikipedia.org/wiki/China_Council_for_the_Promotion_of_Peaceful_National_Reunification",
+   "fetched_at": "2026-11-09T08:40:59Z"
+  },
+  {
+   "src": "org_cn:3a1979991ced",
+   "dst": "org_cn:ed9dba4cfb81",
+   "rel": "associated_with",
+   "attrs": {
+    "status": "text_derived",
+    "evidence": "ies in the People's Republic of China, officially termed \"democratic parties,\" led by the Chinese Communist Party.\nThe CNDCA was founded in Chongqing on 16 December 1945. The party's members are mainly e"
+   },
+   "source": "wikipedia:cn_orgs_extra.json",
+   "url": "https://en.wikipedia.org/wiki/China_National_Democratic_Construction_Association",
+   "fetched_at": "2026-11-09T08:40:59Z"
+  },
+  {
+   "src": "org_cn:3a1979991ced",
+   "dst": "org_cn:d13ff9ea1152",
+   "rel": "associated_with",
+   "attrs": {
+    "status": "text_derived",
+    "evidence": "the National People's Congress, 4 seats in the NPC Standing Committee and 65 seats in the Chinese People's Political Consultative Conference. The current chairman of CNDCA is Hao Mingjin."
+   },
+   "source": "wikipedia:cn_orgs_extra.json",
+   "url": "https://en.wikipedia.org/wiki/China_National_Democratic_Construction_Association",
+   "fetched_at": "2026-11-09T08:40:59Z"
   }
  ],
  "meta": {
@@ -34160,7 +34505,7 @@
   "raw_dir": "shards/us_china_raw",
   "persons": 873,
   "orgs_us": 15,
-  "orgs_cn": 13,
+  "orgs_cn": 28,
   "engaged_persons": 263,
   "politicians": 610,
   "roster_non_politicians": 237,
@@ -34172,7 +34517,9 @@
    "demoted_non_person_nodes": 2,
    "wiki_link_mentioned_in_added": 18,
    "cn_org_associated_with": 16,
-   "org_mentions_org_added": 14
+   "org_mentions_org_added": 14,
+   "cn_orgs_extra_nodes": 12,
+   "cn_orgs_extra_edges": 16
   }
  },
  "caveats": [
@@ -34207,6 +34554,10 @@
   {
    "issue": "任职单位来自机构官网名册",
    "detail": "affiliated_with_employer 只表示名册把该人和该单位写在一起，不等于现职雇佣；单位名从 context 文本切分，可能含缩写或拼接误差。"
+  },
+  {
+   "issue": "新增 12 家中国机构来自维基百科导言",
+   "detail": "cn_orgs_extra.json 用 Wikipedia API extracts 抓首段，associated_with 由导言里出现上级机构名生成，属文本推断而非官方组织关系认定；未命中的候选（如 China Public Diplomacy Association）不收录。"
   }
  ]
 }
