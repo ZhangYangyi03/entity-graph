@@ -1,4 +1,2 @@
 Set ws = CreateObject("Wscript.Shell")
-base = "C:\Users\china\Desktop\" & Chr(39033) & Chr(30446) & "_" & Chr(24320) & Chr(21457) & "\entity-graph"
-ws.CurrentDirectory = base
-ws.Run "pythonw.exe """ & base & "\_launch_watcher.py""", 0, False
+ws.Run "powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File ""C:\Users\china\AppData\Local\af-autosync\spawn.ps1""", 0, False
