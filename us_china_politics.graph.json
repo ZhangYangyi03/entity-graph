@@ -17282,6 +17282,97 @@
    "source": "official:ncuscr_official.html",
    "url": "https://www.ncuscr.org/",
    "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "key": "org_cn:d7629b2f26be",
+   "kind": "org_cn",
+   "label": "United Front Work Department",
+   "attrs": {
+    "kind_zh": "上级/关联机构",
+    "side": "CN",
+    "status": "text_derived"
+   },
+   "source": "wikipedia:cn_orgs.json",
+   "url": "https://en.wikipedia.org/wiki/United_Front_Work_Department",
+   "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "key": "org_cn:ed9dba4cfb81",
+   "kind": "org_cn",
+   "label": "Chinese Communist Party",
+   "attrs": {
+    "kind_zh": "上级/关联机构",
+    "side": "CN",
+    "status": "text_derived"
+   },
+   "source": "wikipedia:cn_orgs.json",
+   "url": "https://en.wikipedia.org/wiki/Chinese_Communist_Party",
+   "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "key": "org_cn:6428b41db1fe",
+   "kind": "org_cn",
+   "label": "National Committee of the Chinese People's Political Consultative Conference",
+   "attrs": {
+    "kind_zh": "上级/关联机构",
+    "side": "CN",
+    "status": "text_derived"
+   },
+   "source": "wikipedia:cn_orgs.json",
+   "url": "https://en.wikipedia.org/wiki/National_Committee_of_the_Chinese_People's_Political_Consultative_Conference",
+   "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "key": "org_cn:395486c36708",
+   "kind": "org_cn",
+   "label": "Chinese People's Political Consultative Conference",
+   "attrs": {
+    "kind_zh": "上级/关联机构",
+    "side": "CN",
+    "status": "text_derived"
+   },
+   "source": "wikipedia:cn_orgs.json",
+   "url": "https://en.wikipedia.org/wiki/Chinese_People's_Political_Consultative_Conference",
+   "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "key": "org_cn:7f2731ed7102",
+   "kind": "org_cn",
+   "label": "Ministry of Commerce",
+   "attrs": {
+    "kind_zh": "上级/关联机构",
+    "side": "CN",
+    "status": "text_derived"
+   },
+   "source": "wikipedia:cn_orgs.json",
+   "url": "https://en.wikipedia.org/wiki/Ministry_of_Commerce",
+   "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "key": "org_cn:ec27b16351a2",
+   "kind": "org_cn",
+   "label": "Communist Youth League",
+   "attrs": {
+    "kind_zh": "上级/关联机构",
+    "side": "CN",
+    "status": "text_derived"
+   },
+   "source": "wikipedia:cn_orgs.json",
+   "url": "https://en.wikipedia.org/wiki/Communist_Youth_League",
+   "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "key": "org_cn:549510c437bc",
+   "kind": "org_cn",
+   "label": "State Council",
+   "attrs": {
+    "kind_zh": "上级/关联机构",
+    "side": "CN",
+    "status": "text_derived"
+   },
+   "source": "wikipedia:cn_orgs.json",
+   "url": "https://en.wikipedia.org/wiki/State_Council",
+   "fetched_at": "2026-11-09T08:36:43Z"
   }
  ],
  "edges": [
@@ -33936,6 +34027,366 @@
    "source": "wikipedia:Schwarzman_Scholars.wiki",
    "url": "https://en.wikipedia.org/wiki/Yo-Yo_Ma",
    "fetched_at": "2026-11-09T08:36:31Z"
+  },
+  {
+   "src": "org_cn:d817629ec8a7",
+   "dst": "org_cn:d7629b2f26be",
+   "rel": "associated_with",
+   "attrs": {
+    "status": "text_derived",
+    "evidence": "erce that were first founded during the Qing dynasty.\nThe organization is overseen by the United Front Work Department of the Central Committee of the Chinese Communist Party, is a constituent organization of"
+   },
+   "source": "wikipedia:cn_orgs.json",
+   "url": "https://en.wikipedia.org/wiki/All-China_Federation_of_Industry_and_Commerce",
+   "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "src": "org_cn:d817629ec8a7",
+   "dst": "org_cn:ed9dba4cfb81",
+   "rel": "associated_with",
+   "attrs": {
+    "status": "text_derived",
+    "evidence": "anization is overseen by the United Front Work Department of the Central Committee of the Chinese Communist Party, is a constituent organization of the National Committee of the Chinese People's Politica"
+   },
+   "source": "wikipedia:cn_orgs.json",
+   "url": "https://en.wikipedia.org/wiki/All-China_Federation_of_Industry_and_Commerce",
+   "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "src": "org_cn:d817629ec8a7",
+   "dst": "org_cn:6428b41db1fe",
+   "rel": "associated_with",
+   "attrs": {
+    "status": "text_derived",
+    "evidence": "he Central Committee of the Chinese Communist Party, is a constituent organization of the National Committee of the Chinese People's Political Consultative Conference (CPPCC), and its delegates hold a number of seats in the National People's Congress. The "
+   },
+   "source": "wikipedia:cn_orgs.json",
+   "url": "https://en.wikipedia.org/wiki/All-China_Federation_of_Industry_and_Commerce",
+   "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "src": "org_cn:d817629ec8a7",
+   "dst": "org_cn:395486c36708",
+   "rel": "associated_with",
+   "attrs": {
+    "status": "text_derived",
+    "evidence": "e Chinese Communist Party, is a constituent organization of the National Committee of the Chinese People's Political Consultative Conference (CPPCC), and its delegates hold a number of seats in the National People's Congress. The "
+   },
+   "source": "wikipedia:cn_orgs.json",
+   "url": "https://en.wikipedia.org/wiki/All-China_Federation_of_Industry_and_Commerce",
+   "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "src": "org_cn:04d1aee307f4",
+   "dst": "org_cn:7f2731ed7102",
+   "rel": "associated_with",
+   "attrs": {
+    "status": "text_derived",
+    "evidence": "CCOIC), is a people's organization and trade body founded in 1952. CCPIT is linked to the Ministry of Commerce.\n\n"
+   },
+   "source": "wikipedia:cn_orgs.json",
+   "url": "https://en.wikipedia.org/wiki/China_Council_for_the_Promotion_of_International_Trade",
+   "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "src": "org_cn:76298d5c18ee",
+   "dst": "org_cn:d7629b2f26be",
+   "rel": "associated_with",
+   "attrs": {
+    "status": "text_derived",
+    "evidence": "c relations with the PRC. The CPAFFC has been described as the \"public face\" of the CCP's United Front Work Department. Its leadership is drawn from the upper ranks of the Chinese Communist Party and, as part"
+   },
+   "source": "wikipedia:cn_orgs.json",
+   "url": "https://en.wikipedia.org/wiki/Chinese_People's_Association_for_Friendship_with_Foreign_Countries",
+   "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "src": "org_cn:76298d5c18ee",
+   "dst": "org_cn:ed9dba4cfb81",
+   "rel": "associated_with",
+   "attrs": {
+    "status": "text_derived",
+    "evidence": "e united front system used to influence and co-opt elites to promote the interests of the Chinese Communist Party (CCP) while downplaying its association with the CCP.\nThe CPAFFC was founded in May 1954 "
+   },
+   "source": "wikipedia:cn_orgs.json",
+   "url": "https://en.wikipedia.org/wiki/Chinese_People's_Association_for_Friendship_with_Foreign_Countries",
+   "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "src": "org_cn:b89248cbf15e",
+   "dst": "org_cn:ed9dba4cfb81",
+   "rel": "associated_with",
+   "attrs": {
+    "status": "text_derived",
+    "evidence": "na. It was founded on 4 May 1949. Former paramount leaders and general secretaries of the Chinese Communist Party Hu Jintao and Jiang Zemin were both members."
+   },
+   "source": "wikipedia:cn_orgs.json",
+   "url": "https://en.wikipedia.org/wiki/All-China_Youth_Federation",
+   "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "src": "org_cn:b89248cbf15e",
+   "dst": "org_cn:ec27b16351a2",
+   "rel": "associated_with",
+   "attrs": {
+    "status": "text_derived",
+    "evidence": "hat represents many youth groups in the People's Republic of China, and is managed by the Communist Youth League of China. It was founded on 4 May 1949. Former paramount leaders and general secretaries "
+   },
+   "source": "wikipedia:cn_orgs.json",
+   "url": "https://en.wikipedia.org/wiki/All-China_Youth_Federation",
+   "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "src": "org_cn:d13ff9ea1152",
+   "dst": "org_cn:d7629b2f26be",
+   "rel": "associated_with",
+   "attrs": {
+    "status": "text_derived",
+    "evidence": "direct leadership. However, an indirect leadership exists via the CCP Central Committee's United Front Work Department at each level. The National Committee of the Chinese People's Political Consultative Conf"
+   },
+   "source": "wikipedia:cn_orgs.json",
+   "url": "https://en.wikipedia.org/wiki/Chinese_People's_Political_Consultative_Conference",
+   "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "src": "org_cn:d13ff9ea1152",
+   "dst": "org_cn:ed9dba4cfb81",
+   "rel": "associated_with",
+   "attrs": {
+    "status": "text_derived",
+    "evidence": " is a political advisory body in the People's Republic of China and a central part of the Chinese Communist Party (CCP)'s united front system. Its members advise and submit proposals for political and so"
+   },
+   "source": "wikipedia:cn_orgs.json",
+   "url": "https://en.wikipedia.org/wiki/Chinese_People's_Political_Consultative_Conference",
+   "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "src": "org_cn:d13ff9ea1152",
+   "dst": "org_cn:6428b41db1fe",
+   "rel": "associated_with",
+   "attrs": {
+    "status": "text_derived",
+    "evidence": "ip exists via the CCP Central Committee's United Front Work Department at each level. The National Committee of the Chinese People's Political Consultative Conference typically holds a yearly meeting at the same time as plenary sessions of the NPC. The CPP"
+   },
+   "source": "wikipedia:cn_orgs.json",
+   "url": "https://en.wikipedia.org/wiki/Chinese_People's_Political_Consultative_Conference",
+   "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "src": "org_cn:d13ff9ea1152",
+   "dst": "org_cn:395486c36708",
+   "rel": "associated_with",
+   "attrs": {
+    "status": "text_derived",
+    "evidence": "The Chinese People's Political Consultative Conference (CPPCC) is a political advisory body in the People's Republic of China and a central part"
+   },
+   "source": "wikipedia:cn_orgs.json",
+   "url": "https://en.wikipedia.org/wiki/Chinese_People's_Political_Consultative_Conference",
+   "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "src": "org_cn:b33d494fc8d3",
+   "dst": "org_cn:d7629b2f26be",
+   "rel": "associated_with",
+   "attrs": {
+    "status": "text_derived",
+    "evidence": "he Overseas Chinese Affairs Office of the State Council (OCAO) is an external name of the United Front Work Department (UFWD) of the Central Committee of the Chinese Communist Party. The Committee of Overseas"
+   },
+   "source": "wikipedia:cn_orgs.json",
+   "url": "https://en.wikipedia.org/wiki/China_Overseas_Exchange_Association",
+   "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "src": "org_cn:b33d494fc8d3",
+   "dst": "org_cn:ed9dba4cfb81",
+   "rel": "associated_with",
+   "attrs": {
+    "status": "text_derived",
+    "evidence": " external name of the United Front Work Department (UFWD) of the Central Committee of the Chinese Communist Party. The Committee of Overseas Chinese Affairs was established in 1949 and existed until 1970"
+   },
+   "source": "wikipedia:cn_orgs.json",
+   "url": "https://en.wikipedia.org/wiki/China_Overseas_Exchange_Association",
+   "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "src": "org_cn:b33d494fc8d3",
+   "dst": "org_cn:549510c437bc",
+   "rel": "associated_with",
+   "attrs": {
+    "status": "text_derived",
+    "evidence": "The Overseas Chinese Affairs Office of the State Council (OCAO) is an external name of the United Front Work Department (UFWD) of the Central Comm"
+   },
+   "source": "wikipedia:cn_orgs.json",
+   "url": "https://en.wikipedia.org/wiki/China_Overseas_Exchange_Association",
+   "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "src": "org_us:d5cd6ae7cf9e",
+   "dst": "org_cn:ed9dba4cfb81",
+   "rel": "mentions_org",
+   "attrs": {
+    "status": "co_mentioned",
+    "evidence": "-as-president-and-ceo/ |url-status=live }}</ref> Asia Society has sometimes been described by the [[Chinese Communist Party]] (CCP) as a participant in its \"backchannel\" diplomatic efforts with the United States government."
+   },
+   "source": "wikipedia:Asia_Society.wiki",
+   "url": "https://en.wikipedia.org/wiki/Chinese_Communist_Party",
+   "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "src": "org_us:d7088043b5a9",
+   "dst": "org_cn:ed9dba4cfb81",
+   "rel": "mentions_org",
+   "attrs": {
+    "status": "co_mentioned",
+    "evidence": "ng-Linked Billionaire Is Funding Policy Research at Washington's Most Influential Institutions: The Chinese Communist Party is quietly reshaping public opinion and policy abroad.|work=[[Foreign Policy]]|url=https://foreignp"
+   },
+   "source": "wikipedia:China-United_States_Exchange_Foundation.wiki",
+   "url": "https://en.wikipedia.org/wiki/Chinese_Communist_Party",
+   "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "src": "org_us:d7088043b5a9",
+   "dst": "org_cn:395486c36708",
+   "rel": "mentions_org",
+   "attrs": {
+    "status": "co_mentioned",
+    "evidence": "hwa]], a billionaire, former [[Chief Executive of Hong Kong]], and former [[Vice Chairperson of the Chinese People's Political Consultative Conference|vice chairperson]] of the [[Chinese People's Political Consultative Conference]] (CPPCC), who remai"
+   },
+   "source": "wikipedia:China-United_States_Exchange_Foundation.wiki",
+   "url": "https://en.wikipedia.org/wiki/Chinese_People's_Political_Consultative_Conference",
+   "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "src": "org_us:f9848811bc4c",
+   "dst": "org_cn:d7629b2f26be",
+   "rel": "mentions_org",
+   "attrs": {
+    "status": "co_mentioned",
+    "evidence": "]] and a 2020 ''[[Newsweek]]'' report noted that committee members have been targets of the CCP's [[United Front Work Department]] pressure and [[influence operations]].<ref>{{Cite web |date=November 29, 2018 |editor-last=Diamon"
+   },
+   "source": "wikipedia:Committee_of_100__United_States_.wiki",
+   "url": "https://en.wikipedia.org/wiki/United_Front_Work_Department",
+   "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "src": "org_us:f9848811bc4c",
+   "dst": "org_cn:ed9dba4cfb81",
+   "rel": "mentions_org",
+   "attrs": {
+    "status": "co_mentioned",
+    "evidence": "Morning Post]]|language=en}}</ref>  The committee has been described as avoiding criticism of the [[Chinese Communist Party]] (CCP) and its policies.<ref>{{Cite web |last=Simon |first=Mark |date=2019-05-01 |title=How the 'C"
+   },
+   "source": "wikipedia:Committee_of_100__United_States_.wiki",
+   "url": "https://en.wikipedia.org/wiki/Chinese_Communist_Party",
+   "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "src": "org_us:35f30b9c76ef",
+   "dst": "org_cn:ed9dba4cfb81",
+   "rel": "mentions_org",
+   "attrs": {
+    "status": "co_mentioned",
+    "evidence": "ariety of sources, including information from human rights groups, media reports, government, and [[Chinese Communist Party]] documents.  ===Prisoner database=== {{Update section|date=April 2023}} As part of its mandate fro"
+   },
+   "source": "wikipedia:Congressional-Executive_Commission_on_China.wiki",
+   "url": "https://en.wikipedia.org/wiki/Chinese_Communist_Party",
+   "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "src": "org_us:34be0c9188bb",
+   "dst": "org_us:0c408877eb1d",
+   "rel": "mentions_org",
+   "attrs": {
+    "status": "co_mentioned",
+    "evidence": "{advert|date=February 2021}} }}  {{Use dmy dates|date=August 2021}} {{Infobox organization | name = National Committee on American Foreign Policy | image = National Committee on American Foreign Policy logo.jpg | image_alt = <!-- alt text; see ["
+   },
+   "source": "wikipedia:National_Committee_on_American_Foreign_Policy.wiki",
+   "url": "https://en.wikipedia.org/wiki/National_Committee_on_American_Foreign_Policy",
+   "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "src": "org_us:34be0c9188bb",
+   "dst": "org_cn:ed9dba4cfb81",
+   "rel": "mentions_org",
+   "attrs": {
+    "status": "co_mentioned",
+    "evidence": "na Relations and the [[US-China Business Council]] hosted a banquet with [[General Secretary of the Chinese Communist Party]] [[Xi Jinping]] for US business executives during the [[APEC United States 2023]] meeting.<ref>{{C"
+   },
+   "source": "wikipedia:National_Committee_on_United_States_China_Relations.wiki",
+   "url": "https://en.wikipedia.org/wiki/Chinese_Communist_Party",
+   "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "src": "org_us:217365ea4521",
+   "dst": "org_cn:d7629b2f26be",
+   "rel": "mentions_org",
+   "attrs": {
+    "status": "co_mentioned",
+    "evidence": "4 |accessdate=14 November 2018}}</ref> Since its founding, the program has maintained ties to the [[United Front Work Department]] as well as other organizations and personnel affiliated with the [[Chinese Communist Party]].<ref"
+   },
+   "source": "wikipedia:Schwarzman_Scholars.wiki",
+   "url": "https://en.wikipedia.org/wiki/United_Front_Work_Department",
+   "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "src": "org_us:217365ea4521",
+   "dst": "org_cn:ed9dba4cfb81",
+   "rel": "mentions_org",
+   "attrs": {
+    "status": "co_mentioned",
+    "evidence": "[[United Front Work Department]] as well as other organizations and personnel affiliated with the [[Chinese Communist Party]].<ref>{{cite news|url=https://www.theatlantic.com/international/archive/2020/01/stephen-schwarzman"
+   },
+   "source": "wikipedia:Schwarzman_Scholars.wiki",
+   "url": "https://en.wikipedia.org/wiki/Chinese_Communist_Party",
+   "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "src": "org_us:217365ea4521",
+   "dst": "org_cn:6428b41db1fe",
+   "rel": "mentions_org",
+   "attrs": {
+    "status": "co_mentioned",
+    "evidence": "hief executive and president of the executive council of Hong Kong and current vice chairman of the National Committee of the Chinese People's Political Consultative Conference<ref name=\"autogenerated1\">{{cite web|title=Schwarzman Scholars|url=http://schwarzmanscholars.org/|u"
+   },
+   "source": "wikipedia:Schwarzman_Scholars.wiki",
+   "url": "https://en.wikipedia.org/wiki/National_Committee_of_the_Chinese_People's_Political_Consultative_Conference",
+   "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "src": "org_us:217365ea4521",
+   "dst": "org_cn:395486c36708",
+   "rel": "mentions_org",
+   "attrs": {
+    "status": "co_mentioned",
+    "evidence": "nt of the executive council of Hong Kong and current vice chairman of the National Committee of the Chinese People's Political Consultative Conference<ref name=\"autogenerated1\">{{cite web|title=Schwarzman Scholars|url=http://schwarzmanscholars.org/|u"
+   },
+   "source": "wikipedia:Schwarzman_Scholars.wiki",
+   "url": "https://en.wikipedia.org/wiki/Chinese_People's_Political_Consultative_Conference",
+   "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "src": "org_us:18028ed0464a",
+   "dst": "org_cn:ed9dba4cfb81",
+   "rel": "mentions_org",
+   "attrs": {
+    "status": "co_mentioned",
+    "evidence": "ame=United States House Select Committee on Strategic Competition between the United States and the Chinese Communist Party |type=select |status=Active<ref>{{cite web |title=H.Res.11 – Establishing the Select Committee on t"
+   },
+   "source": "wikipedia:United_States_House_Select_Committee_on_Strategic_Competition_between_the_United_States_an.wiki",
+   "url": "https://en.wikipedia.org/wiki/Chinese_Communist_Party",
+   "fetched_at": "2026-11-09T08:36:43Z"
+  },
+  {
+   "src": "org_us:19f59d883e5f",
+   "dst": "org_cn:ed9dba4cfb81",
+   "rel": "mentions_org",
+   "attrs": {
+    "status": "co_mentioned",
+    "evidence": "subnational influence in and against the United States.<ref>{{cite news |title=All Over the Map The Chinese Communist Party's Subnational Interests in the United States |url=https://www.politico.com/f/?id=0000017d-264b-df97"
+   },
+   "source": "wikipedia:US-China_Business_Council.wiki",
+   "url": "https://en.wikipedia.org/wiki/Chinese_Communist_Party",
+   "fetched_at": "2026-11-09T08:36:43Z"
   }
  ],
  "meta": {
@@ -33984,7 +34435,9 @@
    "party_edges_from_person_text": 116,
    "employer_edges_from_ncuscr_roster": 34,
    "demoted_non_person_nodes": 2,
-   "wiki_link_mentioned_in_added": 18
+   "wiki_link_mentioned_in_added": 18,
+   "cn_org_associated_with": 16,
+   "org_mentions_org_added": 14
   }
  },
  "caveats": [
