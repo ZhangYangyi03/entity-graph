@@ -1,0 +1,636 @@
+{
+ "ncuscr_board": [
+  {
+   "name": "Charlene Barshefsky",
+   "role": "Director",
+   "context": "Chair, Parkside Global Advisors",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Maurice R. Greenberg",
+   "role": "Honorary Chairs",
+   "context": "Chairman &amp; CEO, C.V. Starr &amp; Co",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Carla A. Hills",
+   "role": "Honorary Chairs",
+   "context": "Chair &amp; CEO, Hills &amp; Company, International Consultants",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Evan G. Greenberg",
+   "role": "Executive Vice Chair",
+   "context": "Chairman &amp; CEO, Chubb",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Thomas H. Kean",
+   "role": "Vice Chair",
+   "context": "Chairman &amp; CEO, THK Consulting;",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Keith W. Abell",
+   "role": "Treasurer",
+   "context": "Executive Chairman, N4XT Experiences Inc.,",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "I. Peter Wolff",
+   "role": "Secretary",
+   "context": "Former SVP, International &amp; Executive",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Dennis C. Blair",
+   "role": "Directors",
+   "context": "Former Director of National Intelligence; Knott Distinguished Visiting Professor, University of North Carolina",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "John Chen",
+   "role": "Directors",
+   "context": "Executive Chairman and CEO, BlackBerry Ltd. (Retired)",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Peter M. Cleveland",
+   "role": "Directors",
+   "context": "Senior Vice President",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Senior Vice President",
+   "role": "Directors",
+   "context": "Global Government Affairs, TSMC",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Daniel Cruise",
+   "role": "Directors",
+   "context": "Partner, Tikehau Capital",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Ray Dalio",
+   "role": "Directors",
+   "context": "Founder, CIO Mentor, and Member of the Bridgewater Board",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Robert L. Daly",
+   "role": "Directors",
+   "context": "Former Director, Kissinger Institute, Wilson Center",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Nelson G. Dong",
+   "role": "Directors",
+   "context": "Retired Partner and Former Head of National Security Group,",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Thomas Donilon",
+   "role": "Directors",
+   "context": "Vice Chairman, BlackRock;",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Paul Dyck",
+   "role": "Directors",
+   "context": "Senior Vice President, Global Public Policy and Government Affairs, Walmart",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Elizabeth C. Economy",
+   "role": "Directors",
+   "context": "Hargrove Senior Fellow, Hoover Institution,",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Stanford University",
+   "role": "Directors",
+   "context": "Jennifer Flitton",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Jennifer Flitton",
+   "role": "Directors",
+   "context": "Global Head of Public Policy, Invesco",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "William E. Ford",
+   "role": "Directors",
+   "context": "Chairman and CEO, General Atlantic",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Barbara H. Franklin",
+   "role": "Directors",
+   "context": "President &amp; CEO, Barbara Franklin Enterprises; U.S. Secretary of Commerce, 1992-1993",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "M. Taylor Fravel",
+   "role": "Directors",
+   "context": "Arthur and Ruth Sloan Professor of Political Science; Director, Security Studies Program, Massachusetts Instit",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Paul J. Fribourg",
+   "role": "Directors",
+   "context": "Executive Chairman",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Executive Chairman",
+   "role": "Directors",
+   "context": ",",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Continental Grain Company",
+   "role": "Directors",
+   "context": "Mary E. Gallagher",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Mary E. Gallagher",
+   "role": "Directors",
+   "context": "Marilyn Keough Dean of the Keough School of Global Affairs at the University of Notre Dame",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Paul T. Haenle",
+   "role": "Directors",
+   "context": "Managing Director, Head of Asia Pacific Policy &amp; Strategic Competitiveness",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Ming Hsieh",
+   "role": "Directors",
+   "context": "Chairman &amp; CEO, Fulgent Genetics",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Merit E. Janow",
+   "role": "Directors",
+   "context": "Independent Chair of the Board of Directors of Mastercard; Former Dean, School of International and Public Aff",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Katherine P. Kaup",
+   "role": "Directors",
+   "context": "James B. Duke Professor of Asian Studies and Politics and International Affairs, Furman University",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Elizabeth D. Knup",
+   "role": "Directors",
+   "context": "Honorary Senior Fellow, Center for China Analysis, Asia Society Policy Institute",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "David M. Lampton",
+   "role": "Directors",
+   "context": "Professor Emeritus of China Studies, Sr. Research Fellow, Foreign Policy Institute, Johns Hopkins SAIS",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Nicholas R. Lardy",
+   "role": "Directors",
+   "context": "Nonresident Senior Fellow, Peterson Institute for International Economics",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Jacob J. Lew",
+   "role": "Directors",
+   "context": "Professor of International and Public Affairs",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Columbia SIPA",
+   "role": "Directors",
+   "context": "Margaret K. Lewis",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Margaret K. Lewis",
+   "role": "Directors",
+   "context": "Professor of Law, Seton Hall University School of Law",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Cheng Li",
+   "role": "Directors",
+   "context": "Professor of Political Science Founding Director, Centre on Governance of China and the World, The University ",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Kenneth G. Lieberthal",
+   "role": "Directors",
+   "context": "Senior Fellow Emeritus, Brookings Institute",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Haifan Lin",
+   "role": "Directors",
+   "context": "Eugene Higgins Professor of Cell Biology and Founding Director, Yale Stem Cell Center",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Gary Locke",
+   "role": "Directors",
+   "context": "Chairman, Locke Global Strategies; Governor of Washington (1997-2005); U.S. Secretary of Commerce (2009-2011);",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Ken Miller",
+   "role": "Directors",
+   "context": "President &amp; CEO,",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Ken Miller Capital",
+   "role": "Directors",
+   "context": "Sheldon Pang",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Sheldon Pang",
+   "role": "Directors",
+   "context": "Vice Chairman,",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Freepoint Commodities LLC",
+   "role": "Directors",
+   "context": "Yvonne Pei",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Yvonne Pei",
+   "role": "Directors",
+   "context": "SVP, Government Affairs, Greater China,",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "A. Robert Pietrzak",
+   "role": "Directors",
+   "context": "Partner (Retired),",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Sidley Austin",
+   "role": "Directors",
+   "context": "Joshua C. Ramo",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Joshua C. Ramo",
+   "role": "Directors",
+   "context": "Chairman &amp; CEO,",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Gary Rieschel",
+   "role": "Directors",
+   "context": "Founding Managing Partner,",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Qiming Venture Partners",
+   "role": "Directors",
+   "context": "Hartley R. Rogers",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Hartley R. Rogers",
+   "role": "Directors",
+   "context": "Chairman &amp; Co-Chief Executive Officer, Hamilton Lane Advisors",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Daniel H. Rosen",
+   "role": "Directors",
+   "context": "Co-Founder and China Practice Leader,",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Rhodium Group",
+   "role": "Directors",
+   "context": "J. Stapleton Roy",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "J. Stapleton Roy",
+   "role": "Directors",
+   "context": "Distinguished Scholar &amp; Founding Director Emeritus,",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "David Sandalow",
+   "role": "Directors",
+   "context": "Inaugural Fellow, Center on Global Energy Policy, Columbia University; Under Secretary and Assistant Secretary",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Rob Speyer",
+   "role": "Directors",
+   "context": "President &amp; CEO",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Tishman Speyer",
+   "role": "Directors",
+   "context": "Susan Thornton",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Susan Thornton",
+   "role": "Directors",
+   "context": "Senior Fellow, Paul Tsai China Center, Yale Law School; Acting Assistant Secretary of State for East Asian and",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Ernie L. Thrasher",
+   "role": "Directors",
+   "context": "CEO &amp; Chief Marketing Officer, Xcoal Energy &amp; Resources",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Mark E. Tucker",
+   "role": "Directors",
+   "context": "Chairman,",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "AIA Group Ltd",
+   "role": "Directors",
+   "context": "Jan F. van Eck",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Van Eck",
+   "role": "Directors",
+   "context": "Jessica Chen Weiss",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Jessica Chen Weiss",
+   "role": "Directors",
+   "context": "David M. Lampton Professor of China Studies",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Johns Hopkins",
+   "role": "Directors",
+   "context": "SAIS",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Jerry Yang",
+   "role": "Directors",
+   "context": "Founding Partner",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Founding Partner",
+   "role": "Directors",
+   "context": "AME Cloud Ventures",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "AME Cloud Ventures",
+   "role": "Directors",
+   "context": "Nancy Yao",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Nancy Yao",
+   "role": "Directors",
+   "context": "Assistant Dean, David Geffen School of Drama at Yale; Assistant Professor Adjunct; Independent Director, abrdn",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Peng Zhao",
+   "role": "Directors",
+   "context": "&nbsp;",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Citadel Securities",
+   "role": "Directors",
+   "context": "Chair Emeritus",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Chair Emeritus",
+   "role": "Directors",
+   "context": "W. Michael Blumenthal",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "W. Michael Blumenthal",
+   "role": "Directors",
+   "context": "U.S. Secretary of the Treasury, 1977-1979",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Follow Us",
+   "role": "Directors",
+   "context": "Support Us",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Support Us",
+   "role": "Directors",
+   "context": "The National Committee on United States-China Relations, Inc., welcomes",
+   "org": "National Committee on United States–China Relations"
+  },
+  {
+   "name": "Media Inquiries",
+   "role": "Directors",
+   "context": "Donate",
+   "org": "National Committee on United States–China Relations"
+  }
+ ],
+ "c100_members": [
+  "Wendy Cai-Lee",
+  "Eric Chan",
+  "Ronnie Chan",
+  "Tony Chan",
+  "Cyndie Chang",
+  "David C. Chang",
+  "Derek Chang",
+  "Edward Chang",
+  "Gordon H. Chang",
+  "Joyce Chang",
+  "Albert Chao",
+  "Daniel Chao",
+  "Christine Chen",
+  "Guoqing Chen",
+  "Joan Chen",
+  "John S. Chen",
+  "Lanhee Chen",
+  "Steve Chen",
+  "Anla Cheng",
+  "Mei-Wei Cheng",
+  "Richard T. Cheng",
+  "Andrew J.C. Cherng",
+  "John Chiang",
+  "Leroy Chiao",
+  "Anne Chow",
+  "Wei Sun Christianson",
+  "David Chu",
+  "J. Michael Chu",
+  "Morgan Chu",
+  "Paul C. W. Chu",
+  "Wilson Chu",
+  "Weili Dai",
+  "Nelson Dong",
+  "Tan Dun",
+  "Dr. Karen Eng",
+  "Julie Fong",
+  "Kenneth Fong",
+  "Buck Gee",
+  "Robert W. Gee",
+  "Jerry Guo",
+  "Wei He",
+  "David D. Ho",
+  "Ming Hsieh",
+  "Douglas Hsu",
+  "Guiyou Huang",
+  "Ramy Inocencio",
+  "Yue-Sai Kan",
+  "Clarence Kwan",
+  "Stewart Kwoh",
+  "Daphne Kwok",
+  "Shau-wai Lam",
+  "Georgia Lee",
+  "Handel Lee",
+  "Richard Y. Lee",
+  "Robert Lee",
+  "Lily Lee Chen",
+  "Ginger Lew",
+  "Cheng Li",
+  "Ge Li",
+  "Howard Li",
+  "James M. Li",
+  "Jeffrey Li",
+  "Li Lu",
+  "Shu Li",
+  "Patrick Liang",
+  "Michael C. Lin",
+  "Paul C. Lin",
+  "Deborah Liu",
+  "Don Liu",
+  "Ida Liu",
+  "Norman Liu",
+  "Peter Liu",
+  "Gary Locke",
+  "Lawrence B. Low",
+  "Nicky Lu",
+  "Richard Lui",
+  "Michael Ma",
+  "Philip Ma",
+  "Yo-Yo Ma",
+  "Paula Williams Madison",
+  "Adeline Yen Mah",
+  "Wan Ling Martello",
+  "Matthew F.C. Miau",
+  "Jenny J. Ming",
+  "Anna Mok",
+  "X. Rick Niu",
+  "Catherine Pan-Giordano",
+  "Sheldon Pang",
+  "Sandi Pei",
+  "Yvonne Pei",
+  "Edmond Pi",
+  "Ai-jen Poo",
+  "Shen Wei",
+  "John Sie",
+  "Katie Soo",
+  "Anthony Sun",
+  "Brian A. Sun",
+  "David Sze",
+  "Jackson Tai",
+  "Lip-Bu Tan",
+  "Yuan Yuan Tan",
+  "David K. Y. Tang",
+  "Henry S. Tang",
+  "Oscar Tang",
+  "Hao Jiang Tian",
+  "Shao Kuang Ting",
+  "Maeley Tom",
+  "Chiling Tong",
+  "Ming Tsai",
+  "Calvin Tsao",
+  "Alan Tse",
+  "Carter Tseng",
+  "Mei-Mei Tuan",
+  "Cher Wang",
+  "Dazong Wang",
+  "H. Roger Wang",
+  "Lulu C. Wang",
+  "Shirley Wang",
+  "Ted Wang",
+  "Walter Wang",
+  "William Wang",
+  "Andrea Wong",
+  "Brian Wong",
+  "Janet Wong",
+  "Margaret Wong",
+  "Charlie Woo",
+  "Benjamin Wu",
+  "Frank H. Wu",
+  "Jeremy Wu",
+  "Nora Wu",
+  "Sheryl WuDunn",
+  "Hank Wuh",
+  "Ken Xie",
+  "Jay Xu",
+  "Mei Xu",
+  "Debra Wong Yang",
+  "Henry Yang",
+  "Janet Yang",
+  "Jerry Yang",
+  "Linda Tsao Yang",
+  "Alice Young",
+  "Donald Young",
+  "Peter Young",
+  "Eric S. Yuan",
+  "Nancy Yuan",
+  "Teddy Zee",
+  "Charles Zhang",
+  "Hansong Zhang",
+  "Jian Zhang",
+  "Shau Zhang",
+  "Ya-Qin Zhang",
+  "Eric Zheng",
+  "Lili Zheng",
+  "Zheng Cao",
+  "Gareth Chang",
+  "Iris Chang",
+  "Anna Chennault",
+  "Matt Fong",
+  "John Fugh",
+  "Michael Fung",
+  "Ming Chen Hsu",
+  "Ta-Lin Hsu",
+  "I.M. Pei",
+  "William W. Shaw",
+  "Charlie Sie",
+  "Cyrus Tang",
+  "Charles P. Wang",
+  "Chi Wang",
+  "Kung-Lee Wang",
+  "Chien-Shiung Wu",
+  "Y.C. Yang",
+  "John Young",
+  "Shirley Young",
+  "Albert Yu"
+ ]
+}

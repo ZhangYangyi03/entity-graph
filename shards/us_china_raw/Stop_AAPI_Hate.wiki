@@ -1,0 +1,86 @@
+{{short description|American nonprofit advocacy organization}}
+{{About|the non-profit organization|the larger protest movement|Stop Asian Hate}}
+{{use mdy dates|date=February 2021}}
+{{Infobox organization
+| name               = Stop AAPI Hate
+| logo               = Stop AAPI Hate logo.jpg
+| formation          = {{start date and age|2020}}
+| founder            = Manjusha P. Kulkarni<br>Cynthia Choi<br>[[Russell Jeung]]
+| founding_location  = 
+| extinction         = <!-- use {{end date and age|YYYY|MM|DD}} -->
+| merger             = 
+| type               = 
+| tax_id             = <!-- or | vat_id = (for European organizations) -->
+| registration_id    = <!-- for non-profit org -->
+| status             = 
+| purpose            = 
+| headquarters       = 
+| location           = [[San Francisco]], [[California]], US
+| coordinates        = <!-- {{coord|LAT|LON|display=inline, title}} -->
+| region_served      = 
+| services           = 
+| products           = 
+| methods            = 
+| fields             = 
+| num_members        = 
+| num_members_year   = 
+| language           = 
+| owner              = <!-- or | owners = -->
+| secretary_general  = 
+| leader_title       = 
+| leader_name        = 
+| board_of_directors = 
+| slogan             = 
+| website            = {{Official URL}}
+| remarks            = 
+| former_name        = 
+| footnotes          = 
+}}
+
+'''Stop AAPI Hate''' is an American nonprofit organization that runs the Stop AAPI Hate Reporting Center, which tracks self-reported incidents of hate and discrimination against [[Asian Americans and Pacific Islanders]] (AAPI) living in the United States, and the 501(c)(4) political advocacy organization Stop AAPI Hate Action. The organization was formed in 2020 in response to the [[Xenophobia and racism related to the COVID-19 pandemic|racist attacks on the Asian American community as a result of the COVID-19 pandemic]]. The organization’s approach centered on four strategies:<ref>{{Cite web |title=Our Approach |url=https://stopaapihate.org/our-approach/ |access-date=2023-10-26 |website=Stop AAPI Hate |language=en-US}}</ref> 
+
+# Data and Research
+# Policy and Advocacy
+# Community Care
+# Strategic Communications 
+
+== History ==
+Stop AAPI Hate was founded by a consortium of three groups: AAPI Equity Alliance (formerly A3PCON, the Asian Pacific Policy and Planning Council),<ref>{{Cite web |title=AAPI Equity Alliance Website – Website for the Asian American Pacific Islander Equity Alliance |url=https://aapiequityalliance.org/ |access-date=2023-10-25 |language=en-US}}</ref> [[Chinese for Affirmative Action]] (CAA), and the Asian American Studies Department (AAS) at the [[San Francisco State University]],<ref name="Fortune">{{cite web |last1=McGirt |first1=Ellen |last2=Morris |first2=David Z. |title=It's time to stop AAPI hate |url=https://fortune.com/2021/02/09/hate-crimes-against-asian-americans-are-nothing-new/ |website=Fortune |access-date=16 February 2021 |language=en}}</ref> under the leadership of Manjusha P. Kulkarni, Cynthia Choi, and [[Russell Jeung]].<ref>{{Cite web|title=About|url=https://stopaapihate.org/about/|access-date=2021-06-19|website=Stop AAPI Hate|language=en-US}}</ref> The consortium began its action in January 2020 as a response to the impact of the COVID-19 pandemic on Asian Americans, specifically news accounts of incidents of racially motivated violence. The group takes a [[grassroots]] approach to gathering data and providing these data to the general public and other advocacy groups.<ref name="Takasaki">{{cite journal |last1=Takasaki |first1=Kara |title=Stop AAPI Hate Reporting Center: A Model of Collective Leadership and Community Advocacy |journal=Journal of Asian American Studies |date=10 November 2020 |volume=23 |issue=3 |pages=341–351|doi=10.1353/jaas.2020.0028 |s2cid=226967386 |url=https://muse.jhu.edu/article/772568 |access-date=16 February 2021 |language=en |issn=1096-8598|url-access=subscription }}</ref> 
+
+The group began its focus on incidents occurring in California. Their researchers initially analyzed data from the end of January 2020 though the end of February 2020 from news sources reporting on [[xenophobia]] and COVID-19. The group then approached the [[governor of California]] and the state's Attorney General's Office requesting that state agencies respond to the increasing threat of discrimination. Although the governor and others in government decried the racism, they did not form a reporting center. Stop AAPI Hate subsequently formed a non-governmental community-based reporting system called the Stop AAPI Hate Reporting Center.<ref name="KQED">{{cite web |title=700 Anti-Asian Hate Incidents Reported in Bay Area During Pandemic - True Figures Might Be Even Worse |url=https://www.kqed.org/news/11859965/700-anti-asian-hate-incidents-reported-in-bay-area-during-pandemic-true-figures-might-be-even-worse |website=KQED |date=February 12, 2021 |access-date=16 February 2021 |language=en-us}}</ref><ref name="USA TODAY">{{cite web |last1=Yancey-Bragg |first1=N'dea |title='Stop killing us': Attacks on Asian Americans highlight rise in hate incidents amid COVID-19 |url=https://www.usatoday.com/story/news/nation/2021/02/12/asian-hate-incidents-covid-19-lunar-new-year/4447037001/ |website=USA TODAY |access-date=16 February 2021}}</ref>
+
+The group operates a website which allows users to report an incident.<ref name="Report Incident">{{cite web |title=Report Incident |url=https://stopaapihate.org/reportincident/ |access-date=16 February 2021 |website=Stop AAPI Hate}}</ref> The website also is a clearinghouse for reports and press releases with data generated from the reporting.<ref name="Report and Releases">{{cite web |title=Report and Releases |url=https://stopaapihate.org/reportsreleases/ |url-status=dead |archive-url=https://web.archive.org/web/20201022010428/https://stopaapihate.org/reportsreleases/ |archive-date=October 22, 2020 |access-date=16 February 2021 |website=Stop AAPI Hate}}</ref>
+
+On May 28, 2026, the group announced the launch of Stop AAPI Hate Action<ref>{{Cite news |date=2026-05-28 |title=AP Exclusive: Stop AAPI Hate launches a nonprofit to mobilize voters before midterms |url=https://apnews.com/article/stop-aapi-hate-asian-american-pacific-islander-3d6ed97aa14ff2cc70ef6b59e19a4c6b |archive-url=https://web.archive.org/web/20260730121855/https://apnews.com/article/stop-aapi-hate-asian-american-pacific-islander-3d6ed97aa14ff2cc70ef6b59e19a4c6b |archive-date=2026-07-30 |access-date=2026-09-21 |work=AP News |language=en}}</ref> a 501(c)(4) organization dedicated to strengthening long-term AAPI political power and [[civic engagement]]<ref>{{Cite web |last=Hate |first=Stop AAPI |date=2026-05-28 |title=Stop AAPI Hate Launches New 501(c)(4) Political and Advocacy Arm to Boost AAPI Voter and Civic Engagement |url=https://stopaapihate.org/2026/05/28/stop-aapi-hate-launches-new-political-and-advocacy-arm/ |access-date=2026-09-21 |website=Stop AAPI Hate Action |language=en-US}}</ref>, alongside the existing Stop AAPI Hate 501(c)(3) organization. 
+
+== Impact ==
+On February 23, 2021, the California legislature enacted the AB 85 law which includes funding of $1.4 million specifically to support Stop AAPI Hate's website, analysis and research.<ref name="California Legislative Information">{{cite web |title=Bill Text - AB-85 Budget Act of 2020. |url=https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202120220AB85 |website=California Legislative Information |access-date=26 February 2021}}</ref><ref name="Wong">{{cite web |last1=Wong |first1=Ashley |title=California passes bill allocating $1.4 million to track anti-Asian bias and hate crimes |url=https://www.fresnobee.com/news/california/article249437955.html |website=Fresno Bee |access-date=26 February 2021}}</ref>
+
+On October 7, 2023, California Governor [[Gavin Newsom]] signed Senate Bill (SB) 434 ''Public Transit for All: Improving Safety & Increasing Ridership'' into law that requires California's 10 largest transit agencies to collect voluntary survey data to better understand riders' experiences with street harassment. The bill was authored by Senator [[Dave Min]] (D-Irvine) and sponsored by Stop AAPI Hate.<ref>{{Cite web |date=2023-10-10 |title=New law makes top California transit agencies survey riders about harassment |url=https://www.dailynews.com/2023/10/09/new-law-makes-top-california-transit-agencies-survey-riders-about-harassment/ |access-date=2023-10-26 |website=Daily Breeze |language=en-US}}</ref> 
+
+[[Time (magazine)|''Time'' magazine]] has named Kulkarni, Choi, and Jeung among the [[Time 100|100 most influential people]] of 2021, for they "have locked arms with other BIPOC organizations to find restorative justice measures so that civil rights—for all vulnerable groups—receive the protection they deserve."<ref>{{Cite magazine|title=Stop AAPI Hate Co-Founders: TIME100 2021|url=https://time.com/collection/100-most-influential-people-2021/6096105/manjusha-kulkarni-russell-jeung-cynthia-choi/|access-date=2021-09-16|magazine=Time|language=en}}</ref> Manjusha P. Kulkarni received in 2025 a [[Carnegie Corporation of New York]] [[Great Immigrants Award|Great Immigrant Award]].<ref>{{Cite web |date=2025-06-26 |title=Carnegie honors 20 'Great Immigrants,' including composer Tania León, for 20th anniversary |url=https://apnews.com/article/carnegie-corp-great-immigrants-great-americans-tania-leon-fde162cd204af3d998575a6fa39fccea |access-date=2025-09-16 |website=AP News |language=en}}</ref>
+
+==See also==
+* [[Black Lives Matter]]
+* [[Idle No More]]
+* [[Asian American activism]]
+* [[The Asian American Foundation]] (TAAF)
+
+== References ==
+{{reflist}}
+
+== External links ==
+* {{official website}}
+
+{{Asian Americans}}
+{{Stop Asian Hate}}
+{{Authority control}}
+[[Category:Asian-American issues]]
+[[Category:Anti-racist organizations in the United States]]
+[[Category:Civil rights organizations in the United States]]
+[[Category:Organizations established for the COVID-19 pandemic]]
+[[Category:2020 establishments in California]]
+[[Category:Asian-American-related controversies]]
+[[Category:Anti-Asian sentiment in the United States]]
+[[Category:Asian-American organizations]]
+[[Category:American organizations established in 2020]]

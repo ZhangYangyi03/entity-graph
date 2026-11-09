@@ -1,0 +1,118 @@
+{{Short description|Nonprofit organization}}{{Infobox organization
+| name                     = US-China Business Council
+| pronunciation            = 
+| native_name_lang         = 
+| nickname                 = 
+| named_after              = 
+| image                    = File:US-China Business Council logo.jpg
+| image_size               = 230px
+| image_alt                = 
+| caption                  = 
+| logo                     = 
+| logo_size                = 
+| logo_alt                 = 
+| logo_caption             = 
+| map                      = 
+| map_size                 = 
+| map_alt                  = 
+| map_caption              = 
+| abbreviation             = 
+| predecessor              = 
+| merged_into              = 
+| successor                = 
+| formation                = {{start date and age|1973}}
+| founder                  = 
+| founding_location        = [[Washington D.C.]]
+| merger                   = 
+| type                     = [[501(c)(6) organization]]
+| tax_id                   = 23-7275160
+| registration_id          = <!-- for non-profit org -->
+| status                   = 
+| headquarters             = 
+| coordinates              = <!-- {{coord|LAT|LON|display=inline, title}} -->
+| region_served            = 
+| services                 = 
+| products                 = 
+| methods                  = 
+| fields                   = 
+| num_members              = 
+| num_members_year         = 
+| language                 = 
+| owner                    = <!-- or | owners = -->
+| secretary_general        = <!-- or | gen_sec for General Secretary -->
+| leader_title             = President
+| leader_name              = [[Sean B. Stein]]
+| leader_title2            = Chair
+| leader_name2             = [[Ryan McInerney]]
+| leader_title3            = 
+| leader_name3             = 
+| leader_title4            = 
+| leader_name4             = 
+| board_of_directors       = 
+| key_people               = 
+| main_organ               = 
+| parent_organization      = 
+| subsidiaries             = 
+| secessions               = 
+| affiliations             = 
+| budget                   = 
+| budget_year              = 
+| revenue                  = 
+| revenue_year             = 
+| disbursements            = 
+| expenses                 = 
+| expenses_year            = 
+| endowment                = 
+| endowment_year           = 
+| num_staff                = 
+| num_staff_year           = 
+| num_volunteers           = 
+| num_volunteers_year      = 
+| website                  = {{Official URL}}
+| remarks                  = 
+| former_name              = National Council for US-China Trade
+| footnotes                = <ref>{{Cite web |title=2019 Form 990 |url=https://apps.irs.gov/pub/epostcard/cor/237275160_201912_990O_2020101317366630.pdf |access-date=November 14, 2023 |website=[[Internal Revenue Service]] |archive-date=November 15, 2023 |archive-url=https://web.archive.org/web/20231115034006/https://apps.irs.gov/pub/epostcard/cor/237275160_201912_990O_2020101317366630.pdf |url-status=live }}</ref><ref>{{cite web |title=Officers and Directors |url=https://www.uschina.org/about/board-of-directors |website=The US-China Business Council |access-date=11 February 2019 |archive-date=18 April 2019 |archive-url=https://web.archive.org/web/20190418105907/https://www.uschina.org/about/board-of-directors |url-status=live }}</ref>
+}}{{Infobox Chinese
+| s = 美中贸易全国委员会
+| p = Měi Zhōng Màoyì Quánguó Wěiyuánhuì
+}}
+
+The '''US-China Business Council''' ('''USCBC''') is a [[501(c)(6) organization|501(c)(6)]] [[nonprofit organization]] whose stated goal is promoting trade between the [[United States]] and the [[China|People's Republic of China]] (PRC). As of 2024, it comprises over 270 American companies that trade and do business with the PRC.<ref>{{Cite web |title=About the US-China Business Council |url=https://www.uschina.org/about |access-date=September 10, 2024 |website=US-China Business Council}}</ref>
+
+==History==
+The council was founded in 1973 with the support of the [[White House]], the [[Department of State]] and the [[Department of Commerce]] as the National Council for United States-China Trade. [[Frederick B. Dent]], the then [[United States Secretary of Commerce]], compiled an executive committee for the council out of several prominent business leaders.<ref name="FL">{{cite web |title=UNITED STATES-CHINA BUSINESS COUNCIL Records, 1973‑78 (1983) |url=https://www.fordlibrarymuseum.gov/library/guides/findingaid/United%20States-China%20Business%20Council%20-%20Records.htm |website=Ford Library Museum |access-date=30 December 2018 |archive-date=7 May 2021 |archive-url=https://web.archive.org/web/20210507224204/https://www.fordlibrarymuseum.gov/library/guides/findingaid/united%20states-china%20business%20council%20-%20records.htm |url-status=live }}</ref>
+
+The executive committee first met on March 22, 1973, to begin the formation of the council, with the executive committee members being the first Board of Directors. [[Donald C. Burnham]], of [[Westinghouse Corporation]], took the post of chairman and the Board elected [[Christopher H. Phillips]] to be the first president.<ref name="FL" /> Phillips would serve as president of the council until his retirement in 1986.<ref>{{cite web |title=Nomination of Christopher H. Phillips To Be United States Ambassador to Brunei |url=https://www.presidency.ucsb.edu/documents/nomination-christopher-h-phillips-be-united-states-ambassador-brunei |website=The American Presidency Project |access-date=30 December 2018 |archive-date=2 September 2019 |archive-url=https://web.archive.org/web/20190902181243/https://www.presidency.ucsb.edu/documents/nomination-christopher-h-phillips-be-united-states-ambassador-brunei |url-status=live }}</ref>
+
+In the first year, the Council attracted 200 members and, by 1982, this had grown to 400 members.<ref name="FL" /> In 1974, the council began publishing the ''[[China Business Review]]'', a journal aimed at American companies trying to enter the Chinese market. In 1979, the Council opened an office in [[Beijing]].<ref>{{cite web |title=China Business Review |url=https://www.scimagojr.com/journalsearch.php?q=12253&tip=sid&clean=0 |website=Scimago Journal & Country Rank |access-date=8 January 2019 |archive-date=3 December 2021 |archive-url=https://web.archive.org/web/20211203112629/https://www.scimagojr.com/journalsearch.php?q=12253&tip=sid&clean=0 |url-status=live }}</ref><ref>{{cite web |title=USCBC Announces Relaunch of China Business Review |url=https://www.uschina.org/media/press/uscbc-announces-relaunch-china-business-review |website=The US-China Business Council |date=6 April 2016 |access-date=8 January 2019 |archive-date=3 December 2021 |archive-url=https://web.archive.org/web/20211203110555/https://www.uschina.org/media/press/uscbc-announces-relaunch-china-business-review |url-status=live }}</ref>
+
+== Activities ==
+The USCBC has consistently lobbied against designating China a [[currency manipulator]].<ref>{{Cite book |last=Hung |first=Ho-fung |title=Clash of Empires: From 'Chimerica' to the 'New Cold War' |date=2022-04-30 |publisher=[[Cambridge University Press]] |isbn=978-1-108-89589-7 |edition=1 |pages=41 |doi=10.1017/9781108895897}}</ref>
+
+A 2021 study commissioned by the USCBC stated that the [[First Trump tariffs|Trump tariffs]] on Chinese goods directly resulted in the loss of 245,000 American jobs.<ref>{{Cite web |last=Kleiman |first=Michael |date=2021-01-01 |title=The US-China Economic Relationship: A Crucial Partnership At A Critical Juncture |url=https://www.oxfordeconomics.com/resource/the-us-china-economic-relationship-a-crucial-partnership-at-a-critical-juncture/ |access-date=2024-11-03 |website=Oxford Economics |language=en-US}}</ref><ref name=":Ma&Kang">{{Cite book |last=Ma |first=Xinru |title=Beyond Power Transitions: The Lessons of East Asian History and the Future of U.S.-China Relations |last2=Kang |first2=David C. |date=2024 |publisher=[[Columbia University Press]] |isbn=978-0-231-55597-5 |series=Columbia Studies in International Order and Politics |location=New York}}</ref>{{Rp|page=180}}
+
+A 2021 report by the [[Foundation for Defense of Democracies]] identified USCBC as a key facilitator of Beijing's efforts to carry out its campaign of subnational influence in and against the United States.<ref>{{cite news |title=All Over the Map The Chinese Communist Party's Subnational Interests in the United States |url=https://www.politico.com/f/?id=0000017d-264b-df97-a9ff-be7f603e0000 |agency=Politico |publisher=FDD |pages=8–11 |access-date=2022-11-09 |archive-date=2021-11-18 |archive-url=https://web.archive.org/web/20211118182412/https://www.politico.com/f/?id=0000017d-264b-df97-a9ff-be7f603e0000 |url-status=live }}</ref>
+
+In 2022, the USCBC lobbied against legislation to screen of outbound U.S. investments for potential national security issues.<ref>{{Cite news |last1=O’Keeffe |first1=Kate |last2=Andrews |first2=Natalie |last3=Somerville |first3=Heather |date=2022-06-13 |title=Lawmakers Make Bipartisan Push for New Government Powers to Block U.S. Investments in China |language=en-US |work=[[The Wall Street Journal]] |url=https://www.wsj.com/articles/bipartisan-lawmakers-propose-new-government-powers-to-block-u-s-investments-in-china-other-nations-11655147194 |access-date=2022-06-14 |issn=0099-9660 |archive-date=2022-06-13 |archive-url=https://web.archive.org/web/20220613235118/https://www.wsj.com/articles/bipartisan-lawmakers-propose-new-government-powers-to-block-u-s-investments-in-china-other-nations-11655147194 |url-status=live }}</ref> The council has also expressed concern about the implementation of the [[Uyghur Forced Labor Prevention Act]].<ref>{{Cite news |last=Garver |first=Rob |date=June 2, 2022 |title=US Prepares to Block Most Imports Tied to China's Xinjiang Province |url=https://www.voanews.com/a/us-prepares-to-block-most-imports-tied-to-china-s-xinjiang-province-/6601017.html |access-date=2022-06-18 |website=[[Voice of America]] |language=en |archive-date=2022-06-09 |archive-url=https://web.archive.org/web/20220609110328/https://www.voanews.com/a/us-prepares-to-block-most-imports-tied-to-china-s-xinjiang-province-/6601017.html |url-status=live }}</ref> The USCBC has lobbied against the expansion of U.S. [[Export control|export controls]], especially the expansion of the [[Entity List]].<ref>{{Cite news |last=Swanson |first=Ana |date=2025-10-30 |title=In China Truce on Tariffs and Rare Earths, National Security Controls Are Bargaining Chip |url=https://www.nytimes.com/2025/10/30/us/politics/china-trump-trade-security-chips-minerals.html |access-date=2025-10-31 |work=[[The New York Times]] |language=en}}</ref>
+
+In 2023, the USCBC and the [[National Committee on United States–China Relations]] hosted a banquet with [[General Secretary of the Chinese Communist Party]] [[Xi Jinping]] for US business executives during the [[APEC United States 2023]] meeting.<ref>{{Cite news |last=Martina |first=Michael |date=2023-11-14 |title=Tricky politics on menu for China's Xi at US business dinner |language=en |work=[[Reuters]] |url=https://www.reuters.com/world/tricky-politics-menu-chinas-xi-us-business-dinner-2023-11-14/ |access-date=2023-11-15 |archive-date=2023-11-14 |archive-url=https://web.archive.org/web/20231114162632/https://www.reuters.com/world/tricky-politics-menu-chinas-xi-us-business-dinner-2023-11-14/ |url-status=live }}</ref><ref>{{Cite news |last=Swanson |first=Ana |date=2023-11-08 |title=Xi Jinping to Address U.S. Business Leaders Amid Rising Skepticism of China Ties |language=en-US |work=[[The New York Times]] |url=https://www.nytimes.com/2023/11/08/business/economy/xi-jinping-american-business-leaders-dinner.html |access-date=2023-11-15 |issn=0362-4331 |archive-date=2023-11-13 |archive-url=https://web.archive.org/web/20231113192559/https://www.nytimes.com/2023/11/08/business/economy/xi-jinping-american-business-leaders-dinner.html |url-status=live }}</ref> The banquet drew questions from media about attendees and criticism from the [[United States House Select Committee on Strategic Competition between the United States and the Chinese Communist Party]].<ref>{{Cite news |last=Koch |first=M.J. |date=November 14, 2023 |title=The High Cost — $40,000 for a Filet Mignon — of Dining With Xi Jinping |work=[[The New York Sun]] |url=https://www.nysun.com/article/the-high-cost-40000-for-a-filet-mignon-of-dining-with-xi-jinping |access-date=November 14, 2023 |archive-date=November 15, 2023 |archive-url=https://web.archive.org/web/20231115034058/https://www.nysun.com/article/the-high-cost-40000-for-a-filet-mignon-of-dining-with-xi-jinping |url-status=live }}</ref><ref>{{Cite news |last=Jacob |first=Gu |date=November 14, 2023 |title=Xi's Arrival in US Brings Protesters and Fans Onto Streets |work=[[Bloomberg News]] |url=https://www.bloomberg.com/news/articles/2023-11-14/china-s-xi-begins-first-us-trip-in-six-years-amid-tight-security |access-date=November 14, 2023 |quote=The Republican wrote to the US-China Business Council and National Committee on US-China Relations demanding the organizers provide details of the guest list, funding and profits. Neither group responded to Bloomberg’s request for comment on the dinner. |archive-date=November 14, 2023 |archive-url=https://web.archive.org/web/20231114231158/https://www.bloomberg.com/news/articles/2023-11-14/china-s-xi-begins-first-us-trip-in-six-years-amid-tight-security |url-status=live }}</ref> Some commentators and scholars have called for the [[Internal Revenue Service]] (IRS) to investigate USCBC's tax-exempt status for potential violations of "political and legislative lobbying."<ref>{{Cite book |last=Shambaugh |first=David |author-link=David Shambaugh |title=Breaking the Engagement: How China Won & Lost America |date=2025-08-21 |publisher=[[Oxford University Press]] |isbn=978-0-19-779242-1 |edition=1 |pages=285 |language=en |doi=10.1093/oso/9780197792421.001.0001 |oclc=1503438055}}</ref>
+
+==See also==
+*[[China–United States relations]]
+*[[United States-China Economic and Security Review Commission]]
+*[[Congressional-Executive Commission on China]]
+
+==References==
+{{Reflist}}
+
+== External links ==
+{{Library resources box}}
+* {{Official website}}
+* {{ProPublicaNonprofitExplorer|237275160}}
+
+{{China–United States relations}}
+{{Authority control}}
+
+[[Category:American organizations established in 1973]]
+[[Category:China–United States relations]]
+[[Category:China–United States economic relations]]

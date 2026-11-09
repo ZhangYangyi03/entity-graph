@@ -1,0 +1,687 @@
+{{Short description|United States agency monitoring human rights in China}}
+{{Use American English|date=January 2019}}
+{{Use mdy dates|date=January 2019}}
+
+{{Infobox government agency
+| name = Congressional-Executive Commission on China
+| seal = Congressional Executive Commission on China logo.png
+| seal_caption = Seal of the USCC
+| formed = December 2000
+| headquarters = [[Ford House Office Building]], [[Washington, D.C.]]
+| chief1_name = [[Dan Sullivan (U.S. senator)|Dan Sullivan]]
+| chief1_position = Chair
+| chief2_name = [[Chris Smith (New Jersey politician)|Chris Smith]]
+| chief2_position = Co-chair
+| chief3_name = Scott Flipse
+| chief3_position = Staff Director
+| parent_department = [[United States Congress]]
+| keydocument1 = https://www.cecc.gov/about/legislative-mandate
+| website = https://www.cecc.gov/
+}}
+
+The '''Congressional-Executive Commission on China''' ('''CECC''') is an independent agency of the [[U.S. government]] which monitors human rights and rule of law developments in the [[People's Republic of China]]. The commission was given the mandate by the [[U.S. Congress]] to monitor and report on human rights issues with a particular focus on compliance with the [[International Covenant on Civil and Political Rights]] and the [[Universal Declaration of Human Rights]]. Its reporting covers developments in [[Censorship in China|freedom of expression]], the right to peaceful assembly, [[Freedom of religion in China|religious freedom]], freedom of movement, freedom from [[arbitrary arrest and detention]] or torture, and the [[right to a fair trial]], among others.<ref name="HR4444">[http://www.cecc.gov/pages/general/HR4444_Title3.pdf H.R. 4444, TITLE III--CONGRESSIONAL-EXECUTIVE COMMISSION ON THE PEOPLE'S REPUBLIC OF CHINA] {{webarchive|url=https://web.archive.org/web/20110912012150/http://www.cecc.gov/pages/general/HR4444_Title3.pdf|date=2011-09-12}}</ref> The commission publishes an annual report to the [[President of the United States]] and Congress, typically in the fall of each year. It also maintains a database of prisoners of conscience, holds regular roundtables and hearings, and issues letters to other institutions concerning human rights matters.<ref name="CECC">{{Cite web|url=https://www.cecc.gov/index.php|title=Congressional-Executive Commission on China|website=www.cecc.gov|access-date=2019-05-29}}</ref><ref>{{Cite web|url=https://www.cecc.gov/media-center/press-releases/xinjiang-chairs-ask-whether-world-bank-funding-crimes-against-humanity|title=Xinjiang: Chairs Ask Whether World Bank Funding Possible "Crimes Against Humanity"|date=August 23, 2019|website=Congressional-Executive Commission on China|access-date=2019-08-28}}</ref>
+
+== Creation ==
+The creation of the Congressional-Executive Commission on China (along with the [[United States–China Economic and Security Review Commission|United States-China Economic and Security Review Committee]]) emerged as part of negotiations for [[permanent normal trade relations]] with China upon [[China and the World Trade Organization|its accession to the World Trade Organization]].<ref name=":05">{{Cite book |last=Lampton |first=David M. |title=Living U.S.-China Relations: From Cold War to Cold War |date=2024 |publisher=[[Rowman & Littlefield]] |isbn=978-1-5381-8725-8 |location=Lanham, MD |pages= |author-link=David M. Lampton}}</ref>{{Rp|page=214}}
+
+The commission was created in October 2000 under Title III of H.R. 4444,<ref>{{cite web |title=About |url=https://www.cecc.gov/about |access-date=20 November 2023 |website=Congressional-Executive Commission on China}}</ref> which authorizes normal trade relations with China and establishes a framework for relations between the two countries.<ref name="HR4444" />
+
+==Work==
+===Annual report===
+The CECC publishes an annual report on human rights and rule of law developments in China, usually in the fall of each year, and covers issues such as freedom of expression, worker rights, religious freedom, ethnic minority rights, population planning, the status of women, climate change and the environment, treatment of North Korean refugees, civil society, access to justice, and [[Democracy in China|democratic governance]].<ref>Congressional Executive-Commission on China, [http://frwebgate.access.gpo.gov/cgi-bin/getdoc.cgi?dbname=111_cong_house_committee_prints&docid=f:61507.pdf 2010 Annual Report], 15 October 2010.</ref> The reports draw on a variety of sources, including information from human rights groups, media reports, government, and [[Chinese Communist Party]] documents.
+
+===Prisoner database===
+{{Update section|date=April 2023}}
+As part of its mandate from Congress, the CECC maintains a partial database of religious and political prisoners believed to be detained in China. As of June 30, 2022, the database contained 10,645 names, of which 2,506 were believed to be detained at that time, while the remainder were released, deceased, or escaped.<ref>Congressional-Executive Commission on China, ''[https://www.cecc.gov/sites/chinacommission.house.gov/files/2022_CECC_Report.pdf 2022 Annual Report]'', 2022, p. 44.</ref> The database was created with the assistance of the [[Dui Hua Foundation]] and Tibet Information Network.<ref>Congressional-Executive Commission on China, [http://cecc.gov/pages/victims/index.php CECC political prisoner database] {{webarchive|url=https://web.archive.org/web/20111114044736/http://www.cecc.gov/pages/victims/index.php |date=2011-11-14 }}, accessed 11-13-11.</ref>
+
+==Staff==
+The commission consists of a staff of researchers and analysts and is overseen by as many as nine members each from the [[U.S. Senate]] and [[United States House of Representatives|House of Representatives]], as well as one representative each from State, Commerce, and Labor, and two other executive branch employees nominated by the President. The chair of the commission rotates between the majority parties from the House and Senate. The commission is currently chaired by Rep. [[Chris Smith (New Jersey politician)|Chris Smith]] (R-NJ).<ref name="CECC" />
+
+On December 23, 2022, Chinese Foreign Minister [[Wang Yi (politician)|Wang Yi]] announced that Todd Stein, CECC deputy staff director, would be one of two individuals [[Chinese sanctions|sanctioned]] by China with effect from the same day. The order specified that this was in retaliation to the United States having sanctioned two Chinese officials earlier that month over [[Human rights in Tibet|human rights issues in Tibet]].<ref>{{cite web|url=https://www.reuters.com/world/asia-pacific/china-sanctions-two-americans-over-tibet-rights-controversy-2022-12-23/|title=China sanctions two Americans over Tibet rights controversy|last=Yew|first=Lun Tian|work=[[Reuters]]|date=2022-12-23|access-date=2022-12-29}}</ref> In an emailed comment to The Associated Press, Stein said the sanction order against him did not matter in light of the "thousands of prisoners of conscience jailed by Chinese authorities."<ref>{{cite news |title=China sanctions 2 US citizens over action on Tibet |url=https://apnews.com/article/religion-china-tibet-human-rights-c12e52c935ad074ded3c51d02b2b1138 |publisher=Associated Press}}</ref>
+
+==Commissioners==
+{|class=wikitable
+!
+!width="50%" |Majority
+!width="50%" |Minority
+|-
+!Senate members
+|valign="top" {{party shading/Republican}} |
+*[[Dan Sullivan (U.S. senator)|Dan Sullivan]], Alaska, ''Chair''
+*[[Tom Cotton]], Arkansas
+|valign="top" {{party shading/Democratic}} |
+*[[Jeff Merkley]], Oregon, ''Vice Ranking Member''
+*[[Tammy Duckworth]], Illinois
+*[[Andy Kim]], New Jersey
+*[[Lisa Blunt Rochester]], Delaware
+|-
+!House members
+|valign="top" {{party shading/Republican}} |
+*[[Chris Smith (New Jersey politician)|Chris Smith]], New Jersey, ''Co-Chair''
+*[[Elise Stefanik]], New York
+*[[Zach Nunn]], Iowa
+*[[Jen Kiggans]], Virginia
+*[[Dale Strong]], Alabama
+|valign="top" {{party shading/Democratic}} |
+*[[Jim McGovern (American politician)|Jim McGovern]], Massachusetts, ''Ranking Member''
+*[[Tom Suozzi]], New York
+*[[Suhas Subramanyam]], Virginia
+*[[James Walkinshaw]], Virginia
+|-
+!Executive branch
+|colspan=2 |
+*''1 vacant'', [[United States Department of Commerce|Department of Commerce]]
+*''1 vacant'', [[United States Department of Labor|Department of Labor]]
+*''3 vacant'', [[United States Department of State|Department of State]]
+|}
+
+{{hidden begin|titlestyle=background:#cff|title=Historical membership|contentstyle=border:solid 1px silver; padding:8px; background:white;}}
+;Commissioners, 118th Congress
+{|class=wikitable
+!
+!width="50%" |Majority
+!width="50%" |Minority
+|-
+!Senate members
+|valign="top" {{party shading/Democratic}} |
+*[[Jeff Merkley]], Oregon, ''Co-Chair''
+*[[Angus King]], Maine
+*[[Tammy Duckworth]], Illinois
+|valign="top" {{party shading/Republican}} |
+*[[Marco Rubio]], Florida, ''Ranking Member''
+*[[Tom Cotton]], Arkansas
+*[[Steve Daines]], Montana
+*[[Dan Sullivan (U.S. senator)|Dan Sullivan]], Alaska
+|-
+!House members
+|valign="top" {{party shading/Republican}} |
+*{{nowrap|[[Chris Smith (New Jersey politician)|Chris Smith]], New Jersey, ''Chair''}}
+*[[Brian Mast]], Florida
+*[[Michelle Steel]], California
+*[[Ryan Zinke]], Montana
+*[[Zach Nunn]], Iowa
+|valign="top" {{party shading/Democratic}} |
+*[[Jim McGovern (American politician)|Jim McGovern]], Massachusetts, ''Vice Ranking Member''
+*[[Jennifer Wexton]], Virginia
+*[[Susan Wild]], Pennsylvania
+*[[Andrea Salinas]], Oregon
+|-
+!Executive branch
+|colspan=2 |
+*[[Uzra Zeya]], [[United States Department of State|Department of State]]
+*[[Marisa Lago]], [[United States Department of Commerce|Department of Commerce]]
+*[[Thea Lee]], [[United States Department of Labor|Department of Labor]]
+*[[Daniel Kritenbrink]], [[United States Department of State|Department of State]]
+*[[Erin Barclay]], [[United States Department of State|Department of State]]
+|}
+
+;Commissioners, 117th Congress
+{|class=wikitable
+!
+!width="50%" |Majority
+!width="50%" |Minority
+|-
+!Senate members
+|valign="top" {{party shading/Democratic}} |
+*[[Jeff Merkley]], Oregon, ''Chair''
+*[[Dianne Feinstein]], California
+*[[Angus King]], Maine
+*[[Jon Ossoff]], Georgia
+|valign="top" {{party shading/Republican}} |
+*[[Marco Rubio]], Florida, ''Vice Ranking Member''
+*[[James Lankford]], Oklahoma
+*[[Tom Cotton]], Arkansas
+*[[Steve Daines]], Montana
+|-
+!House members
+|valign="top" {{party shading/Democratic}} |
+*[[Jim McGovern (American politician)|Jim McGovern]], Massachusetts, ''Co-Chair''
+*[[Tom Suozzi]], New York
+*[[Tom Malinowski]], New Jersey
+*[[Rashida Tlaib]], Michigan
+*[[Jennifer Wexton]], Virginia
+|valign="top" {{party shading/Republican}} |
+*{{nowrap|[[Chris Smith (New Jersey politician)|Chris Smith]], New Jersey, ''Ranking Member''}}
+*[[Brian Mast]], Florida
+*[[Vicky Hartzler]], Missouri
+*[[Michelle Steel]], California
+|-
+!Executive branch
+|colspan=2 |
+*[[Uzra Zeya]], [[United States Department of State|Department of State]]
+*[[Marisa Lago]], [[United States Department of Commerce|Department of Commerce]]
+*[[Thea Lee]], [[United States Department of Labor|Department of Labor]]
+*[[Daniel Kritenbrink]], [[United States Department of State|Department of State]]
+*[[Lisa Peterson]], [[United States Department of State|Department of State]]
+|}
+
+;Commissioners, 116th Congress
+{|class=wikitable
+!
+!width="50%" |Majority
+!width="50%" |Minority
+|-
+!Senate members
+|valign="top" {{party shading/Republican}} |
+*[[Marco Rubio]], Florida, ''Co-Chair''
+*[[James Lankford]], Oklahoma
+*[[Tom Cotton]], Arkansas
+*[[Steve Daines]], South Dakota
+*[[Todd Young]], Indiana
+|valign="top" {{party shading/Democratic}} |
+*[[Dianne Feinstein]], California, ''Ranking Member''
+*[[Jeff Merkley]], Oregon
+*[[Gary Peters]], Michigan
+*[[Angus King]], Maine
+|-
+!House members
+|valign="top" {{party shading/Democratic}} |
+*[[Jim McGovern (American politician)|Jim McGovern]], Massachusetts, ''Chair''
+*[[Marcy Kaptur]], Ohio
+*[[Tom Suozzi]], New York
+*[[Tom Malinowski]], New Jersey
+*[[Ben McAdams]], Utah
+|valign="top" {{party shading/Republican}} |
+*{{nowrap|[[Chris Smith (New Jersey politician)|Chris Smith]], New Jersey, ''Vice Ranking Member''}}
+*[[Brian Mast]], Florida
+*[[Vicky Hartzler]], Missouri
+*''1 vacant''
+|-
+!Executive Branch
+|colspan=2 |
+*''1 vacant'', [[United States Department of Commerce|Department of Commerce]]
+*''1 vacant'', [[United States Department of Labor|Department of Labor]]
+*''3 vacant'', [[United States Department of State|Department of State]]
+|}
+
+;Commissioners, 115th Congress
+{|class=wikitable
+!
+!width="50%" |Majority
+!width="50%" |Minority
+|-
+!Senate members
+|valign="top" {{party shading/Republican}} |
+*[[Marco Rubio]], Florida, ''Chair''
+*[[James Lankford]], Oklahoma
+*[[Tom Cotton]], Arkansas
+*[[Steve Daines]], South Dakota
+*[[Todd Young]], Indiana
+|valign="top" {{party shading/Democratic}} |
+*[[Dianne Feinstein]], California, ''Vice Ranking Member''
+*[[Jeff Merkley]], Oregon
+*[[Gary Peters]], Michigan
+*[[Angus King]], Maine
+|-
+!House members
+|valign="top" {{party shading/Republican}} |
+*[[Chris Smith (New Jersey politician)|Chris Smith]], New Jersey, ''Co-Chair''
+*[[Robert Pittenger]], North Carolina
+*[[Randy Hultgren]], Illinois
+*''2 vacant''
+|valign="top" {{party shading/Democratic}} |
+*[[Marcy Kaptur]], Ohio, ''Ranking Member''
+*[[Tim Walz]], Minnesota
+*[[Ted Lieu]], California
+*''1 vacant''
+|-
+!Executive Branch
+|colspan=2 |
+*''1 vacant'', [[United States Department of Commerce|Department of Commerce]]
+*''1 vacant'', [[United States Department of Labor|Department of Labor]]
+*''3 vacant'', [[United States Department of State|Department of State]]
+|}
+
+;Commissioners, 114th Congress
+{|class=wikitable
+!
+!width="50%" |Majority
+!width="50%" |Minority
+|-
+!Senate members
+|valign="top" {{party shading/Republican}} |
+*[[Marco Rubio]], Florida, ''Co-Chair''
+*[[James Lankford]], Oklahoma
+*[[Tom Cotton]], Arkansas
+*[[Steve Daines]], South Dakota
+*[[Ben Sasse]], Nebraska
+|valign="top" {{party shading/Democratic}} |
+*[[Dianne Feinstein]], California, ''Ranking Member''
+*[[Jeff Merkley]], Oregon
+*[[Gary Peters]], Michigan
+*''1 vacant''
+|-
+!House members
+|valign="top" {{party shading/Republican}} |
+*[[Chris Smith (New Jersey politician)|Chris Smith]], New Jersey, ''Chair''
+*[[Robert Pittenger]], North Carolina
+*[[Trent Franks]], Arizona
+*[[Randy Hultgren]], Illinois
+*[[Diane Black]], Tennessee
+|valign="top" {{party shading/Democratic}} |
+*[[Tim Walz]], Minnesota, ''Vice Ranking Member''
+*[[Marcy Kaptur]], Ohio
+*[[Mike Honda]], California
+*[[Ted Lieu]], California
+|-
+!Executive Branch
+|colspan=2 |
+*[[Chris Lu]], [[United States Department of Labor|Department of Labor]]
+*[[Sarah Sewall]], [[United States Department of State|Department of State]]
+*[[Stefan M. Selig|Stefan Selig]], [[United States Department of Commerce|Department of Commerce]]
+*[[Daniel R. Russel|Daniel Russel]], [[United States Department of State|Department of State]]
+*[[Tom Malinowski]], [[United States Department of State|Department of State]]
+|}
+
+;Commissioners, 113th Congress
+{|class=wikitable
+!
+!width="50%" |Majority
+!width="50%" |Minority
+|-
+!Senate members
+|valign="top" {{party shading/Democratic}} |
+*[[Sherrod Brown]], Ohio, ''Chair''
+*[[Dianne Feinstein]], California
+*[[Carl Levin]], Michigan
+*[[Jeff Merkley]], Oregon
+*[[Kay Hagan]], North Carolina
+|valign="top" {{party shading/Republican}} |
+*[[Susan Collins]], Maine, ''Vice Ranking Member''
+*[[Jim Risch]], Idaho
+*''2 vacant''
+|-
+!House members
+|valign="top" {{party shading/Republican}} |
+*[[Chris Smith (New Jersey politician)|Chris Smith]], New Jersey, ''Co-Chair''
+*[[Frank Wolf (politician)|Frank Wolf]], Virginia
+*[[Mark Meadows (North Carolina politician)|Mark Meadows]], North Carolina
+*[[Robert Pittenger]], North Carolina
+*''1 vacant''
+|valign="top" {{party shading/Democratic}} |
+*[[Tim Walz]], Minnesota, ''Ranking Member''
+*[[Marcy Kaptur]], Ohio
+*[[Mike Honda]], California
+*''1 vacant''
+|-
+!Executive Branch
+|colspan=2 |
+*[[Chris Lu]], [[United States Department of Labor|Department of Labor]]
+*[[Sarah Sewall]], [[United States Department of State|Department of State]]
+*[[Stefan M. Selig|Stefan Selig]], [[United States Department of Commerce|Department of Commerce]]
+*[[Daniel R. Russel|Daniel Russel]], [[United States Department of State|Department of State]]
+*[[Tom Malinowski]], [[United States Department of State|Department of State]]
+|}
+
+;Commissioners, 112th Congress
+{|class=wikitable
+!
+!width="50%" |Majority
+!width="50%" |Minority
+|-
+!Senate members
+|valign="top" {{party shading/Democratic}} |
+*[[Sherrod Brown]], Ohio, ''Co-Chair''
+*[[Max Baucus]], Montana
+*[[Dianne Feinstein]], California
+*[[Carl Levin]], Michigan
+*[[Jeff Merkley]], Oregon
+|valign="top" {{party shading/Republican}} |
+*[[Susan Collins]], Maine, ''Ranking Member''
+*[[Jim Risch]], Idaho
+*''2 vacant''
+|-
+!House members
+|valign="top" {{party shading/Republican}} |
+*[[Chris Smith (New Jersey politician)|Chris Smith]], New Jersey, ''Chair''
+*[[Don Manzullo]], Illinois
+*[[Ed Royce (politician)|Ed Royce]], California
+*[[Frank Wolf (politician)|Frank Wolf]], Virginia
+*''1 vacant''
+|valign="top" {{party shading/Democratic}} |
+*[[Tim Walz]], Minnesota, ''Vice Ranking Member''
+*[[Marcy Kaptur]], Ohio
+*[[Mike Honda]], California
+*''1 vacant''
+|-
+!Executive Branch
+|colspan=2 |
+*[[Kurt M. Campbell|Kurt Campbell]], [[United States Department of State|Department of State]]
+*[[Seth Harris]], [[United States Department of Labor|Department of Labor]]
+*[[Maria Otero]], [[United States Department of State|Department of State]]
+*[[Francisco Sánchez (diplomat)|Francisco Sánchez]], [[United States Department of Commerce|Department of Commerce]]
+*[[Nisha Desai Biswal|Nisha Biswal]], [[United States Department of State|Department of State]]
+|}
+
+;Commissioners, 111th Congress
+{|class=wikitable
+!
+!width="50%" |Majority
+!width="50%" |Minority
+|-
+!Senate members
+|valign="top" {{party shading/Democratic}} |
+*[[Byron Dorgan]], North Dakota, ''Chair''
+*[[Max Baucus]], Montana
+*[[Dianne Feinstein]], California
+*[[Carl Levin]], Michigan
+*[[Sherrod Brown]], Ohio
+|valign="top" {{party shading/Republican}} |
+*[[Sam Brownback]], Kansas, ''Vice Ranking Member''
+*[[John Barrasso]], Wyoming
+*[[Bob Corker]], Tennessee
+*[[George LeMieux]], Florida
+|-
+!House members
+|valign="top" {{party shading/Democratic}} |
+*[[Sander Levin|Sandy Levin]], Michigan, ''Co-Chair''
+*[[Marcy Kaptur]], Ohio
+*[[Mike Honda]], California
+*[[Tim Walz]], Minnesota
+*[[David Wu]], Oregon
+|valign="top" {{party shading/Republican}} |
+*[[Chris Smith (New Jersey politician)|Chris Smith]], New Jersey, ''Ranking Member''
+*[[Joe Pitts (Pennsylvania politician)|Joe Pitts]], Pennsylvania
+*[[Don Manzullo]], Illinois
+*[[Ed Royce (politician)|Ed Royce]], California
+|-
+!Executive Branch
+|colspan=2 |
+*[[Kurt M. Campbell|Kurt Campbell]], [[United States Department of State|Department of State]]
+*[[Seth Harris]], [[United States Department of Labor|Department of Labor]]
+*[[Maria Otero]], [[United States Department of State|Department of State]]
+*[[Francisco Sánchez (diplomat)|Francisco Sánchez]], [[United States Department of Commerce|Department of Commerce]]
+*''1 vacant'', [[United States Department of State|Department of State]]
+|}
+
+;Commissioners, 110th Congress
+{|class=wikitable
+!
+!width="50%" |Majority
+!width="50%" |Minority
+|-
+!Senate members
+|valign="top" {{party shading/Democratic}} |
+*[[Byron Dorgan]], North Dakota, ''Co-Chair''
+*[[Max Baucus]], Montana
+*[[Dianne Feinstein]], California
+*[[Carl Levin]], Michigan
+*[[Sherrod Brown]], Ohio
+|valign="top" {{party shading/Republican}} |
+*[[Chuck Hagel]], Nebraska, ''Ranking Member''
+*[[Sam Brownback]], Kansas
+*[[Gordon H. Smith|Gordon Smith]], Oregon
+*[[Mel Martínez]], Florida
+|-
+!House members
+|valign="top" {{party shading/Democratic}} |
+*[[Sander Levin|Sandy Levin]], Michigan, ''Chair''
+*[[Marcy Kaptur]], Ohio
+*[[Mike Honda]], California
+*[[Tom Udall]], New Mexico
+*[[Tim Walz]], Minnesota
+|valign="top" {{party shading/Republican}} |
+*[[Chris Smith (New Jersey politician)|Chris Smith]], New Jersey, ''Vice Ranking Member''
+*[[Joe Pitts (Pennsylvania politician)|Joe Pitts]], Pennsylvania
+*[[Don Manzullo]], Illinois
+*[[Ed Royce (politician)|Ed Royce]], California
+|-
+!Executive Branch
+|colspan=2 |
+*[[Paula Dobriansky]], [[United States Department of State|Department of State]]
+*[[Christopher R. Hill|Christopher Hill]], [[United States Department of State|Department of State]]
+*[[Howard M. Radzely|Howard Radzely]], [[United States Department of Labor|Department of Labor]]
+*[[David J. Kramer|David Kramer]], [[United States Department of State|Department of State]]
+*[[Christopher A. Padilla|Christopher Padilla]], [[United States Department of Commerce|Department of Commerce]]
+|}
+
+;Commissioners, 109th Congress
+{|class=wikitable
+!
+!width="50%" |Majority
+!width="50%" |Minority
+|-
+!Senate members
+|valign="top" {{party shading/Republican}} |
+*[[Chuck Hagel]], Nebraska, ''Chair''
+*[[Sam Brownback]], Kansas
+*[[Gordon H. Smith|Gordon Smith]], Oregon
+*[[Jim DeMint]], South Carolina
+*[[Mel Martínez]], Florida
+|valign="top" {{party shading/Democratic}} |
+*[[Max Baucus]], Montana, ''Vice Ranking Member''
+*[[Byron Dorgan]], North Dakota
+*[[Dianne Feinstein]], California
+*[[Carl Levin]], Michigan
+|-
+!House members
+|valign="top" {{party shading/Republican}} |
+*[[Jim Leach]], Iowa, ''Co-Chair''
+*[[David Dreier]], California
+*[[Joe Pitts (Pennsylvania politician)|Joe Pitts]], Pennsylvania
+*[[Don Manzullo]], Illinois
+*[[Frank Wolf (politician)|Frank Wolf]], Virginia
+*[[Robert Aderholt|Bob Aderholt]], Alabama
+|valign="top" {{party shading/Democratic}} |
+*[[Marcy Kaptur]], Ohio, ''Ranking Member''
+*[[Sander Levin|Sandy Levin]], Michigan
+*[[Sherrod Brown]], Ohio
+*[[Mike Honda]], California
+|-
+!Executive Branch
+|colspan=2 |
+*[[Paula Dobriansky]], [[United States Department of State|Department of State]]
+*[[Steven J. Law|Steven Law]], [[United States Department of Labor|Department of Labor]]
+*[[Christopher R. Hill|Christopher Hill]], [[United States Department of State|Department of State]]
+*[[Frank Lavin]], [[United States Department of Commerce|Department of Commerce]]
+*[[Barry Lowenkron]], [[United States Department of State|Department of State]]
+|}
+
+;Commissioners, 108th Congress
+{|class=wikitable
+!
+!width="50%" |Majority
+!width="50%" |Minority
+|-
+!Senate members
+|valign="top" {{party shading/Republican}} |
+*[[Chuck Hagel]], Nebraska, ''Co-Chair''
+*[[Sam Brownback]], Kansas
+*[[Pat Roberts]], Kansas
+*[[Gordon H. Smith|Gordon Smith]], Oregon
+*[[Craig L. Thomas|Craig Thomas]], Wyoming
+|valign="top" {{party shading/Democratic}} |
+*[[Max Baucus]], Montana, ''Ranking Member''
+*[[Byron Dorgan]], North Dakota
+*[[Dianne Feinstein]], California
+*[[Carl Levin]], Michigan
+|-
+!House members
+|valign="top" {{party shading/Republican}} |
+*[[Jim Leach]], Iowa, ''Chair''
+*[[Doug Bereuter]], Nebraska
+*[[David Dreier]], California
+*[[Joe Pitts (Pennsylvania politician)|Joe Pitts]], Pennsylvania
+*[[Frank Wolf (politician)|Frank Wolf]], Virginia
+*[[Robert Aderholt|Bob Aderholt]], Alabama
+|valign="top" {{party shading/Democratic}} |
+*[[Marcy Kaptur]], Ohio, ''Vice Ranking Member''
+*[[Sander Levin|Sandy Levin]], Michigan
+*[[Sherrod Brown]], Ohio
+*[[David Wu]], Oregon
+|-
+!Executive Branch
+|colspan=2 |
+*[[Grant Aldonas]], [[United States Department of Commerce|Department of Commerce]]
+*[[Lorne Craner]], [[United States Department of State|Department of State]]
+*[[Paula Dobriansky]], [[United States Department of State|Department of State]]
+*[[James A. Kelly|James Kelly]], [[United States Department of State|Department of State]]
+*[[Steven J. Law|Steven Law]], [[United States Department of Labor|Department of Labor]]
+|}
+
+;Commissioners, 107th Congress
+{|class=wikitable
+!
+!width="50%" |Majority
+!width="50%" |Minority
+|-
+!Senate members
+|valign="top" {{party shading/Democratic}} |
+*[[Max Baucus]], Montana, ''Chair''
+*[[Evan Bayh]], Indiana
+*[[Byron Dorgan]], North Dakota
+*[[Dianne Feinstein]], California
+*[[Carl Levin]], Michigan
+|valign="top" {{party shading/Republican}} |
+*[[Chuck Hagel]], Nebraska, ''Vice Ranking Member''
+*[[Sam Brownback]], Kansas
+*[[Tim Hutchinson]], Arkansas
+*[[Bob Smith (New Hampshire politician)|Bob Smith]], New Hampshire
+|-
+!House members
+|valign="top" {{party shading/Republican}} |
+*[[Doug Bereuter]], Nebraska, ''Co-Chair''
+*[[David Dreier]], California
+*[[Jim Leach]], Iowa
+*[[Joe Pitts (Pennsylvania politician)|Joe Pitts]], Pennsylvania
+*[[Frank Wolf (politician)|Frank Wolf]], Virginia
+|valign="top" {{party shading/Democratic}} |
+*[[Sander Levin|Sandy Levin]], Michigan, ''Ranking Member''
+*[[Jim Davis (Florida politician)|Jim Davis]], Florida
+*[[Marcy Kaptur]], Ohio
+*[[Nancy Pelosi]], California {{small|(until June 2002)}}
+*[[Sherrod Brown]], Ohio {{small|(from June 2002)}}
+|-
+!Executive Branch
+|colspan=2 |
+*[[Grant Aldonas]], [[United States Department of Commerce|Department of Commerce]]
+*[[Lorne Craner]], [[United States Department of State|Department of State]]
+*[[Paula Dobriansky]], [[United States Department of State|Department of State]]
+*[[D. Cameron Findlay|Cameron Findlay]], [[United States Department of Labor|Department of Labor]]
+*[[James A. Kelly|James Kelly]], [[United States Department of State|Department of State]]
+|}
+{{hidden end}}
+
+==Historical leadership==
+{|class="wikitable sortable"
+!Start
+!End
+!Chair
+!Co-chair
+!Ranking Member
+!Vice Ranking Member
+|-
+|2001
+|2003
+|{{party shading/Democratic}} |Sen. [[Max Baucus]] (D-MT)
+|{{party shading/Republican}} |Rep. [[Doug Bereuter]] (R-NE)
+|{{party shading/Democratic}} |Rep. [[Sander Levin|Sandy Levin]] (D-MI)
+|{{party shading/Republican}} |Sen. [[Chuck Hagel]] (R-NE)
+|-
+|2003
+|2005
+|{{party shading/Republican}} |Rep. [[Jim Leach]] (R-IA)
+|{{party shading/Republican}} |Sen. [[Chuck Hagel]] (R-NE)
+|{{party shading/Democratic}} |Sen. [[Max Baucus]] (D-MT)
+|{{party shading/Democratic}} |Rep. [[Marcy Kaptur]] (D-OH)
+|-
+|2005
+|2007
+|{{party shading/Republican}} |Sen. [[Chuck Hagel]] (R-NE)
+|{{party shading/Republican}} |Rep. [[Jim Leach]] (R-IA)
+|{{party shading/Democratic}} |Rep. [[Marcy Kaptur]] (D-OH)
+|{{party shading/Democratic}} |Sen. [[Max Baucus]] (D-MT)
+|-
+|2007
+|2009
+|{{party shading/Democratic}} |Rep. [[Sander Levin|Sandy Levin]] (D-MI)
+|{{party shading/Democratic}} |Sen. [[Byron Dorgan]] (D-ND)
+|{{party shading/Republican}} |Sen. [[Chuck Hagel]] (R-NE)
+|{{party shading/Republican}} |Rep. [[Chris Smith (New Jersey politician)|Chris Smith]] (R-NJ)
+|-
+|2009
+|2011
+|{{party shading/Democratic}} |Sen. [[Byron Dorgan]] (D-ND)
+|{{party shading/Democratic}} |Rep. [[Sander Levin|Sandy Levin]] (D-MI)
+|{{party shading/Republican}} |Rep. [[Chris Smith (New Jersey politician)|Chris Smith]] (R-NJ)
+|{{party shading/Republican}} |Sen. [[Chuck Hagel]] (R-NE)
+|-
+|2011
+|2013
+|{{party shading/Republican}} |Rep. [[Chris Smith (New Jersey politician)|Chris Smith]] (R-NJ)
+|{{party shading/Democratic}} |Sen. [[Sherrod Brown]] (D-OH)
+|{{party shading/Republican}} |Sen. [[Susan Collins]] (R-ME)
+|{{party shading/Democratic}} |Rep. [[Tim Walz]] (D-MN)
+|-
+|2013
+|2015
+|{{party shading/Democratic}} |Sen. [[Sherrod Brown]] (D-OH)
+|{{party shading/Republican}} |Rep. [[Chris Smith (New Jersey politician)|Chris Smith]] (R-NJ)
+|{{party shading/Democratic}} |Rep. [[Tim Walz]] (D-MN)
+|{{party shading/Republican}} |Sen. [[Susan Collins]] (R-ME)
+|-
+|2015
+|2017
+|{{party shading/Republican}} |Rep. [[Chris Smith (New Jersey politician)|Chris Smith]] (R-NJ)
+|{{party shading/Republican}} |Sen. [[Marco Rubio]] (R-FL)
+|{{party shading/Democratic}} |Sen. [[Dianne Feinstein]] (D-CA)
+|{{party shading/Democratic}} |Rep. [[Tim Walz]] (D-MN)
+|-
+|2017
+|2019
+|{{party shading/Republican}} |Sen. [[Marco Rubio]] (R-FL)
+|{{party shading/Republican}} |Rep. [[Chris Smith (New Jersey politician)|Chris Smith]] (R-NJ)
+|{{party shading/Democratic}} |Rep. [[Marcy Kaptur]] (D-OH)
+|{{party shading/Democratic}} |Sen. [[Dianne Feinstein]] (D-CA)
+|-
+|2019
+|2021
+|{{party shading/Democratic}} |Rep. [[Jim McGovern (American politician)|Jim McGovern]] (D-MA)
+|{{party shading/Republican}} |Sen. [[Marco Rubio]] (R-FL)
+|{{party shading/Democratic}} |Sen. [[Dianne Feinstein]] (D-CA)
+|{{party shading/Republican}} |Rep. [[Chris Smith (New Jersey politician)|Chris Smith]] (R-NJ)
+|-
+|2021
+|2023
+|{{party shading/Democratic}} |Sen. [[Jeff Merkley]] (D-OR)
+|{{party shading/Democratic}} |Rep. [[Jim McGovern (American politician)|Jim McGovern]] (D-MA)
+|{{party shading/Republican}} |Rep. [[Chris Smith (New Jersey politician)|Chris Smith]] (R-NJ)
+|{{party shading/Republican}} |Sen. [[Marco Rubio]] (R-FL)
+|-
+|2023
+|2025
+|{{party shading/Republican}} |Rep. [[Chris Smith (New Jersey politician)|Chris Smith]] (R-NJ)
+|{{party shading/Democratic}} |Sen. [[Jeff Merkley]] (D-OR)
+|{{party shading/Republican}} |Sen. [[Marco Rubio]] (R-FL)
+|{{party shading/Democratic}} |Rep. [[Jim McGovern (American politician)|Jim McGovern]] (D-MA)
+|-
+|2025
+|present
+|{{party shading/Republican}} |Sen. [[Dan Sullivan (U.S. senator)|Dan Sullivan]] (R-AK)
+|{{party shading/Republican}} |Rep. [[Chris Smith (New Jersey politician)|Chris Smith]] (R-NJ)
+|{{party shading/Democratic}} |Rep. [[Jim McGovern (American politician)|Jim McGovern]] (D-MA)
+|{{party shading/Democratic}} |Sen. [[Jeff Merkley]] (D-OR)
+|}
+
+== See also ==
+*[[United States House Select Committee on Strategic Competition between the United States and the Chinese Communist Party]]
+
+== References ==
+{{reflist}}
+
+==External links==
+*{{Official website}}
+
+{{China–United States relations}}
+{{United States congressional committees|state=collapsed}}
+{{US Joint Chairs}}
+{{Authority control}}
+
+[[Category:American entities subject to Chinese government sanctions]]
+[[Category:Independent agencies of the United States government]]
+[[Category:Human rights organizations based in the United States]]
+[[Category:Human rights in China]]
+[[Category:United States national commissions]]
+[[Category:Foreign relations agencies of the United States]]
+[[Category:China–United States relations]]
+[[Category:Agencies of the United States Congress]]

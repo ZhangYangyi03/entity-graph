@@ -1,0 +1,37 @@
+{{Short description|American nonprofit organization}}
+{{Use mdy dates|date=February 2025}}
+{{Infobox organization
+| name                     = China Institute
+| established              = {{start date and age|1926}}
+| full_name                = China Institute of America
+| logo                     = China Institute seal.svg
+| logo_size                = 120
+| type                     = [[501(c)(3) organization]]
+| tax_id                   = 13-1623937
+| purpose                  = Education, Arts, Cultural Programs
+| headquarters             = 100 Washington Street, New York, NY 10006
+| website                  = {{Official URL}}
+}}
+
+'''China Institute of America''' is a [[nonprofit]] educational and cultural institution based in [[New York City]]. Its work is focused on promoting Chinese culture and history through talks, business initiatives, language immersion programs, and gallery exhibitions.<ref name="untapped">{{Cite news |last=Sheidlower |first=Noah |date=2021-06-04 |title=NYC's China Institute, the Oldest Chinese Bicultural Non-Profit in America |language=en-US |url=https://untappedcities.com/2021/06/04/china-institute-gallery/ |work=Untapped New York |access-date=2021-12-21 |archive-date=2021-12-21 |archive-url=https://web.archive.org/web/20211221001316/https://untappedcities.com/2021/06/04/china-institute-gallery/ |url-status=live }}</ref> It hosts a [[Confucius Institute]] in partnership with the [[East China Normal University]].<ref>{{Cite web |title=Confucius Institute at China Institute (CI@CI) |url=https://www.chinainstitute.org/about-us/confucius-institute-at-china-institute-cici/ |url-status=dead |archive-url=https://web.archive.org/web/20220123024223/https://www.chinainstitute.org/about-us/confucius-institute-at-china-institute-cici/ |archive-date=2022-01-23 |access-date=2022-01-23 |website=China Institute}}</ref><ref>{{Cite news |date=November 2, 2023 |title=All But Five Confucius Institutes on US Campuses Have Closed, According to GAO |work=[[Bloomberg News]] |url=https://www.bloomberg.com/news/articles/2023-11-02/china-s-confucius-institutes-are-disappearing-from-us-campuses |access-date=November 8, 2023 |archive-date=November 3, 2023 |archive-url=https://web.archive.org/web/20231103050254/https://www.bloomberg.com/news/articles/2023-11-02/china-s-confucius-institutes-are-disappearing-from-us-campuses |url-status=live }}</ref><ref>{{Cite web |date=June 20, 2023 |title=How Many Confucius Institutes Are in the United States? |url=https://www.nas.org/blogs/article/how_many_confucius_institutes_are_in_the_united_states |access-date=2023-11-09 |website=[[National Association of Scholars]] |language=en |archive-date=2023-11-07 |archive-url=https://web.archive.org/web/20231107182156/https://www.nas.org/blogs/article/how_many_confucius_institutes_are_in_the_united_states |url-status=live }}</ref>
+
+== History ==
+China Institute was founded in 1926 by a group of American and Chinese educators—including educational philosopher [[John Dewey]] of [[Columbia University]] and Chinese educator [[Hu Shih]] (later president of [[Peking University]] and China's ambassador to the U.S.)<ref>{{Cite web |title=China Institute - About Us |url=https://chinainstitute.org/about-us/ |access-date=2023-10-10 |website=China Institute |language=en-US |archive-date=2023-06-11 |archive-url=https://web.archive.org/web/20230611010549/https://chinainstitute.org/about-us/ |url-status=live }}</ref>
+
+China Institute is believed to be the oldest educational organization devoted solely to Chinese culture, and has drawn one million visitors in its nearly hundred years of existence.<ref name="fuchs">{{Cite news |last=Fuchs |first=Chris |date=2020-04-20 |title=The soft power of New York's China Institute |language=en |work=[[NBC News]] |url=https://www.nbcnews.com/news/asian-america/soft-power-new-york-s-china-institute-n1175296 |access-date=2021-12-21 |archive-date=2021-12-21 |archive-url=https://web.archive.org/web/20211221001307/https://www.nbcnews.com/news/asian-america/soft-power-new-york-s-china-institute-n1175296 |url-status=live }}</ref><ref name="pogrebin" /><ref name="kino" /> Following the 1949 establishment of the [[People's Republic of China]], the organization lost many of its ties to mainland China.<ref name="kino">{{Cite news |last=Kino |first=Carol |date=2010-03-17 |title=Curator of Collections and Connections |language=en-US |work=[[The New York Times]] |url=https://www.nytimes.com/2010/03/21/arts/design/21chang.html |access-date=2021-12-21 |issn=0362-4331 |archive-date=2021-12-21 |archive-url=https://web.archive.org/web/20211221001306/https://www.nytimes.com/2010/03/21/arts/design/21chang.html |url-status=live }}</ref> In 2015, China Institute announced plans to move from the Upper East Side to Lower Manhattan the following year.<ref name="pogrebin">{{Cite news |last=Pogrebin |first=Robin |date=2015-07-09 |title=China Institute Moving to Larger Home in Lower Manhattan |language=en-US |work=[[The New York Times]] |url=https://artsbeat.blogs.nytimes.com/2015/07/09/china-institute-moving-to-larger-home-in-lower-manhattan/ |access-date=2021-12-21 |archive-date=2021-12-21 |archive-url=https://web.archive.org/web/20211221002811/https://artsbeat.blogs.nytimes.com/2015/07/09/china-institute-moving-to-larger-home-in-lower-manhattan/ |url-status=live }}</ref> The new space at 100 Washington Street opened in November 2016, coinciding with the gallery's fiftieth anniversary.<ref name="cotter">{{Cite news |last=Cotter |first=Holland |date=2016-11-17 |title=Chinese History, Writ in Stunning Stone |language=en-US |work=[[The New York Times]] |url=https://www.nytimes.com/2016/11/18/arts/design/review-chinese-history-writ-in-stunning-stone.html |access-date=2021-12-21 |issn=0362-4331 |archive-date=2021-12-21 |archive-url=https://web.archive.org/web/20211221001309/https://www.nytimes.com/2016/11/18/arts/design/review-chinese-history-writ-in-stunning-stone.html |url-status=live }}</ref>
+
+==References==
+{{Reflist}}
+
+==External links==
+*{{official website}}
+*{{ProPublicaNonprofitExplorer|131623937}}
+
+[[Category:Language education organizations]]
+[[Category:Chinese culture]]
+[[Category:Chinese-language education]]
+[[Category:1926 establishments in New York City]]
+[[Category:Non-profit organizations based in New York City]]
+[[Category:Art museums and galleries in Manhattan]]
+[[Category:1920s establishments in New York City]]
+[[Category:Lower Manhattan]]

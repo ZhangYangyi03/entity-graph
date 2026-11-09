@@ -1,0 +1,68 @@
+{
+ "All-China Federation of Industry and Commerce": {
+  "zh": "中国工商界民间/人民团体",
+  "kind": "商业民间机构",
+  "extract": "The All-China Federation of Industry and Commerce (ACFIC) is a people's organization and chamber of commerce, established in 1953 as a successor to the chambers of commerce that were first founded during the Qing dynasty.\nThe organization is overseen by the United Front Work Department of the Central Committee of the Chinese Communist Party, is a constituent organization of the National Committee of the Chinese People's Political Consultative Conference (CPPCC), and its delegates hold a number of seats in the National People's Congress. The organization assists the government in managing China's private sector economy and acts as a bridge between the private sector entities and the government.",
+  "found": true
+ },
+ "China Council for the Promotion of International Trade": {
+  "zh": "中国贸促会 / 中国国际商会",
+  "kind": "商业民间机构",
+  "extract": "The China Council for the Promotion of International Trade (CCPIT), also called the China Chamber of International Commerce (CCOIC), is a people's organization and trade body founded in 1952. CCPIT is linked to the Ministry of Commerce.\n\n",
+  "found": true
+ },
+ "Chinese People's Association for Friendship with Foreign Countries": {
+  "zh": "中国人民对外友好协会",
+  "kind": "民间外交机构",
+  "extract": "The Chinese People's Association for Friendship with Foreign Countries (CPAFFC) is one of the major foreign affairs organizations of the People's Republic of China. The organization is officially termed a \"people's organization\" and manages China's sister city relationships. Its stated aim is to promote friendship and mutual understanding between the Chinese people and foreign nations but observers have pointed out that it functions as a front organization in the united front system used to influence and co-opt elites to promote the interests of the Chinese Communist Party (CCP) while downplaying its association with the CCP.\nThe CPAFFC was founded in May 1954 to promote civic exchanges with countries that did not have diplomatic relations with the PRC. The CPAFFC has been described as the \"public face\" of the CCP's United Front Work Department. Its leadership is drawn from the upper ranks of the Chinese Communist Party and, as part of the United Front Work Department, it has as its goal \"to make the foreign serve China.\" The CPAFFC sponsors and coordinates various front organizations and influence operations in other countries at the national and sub-national level.",
+  "found": true
+ },
+ "All-China Youth Federation": {
+  "zh": "中华全国青年联合会",
+  "kind": "人民团体",
+  "extract": "The All-China Youth Federation (ACYF) is a people's organization that represents many youth groups in the People's Republic of China, and is managed by the Communist Youth League of China. It was founded on 4 May 1949. Former paramount leaders and general secretaries of the Chinese Communist Party Hu Jintao and Jiang Zemin were both members.",
+  "found": true
+ },
+ "All-China Women's Federation": {
+  "zh": "中华全国妇女联合会",
+  "kind": "人民团体",
+  "extract": "The All-China Women's Federation (ACWF) is a people's organization established during the Chinese Civil War on 24 March 1949. It was originally called the All-China Democratic Women's Foundation, and was renamed the All-China Women's Federation in 1957. It has acted as the official leader of the women's movement in the People's Republic of China since its founding in 1949.\n\n",
+  "found": true
+ },
+ "China Soong Ching Ling Foundation": {
+  "zh": "中国宋庆龄基金会",
+  "kind": "基金会/人民团体",
+  "extract": "The China Soong Ching Ling Foundation is a people's organization named after Soong Ching-ling, the honorary chairwoman of the People's Republic of China.",
+  "found": true
+ },
+ "Chinese People's Institute of Foreign Affairs": {
+  "zh": "中国人民外交学会",
+  "kind": "民间外交机构",
+  "extract": "The Chinese People's Institute of Foreign Affairs (CPIFA) is a people's organization in the People's Republic of China dedicated to promoting the country's public diplomacy.",
+  "found": true
+ },
+ "Chinese People's Political Consultative Conference": {
+  "zh": "中国人民政治协商会议",
+  "kind": "政治机构",
+  "extract": "The Chinese People's Political Consultative Conference (CPPCC) is a political advisory body in the People's Republic of China and a central part of the Chinese Communist Party (CCP)'s united front system. Its members advise and submit proposals for political and social issues to government bodies. However, the CPPCC is a body without legislative power. While consultation does take place, it is supervised and directed by the CCP.\nThe Political Consultative Conference was established in 1945 as part of peace negotiations between the Kuomintang and the CCP. The conference ultimately ended in failure, leading the CCP to withdraw. In 1948, after major successes in the Chinese Civil War, the CCP started to gather a new conference to discuss a new state and new government to replace the Republic of China. In 1949, the first plenary session of the CPPCC gathered, and adopted the Common Program, and laid the groundwork for the foundation of the People's Republic of China. The CPPCC initially acted as the de facto legislature of the PRC, until its legislative powers were transferred to the National People's Congress with the adoption of the 1954 Constitution.\nThe organizational hierarchy of the CPPCC consists of a National Committee and regional committees. Regional committees extend to the provincial, prefecture, and county level. According to the charter of the CPPCC, the relationship between the National Committee and the regional committees is one of guidance and not direct leadership. However, an indirect leadership exists via the CCP Central Committee's United Front Work Department at each level. The National Committee of the Chinese People's Political Consultative Conference typically holds a yearly meeting at the same time as plenary sessions of the NPC. The CPPCC National Committee and NPC plenary sessions are collectively called the Two Sessions.\nThe body traditionally consists of delegates from the CCP and its people's organizations, eight non-oppositional democratic parties subservient to the CCP, as well as nominally independent members. The CPPCC National Committee is chaired by a member of the Politburo Standing Committee of the CCP, who is assisted by several vice chairs and a secretary-general. The CPPCC is intended to be more representative of a broader range of people than is typical of government office in the People's Republic of China, including a broad range of people from both inside and outside the CCP. The composition of the members of the CPPCC changes over time according to national strategic priorities.",
+  "found": true
+ },
+ "China General Chamber of Commerce-USA": {
+  "zh": "中国美国总商会",
+  "kind": "境外商业民间机构",
+  "extract": "",
+  "found": false
+ },
+ "China Overseas Exchange Association": {
+  "zh": "中国海外交流协会",
+  "kind": "民间/侨务机构",
+  "extract": "The Overseas Chinese Affairs Office of the State Council (OCAO) is an external name of the United Front Work Department (UFWD) of the Central Committee of the Chinese Communist Party. The Committee of Overseas Chinese Affairs was established in 1949 and existed until 1970. In 1978, the Overseas Chinese Affairs Office was established. Prior to 2018, OCAO was an administrative office under the State Council responsible for liaising with and influencing overseas Chinese as part of its united front efforts. Following a series of institutional reforms in 2018, OCAO was merged into the UFWD, with its functions being taken up by the department. Under the arrangement \"one institution with two names\", UFWD reserves the name \"Overseas Chinese Affairs Office of the State Council\", generally used when dealing in public statements and dealing with the outside world regarding overseas Chinese affairs.\n\n",
+  "found": true
+ },
+ "China Association for Preservation and Development of Tibetan Culture": {
+  "zh": "中国西藏文化保护与发展协会",
+  "kind": "民间机构",
+  "extract": "",
+  "found": false
+ }
+}

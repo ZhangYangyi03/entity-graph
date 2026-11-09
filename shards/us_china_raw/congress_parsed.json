@@ -1,0 +1,1138 @@
+[
+ {
+  "name": "Hiram Fong",
+  "ethnicity": [
+   "Chinese"
+  ],
+  "party": "Republican",
+  "state": "Hawaii",
+  "years": [
+   "1959",
+   "1977"
+  ],
+  "raw_len": 465
+ },
+ {
+  "name": "Daniel Inouye",
+  "ethnicity": [
+   "Japanese"
+  ],
+  "party": "Democratic",
+  "state": "Hawaii",
+  "years": [
+   "1963",
+   "2012"
+  ],
+  "raw_len": 466
+ },
+ {
+  "name": "S. I. Hayakawa",
+  "ethnicity": [
+   "Japanese"
+  ],
+  "party": "Republican",
+  "state": "California",
+  "years": [
+   "1977",
+   "1983"
+  ],
+  "raw_len": 361
+ },
+ {
+  "name": "Spark Matsunaga",
+  "ethnicity": [
+   "Japanese"
+  ],
+  "party": "Democratic",
+  "state": "Hawaii",
+  "years": [
+   "1977",
+   "1990"
+  ],
+  "raw_len": 344
+ },
+ {
+  "name": "Daniel Akaka",
+  "ethnicity": [
+   "Chinese",
+   "Hawaiian"
+  ],
+  "party": "Democratic",
+  "state": "Hawaii",
+  "years": [
+   "1990",
+   "2013"
+  ],
+  "raw_len": 491
+ },
+ {
+  "name": "John Ensign",
+  "ethnicity": [
+   "Filipino"
+  ],
+  "party": "Republican",
+  "state": "Nevada",
+  "years": [
+   "2001",
+   "2011"
+  ],
+  "raw_len": 425
+ },
+ {
+  "name": "Mazie Hirono",
+  "ethnicity": [
+   "Japanese"
+  ],
+  "party": "Democratic",
+  "state": "Hawaii",
+  "years": [
+   "2013"
+  ],
+  "raw_len": 431
+ },
+ {
+  "name": "Tammy Duckworth",
+  "ethnicity": [],
+  "party": "Democratic",
+  "state": "Illinois",
+  "years": [
+   "2017"
+  ],
+  "raw_len": 433
+ },
+ {
+  "name": "Kamala Harris",
+  "ethnicity": [
+   "Indian"
+  ],
+  "party": "Democratic",
+  "state": "California",
+  "years": [
+   "2017",
+   "2021"
+  ],
+  "raw_len": 586
+ },
+ {
+  "name": "Dalip Singh Saund",
+  "ethnicity": [
+   "Indian"
+  ],
+  "party": "Democratic",
+  "state": "California",
+  "years": [
+   "1957",
+   "1963"
+  ],
+  "raw_len": 490
+ },
+ {
+  "name": "Daniel Inouye",
+  "ethnicity": [
+   "Japanese"
+  ],
+  "party": "Democratic",
+  "state": "Hawaii",
+  "years": [
+   "1959",
+   "1963"
+  ],
+  "raw_len": 497
+ },
+ {
+  "name": "Spark Matsunaga",
+  "ethnicity": [
+   "Japanese"
+  ],
+  "party": "Democratic",
+  "state": "Hawaii",
+  "years": [
+   "1963",
+   "1977"
+  ],
+  "raw_len": 428
+ },
+ {
+  "name": "Patsy Mink",
+  "ethnicity": [
+   "Japanese"
+  ],
+  "party": "Democratic",
+  "state": "Hawaii",
+  "years": [
+   "1965",
+   "1977"
+  ],
+  "raw_len": 539
+ },
+ {
+  "name": "Norman Mineta",
+  "ethnicity": [
+   "Japanese"
+  ],
+  "party": "Democratic",
+  "state": "California",
+  "years": [
+   "1975",
+   "1995"
+  ],
+  "raw_len": 513
+ },
+ {
+  "name": "Daniel Akaka",
+  "ethnicity": [
+   "Chinese",
+   "Hawaiian"
+  ],
+  "party": "Democratic",
+  "state": "Hawaii",
+  "years": [
+   "1977",
+   "1990"
+  ],
+  "raw_len": 590
+ },
+ {
+  "name": "Bob Matsui",
+  "ethnicity": [
+   "Japanese"
+  ],
+  "party": "Democratic",
+  "state": "California",
+  "years": [
+   "1979",
+   "2005"
+  ],
+  "raw_len": 399
+ },
+ {
+  "name": "Mervyn Dymally",
+  "ethnicity": [
+   "Indian"
+  ],
+  "party": "Democratic",
+  "state": "California",
+  "years": [
+   "1981",
+   "1993"
+  ],
+  "raw_len": 417
+ },
+ {
+  "name": "Pat Saiki",
+  "ethnicity": [
+   "Japanese"
+  ],
+  "party": "Republican",
+  "state": "Hawaii",
+  "years": [
+   "1987",
+   "1991"
+  ],
+  "raw_len": 454
+ },
+ {
+  "name": "Jay Kim",
+  "ethnicity": [
+   "Korean"
+  ],
+  "party": "Republican",
+  "state": "California",
+  "years": [
+   "1993",
+   "1999"
+  ],
+  "raw_len": 478
+ },
+ {
+  "name": "Bobby Scott",
+  "ethnicity": [
+   "Filipino"
+  ],
+  "party": "Democratic",
+  "state": "Virginia",
+  "years": [
+   "1993"
+  ],
+  "raw_len": 439
+ },
+ {
+  "name": "John Ensign",
+  "ethnicity": [],
+  "party": "Republican",
+  "state": "Nevada",
+  "years": [
+   "1995",
+   "1999"
+  ],
+  "raw_len": 565
+ },
+ {
+  "name": "David Wu",
+  "ethnicity": [
+   "Taiwanese"
+  ],
+  "party": "Democratic",
+  "state": "Oregon",
+  "years": [
+   "1999",
+   "2011"
+  ],
+  "raw_len": 424
+ },
+ {
+  "name": "Mike Honda",
+  "ethnicity": [
+   "Japanese"
+  ],
+  "party": "Democratic",
+  "state": "California",
+  "years": [
+   "2001",
+   "2017"
+  ],
+  "raw_len": 396
+ },
+ {
+  "name": "Bobby Jindal",
+  "ethnicity": [
+   "Indian"
+  ],
+  "party": "Republican",
+  "state": "",
+  "years": [
+   "2005",
+   "2008"
+  ],
+  "raw_len": 467
+ },
+ {
+  "name": "Doris Matsui",
+  "ethnicity": [
+   "Japanese"
+  ],
+  "party": "Democratic",
+  "state": "California",
+  "years": [
+   "2005"
+  ],
+  "raw_len": 362
+ },
+ {
+  "name": "Mazie Hirono",
+  "ethnicity": [
+   "Japanese"
+  ],
+  "party": "Democratic",
+  "state": "Hawaii",
+  "years": [
+   "2007",
+   "2013"
+  ],
+  "raw_len": 486
+ },
+ {
+  "name": "Steve Austria",
+  "ethnicity": [],
+  "party": "Republican",
+  "state": "Ohio",
+  "years": [
+   "2009",
+   "2013"
+  ],
+  "raw_len": 358
+ },
+ {
+  "name": "Joseph Cao",
+  "ethnicity": [
+   "Vietnamese"
+  ],
+  "party": "Republican",
+  "state": "",
+  "years": [
+   "2009",
+   "2011"
+  ],
+  "raw_len": 506
+ },
+ {
+  "name": "Judy Chu",
+  "ethnicity": [
+   "Chinese"
+  ],
+  "party": "Democratic",
+  "state": "California",
+  "years": [
+   "2009"
+  ],
+  "raw_len": 400
+ },
+ {
+  "name": "Charles Djou",
+  "ethnicity": [
+   "Chinese",
+   "Thai"
+  ],
+  "party": "Republican",
+  "state": "Hawaii",
+  "years": [
+   "2010",
+   "2011"
+  ],
+  "raw_len": 514
+ },
+ {
+  "name": "Hansen Clarke",
+  "ethnicity": [
+   "Bangladeshi"
+  ],
+  "party": "Democratic",
+  "state": "Michigan",
+  "years": [
+   "2011",
+   "2013"
+  ],
+  "raw_len": 606
+ },
+ {
+  "name": "Colleen Hanabusa",
+  "ethnicity": [
+   "Japanese"
+  ],
+  "party": "Democratic",
+  "state": "Hawaii",
+  "years": [
+   "2011",
+   "2015"
+  ],
+  "raw_len": 540
+ },
+ {
+  "name": "Ami Bera",
+  "ethnicity": [
+   "Indian"
+  ],
+  "party": "Democratic",
+  "state": "California",
+  "years": [
+   "2013"
+  ],
+  "raw_len": 330
+ },
+ {
+  "name": "Tammy Duckworth",
+  "ethnicity": [
+   "Chinese",
+   "Thai"
+  ],
+  "party": "Democratic",
+  "state": "Illinois",
+  "years": [
+   "2013",
+   "2017"
+  ],
+  "raw_len": 593
+ },
+ {
+  "name": "Tulsi Gabbard",
+  "ethnicity": [
+   "Samoan"
+  ],
+  "party": "Democratic",
+  "state": "Hawaii",
+  "years": [
+   "2013",
+   "2021"
+  ],
+  "raw_len": 611
+ },
+ {
+  "name": "Grace Meng",
+  "ethnicity": [
+   "Taiwanese"
+  ],
+  "party": "Democratic",
+  "state": "",
+  "years": [
+   "2013"
+  ],
+  "raw_len": 443
+ },
+ {
+  "name": "Mark Takano",
+  "ethnicity": [
+   "Japanese"
+  ],
+  "party": "Democratic",
+  "state": "California",
+  "years": [
+   "2013"
+  ],
+  "raw_len": 431
+ },
+ {
+  "name": "Ted Lieu",
+  "ethnicity": [
+   "Taiwanese"
+  ],
+  "party": "Democratic",
+  "state": "California",
+  "years": [
+   "2015"
+  ],
+  "raw_len": 338
+ },
+ {
+  "name": "Mark Takai",
+  "ethnicity": [
+   "Japanese"
+  ],
+  "party": "Democratic",
+  "state": "Hawaii",
+  "years": [
+   "2015",
+   "2016"
+  ],
+  "raw_len": 428
+ },
+ {
+  "name": "Pramila Jayapal",
+  "ethnicity": [
+   "Indian"
+  ],
+  "party": "Democratic",
+  "state": "",
+  "years": [
+   "2017"
+  ],
+  "raw_len": 476
+ },
+ {
+  "name": "Ro Khanna",
+  "ethnicity": [
+   "Indian"
+  ],
+  "party": "Democratic",
+  "state": "California",
+  "years": [
+   "2017"
+  ],
+  "raw_len": 342
+ },
+ {
+  "name": "Raja Krishnamoorthi",
+  "ethnicity": [
+   "Indian"
+  ],
+  "party": "Democratic",
+  "state": "Illinois",
+  "years": [
+   "2017"
+  ],
+  "raw_len": 359
+ },
+ {
+  "name": "Stephanie Murphy",
+  "ethnicity": [
+   "Vietnamese"
+  ],
+  "party": "Democratic",
+  "state": "Florida",
+  "years": [
+   "2017",
+   "2023"
+  ],
+  "raw_len": 435
+ },
+ {
+  "name": "TJ Cox",
+  "ethnicity": [
+   "Chinese",
+   "Filipino"
+  ],
+  "party": "Democratic",
+  "state": "California",
+  "years": [
+   "2019",
+   "2021"
+  ],
+  "raw_len": 461
+ },
+ {
+  "name": "Andy Kim",
+  "ethnicity": [
+   "Korean"
+  ],
+  "party": "Democratic",
+  "state": "New Jersey",
+  "years": [
+   "2019",
+   "2024"
+  ],
+  "raw_len": 443
+ },
+ {
+  "name": "Stephanie Bice",
+  "ethnicity": [
+   "Pakistani",
+   "Pakistani ancestry"
+  ],
+  "party": "Republican",
+  "state": "",
+  "years": [
+   "2021"
+  ],
+  "raw_len": 429
+ },
+ {
+  "name": "Kai Kahele",
+  "ethnicity": [
+   "Hawaiian"
+  ],
+  "party": "Democratic",
+  "state": "Hawaii",
+  "years": [
+   "2021",
+   "2023"
+  ],
+  "raw_len": 417
+ },
+ {
+  "name": "Young Kim",
+  "ethnicity": [
+   "Korean"
+  ],
+  "party": "Republican",
+  "state": "California",
+  "years": [
+   "2021"
+  ],
+  "raw_len": 454
+ },
+ {
+  "name": "Michelle Steel",
+  "ethnicity": [
+   "Korean"
+  ],
+  "party": "Republican",
+  "state": "California",
+  "years": [
+   "2021",
+   "2025"
+  ],
+  "raw_len": 351
+ },
+ {
+  "name": "Marilyn Strickland",
+  "ethnicity": [
+   "Korean"
+  ],
+  "party": "Democratic",
+  "state": "",
+  "years": [
+   "2021"
+  ],
+  "raw_len": 381
+ },
+ {
+  "name": "Shri Thanedar",
+  "ethnicity": [
+   "Indian"
+  ],
+  "party": "Democratic",
+  "state": "Michigan",
+  "years": [
+   "2023"
+  ],
+  "raw_len": 323
+ },
+ {
+  "name": "Jill Tokuda",
+  "ethnicity": [
+   "Japanese",
+   "Ryukyuan or Okinawan American"
+  ],
+  "party": "Democratic",
+  "state": "Hawaii",
+  "years": [
+   "2023"
+  ],
+  "raw_len": 490
+ },
+ {
+  "name": "Vince Fong",
+  "ethnicity": [
+   "Chinese"
+  ],
+  "party": "Republican",
+  "state": "California",
+  "years": [
+   "2024"
+  ],
+  "raw_len": 348
+ },
+ {
+  "name": "Dave Min",
+  "ethnicity": [
+   "Korean"
+  ],
+  "party": "Democratic",
+  "state": "California",
+  "years": [
+   "2025"
+  ],
+  "raw_len": 318
+ },
+ {
+  "name": "Suhas Subramanyam",
+  "ethnicity": [
+   "Indian"
+  ],
+  "party": "Democratic",
+  "state": "Virginia",
+  "years": [
+   "2025"
+  ],
+  "raw_len": 326
+ },
+ {
+  "name": "Derek Tran",
+  "ethnicity": [
+   "Vietnamese"
+  ],
+  "party": "Democratic",
+  "state": "California",
+  "years": [
+   "2025"
+  ],
+  "raw_len": 329
+ },
+ {
+  "name": "Aisha Wahab",
+  "ethnicity": [
+   "Afghan"
+  ],
+  "party": "Democratic",
+  "state": "California",
+  "years": [
+   "2026"
+  ],
+  "raw_len": 510
+ },
+ {
+  "name": "Pia Dandiya",
+  "ethnicity": [
+   "Indian"
+  ],
+  "party": "Democratic",
+  "state": "Florida",
+  "years": [
+   "2027"
+  ],
+  "raw_len": 307
+ },
+ {
+  "name": "Dan Koh",
+  "ethnicity": [
+   "Korean"
+  ],
+  "party": "Democratic",
+  "state": "Massachusetts",
+  "years": [
+   "2027"
+  ],
+  "raw_len": 329
+ },
+ {
+  "name": "Richard Pan",
+  "ethnicity": [
+   "Taiwanese"
+  ],
+  "party": "Democratic",
+  "state": "California",
+  "years": [
+   "2027"
+  ],
+  "raw_len": 304
+ },
+ {
+  "name": "Amish Shah",
+  "ethnicity": [
+   "Indian"
+  ],
+  "party": "Democratic",
+  "state": "Arizona",
+  "years": [
+   "2027"
+  ],
+  "raw_len": 2789
+ },
+ {
+  "name": "Robert Wilcox",
+  "ethnicity": [
+   "Hawaiian"
+  ],
+  "party": "",
+  "state": "",
+  "years": [
+   "1900",
+   "1903"
+  ],
+  "raw_len": 469
+ },
+ {
+  "name": "Jonah Kūhiō Kalanianaʻole",
+  "ethnicity": [
+   "Hawaiian"
+  ],
+  "party": "Republican",
+  "state": "",
+  "years": [
+   "1903",
+   "1922"
+  ],
+  "raw_len": 526
+ },
+ {
+  "name": "Benito Legarda",
+  "ethnicity": [],
+  "party": "Republican",
+  "state": "",
+  "years": [
+   "1907",
+   "1912"
+  ],
+  "raw_len": 393
+ },
+ {
+  "name": "Pablo Ocampo",
+  "ethnicity": [],
+  "party": "Democratic",
+  "state": "",
+  "years": [
+   "1907",
+   "1909"
+  ],
+  "raw_len": 391
+ },
+ {
+  "name": "Manuel L. Quezón",
+  "ethnicity": [],
+  "party": "",
+  "state": "",
+  "years": [
+   "1909",
+   "1916"
+  ],
+  "raw_len": 503
+ },
+ {
+  "name": "Manuel Earnshaw",
+  "ethnicity": [
+   "Filipino"
+  ],
+  "party": "",
+  "state": "",
+  "years": [
+   "1913",
+   "1917"
+  ],
+  "raw_len": 382
+ },
+ {
+  "name": "Jaime C. de Veyra",
+  "ethnicity": [],
+  "party": "",
+  "state": "",
+  "years": [
+   "1917",
+   "1923"
+  ],
+  "raw_len": 410
+ },
+ {
+  "name": "Teodoro R. Yangco",
+  "ethnicity": [],
+  "party": "",
+  "state": "",
+  "years": [
+   "1917",
+   "1920"
+  ],
+  "raw_len": 596
+ },
+ {
+  "name": "Isauro Gabaldon",
+  "ethnicity": [],
+  "party": "",
+  "state": "",
+  "years": [
+   "1920",
+   "1928"
+  ],
+  "raw_len": 385
+ },
+ {
+  "name": "Pedro Guevara",
+  "ethnicity": [],
+  "party": "",
+  "state": "",
+  "years": [
+   "1923",
+   "1936"
+  ],
+  "raw_len": 388
+ },
+ {
+  "name": "William Jarrett",
+  "ethnicity": [
+   "Hawaiian"
+  ],
+  "party": "Democratic",
+  "state": "",
+  "years": [
+   "1923",
+   "1927"
+  ],
+  "raw_len": 458
+ },
+ {
+  "name": "Victor Houston",
+  "ethnicity": [
+   "Hawaiian"
+  ],
+  "party": "Republican",
+  "state": "",
+  "years": [
+   "1927",
+   "1933"
+  ],
+  "raw_len": 451
+ },
+ {
+  "name": "Camilo Osías",
+  "ethnicity": [],
+  "party": "",
+  "state": "",
+  "years": [
+   "1929",
+   "1935"
+  ],
+  "raw_len": 388
+ },
+ {
+  "name": "Francisco Afan Delgado",
+  "ethnicity": [],
+  "party": "",
+  "state": "",
+  "years": [
+   "1935",
+   "1936"
+  ],
+  "raw_len": 399
+ },
+ {
+  "name": "Samuel King",
+  "ethnicity": [
+   "Hawaiian"
+  ],
+  "party": "Republican",
+  "state": "",
+  "years": [
+   "1935",
+   "1943"
+  ],
+  "raw_len": 386
+ },
+ {
+  "name": "Quintín Paredes",
+  "ethnicity": [],
+  "party": "",
+  "state": "",
+  "years": [
+   "1936",
+   "1938"
+  ],
+  "raw_len": 377
+ },
+ {
+  "name": "Carlos P. Romulo",
+  "ethnicity": [],
+  "party": "",
+  "state": "",
+  "years": [
+   "1944",
+   "1946"
+  ],
+  "raw_len": 469
+ },
+ {
+  "name": "Antonio Won Pat",
+  "ethnicity": [
+   "Chinese"
+  ],
+  "party": "Democratic",
+  "state": "Guam",
+  "years": [
+   "1973",
+   "1985"
+  ],
+  "raw_len": 541
+ },
+ {
+  "name": "Eddie Pangelinan",
+  "ethnicity": [],
+  "party": "Democratic",
+  "state": "Northern Mariana Islands",
+  "years": [
+   "1978",
+   "1984"
+  ],
+  "raw_len": 584
+ },
+ {
+  "name": "Fofó Sunia",
+  "ethnicity": [
+   "Samoan"
+  ],
+  "party": "Democratic",
+  "state": "American Samoa",
+  "years": [
+   "1981",
+   "1988"
+  ],
+  "raw_len": 449
+ },
+ {
+  "name": "Froilan Tenorio",
+  "ethnicity": [],
+  "party": "Democratic",
+  "state": "Northern Mariana Islands",
+  "years": [
+   "1984",
+   "1990"
+  ],
+  "raw_len": 591
+ },
+ {
+  "name": "Ben Blaz",
+  "ethnicity": [],
+  "party": "Republican",
+  "state": "Guam",
+  "years": [
+   "1985",
+   "1993"
+  ],
+  "raw_len": 408
+ },
+ {
+  "name": "Eni Faleomavaega",
+  "ethnicity": [
+   "Samoan"
+  ],
+  "party": "Democratic",
+  "state": "American Samoa",
+  "years": [
+   "1989",
+   "2015"
+  ],
+  "raw_len": 402
+ },
+ {
+  "name": "Juan Babauta",
+  "ethnicity": [],
+  "party": "Republican",
+  "state": "Northern Mariana Islands",
+  "years": [
+   "1990",
+   "2002"
+  ],
+  "raw_len": 688
+ },
+ {
+  "name": "Robert Underwood",
+  "ethnicity": [],
+  "party": "Democratic",
+  "state": "Guam",
+  "years": [
+   "1993",
+   "2003"
+  ],
+  "raw_len": 456
+ },
+ {
+  "name": "Pete Tenorio",
+  "ethnicity": [],
+  "party": "Republican",
+  "state": "Northern Mariana Islands",
+  "years": [
+   "2002",
+   "2009"
+  ],
+  "raw_len": 516
+ },
+ {
+  "name": "Michael San Nicolas",
+  "ethnicity": [],
+  "party": "Democratic",
+  "state": "Guam",
+  "years": [
+   "2019",
+   "2023"
+  ],
+  "raw_len": 472
+ },
+ {
+  "name": "Gregorio Sablan",
+  "ethnicity": [],
+  "party": "",
+  "state": "Northern Mariana Islands",
+  "years": [
+   "2009",
+   "2025"
+  ],
+  "raw_len": 467
+ },
+ {
+  "name": "Amata Radewagen",
+  "ethnicity": [
+   "Samoan"
+  ],
+  "party": "Republican",
+  "state": "American Samoa",
+  "years": [
+   "2015"
+  ],
+  "raw_len": 397
+ },
+ {
+  "name": "James Moylan",
+  "ethnicity": [],
+  "party": "Republican",
+  "state": "Guam",
+  "years": [
+   "2023"
+  ],
+  "raw_len": 311
+ },
+ {
+  "name": "Kimberlyn King-Hinds",
+  "ethnicity": [],
+  "party": "Republican",
+  "state": "Northern Mariana Islands",
+  "years": [
+   "2025"
+  ],
+  "raw_len": 453
+ },
+ {
+  "name": "Alicia Limtiaco",
+  "ethnicity": [],
+  "party": "Democratic",
+  "state": "Guam",
+  "years": [
+   "2027"
+  ],
+  "raw_len": 1525
+ }
+]

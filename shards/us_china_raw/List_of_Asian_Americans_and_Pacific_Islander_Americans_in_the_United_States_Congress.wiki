@@ -1,0 +1,1086 @@
+{{Short description|None}}
+{{Use mdy dates|date=April 2025}}
+
+[[File:Asian Americans in US House.svg|thumb|275px|Map of congressional districts represented by Asian Americans or Pacific Islander Americans in the 117th Congress.]]
+
+[[File:Asian American senators in the 119th congress.svg|thumb|275px|
+
+{{legend|#FF3333|State had an Asian Senator at the beginning of the 119th Congress}}
+{{legend|#FF9999|State has in the past had an Asian Senator}}]]
+
+This is a '''list of''' [[Asian Americans]] and [[Pacific Islander Americans]] in the [[United States Congress|U.S. Congress]].
+
+Asian Americans are Americans of Asian descent. The term refers to a [[Panethnicity|panethnic]] group that includes diverse populations with ancestral origins in [[East Asia]], [[South Asia]] or [[Southeast Asia]], as defined by the [[United States Census Bureau|U.S. Census Bureau]].<ref name="c2010">{{cite web |url=https://commons.wikimedia.org/wiki/File:C2010br-02.pdf |title=Overview of Race and Hispanic Origin: 2010 |last=Humes |first=Karen R. |last2=Jones |first2=Nicholas A. |last3=Ramirez |first3=Roberto R. |date=March 2011 |work=United States Census Bureau |publisher=U.S. Department of Commerce |access-date=January 5, 2012}}</ref>
+
+[[Pacific Islander]] Americans, also known as [[Oceania]]n Americans, Pacific Islander Americans or Native Hawaiian and/or other Pacific Islander Americans, are [[Americans]] who have ethnic ancestry among the [[indigenous peoples of Oceania]] (viz. [[Polynesians]], [[Melanesians]] and [[Micronesian people|Micronesians]]). For its purposes, the U.S. Census also counts [[Indigenous Australians]] as part of this group.<ref>University of Virginia.  Geospatial and Statistical Data Center. "1990 PUMS Ancestry Codes." 2003. August 30, 2007.{{cite web |url=http://fisher.lib.virginia.edu/collections/stats/pums/sub/ancestry.html |title=1990 Census of Population and Housing Public Use Microdata Sample |access-date=August 31, 2007 |url-status=dead |archive-url=https://web.archive.org/web/20070825030327/http://fisher.lib.virginia.edu/collections/stats/pums/sub/ancestry.html |archive-date=August 25, 2007 }}</ref><ref name="Umich">{{cite web |title=Appendix H. Code Lists, Ancestry|url=https://www.lib.umich.edu/collections/collecting-areas/specific-formats/government-information |access-date=August 27, 2007|website=www.lib.umich.edu |language=en |archive-url=https://web.archive.org/web/20070713014208/http://www.lib.umich.edu/govdocs/cicdoc/cen90app/ancestry.htm|archive-date=July 13, 2007}}</ref>
+
+As of January 3, 2025, there are 19 representatives and three senators of Asian-American descent who are currently serving in Congress. In addition, there are three [[Non-voting members of the United States House of Representatives|non-voting delegates]] of Pacific Islander descent who currently are also serving. Since 1900, 21 Pacific Islanders have been elected to the [[United States House of Representatives|House of Representatives]] (18 of them as non-voting Resident Commissioners, Delegates or Resident Representatives) and one has been elected to the U.S. Senate. Hawaii was the first territory to send a Pacific Islander to the House of Representatives (in 1900) and was also the first state to send a Pacific Islander to the U.S. Senate (in 1990).
+
+Since 1957, 41 Asian Americans have been elected as U.S. Representatives and nine as U.S. Senators. Hawaii was the first of five states to send an Asian American to the Senate (1959) and New Jersey is the most recent state to elect a senator of similar descent for the first time (2024). With respect to the House of Representatives, California was the first of 13 states to elect an Asian American to the House (1956), and Oklahoma is the most recent to do so for the first time (2020). Three Asian-American women have been elected to the Senate (two of whom currently are incumbents and represent Hawaii and Illinois, respectively), and 13 have been elected to the House (nine of whom currently are incumbents) from seven separate states.
+
+Out of the 22 current AAPI members in the [[119th United States Congress|119th Congress]], 19 are Democrats (three senators and 16 representatives) and three are Republicans (three representatives).
+
+== Senate ==
+''(Note: Senators are organized first in chronological order according to their first term in office, then second in alphabetical order according to their surname.)''
+
+{|class="wikitable sortable plainrowheaders" style="text-align: center;"
+|- style="background-color: #cccccc"
+!colspan=2 class=unsortable |[[United States Senate|Senator]]
+!rowspan=2 |Asian and/or<br>Pacific Islander ethnicity
+!rowspan=2 |Party
+!rowspan=2 |State
+!colspan=3 |Tenure
+!rowspan=2 |Notes
+|-
+!Portrait
+!Name<br>{{small|(lifespan)}}
+!Term start
+!Term end
+!Length of service
+|-
+|[[File:Senator Hiram Fong of Hawaii, half-length portrait, facing front (cropped).jpg|75px|Sen. Fong]]
+|'''{{sortname|Hiram|Fong}}'''<br>{{small|(1906–2004)}}
+|[[Chinese Americans|Chinese]]<ref group="S" name="Fong">First American of Chinese ancestry elected to Congress</ref>
+|{{Party shading/Republican}} |[[Republican Party (United States)|Republican]]
+|[[Hawaii]]
+|{{dts|format=mdy|1959|8|21}}
+|{{dts|format=mdy|1977|1|3}}
+|{{ayd|1959|8|21|1977|1|3}}
+|Retired
+|-
+|[[File:Daniel Inouye, official Senate photo portrait, 2008.jpg|75px|Sen. Inouye]]
+|'''{{sortname|Daniel|Inouye}}'''<br>{{small|(1924–2012)}}
+|[[Japanese Americans|Japanese]]<ref group="S" name="Inouye">First [[Japanese American]] elected to the Senate</ref>
+|{{Party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]
+|[[Hawaii]]
+|{{dts|format=mdy|1963|1|3}}
+|{{dts|format=mdy|2012|12|17}}
+|{{ayd|1963|1|3|2012|12|17}}
+|{{nowrap|Died in office}}
+|-
+|[[File:S I. Hayakawa, 1976 (cropped).jpg|75px|Sen. Hayakawa]] 
+|'''{{sortname|S. I.|Hayakawa|S. I. Hayakawa}}'''<br>{{small|(1906–1992)}}
+|[[Japanese Americans|Japanese]]
+|{{Party shading/Republican}} |[[Republican Party (United States)|Republican]]
+|[[California]]
+|{{dts|format=mdy|1977|1|2}}
+|{{dts|format=mdy|1983|1|3}}
+|{{ayd|1977|1|2|1983|1|3}}
+|Retired
+|-
+|[[File:Spark Matsunaga, 1986.jpg|75px|Sen. Matsunaga]]
+|'''{{sortname|Spark|Matsunaga}}'''<br>{{small|(1916–1990)}}
+|[[Japanese Americans|Japanese]]
+|{{Party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]
+|[[Hawaii]]
+|{{dts|format=mdy|1977|1|3}}
+|{{dts|format=mdy|1990|4|15}}
+|{{ayd|1977|1|3|1990|4|15}}
+|Died in office
+|-
+|[[File:Daniel Akaka official photo.jpg|75px|Sen. Akaka]]
+|'''{{sortname|Daniel|Akaka}}'''<br>{{small|(1924–2018)}}
+|[[Native Hawaiians|Hawaiian]],<br>[[Chinese Americans|Chinese]]<ref group="S" name="Akaka">First [[Native Hawaiian]] to serve in the Senate</ref>
+|{{Party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]
+|[[Hawaii]]
+|{{dts|format=mdy|1990|5|16}}
+|{{dts|format=mdy|2013|1|3}}
+|{{ayd|1990|5|16|2013|1|3}}
+|Initially appointed; later re-elected<br>Retired
+|-
+|[[File:Sen John Ensign official(2).jpg|75px|Sen. Ensign]]
+|'''{{sortname|John|Ensign}}'''<br>{{small|(born 1958)}}
+|[[Filipino Americans|Filipino]]<ref group="S" name="Ensign">First person of Filipino ancestry elected to the Senate</ref>
+|{{Party shading/Republican}} |[[Republican Party (United States)|Republican]]
+|[[Nevada]]
+|{{dts|format=mdy|2001|1|3}}
+|{{dts|format=mdy|2011|5|3}}
+|{{ayd|2001|1|3|2011|5|3}}
+|Resigned
+|- style="background:#e0e0e0"
+|[[File:Mazie Hirono, official portrait, 113th Congress.jpg|75px|Sen. Hirono]]
+|'''{{sortname|Mazie|Hirono}}'''<br>{{small|(born 1947)}}
+|[[Japanese Americans|Japanese]]<ref group="S" name="Hirono">First Asian-American woman elected to the Senate</ref>
+|{{Party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]
+|[[Hawaii]]
+|{{dts|format=mdy|2013|1|3}}
+|Incumbent
+|{{ayd|2013|1|3}}
+|
+|- style="background:#e0e0e0"
+|[[File:Tammy Duckworth 115th official portrait (cropped).jpg|75px|Sen. Duckworth]]
+|'''{{nowrap|{{sortname|Tammy|Duckworth}}}}'''<br>{{small|(born 1968)}}
+|[[Thai Chinese]]<ref group="S" name="Duckworth">First Thai American elected to the Senate</ref>
+|{{Party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]
+|[[Illinois]]
+|{{dts|format=mdy|2017|1|3}}
+|Incumbent
+|{{ayd|2017|1|3}}
+|
+|-
+|[[File:Kamala Harris official photo (1).jpg|75px|Sen. Harris]]
+|'''{{sortname|Kamala|Harris}}'''<br>{{small|(born 1964)}}
+|[[Indian Americans|Indian]]<ref group="S" name="Harris">First person of South Asian ancestry elected to the Senate; together with Pramila Jayapal, first [[Indian-American]] woman elected to Congress</ref>
+|{{Party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]
+|[[California]]
+|{{dts|format=mdy|2017|1|3}}
+|{{dts|format=mdy|2021|1|18}}
+|{{ayd|2017|1|3|2021|1|18}}
+|Resigned to become [[Vice President of the United States|Vice President]]
+|- style="background:#e0e0e0"
+|[[File:Sen Andy Kim 118th Congress (cropped 2).jpg|100x100px|Sen. Kim]]
+|'''{{nowrap|[[Andy Kim]]}}'''<br>{{small|(born 1982)}}
+|[[Korean Americans|Korean]]<ref name="Kim" group="S">First Korean American elected to the Senate</ref>
+|{{Party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]
+|[[New Jersey]]
+|December 8, 2024
+|Incumbent
+|{{ayd|2024|12|9}}
+|Appointed early following his [[2024 United States Senate election in New Jersey|election]].
+|}'''Notes'''
+{{reflist|group=S|30em}}
+
+== House of Representatives ==
+''(Note: Representatives are organized first in chronological order according to their first term in office, then second in alphabetical order according to their surname.)''
+
+{|class="wikitable sortable plainrowheaders" style="text-align: center;"
+|- style="background-color: #cccccc"
+!colspan=2 class=unsortable |[[United States House of Representatives|Representative]]
+!rowspan=2 |Asian and/or<br>Pacific Islander ethnicity
+!rowspan=2 |Party
+!rowspan=2 |State
+!colspan=3 |Tenure
+!rowspan=2 |Notes
+|-
+!Portrait
+!Name<br>{{small|(lifespan)}}
+!Term start
+!Term end
+!Length of service
+|-
+|[[File:DS Saund.jpg|75px|Rep. Saund]]
+|'''{{sortname|Dalip Singh|Saund|Dalip Singh Saund}}'''<br>{{small|(1899–1973)}}
+|[[Indian Americans|Indian]]<ref group="H" name="Saund">First AAPI person elected to Congress as a non-delegate, and also first [[Indian American]] elected to Congress</ref>
+|{{Party shading/Democratic}}|[[Democratic Party (United States)|Democratic]]
+|[[California]]
+|{{dts|format=mdy|1957|1|3}}
+|{{dts|format=mdy|1963|1|3}}
+|{{ayd|1957|1|3|1963|1|3}}
+|Lost reelection
+|-
+|[[File:Daniel Inouye – 1963.jpg|75px|Rep. Inouye]]
+|'''{{sortname|Daniel|Inouye}}'''<br>{{small|(1924–2012)}}
+|[[Japanese Americans|Japanese]]<ref group="H" name="inouye">First [[Japanese American]] elected to Congress</ref>
+|{{Party shading/Democratic}}|[[Democratic Party (United States)|Democratic]]
+|[[Hawaii]]
+|{{dts|format=mdy|1959|8|21}}
+|{{dts|format=mdy|1963|1|3}}
+|{{ayd|1959|8|21|1963|1|3}}
+|Retired to run successfully for [[1962 United States Senate election in Hawaii|U.S. Senate]]
+|-
+|[[File:Spark Matsunaga 1972 (cropped).png|75px|Rep. Matsunaga]]
+|'''{{sortname|Spark|Matsunaga}}'''<br>{{small|(1916–1990)}}
+|[[Japanese Americans|Japanese]]
+|{{Party shading/Democratic}}|[[Democratic Party (United States)|Democratic]]
+|[[Hawaii]]
+|{{dts|format=mdy|1963|1|3}}
+|{{dts|format=mdy|1977|1|3}}
+|{{ayd|1963|1|3|1977|1|3}}
+|Retired to run successfully for [[1962 United States Senate election in Hawaii|U.S. Senate]]
+|-
+|rowspan=2 |[[File:Patsy Mink 1970s.jpg|75px|Rep. Mink]]
+|rowspan=2 |'''{{sortname|Patsy|Mink}}'''<br>{{small|(1927–2002)}}
+|rowspan=2 |[[Japanese Americans|Japanese]]<ref group="H" name="Mink">First Asian-American woman elected to Congress</ref>
+|rowspan=2 {{Party shading/Democratic}}|[[Democratic Party (United States)|Democratic]]
+|rowspan=2 |[[Hawaii]]
+|{{dts|format=mdy|1965|1|3}}
+|{{dts|format=mdy|1977|1|3}}
+|{{ayd|1965|1|3|1977|1|3}}
+|Retired to run unsuccessfully for [[1976 United States Senate election in Hawaii|U.S. Senate]]
+|-
+|{{dts|format=mdy|1990|9|22}}
+|{{dts|format=mdy|2002|9|28}}
+|{{ayd|1990|9|22|2002|9|28}}
+|[[List of United States Congress members who died in office (2000–)|Died in office]]
+|-
+|[[File:Norman Mineta, official portrait, DOT.jpg|75px|Rep. Mineta]]
+|'''{{sortname|Norman|Mineta}}'''<br>{{small|(1931–2022)}}
+|[[Japanese Americans|Japanese]]
+|{{Party shading/Democratic}}|[[Democratic Party (United States)|Democratic]]
+|[[California]]
+|{{dts|format=mdy|1975|1|3}}
+|{{dts|format=mdy|1995|10|10}}
+|{{ayd|1975|1|3|1995|10|10}}
+|Resigned<br>Later served as [[United States Secretary of Commerce|Secretary of Commerce]] and [[United States Secretary of Transportation|Secretary of Transportation]]
+|-
+|[[File:Daniel Akaka as Representative.jpg|75px|Rep. Akaka]]
+|'''{{sortname|Daniel|Akaka}}'''<br>{{small|(1924–2018)}}
+|[[Native Hawaiians|Hawaiian]],<br>[[Chinese Americans|Chinese]]<ref group="H">First [[Native Hawaiian]] to serve as a voting member of Congress</ref>
+|{{Party shading/Democratic}}|[[Democratic Party (United States)|Democratic]]
+|[[Hawaii]]
+|{{dts|format=mdy|1977|1|3}}
+|{{dts|format=mdy|1990|5|16}}
+|{{ayd|1977|1|3|1990|5|16}}
+|Resigned after being [[List of appointed United States senators|appointed]] to the [[List of United States senators from Hawaii|U.S. Senate]]
+|-
+|[[File:Robert matsui.jpg|75px|Rep. Matsui]]
+|'''{{sortname|Bob|Matsui}}'''<br>{{small|(1941–2005)}}
+|[[Japanese Americans|Japanese]]
+|{{Party shading/Democratic}}|[[Democratic Party (United States)|Democratic]]
+|[[California]]
+|{{dts|format=mdy|1979|1|3}}
+|{{dts|format=mdy|2005|1|1}}
+|{{ayd|1979|1|3|2005|1|1}}
+|[[List of United States Congress members who died in office (2000–)|Died in office]]
+|-
+|[[File:Mervyn M. Dymally.jpg|75px|Rep. Dymally]]
+|'''{{sortname|Mervyn|Dymally|Mervyn M. Dymally}}'''<br>{{small|(1926–2012)}}
+|[[Indian Americans|Indian]]<ref group="H" name="Dymally">First [[Dougla]] elected to Congress</ref>
+|{{Party shading/Democratic}}|[[Democratic Party (United States)|Democratic]]
+|[[California]]
+|{{dts|format=mdy|1981|1|3}}
+|{{dts|format=mdy|1993|1|3}}
+|{{ayd|1981|1|3|1993|1|3}}
+|Retired
+|-
+|[[File:Pat Saiki.jpg|75px|Rep. Saiki]]
+|'''{{sortname|Pat|Saiki}}'''<br>{{small|(1930–2026)}}
+|[[Japanese Americans|Japanese]]
+|{{Party shading/Republican}}|[[Republican Party (United States)|Republican]]
+|[[Hawaii]]
+|{{dts|format=mdy|1987|1|3}}
+|{{dts|format=mdy|1991|1|3}}
+|{{ayd|1987|1|3|1991|1|3}}
+|Retired to [[1990 United States Senate special election in Hawaii|run unsuccessfully]] for [[List of United States senators from Hawaii|U.S. Senate]]
+|-
+|[[File:Jay Kim.jpg|75px|Rep. Kim]]
+|'''{{sortname|Jay|Kim}}'''<br>{{small|(born 1939)}}
+|[[Korean Americans|Korean]]<ref group="H" name="JKim">First [[Korean American]] elected to Congress</ref>
+|{{Party shading/Republican}}|[[Republican Party (United States)|Republican]]
+|[[California]]
+|{{dts|format=mdy|1993|1|3}}
+|{{dts|format=mdy|1999|1|3}}
+|{{ayd|1993|1|3|1999|1|3}}
+|[[1998 United States House of Representatives elections in California#District 41|Lost renomination]]
+|- style="background:#e0e0e0"
+|[[File:BobbyScott.jpg|75px|Rep. Scott]]
+|'''{{sortname|Bobby|Scott|Bobby Scott (politician)}}'''<br>{{small|(born 1947)}}
+|[[Filipino American|Filipino]]<ref group="H" name="Scott">First American-born [[Filipino Americans|Filipino]] elected to Congress</ref>
+|{{Party shading/Democratic}}|[[Democratic Party (United States)|Democratic]]
+|[[Virginia]]
+|{{dts|format=mdy|1993|1|3}}
+|Incumbent
+|{{ayd|1993|1|3}}
+|
+|-
+|[[File:John Ensign official portrait.jpg|75px|Rep. Ensign]]
+|'''{{sortname|John|Ensign}}'''<br>{{small|(born 1958)}}
+|[[Filipino American|Filipino]]
+|{{Party shading/Republican}}|[[Republican Party (United States)|Republican]]
+|[[Nevada]]
+|{{dts|format=mdy|1995|1|3}}
+|{{dts|format=mdy|1999|1|3}}
+|{{ayd|1995|1|3|1999|1|3}}
+|Retired to [[1998 United States Senate election in Nevada|run unsuccessfully]] for [[List of United States senators from Nevada|U.S. Senate]]<br>Later [[2000 United States Senate election in Nevada|elected to the U.S. Senate]] from Nevada
+|-
+|[[File:David Wu, official portrait, 111th Congress.jpg|75px|Rep. Wu]]
+|'''{{sortname|David|Wu}}'''<br>{{small|(born 1955)}}
+|[[Taiwanese Americans|Taiwanese]]<ref group="H" name="Wu">First [[Taiwanese American]] elected to Congress</ref>
+|{{Party shading/Democratic}}|[[Democratic Party (United States)|Democratic]]
+|[[Oregon]]
+|{{dts|format=mdy|1999|1|3}}
+|{{dts|format=mdy|2011|8|3}}
+|{{ayd|1999|1|3|2011|8|3}}
+|Resigned
+|-
+|[[File:Mike honda.jpg|75px|Rep. Honda]]
+|'''{{sortname|Mike|Honda}}'''<br>{{small|(born 1941)}}
+|[[Japanese Americans|Japanese]]
+|{{Party shading/Democratic}}|[[Democratic Party (United States)|Democratic]]
+|[[California]]
+|{{dts|format=mdy|2001|1|3}}
+|{{dts|format=mdy|2017|1|3}}
+|{{ayd|2001|1|3|2017|1|3}}
+|[[2016 United States House of Representatives elections#District 17|Lost reelection]]
+|-
+|[[File:Bobby Jindal, official 109th Congressional photo.jpg|75px|Rep. Jindal]]
+|'''{{sortname|Bobby|Jindal}}'''<br>{{small|(born 1971)}}
+|[[Indian Americans|Indian]]
+|{{Party shading/Republican}}|[[Republican Party (United States)|Republican]]
+|[[Louisiana]]
+|{{dts|format=mdy|2005|1|3}}
+|{{dts|format=mdy|2008|1|14}}
+|{{ayd|2005|1|3|2008|1|14}}
+|Resigned to [[2007 Louisiana gubernatorial election|run successfully]] for [[List of governors of Louisiana|Governor]]
+|- style="background:#e0e0e0"
+|[[File:Doris Matsui Official Photo.JPG|75px|Rep. Matsui]]
+|'''{{sortname|Doris|Matsui}}'''<br>{{small|(born 1944)}}
+|[[Japanese Americans|Japanese]]
+|{{Party shading/Democratic}}|[[Democratic Party (United States)|Democratic]]
+|[[California]]
+|{{dts|format=mdy|2005|3|8}}
+|Incumbent
+|{{ayd|2005|3|8}}
+|Elected to succeed late husband
+|-
+|[[File:Mazie Hirono, official portrait, 112th Congress.jpg|75px|Rep. Hirono]]
+|'''{{sortname|Mazie|Hirono}}'''<br>{{small|(born 1947)}}
+|[[Japanese Americans|Japanese]]
+|{{Party shading/Democratic}}|[[Democratic Party (United States)|Democratic]]
+|[[Hawaii]]
+|{{dts|format=mdy|2007|1|3}}
+|{{dts|format=mdy|2013|1|3}}
+|{{ayd|2007|1|3|2013|1|3}}
+|Retired to [[2012 United States Senate election in Hawaii|run successfully]] for [[List of United States senators from Hawaii|U.S. Senate]]
+|-
+|[[File:Rep. Steve Austria.jpg|75px|Rep. Austria]]
+|'''{{sortname|Steve|Austria}}'''<br>{{small|(born 1958)}}
+|[[Filipino American|Filipino]]
+|{{Party shading/Republican}}|[[Republican Party (United States)|Republican]]
+|[[Ohio]]
+|{{dts|format=mdy|2009|1|3}}
+|{{dts|format=mdy|2013|1|3}}
+|{{ayd|2009|1|3|2013|1|3}}
+|Retired following decennial redistricting
+|-
+|[[File:JosephCaoOfficialPhoto2009.jpg|75px|Rep. Cao]]
+|'''{{sortname|Joseph|Cao}}'''<br>{{small|(born 1967)}}
+|[[Vietnamese Americans|Vietnamese]]<ref group="H" name="Cao">First [[Vietnamese American]] elected to Congress</ref>
+|{{Party shading/Republican}}|[[Republican Party (United States)|Republican]]
+|[[Louisiana]]
+|{{dts|format=mdy|2009|1|3}}
+|{{dts|format=mdy|2011|1|3}}
+|{{ayd|2009|1|3|2011|1|3}}
+|[[2010 United States House of Representatives elections in Louisiana#District 2|Lost reelection]]
+|- style="background:#e0e0e0"
+|[[File:Judy Chu 2019-05-02.jpg|75px|Rep. Chu]]
+|'''{{sortname|Judy|Chu}}'''<br>{{small|(born 1953)}}
+|[[Chinese Americans|Chinese]]<ref group="H" name="Chu">First [[Chinese-American]] woman elected to Congress</ref>
+|{{Party shading/Democratic}}|[[Democratic Party (United States)|Democratic]]
+|[[California]]
+|{{dts|format=mdy|2009|7|14}}
+|Incumbent
+|{{ayd|2009|7|14}}
+|
+|-
+|[[File:Charles Djou.jpg|75px|Rep. Djou]]
+|'''{{sortname|Charles|Djou}}'''<br>{{small|(born 1970)}}
+|[[Thai Americans|Thai]],<br>[[Chinese Americans|Chinese]]<ref group="H" name="Djou first">First [[Thai American]] elected to Congress</ref>
+|{{Party shading/Republican}}|[[Republican Party (United States)|Republican]]
+|[[Hawaii]]
+|{{dts|format=mdy|2010|5|22}}
+|{{dts|format=mdy|2011|1|3}}
+|{{ayd|2010|5|22|2011|1|3}}
+|[[2010 United States House of Representatives elections in Hawaii#District 1|Lost reelection]]
+|-
+|[[File:Hansen Clarke, Official Portrait, 112th Congress.jpg|75px|Rep. Clarke]]
+|'''{{sortname|Hansen|Clarke}}'''<br>{{small|(born 1957)}}
+|[[Bangladeshi Americans|Bangladeshi]]<ref group="H" name="Clarke">First person of [[Bangladeshi American|Bangladeshi ancestry]] elected to Congress</ref>
+|{{Party shading/Democratic}}|[[Democratic Party (United States)|Democratic]]
+|[[Michigan]]
+|{{dts|format=mdy|2011|1|3}}
+|{{dts|format=mdy|2013|1|3}}
+|{{ayd|2011|1|3|2013|1|3}}
+|[[2012 United States House of Representatives elections in Michigan#District 14|Lost renomination following decennial redistricting]]
+|-
+|rowspan=2 |[[File:Colleen Hanabusa official photo.jpg|75px|Rep. Hanabusa]]
+|rowspan=2 |'''{{sortname|Colleen|Hanabusa}}'''<br>{{small|(1951–2026)}}
+|rowspan=2 |[[Japanese Americans|Japanese]]
+|rowspan=2 {{Party shading/Democratic}}|[[Democratic Party (United States)|Democratic]]
+|rowspan=2 |[[Hawaii]]
+|{{dts|format=mdy|2011|1|3}}
+|{{dts|format=mdy|2015|1|3}}
+|{{ayd|2011|1|3|2015|1|3}}
+|Retired to [[2014 United States Senate special election in Hawaii|run unsuccessfully]] for [[List of United States senators from Hawaii|U.S. Senate]]
+|-
+|{{dts|format=mdy|2016|11|14}}
+|{{dts|format=mdy|2019|1|3}}
+|{{ayd|2016|11|14|2019|1|3}}
+|Retired to [[2018 Hawaii gubernatorial election|run unsuccessfully]] for [[List of governors of Hawaii|Governor]]
+|- style="background:#e0e0e0"
+|[[File:Ami Bera official portrait (cropped).jpg|75px|Rep. Bera]]
+|'''{{sortname|Ami|Bera}}'''<br>{{small|(born 1965)}}
+|[[Indian Americans|Indian]]
+|{{Party shading/Democratic}}|[[Democratic Party (United States)|Democratic]]
+|[[California]]
+|{{dts|format=mdy|2013|1|3}}
+|Incumbent
+|{{ayd|2013|1|3}}
+|
+|-
+|[[File:Tammy Duckworth, official portrait, 113th Congress.jpg|75px|Rep. Duckworth]]
+|'''{{sortname|Tammy|Duckworth}}'''<br>{{small|(born 1968)}}
+|[[Thai Americans|Thai]],<br>[[Chinese Americans|Chinese]]<ref group="H">First Thai-American woman elected to Congress</ref>
+|{{Party shading/Democratic}}|[[Democratic Party (United States)|Democratic]]
+|[[Illinois]]
+|{{dts|format=mdy|2013|1|3}}
+|{{dts|format=mdy|2017|1|3}}
+|{{ayd|2013|1|3|2017|1|3}}
+|Retired to [[2016 United States Senate election in Illinois|run successfully]] for [[List of United States senators from Illinois|U.S. Senate]]
+|-
+|[[File:Tulsi Gabbard, official portrait, 113th Congress.jpg|75px|Rep. Gabbard]]
+|'''{{sortname|Tulsi|Gabbard}}'''<br>{{small|(born 1981)}}
+|[[Samoan Americans|Samoan]]<ref group="H" name="Gabbard first">First woman of [[Pacific Islander American|Pacific Islander ancestry]] elected to Congress</ref>
+|{{Party shading/Democratic}}|[[Democratic Party (United States)|Democratic]]
+|[[Hawaii]]
+|{{dts|format=mdy|2013|1|3}}
+|{{dts|format=mdy|2021|1|3}}
+|{{ayd|2013|1|3|2021|1|3}}
+|Retired after having [[Tulsi Gabbard 2020 presidential campaign|run unsuccessfully]] for [[President of the United States|President]]
+|- style="background:#e0e0e0"
+|[[File:Grace Meng Official Congressional Photo.jpg|75px|Rep. Meng]]
+|'''{{sortname|Grace|Meng}}'''<br>{{small|(born 1975)}}
+|[[Taiwanese Americans|Taiwanese]]<ref group="H" name="Meng">First [[Taiwanese-American]] woman elected to Congress</ref>
+|{{Party shading/Democratic}}|[[Democratic Party (United States)|Democratic]]
+|[[New York (state)|New York]]
+|{{dts|format=mdy|2013|1|3}}
+|Incumbent
+|{{ayd|2013|1|3}}
+|
+|- style="background:#e0e0e0"
+|[[File:Mark Takano 113th Congress - full.jpg|75px|Rep. Takano]]
+|'''{{sortname|Mark|Takano}}'''<br>{{small|(born 1960)}}
+|[[Japanese Americans|Japanese]]<ref group="H" name="Takano">First openly gay person of AAPI ancestry elected to Congress</ref>
+|{{Party shading/Democratic}}|[[Democratic Party (United States)|Democratic]]
+|[[California]]
+|{{dts|format=mdy|2013|1|3}}
+|Incumbent
+|{{ayd|2013|1|3}}
+|
+|- style="background:#e0e0e0"
+|[[File:Congressman Ted W. Lieu Official Photo.jpg|75px|Rep. Lieu]]
+|'''{{sortname|Ted|Lieu}}'''<br>{{small|(born 1969)}}
+|[[Taiwanese Americans|Taiwanese]]
+|{{Party shading/Democratic}}|[[Democratic Party (United States)|Democratic]]
+|[[California]]
+|{{dts|format=mdy|2015|1|3}}
+|Incumbent
+|{{ayd|2015|1|3}}
+|
+|-
+|[[File:Mark Takai, official portrait, 114th Congress.jpg|75px|Rep. Takai]]
+|'''{{sortname|Mark|Takai}}'''<br>{{small|(1967–2016)}}
+|[[Japanese Americans|Japanese]]
+|{{Party shading/Democratic}}|[[Democratic Party (United States)|Democratic]]
+|[[Hawaii]]
+|{{dts|format=mdy|2015|1|3}}
+|{{dts|format=mdy|2016|7|20}}
+|{{ayd|2015|1|3|2016|7|20}}
+|[[List of United States Congress members who died in office (2000–)|Died in office]]
+|- style="background:#e0e0e0"
+|[[File:Pramila Jayapal 115th Congress photo.jpg|75px|Rep. Jayapal]]
+|'''{{sortname|Pramila|Jayapal}}'''<br>{{small|(born 1965)}}
+|[[Indian Americans|Indian]]<ref group="H" name="Jayapal">Together with Kamala Harris, first [[Indian-American]] woman elected to Congress</ref>
+|{{Party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]
+|[[Washington (state)|Washington]]
+|{{dts|format=mdy|2017|1|3}}
+|Incumbent
+|{{ayd|2017|1|3}}
+|
+|- style="background:#e0e0e0"
+|[[File:Ro Khanna, official portrait, 115th Congress.jpg|75px|Rep. Khanna]]
+|'''{{sortname|Ro|Khanna}}'''<br>{{small|(born 1976)}}
+|[[Indian Americans|Indian]]
+|{{Party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]
+|[[California]]
+|{{dts|format=mdy|2017|1|3}}
+|Incumbent
+|{{ayd|2017|1|3}}
+|
+|- style="background:#e0e0e0"
+|[[File:Raja Krishnamoorthi official photo.jpg|75px|Rep. Krishnamoorthi]]
+|'''{{nowrap|{{sortname|Raja|Krishnamoorthi}}}}'''<br>{{small|(born 1973)}}
+|[[Indian Americans|Indian]]
+|{{Party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]
+|[[Illinois]]
+|{{dts|format=mdy|2017|1|3}}
+|Incumbent
+|{{ayd|2017|1|3}}
+|
+|- style=
+|[[File:Stephanie Murphy official photo.jpg|75px|Rep. Murphy]]
+|'''{{sortname|Stephanie|Murphy}}'''<br>{{small|(born 1978)}}
+|[[Vietnamese Americans|Vietnamese]]<ref group="H" name="Murphy">First [[Vietnamese-American]] woman elected to Congress</ref>
+|{{Party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]
+|[[Florida]]
+|{{dts|format=mdy|2017|1|3}}
+|{{dts|format=mdy|2023|1|3}}
+|6 years, 0 days
+|Retired
+|-
+|[[File:TJ Cox, official portrait, 116th Congress.jpg|75px]]
+|'''{{sortname|TJ|Cox}}'''<br>{{small|(born 1963)}}
+|[[Filipino Americans|Filipino]],<br>[[Chinese Americans|Chinese]]
+|{{Party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]
+|[[California]]
+|{{dts|format=mdy|2019|1|3}}
+|{{dts|format=mdy|2021|1|3}}
+|{{ayd|2019|1|3|2021|1|3}}
+|[[2020 United States House of Representatives elections in California#District 21|Lost reelection]]
+|-
+|[[File:Andy Kim, official portrait, 116th Congress.jpg|75px]]
+|'''{{sortname|Andy|Kim|Andy Kim (politician)}}'''<br>{{small|(born 1982)}}
+|[[Korean Americans|Korean]]
+|{{Party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]
+|[[New Jersey]]
+|{{dts|format=mdy|2019|1|3}}
+|{{dts|format=mdy|2024|12|8}}
+|{{ayd|2019|1|3|2024|12|8}}
+|Resigned in order to accept early appointment to the [[United States Senate|U.S. Senate]]. 
+|- style="background:#e0e0e0"
+|[[File:Rep. Stephanie Bice, 117th Congress.jpg|75px]]
+|'''{{sortname|Stephanie|Bice}}'''<br>{{small|(born 1973)}}
+|[[Pakistani Americans|Pakistani]]<ref group="H">First person of [[Pakistani Americans|Pakistani ancestry]] elected to Congress</ref>
+|{{Party shading/Republican}} |[[Republican Party (United States)|Republican]]
+|[[Oklahoma]]
+|{{dts|format=mdy|2021|1|3}}
+|Incumbent
+|{{ayd|2021|1|3}}
+|
+|-
+|[[File:Kai Kahele 117th U.S Congress.jpg|75px]]
+|'''{{sortname|Kai|Kahele}}'''<br>{{small|(born 1974)}}
+|[[Native Hawaiians|Hawaiian]]
+|{{party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]
+|[[Hawaii]]
+|{{dts|format=mdy|2021|1|3}}
+|{{dts|format=mdy|2023|1|3}}
+|2 years, 0 days
+|Retired to [[2022 Hawaii gubernatorial election|run unsuccessfully]] for [[List of governors of Hawaii|Governor]]
+|- style="background:#e0e0e0"
+|[[File:Young Kim 117th U.S Congress.jpg|75px]]
+|'''{{sortname|Young|Kim}}'''<br>{{small|(born 1962)}}
+|[[Korean Americans|Korean]]<ref group="H" name="korean">Reps. Kim, Steel, and Strickland are collectively the first [[Korean-American]] women elected to Congress</ref>
+|{{Party shading/Republican}} |[[Republican Party (United States)|Republican]]
+|[[California]]
+|{{dts|format=mdy|2021|1|3}}
+|Incumbent
+|{{ayd|2021|1|3}}
+|
+|- 
+|[[File:MichelleSteel.jpg|75px]]
+|'''{{sortname|Michelle|Steel}}'''<br>{{small|(born 1955)}}
+|[[Korean Americans|Korean]]<ref group="H" name="korean"/>
+|{{Party shading/Republican}} |[[Republican Party (United States)|Republican]]
+|[[California]]
+|{{dts|format=mdy|2021|1|3}}
+|{{dts|format=mdy|2025|1|3}}
+|{{ayd|2021|1|3|2025|1|3}}
+|Lost reelection 
+|- style="background:#e0e0e0"
+|[[File:Marilyn Strickland 117th U.S Congress.jpg|75px]]
+|'''{{sortname|Marilyn|Strickland}}'''<br>{{small|(born 1962)}}
+|[[Korean Americans|Korean]]<ref group="H" name="korean"/>
+|{{Party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]
+|[[Washington (state)|Washington]]
+|{{dts|format=mdy|2021|1|3}}
+|Incumbent
+|{{ayd|2021|1|3}}
+|
+|- style="background:#e0e0e0"
+|[[File:Rep. Shri Thanedar - 118th Congress.jpg|75px]]
+|'''{{sortname|Shri|Thanedar}}'''<br>{{small|(born 1955)}}
+|[[Indian Americans|Indian]]
+|{{Party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]
+|[[Michigan]]
+|{{dts|format=mdy|2023|1|3}}
+|Incumbent
+|{{ayd|2023|1|3}}
+|
+|- style="background:#e0e0e0"
+|[[File:Rep. Jill Tokuda official photo, 118th Congress (1).jpg|75px]]
+|'''{{sortname|Jill|Tokuda}}'''<br>{{small|(born 1976)}}
+|[[Japanese Americans|Japanese]],<br> [[Okinawans in Hawaii|Okinawan]]<ref group="H" name="Tokuda">First [[Ryukyuan Americans|Ryukyuan or Okinawan American]] elected to Congress</ref>
+|{{Party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]
+|[[Hawaii]]
+|{{dts|format=mdy|2023|1|3}}
+|Incumbent
+|{{ayd|2023|1|3}}
+|
+|- style="background:#e0e0e0"
+|[[File:Vince Fong official congressional photograph 118th congress.jpg|75px]]
+|'''{{sortname|Vince|Fong}}'''<br>{{small|(born 1979)}}
+|[[Chinese Americans|Chinese]]
+|{{Party shading/Republican}} |[[Republican Party (United States)|Republican]]
+|[[California]]
+|{{dts|format=mdy|2024|6|3}}
+|Incumbent
+|{{ayd|2024|6|3}}
+|
+|- style="background:#e0e0e0"
+|[[File:Rep. Dave Min Official Portrait.jpg|75px]]
+|'''{{sortname|Dave|Min}}'''<br />{{small|(born 1976)}}
+|[[Korean Americans|Korean]]
+|{{Party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]
+|[[California]]
+|{{dts|format=mdy|2025|1|3}}
+|Incumbent
+|{{ayd|2025|1|3}}
+|
+|-style="background:#e0e0e0"
+|[[File:Subramanyam Suhas 119th Congress.jpeg|75px]]
+|'''{{sortname|Suhas|Subramanyam}}'''<br />{{small|(born 1986)}}
+|[[Indian Americans|Indian]]
+|{{Party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]
+|[[Virginia]]
+|{{dts|format=mdy|2025|1|3}}
+|Incumbent
+|{{ayd|2025|1|3}}
+|
+|-style="background:#e0e0e0"
+|[[File:Rep. Derek Tran Official Portrait.jpg|75px]]
+|'''{{sortname|Derek|Tran}}'''<br />{{small|(born 1980)}}
+|[[Vietnamese Americans|Vietnamese]]
+|{{Party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]
+|[[California]]
+|{{dts|format=mdy|2025|1|3}}
+|Incumbent
+|{{ayd|2025|1|3}}
+|
+|-style="background:#e0e0e0"
+|[[File:Aisha Wahab, official portrait - 2026.jpg|75px]]
+|'''{{sortname|Aisha|Wahab}}'''<br />{{small|(born 1987)}}
+|[[Afghan Americans|Afghan]]<ref group="H" name="Wahab">First [[Afghan American]] elected to Congress</ref>
+|{{Party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]
+|[[California]]
+|{{dts|format=mdy|2026|9|2}}
+|Incumbent
+|{{ayd|2026|9|2}}
+|
+|}
+
+===Representatives-elect===
+{|class="wikitable sortable plainrowheaders" style="text-align: center;"
+|- style="background-color: #cccccc"
+!colspan=2 class=unsortable |[[United States House of Representatives|Representative]]
+!rowspan=2 |Asian and/or<br>Pacific Islander ethnicity
+!rowspan=2 |Party
+!rowspan=2 |State
+!rowspan=2 |Assuming office
+!rowspan=2 |Notes
+|-
+!Portrait
+!Name<br>{{small|(lifespan)}}
+|-
+|[[File:Pia Dandiya WHF (cropped).png|75px]] <!--replace with House portrait when available-->
+|'''{{sortname|Pia|Dandiya}}'''<br>{{small|(born 1986–87)}}
+|[[Indian Americans|Indian]]
+|{{Party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]
+|[[Florida]]
+|{{dts|format=mdy|2027|1|3}}
+|
+|-
+|[[File:Daniel Koh, White House Deputy Cabinet Secretary.jpg|75px]] <!--replace with House portrait when available-->
+|'''{{sortname|Dan|Koh}}'''<br>{{small|(born 1985)}}
+|[[Korean Americans|Korean]]
+|{{Party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]
+|[[Massachusetts]]
+|{{dts|format=mdy|2027|1|3}}
+|
+|-
+|[[File:Richard Pan 2010.jpg|75px]] <!--replace with House portrait when available-->
+|'''{{sortname|Richard|Pan}}'''<br>{{small|(born 1965)}}
+|[[Taiwanese Americans|Taiwanese]]
+|{{Party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]
+|[[California]]
+|{{dts|format=mdy|2027|1|3}}
+|
+|-
+|[[File:Amish Shah by Gage Skidmore 2.jpg|75px]] <!--replace with House portrait when available-->
+|'''{{sortname|Amish|Shah}}'''<br>{{small|(born 1977–78)}}
+|[[Indian Americans|Indian]]
+|{{Party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]
+|[[Arizona]]
+|{{dts|format=mdy|2027|1|3}}
+|
+|}
+
+== House delegates (non-voting members) ==
+[[Resident Commissioners of the Philippines|Resident Commissioners]] were House delegates from the Philippines, then an [[Territories of the United States#Former unincorporated territories of the United States (incomplete)|American territory]].<ref>{{cite web |url=http://nationalatlas.gov/mld/usacqup.html |title=Map Layer Info |date=July 23, 2012 |work=National Atlas of the United States |publisher=United States Department of the Interior |access-date=December 10, 2012 |quote=The Philippines became a territory of the United States after the Spanish–American War. |archive-url=https://web.archive.org/web/20130104003407/http://www.nationalatlas.gov/mld/usacqup.html |archive-date=January 4, 2013 |url-status=dead }}</ref><ref>{{cite book |last=Berhow |first=Mark |title=American Defenses of Corregidor and Manila Bay 1898–1945 |url=https://books.google.com/books?id=7ZNOPvCKK-0C&q=colony&pg=PA6 |access-date=December 10, 2012 |year=2012 |publisher=Osprey Publishing |isbn=978-1-78200-435-6 |page=6}}</ref><ref>{{cite book |editor1-first=Min |editor1-last=Pyong Gap |title=Asian Americans: Contemporary Trends and Issues |url=https://books.google.com/books?id=5PSYZMs8TzEC&q=Philippines+American+territory&pg=PA183 |access-date=December 10, 2012 |year=2005 |publisher=[[SAGE Publications|Pine Forge Press]] |isbn=978-1-4129-0556-5 |page=183}}</ref> Two were elected at-large by the [[1st Philippine Legislature|Philippine Legislature]] from 1907 to 1935, and, following the establishment of the [[Commonwealth of the Philippines]], a single Resident Commissioner was appointed by the [[President of the Philippines]] (with the consent of the Commonwealth's [[Commission on Appointments]]) from 1936 to 1946.
+
+From 1978 to 2009, the [[Northern Mariana Islands]] elected four [[United States congressional delegations from the Northern Mariana Islands|Resident Representatives]] who had [[Shadow congressperson|no privileges in the House]]. [[American Samoa]] similarly elected three [[American Samoa's at-large congressional district|Delegates at-large]] from 1971 to 1981 and [[Guam]] elected one [[Guam's at-large congressional district|Washington Representative]] from 1965 to 1973.
+
+''(Note: Delegates are organized first in chronological order according to their first term in office, then second in alphabetical order according to their surname.)''
+
+{|class="wikitable sortable plainrowheaders" style="text-align: center;"
+|- style="background-color: #cccccc"
+!colspan=2 class=unsortable |[[Delegate (American politics)|Delegate]]
+!rowspan=2 |Asian and/or<br>Pacific Islander ethnicity
+!rowspan=2 |Party
+!rowspan=2 |Territory
+!colspan=3 |Tenure
+!rowspan=2 |Notes
+|-
+!Portrait
+!Name<br>{{small|(lifespan)}}
+!Term start
+!Term end
+!Length of service
+|-
+|[[File:Robert William Wilcox 1900.jpg|75px|Del. Wilcox]]
+|'''{{sortname|Robert|Wilcox|Robert William Wilcox}}'''<br>{{small|(1855–1903)}}
+|[[Native Hawaiians|Hawaiian]]
+|bgcolor={{party color|Aloha ʻĀina Party}} |[[Home Rule Party of Hawaii|Home Rule]]
+|[[Territory of Hawaii|Hawaii]]
+|{{dts|format=mdy|1900|11|6}}
+|{{dts|format=mdy|1903|3|4}}
+|{{ayd|1900|11|6|1903|3|4}}
+|[[1902 United States House of Representatives elections#Non-voting delegates|Lost reelection]]
+|-
+|[[File:Jonah Kuhio Kalanianaole, LC-DIG-npcc-20812 (small crop).jpg|75px|Del. Kalanianaʻole]]
+|'''{{nowrap|{{sortname|Jonah Kūhiō|Kalanianaʻole|Jonah Kūhiō Kalanianaʻole}}}}'''<br>{{small|(1871–1922)}}
+|[[Native Hawaiians|Hawaiian]]
+|{{Party shading/Republican}} |[[Republican Party (United States)|Republican]]
+|[[Territory of Hawaii|Hawaii]]
+|{{dts|format=mdy|1903|3|4}}
+|{{dts|format=mdy|1922|1|7}}
+|{{ayd|1903|3|4|1922|1|7}}
+|[[List of United States Congress members who died in office (1900–1949)#1920s|Died in office]]
+|-
+|[[File:Benito Legarda cph.3b13853.jpg|75px|Res. Comm. Legarda]]
+|'''{{sortname|Benito|Legarda}}'''<br>{{small|(1853–1915)}}
+|[[Filipinos|Filipino]]
+|{{party shading/Republican}} |[[Federalist Party (Philippines)|Federalist]]
+|[[Insular Government of the Philippine Islands|Philippine Islands]]
+|{{dts|format=mdy|1907|11|22}}
+|{{dts|format=mdy|1912|3|4}}
+|{{ayd|1907|11|22|1912|3|4}}
+|Retired
+|-
+|[[File:Pablo Ocampo, c. 1908.jpg|75px|Res. Comm. Ocampo]]
+|'''{{sortname|Pablo|Ocampo}}'''<br>{{small|(1853–1925)}}
+|[[Filipinos|Filipino]]
+|{{party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]
+|[[Insular Government of the Philippine Islands|Philippine Islands]]
+|{{dts|format=mdy|1907|11|22}}
+|{{dts|format=mdy|1909|11|22}}
+|{{ayd|1907|11|22|1909|11|22}}
+|Retired
+|-
+|[[File:MANUELQUEZON (cropped).jpg|75px|Res. Comm. Quezón]]
+|'''{{sortname|Manuel L.|Quezón}}'''<br>{{small|(1878–1944)}}
+|[[Filipinos|Filipino]]
+|bgcolor={{party color|Nacionalista Party}} |[[Nacionalista Party|Nacionalista]]
+|[[Insular Government of the Philippine Islands|Philippine Islands]]
+|{{dts|format=mdy|1909|11|23}}
+|{{dts|format=mdy|1916|10|15}}
+|{{ayd|1909|11|23|1916|10|15}}
+|Retired<br>Later served as [[President of the Philippines#Philippine Commonwealth|President of the Philippines]]
+|-
+|[[File:ManuelEarnshaw.jpg|75px|Res. Comm. Earnshaw]]
+|'''{{sortname|Manuel|Earnshaw}}'''<br>{{small|(1862–1936)}}
+|[[Filipino Americans|Filipino]]
+|{{Party shading/Independent}} |[[Independent politician|Independent]]
+|[[Insular Government of the Philippine Islands|Philippine Islands]]
+|{{dts|format=mdy|1913|3|4}}
+|{{dts|format=mdy|1917|3|4}}
+|{{ayd|1913|3|4|1917|3|4}}
+|Retired
+|-
+|[[File:DeVEYRA, JAIME HONORABLE LCCN2016859760.jpg|75px|Res. Comm. de Veyra]]
+|'''{{sortname|Jaime C.|de Veyra}}'''<br>{{small|(1873–1963)}}
+|[[Filipinos|Filipino]]
+|bgcolor={{party color|Nacionalista Party}} |[[Nacionalista Party|Nacionalista]]
+|[[Insular Government of the Philippine Islands|Philippine Islands]]
+|{{dts|format=mdy|1917|3|4}}
+|{{dts|format=mdy|1923|3|4}}
+|{{ayd|1917|3|4|1923|3|4}}
+|Retired
+|-
+|[[File:Philippine Commissioner Yangco Teodoro R. Yangco, Resident Commissioner from the Philippine Islands. Mr. Yangco is well known for his interest in the industrial development and commerce of LCCN2011647838.jpg|75px|Res. Comm. Yangco]]
+|'''{{sortname|Teodoro R.|Yangco}}'''<br>{{small|(1861–1939)}}
+|[[Filipinos|Filipino]],<br>[[Chinese Filipinos|Chinese]]
+|{{Party shading/Independent}} |[[Independent politician|Independent]]
+|[[Insular Government of the Philippine Islands|Philippine Islands]]
+|{{dts|format=mdy|1917|3|4}}
+|{{dts|format=mdy|1920|3|4}}
+|{{ayd|1917|3|4|1920|3|4}}
+|Retired
+|-
+|[[File:IsauroGabaldon.jpg|75px|Res. Comm. Gabaldón]]
+|'''{{sortname|Isauro|Gabaldon}}'''<br>{{small|(1875–1942)}}
+|[[Filipinos|Filipino]]
+|bgcolor={{party color|Nacionalista Party}} |[[Nacionalista Party|Nacionalista]]
+|[[Insular Government of the Philippine Islands|Philippine Islands]]
+|{{dts|format=mdy|1920|3|4}}
+|{{dts|format=mdy|1928|7|16}}
+|{{ayd|1920|3|4|1928|7|6}}
+|Resigned
+|-
+|[[File:Pedro Guevara, 1930s.jpg|75px|Res. Comm. Guevara]]
+|'''{{sortname|Pedro|Guevara}}'''<br>{{small|(1879–1938)}}
+|[[Filipinos|Filipino]]
+|bgcolor={{party color|Nacionalista Party}} |[[Nacionalista Party|Nacionalista]]
+|[[Insular Government of the Philippine Islands|Philippine Islands]]
+|{{dts|format=mdy|1923|3|4}}
+|{{dts|format=mdy|1936|2|14}}
+|{{ayd|1923|3|4|1936|2|14}}
+|Retired
+|-
+|[[File:William Paul Jarrett.jpg|75px|Del. Jarrett]]
+|'''{{sortname|William|Jarrett|William Paul Jarrett}}'''<br>{{small|(1877–1929)}}
+|[[Native Hawaiians|Hawaiian]]
+|{{party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]
+|[[Territory of Hawaii|Hawaii]]
+|{{dts|format=mdy|1923|3|4}}
+|{{dts|format=mdy|1927|3|4}}
+|{{ayd|1923|3|4|1927|3|4}}
+|[[1926 United States House of Representatives elections#Non-voting delegates|Lost reelection]]
+|-
+|[[File:Victor Houston.jpg|75px|Del. Houston]]
+|'''{{sortname|Victor|Houston|Victor S. K. Houston}}'''<br>{{small|(1876–1959)}}
+|[[Native Hawaiians|Hawaiian]]
+|{{Party shading/Republican}} |[[Republican Party (United States)|Republican]]
+|[[Territory of Hawaii|Hawaii]]
+|{{dts|format=mdy|1927|3|4}}
+|{{dts|format=mdy|1933|3|4}}
+|{{ayd|1927|3|4|1933|3|4}}
+|[[1932 United States House of Representatives elections#Non-voting delegates|Lost reelection]]
+|-
+|[[File:Camilo Osias studio photo.jpg|75px|Res. Comm. Osías]]
+|'''{{sortname|Camilo|Osías}}'''<br>{{small|(1889–1976)}}
+|[[Filipinos|Filipino]]
+|bgcolor={{party color|Nacionalista Party}} |[[Nacionalista Party|Nacionalista]]
+|[[Insular Government of the Philippine Islands|Philippine Islands]]
+|{{dts|format=mdy|1929|3|4}}
+|{{dts|format=mdy|1935|1|3}}
+|{{ayd|1929|3|4|1935|1|3}}
+|Retired
+|-
+|[[File:Francisco Afan Delgado.jpg|75px|Res. Comm. Delgado]]
+|'''{{sortname|Francisco Afan|Delgado}}'''<br>{{small|(1886–1964)}}
+|[[Filipinos|Filipino]]
+|bgcolor={{party color|Nacionalista Party}} |[[Nacionalista Party|Nacionalista]]
+|[[Insular Government of the Philippine Islands|Philippine Islands]]
+|{{dts|format=mdy|1935|1|3}}
+|{{dts|format=mdy|1936|2|14}}
+|{{ayd|1935|1|3|1936|2|14}}
+|Retired
+|-
+|[[File:Samuel Wilder King (PP-74-9-002).jpg|75px|Del. King]]
+|'''{{nowrap|{{sortname|Samuel|King|Samuel Wilder King}}}}'''<br>{{small|(1886–1959)}}
+|[[Native Hawaiians|Hawaiian]]
+|{{Party shading/Republican}} |[[Republican Party (United States)|Republican]]
+|[[Territory of Hawaii|Hawaii]]
+|{{dts|format=mdy|1935|1|3}}
+|{{dts|format=mdy|1943|1|3}}
+|{{ayd|1935|1|3|1943|1|3}}
+|Resigned
+|-
+|[[File:Quintín Paredes y Babila.jpg|75px|Res. Comm. Paredes]]
+|'''{{sortname|Quintín|Paredes}}'''<br>{{small|(1884–1973)}}
+|[[Filipinos|Filipino]]
+|bgcolor={{party color|Nacionalista Party}} |[[Nacionalista Party|Nacionalista]]
+|[[Commonwealth of the Philippines|Philippines]]
+|{{dts|format=mdy|1936|2|14}}
+|{{dts|format=mdy|1938|9|29}}
+|{{ayd|1936|2|13|1938|9|29}}
+|Resigned
+|-
+|[[File:Carlos P. Romulo, 1940.jpg|75px|Res. Comm. Romulo]]
+|'''{{sortname|Carlos P.|Romulo}}'''<br>{{small|(1899–1985)}}
+|[[Filipinos|Filipino]]
+|bgcolor={{party color|Liberal Party (Philippines)}} |[[Liberal Party (Philippines)|Liberal]]
+|[[Commonwealth of the Philippines|Philippines]]
+|{{dts|format=mdy|1944|8|10}}
+|{{dts|format=mdy|1946|7|4}}
+|{{ayd|1944|8|10|1946|7|4}}
+|Office eliminated following [[Treaty of Manila (1946)|the independence of the Philippines]]
+|-
+|[[File:Antonio Won Pat.png|75px|Del. Won Pat]]
+|'''{{sortname|Antonio|Won Pat|Antonio Borja Won Pat}}'''<br>{{small|(1908–1987)}}
+|[[Chamorro people|Chamorro]],<br>[[Chinese Americans|Chinese]]<ref group="D" name="WonPat">First Chamorro person elected to Congress</ref>
+|{{Party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]
+|[[Guam]]
+|{{dts|format=mdy|1973|1|3}}
+|{{dts|format=mdy|1985|1|3}}
+|{{ayd|1973|1|3|1985|1|3}}
+|[[1984 United States House of Representatives elections#Non-voting delegates|Lost reelection]]
+|-
+|rowspan=2 |[[File:Senator Edward DLG. Pangelinan, Marianas.jpg|75px|Res. Rep. Pangelinan]]
+|rowspan=2 |'''{{sortname|Eddie|Pangelinan|Edward Pangelinan}}'''<br>{{small|(1941–2023)}}
+|rowspan=2 |[[Chamorro people|Chamorro]]
+|{{Party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]<br>{{small|(1978–1983)}}
+|rowspan=2 |{{nowrap|[[Northern Mariana Islands]]}}
+|rowspan=2 |{{dts|format=mdy|1978|1|9}}
+|rowspan=2 |{{dts|format=mdy|1984|1|9}}
+|rowspan=2 |{{ayd|1978|9|1|1984|1|9}}
+|rowspan=2 |[[1983 United States House of Representatives elections|Lost reelection]]
+|-
+|{{Party shading/Republican}} |[[Republican Party (United States)|Republican]]<br>{{small|(1983–1984)}}
+|-
+|[[File:Fofó Iosefa Fiti Sunia 99th Congress 1985.jpg|75px|Del. Sunia]]
+|'''{{sortname|Fofó|Sunia|Fofó Iosefa Fiti Sunia}}'''<br>{{small|(born 1937)}}
+|[[Samoan Americans|Samoan]]<ref group="D" name="Sunia">First Samoan delegate elected to Congress</ref>
+|{{Party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]
+|[[American Samoa]]
+|{{dts|format=mdy|1981|1|3}}
+|{{dts|format=mdy|1988|9|6}}
+|{{ayd|1981|1|3|1988|9|6}}
+|Resigned
+|-
+|[[File:Froilan 1.jpg|75px|Res. Rep. Tenorio]]
+|'''{{sortname|Froilan|Tenorio}}'''<br>{{small|(1939–2020)}}
+|[[Chamorro people|Chamorro]]
+|{{party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]
+|{{nowrap|[[Northern Mariana Islands]]}}
+|{{dts|format=mdy|1984|1|9}}
+|{{dts|format=mdy|1990|1|8}}
+|{{ayd|1984|1|9|1990|1|8}}
+|Retired to run unsuccessfully for [[1989 United States gubernatorial elections|Governor of the Northern Mariana Islands]]<br>Later [[List of Governors of the Northern Mariana Islands|successfully ran for Governor of the Northern Mariana Islands]]
+|-
+|[[File:Ben Blaz.jpg|75px|Del. Blaz]]
+|'''{{sortname|Ben|Blaz|Vicente T. Blaz}}'''<br>{{small|(1928–2014)}}
+|[[Chamorro people|Chamorro]]
+|{{Party shading/Republican}} |[[Republican Party (United States)|Republican]]
+|[[Guam]]
+|{{dts|format=mdy|1985|1|3}}
+|{{dts|format=mdy|1993|1|3}}
+|{{ayd|1985|1|3|1993|1|3}}
+|[[1992 United States House of Representatives elections#Non-voting delegates|Lost reelection]]
+|-
+|[[File:Faleomavaega Portrait.jpg|75px|Del. Faleomavaega]]
+|'''{{sortname|Eni|Faleomavaega}}'''<br>{{small|(1943–2017)}}
+|[[Samoan Americans|Samoan]]
+|{{Party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]
+|[[American Samoa]]
+|{{dts|format=mdy|1989|1|3}}
+|{{dts|format=mdy|2015|1|3}}
+|{{ayd|1989|1|3|2015|1|3}}
+|[[2014 American Samoan general election#Delegate|Lost reelection]]
+|-
+|[[File:FEMA - 7324 - Photograph by Andrea Booher taken on 12-20-2002 in Northern Mariana Islands (cropped).jpg|75px|Res. Rep. Babauta]]
+|'''{{sortname|Juan|Babauta}}'''<br>{{small|(born 1953)}}
+|[[Chamorro people|Chamorro]],<br>[[Carolinian people|Carolinian]]<ref group="D" name="Babauta">First (and so far only) Carolinian person elected to Congress</ref>
+|{{party shading/Republican}} |[[Republican Party (United States)|Republican]]
+|{{nowrap|[[Northern Mariana Islands]]}}
+|{{dts|format=mdy|1990|1|8}}
+|{{dts|format=mdy|2002|1|14}}
+|{{ayd|1990|1|8|2002|1|14}}
+|Retired to run successfully for [[United States gubernatorial elections, 2001|Governor of the Northern Mariana Islands]]
+|-
+|[[File:Robert A. Underwood 105th Congress portrait.jpg|93x93px|Del. Underwood]]
+|'''{{sortname|Robert|Underwood|Robert A. Underwood}}'''<br>{{small|(born 1948)}}
+|[[Chamorro people|Chamorro]]
+|{{Party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]
+|[[Guam]]
+|{{dts|format=mdy|1993|1|3}}
+|{{dts|format=mdy|2003|1|3}}
+|{{ayd|1993|1|3|2003|1|3}}
+|Retired to run unsuccessfully for [[Guamanian general election, 2002|Governor of Guam]]
+|-
+|[[File:Pedro Tenorio.jpg|75px|Res. Rep. Tenorio]]
+|'''{{sortname|Pete|Tenorio|Pedro Agulto Tenorio}}'''<br>{{small|(born 1941)}}
+|[[Chamorro people|Chamorro]]
+|{{party shading/Republican}} |[[Republican Party (United States)|Republican]]
+|{{nowrap|[[Northern Mariana Islands]]}}
+|{{dts|format=mdy|2002|1|14}}
+|{{dts|format=mdy|2009|1|3}}
+|{{ayd|2002|1|14|2009|1|3}}
+|Office replaced by Delegate<br>[[2008 United States House of Representatives election in the Northern Mariana Islands|Lost election]] to new office
+|- style="background:#e0e0e0"
+|-
+|[[File:Michael San Nicolas official portrait, 116th Congress.jpg|75px|Del. San Nicolas]]
+|'''{{sortname|Michael|San Nicolas}}'''<br>{{small|(born 1981)}}
+|[[Chamorro people|Chamorro]]
+|{{Party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]
+|[[Guam]]
+|{{dts|format=mdy|2019|1|3}}
+|{{dts|format=mdy|2023|1|3}}
+|{{ayd|2019|1|3|2023|1|3}}
+|Retired to run unsuccessfully for [[2022 Guamanian gubernatorial election#Democratic primary|Governor of Guam]]
+|-
+|-
+|rowspan=4 |[[File:Gregorio Kilili Camacho Sablan.jpg|75px|Del. Sablan]]
+|rowspan=4 |'''{{sortname|Gregorio|Sablan}}'''<br>{{small|(born 1955)}}
+|rowspan=4 |[[Chamorro people|Chamorro]]
+|{{Party shading/Independent}} |[[Independent politician|Independent]]<br>{{small|(2009)}}
+|rowspan=4 |{{nowrap|[[Northern Mariana Islands]]}}
+|rowspan=4 |{{dts|format=mdy|2009|1|3}}
+|rowspan=4 |{{dts|format=mdy|2025|1|3}}
+|rowspan=4 |{{ayd|2009|1|3|2025|1|3}}
+|rowspan=4 |Retired
+|-
+|{{Party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]<br>{{small|(2009–2014)}}
+|- style="background:#e0e0e0"
+|{{Party shading/Independent}} |[[Independent politician|Independent]]<br>{{small|(2014–2021)}}
+|- style="background:#e0e0e0"
+|{{Party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]<br>{{small|(2021–2025)}}
+|- style="background:#e0e0e0"
+|[[File:Aumua Amata Coleman Radewagen.jpg|75px|Del. Radewagen]]
+|'''{{sortname|Amata|Radewagen|Amata Coleman Radewagen}}'''<br>{{small|(born 1947)}}
+|[[Samoan Americans|Samoan]],<br>[[Native Hawaiian|Hawaiian]]
+|{{Party shading/Republican}} |[[Republican Party (United States)|Republican]]
+|[[American Samoa]]
+|{{dts|format=mdy|2015|1|3}}
+|Incumbent
+|{{ayd|2015|1|3}}
+|
+|- style="background:#e0e0e0"
+|[[File:James Moylan official photo.jpg|75px]]
+|'''{{sortname|James|Moylan}}'''<br>{{small|(born 1962)}}
+|[[Chamorro people|Chamorro]]
+|{{Party shading/Republican}} |[[Republican Party (United States)|Republican]]
+|[[Guam]]
+|{{dts|format=mdy|2023|1|3}}
+|Incumbent
+|{{ayd|2023|1|3}}
+|
+|- style="background:#e0e0e0"
+||[[File:Kimberlyn King-Hinds official portrait.jpg|75px]]
+|'''{{sortname|Kimberlyn|King-Hinds}}'''<br />{{small|(born 1975)}}
+|[[Chamorro people|Chamorro]]
+|{{Party shading/Republican}} |[[Republican Party (United States)|Republican]]
+|[[Northern Mariana Islands]]
+||{{dts|format=mdy|2025|1|3}}
+|Incumbent
+|{{ayd|2025|1|3}}
+|
+|}
+
+===Delegates-elect===
+{|class="wikitable sortable plainrowheaders" style="text-align: center;"
+|- style="background-color: #cccccc"
+!colspan=2 class=unsortable |[[Delegate (American politics)|Delegate]]
+!rowspan=2 |Asian and/or<br>Pacific Islander ethnicity
+!rowspan=2 |Party
+!rowspan=2 |Territory
+!rowspan=2 |Assuming office
+!rowspan=2 |Notes
+|-
+!Portrait
+!Name<br>{{small|(lifespan)}}
+|-
+|[[File:Alicia Anne Garrido Limtiaco.jpg|75px]] <!--replace with House portrait when available-->
+|'''{{sortname|Alicia|Limtiaco}}'''<br>{{small|(born 1963)}}
+|[[Chamorro people|Chamorro]]
+|{{Party shading/Democratic}} |[[Democratic Party (United States)|Democratic]]
+|[[Guam]]
+|{{dts|format=mdy|2027|1|7}}
+|
+|}
+
+'''Notes'''
+<references group="D"/>
+
+== See also ==
+*[[Congressional Asian Pacific American Caucus]]
+*[[List of Asian Australian politicians]]
+
+== Notes ==
+<references group="H" />
+
+== References ==
+{{Reflist}}
+
+== Further reading ==
+*Tong, Lorraine H. (2003). "[https://sgp.fas.org/crs/misc/97-398.pdf Asian Pacific Americans in the United States Congress]". ''Congressional Research Service'' 97–398, 9–14.
+*{{cite web |url=http://www.riseofthewahine.com|title=Rise of the Wahine Documentary Film |access-date=February 29, 2020 |archive-url=https://web.archive.org/web/20180331140611/http://www.riseofthewahine.com/|archive-date=March 31, 2018 |url-status=dead}}, highlighting the role of the first woman of color and first female Asian-American to serve in Congress, [[Patsy Mink]].
+
+{{Congresslists}}
+
+{{DEFAULTSORT:Asian Americans and Pacific Islander Americans in the United States Congress}}
+[[Category:Members of the United States Congress of Asian descent|Members of the United States Congress of Asian descent]]
+[[Category:Lists of American people of Asian descent]]
+[[Category:Lists of members of the United States Congress|Asian members]]
+[[Category:Lists of ethnic minority politicians by country]]

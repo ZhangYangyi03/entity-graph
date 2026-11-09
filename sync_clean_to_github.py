@@ -26,6 +26,9 @@ from pathlib import Path
 # Files produced by cleaning / graph building. Everything else is ignored here;
 # .gitignore still protects *.sqlite, *.log, .env, .cache/, out/.
 DATA_GLOBS = (
+    "US_CHINA_NETWORK.md",
+    "shards/us_china_raw/*.wiki", "shards/us_china_raw/*.html",
+    "shards/us_china_raw/*.json",
     "*.graph.json", "web*.json", "*_pool.json", "*_cache.json",
     "shards/*.json", "*.graph.jsonl", "*.ndjson",
     "WEB_COVERAGE.md", "COMPANIES.md", "NOTES.md", "README.md",
@@ -115,6 +118,8 @@ def sync(repo, remote, branch, dry, message=None):
                   "NOTES.md", "README.md"):
         if (repo / extra).is_file():
             paths.append(extra)
+    # 中间态：可重建且体积大，不上库
+    paths = [p for p in paths if not p.endswith(("_build_state.pkl", "_build_state.json", "launch_debug.txt"))]
     paths = sorted(set(paths))
     if not paths:
         return "clean (no data artefacts to stage)"

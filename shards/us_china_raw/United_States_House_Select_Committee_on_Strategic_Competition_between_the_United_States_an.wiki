@@ -1,0 +1,156 @@
+{{Short description|Current US House of Representatives committee}}
+{{Use American English|date=November 2025}}
+{{Use mdy dates|date=March 2023}}
+{{Infobox U.S. congressional committee
+|name=United States House Select Committee on Strategic Competition between the United States and the Chinese Communist Party
+|type=select
+|status=Active<ref>{{cite web |title=H.Res.11 – Establishing the Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party. |url=https://www.congress.gov/bill/118th-congress/house-resolution/11 |website=congress.gov |date=January 10, 2023 |publisher=[[U.S. Congress]] |access-date=2023-01-11 |ref=H.Res.11 |archive-date=January 20, 2023 |archive-url=https://web.archive.org/web/20230120164235/https://www.congress.gov/bill/118th-congress/house-resolution/11 |url-status=live }}</ref>
+|chamber=house
+|congress=119th
+|chair=[[John Moolenaar]]
+|chair party=
+|chair_since=April 20, 2024
+|purpose=to ''"investigate and submit policy recommendations on the status of the Chinese Communist Party’s economic, technological, and security progress and its competition with the United States"''
+|formed=January 10, 2023<ref>{{Cite news |last1=Zengerle |first1=Patricia |title=New U.S. House creates committee focused on competing with China |url=https://www.reuters.com/world/us/new-us-house-creates-committee-focused-competing-with-china-2023-01-10/ |date=January 10, 2023 |publisher=[[Reuters]] |access-date=2023-01-11 |archive-date=January 17, 2023 |archive-url=https://web.archive.org/web/20230117123847/https://www.reuters.com/world/us/new-us-house-creates-committee-focused-competing-with-china-2023-01-10/ |url-status=live }}</ref>
+|policy_areas={{ubl|[[China–United States relations|United States–China relations]]|[[Taiwan–United States relations|United States–Taiwan relations]]|[[Chinese espionage in the United States|Chinese espionage in the US]]|[[Cyberwarfare and China]]|[[Allegations of intellectual property theft by China|Intellectual property theft by China]]|[[Territorial disputes in the South China Sea]]|[[Human rights in China]]}}
+|majority1=R
+|majority1_seats=13
+|minority1=D
+|minority1_seats=11
+|ranking_member=[[Ro Khanna]]
+|rm_party=D
+|chair_party=R
+|rm_since=January 5, 2026
+|website={{url|selectcommitteeontheccp.house.gov}} (Republican)
+|image=File:Select Committee On China logo 2026.png
+|image_size=150px
+|caption=Logo of the Committee
+|minority_website={{url|democrats-selectcommitteeontheccp.house.gov}} (Democratic)}}
+The '''United States House Select Committee on Strategic Competition between the United States and the Chinese Communist Party'''{{efn|officially abbreviated as the '''Select Committee on the CCP'''; sometimes called the '''House Select Committee on China'''<ref>{{Cite news |last=Zengerle |first=Patricia |date=2023-01-11 |title=New U.S. House creates committee focused on competing with China |language=en |work=Reuters |url=https://www.reuters.com/world/us/new-us-house-creates-committee-focused-competing-with-china-2023-01-10/ |access-date=2023-04-10 |archive-date=January 17, 2023 |archive-url=https://web.archive.org/web/20230117123847/https://www.reuters.com/world/us/new-us-house-creates-committee-focused-competing-with-china-2023-01-10/ |url-status=live }}</ref>}} is a [[United States congressional committee#Select or special committees|select committee]] of the [[United States House of Representatives]] established in the [[118th United States Congress|118th Congress]], on January 10, 2023. The committee focuses on American [[Strategic competition#United States government|economic and security competition]] with the [[China|People's Republic of China]], and its ruling party, the [[Chinese Communist Party]] (CCP). The committee is chaired by Representative [[John Moolenaar]] of [[Michigan]], a member of the [[Republican Party (United States)|Republican Party]], and the [[ranking member]] is [[Ro Khanna]] of [[California]], a [[Democratic Party (United States)|Democrat]].<ref>{{Cite news |last=Zengerle |first=Patricia |date=December 8, 2022 |title=Republican Gallagher to lead new U.S. House China select committee |language=en |work=[[Reuters]] |url=https://www.reuters.com/world/republican-gallagher-lead-new-us-house-china-select-committee-2022-12-08/ |access-date=2022-12-08 |archive-date=January 20, 2023 |archive-url=https://web.archive.org/web/20230120162426/https://www.reuters.com/world/republican-gallagher-lead-new-us-house-china-select-committee-2022-12-08/ |url-status=live }}</ref>
+
+== History ==
+Republicans in Congress tried to introduce a proposal for a committee dedicated to China near the end of the [[116th United States Congress|116th Congress]] in 2021, abandoning the effort when negotiations between the Republican minority and then-Speaker [[Nancy Pelosi]] faltered.<ref name=":0">{{Cite news |last=Brooks |first=Emily |date=December 8, 2022 |title=McCarthy taps Mike Gallagher to chair planned China Select Committee |url=https://thehill.com/homenews/house/3767169-mccarthy-taps-mike-gallagher-to-chair-planned-china-select-committee/ |access-date=2022-12-08 |website=[[The Hill (newspaper)|The Hill]] |language=en-US |archive-date=January 10, 2023 |archive-url=https://web.archive.org/web/20230110215749/https://thehill.com/homenews/house/3767169-mccarthy-taps-mike-gallagher-to-chair-planned-china-select-committee/ |url-status=live }}</ref> A Republican-led China Task Force later emerged under [[United States House Committee on Foreign Affairs|Foreign Affairs Committee]] ranking member [[Michael McCaul]] which, though partisan in nature, introduced hundreds of policy proposals with often robust bipartisan support.<ref name=":1">{{Cite news |last1=Harris |first1=Bryant |last2=Shane III |first2=Leo |date=December 8, 2022 |title=How a Republican House majority will affect defense policy |url=https://www.federaltimes.com/federal-oversight/congress/2022/12/08/how-a-republican-house-majority-will-affect-defense-policy/ |access-date=2022-12-08 |website=[[Federal Times]] |language=en |archive-date=January 21, 2023 |archive-url=https://web.archive.org/web/20230121172239/https://www.federaltimes.com/federal-oversight/congress/2022/12/08/how-a-republican-house-majority-will-affect-defense-policy/ |url-status=live }}</ref> It also worked with the country's [[Taipei Economic and Cultural Representative Office in the United States|''de facto'' diplomatic mission in Washington]] to advance U.S. military aid to [[Taiwan]].<ref name=":1" /> The task force produced a wide-ranging and partly [[Classified information in the United States|classified]] report in September 2020.<ref>{{Cite web |last=McCaul |first=Michael |author-link=Michael McCaul |date=September 2020 |title=China Task Force Report |url=https://gop-foreignaffairs.house.gov/wp-content/uploads/2020/11/China-Task-Force-Final-Report-11.6.20.pdf |website=House Foreign Affairs Committee Republican caucus |language=en |publication-place=Washington, D.C. |access-date=December 8, 2022 |archive-date=January 3, 2023 |archive-url=https://web.archive.org/web/20230103184130/https://gop-foreignaffairs.house.gov/wp-content/uploads/2020/11/China-Task-Force-Final-Report-11.6.20.pdf |url-status=dead }}</ref>
+
+In October 2022, Rep. [[Mike Gallagher (American politician)|Mike Gallagher]] of [[Wisconsin]] told reporters that an independent China committee would "go a long way towards coordinating policy across the many committee jurisdictions and thereby create a more coherent approach to our China policy".<ref name=":0" />
+
+On December 8, 2022, [[Kevin McCarthy]], the Republican nominee for the Speaker of the House, unveiled the committee among a slate of efforts to "confront, counter, and respond to" the government of China in an op-ed that argued that the United States was locked in a [[Second Cold War#Usage in the context of China–United States tensions|new Cold War]] with China:<blockquote>"To win the new Cold War, we must respond to Chinese aggression with tough policies to strengthen our economy, rebuild our supply chains, speak out for human rights, stand against military aggression, and end the theft of Americans’ personal information, intellectual property, and jobs. We must recognize that China’s "[[China's peaceful rise|peaceful rise]]" was pure fiction and finally to confront and respond to the Chinese Communist Party with the urgency the threat demands. To do that, House Republicans will establish a Select Committee on China in the new Congress."<ref name=":2">{{Cite news |last=McCarthy |first=Kevin |author-link=Kevin McCarthy |date=2022-12-08 |title=China and the US are locked in a cold war. We must win it. Here's how we will |url=https://www.foxnews.com/opinion/america-locked-china-cold-war-win |access-date=2022-12-08 |website=[[Fox News]] |language=en-US |archive-date=January 20, 2023 |archive-url=https://web.archive.org/web/20230120071955/https://www.foxnews.com/opinion/america-locked-china-cold-war-win |url-status=live }}{{unreliable source|reason=Per 2023 RFC and WP:FOXNEWSPOLITICS, Fox News is considerably unreliable source for politics and science.|date=June 2023}}</ref></blockquote>In his response to his appointment as committee chair, Gallagher said:<blockquote>"The greatest threat to the United States is the Chinese Communist Party. The CCP continues to commit genocide, obscure the origins of the coronavirus pandemic, steal hundreds of billions of dollars worth of American intellectual property, and threaten Taiwan. The Select Committee on China will push back in bipartisan fashion before it’s too late."<ref>{{Cite tweet|number=1600856661492744193|user=RepGallagher|title=Rep. Gallagher's statement on being selected by @GOPLeader to serve as Chairman of the Select Committee on China.|author=[[Mike Gallagher (American politician)|Mike Gallagher]]|date=December 8, 2022|access-date=December 8, 2022|language=en|quote=I'd like to thank Speaker-elect McCarthy for appointing me Chairman of the Select Committee on China and for his leadership on this issue. The greatest threat to the United States is the Chinese Communist Party. The CCP continues to commit genocide, obscure the origins of the coronavirus pandemic, steal hundreds of billions of dollars worth of American intellectual property, and threaten Taiwan. The Select Committee will push back in bipartisan fashion before it's too late. Even in divided government, we have an opportunity to build a united front against CCP aggression.}}</ref></blockquote>In an op-ed to [[Fox News|FoxNews.com]], the two described the committee as the starting point for a holistic government approach that would build on the efforts of the previous Republican-led China Task Force and "ensure America is prepared to tackle the economic and security challenges posed by the CCP."<ref name=":2" />
+In December 2022, ''[[The Hill (newspaper)|The Hill]]'' reported that the committee was likely to focus not only on international affairs but also topics of concern regarding the influence of the Chinese Communist Party within the United States, including large purchases of American agricultural lands by Chinese firms, China's human rights issues, and "ideological warfare."<ref name=":0" />
+
+In December 2023, the committee released a set of 150 legislative recommendations to "reset" US economic relations with China.<ref>{{Cite news |last=Martina |first=Michael |date=2023-12-12 |title=US committee offers 2024 legislative 'blueprint' for countering China |language=en |work=[[Reuters]] |url=https://www.reuters.com/world/us/us-committee-offers-2024-legislative-blueprint-countering-china-2023-12-12/ |access-date=2023-12-13 |archive-date=December 13, 2023 |archive-url=https://web.archive.org/web/20231213054601/https://www.reuters.com/world/us/us-committee-offers-2024-legislative-blueprint-countering-china-2023-12-12/ |url-status=live }}</ref>
+
+In 2023, the committee issued a report describing an illegal biolab in [[Reedley, California|Reedley]], California, and accused a lab worker and a citizen of China, of "transporting infectious diseases as well as stealing American and Canadian intellectual property".<ref>{{Cite web |date=2023-11-15 |title=A biolab was operating in a California city. Here's what a congressional committee found |url=https://www.kvpr.org/local-news/2023-11-15/congressional-committee-completes-report-into-illegal-reedley-medical-lab |access-date=2023-12-22 |website=KVPR {{!}} Valley Public Radio |language=en |archive-date=December 22, 2023 |archive-url=https://web.archive.org/web/20231222003258/https://www.kvpr.org/local-news/2023-11-15/congressional-committee-completes-report-into-illegal-reedley-medical-lab |url-status=live }}</ref> The report also alleged that the [[Centers for Disease Control and Prevention]]'s (CDC) response had improperly failed to test the samples found in the lab, allegations that the CDC strongly disputed.<ref>{{Cite web |last=Reporter |first=James Bickerton US News |date=2023-11-17 |title=CDC responds to claims about Chinese biolab in California |url=https://www.newsweek.com/cdc-responds-claims-about-chinese-biolab-california-1844760 |access-date=2023-12-22 |website=Newsweek |language=en}}</ref> The [[Federal Bureau of Investigation]] closed its investigation, concluding that "there were no weapons of mass destruction on the property".<ref>{{Cite web |title=China - Bio Lab in California |url=https://www.ascf.us/news/china--bio-lab-in-california/ |access-date=2023-12-22 |website=American Security Council Foundation |language=en |archive-date=December 22, 2023 |archive-url=https://web.archive.org/web/20231222003300/https://www.ascf.us/news/china--bio-lab-in-california/ |url-status=dead }}</ref><ref>{{Cite web |date=2023-08-09 |title=An illicit, Chinese-owned lab fueled conspiracy theories. But officials say it posed no danger |url=https://apnews.com/article/chinese-lab-biological-weapons-fears-california-5ca5824b09ad5b8c2c65b639743e8507 |access-date=2023-12-22 |website=AP News |language=en |archive-date=December 20, 2023 |archive-url=https://web.archive.org/web/20231220102129/https://apnews.com/article/chinese-lab-biological-weapons-fears-california-5ca5824b09ad5b8c2c65b639743e8507 |url-status=live }}</ref>
+
+In March 22, 2024, Gallagher announced that he would leave Congress in April,<ref>{{Cite news |last=Slattery |first=Gram |last2=Martina |first2=Michael |last3=Slattery |first3=Gram |last4=Martina |first4=Michael |date=2024-03-22 |title=Republican Mike Gallagher to leave US House in April |url=https://www.reuters.com/world/us/republican-mike-gallagher-leave-us-house-april-sources-say-2024-03-22/ |access-date=2026-11-06 |work=Reuters |language=en}}</ref> and [[Speaker Mike Johnson]] named Moolenaar to succeed him as chair on March 25.<ref>{{Cite news |last=Martina |first=Michael |last2= |first2= |date=2024-03-25 |title=US Rep Moolenaar, Michigan Republican, to head of US select committee on China |url=https://www.reuters.com/world/us/us-rep-moolenaar-michigan-republican-head-us-select-committee-china-2024-03-25/ |access-date=2026-11-06 |work=Reuters |language=en}}</ref>
+
+In December 2025, intrusions were detected in staff email systems and later attributed to [[Salt Typhoon]].<ref>{{Cite news |last=Sevastopulo |first=Demetri |date=7 January 2026 |title=China hacked email systems of US congressional committee staff |url=https://www.ft.com/content/44f730c4-7de3-4a09-88dd-41ea9c373dcb |url-access=subscription |url-status=live |archive-url=https://archive.today/20260108013030/https://www.ft.com/content/44f730c4-7de3-4a09-88dd-41ea9c373dcb |archive-date=8 January 2026 |access-date=7 January 2026 |work=[[Financial Times]]}}</ref> "In the winter of 2025–26, a man identifying himself as 'Chris Chen' offered a committee aide $10,000 or more for phone calls every other week about the committee's work and U.S. policy toward China. The aide reported the offer to committee leadership, and the committee concluded that Chen was likely a Chinese intelligence officer or contractor. ''The New York Times'' said the episode showed in unusual detail how Chinese intelligence services try to reach sensitive information in Washington."<ref>{{Cite news |last=Volz |first=Dustin |date=2026-05-09 |title=He Offered a Lawmaker's Aide Quick Cash. Was He Spying for China? |url=https://www.nytimes.com/2026/05/09/us/politics/china-us-spy-congressional-aide.html |access-date=2026-05-12 |work=[[The New York Times]] |language=en-US |issn=0362-4331}}</ref>
+
+==Committee leadership==
+===Chairs===
+{|class="wikitable sortable"
+|-
+!Name
+!Party
+!State
+!Start
+!End
+|- {{Party shading/Republican}}
+|{{sortname|Mike|Gallagher|dab=American politician}}
+|[[Republican Party (United States)|Republican]]
+|[[Wisconsin]]
+|2023
+|2024
+|- {{Party shading/Republican}}
+|{{sortname|John|Moolenaar}}
+|[[Republican Party (United States)|Republican]]
+|[[Michigan]]
+|2024
+|present
+|}
+
+===Ranking Members===
+{|class="wikitable sortable"
+|-
+!Name
+!Party
+!State
+!Start
+!End
+|- {{Party shading/Democratic}}
+|{{sortname|Raja|Krishnamoorthi}}
+|[[Democratic Party (United States)|Democratic]]
+|[[Illinois]]
+|2023
+|2026
+|- {{Party shading/Democratic}}
+|{{sortname|Ro|Khanna}}
+|[[Democratic Party (United States)|Democratic]]
+|[[California]]
+|2026
+|present
+|}
+
+== Members, 119th Congress ==
+{| class=wikitable
+!width="50%" |Majority<ref name=":3">{{Cite web |date=2026-02-26 |title=Members {{!}} Select Committee on the CCP |url=https://selectcommitteeontheccp.house.gov/members |access-date=2026-02-26 |website=selectcommitteeontheccp.house.gov |language=en |archive-date=March 3, 2024 |archive-url=https://web.archive.org/web/20240303191102/https://selectcommitteeontheccp.house.gov/members |url-status=live }}</ref>
+!width="50%" |Minority<ref name=":3" />
+|-
+| valign=top {{Party shading/Republican}} |
+*[[John Moolenaar]], Michigan, ''Chair''
+*[[Rob Wittman]], Virginia
+*[[Andy Barr (American politician)|Andy Barr]], Kentucky
+*[[Dan Newhouse]], Washington
+*[[Darin LaHood]], Illinois
+*[[Neal Dunn]], Florida
+*[[Dusty Johnson]], South Dakota
+*[[Ashley Hinson]], Iowa 
+*[[Carlos A. Giménez|Carlos Giménez]], Florida
+*[[Gus Bilirakis]], Florida
+*[[Young Kim]], California
+*[[Nathaniel Moran]], Texas
+*[[Zach Nunn]], Iowa
+
+| valign=top {{Party shading/Democratic}} |
+*[[Ro Khanna]], California, ''Ranking Member (from January 5, 2026)''
+*[[Raja Krishnamoorthi]], Illinois, ''Ranking Member (until January 5, 2026)''
+*[[Kathy Castor]], Florida
+*[[Andre Carson]], Indiana
+*[[Seth Moulton]], Massachusetts
+*[[Mikie Sherrill]], New Jersey (until November 20, 2025)
+*[[Haley Stevens]], Michigan
+*[[Tom Suozzi]], New York (from June 2026)
+*[[Ritchie Torres]], New York 
+*[[Shontel Brown]], Ohio
+*[[Greg Stanton]], Arizona
+*[[Jill Tokuda]], Hawaii
+|}
+
+
+== See also ==
+
+*[[United States-China Economic and Security Review Commission]]
+*[[Congressional-Executive Commission on China]]
+*[[Cox Report]]
+*[[Inter-Parliamentary Alliance on China]]
+
+==Notes==
+{{notelist}}
+
+==References==
+{{Reflist}}
+
+== External links ==
+*[https://www.congress.gov/committee/house-select-committee-on-the-strategic-competition-between-the-united-states-and-the-chinese-communist-party/hlzs00 Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party] on [[Congress.gov]]
+*[https://www.congress.gov/committees/video/house-select-committee-on-the-strategic-competition-between-the-united-states-and-the-chinese-communist-party/hlzs00 Hearings and meetings video] on Congress.gov
+
+{{China–United States relations}}
+{{United States congressional committees}}
+{{Authority control}}
+
+[[Category:118th United States Congress]]
+[[Category:2023 establishments in Washington, D.C.]]
+[[Category:China–United States relations]]
+[[Category:Committees of the United States House of Representatives|Strategic Competition between the United States and the Chinese Communist Party]]
+[[Category:Government agencies established in 2023]]
+[[Category:Select committees of the United States House of Representatives|Strategic Competition between the United States and the Chinese Communist Party]]
+[[Category:Taiwan–United States relations]]
+[[Category:Parliamentary committees on foreign affairs]]
