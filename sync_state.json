@@ -1,0 +1,8 @@
+{
+  "last_clean_utc": "2026-11-09T15:35:07Z",
+  "artefacts": [
+    "web.graph.json",
+    "web_fast.graph.json"
+  ],
+  "note": "auto-sync smoke test"
+}
