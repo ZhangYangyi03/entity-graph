@@ -13476,18 +13476,6 @@
    "fetched_at": "2026-11-09T08:26:06Z"
   },
   {
-   "key": "org_cn:16c1ec046253",
-   "kind": "org_cn",
-   "label": "United Front Work Department",
-   "attrs": {
-    "kind_zh": "上级/主管机构",
-    "side": "CN"
-   },
-   "source": "wikipedia:cn_orgs.json",
-   "url": "https://en.wikipedia.org/wiki/United_Front_Work_Department",
-   "fetched_at": "2026-11-09T08:26:06Z"
-  },
-  {
    "key": "org_cn:d13ff9ea1152",
    "kind": "org_cn",
    "label": "Chinese People's Political Consultative Conference",
@@ -13513,18 +13501,6 @@
    },
    "source": "wikipedia:cn_orgs.json",
    "url": "https://en.wikipedia.org/wiki/China_Council_for_the_Promotion_of_International_Trade",
-   "fetched_at": "2026-11-09T08:26:06Z"
-  },
-  {
-   "key": "org_cn:974190681315",
-   "kind": "org_cn",
-   "label": "Ministry of Commerce",
-   "attrs": {
-    "kind_zh": "上级/主管机构",
-    "side": "CN"
-   },
-   "source": "wikipedia:cn_orgs.json",
-   "url": "https://en.wikipedia.org/wiki/Ministry_of_Commerce",
    "fetched_at": "2026-11-09T08:26:06Z"
   },
   {
@@ -17320,19 +17296,6 @@
    },
    "source": "wikipedia:cn_orgs.json",
    "url": "https://en.wikipedia.org/wiki/National_Committee_of_the_Chinese_People's_Political_Consultative_Conference",
-   "fetched_at": "2026-11-09T08:36:43Z"
-  },
-  {
-   "key": "org_cn:395486c36708",
-   "kind": "org_cn",
-   "label": "Chinese People's Political Consultative Conference",
-   "attrs": {
-    "kind_zh": "上级/关联机构",
-    "side": "CN",
-    "status": "text_derived"
-   },
-   "source": "wikipedia:cn_orgs.json",
-   "url": "https://en.wikipedia.org/wiki/Chinese_People's_Political_Consultative_Conference",
    "fetched_at": "2026-11-09T08:36:43Z"
   },
   {
@@ -26585,7 +26548,7 @@
   },
   {
    "src": "org_cn:d817629ec8a7",
-   "dst": "org_cn:16c1ec046253",
+   "dst": "org_cn:d7629b2f26be",
    "rel": "overseen_by",
    "attrs": {
     "status": "asserted",
@@ -26609,7 +26572,7 @@
   },
   {
    "src": "org_cn:04d1aee307f4",
-   "dst": "org_cn:974190681315",
+   "dst": "org_cn:7f2731ed7102",
    "rel": "overseen_by",
    "attrs": {
     "status": "asserted",
@@ -26621,7 +26584,7 @@
   },
   {
    "src": "org_cn:76298d5c18ee",
-   "dst": "org_cn:16c1ec046253",
+   "dst": "org_cn:d7629b2f26be",
    "rel": "overseen_by",
    "attrs": {
     "status": "asserted",
@@ -26633,7 +26596,7 @@
   },
   {
    "src": "org_cn:d13ff9ea1152",
-   "dst": "org_cn:16c1ec046253",
+   "dst": "org_cn:d7629b2f26be",
    "rel": "overseen_by",
    "attrs": {
     "status": "asserted",
@@ -26645,7 +26608,7 @@
   },
   {
    "src": "org_cn:b33d494fc8d3",
-   "dst": "org_cn:16c1ec046253",
+   "dst": "org_cn:d7629b2f26be",
    "rel": "overseen_by",
    "attrs": {
     "status": "asserted",
@@ -29643,7 +29606,7 @@
   },
   {
    "src": "org_us:f9848811bc4c",
-   "dst": "org_cn:16c1ec046253",
+   "dst": "org_cn:d7629b2f26be",
    "rel": "mentions_org",
    "attrs": {
     "status": "co_mentioned",
@@ -29715,7 +29678,7 @@
   },
   {
    "src": "org_us:217365ea4521",
-   "dst": "org_cn:16c1ec046253",
+   "dst": "org_cn:d7629b2f26be",
    "rel": "mentions_org",
    "attrs": {
     "status": "co_mentioned",
@@ -30344,58 +30307,6 @@
    "fetched_at": "2026-11-09T08:26:06Z"
   },
   {
-   "src": "person:f1b7abafb338",
-   "dst": "party:4d07466f452d",
-   "rel": "member_of_party",
-   "attrs": {
-    "status": "asserted"
-   },
-   "source": "wikipedia:List_of_Asian_Americans...Congress",
-   "url": "",
-   "fetched_at": "2026-11-09T08:26:06Z"
-  },
-  {
-   "src": "person:f1b7abafb338",
-   "dst": "state:1786e3ba91dc",
-   "rel": "represents_state",
-   "attrs": {
-    "status": "asserted",
-    "years": [
-     "1959",
-     "1963"
-    ]
-   },
-   "source": "wikipedia:List_of_Asian_Americans...Congress",
-   "url": "",
-   "fetched_at": "2026-11-09T08:26:06Z"
-  },
-  {
-   "src": "person:9e14bb649577",
-   "dst": "party:4d07466f452d",
-   "rel": "member_of_party",
-   "attrs": {
-    "status": "asserted"
-   },
-   "source": "wikipedia:List_of_Asian_Americans...Congress",
-   "url": "",
-   "fetched_at": "2026-11-09T08:26:06Z"
-  },
-  {
-   "src": "person:9e14bb649577",
-   "dst": "state:1786e3ba91dc",
-   "rel": "represents_state",
-   "attrs": {
-    "status": "asserted",
-    "years": [
-     "1963",
-     "1977"
-    ]
-   },
-   "source": "wikipedia:List_of_Asian_Americans...Congress",
-   "url": "",
-   "fetched_at": "2026-11-09T08:26:06Z"
-  },
-  {
    "src": "person:f5bedab8ae44",
    "dst": "party:4d07466f452d",
    "rel": "member_of_party",
@@ -30441,32 +30352,6 @@
     "years": [
      "1975",
      "1995"
-    ]
-   },
-   "source": "wikipedia:List_of_Asian_Americans...Congress",
-   "url": "",
-   "fetched_at": "2026-11-09T08:26:06Z"
-  },
-  {
-   "src": "person:56630faecfa0",
-   "dst": "party:4d07466f452d",
-   "rel": "member_of_party",
-   "attrs": {
-    "status": "asserted"
-   },
-   "source": "wikipedia:List_of_Asian_Americans...Congress",
-   "url": "",
-   "fetched_at": "2026-11-09T08:26:06Z"
-  },
-  {
-   "src": "person:56630faecfa0",
-   "dst": "state:1786e3ba91dc",
-   "rel": "represents_state",
-   "attrs": {
-    "status": "asserted",
-    "years": [
-     "1977",
-     "1990"
     ]
    },
    "source": "wikipedia:List_of_Asian_Americans...Congress",
@@ -30603,32 +30488,6 @@
    "fetched_at": "2026-11-09T08:26:06Z"
   },
   {
-   "src": "person:b7d88821bf94",
-   "dst": "party:8cf09888d097",
-   "rel": "member_of_party",
-   "attrs": {
-    "status": "asserted"
-   },
-   "source": "wikipedia:List_of_Asian_Americans...Congress",
-   "url": "",
-   "fetched_at": "2026-11-09T08:26:06Z"
-  },
-  {
-   "src": "person:b7d88821bf94",
-   "dst": "state:f4d48829c37c",
-   "rel": "represents_state",
-   "attrs": {
-    "status": "asserted",
-    "years": [
-     "1995",
-     "1999"
-    ]
-   },
-   "source": "wikipedia:List_of_Asian_Americans...Congress",
-   "url": "",
-   "fetched_at": "2026-11-09T08:26:06Z"
-  },
-  {
    "src": "person:cd7239d50963",
    "dst": "party:4d07466f452d",
    "rel": "member_of_party",
@@ -30710,32 +30569,6 @@
     "status": "asserted",
     "years": [
      "2005"
-    ]
-   },
-   "source": "wikipedia:List_of_Asian_Americans...Congress",
-   "url": "",
-   "fetched_at": "2026-11-09T08:26:06Z"
-  },
-  {
-   "src": "person:b0fc119141b6",
-   "dst": "party:4d07466f452d",
-   "rel": "member_of_party",
-   "attrs": {
-    "status": "asserted"
-   },
-   "source": "wikipedia:List_of_Asian_Americans...Congress",
-   "url": "",
-   "fetched_at": "2026-11-09T08:26:06Z"
-  },
-  {
-   "src": "person:b0fc119141b6",
-   "dst": "state:1786e3ba91dc",
-   "rel": "represents_state",
-   "attrs": {
-    "status": "asserted",
-    "years": [
-     "2007",
-     "2013"
     ]
    },
    "source": "wikipedia:List_of_Asian_Americans...Congress",
@@ -30901,32 +30734,6 @@
     "status": "asserted",
     "years": [
      "2013"
-    ]
-   },
-   "source": "wikipedia:List_of_Asian_Americans...Congress",
-   "url": "",
-   "fetched_at": "2026-11-09T08:26:06Z"
-  },
-  {
-   "src": "person:382a320bb97c",
-   "dst": "party:4d07466f452d",
-   "rel": "member_of_party",
-   "attrs": {
-    "status": "asserted"
-   },
-   "source": "wikipedia:List_of_Asian_Americans...Congress",
-   "url": "",
-   "fetched_at": "2026-11-09T08:26:06Z"
-  },
-  {
-   "src": "person:382a320bb97c",
-   "dst": "state:352cc6ff321f",
-   "rel": "represents_state",
-   "attrs": {
-    "status": "asserted",
-    "years": [
-     "2013",
-     "2017"
     ]
    },
    "source": "wikipedia:List_of_Asian_Americans...Congress",
@@ -34054,7 +33861,7 @@
   },
   {
    "src": "org_cn:d817629ec8a7",
-   "dst": "org_cn:395486c36708",
+   "dst": "org_cn:d13ff9ea1152",
    "rel": "associated_with",
    "attrs": {
     "status": "text_derived",
@@ -34161,18 +33968,6 @@
    "fetched_at": "2026-11-09T08:36:43Z"
   },
   {
-   "src": "org_cn:d13ff9ea1152",
-   "dst": "org_cn:395486c36708",
-   "rel": "associated_with",
-   "attrs": {
-    "status": "text_derived",
-    "evidence": "The Chinese People's Political Consultative Conference (CPPCC) is a political advisory body in the People's Republic of China and a central part"
-   },
-   "source": "wikipedia:cn_orgs.json",
-   "url": "https://en.wikipedia.org/wiki/Chinese_People's_Political_Consultative_Conference",
-   "fetched_at": "2026-11-09T08:36:43Z"
-  },
-  {
    "src": "org_cn:b33d494fc8d3",
    "dst": "org_cn:d7629b2f26be",
    "rel": "associated_with",
@@ -34233,30 +34028,6 @@
    "fetched_at": "2026-11-09T08:36:43Z"
   },
   {
-   "src": "org_us:d7088043b5a9",
-   "dst": "org_cn:395486c36708",
-   "rel": "mentions_org",
-   "attrs": {
-    "status": "co_mentioned",
-    "evidence": "hwa]], a billionaire, former [[Chief Executive of Hong Kong]], and former [[Vice Chairperson of the Chinese People's Political Consultative Conference|vice chairperson]] of the [[Chinese People's Political Consultative Conference]] (CPPCC), who remai"
-   },
-   "source": "wikipedia:China-United_States_Exchange_Foundation.wiki",
-   "url": "https://en.wikipedia.org/wiki/Chinese_People's_Political_Consultative_Conference",
-   "fetched_at": "2026-11-09T08:36:43Z"
-  },
-  {
-   "src": "org_us:f9848811bc4c",
-   "dst": "org_cn:d7629b2f26be",
-   "rel": "mentions_org",
-   "attrs": {
-    "status": "co_mentioned",
-    "evidence": "]] and a 2020 ''[[Newsweek]]'' report noted that committee members have been targets of the CCP's [[United Front Work Department]] pressure and [[influence operations]].<ref>{{Cite web |date=November 29, 2018 |editor-last=Diamon"
-   },
-   "source": "wikipedia:Committee_of_100__United_States_.wiki",
-   "url": "https://en.wikipedia.org/wiki/United_Front_Work_Department",
-   "fetched_at": "2026-11-09T08:36:43Z"
-  },
-  {
    "src": "org_us:f9848811bc4c",
    "dst": "org_cn:ed9dba4cfb81",
    "rel": "mentions_org",
@@ -34306,18 +34077,6 @@
   },
   {
    "src": "org_us:217365ea4521",
-   "dst": "org_cn:d7629b2f26be",
-   "rel": "mentions_org",
-   "attrs": {
-    "status": "co_mentioned",
-    "evidence": "4 |accessdate=14 November 2018}}</ref> Since its founding, the program has maintained ties to the [[United Front Work Department]] as well as other organizations and personnel affiliated with the [[Chinese Communist Party]].<ref"
-   },
-   "source": "wikipedia:Schwarzman_Scholars.wiki",
-   "url": "https://en.wikipedia.org/wiki/United_Front_Work_Department",
-   "fetched_at": "2026-11-09T08:36:43Z"
-  },
-  {
-   "src": "org_us:217365ea4521",
    "dst": "org_cn:ed9dba4cfb81",
    "rel": "mentions_org",
    "attrs": {
@@ -34338,18 +34097,6 @@
    },
    "source": "wikipedia:Schwarzman_Scholars.wiki",
    "url": "https://en.wikipedia.org/wiki/National_Committee_of_the_Chinese_People's_Political_Consultative_Conference",
-   "fetched_at": "2026-11-09T08:36:43Z"
-  },
-  {
-   "src": "org_us:217365ea4521",
-   "dst": "org_cn:395486c36708",
-   "rel": "mentions_org",
-   "attrs": {
-    "status": "co_mentioned",
-    "evidence": "nt of the executive council of Hong Kong and current vice chairman of the National Committee of the Chinese People's Political Consultative Conference<ref name=\"autogenerated1\">{{cite web|title=Schwarzman Scholars|url=http://schwarzmanscholars.org/|u"
-   },
-   "source": "wikipedia:Schwarzman_Scholars.wiki",
-   "url": "https://en.wikipedia.org/wiki/Chinese_People's_Political_Consultative_Conference",
    "fetched_at": "2026-11-09T08:36:43Z"
   },
   {
