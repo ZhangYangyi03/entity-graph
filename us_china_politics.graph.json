@@ -10017,7 +10017,7 @@
   },
   {
    "key": "person:33f142ac9a36",
-   "kind": "person",
+   "kind": "misc",
    "label": "Resident Commissioner of the Philippines",
    "attrs": {
     "categories": [
@@ -10028,7 +10028,9 @@
     ],
     "has_wiki_extract": true,
     "congress": false,
-    "is_politician": true
+    "is_politician": true,
+    "demoted_from": "person",
+    "reason": "not a person name"
    },
    "source": "wikipedia:category_members.json + person_extracts.json",
    "url": "https://en.wikipedia.org/wiki/Resident_Commissioner_of_the_Philippines",
@@ -13873,12 +13875,14 @@
   },
   {
    "key": "person:80895c928afc",
-   "kind": "person",
+   "kind": "misc",
    "label": "Stanford University",
    "attrs": {
     "from_roster": true,
     "has_wiki_extract": false,
-    "is_politician": false
+    "is_politician": false,
+    "demoted_from": "person",
+    "reason": "not a person name"
    },
    "source": "official:ncuscr_official.html",
    "url": "",
@@ -31508,6 +31512,1398 @@
    "source": "wikipedia:List_of_Asian_Americans...Congress",
    "url": "",
    "fetched_at": "2026-11-09T08:26:06Z"
+  },
+  {
+   "src": "person:62541e321b1e",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": " the 25th district from 2020 to 2022. A member of the Democratic Party, Lee's district includes Fremont, Newar"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:b458729ad134",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "a State Controller from 2015 to 2023. A member of the Democratic Party, Yee previously served as a member of t"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:4cd96e279d74",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": " to Chinese American parents, Lee was a member of the Democratic Party. He took office as San Francisco city a"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:4ba9baf5a8f1",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "nia State Assembly from 2014 to 2024. A member of the Democratic Party, he represented the 26th Assembly distr"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:e73af9072739",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "sco Board of Supervisors (2002–2006).\nA member of the Democratic Party, Ma was the first Asian American woman "
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:f8937f80655e",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "nnifer Gong-Gershowitz (born 1968/1969) is a Democratic member of the Illinois House of Represe"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:cf5505270263",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": " the Hawaii House of Representatives. A member of the Democratic Party, he previously served as the interim Ch"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:a7a60c88104e",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "tant, and former marketing manager. She is a Republican member of the Texas House of Representa"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:49f142edc367",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "she was appointed to on July 1, 2019. A member of the Democratic Party, she also served on the Bothell City Co"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:b5026ccb980f",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "on of Donald Trump from 2017 to 2021. A member of the Republican Party and wife of U.S. senator Mitch McConnel"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:712cdc10b280",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "urer of California from 2015 to 2019. A member of the Democratic Party, he previously served as the 31st Contr"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:b308e0399dbe",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "American politician in New York City. A member of the Democratic Party, he is a member of the New York State S"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:f0b92d3a50a8",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "1, 1987) was a Guamanian politician and member of the Democratic Party of Guam. He served as the first Delegat"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:de373c560cd4",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "awaii from February to December 2018. A member of the Democratic Party, Chin previously was the 14th Attorney "
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:7028033ca704",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "under Linda Lingle from 2002 to 2010. A member of the Republican Party, he also served both as an attorney and"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:e52250e2a98a",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "ican former politician and financier. A member of the Democratic Party, she was the second chief financial off"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:143f85c022e6",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "Barry Wong is a Republican attorney and politician who previously "
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:0fb820750fdc",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "9A in Howard and Montgomery counties. A member of the Democratic Party, he was previously a member of the Howa"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:d3192ac017c7",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": " American businessman and politician. A member of the Republican Party, Wong has represented the 9th Essex Dis"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:5eda2a136198",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": " House of Representatives since 2013. A member of the Democratic Party, he was elected minority leader of the "
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:6624001bacb2",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "lice Hew Byrd (born September 14, 1951) is a Republican member of the Georgia House of Represen"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:30426c8ca0e4",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "senting the 12th district since 2019. A member of the Democratic Party, his district stretches across Anne Aru"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:124a2b4cf1e9",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "niversity of Miami School of Law.  As a member of the Democratic party he was elected to the Florida House of "
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:2bb06636b9ce",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "nant governor of Virginia since 2026. A member of the Democratic Party, she previously served as a Virginia st"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:1d2d9e71d09a",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "m 2025 until her resignation in 2026. A member of the Republican Party, she is the former vice chair of the Ca"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:41bb2b767352",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "rney general of Wisconsin since 2019. A member of the Democratic Party, he had worked as a federal prosecutor "
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:715b781eafe2",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "an who is a Washington State senator. A member of the Democratic Party, she was elected to represent the 45th "
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:5c44ca008cac",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "sentatives from 1967 to 1971, and was a member of the Democratic Party."
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:aa028d3af574",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "al district from 1993 to 2025. She is a member of the Democratic Party.\nThe district, numbered as the 14th dis"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:7225253d3d41",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "‘i State House of Representatives.\nAs a member of the Democratic Party, Manahan is a former member of the Hawa"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:3f1f2ebd0f65",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "Council for the 12th district. Formerly a Republican, Lee is now an independent and is the on"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:1896013db5ef",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "o champion from the state of Florida. A member of the Democratic Party, he served on the Miami City Commission"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:66fd82b5fc69",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": " and parts of Southwest Philadelphia. A member of the Democratic Party and the Democratic Socialists of Americ"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:92af50595c30",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": " official from Hamilton County, Ohio. A member of the Republican Party, he was a presidential elector in 2000."
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:6b9703b4b222",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "presentatives from the 47th district. A member of the Democratic Party, Sethi was elected in 2026 to succeed V"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:77ab384f2cc4",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "0th mayor of Cincinnati since 2022. A a member of the Democratic Party, he was previously the clerk of courts "
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:07ba74e0b5c2",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": " Senate from the 39th district. He is a member of the Democratic Party."
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:5c576705b1d4",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "nant governor of Maryland since 2023. A member of the Democratic Party, Miller previously represented District"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:578bb75de499",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "a Aziz Mohammed (Hindi: मुजतबा मोहम्मद) is a Democratic member of the North Carolina General As"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:6c239e050775",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "orn American politician and journalist. A Republican, McConigley served in the Wyoming House "
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:20fbcba7055a",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "can in the US government.  Appointed by a Republican, but showing true unity of Indian Americ"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:a53c3f18cba6",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "Public Service Commission since 2026. A member of the Democratic Party, he was a member of the Maryland House "
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:0f5153ada7c3",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "2024, representing the 13th district. A member of the Democratic Party, she previously served as a member of t"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:2bc6cd7d4a75",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "cal advisor, and government official. A member of the Republican Party, he served on the Federal Energy Regula"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:d908aaa5a6ab",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "can politician from  the state of Ohio. A Republican, he represented the 6th district in the "
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:3e31410d59f3",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": " an American politician and lobbyist. A member of the Democratic Party, he was Speaker of the New York City Co"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:e61ae0a36a72",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "assumed office in January 2021. He is a member of the Republican Party. Jetton previously served as the chairm"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:4dc37ef90da1",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "lie VanOrden (born in Pocatello, Idaho) is a Republican Idaho State Representative since 2012 r"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:653e1c993bf9",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "he California State Assembly in 2004. A member of the Democratic Party, he served for six years, including for"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:9e052c723c3d",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": " the arrival of her daughter in 2021. A member of the Democratic Party, Ajmera was a candidate for North Carol"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:e6b629644d25",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "the nomination, and Rebecca Rhynhart.\nA member of the Democratic Party, Gym is a former school teacher and com"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:383e458a3cdd",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "er mayor of Dana Point, California. She is a Republican."
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:a5bb02caea83",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "rve as Mayor and on the City Council.\nA member of the Democratic Party, Pulido is currently a candidate in the"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:7482c11164aa",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "an American physician and politician. A member of the Democratic Party, he represents the 30th district in the"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:45fa213f6aa9",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "is an American politician from Maine. A member of the Democratic Party, she has served as a member of the Main"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:6021e4386227",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "nd Middlesex district. Uyterhoeven is a member of the Democratic Party and the Democratic Socialists of Americ"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:cf7031c899a1",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "uilty to conspiracy to commit bribery.  A Republican, he previously served as both chair and "
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:331578e7befc",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": " 68th mayor of Hartford, Connecticut. A member of the Democratic Party, Arulampalam won the November 2023 elec"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:aabde6b20192",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": " the 89th District from 2017 to 2023. A member of the Democratic Party, she was elected during a special elect"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:debcbf4f5b3b",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "e Worcester and Middlesex District, and is a Republican.\nBefore his election to the Massachuset"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:ed6fc4303b78",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "Irvine, California from 2020 to 2024. A member of the Democratic Party, Khan first served Irvine as a member o"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:c770efc3ee38",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "sin State Assembly since 2021. She is a member of the Democratic Party and the Democratic Socialists of Americ"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:6c966665c495",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "ld the same office from 2007 to 2014. A member of the Republican Party, she served in the California State Sen"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:67a148de1600",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "ri House of Representatives since 2025. A Republican, he has represented the 30th district, c"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:9b224573a83b",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "litician from the state of Tennessee. A member of the Democratic Party, he serves in the Tennessee House of Re"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:c3e8c8d59ca2",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "hern Mariana Islands.\nSablan has been a member of the Democratic Party throughout his life, but ran as an inde"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:a9d00e5dcb65",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "for District 14 from 2020 until 2024. A member of the Democratic Party, he ran and was defeated in the 2018 Un"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:ef061f30fcfd",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "nia for five terms from 1975 to 1994. A member of the Democratic Party, she served in the California State Ass"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:2f57c80273c5",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "nce Appeals Board (CUIAB) since 2019. A member of the Democratic Party, he was appointed to the body, an admin"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:fe794ed07aac",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "emblywoman for the 55th district. Chang is a Republican. She was also the first Taiwanese-born "
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:4cb6c65d3690",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "er of the California State Assembly. He is a Republican representing the 59th district, encompa"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:614f0d4d5656",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": " Easton, Newtown, and part of Bethel. A member of the Republican Party, he was first elected to the state sena"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:e4024abfad17",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "which comprises part of South Brooklyn. A Republican, he defeated longtime Democratic incumbe"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:7ce98677b982",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "nate from the 2nd Suffolk district as a member of the Democratic Party. She was the first Hispanic woman elect"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:d79a69614b06",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "which comprises part of South Brooklyn.\nA Republican, he defeated Democratic incumbent Iwen C"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:6272f6cd3308",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "cretary of State from 2023 from 2026. A member of the Democratic Party, she was a member of the Maryland State"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:195efd527bab",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "ntatives. He is a Quincy resident and a member of the Democratic Party.  He and Donald Wong were the first Asi"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:992032bca1d7",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": " California, City Council since 2020. A member of the Democratic Party, she represents the 8th district and is"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:440b6663fffe",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "Ohio, since January 1, 2024. Malik is a member of the Democratic Party. He previously served as the city counc"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:72e6a899fc12",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "or Economic Justice since March 2026. A member of the Democratic Party, Su acted as U.S. secretary of labor fr"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:7fb340334fc8",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "the Arizona State Legislature. She is a member of the Republican Party.\nYee was first elected to the Arizona H"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:8ed190680536",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": " been the mayor of Boston since 2021. A member of the Democratic Party, she is one of the youngest mayors in t"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:c4d15766dcfb",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "itician from Newark, Delaware. He was a member of the Democratic Party and served as the 21st lieutenant gover"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:2ec60e38906a",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "Theresa Mah is a Democratic member of the Illinois House of Represe"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:91c19cb919f5",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "ican to serve in the position. Tai is a member of the Democratic Party and previously served as the chief trad"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:38ff74d286c4",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "o the United Nations from 2017 to 2018. A Republican, Haley is the first Indian American to s"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:0b765035c395",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "ley Pai Chang (born September 13, 1982) is a Democratic member of the Hawaii State Senate, repr"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:73c590b90dc6",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "es from Pennsylvania's 13th district as a Republican, but lost to incumbent Democrat Allyson "
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:b21fd3426297",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "rector at the Asian Development Bank. A member of the Democratic Party, she served in the Iowa House of Repres"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:892451853ab8",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "ashington State Legislature. Shin was a member of the Democratic Party, elected from the 21st Legislative Dist"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:6ccdba949307",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "gia House of Representatives in 2016. A member of the Democratic Party, he represents the 107th district."
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:46bf15b308c1",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "ently representing the 24th district. A member of the Democratic Party, Puri has served as the House Minority "
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:dfb309004f55",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": ", professor, and politician. Patel is a member of the Democratic party, and was a candidate for the newly crea"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:20aff38bfc63",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "elected to a full term in 2024. He is a member of the Republican Party and the first person of color to win st"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:9d61ee48479e",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": " New York City since January 1, 2026. A member of the Democratic Party and the Democratic Socialists of Americ"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:2d134f297c47",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "ican politician and retired educator. A member of the Republican Party, she served as a member of the Idaho Ho"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:af2a213eef54",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "the Maryland Senate from District 32. A member of the Democratic Party, he has represented District 32 in the "
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:dfdbaa8c688f",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "Mimi McAndrews (born October 28, 1956) is a Democratic politician from Florida who served as a"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:2a3d9d43469f",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "Samir Singh (born March 4, 1971) is a Democratic politician from Michigan who serves in "
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:379d948768b6",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "Rajeev Kumar Goyle (born June 9, 1975) is a Democratic politician who lives in New York. He pr"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:44e2c3e85588",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "f the Maine House of Representatives. A member of the Democratic Party from Freeport, she represented the 48th"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:fd2b018fcc04",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "tatives from American Samoa. Radewagen, a Republican, was elected on November 4, 2014, after "
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:e9da4bf2a9d7",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": " January 14, 2002 to January 3, 2009. A member of the Republican Party, he was elected to the office first in "
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:1330b5b7c5a0",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": " American politician from California, a member of the Republican Party, and a survivor of the Japanese America"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:860461db872d",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": " 18, 1950) is an American politician. A member of the Democratic Party, he represents District 31 in the New Y"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:1ba25aadfadc",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "achola, commonly known as Romy Cachola, is a Democratic politician from the state of Hawaii and"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:d7e61d864301",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "Ronald Dan Kouchi (born 1957/1958) is a Democratic politician from Hawaii, representing th"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:ef7eedcacbcb",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "d in the California State Assembly as a member of the Republican Party.\nHorton was born in Japan and educated "
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:d6cbde3796d6",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "Representative for District 36 and is a member of the Republican Party.  Okimoto is a 2019 graduate of the Cou"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:9e70743317c2",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "s City Council for the 14th district. A member of the Democratic Party and the Democratic Socialists of Americ"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:8e78f1160f69",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "torney and politician from Georgia. Lim is a Democratic member of Georgia House of Representati"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:69fe3390a83d",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "can attorney and government official. A member of the Republican Party, Uyeda has served as a Commissioner of "
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:662325d658d6",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "Ram Villivalam is a Democratic member of the Illinois Senate for the 8"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:b3074b37252f",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "wallow, Reyes was reelected. Reyes is a member of the Republican Party and is a vocal and longtime supporter o"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:175d6c466c8e",
+   "dst": "party:4d07466f452d",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "ry of state of Washington since 2021. A member of the Democratic Party, he previously served as a member of th"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:a229742b7733",
+   "dst": "party:8cf09888d097",
+   "rel": "member_of_party",
+   "attrs": {
+    "status": "text_extracted",
+    "evidence": "om Takubo is an American politician who is a Republican member of the West Virginia Senate, rep"
+   },
+   "source": "wikipedia:person_extracts.json",
+   "url": "",
+   "fetched_at": "2026-11-09T08:36:02Z"
   }
  ],
  "meta": {
