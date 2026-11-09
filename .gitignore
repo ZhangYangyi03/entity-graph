@@ -16,3 +16,8 @@ out/
 *.sqlite-wal
 *.log
 
+
+# never ship stray binaries (e.g. Sogou input-method caches)
+*.bin
+%SystemDrive%/
+sync.log
