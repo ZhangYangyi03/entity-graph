@@ -105,7 +105,10 @@ def sync(repo, remote, branch, dry, message=None):
     rc, out, err = git(repo, "commit", "-m", msg)
     if rc != 0:
         return f"FAIL git commit: {err[:200]}"
-    sha, _, _ = git(repo, "rev-parse", "--short", "HEAD")
+    # Read the new commit id from the raw object, not from a decorated ref:
+    # on this host `git show/log` on a Chinese-message commit can come back empty.
+    rc, sha, err = git(repo, "rev-parse", "HEAD")
+    sha = sha[:7] if rc == 0 else "?"
     rc, out, err = git(repo, "push", remote, f"HEAD:{branch}")
     if rc != 0:
         return f"COMMITTED {sha} locally but PUSH FAILED: {err[:300]} (will retry next round)"
