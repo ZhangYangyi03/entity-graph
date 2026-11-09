@@ -21,3 +21,7 @@ out/
 *.bin
 %SystemDrive%/
 sync.log
+
+# 可重建的中间态，不进库
+shards/us_china_raw/_build_state.json
+shards/us_china_raw/_build_state.pkl
