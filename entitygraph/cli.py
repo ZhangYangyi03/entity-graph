@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import math
 import sys
 
@@ -354,7 +355,53 @@ def main(argv=None) -> int:
                      help="sgp4 (the real thing, default) or j2 (the hand-written closed form)")
     orb.add_argument("--format", choices=["summary", "json"], default="summary")
 
+    w = sub.add_parser("web", help="crawl arbitrary pages into cited webpage/website nodes")
+    w.add_argument("url", nargs="*", help="zero or more http(s) URLs (or pass --file)")
+    w.add_argument("--file", help="text file with one URL per line (or pass URLs as args)")
+    w.add_argument("--mode", choices=["fast", "stealth", "render"], default="fast")
+    w.add_argument("--concurrency", type=int, default=12)
+    w.add_argument("--timeout", type=float, default=10.0)
+    w.add_argument("--max-links", type=int, default=24, help="out-host edges per page")
+    w.add_argument("--out", default="web.graph.json")
+    w.add_argument("--merge", help="existing graph JSON to extend instead of starting fresh")
+    w.add_argument("--no-text", action="store_true", help="skip the trafilatura markdown pass")
+
     args = ap.parse_args(argv)
+
+    if args.cmd == "web":
+        from .web import build_web, to_dict
+        from .model import Edge, Graph, Node
+
+        urls = list(args.url) if args.url else []
+        if args.file:
+            with open(args.file, encoding="utf-8") as f:
+                urls += [ln.strip() for ln in f
+                         if ln.strip() and not ln.lstrip().startswith("#")]
+        g = Graph()
+        if args.merge and os.path.exists(args.merge):
+            prev = json.load(open(args.merge, encoding="utf-8"))
+            for n in prev.get("nodes", []):
+                g.add_node(Node(**n))
+            for e in prev.get("edges", []):
+                g.add_edge(Edge(**e))
+        g, meta = build_web(urls, graph=g, mode=args.mode,
+                            concurrency=args.concurrency, timeout=args.timeout,
+                            with_text=not args.no_text, max_links=args.max_links)
+        with open(args.out, "w", encoding="utf-8") as f:
+            json.dump(to_dict(g, meta), f, ensure_ascii=False, indent=1)
+        st = g.stats()
+        print("wrote %s" % args.out)
+        print("nodes %d  edges %d  engine %s  %.1fs  %.1f req/s" % (
+            st["nodes"], st["edges"], meta["engine"], meta.get("elapsed") or 0,
+            meta.get("rps") or 0))
+        print("kinds: " + " ".join("%s=%d" % kv for kv in sorted(st["by_kind"].items())))
+        print("pages %d  hosts %d  covered %d/%d" % (
+            meta["pages"], meta["hosts"], meta["pages"], meta["requested"]))
+        for c in meta["caveats"][:12]:
+            print("  ! %s  %s: %s" % (c["url"], c["why"], str(c["detail"])[:90]))
+        if len(meta["caveats"]) > 12:
+            print("  ... %d more" % (len(meta["caveats"]) - 12))
+        return 0
 
     if args.cmd == "orbit":
         return _orbit(args)

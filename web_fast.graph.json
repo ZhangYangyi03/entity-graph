@@ -1,0 +1,2454 @@
+{
+ "nodes": [
+  {
+   "key": "web:2b552f29abb38a0d",
+   "kind": "webpage",
+   "label": "BBC News - Breaking news, video and the latest top stories from the U.S. and around the world",
+   "attrs": {
+    "url": "https://www.bbc.com/news",
+    "host": "bbc.com",
+    "status": 200,
+    "bytes": 377462,
+    "title": "BBC News - Breaking news, video and the latest top stories from the U.S. and around the world",
+    "text": "NewsLIVENvidia launches investigation into CEO's affair with suspected Chinese spyJensen Huang has admitted to having been \"unfaithful\" to his wife and says he will cooperate with a security investigation.'I treat all these people like they are victims', says doctor who treated Krakow shooting suspectTwo doctors were eating near the Polish city's Main Market Square when a gunman began firing at random.7 hrs agoEurope'Time is up': UK minister warns media industry to take abuse seriously in wake of Brand caseLisa Nandy tells the BBC \"many people\" in the media industry have come forward to her.2 hrs agoUKTrump says immigration crackdown was 'too tough' and played part in midterms defeatThe president tells the CBS programme 60 Minutes he had been politically \"hurt\" by sweeping deportations.3 hrs agoUS & CanadaSeven dead and more than 100 injured after trains collide in EgyptSeveral carriages derailed after two trains travelling in the same direction crashed outside the city of Giza.9 hrs agoAfricaWoman says Al Fayed's brother drugged and sexually abused her at Scottish estateThe woman says she was flown to the Fayed family's Balnagown estate, where she was repeatedly assaulted.4 hrs agoScotlandCruise ship pianist rescued from sea after nine hours in Pacific OceanTwo US fishermen say they spotted the man treading water around 20 miles (32km) off the Californian coast.2 hrs agoUS & CanadaTop House Democrat 'a hard yes' on impeaching HegsethBut the Pentagon said the US defence secretary would not be deterred by \"phony investigations\".3 hrs agoUS & CanadaOne killed in Indonesia helicopter crash during firefighting operationAramco Tower hit in heart of Saudi capital as Houthis launch fresh strikesIran executes three men for 'armed unrest' after January protestsA glimmer of good news for Britain's sleepy dormouseSouth Africa's ANC records worst-ever results in local electionsMore to exploreWhat's your love language - and does it actually mean anything?The theory of ‘Love Languages’ has no scientific origin but it's often still mentioned in modern dating.4 hrs agoHealthFootage shows derailed carriages after fatal train crash in EgyptAt least seven people died when two trains collided, causing several carriages to derail and fall down an embankment.13 hrs agoAfricaHe spent $50,000 on Labubus but now the craze is dyingParent company Pop Mart's revenue has fallen as appetite for the quirky collectible monsters wanes.1 day agoBusinessMy parents chose to die together and I was left to grieve aloneEls and Jan sought medical intervention to end their lives after 50 happy years of marriage, leaving behind their only child.1 day agoEuropeThe Trump coalition is shattered - what will Republicans do now?Republicans can stick with Trumpism or chart a new path, writes BBC Washington correspondent Daniel Bush.1 day agoUS & CanadaMost watched1'I treat all these people like they are victims', says doctor who treated Krakow shooting suspect2How the deadly shooting in Krakow ",
+    "markdown": "LIVE Nvidia launches investigation into CEO's affair with suspected Chinese spy Jensen Huang has admitted to having been \"unfaithful\" to his wife and says he will cooperate with a security investigation. 'I treat all these people like they are victims', says doctor who treated Krakow shooting suspect Two doctors were eating near the Polish city's Main Market Square when a gunman began firing at random. 7 hrs ago Europe 'Time is up': UK minister warns media industry to take abuse seriously in wake of Brand case Lisa Nandy tells the BBC \"many people\" in the media industry have come forward to her. 2 hrs ago UK Trump says immigration crackdown was 'too tough' and played part in midterms defeat The president tells the CBS programme 60 Minutes he had been politically \"hurt\" by sweeping deportations. 3 hrs ago US & Canada Seven dead and more than 100 injured after trains collide in Egypt Several carriages derailed after two trains travelling in the same direction crashed outside the city of Giza. 9 hrs ago Africa Woman says Al Fayed's brother drugged and sexually abused her at Scottish estate The woman says she was flown to the Fayed family's Balnagown estate, where she was repeatedly assaulted. 4 hrs ago Scotland Cruise ship pianist rescued from sea after nine hours in Pacific Ocean Two US fishermen say they spotted the man treading water around 20 miles (32km) off the Californian coast. 2 hrs ago US & Canada Top House Democrat 'a hard yes' on impeaching Hegseth But the Pentagon said the US defence secretary would not be deterred by \"phony investigations\". 3 hrs ago US & Canada One killed in Indonesia helicopter crash during firefighting operation Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes Iran executes three men for 'armed unrest' after January protests A glimmer of good news for Britain's sleepy dormouse South Africa's ANC records worst-ever results in local elections More to explore What's your love language - and does it actually mean anything? The theory of ‘Love Languages’ has no scientific origin but it's often still mentioned in modern dating. 4 hrs ago Health Footage shows derailed carriages after fatal train crash in Egypt At least seven people died when two trains collided, causing several carriages to derail and fall down an embankment. 13 hrs ago Africa He spent $50,000 on Labubus but now the craze is dying Parent company Pop Mart's revenue has fallen as appetite for the quirky collectible monsters wanes. 1 day ago Business My parents chose to die together and I was left to grieve alone Els and Jan sought medical intervention to end their lives after 50 happy years of marriage, leaving behind their only child. 1 day ago Europe The Trump coalition is shattered - what will Republicans do now? Republicans can stick with Trumpism or chart a new path, writes BBC Washington correspondent Daniel Bush. 1 day ago US & Canada Most watched 1 'I treat all these people like they are victims', says doctor who treated Kra",
+    "link_count": 50,
+    "fetched_via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://www.bbc.com/news",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:bbc.com",
+   "kind": "website",
+   "label": "bbc.com",
+   "attrs": {
+    "host": "bbc.com",
+    "sample_url": "https://www.bbc.com/news"
+   },
+   "source": "web",
+   "url": "https://www.bbc.com/news",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "web:f1f3bd09de659fc9",
+   "kind": "webpage",
+   "label": "Hacker News",
+   "attrs": {
+    "url": "https://news.ycombinator.com/",
+    "host": "news.ycombinator.com",
+    "status": 200,
+    "bytes": 33511,
+    "title": "Hacker News",
+    "text": "Hacker Newsnew|past|comments|ask|show|jobs|submitlogin1.RIP, Harvest(aphyr.com)155 pointsbyzdw3 hours ago|hide|52 comments2.KetchUp – Open-source SketchUp alternative built with Rust and WebGPU(ketchup3d.github.io)325 pointsbydcoulmbe6 hours ago|hide|89 comments3.Unlocking any car from X brand in most of the world(shubs.io)165 pointsbyinfosecau4 hours ago|hide|61 comments4.A Critique of GPUI(zortax.de)24 pointsbyByteAtATime1 hour ago|hide|5 comments5.Chimera Vocal Synth(chimera-vocal-synth.vercel.app)143 pointsbynmstoker6 hours ago|hide|22 comments6.Outlook.com is rejecting email from domains without DMARC(mailroute.net)314 pointsbyxmddmx9 hours ago|hide|223 comments7.I'm not convinced the AI bubble exists(matteoraso.github.io)103 pointsbymatteoraso5 hours ago|hide|136 comments8.Declarative Dragging(declarative-dragging.github.io)426 pointsbysmusamashah12 hours ago|hide|54 comments9.Dux: Free, open-source Wayland desktop shell with file manager and theming(duxlabs.dev)229 pointsbyindigodaddy9 hours ago|hide|72 comments10.Ask HN: What are you working on? (November 2026)172 pointsbydavid9277 hours ago|hide|576 comments11.Nvidia CEO Jensen Huang's letter to staff about affair(nvidia.com)440 pointsbykarimf6 hours ago|hide|485 comments12.The Qlobe: Rotating Quine (2010)(mamememo.blogspot.com)10 pointsbyniceguitars1 hour ago|hide|discuss13.Show HN: JavaScript web apps with WASM layout and GPU rendering in 280 KB(github.com/rkaehn)13 pointsbyrkaehn2 hours ago|hide|4 comments14.Branching Beyond Leonardo: The Evolution of Tree Architecture Theory(blue-continuum.com)7 pointsbydnetesn2 hours ago|hide|discuss15.When a language's creator and its owners strongly disagree [pdf](isocpp.org)99 pointsbyacossta5 hours ago|hide|85 comments16.Goldman Sachs is pulling Claude Code from its bankers and traders(thestateofai.com)675 pointsbyTheWiggles10 hours ago|hide|381 comments17.A Bit about Email(maurycyz.com)12 pointsbyvinhnx2 hours ago|hide|1 comment18.Ask HN: How do you manage your AI agents' context across clients and projects?23 pointsbyMichel_Aventin3 hours ago|hide|19 comments19.Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU(github.com/synchopate)395 pointsbyjoshcsimmons18 hours ago|hide|175 comments20.Ur-Nammu Founder of the Sumerian Renaissance(worldhistory.org)4 pointsbyBluestein1 hour ago|hide|discuss21.The Web Is More Than Enough, by Paul Ford(ftrain.com)102 pointsbyedward9 hours ago|hide|59 comments22.Writing as a thinking tool(muratbuffalo.blogspot.com)310 pointsbyjruohonen18 hours ago|hide|83 comments23.Air holes turn silicon wafers into flat UV focusing mirrors for compact optics(phys.org)38 pointsbybookofjoe6 hours ago|hide|5 comments24.Playing with the STM32MP2(serd.es)50 pointsbydverlaeckt8010 hours ago|hide|31 comments25.Goodbye Claude, hello Pi(caleb.software)719 pointsbykaragenit1 day ago|hide|445 comments26.How I Fight AI Brain Fry(sergeykuhne.com)191 pointsbykyunez9 hours ago|hide|152 comments27.JIT bitmap text rendering for microcontrollers(",
+    "markdown": "Hacker News\nnew\n|\npast\n|\ncomments\n|\nask\n|\nshow\n|\njobs\n|\nsubmit\nlogin\n1.\nRIP, Harvest\n(\naphyr.com\n)\n155 points\nby\nzdw\n3 hours ago\n|\nhide\n|\n52 comments\n2.\nKetchUp – Open-source SketchUp alternative built with Rust and WebGPU\n(\nketchup3d.github.io\n)\n325 points\nby\ndcoulmbe\n6 hours ago\n|\nhide\n|\n89 comments\n3.\nUnlocking any car from X brand in most of the world\n(\nshubs.io\n)\n165 points\nby\ninfosecau\n4 hours ago\n|\nhide\n|\n61 comments\n4.\nA Critique of GPUI\n(\nzortax.de\n)\n24 points\nby\nByteAtATime\n1 hour ago\n|\nhide\n|\n5 comments\n5.\nChimera Vocal Synth\n(\nchimera-vocal-synth.vercel.app\n)\n143 points\nby\nnmstoker\n6 hours ago\n|\nhide\n|\n22 comments\n6.\nOutlook.com is rejecting email from domains without DMARC\n(\nmailroute.net\n)\n314 points\nby\nxmddmx\n9 hours ago\n|\nhide\n|\n223 comments\n7.\nI'm not convinced the AI bubble exists\n(\nmatteoraso.github.io\n)\n103 points\nby\nmatteoraso\n5 hours ago\n|\nhide\n|\n136 comments\n8.\nDeclarative Dragging\n(\ndeclarative-dragging.github.io\n)\n426 points\nby\nsmusamashah\n12 hours ago\n|\nhide\n|\n54 comments\n9.\nDux: Free, open-source Wayland desktop shell with file manager and theming\n(\nduxlabs.dev\n)\n229 points\nby\nindigodaddy\n9 hours ago\n|\nhide\n|\n72 comments\n10.\nAsk HN: What are you working on? (November 2026)\n172 points\nby\ndavid927\n7 hours ago\n|\nhide\n|\n576 comments\n11.\nNvidia CEO Jensen Huang's letter to staff about affair\n(\nnvidia.com\n)\n440 points\nby\nkarimf\n6 hours ago\n|\nhide\n|\n485 comments\n12.\nThe Qlobe: Rotating Quine (2010)\n(\nmamememo.blogspot.com\n)\n10 points\nby\nniceguitars\n1 hour ago\n|\nhide\n|\ndiscuss\n13.\nShow HN: JavaScript web apps with WASM layout and GPU rendering in 280 KB\n(\ngithub.com/rkaehn\n)\n13 points\nby\nrkaehn\n2 hours ago\n|\nhide\n|\n4 comments\n14.\nBranching Beyond Leonardo: The Evolution of Tree Architecture Theory\n(\nblue-continuum.com\n)\n7 points\nby\ndnetesn\n2 hours ago\n|\nhide\n|\ndiscuss\n15.\nWhen a language's creator and its owners strongly disagree [pdf]\n(\nisocpp.org\n)\n99 points\nby\nacossta\n5 hours ago\n|\nhide\n|\n85 comments\n16.\nGoldman Sachs is pulling Claude Code from its bankers and traders\n(\nthestateofai.com\n)\n675 points\nby\nTheWiggles\n10 hours ago\n|\nhide\n|\n381 comments\n17.\nA Bit about Email\n(\nmaurycyz.com\n)\n12 points\nby\nvinhnx\n2 hours ago\n|\nhide\n|\n1 comment\n18.\nAsk HN: How do you manage your AI agents' context across clients and projects?\n23 points\nby\nMichel_Aventin\n3 hours ago\n|\nhide\n|\n19 comments\n19.\nLlama-modchip: 284B DeepSeek on 64GB RAM, no GPU\n(\ngithub.com/synchopate\n)\n395 points\nby\njoshcsimmons\n18 hours ago\n|\nhide\n|\n175 comments\n20.\nUr-Nammu Founder of the Sumerian Renaissance\n(\nworldhistory.org\n)\n4 points\nby\nBluestein\n1 hour ago\n|\nhide\n|\ndiscuss\n21.\nThe Web Is More Than Enough, by Paul Ford\n(\nftrain.com\n)\n102 points\nby\nedward\n9 hours ago\n|\nhide\n|\n59 comments\n22.\nWriting as a thinking tool\n(\nmuratbuffalo.blogspot.com\n)\n310 points\nby\njruohonen\n18 hours ago\n|\nhide\n|\n83 comments\n23.\nAir holes turn silicon wafers into flat UV focusing mirrors for compact optics\n(\nphys.org\n)\n38 points\nby\nbookofjoe\n6 hours ago\n|\nhide\n|\n5 comments\n24.\nPlaying w",
+    "link_count": 50,
+    "fetched_via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://news.ycombinator.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:news.ycombinator.com",
+   "kind": "website",
+   "label": "news.ycombinator.com",
+   "attrs": {
+    "host": "news.ycombinator.com",
+    "sample_url": "https://news.ycombinator.com"
+   },
+   "source": "web",
+   "url": "https://news.ycombinator.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:aphyr.com",
+   "kind": "website",
+   "label": "aphyr.com",
+   "attrs": {
+    "host": "aphyr.com",
+    "sample_url": "https://aphyr.com/posts/427-rip-harvest"
+   },
+   "source": "web",
+   "url": "https://news.ycombinator.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:ketchup3d.github.io",
+   "kind": "website",
+   "label": "ketchup3d.github.io",
+   "attrs": {
+    "host": "ketchup3d.github.io",
+    "sample_url": "https://ketchup3d.github.io/app/"
+   },
+   "source": "web",
+   "url": "https://news.ycombinator.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:shubs.io",
+   "kind": "website",
+   "label": "shubs.io",
+   "attrs": {
+    "host": "shubs.io",
+    "sample_url": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/"
+   },
+   "source": "web",
+   "url": "https://news.ycombinator.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:blog.zortax.de",
+   "kind": "website",
+   "label": "blog.zortax.de",
+   "attrs": {
+    "host": "blog.zortax.de",
+    "sample_url": "https://blog.zortax.de/posts/a-critique-of-gpui"
+   },
+   "source": "web",
+   "url": "https://news.ycombinator.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:chimera-vocal-synth.vercel.app",
+   "kind": "website",
+   "label": "chimera-vocal-synth.vercel.app",
+   "attrs": {
+    "host": "chimera-vocal-synth.vercel.app",
+    "sample_url": "https://chimera-vocal-synth.vercel.app/"
+   },
+   "source": "web",
+   "url": "https://news.ycombinator.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:mailroute.net",
+   "kind": "website",
+   "label": "mailroute.net",
+   "attrs": {
+    "host": "mailroute.net",
+    "sample_url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc"
+   },
+   "source": "web",
+   "url": "https://news.ycombinator.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "web:3925af0064d138ab",
+   "kind": "webpage",
+   "label": "Reddit",
+   "attrs": {
+    "url": "https://www.reddit.com/r/python/",
+    "host": "reddit.com",
+    "status": 200,
+    "bytes": 8415,
+    "title": "Reddit",
+    "text": "",
+    "markdown": "",
+    "link_count": 0,
+    "fetched_via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://www.reddit.com/r/python/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "web:34044e3eb27e33ac",
+   "kind": "webpage",
+   "label": "Artificial Intelligence",
+   "attrs": {
+    "url": "https://arxiv.org/list/cs.AI/recent",
+    "host": "arxiv.org",
+    "status": 200,
+    "bytes": 87327,
+    "title": "Artificial Intelligence",
+    "text": "Skip to main contentSearchSubmitDonateLog inSearch arXivPress Enter to search ·Advanced searchArtificial IntelligenceAuthors and titles for recent submissionsMon, 9 Nov 2026Fri, 6 Nov 2026Thu, 5 Nov 2026Wed, 4 Nov 2026Tue, 3 Nov 2026See today'snewchangesTotal of 1408 entries :1-5051-100101-150151-200...1401-1408Showing up to 50 entries per page:fewer|more|allMon, 9 Nov 2026 (showing first 50 of 220 entries )[1]arXiv:2611.09891[pdf,html,other]Title:CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning ReusePeter Belcak,Greg Heinrich,Saurav Muralidharan,Shizhe Diao,Pavlo MolchanovComments:Tech report. 28 pages, 9 figures, 11 tablesSubjects:Artificial Intelligence (cs.AI)[2]arXiv:2611.09872[pdf,html,other]Title:On the Reliability of Majority-Vote Pseudo-Labels in Test-Time Reinforcement LearningHaoyu Wang,Ru Wang,Yuanyuan Wang,Jiaxian Guo,Mingming GongSubjects:Artificial Intelligence (cs.AI)[3]arXiv:2611.09863[pdf,html,other]Title:Flow-Guided Target-Space Alignment via Path ConsistencyRuizhi Yuan,Zeqiu Yu,Wei Gao,Wei Chen,Xiwei Tang,Lu TangComments:Accepted at NeurIPS 2026Subjects:Artificial Intelligence (cs.AI); Computer Vision and Pattern Recognition (cs.CV); Machine Learning (cs.LG)[4]arXiv:2611.09846[pdf,html,other]Title:Ensemble Methodology for Reference-Free Confidence Estimation in LLM-based Code SummarizationMarco Colombo,Balaji A Jayaram,Sowmyakumari Selvaraj,Sumit Tokkar,Animesh Kumar,Aravinda Prasad Sistla,Ravishankar Shetty,Rigel GjomemoComments:9 pages, 3 figures, 1 tableSubjects:Artificial Intelligence (cs.AI); Programming Languages (cs.PL)[5]arXiv:2611.09836[pdf,html,other]Title:Can Agentic Systems Close the Gap in Radiology with Production AI Tools?Aubin Charley,Julien Khlaut,Charles Corbière,Pierre Manceron,Corentin Dancette,Léo MachadoSubjects:Artificial Intelligence (cs.AI); Machine Learning (cs.LG)[6]arXiv:2611.09825[pdf,html,other]Title:BitDecoding-FP4: Native FP4 KV Cache Decoding via Algorithm-System Co-DesignDayou Du,Woon Yee Ng,Guangming Sheng,Nick Lau,Jianyi Cheng,Luo MaiSubjects:Artificial Intelligence (cs.AI); Hardware Architecture (cs.AR); Computation and Language (cs.CL); Performance (cs.PF)[7]arXiv:2611.09818[pdf,html,other]Title:Generative Latent Priors for Interpreting and Steering Protein Language ModelsDaniel Hinjos,Lucía UrcelayComments:Accepted at the Interpretability for Discovery (Interp4Discovery) Workshop at the 40th Conference on Neural Information Processing Systems (NeurIPS 2026)Subjects:Artificial Intelligence (cs.AI); Machine Learning (cs.LG)[8]arXiv:2611.09803[pdf,other]Title:Maya a1: Do the Options Read the Model, or Does Their Position? Order Sensitivity in a Non-Autoregressive Decision ModelMohammed Nayeem Khan,Logesh LComments:24 pages, 13 figures, 23 tablesSubjects:Artificial Intelligence (cs.AI); Computation and Language (cs.CL)[9]arXiv:2611.09798[pdf,html,other]Title:Test-Time Compute Scales Better with Parallel Agent TeamsJunlin Wang,Haozhe Chen,Ang Li,Rahul Chalamala,Zhuang LiuComments:29 pag",
+    "markdown": "Artificial Intelligence\nAuthors and titles for recent submissions\nSee today's new changes\n- [1] arXiv:2611.09891 [pdf, html, other]\n- [2] arXiv:2611.09872 [pdf, html, other]\n- [3] arXiv:2611.09863 [pdf, html, other]\n- [4] arXiv:2611.09846 [pdf, html, other]\n- [5] arXiv:2611.09836 [pdf, html, other]\n- [6] arXiv:2611.09825 [pdf, html, other]\n- [7] arXiv:2611.09818 [pdf, html, other]\n- [8] arXiv:2611.09803 [pdf, other]\n- [9] arXiv:2611.09798 [pdf, html, other]\n- [10] arXiv:2611.09792 [pdf, html, other]\n- [11] arXiv:2611.09791 [pdf, html, other]\n- [12] arXiv:2611.09746 [pdf, html, other]\n- [13] arXiv:2611.09730 [pdf, html, other]\n- [14] arXiv:2611.09722 [pdf, html, other]\n- [15] arXiv:2611.09715 [pdf, html, other]\n- [16] arXiv:2611.09700 [pdf, html, other]\n- [17] arXiv:2611.09609 [pdf, html, other]\n- [18] arXiv:2611.09568 [pdf, html, other]\n- [19] arXiv:2611.09548 [pdf, html, other]\n- [20] arXiv:2611.09542 [pdf, other]\n- [21] arXiv:2611.09529 [pdf, html, other]\n- [22] arXiv:2611.09528 [pdf, html, other]\n- [23] arXiv:2611.09522 [pdf, html, other]\n- [24] arXiv:2611.09514 [pdf, html, other]\n- [25] arXiv:2611.09476 [pdf, html, other]\n- [26] arXiv:2611.09472 [pdf, html, other]\n- [27] arXiv:2611.09457 [pdf, html, other]\n- [28] arXiv:2611.09423 [pdf, html, other]\n- [29] arXiv:2611.09414 [pdf, html, other]\n- [30] arXiv:2611.09412 [pdf, html, other]\n- [31] arXiv:2611.09407 [pdf, html, other]\n- [32] arXiv:2611.09401 [pdf, html, other]\n- [33] arXiv:2611.09396 [pdf, html, other]\n- [34] arXiv:2611.09385 [pdf, html, other]\n- [35] arXiv:2611.09382 [pdf, html, other]\n- [36] arXiv:2611.09377 [pdf, html, other]\n- [37] arXiv:2611.09372 [pdf, html, other]\n- [38] arXiv:2611.09364 [pdf, html, other]\n- [39] arXiv:2611.09356 [pdf, other]\n- [40] arXiv:2611.09351 [pdf, html, other]\n- [41] arXiv:2611.09326 [pdf, html, other]\n- [42] arXiv:2611.09298 [pdf, html, other]\n- [43] arXiv:2611.09291 [pdf, html, other]\n- [44] arXiv:2611.09282 [pdf, other]\n- [45] arXiv:2611.09280 [pdf, html, other]\n- [46] arXiv:2611.09273 [pdf, html, other]\n- [47] arXiv:2611.09271 [pdf, html, other]\n- [48] arXiv:2611.09264 [pdf, html, other]\n- [49] arXiv:2611.09263 [pdf, other]\n- [50] arXiv:2611.09259 [pdf, html, other]",
+    "link_count": 50,
+    "fetched_via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://arxiv.org/list/cs.AI/recent",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:arxiv.org",
+   "kind": "website",
+   "label": "arxiv.org",
+   "attrs": {
+    "host": "arxiv.org",
+    "sample_url": "https://arxiv.org/list/cs.AI/recent"
+   },
+   "source": "web",
+   "url": "https://arxiv.org/list/cs.AI/recent",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:info.arxiv.org",
+   "kind": "website",
+   "label": "info.arxiv.org",
+   "attrs": {
+    "host": "info.arxiv.org",
+    "sample_url": "https://info.arxiv.org/about/donate.html"
+   },
+   "source": "web",
+   "url": "https://arxiv.org/list/cs.AI/recent",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "web:a413b8ec6507ff83",
+   "kind": "webpage",
+   "label": "Data.gov Home - Data.gov",
+   "attrs": {
+    "url": "https://data.gov/",
+    "host": "data.gov",
+    "status": 200,
+    "bytes": 121849,
+    "title": "Data.gov Home - Data.gov",
+    "text": "Skip to main contentAn official website of the United States governmentHere's how you knowHere's how you knowThe .gov means it's official.Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you're on a federal government site.The site is secure.Thehttps://ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.Try the next-generation Data Catalog atcatalog.data.govand help shape it with your feedback.MenuDataMetricsOpen GovernmentContactUser GuideUser GuideThe Home of the U.S. Government's Open DataHere you will find data, tools, and resources to conduct research, develop web and mobile applications, design data visualizations, and more.532,480datasets availableSearchSearchMost Viewed DatasetsRecently Added DatasetsDatasets by OrganizationGeospatialCode RepositoryMissionThe United States Government’s open data site is designed to unleash the power of government open data toinform decisions by the public and policymakers,drive innovation and economic activity,achieve agency missions, andstrengthen the foundation of an open and transparent government.About UsExplore the timelineMetricsBelow, you can view breakdowns of the type, age, and distribution ofcatalog.data.govdatasets. For information on top dataset page views, file downloads, and external link clicks broken down by agency, seedata.gov/metrics. To learn more about the Metrics section, see theDigital.gov blog post.Last Updated: Mon, 09 Nov 2026 05:00:27 GMTData Management & GovernanceData ToolsData IncubatorGuidanceCase Studies & ExamplesSkills DevelopmentFederal Source Code RepositoriesThe SHARE IT Act (Public Law 118-187) requires federal agencies to maintain source code repositories and make them publicly discoverable through Data.gov. Explore agency code repositories, track compliance status, and discover open source projects from across the federal government.View Code RepositoriesAboutOpen GovernmentWebsite PoliciesPERFORMANCE.GOVTwitterGithubdata.govAn official website of the GSA'sTechnology Transformation ServicesAbout GSAAccessibility statementFOIA requestsNo FEAR Act dataOffice of the Inspector GeneralPerformance reportsPrivacy policyLooking for U.S. government information and services?Visit USA.gov.agcls-1{fill:#d54309}.afcls-1{fill:#d54309}.aecls-1{fill:none;stroke:#d54309;stroke-miterlimit:10;stroke-width:2px}.adcls-1{stroke:#d54309;stroke-miterlimit:10;stroke-width:2px}.adcls-1,.adcls-2{fill:none}.accls-1{stroke:#d54309;stroke-miterlimit:10;stroke-width:2px}.accls-1,.accls-2{fill:none}",
+    "markdown": "An official website of the United States government\nHere's how you know\nHere's how you know\nThe .gov means it's official.\nFederal government websites often end in .gov or .mil. Before\nsharing sensitive information, make sure you're on a federal\ngovernment site.\nThe site is secure.\nThe https:// ensures that you are connecting to\nthe official website and that any information you provide is\nencrypted and transmitted securely.\nTry the next-generation Data Catalog at\ncatalog.data.gov\nand help shape it with your feedback.\nThe United States Government’s open data site is designed to unleash the power of government open data to\ninform\ndecisions by the public and policymakers, drive innovation and economic activity, achieve\nagency missions, and\nstrengthen the foundation of an open and transparent government.\nBelow, you can view breakdowns of the type, age, and distribution of\ncatalog.data.gov\ndatasets. For information on top dataset page views, file downloads, and external link\nclicks broken down by agency, see data.gov/metrics.\nTo learn more about the Metrics section, see the\nDigital.gov blog post.\nThe SHARE IT Act (Public Law 118-187) requires federal agencies to maintain\nsource code repositories and make them publicly discoverable through Data.gov.\nExplore agency code repositories, track compliance status, and discover\nopen source projects from across the federal government.",
+    "link_count": 44,
+    "fetched_via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://data.gov/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:data.gov",
+   "kind": "website",
+   "label": "data.gov",
+   "attrs": {
+    "host": "data.gov",
+    "sample_url": "https://data.gov/",
+    "_sources": [
+     "web"
+    ]
+   },
+   "source": "web",
+   "url": "https://data.gov/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:catalog.data.gov",
+   "kind": "website",
+   "label": "catalog.data.gov",
+   "attrs": {
+    "host": "catalog.data.gov",
+    "sample_url": "https://catalog.data.gov",
+    "_sources": [
+     "web"
+    ]
+   },
+   "source": "web",
+   "url": "https://data.gov/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:digital.gov",
+   "kind": "website",
+   "label": "digital.gov",
+   "attrs": {
+    "host": "digital.gov",
+    "sample_url": "https://digital.gov/2024/09/13/datagov-launches-metrics-tools/"
+   },
+   "source": "web",
+   "url": "https://data.gov/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:resources.data.gov",
+   "kind": "website",
+   "label": "resources.data.gov",
+   "attrs": {
+    "host": "resources.data.gov",
+    "sample_url": "https://resources.data.gov"
+   },
+   "source": "web",
+   "url": "https://data.gov/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:performance.gov",
+   "kind": "website",
+   "label": "performance.gov",
+   "attrs": {
+    "host": "performance.gov",
+    "sample_url": "https://www.performance.gov/"
+   },
+   "source": "web",
+   "url": "https://data.gov/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:twitter.com",
+   "kind": "website",
+   "label": "twitter.com",
+   "attrs": {
+    "host": "twitter.com",
+    "sample_url": "https://twitter.com/usdatagov"
+   },
+   "source": "web",
+   "url": "https://data.gov/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:github.com",
+   "kind": "website",
+   "label": "github.com",
+   "attrs": {
+    "host": "github.com",
+    "sample_url": "https://github.com/GSA/data.gov",
+    "_sources": [
+     "web"
+    ]
+   },
+   "source": "web",
+   "url": "https://data.gov/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:gsa.gov",
+   "kind": "website",
+   "label": "gsa.gov",
+   "attrs": {
+    "host": "gsa.gov",
+    "sample_url": "https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services"
+   },
+   "source": "web",
+   "url": "https://data.gov/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:gsaig.gov",
+   "kind": "website",
+   "label": "gsaig.gov",
+   "attrs": {
+    "host": "gsaig.gov",
+    "sample_url": "https://www.gsaig.gov"
+   },
+   "source": "web",
+   "url": "https://data.gov/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:usa.gov",
+   "kind": "website",
+   "label": "usa.gov",
+   "attrs": {
+    "host": "usa.gov",
+    "sample_url": "https://www.usa.gov/"
+   },
+   "source": "web",
+   "url": "https://data.gov/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "web:20efa71c081ee8e0",
+   "kind": "webpage",
+   "label": "The European Data Portal",
+   "attrs": {
+    "url": "https://data.europa.eu/en",
+    "host": "data.europa.eu",
+    "status": 200,
+    "bytes": 113828,
+    "title": "The European Data Portal",
+    "text": "Search tutorialFind out how to look for datasets of the European Data Portal, manually or programmatically.",
+    "markdown": "Advance your open data skills with our learning paths\nExplore popular datasets\nExplore a curated selection of datasets available on the European Data Portal.\nIn its policy, the European Union intervenes when necessary to prevent conflict or in response to emerging or actual crises. In certain cases, EU intervention can take the form of restrictive measures or 'sanctions'. The application of financial sanctions and more precisely the freezing of assets constitutes an obligation for both the public and private sector. In this regard, a particular responsibility falls on credit and financial institutions, since they are involved in the bulk of financial transfers.\nThis dataset include data for active substances used in plant protection products and Maximum Residue Levels (MRLs) authorised in EU. Context: All foodstuffs intended for human or animal consumption in the European Union (EU) are subject to a maximum residue level (MRL) of pesticides in their composition in order to protect animal and human health.\nThis dataset contains information about projects and their results funded by the European Union under the Horizon Europe framework programme for research and innovation from 2021 to 2027.\nLatest publications\nExplore the latest content on the portal.\nUpcoming events\nLearn about the latest open data events in Europe.\nThe portal in numbers\nUnderstand the wealth of available information.\nTrending topics\nFind the most searched-for topics and datasets.",
+    "link_count": 50,
+    "fetched_via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://data.europa.eu/en",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:data.europa.eu",
+   "kind": "website",
+   "label": "data.europa.eu",
+   "attrs": {
+    "host": "data.europa.eu",
+    "sample_url": "https://data.europa.eu/en"
+   },
+   "source": "web",
+   "url": "https://data.europa.eu/en",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:european-union.europa.eu",
+   "kind": "website",
+   "label": "european-union.europa.eu",
+   "attrs": {
+    "host": "european-union.europa.eu",
+    "sample_url": "https://european-union.europa.eu/index_en"
+   },
+   "source": "web",
+   "url": "https://data.europa.eu/en",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "web:53e8d74ffbb3b46c",
+   "kind": "webpage",
+   "label": "National Data Library - The home of UK public data - data.gov.uk",
+   "attrs": {
+    "url": "https://www.data.gov.uk/",
+    "host": "data.gov.uk",
+    "status": 200,
+    "bytes": 19728,
+    "title": "National Data Library - The home of UK public data - data.gov.uk",
+    "text": "document.body.className += ' js-enabled' + ('noModule' in HTMLScriptElement.prototype ? ' govuk-frontend-supported' : '');Cookies on data.gov.ukWe use some essential cookies to make this website work. We’d like to set additional cookies to understand how you use data.gov.uk and improve the service.Accept additional cookiesReject additional cookiesView cookiesYou canchange your cookie settingsat any time.Hide this messageSkip to main contentMenuCollectionsCollectionsBusiness and economyEnvironmentGovernment and ParliamentLand and propertyPeopleTransportEarly yearsSpotlightDirectoryDirectoryHelpHelpThe home of UK public data to inform decisions and build servicesFind out more about the National Data LibraryCollectionsCurated collections of high-quality, accessible dataBusiness and economyCompany information, prices, trade, economic indicatorsEnvironmentNature, climate, floods, mappingGovernment and ParliamentElections and legislation, finance and performance, Council TaxLand and propertyHousing, ownership, planning, addressesPeoplePopulation, health, immigration, social mobilityTransportRoads, driving, public transport, shippingSpotlightEarly yearsChild development, health, vaccinations, school readinessData manualA guide to working with data in government and the public sectorData manualDirectoryYou can still search the original open data directory, which we're working onDirectoryUpdatesIntroducing the Vulnerabilities Data Standards Alpha14 July 2026Faster support for children to get school ready as Tech Sec vows to better connect public services4 June 2026What's changing on data.gov.uk and why25 March 2026More blog postsSupport linksRoadmapAboutSupportAccessibilityCookiesPrivacy and termsBuilt by theNational Data Library teamAll content is available under theOpen Government Licence v3.0, except where otherwise stated.© Crown copyrightimport { initAll } from \"/assets/javascripts/govuk-frontend-6.0.0.min.b8f7d6ecf531.js\" initAll()",
+    "markdown": "The home of UK public data to inform decisions and build services\nCollections\nCurated collections of high-quality, accessible data\nBusiness and economy\nCompany information, prices, trade, economic indicators\nEnvironment\nNature, climate, floods, mapping\nGovernment and Parliament\nElections and legislation, finance and performance, Council Tax\nLand and property\nHousing, ownership, planning, addresses\nPeople\nPopulation, health, immigration, social mobility\nTransport\nRoads, driving, public transport, shipping\nSpotlight\nEarly years\nChild development, health, vaccinations, school readiness",
+    "link_count": 38,
+    "fetched_via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://www.data.gov.uk/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:data.gov.uk",
+   "kind": "website",
+   "label": "data.gov.uk",
+   "attrs": {
+    "host": "data.gov.uk",
+    "sample_url": "https://www.data.gov.uk/cookies/"
+   },
+   "source": "web",
+   "url": "https://www.data.gov.uk/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:dataingovernment.blog.gov.uk",
+   "kind": "website",
+   "label": "dataingovernment.blog.gov.uk",
+   "attrs": {
+    "host": "dataingovernment.blog.gov.uk",
+    "sample_url": "https://dataingovernment.blog.gov.uk/2026/07/14/improving-support-for-people-at-risk-through-better-data-introducing-the-vulnerabilities-data-standards-alpha/"
+   },
+   "source": "web",
+   "url": "https://www.data.gov.uk/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:gov.uk",
+   "kind": "website",
+   "label": "gov.uk",
+   "attrs": {
+    "host": "gov.uk",
+    "sample_url": "https://www.gov.uk/government/news/faster-support-for-children-to-get-school-ready-as-tech-sec-vows-to-better-connect-public-services"
+   },
+   "source": "web",
+   "url": "https://www.data.gov.uk/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:nationalarchives.gov.uk",
+   "kind": "website",
+   "label": "nationalarchives.gov.uk",
+   "attrs": {
+    "host": "nationalarchives.gov.uk",
+    "sample_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+   },
+   "source": "web",
+   "url": "https://www.data.gov.uk/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "web:335f83c4fa96da42",
+   "kind": "webpage",
+   "label": "Catalog - Data.gov",
+   "attrs": {
+    "url": "https://catalog.data.gov/dataset",
+    "host": "catalog.data.gov",
+    "status": 200,
+    "bytes": 219697,
+    "title": "Catalog - Data.gov",
+    "text": "Skip to main contentAn official website of the United States governmentHere’s how you knowHere’s how you knowOfficial websites use .govA.govwebsite belongs to an official government organization in the United States.Secure .gov websites use HTTPSAlock() orhttps://means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.MenuDataMetricsOrganizationsUser GuideContactSearch datasetsSearchShow filters532,480datasets available on Data.gov. These are the most popular:Sort byRelevancePopularityLast Published DateDistance (select geography)Draw a geographic boxHide mapDrawand drag to set the area, then Apply. UseWithin/Intersectto match datasets to the box. The map displays top 20Withinresults.WithinIntersect#1StateElectric Vehicle Population DataTrendingOrganization:State of WashingtonDataset Last Updated:October 14, 2026This dataset shows the Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs) that are currently registered through Washington State Department of Licensing (DOL).JSONXMLCSVKMLKMLGEOJSONSearch relevance: 1.00 | Views last month: 7248 | Catalog Last Checked: October 20, 2026 at 11:22 PM#2StateLottery Powerball Winning Numbers: Beginning 2010TrendingOrganization:State of New YorkDataset Last Updated:November 03, 2026Go to http://on.ny.gov/1GpWiHD on the New York Lottery website for past Powerball results and payouts.JSONXMLCSVSearch relevance: 1.00 | Views last month: 5557 | Catalog Last Checked: November 04, 2026 at 07:15 PM#3FederalSupply Chain Greenhouse Gas Emission Factors v1.3 by NAICS-6TrendingOrganization:U.S. Environmental Protection AgencyDataset Last Updated:July 05, 2024The datasets comprise greenhouse gas (GHG) emission factors (Factors) for 1,016 U.S. commodities as defined by the 2017 version of the North American Industry Classification System (NAICS). The...CSVCSVSearch relevance: 1.00 | Views last month: 4324 | Catalog Last Checked: September 10, 2026 at 07:01 PM#4FederalFY 2025 Disability Compensation Recipients by CountyTrendingOrganization:Department of Veterans AffairsDataset Last Updated:August 11, 2026This report provides county-level estimates of the number of Veterans receiving VA Disability Compensation benefits as of 9/30/2025. It includes the Veterans’ total service-connected disability...JSONXMLCSVSearch relevance: 1.00 | Views last month: 3517 | Catalog Last Checked: September 10, 2026 at 06:31 PM#5Federal2015-16 Harassment or Bullying by Basis Category Civil Rights Data CollectionTrendingOrganization:Department of EducationDataset Last Updated:October 23, 2024 at 12:00 AMThe 2015-16 tables are based on data collected from all of the nation’s school districts and schools—approximately 17,300 school districts and 96,300 schools. This set of Excel files contains data...XLSXXLSXXLSXXLSXXLSXXLSX+1 moreSearch relevance: 1.00 | Views last month: 3066 | Catalog Last Checked: October 15, 2026 at 11:27 PM#6FederalBaby Names from Social Secu",
+    "markdown": "Search datasets\n- Electric Vehicle Population Data Trending This dataset shows the Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs) that are currently registered through Washington State Department of Licensing (DOL). Search relevance: 1.00 | Views last month: 7248 | Catalog Last Checked: October 20, 2026 at 11:22 PM\n- Go to http://on.ny.gov/1GpWiHD on the New York Lottery website for past Powerball results and payouts. Search relevance: 1.00 | Views last month: 5557 | Catalog Last Checked: November 04, 2026 at 07:15 PM\n- The datasets comprise greenhouse gas (GHG) emission factors (Factors) for 1,016 U.S. commodities as defined by the 2017 version of the North American Industry Classification System (NAICS). The... Search relevance: 1.00 | Views last month: 4324 | Catalog Last Checked: September 10, 2026 at 07:01 PM\n- This report provides county-level estimates of the number of Veterans receiving VA Disability Compensation benefits as of 9/30/2025. It includes the Veterans’ total service-connected disability... Search relevance: 1.00 | Views last month: 3517 | Catalog Last Checked: September 10, 2026 at 06:31 PM\n- The 2015-16 tables are based on data collected from all of the nation’s school districts and schools—approximately 17,300 school districts and 96,300 schools. This set of Excel files contains data... Search relevance: 1.00 | Views last month: 3066 | Catalog Last Checked: October 15, 2026 at 11:27 PM\n- The data (name, year of birth, sex, and number) are from a 100 percent sample of Social Security card applications for 1880 on. Search relevance: 1.00 | Views last month: 2551 | Catalog Last Checked: October 26, 2026 at 07:07 PM\n- Crime Data from 2020 to 2024 Trending ******Notice: Transition to NIBRS-Compliant Crime Data Reporting The Los Angeles Police Department (LAPD) has completed its transition from the legacy Records Management System, which reported... Search relevance: 1.00 | Views last month: 1678 | Catalog Last Checked: September 10, 2026 at 06:59 PM\n- Warehouse and Retail Sales Trending This dataset contains a list of sales and movement data by item and department appended monthly. Update Frequency : Monthly Search relevance: 1.00 | Views last month: 1665 | Catalog Last Checked: September 10, 2026 at 06:51 PM\n- Business Lookup Trending The Business Lookup provides public information related to all current active accounts and five years of closed accounts for business licenses, excise tax accounts, and reseller permits issued by... Search relevance: 1.00 | Views last month: 1581 | Catalog Last Checked: September 10, 2026 at 06:39 PM\n- The Inventory of Owned and Leased Properties (IOLP) allows users to search properties owned and leased by the General Services Administration (GSA) across the United States, Puerto Rico, Guam and... Search relevance: 1.00 | Views last month: 1563 | Catalog Last Checked: November 06, 2026 at 05:13 PM\n- JPL Small Body Database Browser Trending The JPL Small-Body Database ",
+    "link_count": 50,
+    "fetched_via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://catalog.data.gov/dataset",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:ssa.gov",
+   "kind": "website",
+   "label": "ssa.gov",
+   "attrs": {
+    "host": "ssa.gov",
+    "sample_url": "https://www.ssa.gov/oact/babynames/index.html"
+   },
+   "source": "web",
+   "url": "https://catalog.data.gov/dataset",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "web:9fa37bea8324c3e1",
+   "kind": "webpage",
+   "label": "知乎 - 有问题，就会有答案",
+   "attrs": {
+    "url": "https://www.zhihu.com/",
+    "host": "zhihu.com",
+    "status": 200,
+    "bytes": 46335,
+    "title": "知乎 - 有问题，就会有答案",
+    "text": ".css-55n9hh{position:fixed;top:0;right:0;left:0;z-index:101;display:none;height:2px;pointer-events:none;background:#1772F6;-webkit-transform:translateX(-100%);-ms-transform:translateX(-100%);transform:translateX(-100%);}:root{--sidenav-width:0px;--container-width:1000px;--container-padding-x:16px;--container-main-column-width:694px;--container-main-column-padding-x:0px;--right-sidebar-width:296px;--container-gap:10px;}.css-1cebn6m{box-sizing:border-box;margin:0;min-width:0;color:#373a40;font-size:16px;font-weight:600;line-height:23px;}打开知乎App.css-1ho20wb{box-sizing:border-box;margin:0;min-width:0;margin-top:8px;margin-bottom:24px;color:#373a40;font-size:14px;line-height:20px;}在「我的页」右上角打开扫一扫.css-79elbk{position:relative;}.css-170psif{position:absolute;background-color:#1772F6;border-radius:50%;-webkit-transform-origin:center;-ms-transform-origin:center;transform-origin:center;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-name:animation-1alkx44;animation-name:animation-1alkx44;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-animation-fill-mode:both;animation-fill-mode:both;}@-webkit-keyframes animation-1alkx44{0%,100%{-webkit-transform:translateY(-100%);-ms-transform:translateY(-100%);transform:translateY(-100%);}50%{-webkit-transform:translateY(100%);-ms-transform:translateY(100%);transform:translateY(100%);}}@keyframes animation-1alkx44{0%,100%{-webkit-transform:translateY(-100%);-ms-transform:translateY(-100%);transform:translateY(-100%);}50%{-webkit-transform:translateY(100%);-ms-transform:translateY(100%);transform:translateY(100%);}}.css-30i747{box-sizing:border-box;margin:0;min-width:0;margin-top:24px;color:#373a40;font-size:14px;font-weight:600;line-height:20px;}其他扫码方式：微信.css-1rjkgne{box-sizing:border-box;margin:26px 0 22px;}.css-ypho2f{box-sizing:border-box;margin:0;min-width:0;font-size:14px;color:#1772F6;height:60px;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;box-sizing:border-box;margin:26px 0 22px;}.css-vurnku{box-sizing:border-box;margin:0;min-width:0;}.css-1buobbk{padding:4px 30px;border:1px solid #EBEBEB;border-radius:29px;font-size:12px;color:#373a40;line-height:19px;display:inline-block;}.css-1buobbk:hover{background:#f8f8fa;}.css-bmu90a{box-sizing:border-box;margin:0;min-width:0;-webkit-appearance:none;-moz-appearance:none;appearance:none;display:inline-block;text-align:center;line-height:inherit;-webkit-text-decoration:none;text-decoration:none;font-size:inherit;padding-left:16px;padding-right:16px;padding-top:8px;padding-bottom:8px;color:white;background-color:#1772F6;border:0;border-radius:4px;font-size:16px;font-weight:600;color:#ffffff;background-color:#1772F6;border-radius:4px;background-color:unset;font-weight:in",
+    "markdown": "打开知乎App\n在「我的页」右上角打开扫一扫\n其他扫码方式：微信\n下载知乎App\n无障碍模式\n验证码登录\n密码登录\n开通机构号\n获取短信验证码\n忘记密码\n登录/注册\n其他方式登录\n未注册手机验证后自动登录，注册即代表同意\n《知乎协议》\n《隐私保护指引》",
+    "link_count": 25,
+    "fetched_via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://www.zhihu.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:zhihu.com",
+   "kind": "website",
+   "label": "zhihu.com",
+   "attrs": {
+    "host": "zhihu.com",
+    "sample_url": "https://www.zhihu.com/org/signup"
+   },
+   "source": "web",
+   "url": "https://www.zhihu.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:zhuanlan.zhihu.com",
+   "kind": "website",
+   "label": "zhuanlan.zhihu.com",
+   "attrs": {
+    "host": "zhuanlan.zhihu.com",
+    "sample_url": "https://zhuanlan.zhihu.com"
+   },
+   "source": "web",
+   "url": "https://www.zhihu.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:app.mokahr.com",
+   "kind": "website",
+   "label": "app.mokahr.com",
+   "attrs": {
+    "host": "app.mokahr.com",
+    "sample_url": "https://app.mokahr.com/apply/zhihu"
+   },
+   "source": "web",
+   "url": "https://www.zhihu.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:ir.zhihu.com",
+   "kind": "website",
+   "label": "ir.zhihu.com",
+   "attrs": {
+    "host": "ir.zhihu.com",
+    "sample_url": "https://ir.zhihu.com"
+   },
+   "source": "web",
+   "url": "https://www.zhihu.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:tsm.miit.gov.cn",
+   "kind": "website",
+   "label": "tsm.miit.gov.cn",
+   "attrs": {
+    "host": "tsm.miit.gov.cn",
+    "sample_url": "https://tsm.miit.gov.cn/dxxzsp/"
+   },
+   "source": "web",
+   "url": "https://www.zhihu.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:beian.miit.gov.cn",
+   "kind": "website",
+   "label": "beian.miit.gov.cn",
+   "attrs": {
+    "host": "beian.miit.gov.cn",
+    "sample_url": "https://beian.miit.gov.cn/"
+   },
+   "source": "web",
+   "url": "https://www.zhihu.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:beian.gov.cn",
+   "kind": "website",
+   "label": "beian.gov.cn",
+   "attrs": {
+    "host": "beian.gov.cn",
+    "sample_url": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020088"
+   },
+   "source": "web",
+   "url": "https://www.zhihu.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:pic4.zhimg.com",
+   "kind": "website",
+   "label": "pic4.zhimg.com",
+   "attrs": {
+    "host": "pic4.zhimg.com",
+    "sample_url": "https://pic4.zhimg.com/v2-69619662ff377c3741d92bb6fd46b7ca.png"
+   },
+   "source": "web",
+   "url": "https://www.zhihu.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:picx.zhimg.com",
+   "kind": "website",
+   "label": "picx.zhimg.com",
+   "attrs": {
+    "host": "picx.zhimg.com",
+    "sample_url": "https://picx.zhimg.com/80/v2-7475facab3f2d2eda6faddaca4901d20_720w.png"
+   },
+   "source": "web",
+   "url": "https://www.zhihu.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:pic1.zhimg.com",
+   "kind": "website",
+   "label": "pic1.zhimg.com",
+   "attrs": {
+    "host": "pic1.zhimg.com",
+    "sample_url": "https://pic1.zhimg.com/v2-185764ce177e344f335363edb724f1d8.png"
+   },
+   "source": "web",
+   "url": "https://www.zhihu.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:12377.cn",
+   "kind": "website",
+   "label": "12377.cn",
+   "attrs": {
+    "host": "12377.cn",
+    "sample_url": "http://www.12377.cn"
+   },
+   "source": "web",
+   "url": "https://www.zhihu.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "web:0dbff88b785a47de",
+   "kind": "webpage",
+   "label": "Web scraping - Wikipedia",
+   "attrs": {
+    "url": "https://en.wikipedia.org/wiki/Web_scraping",
+    "host": "en.wikipedia.org",
+    "status": 200,
+    "bytes": 238903,
+    "title": "Web scraping - Wikipedia",
+    "text": "Jump to contentMain menuMain menumove to sidebarhideNavigationMain pageContentsCurrent eventsRandom articleAbout WikipediaContact usContributeHelpLearn to editCommunity portalRecent changesUpload fileSpecial pagesSearchSearchAppearanceDonateCreate accountLog inPersonal toolsDonateCreate accountLog inContentsmove to sidebarhide(Top)1History2TechniquesToggle Techniques subsection2.1Human copy-and-paste2.2Text pattern matching2.3HTTP programming2.4HTML parsing2.5DOM parsing2.6Vertical aggregation2.7Semantic annotation recognizing2.8Computer vision web-page analysis3Legal issuesToggle Legal issues subsection3.1United States3.2European Union3.3Australia3.4India4Methods to prevent web scraping5See also6ReferencesToggle the table of contentsWeb scraping22 languagesالعربيةالدارجةCatalàČeštinaDeutschEspañolEuskaraفارسیFrançaisBahasa IndonesiaÍslenskaItaliano日本語한국어LatviešuNederlandsPortuguêsРусскийTürkçeУкраїнська粵語中文Edit linksArticleTalkEnglishReadEditView historySaveToolsToolsmove to sidebarhideActionsReadEditView historySaveGeneralWhat links hereRelated changesUpload filePermanent linkPage informationCite this pageGet shortened URLSwitch to legacy parserPrint/exportDownload as PDFPrintable versionIn other projectsWikimedia CommonsWikidata itemAppearancemove to sidebarhideFrom Wikipedia, the free encyclopediaMethod of extracting data from websites.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}For broader coverage of this topic, seeData scraping.\"Web scraper\" redirects here. For websites that scrape content, seeScraper site..mw-parser-output .ambox{border:1px solid var(--border-color-base,#a2a9b1);border-left:10px solid #36c;background-color:var(--background-color-neutral-subtle,#f8f9fa);box-sizing:border-box}.mw-parser-output .ambox+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.mw-empty-elt+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left-color:#b32424;background-color:#fee7e6}.mw-parser-output .ambox-delete{border-left-color:#b32424}.mw-parser-output .ambox-content{border-left-color:#f28500}.mw-parser-output .ambox-style{border-left-color:#fc3}.mw-parser-output .ambox-move{border-left-color:#9932cc}.mw-parser-output .ambox-protection{border-left-color:var(--border-color-base,#a2a9b1)}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text",
+    "markdown": "Web scraping\nWeb scraping, web harvesting, or web data extraction is data scraping used for extracting data from websites.[1] Web scraping software may directly access the World Wide Web using the Hypertext Transfer Protocol (HTTP) or a web browser. While web scraping can be done manually by a software user, the term typically refers to automated processes implemented using a bot or web crawler. It is a form of copying in which specific data is gathered and copied from the web, typically into a central local database or spreadsheet, for later retrieval or analysis.\nScraping a web page involves fetching it and then extracting data from it. Fetching is the downloading of a page (which a browser does when a user views a page). Therefore, web crawling is a main component of web scraping, to fetch pages for later processing. Having fetched, extraction can take place. The content of a page may be parsed, searched and reformatted, and its data copied into a spreadsheet or loaded into a database. Web scrapers typically take something out of a page, to make use of it for another purpose somewhere else. An example would be finding and copying names and telephone numbers, companies and their URLs, or email addresses to a list (contact scraping). Another example is collecting competitors product prices for marketing purposes, which can involve gathering large-scale pricing datasets from e-commerce websites and analysing them using data science techniques such as trend analysis, predictive modelling, and competitive benchmarking.\nContact scraping is a type of web scraping that is used as a component of applications used for web indexing, web mining, and data mining, online price change monitoring and price comparison, product review scraping (to watch the competition), gathering real estate listings, weather data monitoring, website change detection, research, tracking online presence and reputation, web mashup, and web data integration.\nWeb pages are built using text-based markup languages (HTML and XHTML), and frequently contain a wealth of data in text form. However, most web pages are designed for human end-users and not for ease of automated use. As a result, specialized tools and software have been developed to facilitate the scraping of web pages. Web scraping applications include market research, price comparison, content monitoring and artificial intelligence. Businesses rely on web scraping services to efficiently gather and use this data.\nThere are methods that some websites use to prevent web scraping, such as detecting and disallowing bots from crawling (viewing) their pages. In response, web scraping systems use techniques involving DOM parsing, computer vision, and natural language processing to simulate human-like browsing to enable gathering web page content for offline parsing.\nHistory\n[edit]\nAfter the birth of the World Wide Web in 1989, the first web robot,[2] World Wide Web Wanderer, was created in June 1993, which was intended only to me",
+    "link_count": 50,
+    "fetched_via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://en.wikipedia.org/wiki/Web_scraping",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:en.wikipedia.org",
+   "kind": "website",
+   "label": "en.wikipedia.org",
+   "attrs": {
+    "host": "en.wikipedia.org",
+    "sample_url": "https://en.wikipedia.org/wiki/Web_scraping"
+   },
+   "source": "web",
+   "url": "https://en.wikipedia.org/wiki/Web_scraping",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:donate.wikimedia.org",
+   "kind": "website",
+   "label": "donate.wikimedia.org",
+   "attrs": {
+    "host": "donate.wikimedia.org",
+    "sample_url": "https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en"
+   },
+   "source": "web",
+   "url": "https://en.wikipedia.org/wiki/Web_scraping",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:ar.wikipedia.org",
+   "kind": "website",
+   "label": "ar.wikipedia.org",
+   "attrs": {
+    "host": "ar.wikipedia.org",
+    "sample_url": "https://ar.wikipedia.org/wiki/%D8%AA%D8%AC%D8%B1%D9%8A%D9%81_%D9%88%D9%8A%D8%A8"
+   },
+   "source": "web",
+   "url": "https://en.wikipedia.org/wiki/Web_scraping",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:ary.wikipedia.org",
+   "kind": "website",
+   "label": "ary.wikipedia.org",
+   "attrs": {
+    "host": "ary.wikipedia.org",
+    "sample_url": "https://ary.wikipedia.org/wiki/%D8%AA%D8%BA%D8%B1%D8%A7%D9%81_%D9%84%D9%88%D9%8A%D8%A8"
+   },
+   "source": "web",
+   "url": "https://en.wikipedia.org/wiki/Web_scraping",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:ca.wikipedia.org",
+   "kind": "website",
+   "label": "ca.wikipedia.org",
+   "attrs": {
+    "host": "ca.wikipedia.org",
+    "sample_url": "https://ca.wikipedia.org/wiki/Web_scraping"
+   },
+   "source": "web",
+   "url": "https://en.wikipedia.org/wiki/Web_scraping",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:cs.wikipedia.org",
+   "kind": "website",
+   "label": "cs.wikipedia.org",
+   "attrs": {
+    "host": "cs.wikipedia.org",
+    "sample_url": "https://cs.wikipedia.org/wiki/Web_scraping"
+   },
+   "source": "web",
+   "url": "https://en.wikipedia.org/wiki/Web_scraping",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:de.wikipedia.org",
+   "kind": "website",
+   "label": "de.wikipedia.org",
+   "attrs": {
+    "host": "de.wikipedia.org",
+    "sample_url": "https://de.wikipedia.org/wiki/Screen_Scraping"
+   },
+   "source": "web",
+   "url": "https://en.wikipedia.org/wiki/Web_scraping",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:es.wikipedia.org",
+   "kind": "website",
+   "label": "es.wikipedia.org",
+   "attrs": {
+    "host": "es.wikipedia.org",
+    "sample_url": "https://es.wikipedia.org/wiki/Web_scraping"
+   },
+   "source": "web",
+   "url": "https://en.wikipedia.org/wiki/Web_scraping",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:eu.wikipedia.org",
+   "kind": "website",
+   "label": "eu.wikipedia.org",
+   "attrs": {
+    "host": "eu.wikipedia.org",
+    "sample_url": "https://eu.wikipedia.org/wiki/Web_scraping"
+   },
+   "source": "web",
+   "url": "https://en.wikipedia.org/wiki/Web_scraping",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:fa.wikipedia.org",
+   "kind": "website",
+   "label": "fa.wikipedia.org",
+   "attrs": {
+    "host": "fa.wikipedia.org",
+    "sample_url": "https://fa.wikipedia.org/wiki/%D8%AA%D8%B1%D8%A7%D8%B4%DB%8C%D8%AF%D9%86_%D9%88%D8%A8"
+   },
+   "source": "web",
+   "url": "https://en.wikipedia.org/wiki/Web_scraping",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:fr.wikipedia.org",
+   "kind": "website",
+   "label": "fr.wikipedia.org",
+   "attrs": {
+    "host": "fr.wikipedia.org",
+    "sample_url": "https://fr.wikipedia.org/wiki/Web_scraping"
+   },
+   "source": "web",
+   "url": "https://en.wikipedia.org/wiki/Web_scraping",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:id.wikipedia.org",
+   "kind": "website",
+   "label": "id.wikipedia.org",
+   "attrs": {
+    "host": "id.wikipedia.org",
+    "sample_url": "https://id.wikipedia.org/wiki/Penggalian_web"
+   },
+   "source": "web",
+   "url": "https://en.wikipedia.org/wiki/Web_scraping",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "web:587f03113c25b9c9",
+   "kind": "webpage",
+   "label": "Trending repositories on GitHub today · GitHub",
+   "attrs": {
+    "url": "https://github.com/trending",
+    "host": "github.com",
+    "status": 200,
+    "bytes": 517513,
+    "title": "Trending repositories on GitHub today · GitHub",
+    "text": "Starsherlock-project /sherlockHunt down social media accounts by username across social networksPython104,45112,186Built by2,373 stars today",
+    "markdown": "sherlock-project / sherlock\nHunt down social media accounts by username across social networks\n{{ message }}\nSee what the GitHub community is most excited about today.\n      \n        Select a spoken language\n      \n    \n      \n      Loading\n    \n      \n        Select a language\n      \n    \n          \n              Unknown languages\n          \n              1C Enterprise\n          \n              2-Dimensional Array\n          \n              4D\n          \n              ABAP\n          \n              ABAP CDS\n          \n              ABNF\n          \n              ActionScript\n          \n              Ada\n          \n              Adblock Filter List\n          \n              Adobe Font Metrics\n          \n              Agda\n          \n              AGS Script\n          \n              AIDL\n          \n              Aiken\n          \n              AL\n          \n              Aleo\n          \n              ALGOL\n          \n              Alloy\n          \n              Alpine Abuild\n          \n              Altium Designer\n          \n              AMPL\n          \n              AngelScript\n          \n              Answer Set Programming\n          \n              Ant Build System\n          \n              Antlers\n          \n              ANTLR\n          \n              ApacheConf\n          \n              Apex\n          \n              API Blueprint\n          \n              APL\n          \n              Apollo Guidance Computer\n          \n              AppleScript\n          \n              Arc\n          \n              AsciiDoc\n          \n              ASL\n          \n              ASN.1\n          \n              Classic ASP\n          \n              ASP.NET\n          \n              AspectJ\n          \n              Assembly\n          \n              Astro\n          \n              Asymptote\n          \n              ATS\n          \n              Augeas\n          \n              AutoHotkey\n          \n              AutoIt\n          \n              Avro IDL\n          \n              Awk\n          \n              B\n          \n              B\n          \n              B4X\n          \n              Ballerina\n          \n              BAML\n          \n              BASIC\n          \n              Batchfile\n          \n              BBCode\n          \n              Beef\n          \n              Befunge\n          \n              Berry\n          \n              BibTeX\n          \n              BibTeX Style\n          \n              Bicep\n          \n              Bikeshed\n          \n              BIRD2\n          \n              Bison\n          \n              BitBake\n          \n              Blade\n          \n              BlitzBasic\n          \n              BlitzMax\n          \n              Blueprint\n          \n              Bluespec\n          \n              Bluespec BH\n          \n              Boo\n          \n              Boogie\n          \n              BQN\n          \n              Brainfuck\n          \n              BrighterScript\n          \n              Brightscript\n          \n              Zeek\n       ",
+    "link_count": 50,
+    "fetched_via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://github.com/trending",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:docs.github.com",
+   "kind": "website",
+   "label": "docs.github.com",
+   "attrs": {
+    "host": "docs.github.com",
+    "sample_url": "https://docs.github.com/en"
+   },
+   "source": "web",
+   "url": "https://github.com/trending",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:learn.github.com",
+   "kind": "website",
+   "label": "learn.github.com",
+   "attrs": {
+    "host": "learn.github.com",
+    "sample_url": "https://learn.github.com/skills"
+   },
+   "source": "web",
+   "url": "https://github.com/trending",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:github.blog",
+   "kind": "website",
+   "label": "github.blog",
+   "attrs": {
+    "host": "github.blog",
+    "sample_url": "https://github.blog/changelog/"
+   },
+   "source": "web",
+   "url": "https://github.com/trending",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:help.github.com",
+   "kind": "website",
+   "label": "help.github.com",
+   "attrs": {
+    "host": "help.github.com",
+    "sample_url": "https://help.github.com/"
+   },
+   "source": "web",
+   "url": "https://github.com/trending",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:githubstatus.com",
+   "kind": "website",
+   "label": "githubstatus.com",
+   "attrs": {
+    "host": "githubstatus.com",
+    "sample_url": "https://www.githubstatus.com/"
+   },
+   "source": "web",
+   "url": "https://github.com/trending",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "web:066bb8a898725a89",
+   "kind": "webpage",
+   "label": "PyPI · The Python Package Index",
+   "attrs": {
+    "url": "https://pypi.org/",
+    "host": "pypi.org",
+    "status": 200,
+    "bytes": 27885,
+    "title": "PyPI · The Python Package Index",
+    "text": "Skip to main contentSwitch to mobile versionWarningSome features may not work without JavaScript. Please try enabling it if you encounter problems.BlogDocsLog inRegisterBlogDocsLog inRegisterDeutschEnglishespañolEsperantofrançaisportuguês (Brasil)Ελληνικάрусскийукраїнськаעברית中文 (简体)中文 (繁體)日本語한국어Find, install and publish Python packages with the Python Package IndexSearch PyPISearchOrbrowse projectsPublishing as a team? Use anorganization account937,201 projects10,137,058 releases22,741,021 files1,139,816 usersThe Python Package Index (PyPI) is a repository of software for the Python programming language.PyPI helps you find and install software developed and shared by the Python community.Learn about installing packages.Package authors use PyPI to distribute their software.Learn how to package your Python code for PyPI.PyPIDeveloped and maintained by thePython Software Foundationand Python community, for the Python community.Status:all systems operationalDonate today!HelpPyPI documentationGetting helpInstalling packagesUploading packagesPackaging user guideAbout PyPIPyPI blogInfrastructure dashboardStatisticsLogos & trademarksOur sponsorsContributing to PyPIBugs and feedbackContribute on GitHubTranslate PyPISponsor PyPIDevelopment creditsUsing PyPITerms of ServiceReport security issueCode of conductPrivacy NoticeAcceptable Use PolicySwitch to desktop versionAnthropic, PBCVisionary sponsorBloombergVisionary sponsorHudson River TradingVisionary sponsorMetaVisionary sponsorNVIDIAVisionary sponsorMicrosoftSustainability sponsorDepotContinuous IntegrationAWSCloud computing and Security SponsorDatadogMonitoringFastlyCDNGoogleDownload AnalyticsSentryError loggingStatusPageStatus page\"PyPI\", \"Python Package Index\", and the blocks logos are registeredtrademarksof thePython Software Foundation.© 2026Python Software FoundationSite mapDeployed froma7d67c0",
+    "markdown": "The Python Package Index (PyPI) is a repository of software for the Python programming language.\nPyPI helps you find and install software developed and shared by the Python community. Learn about installing packages.\nPackage authors use PyPI to distribute their software. Learn how to package your Python code for PyPI.",
+    "link_count": 50,
+    "fetched_via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:pypi.org",
+   "kind": "website",
+   "label": "pypi.org",
+   "attrs": {
+    "host": "pypi.org",
+    "sample_url": "https://pypi.org/"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:blog.pypi.org",
+   "kind": "website",
+   "label": "blog.pypi.org",
+   "attrs": {
+    "host": "blog.pypi.org",
+    "sample_url": "https://blog.pypi.org"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:docs.pypi.org",
+   "kind": "website",
+   "label": "docs.pypi.org",
+   "attrs": {
+    "host": "docs.pypi.org",
+    "sample_url": "https://docs.pypi.org/"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:packaging.python.org",
+   "kind": "website",
+   "label": "packaging.python.org",
+   "attrs": {
+    "host": "packaging.python.org",
+    "sample_url": "https://packaging.python.org/tutorials/installing-packages/"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:python.org",
+   "kind": "website",
+   "label": "python.org",
+   "attrs": {
+    "host": "python.org",
+    "sample_url": "https://www.python.org/psf/"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:status.python.org",
+   "kind": "website",
+   "label": "status.python.org",
+   "attrs": {
+    "host": "status.python.org",
+    "sample_url": "https://status.python.org/"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:donate.pypi.org",
+   "kind": "website",
+   "label": "donate.pypi.org",
+   "attrs": {
+    "host": "donate.pypi.org",
+    "sample_url": "https://donate.pypi.org"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:dtdg.co",
+   "kind": "website",
+   "label": "dtdg.co",
+   "attrs": {
+    "host": "dtdg.co",
+    "sample_url": "https://dtdg.co/pypi"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:hosted.weblate.org",
+   "kind": "website",
+   "label": "hosted.weblate.org",
+   "attrs": {
+    "host": "hosted.weblate.org",
+    "sample_url": "https://hosted.weblate.org/projects/pypa/warehouse/"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:policies.python.org",
+   "kind": "website",
+   "label": "policies.python.org",
+   "attrs": {
+    "host": "policies.python.org",
+    "sample_url": "https://policies.python.org/pypi.org/Terms-of-Service/"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:anthropic.com",
+   "kind": "website",
+   "label": "anthropic.com",
+   "attrs": {
+    "host": "anthropic.com",
+    "sample_url": "https://www.anthropic.com/"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:techatbloomberg.com",
+   "kind": "website",
+   "label": "techatbloomberg.com",
+   "attrs": {
+    "host": "techatbloomberg.com",
+    "sample_url": "https://www.techatbloomberg.com/"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:hudsonrivertrading.com",
+   "kind": "website",
+   "label": "hudsonrivertrading.com",
+   "attrs": {
+    "host": "hudsonrivertrading.com",
+    "sample_url": "https://www.hudsonrivertrading.com/careers/"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:about.facebook.com",
+   "kind": "website",
+   "label": "about.facebook.com",
+   "attrs": {
+    "host": "about.facebook.com",
+    "sample_url": "https://about.facebook.com/meta/"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:developer.nvidia.com",
+   "kind": "website",
+   "label": "developer.nvidia.com",
+   "attrs": {
+    "host": "developer.nvidia.com",
+    "sample_url": "https://developer.nvidia.com"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:aka.ms",
+   "kind": "website",
+   "label": "aka.ms",
+   "attrs": {
+    "host": "aka.ms",
+    "sample_url": "https://aka.ms/python"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:depot.dev",
+   "kind": "website",
+   "label": "depot.dev",
+   "attrs": {
+    "host": "depot.dev",
+    "sample_url": "https://depot.dev"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:aws.amazon.com",
+   "kind": "website",
+   "label": "aws.amazon.com",
+   "attrs": {
+    "host": "aws.amazon.com",
+    "sample_url": "https://aws.amazon.com/"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:datadoghq.com",
+   "kind": "website",
+   "label": "datadoghq.com",
+   "attrs": {
+    "host": "datadoghq.com",
+    "sample_url": "https://www.datadoghq.com/"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "web:b735899afa4efca9",
+   "kind": "webpage",
+   "label": "World Bank Open Data | Data",
+   "attrs": {
+    "url": "https://data.worldbank.org/",
+    "host": "data.worldbank.org",
+    "status": 200,
+    "bytes": 212221,
+    "title": "World Bank Open Data | Data",
+    "text": "NEWSWomen, Business and the Law 2026 Report: Benchmarking Laws for Jobs and Inclusive GrowthFeb 24, 2026",
+    "markdown": "Feb 24, 2026\nWorld Bank Open Data\nFree and open access to global development data\nData 360\nThe World Bank open data site is expanding to Data360, a newly curated collection of data, analytics, and tools to foster development. This is an ongoing effort and we welcome your feedback\nWorld Development Indicators: Countries and Economies\nSelect an economy on the map to see data and access the economy profile\nOther data platforms\nDatasets and features on different Worldbank data platforms\nVisualise and analyse WDI and other World Bank time series data in DataBank.\nFind data collected through sample surveys in the Microdata Library.\nDownload publicly available World Bank datasets from the Data Catalog.\nNews & Stories\nMOST RECENT\n- Beyond chat demos: evaluating LLM systems at scale with DeepEval Oct 21, 2026\n- Measuring disaster-related crop losses: How far can household surveys take us, and what new research is needed? Oct 20, 2026\n- Momentum is building for better data in the Caribbean, but more work lies ahead Oct 16, 2026\n- The data on women at work call us to action Oct 16, 2026",
+    "link_count": 50,
+    "fetched_via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://data.worldbank.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:worldbank.org",
+   "kind": "website",
+   "label": "worldbank.org",
+   "attrs": {
+    "host": "worldbank.org",
+    "sample_url": "http://www.worldbank.org"
+   },
+   "source": "web",
+   "url": "https://data.worldbank.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:data.worldbank.org",
+   "kind": "website",
+   "label": "data.worldbank.org",
+   "attrs": {
+    "host": "data.worldbank.org",
+    "sample_url": "https://data.worldbank.org/"
+   },
+   "source": "web",
+   "url": "https://data.worldbank.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:data360.worldbank.org",
+   "kind": "website",
+   "label": "data360.worldbank.org",
+   "attrs": {
+    "host": "data360.worldbank.org",
+    "sample_url": "https://data360.worldbank.org/en/economies"
+   },
+   "source": "web",
+   "url": "https://data.worldbank.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:databank.worldbank.org",
+   "kind": "website",
+   "label": "databank.worldbank.org",
+   "attrs": {
+    "host": "databank.worldbank.org",
+    "sample_url": "https://databank.worldbank.org/"
+   },
+   "source": "web",
+   "url": "https://data.worldbank.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:datacatalog.worldbank.org",
+   "kind": "website",
+   "label": "datacatalog.worldbank.org",
+   "attrs": {
+    "host": "datacatalog.worldbank.org",
+    "sample_url": "https://datacatalog.worldbank.org/search/dataset/0037798"
+   },
+   "source": "web",
+   "url": "https://data.worldbank.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:microdata.worldbank.org",
+   "kind": "website",
+   "label": "microdata.worldbank.org",
+   "attrs": {
+    "host": "microdata.worldbank.org",
+    "sample_url": "https://microdata.worldbank.org/"
+   },
+   "source": "web",
+   "url": "https://data.worldbank.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:wbl.worldbank.org",
+   "kind": "website",
+   "label": "wbl.worldbank.org",
+   "attrs": {
+    "host": "wbl.worldbank.org",
+    "sample_url": "https://wbl.worldbank.org/en/wbl"
+   },
+   "source": "web",
+   "url": "https://data.worldbank.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:blogs.worldbank.org",
+   "kind": "website",
+   "label": "blogs.worldbank.org",
+   "attrs": {
+    "host": "blogs.worldbank.org",
+    "sample_url": "https://blogs.worldbank.org/en/opendata/beyond-chat-demos--evaluating-llm-systems-at-scale-with-deepeval"
+   },
+   "source": "web",
+   "url": "https://data.worldbank.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "web:9ed145a9250e209f",
+   "kind": "webpage",
+   "label": "NASA News",
+   "attrs": {
+    "url": "https://www.nasa.gov/news/",
+    "host": "nasa.gov",
+    "status": 200,
+    "bytes": 309050,
+    "title": "NASA News",
+    "text": "News and EventsNews ReleasesRecently PublishedBlogsNewslettersSocial MediaNASA Social MediaSocial Media ContactsNASA SocialBudgets and ReportsMoreUpcoming LaunchesMedia ContactsNASA NewsNews Releases2026 News ReleasesNews Release3 Min ReadNASA Announces $1 Million to Students for Moon Base ChallengeNews Release8 Min ReadNASA Awards Moon Base Transportation, Technology, Science ProjectsNews Release5 Min ReadNASA Seeks Next Generation of Explorers to Join Astronaut CorpsBlog3 Min ReadSpacewalk Cleanup, Biomedical Science, and Maintenance Wrap Up WeekReceive NASA News ReleasesSign UpSign up to receive NASA news releases and other information.Resources for News MediaCommunications PolicyMedia Accreditation PolicyMedia ContactsUpcoming LaunchesNASA Brand CenterBudgets and ReportsNews Release ArchiveKeep ExploringDiscover MoreNASA ImagesBlogsNewslettersNASA History",
+    "markdown": "News and Events News Releases Recently Published Blogs Newsletters Social Media NASA Social Media Social Media Contacts NASA Social Budgets and Reports More Upcoming Launches Media Contacts NASA News News Releases 2026 News Releases News Release 3 Min Read NASA Announces $1 Million to Students for Moon Base Challenge News Release 8 Min Read NASA Awards Moon Base Transportation, Technology, Science Projects News Release 5 Min Read NASA Seeks Next Generation of Explorers to Join Astronaut Corps Blog 3 Min Read Spacewalk Cleanup, Biomedical Science, and Maintenance Wrap Up Week Receive NASA News Releases Sign Up Sign up to receive NASA news releases and other information. Resources for News Media Communications Policy Media Accreditation Policy Media Contacts Upcoming Launches NASA Brand Center Budgets and Reports News Release Archive Keep Exploring Discover More NASA Images Blogs Newsletters NASA History",
+    "link_count": 50,
+    "fetched_via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://www.nasa.gov/news/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:nasa.gov",
+   "kind": "website",
+   "label": "nasa.gov",
+   "attrs": {
+    "host": "nasa.gov",
+    "sample_url": "https://www.nasa.gov/"
+   },
+   "source": "web",
+   "url": "https://www.nasa.gov/news/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:plus.nasa.gov",
+   "kind": "website",
+   "label": "plus.nasa.gov",
+   "attrs": {
+    "host": "plus.nasa.gov",
+    "sample_url": "https://plus.nasa.gov/series/"
+   },
+   "source": "web",
+   "url": "https://www.nasa.gov/news/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "key": "site:science.nasa.gov",
+   "kind": "website",
+   "label": "science.nasa.gov",
+   "attrs": {
+    "host": "science.nasa.gov",
+    "sample_url": "https://science.nasa.gov/3d-resources/"
+   },
+   "source": "web",
+   "url": "https://www.nasa.gov/news/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  }
+ ],
+ "edges": [
+  {
+   "src": "web:2b552f29abb38a0d",
+   "dst": "site:bbc.com",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://www.bbc.com/news",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://www.bbc.com/news",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:f1f3bd09de659fc9",
+   "dst": "site:news.ycombinator.com",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://news.ycombinator.com",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://news.ycombinator.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:f1f3bd09de659fc9",
+   "dst": "site:aphyr.com",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://aphyr.com/posts/427-rip-harvest",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://news.ycombinator.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:f1f3bd09de659fc9",
+   "dst": "site:ketchup3d.github.io",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://ketchup3d.github.io/app/",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://news.ycombinator.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:f1f3bd09de659fc9",
+   "dst": "site:shubs.io",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://news.ycombinator.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:f1f3bd09de659fc9",
+   "dst": "site:blog.zortax.de",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://blog.zortax.de/posts/a-critique-of-gpui",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://news.ycombinator.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:f1f3bd09de659fc9",
+   "dst": "site:chimera-vocal-synth.vercel.app",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://chimera-vocal-synth.vercel.app/",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://news.ycombinator.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:f1f3bd09de659fc9",
+   "dst": "site:mailroute.net",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://news.ycombinator.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:34044e3eb27e33ac",
+   "dst": "site:arxiv.org",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://arxiv.org/list/cs.AI/recent",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://arxiv.org/list/cs.AI/recent",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:34044e3eb27e33ac",
+   "dst": "site:info.arxiv.org",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://info.arxiv.org/about/donate.html",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://arxiv.org/list/cs.AI/recent",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:a413b8ec6507ff83",
+   "dst": "site:data.gov",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://data.gov/",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://data.gov/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:a413b8ec6507ff83",
+   "dst": "site:catalog.data.gov",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://catalog.data.gov",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://data.gov/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:a413b8ec6507ff83",
+   "dst": "site:digital.gov",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://digital.gov/2024/09/13/datagov-launches-metrics-tools/",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://data.gov/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:a413b8ec6507ff83",
+   "dst": "site:resources.data.gov",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://resources.data.gov",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://data.gov/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:a413b8ec6507ff83",
+   "dst": "site:performance.gov",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://www.performance.gov/",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://data.gov/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:a413b8ec6507ff83",
+   "dst": "site:twitter.com",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://twitter.com/usdatagov",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://data.gov/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:a413b8ec6507ff83",
+   "dst": "site:github.com",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://github.com/GSA/data.gov",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://data.gov/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:a413b8ec6507ff83",
+   "dst": "site:gsa.gov",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://data.gov/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:a413b8ec6507ff83",
+   "dst": "site:gsaig.gov",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://www.gsaig.gov",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://data.gov/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:a413b8ec6507ff83",
+   "dst": "site:usa.gov",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://www.usa.gov/",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://data.gov/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:20efa71c081ee8e0",
+   "dst": "site:data.europa.eu",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://data.europa.eu/en",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://data.europa.eu/en",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:20efa71c081ee8e0",
+   "dst": "site:european-union.europa.eu",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://european-union.europa.eu/index_en",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://data.europa.eu/en",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:53e8d74ffbb3b46c",
+   "dst": "site:data.gov.uk",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://www.data.gov.uk/cookies/",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://www.data.gov.uk/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:53e8d74ffbb3b46c",
+   "dst": "site:dataingovernment.blog.gov.uk",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://dataingovernment.blog.gov.uk/2026/07/14/improving-support-for-people-at-risk-through-better-data-introducing-the-vulnerabilities-data-standards-alpha/",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://www.data.gov.uk/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:53e8d74ffbb3b46c",
+   "dst": "site:gov.uk",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://www.gov.uk/government/news/faster-support-for-children-to-get-school-ready-as-tech-sec-vows-to-better-connect-public-services",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://www.data.gov.uk/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:53e8d74ffbb3b46c",
+   "dst": "site:nationalarchives.gov.uk",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://www.data.gov.uk/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:335f83c4fa96da42",
+   "dst": "site:catalog.data.gov",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://catalog.data.gov/dataset",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://catalog.data.gov/dataset",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:335f83c4fa96da42",
+   "dst": "site:data.gov",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://data.gov",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://catalog.data.gov/dataset",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:335f83c4fa96da42",
+   "dst": "site:ssa.gov",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://www.ssa.gov/oact/babynames/index.html",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://catalog.data.gov/dataset",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:9fa37bea8324c3e1",
+   "dst": "site:zhihu.com",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://www.zhihu.com/org/signup",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://www.zhihu.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:9fa37bea8324c3e1",
+   "dst": "site:zhuanlan.zhihu.com",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://zhuanlan.zhihu.com",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://www.zhihu.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:9fa37bea8324c3e1",
+   "dst": "site:app.mokahr.com",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://app.mokahr.com/apply/zhihu",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://www.zhihu.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:9fa37bea8324c3e1",
+   "dst": "site:ir.zhihu.com",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://ir.zhihu.com",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://www.zhihu.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:9fa37bea8324c3e1",
+   "dst": "site:tsm.miit.gov.cn",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://tsm.miit.gov.cn/dxxzsp/",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://www.zhihu.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:9fa37bea8324c3e1",
+   "dst": "site:beian.miit.gov.cn",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://beian.miit.gov.cn/",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://www.zhihu.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:9fa37bea8324c3e1",
+   "dst": "site:beian.gov.cn",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020088",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://www.zhihu.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:9fa37bea8324c3e1",
+   "dst": "site:pic4.zhimg.com",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://pic4.zhimg.com/v2-69619662ff377c3741d92bb6fd46b7ca.png",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://www.zhihu.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:9fa37bea8324c3e1",
+   "dst": "site:picx.zhimg.com",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://picx.zhimg.com/80/v2-7475facab3f2d2eda6faddaca4901d20_720w.png",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://www.zhihu.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:9fa37bea8324c3e1",
+   "dst": "site:pic1.zhimg.com",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://pic1.zhimg.com/v2-185764ce177e344f335363edb724f1d8.png",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://www.zhihu.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:9fa37bea8324c3e1",
+   "dst": "site:12377.cn",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "http://www.12377.cn",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://www.zhihu.com/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:0dbff88b785a47de",
+   "dst": "site:en.wikipedia.org",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://en.wikipedia.org/wiki/Web_scraping",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://en.wikipedia.org/wiki/Web_scraping",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:0dbff88b785a47de",
+   "dst": "site:donate.wikimedia.org",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://en.wikipedia.org/wiki/Web_scraping",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:0dbff88b785a47de",
+   "dst": "site:ar.wikipedia.org",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://ar.wikipedia.org/wiki/%D8%AA%D8%AC%D8%B1%D9%8A%D9%81_%D9%88%D9%8A%D8%A8",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://en.wikipedia.org/wiki/Web_scraping",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:0dbff88b785a47de",
+   "dst": "site:ary.wikipedia.org",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://ary.wikipedia.org/wiki/%D8%AA%D8%BA%D8%B1%D8%A7%D9%81_%D9%84%D9%88%D9%8A%D8%A8",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://en.wikipedia.org/wiki/Web_scraping",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:0dbff88b785a47de",
+   "dst": "site:ca.wikipedia.org",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://ca.wikipedia.org/wiki/Web_scraping",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://en.wikipedia.org/wiki/Web_scraping",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:0dbff88b785a47de",
+   "dst": "site:cs.wikipedia.org",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://cs.wikipedia.org/wiki/Web_scraping",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://en.wikipedia.org/wiki/Web_scraping",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:0dbff88b785a47de",
+   "dst": "site:de.wikipedia.org",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://de.wikipedia.org/wiki/Screen_Scraping",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://en.wikipedia.org/wiki/Web_scraping",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:0dbff88b785a47de",
+   "dst": "site:es.wikipedia.org",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://es.wikipedia.org/wiki/Web_scraping",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://en.wikipedia.org/wiki/Web_scraping",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:0dbff88b785a47de",
+   "dst": "site:eu.wikipedia.org",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://eu.wikipedia.org/wiki/Web_scraping",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://en.wikipedia.org/wiki/Web_scraping",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:0dbff88b785a47de",
+   "dst": "site:fa.wikipedia.org",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://fa.wikipedia.org/wiki/%D8%AA%D8%B1%D8%A7%D8%B4%DB%8C%D8%AF%D9%86_%D9%88%D8%A8",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://en.wikipedia.org/wiki/Web_scraping",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:0dbff88b785a47de",
+   "dst": "site:fr.wikipedia.org",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://fr.wikipedia.org/wiki/Web_scraping",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://en.wikipedia.org/wiki/Web_scraping",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:0dbff88b785a47de",
+   "dst": "site:id.wikipedia.org",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://id.wikipedia.org/wiki/Penggalian_web",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://en.wikipedia.org/wiki/Web_scraping",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:587f03113c25b9c9",
+   "dst": "site:github.com",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://github.com/trending",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://github.com/trending",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:587f03113c25b9c9",
+   "dst": "site:docs.github.com",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://docs.github.com/en",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://github.com/trending",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:587f03113c25b9c9",
+   "dst": "site:learn.github.com",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://learn.github.com/skills",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://github.com/trending",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:587f03113c25b9c9",
+   "dst": "site:github.blog",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://github.blog/changelog/",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://github.com/trending",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:587f03113c25b9c9",
+   "dst": "site:help.github.com",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://help.github.com/",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://github.com/trending",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:587f03113c25b9c9",
+   "dst": "site:githubstatus.com",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://www.githubstatus.com/",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://github.com/trending",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:066bb8a898725a89",
+   "dst": "site:pypi.org",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://pypi.org/",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:066bb8a898725a89",
+   "dst": "site:blog.pypi.org",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://blog.pypi.org",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:066bb8a898725a89",
+   "dst": "site:docs.pypi.org",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://docs.pypi.org/",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:066bb8a898725a89",
+   "dst": "site:packaging.python.org",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://packaging.python.org/tutorials/installing-packages/",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:066bb8a898725a89",
+   "dst": "site:python.org",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://www.python.org/psf/",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:066bb8a898725a89",
+   "dst": "site:status.python.org",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://status.python.org/",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:066bb8a898725a89",
+   "dst": "site:donate.pypi.org",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://donate.pypi.org",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:066bb8a898725a89",
+   "dst": "site:dtdg.co",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://dtdg.co/pypi",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:066bb8a898725a89",
+   "dst": "site:github.com",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://github.com/pypi/warehouse",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:066bb8a898725a89",
+   "dst": "site:hosted.weblate.org",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://hosted.weblate.org/projects/pypa/warehouse/",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:066bb8a898725a89",
+   "dst": "site:policies.python.org",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://policies.python.org/pypi.org/Terms-of-Service/",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:066bb8a898725a89",
+   "dst": "site:anthropic.com",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://www.anthropic.com/",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:066bb8a898725a89",
+   "dst": "site:techatbloomberg.com",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://www.techatbloomberg.com/",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:066bb8a898725a89",
+   "dst": "site:hudsonrivertrading.com",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://www.hudsonrivertrading.com/careers/",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:066bb8a898725a89",
+   "dst": "site:about.facebook.com",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://about.facebook.com/meta/",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:066bb8a898725a89",
+   "dst": "site:developer.nvidia.com",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://developer.nvidia.com",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:066bb8a898725a89",
+   "dst": "site:aka.ms",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://aka.ms/python",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:066bb8a898725a89",
+   "dst": "site:depot.dev",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://depot.dev",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:066bb8a898725a89",
+   "dst": "site:aws.amazon.com",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://aws.amazon.com/",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:066bb8a898725a89",
+   "dst": "site:datadoghq.com",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://www.datadoghq.com/",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://pypi.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:b735899afa4efca9",
+   "dst": "site:worldbank.org",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "http://www.worldbank.org",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://data.worldbank.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:b735899afa4efca9",
+   "dst": "site:data.worldbank.org",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://data.worldbank.org/",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://data.worldbank.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:b735899afa4efca9",
+   "dst": "site:data360.worldbank.org",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://data360.worldbank.org/en/economies",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://data.worldbank.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:b735899afa4efca9",
+   "dst": "site:databank.worldbank.org",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://databank.worldbank.org/",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://data.worldbank.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:b735899afa4efca9",
+   "dst": "site:datacatalog.worldbank.org",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://datacatalog.worldbank.org/search/dataset/0037798",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://data.worldbank.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:b735899afa4efca9",
+   "dst": "site:microdata.worldbank.org",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://microdata.worldbank.org/",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://data.worldbank.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:b735899afa4efca9",
+   "dst": "site:wbl.worldbank.org",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://wbl.worldbank.org/en/wbl",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://data.worldbank.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:b735899afa4efca9",
+   "dst": "site:blogs.worldbank.org",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://blogs.worldbank.org/en/opendata/beyond-chat-demos--evaluating-llm-systems-at-scale-with-deepeval",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://data.worldbank.org/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:9ed145a9250e209f",
+   "dst": "site:nasa.gov",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://www.nasa.gov/",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://www.nasa.gov/news/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:9ed145a9250e209f",
+   "dst": "site:plus.nasa.gov",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://plus.nasa.gov/series/",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://www.nasa.gov/news/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  },
+  {
+   "src": "web:9ed145a9250e209f",
+   "dst": "site:science.nasa.gov",
+   "rel": "links_to",
+   "attrs": {
+    "sample_url": "https://science.nasa.gov/3d-resources/",
+    "via": "autoforge.crawler:fast"
+   },
+   "source": "web",
+   "url": "https://www.nasa.gov/news/",
+   "fetched_at": "2026-11-09T05:05:05+00:00"
+  }
+ ],
+ "meta": {
+  "engine": "autoforge.crawler:fast",
+  "mode": "fast",
+  "count": 25,
+  "elapsed": 17.528,
+  "rps": 1.4,
+  "fetched_at": "2026-11-09T05:05:05+00:00",
+  "pages": 14,
+  "hosts": 89,
+  "edges": 89,
+  "by_host": {
+   "bbc.com": 1,
+   "news.ycombinator.com": 1,
+   "reddit.com": 1,
+   "arxiv.org": 1,
+   "data.gov": 1,
+   "data.europa.eu": 1,
+   "data.gov.uk": 1,
+   "catalog.data.gov": 1,
+   "zhihu.com": 1,
+   "en.wikipedia.org": 1,
+   "github.com": 1,
+   "pypi.org": 1,
+   "data.worldbank.org": 1,
+   "nasa.gov": 1
+  },
+  "requested": 25
+ },
+ "caveats": [
+  {
+   "url": "https://www.reuters.com/world/",
+   "why": "http status",
+   "detail": "401"
+  },
+  {
+   "url": "https://apnews.com/",
+   "why": "http status",
+   "detail": "403"
+  },
+  {
+   "url": "https://stackoverflow.com/questions",
+   "why": "http status",
+   "detail": "403"
+  },
+  {
+   "url": "https://www.nature.com/subjects/artificial-intelligence",
+   "why": "http status",
+   "detail": "None"
+  },
+  {
+   "url": "https://paperswithcode.com/",
+   "why": "http status",
+   "detail": "None"
+  },
+  {
+   "url": "https://www.indeed.com/",
+   "why": "http status",
+   "detail": "403"
+  },
+  {
+   "url": "https://www.amazon.com/",
+   "why": "blocked",
+   "detail": "soft block: 2xx but only 0 chars of text / 0 bytes"
+  },
+  {
+   "url": "https://crates.io/",
+   "why": "http status",
+   "detail": "404"
+  },
+  {
+   "url": "https://www.imf.org/en/Publications",
+   "why": "http status",
+   "detail": "403"
+  },
+  {
+   "url": "https://www.who.int/news-room",
+   "why": "fetch error",
+   "detail": "400, message='Got more than 8190 bytes when reading: b\"default-src \\'self\\' self watch.4am.ch *.analysis.windows.net *.c"
+  },
+  {
+   "url": "https://www.esa.int/",
+   "why": "fetch error",
+   "detail": "Cannot connect to host www.esa.int:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certifi"
+  }
+ ]
+}

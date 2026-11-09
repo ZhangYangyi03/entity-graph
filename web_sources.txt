@@ -1,0 +1,26 @@
+# 2026-11-09 扩面源清单：全部不在 entity-graph 既有 54 个声明域名内
+https://www.bbc.com/news
+https://www.reuters.com/world/
+https://apnews.com/
+https://news.ycombinator.com/
+https://www.reddit.com/r/python/
+https://stackoverflow.com/questions
+https://arxiv.org/list/cs.AI/recent
+https://www.nature.com/subjects/artificial-intelligence
+https://paperswithcode.com/
+https://data.gov/
+https://data.europa.eu/en
+https://www.data.gov.uk/
+https://catalog.data.gov/dataset
+https://www.indeed.com/
+https://www.amazon.com/
+https://www.zhihu.com/
+https://en.wikipedia.org/wiki/Web_scraping
+https://github.com/trending
+https://pypi.org/
+https://crates.io/
+https://www.imf.org/en/Publications
+https://data.worldbank.org/
+https://www.who.int/news-room
+https://www.nasa.gov/news/
+https://www.esa.int/
