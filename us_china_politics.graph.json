@@ -16874,6 +16874,414 @@
    "source": "wikipedia:congress_list",
    "url": "",
    "fetched_at": "2026-11-09T08:26:06Z"
+  },
+  {
+   "key": "employer:d861a374d49a",
+   "kind": "employer",
+   "label": "Parkside Global Advisors",
+   "attrs": {
+    "kind_zh": "名册列示任职单位",
+    "status": "roster_listed"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "key": "employer:fb0b7d64cba7",
+   "kind": "employer",
+   "label": "C.V. Starr & Co",
+   "attrs": {
+    "kind_zh": "名册列示任职单位",
+    "status": "roster_listed"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "key": "employer:b536249d39f7",
+   "kind": "employer",
+   "label": "International Consultants",
+   "attrs": {
+    "kind_zh": "名册列示任职单位",
+    "status": "roster_listed"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "key": "employer:62a3eb2975a2",
+   "kind": "employer",
+   "label": "Chubb",
+   "attrs": {
+    "kind_zh": "名册列示任职单位",
+    "status": "roster_listed"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "key": "employer:5782ff319599",
+   "kind": "employer",
+   "label": "International & Executive",
+   "attrs": {
+    "kind_zh": "名册列示任职单位",
+    "status": "roster_listed"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "key": "employer:e4b5a58e4a54",
+   "kind": "employer",
+   "label": "University of North Carolina",
+   "attrs": {
+    "kind_zh": "名册列示任职单位",
+    "status": "roster_listed"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "key": "employer:3987b76f2b14",
+   "kind": "employer",
+   "label": "BlackBerry Ltd. (Retired)",
+   "attrs": {
+    "kind_zh": "名册列示任职单位",
+    "status": "roster_listed"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "key": "employer:bee6ab30ef93",
+   "kind": "employer",
+   "label": "TSMC",
+   "attrs": {
+    "kind_zh": "名册列示任职单位",
+    "status": "roster_listed"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "key": "employer:8773fa5cc06c",
+   "kind": "employer",
+   "label": "Tikehau Capital",
+   "attrs": {
+    "kind_zh": "名册列示任职单位",
+    "status": "roster_listed"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "key": "employer:81fd5bdf519f",
+   "kind": "employer",
+   "label": "and Member of the Bridgewater Board",
+   "attrs": {
+    "kind_zh": "名册列示任职单位",
+    "status": "roster_listed"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "key": "employer:3dad4c5a03ac",
+   "kind": "employer",
+   "label": "Wilson Center",
+   "attrs": {
+    "kind_zh": "名册列示任职单位",
+    "status": "roster_listed"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "key": "employer:6474065d0a8e",
+   "kind": "employer",
+   "label": "Walmart",
+   "attrs": {
+    "kind_zh": "名册列示任职单位",
+    "status": "roster_listed"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "key": "employer:6c3bd63ecaa9",
+   "kind": "employer",
+   "label": "Invesco",
+   "attrs": {
+    "kind_zh": "名册列示任职单位",
+    "status": "roster_listed"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "key": "employer:d6290793a34f",
+   "kind": "employer",
+   "label": "General Atlantic",
+   "attrs": {
+    "kind_zh": "名册列示任职单位",
+    "status": "roster_listed"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "key": "employer:2adcf0db3d50",
+   "kind": "employer",
+   "label": "1992-1993",
+   "attrs": {
+    "kind_zh": "名册列示任职单位",
+    "status": "roster_listed"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "key": "employer:0a7f1f0289c1",
+   "kind": "employer",
+   "label": "Massachusetts Instit",
+   "attrs": {
+    "kind_zh": "名册列示任职单位",
+    "status": "roster_listed"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "key": "employer:f44062c7585d",
+   "kind": "employer",
+   "label": "Head of Asia Pacific Policy & Strategic Competitiveness",
+   "attrs": {
+    "kind_zh": "名册列示任职单位",
+    "status": "roster_listed"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "key": "employer:402b17e81fbd",
+   "kind": "employer",
+   "label": "Fulgent Genetics",
+   "attrs": {
+    "kind_zh": "名册列示任职单位",
+    "status": "roster_listed"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "key": "employer:1275ac43b713",
+   "kind": "employer",
+   "label": "School of International and Public Aff",
+   "attrs": {
+    "kind_zh": "名册列示任职单位",
+    "status": "roster_listed"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "key": "employer:2255fa41c30f",
+   "kind": "employer",
+   "label": "Furman University",
+   "attrs": {
+    "kind_zh": "名册列示任职单位",
+    "status": "roster_listed"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "key": "employer:b0c9957adb04",
+   "kind": "employer",
+   "label": "Asia Society Policy Institute",
+   "attrs": {
+    "kind_zh": "名册列示任职单位",
+    "status": "roster_listed"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "key": "employer:97409e07a9db",
+   "kind": "employer",
+   "label": "Johns Hopkins SAIS",
+   "attrs": {
+    "kind_zh": "名册列示任职单位",
+    "status": "roster_listed"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "key": "employer:b0c50e1f9b82",
+   "kind": "employer",
+   "label": "Peterson Institute for International Economics",
+   "attrs": {
+    "kind_zh": "名册列示任职单位",
+    "status": "roster_listed"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "key": "employer:0e2c596b3511",
+   "kind": "employer",
+   "label": "Seton Hall University School of Law",
+   "attrs": {
+    "kind_zh": "名册列示任职单位",
+    "status": "roster_listed"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "key": "employer:f925b74306fe",
+   "kind": "employer",
+   "label": "The University",
+   "attrs": {
+    "kind_zh": "名册列示任职单位",
+    "status": "roster_listed"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "key": "employer:490f93592d59",
+   "kind": "employer",
+   "label": "Brookings Institute",
+   "attrs": {
+    "kind_zh": "名册列示任职单位",
+    "status": "roster_listed"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "key": "employer:0de70e89550d",
+   "kind": "employer",
+   "label": "Yale Stem Cell Center",
+   "attrs": {
+    "kind_zh": "名册列示任职单位",
+    "status": "roster_listed"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "key": "employer:18a5029e0f01",
+   "kind": "employer",
+   "label": "Hamilton Lane Advisors",
+   "attrs": {
+    "kind_zh": "名册列示任职单位",
+    "status": "roster_listed"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "key": "employer:56095e238642",
+   "kind": "employer",
+   "label": "Under Secretary and Assistant Secretary",
+   "attrs": {
+    "kind_zh": "名册列示任职单位",
+    "status": "roster_listed"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "key": "employer:0b7e4596440f",
+   "kind": "employer",
+   "label": "Acting Assistant Secretary of State for East Asian and",
+   "attrs": {
+    "kind_zh": "名册列示任职单位",
+    "status": "roster_listed"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "key": "employer:4f4b51bb79ed",
+   "kind": "employer",
+   "label": "Xcoal Energy & Resources",
+   "attrs": {
+    "kind_zh": "名册列示任职单位",
+    "status": "roster_listed"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "key": "employer:6662fda17d79",
+   "kind": "employer",
+   "label": "abrdn",
+   "attrs": {
+    "kind_zh": "名册列示任职单位",
+    "status": "roster_listed"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "key": "employer:35f93cc39b25",
+   "kind": "employer",
+   "label": "1977-1979",
+   "attrs": {
+    "kind_zh": "名册列示任职单位",
+    "status": "roster_listed"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "key": "employer:d10c609440cb",
+   "kind": "employer",
+   "label": "welcomes",
+   "attrs": {
+    "kind_zh": "名册列示任职单位",
+    "status": "roster_listed"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
   }
  ],
  "edges": [
@@ -32904,6 +33312,630 @@
    "source": "wikipedia:person_extracts.json",
    "url": "",
    "fetched_at": "2026-11-09T08:36:02Z"
+  },
+  {
+   "src": "person:d7eaf101710e",
+   "dst": "employer:d861a374d49a",
+   "rel": "affiliated_with_employer",
+   "attrs": {
+    "status": "roster_listed",
+    "evidence": "Chair, Parkside Global Advisors"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "src": "person:99a43107b1a1",
+   "dst": "employer:fb0b7d64cba7",
+   "rel": "affiliated_with_employer",
+   "attrs": {
+    "status": "roster_listed",
+    "evidence": "Chairman & CEO, C.V. Starr & Co"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "src": "person:9fae36582a0f",
+   "dst": "employer:b536249d39f7",
+   "rel": "affiliated_with_employer",
+   "attrs": {
+    "status": "roster_listed",
+    "evidence": "Chair & CEO, Hills & Company, International Consultants"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "src": "person:4c0bc16514e2",
+   "dst": "employer:62a3eb2975a2",
+   "rel": "affiliated_with_employer",
+   "attrs": {
+    "status": "roster_listed",
+    "evidence": "Chairman & CEO, Chubb"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "src": "person:98de7a40ce77",
+   "dst": "employer:5782ff319599",
+   "rel": "affiliated_with_employer",
+   "attrs": {
+    "status": "roster_listed",
+    "evidence": "Former SVP, International & Executive"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "src": "person:eba0f1b6c83b",
+   "dst": "employer:e4b5a58e4a54",
+   "rel": "affiliated_with_employer",
+   "attrs": {
+    "status": "roster_listed",
+    "evidence": "Former Director of National Intelligence; Knott Distinguished Visiting Professor, University of North Carolina"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "src": "person:13a2cde806ef",
+   "dst": "employer:3987b76f2b14",
+   "rel": "affiliated_with_employer",
+   "attrs": {
+    "status": "roster_listed",
+    "evidence": "Executive Chairman and CEO, BlackBerry Ltd. (Retired)"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "src": "person:fe85311c4609",
+   "dst": "employer:bee6ab30ef93",
+   "rel": "affiliated_with_employer",
+   "attrs": {
+    "status": "roster_listed",
+    "evidence": "Global Government Affairs, TSMC"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "src": "person:3d43c3d681b3",
+   "dst": "employer:8773fa5cc06c",
+   "rel": "affiliated_with_employer",
+   "attrs": {
+    "status": "roster_listed",
+    "evidence": "Partner, Tikehau Capital"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "src": "person:b87a5f6e0782",
+   "dst": "employer:81fd5bdf519f",
+   "rel": "affiliated_with_employer",
+   "attrs": {
+    "status": "roster_listed",
+    "evidence": "Founder, CIO Mentor, and Member of the Bridgewater Board"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "src": "person:d1d7e1d50e62",
+   "dst": "employer:3dad4c5a03ac",
+   "rel": "affiliated_with_employer",
+   "attrs": {
+    "status": "roster_listed",
+    "evidence": "Former Director, Kissinger Institute, Wilson Center"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "src": "person:2f0a9b127504",
+   "dst": "employer:6474065d0a8e",
+   "rel": "affiliated_with_employer",
+   "attrs": {
+    "status": "roster_listed",
+    "evidence": "Senior Vice President, Global Public Policy and Government Affairs, Walmart"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "src": "person:1a9ebc71fa21",
+   "dst": "employer:6c3bd63ecaa9",
+   "rel": "affiliated_with_employer",
+   "attrs": {
+    "status": "roster_listed",
+    "evidence": "Global Head of Public Policy, Invesco"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "src": "person:e7f08f18d4ad",
+   "dst": "employer:d6290793a34f",
+   "rel": "affiliated_with_employer",
+   "attrs": {
+    "status": "roster_listed",
+    "evidence": "Chairman and CEO, General Atlantic"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "src": "person:6e6a852366d3",
+   "dst": "employer:2adcf0db3d50",
+   "rel": "affiliated_with_employer",
+   "attrs": {
+    "status": "roster_listed",
+    "evidence": "President & CEO, Barbara Franklin Enterprises; U.S. Secretary of Commerce, 1992-1993"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "src": "person:32930a8c3e9a",
+   "dst": "employer:0a7f1f0289c1",
+   "rel": "affiliated_with_employer",
+   "attrs": {
+    "status": "roster_listed",
+    "evidence": "Arthur and Ruth Sloan Professor of Political Science; Director, Security Studies Program, Massachusetts Instit"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "src": "person:7dd14de805e3",
+   "dst": "employer:f44062c7585d",
+   "rel": "affiliated_with_employer",
+   "attrs": {
+    "status": "roster_listed",
+    "evidence": "Managing Director, Head of Asia Pacific Policy & Strategic Competitiveness"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "src": "person:3b17a57ca5ac",
+   "dst": "employer:402b17e81fbd",
+   "rel": "affiliated_with_employer",
+   "attrs": {
+    "status": "roster_listed",
+    "evidence": "Chairman & CEO, Fulgent Genetics"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "src": "person:885a47532164",
+   "dst": "employer:1275ac43b713",
+   "rel": "affiliated_with_employer",
+   "attrs": {
+    "status": "roster_listed",
+    "evidence": "Independent Chair of the Board of Directors of Mastercard; Former Dean, School of International and Public Aff"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "src": "person:034d07eae9f3",
+   "dst": "employer:2255fa41c30f",
+   "rel": "affiliated_with_employer",
+   "attrs": {
+    "status": "roster_listed",
+    "evidence": "James B. Duke Professor of Asian Studies and Politics and International Affairs, Furman University"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "src": "person:018400961d1a",
+   "dst": "employer:b0c9957adb04",
+   "rel": "affiliated_with_employer",
+   "attrs": {
+    "status": "roster_listed",
+    "evidence": "Honorary Senior Fellow, Center for China Analysis, Asia Society Policy Institute"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "src": "person:066e503eb271",
+   "dst": "employer:97409e07a9db",
+   "rel": "affiliated_with_employer",
+   "attrs": {
+    "status": "roster_listed",
+    "evidence": "Professor Emeritus of China Studies, Sr. Research Fellow, Foreign Policy Institute, Johns Hopkins SAIS"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "src": "person:059e92a4e00d",
+   "dst": "employer:b0c50e1f9b82",
+   "rel": "affiliated_with_employer",
+   "attrs": {
+    "status": "roster_listed",
+    "evidence": "Nonresident Senior Fellow, Peterson Institute for International Economics"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "src": "person:caea48e98d21",
+   "dst": "employer:0e2c596b3511",
+   "rel": "affiliated_with_employer",
+   "attrs": {
+    "status": "roster_listed",
+    "evidence": "Professor of Law, Seton Hall University School of Law"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "src": "person:42e663105124",
+   "dst": "employer:f925b74306fe",
+   "rel": "affiliated_with_employer",
+   "attrs": {
+    "status": "roster_listed",
+    "evidence": "Professor of Political Science Founding Director, Centre on Governance of China and the World, The University"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "src": "person:942af230245c",
+   "dst": "employer:490f93592d59",
+   "rel": "affiliated_with_employer",
+   "attrs": {
+    "status": "roster_listed",
+    "evidence": "Senior Fellow Emeritus, Brookings Institute"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "src": "person:2987dbec337b",
+   "dst": "employer:0de70e89550d",
+   "rel": "affiliated_with_employer",
+   "attrs": {
+    "status": "roster_listed",
+    "evidence": "Eugene Higgins Professor of Cell Biology and Founding Director, Yale Stem Cell Center"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "src": "person:625864e41e41",
+   "dst": "employer:18a5029e0f01",
+   "rel": "affiliated_with_employer",
+   "attrs": {
+    "status": "roster_listed",
+    "evidence": "Chairman & Co-Chief Executive Officer, Hamilton Lane Advisors"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "src": "person:b7f99c076fa7",
+   "dst": "employer:56095e238642",
+   "rel": "affiliated_with_employer",
+   "attrs": {
+    "status": "roster_listed",
+    "evidence": "Inaugural Fellow, Center on Global Energy Policy, Columbia University; Under Secretary and Assistant Secretary"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "src": "person:f134a03f9d9b",
+   "dst": "employer:0b7e4596440f",
+   "rel": "affiliated_with_employer",
+   "attrs": {
+    "status": "roster_listed",
+    "evidence": "Senior Fellow, Paul Tsai China Center, Yale Law School; Acting Assistant Secretary of State for East Asian and"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "src": "person:dac0ff4ee095",
+   "dst": "employer:4f4b51bb79ed",
+   "rel": "affiliated_with_employer",
+   "attrs": {
+    "status": "roster_listed",
+    "evidence": "CEO & Chief Marketing Officer, Xcoal Energy & Resources"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "src": "person:4ba3d0aaafc5",
+   "dst": "employer:6662fda17d79",
+   "rel": "affiliated_with_employer",
+   "attrs": {
+    "status": "roster_listed",
+    "evidence": "Assistant Dean, David Geffen School of Drama at Yale; Assistant Professor Adjunct; Independent Director, abrdn"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "src": "person:45fe013c0f9b",
+   "dst": "employer:35f93cc39b25",
+   "rel": "affiliated_with_employer",
+   "attrs": {
+    "status": "roster_listed",
+    "evidence": "U.S. Secretary of the Treasury, 1977-1979"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "src": "person:ca4a550860a1",
+   "dst": "employer:d10c609440cb",
+   "rel": "affiliated_with_employer",
+   "attrs": {
+    "status": "roster_listed",
+    "evidence": "The National Committee on United States-China Relations, Inc., welcomes"
+   },
+   "source": "official:ncuscr_official.html",
+   "url": "https://www.ncuscr.org/",
+   "fetched_at": "2026-11-09T08:36:19Z"
+  },
+  {
+   "src": "person:9b960b6ab45b",
+   "dst": "org_us:d7088043b5a9",
+   "rel": "mentioned_in",
+   "attrs": {
+    "status": "wiki_link",
+    "evidence": "te=2024-10-28 |website=The Standard |language=en}}</ref> CUSEF's governing board has included members such as [[Ronnie Chan]], [[Elsie Leung]], and [[Victor Fung (businessman)|Victor Fung]].<ref name=\":2\" /> Foundation donors include"
+   },
+   "source": "wikipedia:China-United_States_Exchange_Foundation.wiki",
+   "url": "https://en.wikipedia.org/wiki/Ronnie_Chan",
+   "fetched_at": "2026-11-09T08:36:31Z"
+  },
+  {
+   "src": "person:d7eaf101710e",
+   "dst": "org_us:d7088043b5a9",
+   "rel": "mentioned_in",
+   "attrs": {
+    "status": "wiki_link",
+    "evidence": "ing the forum include former US ambassador to China and ex-senator [[Max Baucus]], former US Trade Negotiator [[Charlene Barshefsky]] and President of the 70th Session of the UN General Assembly [[Mogens Lykketoft]].<ref>{{Cite web |date=202"
+   },
+   "source": "wikipedia:China-United_States_Exchange_Foundation.wiki",
+   "url": "https://en.wikipedia.org/wiki/Charlene_Barshefsky",
+   "fetched_at": "2026-11-09T08:36:31Z"
+  },
+  {
+   "src": "person:33280234fef9",
+   "dst": "org_us:f9848811bc4c",
+   "rel": "mentioned_in",
+   "attrs": {
+    "status": "wiki_link",
+    "evidence": "he encouragement of [[Henry Kissinger]], Pei, along with other notable Asian American figures such as cellist [[Yo-Yo Ma]] and physicist [[Chien-Shiung Wu|Chien Shiung Wu]], founded the committee in order to address relations betw"
+   },
+   "source": "wikipedia:Committee_of_100__United_States_.wiki",
+   "url": "https://en.wikipedia.org/wiki/Yo-Yo_Ma",
+   "fetched_at": "2026-11-09T08:36:31Z"
+  },
+  {
+   "src": "person:c19eb31c367d",
+   "dst": "org_us:f9848811bc4c",
+   "rel": "mentioned_in",
+   "attrs": {
+    "status": "wiki_link",
+    "evidence": " Kissinger]], Pei, along with other notable Asian American figures such as cellist [[Yo-Yo Ma]] and physicist [[Chien-Shiung Wu|Chien Shiung Wu]], founded the committee in order to address relations between the people of the United State"
+   },
+   "source": "wikipedia:Committee_of_100__United_States_.wiki",
+   "url": "https://en.wikipedia.org/wiki/Chien-Shiung_Wu",
+   "fetched_at": "2026-11-09T08:36:31Z"
+  },
+  {
+   "src": "person:99a43107b1a1",
+   "dst": "org_us:0c408877eb1d",
+   "rel": "mentioned_in",
+   "attrs": {
+    "status": "wiki_link",
+    "evidence": "div col|colwidth=30em}} * [[George F. Kennan]] * [[Cyrus Vance]] * [[Paul Volcker]] * [[Richard Holbrooke]] * [[Maurice R. Greenberg]] * [[John Negroponte]] * General [[David Petraeus]] * [[Raymond Kelly]] {{div col end}}  ===William J. Flynn"
+   },
+   "source": "wikipedia:National_Committee_on_American_Foreign_Policy.wiki",
+   "url": "https://en.wikipedia.org/wiki/Maurice_R._Greenberg",
+   "fetched_at": "2026-11-09T08:36:31Z"
+  },
+  {
+   "src": "person:4c0bc16514e2",
+   "dst": "org_us:34be0c9188bb",
+   "rel": "mentioned_in",
+   "attrs": {
+    "status": "wiki_link",
+    "evidence": "-date=2023-03-19 |website=NCUSCR |language=en-US}}</ref>  === Vice chairs === {{Columns-list|colwidth=30em| * [[Evan G. Greenberg]] * [[Maurice R. Greenberg]] * [[Thomas Kean]] * [[Nicholas R. Lardy]] * [[Joseph Prueher]] * [[William R. Rh"
+   },
+   "source": "wikipedia:National_Committee_on_United_States_China_Relations.wiki",
+   "url": "https://en.wikipedia.org/wiki/Evan_G._Greenberg",
+   "fetched_at": "2026-11-09T08:36:31Z"
+  },
+  {
+   "src": "person:99a43107b1a1",
+   "dst": "org_us:34be0c9188bb",
+   "rel": "mentioned_in",
+   "attrs": {
+    "status": "wiki_link",
+    "evidence": "e=NCUSCR |language=en-US}}</ref>  === Vice chairs === {{Columns-list|colwidth=30em| * [[Evan G. Greenberg]] * [[Maurice R. Greenberg]] * [[Thomas Kean]] * [[Nicholas R. Lardy]] * [[Joseph Prueher]] * [[William R. Rhodes]] * [[J. Stapleton Roy"
+   },
+   "source": "wikipedia:National_Committee_on_United_States_China_Relations.wiki",
+   "url": "https://en.wikipedia.org/wiki/Maurice_R._Greenberg",
+   "fetched_at": "2026-11-09T08:36:31Z"
+  },
+  {
+   "src": "person:059e92a4e00d",
+   "dst": "org_us:34be0c9188bb",
+   "rel": "mentioned_in",
+   "attrs": {
+    "status": "wiki_link",
+    "evidence": "airs === {{Columns-list|colwidth=30em| * [[Evan G. Greenberg]] * [[Maurice R. Greenberg]] * [[Thomas Kean]] * [[Nicholas R. Lardy]] * [[Joseph Prueher]] * [[William R. Rhodes]] * [[J. Stapleton Roy]] * [[Jim Sasser]] }}  === Treasurer === "
+   },
+   "source": "wikipedia:National_Committee_on_United_States_China_Relations.wiki",
+   "url": "https://en.wikipedia.org/wiki/Nicholas_R._Lardy",
+   "fetched_at": "2026-11-09T08:36:31Z"
+  },
+  {
+   "src": "person:5099a758bb32",
+   "dst": "org_us:34be0c9188bb",
+   "rel": "mentioned_in",
+   "attrs": {
+    "status": "wiki_link",
+    "evidence": "urice R. Greenberg]] * [[Thomas Kean]] * [[Nicholas R. Lardy]] * [[Joseph Prueher]] * [[William R. Rhodes]] * [[J. Stapleton Roy]] * [[Jim Sasser]] }}  === Treasurer === * Keith W. Abell  === Secretary === * I. Peter Wolff  === Members =="
+   },
+   "source": "wikipedia:National_Committee_on_United_States_China_Relations.wiki",
+   "url": "https://en.wikipedia.org/wiki/J._Stapleton_Roy",
+   "fetched_at": "2026-11-09T08:36:31Z"
+  },
+  {
+   "src": "person:b87a5f6e0782",
+   "dst": "org_us:34be0c9188bb",
+   "rel": "mentioned_in",
+   "attrs": {
+    "status": "wiki_link",
+    "evidence": " [[Jim Sasser]] }}  === Treasurer === * Keith W. Abell  === Secretary === * I. Peter Wolff  === Members === * [[Ray Dalio]] * [[Jeffrey A. Bader]] * [[Ajay Banga]] * [[Dennis C. Blair]] * [[Olivier Brandicourt]] * [[Deborah Bräutig"
+   },
+   "source": "wikipedia:National_Committee_on_United_States_China_Relations.wiki",
+   "url": "https://en.wikipedia.org/wiki/Ray_Dalio",
+   "fetched_at": "2026-11-09T08:36:31Z"
+  },
+  {
+   "src": "person:eba0f1b6c83b",
+   "dst": "org_us:34be0c9188bb",
+   "rel": "mentioned_in",
+   "attrs": {
+    "status": "wiki_link",
+    "evidence": "=== Secretary === * I. Peter Wolff  === Members === * [[Ray Dalio]] * [[Jeffrey A. Bader]] * [[Ajay Banga]] * [[Dennis C. Blair]] * [[Olivier Brandicourt]] * [[Deborah Bräutigam|Deborah Brautigam]] * Milton Brice * [[Kurt M. Campbell]] *"
+   },
+   "source": "wikipedia:National_Committee_on_United_States_China_Relations.wiki",
+   "url": "https://en.wikipedia.org/wiki/Dennis_C._Blair",
+   "fetched_at": "2026-11-09T08:36:31Z"
+  },
+  {
+   "src": "person:a0c6dfccb8d6",
+   "dst": "org_us:34be0c9188bb",
+   "rel": "mentioned_in",
+   "attrs": {
+    "status": "wiki_link",
+    "evidence": "ndicourt]] * [[Deborah Bräutigam|Deborah Brautigam]] * Milton Brice * [[Kurt M. Campbell]] * [[Amy Celico]] * [[John S. Chen]] * Daniel Cruise * Nelson G. Dong * [[Richard Edelman]] * [[Martin Feldstein]] * [[William E. Ford]] * [[Bar"
+   },
+   "source": "wikipedia:National_Committee_on_United_States_China_Relations.wiki",
+   "url": "https://en.wikipedia.org/wiki/John_S._Chen",
+   "fetched_at": "2026-11-09T08:36:31Z"
+  },
+  {
+   "src": "person:e7f08f18d4ad",
+   "dst": "org_us:34be0c9188bb",
+   "rel": "mentioned_in",
+   "attrs": {
+    "status": "wiki_link",
+    "evidence": "y Celico]] * [[John S. Chen]] * Daniel Cruise * Nelson G. Dong * [[Richard Edelman]] * [[Martin Feldstein]] * [[William E. Ford]] * [[Barbara Franklin]] * M. Taylor Fravel * Charles W. Freeman III * [[Richard Gelfond]] * Jimmy Hexter * ["
+   },
+   "source": "wikipedia:National_Committee_on_United_States_China_Relations.wiki",
+   "url": "https://en.wikipedia.org/wiki/William_E._Ford",
+   "fetched_at": "2026-11-09T08:36:31Z"
+  },
+  {
+   "src": "person:066e503eb271",
+   "dst": "org_us:34be0c9188bb",
+   "rel": "mentioned_in",
+   "attrs": {
+    "status": "wiki_link",
+    "evidence": " Freeman III * [[Richard Gelfond]] * Jimmy Hexter * [[Jon Huntsman Jr.]] * [[Muhtar Kent]] * Elizabeth Knup * [[David M. Lampton]] * Terrill E. Lautz * [[Cheng Li]] * [[Kenneth Lieberthal]] * [[Andrew Liveris]] * [[Gary Locke]] * [[Samuel"
+   },
+   "source": "wikipedia:National_Committee_on_United_States_China_Relations.wiki",
+   "url": "https://en.wikipedia.org/wiki/David_M._Lampton",
+   "fetched_at": "2026-11-09T08:36:31Z"
+  },
+  {
+   "src": "person:42e663105124",
+   "dst": "org_us:34be0c9188bb",
+   "rel": "mentioned_in",
+   "attrs": {
+    "status": "wiki_link",
+    "evidence": " Hexter * [[Jon Huntsman Jr.]] * [[Muhtar Kent]] * Elizabeth Knup * [[David M. Lampton]] * Terrill E. Lautz * [[Cheng Li]] * [[Kenneth Lieberthal]] * [[Andrew Liveris]] * [[Gary Locke]] * [[Samuel J. Locklear]] * [[Evan S. Medeiro"
+   },
+   "source": "wikipedia:National_Committee_on_United_States_China_Relations.wiki",
+   "url": "https://en.wikipedia.org/wiki/Cheng_Li",
+   "fetched_at": "2026-11-09T08:36:31Z"
+  },
+  {
+   "src": "person:2cf9d703a157",
+   "dst": "org_us:34be0c9188bb",
+   "rel": "mentioned_in",
+   "attrs": {
+    "status": "wiki_link",
+    "evidence": "] * Sheldon Pang * A. Robert Pietrzak * [[Clark Randt|Clark T. Randt Jr.]] * Anthony J. Saich * Maggie Sans * [[Rob Speyer]] * [[James Steinberg]] * Ernie L. Thrasher * Jan F. van Eck * Robert H. Xiao * John Young  === Former chairs"
+   },
+   "source": "wikipedia:National_Committee_on_United_States_China_Relations.wiki",
+   "url": "https://en.wikipedia.org/wiki/Rob_Speyer",
+   "fetched_at": "2026-11-09T08:36:31Z"
+  },
+  {
+   "src": "person:45fe013c0f9b",
+   "dst": "org_us:34be0c9188bb",
+   "rel": "mentioned_in",
+   "attrs": {
+    "status": "wiki_link",
+    "evidence": "nie L. Thrasher * Jan F. van Eck * Robert H. Xiao * John Young  === Former chairs === * [[A. Doak Barnett]] * [[W. Michael Blumenthal]] * [[Barber Conable]] * [[Alexander Eckstein]] * [[Lucian Pye|Lucian W. Pye]] * [[Robert A. Scalapino]] * [["
+   },
+   "source": "wikipedia:National_Committee_on_United_States_China_Relations.wiki",
+   "url": "https://en.wikipedia.org/wiki/W._Michael_Blumenthal",
+   "fetched_at": "2026-11-09T08:36:31Z"
+  },
+  {
+   "src": "person:33280234fef9",
+   "dst": "org_us:217365ea4521",
+   "rel": "mentioned_in",
+   "attrs": {
+    "status": "wiki_link",
+    "evidence": "s Secretary of State (honorary) * [[Richard Haass]], president, [[Council on Foreign Relations]] (honorary) * [[Yo-Yo Ma]], American cellist (honorary) * [[Graham Allison]], Douglas Dillon Professor of Government, [[Harvard Kenned"
+   },
+   "source": "wikipedia:Schwarzman_Scholars.wiki",
+   "url": "https://en.wikipedia.org/wiki/Yo-Yo_Ma",
+   "fetched_at": "2026-11-09T08:36:31Z"
   }
  ],
  "meta": {
@@ -32946,7 +33978,14 @@
   "engaged_persons": 263,
   "politicians": 610,
   "roster_non_politicians": 237,
-  "engaged_politicians": 26
+  "engaged_politicians": 26,
+  "enriched_at": "2026-11-09T08:36:19Z",
+  "enrichment": {
+   "party_edges_from_person_text": 116,
+   "employer_edges_from_ncuscr_roster": 34,
+   "demoted_non_person_nodes": 2,
+   "wiki_link_mentioned_in_added": 18
+  }
  },
  "caveats": [
   {
@@ -32976,6 +34015,10 @@
   {
    "issue": "区分政客与名册人士",
    "detail": "机构官网名册含大量商界/学界人士（如 I.M. Pei、Eric S. Yuan）。attrs.is_politician 只依据 Wikipedia 政治类分类或国会议员名单；engagement_with_china_orgs 现在只标在政治人物上。"
+  },
+  {
+   "issue": "任职单位来自机构官网名册",
+   "detail": "affiliated_with_employer 只表示名册把该人和该单位写在一起，不等于现职雇佣；单位名从 context 文本切分，可能含缩写或拼接误差。"
   }
  ]
 }
