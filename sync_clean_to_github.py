@@ -54,7 +54,12 @@ def utc():
 def log(repo, line):
     with open(repo / "sync.log", "a", encoding="utf-8") as fh:
         fh.write(f"{utc()} {line}\n")
-    print(f"{utc()} {line}", flush=True)
+    # pythonw has no console: sys.stdout is None there. Never print from the watcher.
+    try:
+        sys.stdout.write(f"{utc()} {line}\n")
+        sys.stdout.flush()
+    except Exception:
+        pass
 
 
 def fingerprint(repo):
@@ -140,7 +145,7 @@ def main():
         print(sync(repo, a.remote, a.branch, a.dry_run, a.message))
         return 0
 
-    log(repo, f"WATCH start repo={repo} settle={a.settle}s interval={a.interval}s")
+    log(repo, f"WATCH start repo={repo} settle={a.settle}s interval={a.interval}s pid={os.getpid()}")
     fp, n = fingerprint(repo)
     stable_since = None
     last_synced_head, _, _ = git(repo, "rev-parse", "HEAD")
