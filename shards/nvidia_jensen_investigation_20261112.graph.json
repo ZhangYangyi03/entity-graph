@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "key": "person:jensen-huang",
+      "kind": "person",
+      "label": "Jensen Huang",
+      "attrs": {},
+      "source": "NVIDIA",
+      "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+      "fetched_at": ""
+    },
+    {
+      "key": "org:nvidia",
+      "kind": "company",
+      "label": "NVIDIA",
+      "attrs": {},
+      "source": "NVIDIA",
+      "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+      "fetched_at": ""
+    },
+    {
+      "key": "org:nvidia-independent-directors",
+      "kind": "committee",
+      "label": "Independent NVIDIA directors",
+      "attrs": {},
+      "source": "NVIDIA",
+      "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+      "fetched_at": ""
+    },
+    {
+      "key": "person:joon-h-kim",
+      "kind": "person",
+      "label": "Joon H. Kim",
+      "attrs": {},
+      "source": "NVIDIA",
+      "url": "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board",
+      "fetched_at": ""
+    },
+    {
+      "key": "org:wachtell-lipton",
+      "kind": "organization",
+      "label": "Wachtell, Lipton, Rosen & Katz",
+      "attrs": {},
+      "source": "NVIDIA",
+      "url": "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board",
+      "fetched_at": ""
+    },
+    {
+      "key": "org:megaspeed",
+      "kind": "company",
+      "label": "Megaspeed International",
+      "attrs": {},
+      "source": "AP",
+      "url": "https://apnews.com/article/nvidia-jensen-huang-chinese-spy-investigation-df45d21030691f59c67bc0b35adb89a2",
+      "fetched_at": ""
+    }
+  ],
+  "edges": [
+    {
+      "src": "person:jensen-huang",
+      "dst": "org:nvidia",
+      "rel": "ceo_of",
+      "attrs": {
+        "as_of": "2026-11-08"
+      },
+      "source": "NVIDIA",
+      "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+      "fetched_at": ""
+    },
+    {
+      "src": "org:nvidia-independent-directors",
+      "dst": "person:jensen-huang",
+      "rel": "oversees_investigation_concerning",
+      "attrs": {
+        "status": "ongoing",
+        "not_a_finding": true
+      },
+      "source": "NVIDIA",
+      "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+      "fetched_at": ""
+    },
+    {
+      "src": "org:nvidia-independent-directors",
+      "dst": "person:joon-h-kim",
+      "rel": "retained_to_investigate",
+      "attrs": {
+        "announced": "2026-11-10"
+      },
+      "source": "NVIDIA",
+      "url": "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board",
+      "fetched_at": ""
+    },
+    {
+      "src": "org:nvidia-independent-directors",
+      "dst": "org:wachtell-lipton",
+      "rel": "retained_to_investigate",
+      "attrs": {
+        "announced": "2026-11-10"
+      },
+      "source": "NVIDIA",
+      "url": "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board",
+      "fetched_at": ""
+    }
+  ]
+}
