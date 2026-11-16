@@ -7,7 +7,7 @@
       "attrs": {},
       "source": "source archive",
       "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In",
-      "fetched_at": "2026-11-16T03:27:07.775994+00:00"
+      "fetched_at": "2026-11-16T03:29:51.269615+00:00"
     },
     {
       "key": "liu:chunk:92d9ef5dc908a64d2aca61fc",
@@ -44,6 +44,42 @@
       "source": "machine interpretation",
       "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/01_Internet/%E5%88%98%E4%BB%B2%E6%95%AC360doc%E8%A8%80%E8%AE%BA%E8%A1%A5%E5%85%85.md",
       "fetched_at": "2026-11-16T03:27:07.011301+00:00"
+    },
+    {
+      "key": "liu:chunk:be6c904f34e4b5e64a078533",
+      "kind": "interpreted_passage",
+      "label": "01_Internet/刘仲敬360doc言论补充.md @ 9600",
+      "attrs": {
+        "summary": "材料主要讨论了台湾的政治局势、历史观点以及对某些政治人物和事件的看法，强调了士大夫阶层在台湾的重要性。",
+        "range": [
+          9600,
+          12000
+        ],
+        "attribution": "刘仲敬相关材料；说话人归属需核验",
+        "validation": "literal_quote_match; machine-generated, not human fact checked",
+        "metadata": {
+          "file": "01_Internet/刘仲敬360doc言论补充.md",
+          "partial_public_archive": true
+        },
+        "source_sha256": "1832194ffbaf7629b13d09442849964b2c13639671ef5d5d480a4a13afbb1d0b",
+        "model": "qwen2.5:7b"
+      },
+      "source": "machine interpretation",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/01_Internet/%E5%88%98%E4%BB%B2%E6%95%AC360doc%E8%A8%80%E8%AE%BA%E8%A1%A5%E5%85%85.md",
+      "fetched_at": "2026-11-16T03:29:51.266853+00:00"
+    },
+    {
+      "key": "liu:extracted:be6c904f34e4b5e64a078533:0",
+      "kind": "attributed_concept",
+      "label": "士大夫阶层",
+      "attrs": {
+        "description": "台湾士大夫阶层受破坏最少，宋君入仕即以秦王府十八学士自居。",
+        "evidence_quote": "宋君入仕之初即以秦王府十八学士自居，意态可知。唯其如此，更难摆脱科利奥兰纳斯综合征（参见同名莎剧，勿参见罗马正史同名人），终为草根弃。",
+        "verification": "machine-generated; quote matched, attribution and factual accuracy unverified"
+      },
+      "source": "machine interpretation",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/01_Internet/%E5%88%98%E4%BB%B2%E6%95%AC360doc%E8%A8%80%E8%AE%BA%E8%A1%A5%E5%85%85.md",
+      "fetched_at": "2026-11-16T03:29:51.266853+00:00"
     }
   ],
   "edges": [
@@ -66,6 +102,26 @@
       "source": "machine interpretation",
       "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/01_Internet/%E5%88%98%E4%BB%B2%E6%95%AC360doc%E8%A8%80%E8%AE%BA%E8%A1%A5%E5%85%85.md",
       "fetched_at": "2026-11-16T03:27:07.011301+00:00"
+    },
+    {
+      "src": "person:liu-zhongjing",
+      "dst": "liu:chunk:be6c904f34e4b5e64a078533",
+      "rel": "associated_with",
+      "attrs": {
+        "note": "材料相关；须核实说话人"
+      },
+      "source": "source archive",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/01_Internet/%E5%88%98%E4%BB%B2%E6%95%AC360doc%E8%A8%80%E8%AE%BA%E8%A1%A5%E5%85%85.md",
+      "fetched_at": "2026-11-16T03:29:51.266853+00:00"
+    },
+    {
+      "src": "liu:chunk:be6c904f34e4b5e64a078533",
+      "dst": "liu:extracted:be6c904f34e4b5e64a078533:0",
+      "rel": "expresses",
+      "attrs": {},
+      "source": "machine interpretation",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/01_Internet/%E5%88%98%E4%BB%B2%E6%95%AC360doc%E8%A8%80%E8%AE%BA%E8%A1%A5%E5%85%85.md",
+      "fetched_at": "2026-11-16T03:29:51.266853+00:00"
     }
   ]
 }
