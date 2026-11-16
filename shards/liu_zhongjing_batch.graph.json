@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "key": "person:liu-zhongjing",
+      "kind": "person",
+      "label": "刘仲敬",
+      "attrs": {},
+      "source": "source archive",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In",
+      "fetched_at": "2026-11-16T03:27:07.775994+00:00"
+    },
+    {
+      "key": "liu:chunk:92d9ef5dc908a64d2aca61fc",
+      "kind": "interpreted_passage",
+      "label": "01_Internet/刘仲敬360doc言论补充.md @ 4800",
+      "attrs": {
+        "summary": "材料主要讨论了中国历史、政治体制、社会转型、选举制度以及国际政治等话题，涉及多个作者的观点。",
+        "range": [
+          4800,
+          7200
+        ],
+        "attribution": "刘仲敬相关材料；说话人归属需核验",
+        "validation": "literal_quote_match; machine-generated, not human fact checked",
+        "metadata": {
+          "file": "01_Internet/刘仲敬360doc言论补充.md",
+          "partial_public_archive": true
+        },
+        "source_sha256": "8b64986144a8006485d2bab39601eb172f97c998f402b4971c9899849dcddfb4",
+        "model": "qwen2.5:7b"
+      },
+      "source": "machine interpretation",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/01_Internet/%E5%88%98%E4%BB%B2%E6%95%AC360doc%E8%A8%80%E8%AE%BA%E8%A1%A5%E5%85%85.md",
+      "fetched_at": "2026-11-16T03:27:07.011301+00:00"
+    },
+    {
+      "key": "liu:extracted:92d9ef5dc908a64d2aca61fc:0",
+      "kind": "attributed_concept",
+      "label": "立宪与民主",
+      "attrs": {
+        "description": "茅于轼认为立宪和民主并非同一概念，但对政治学和政制史的理解不够深入。",
+        "evidence_quote": "立宪，民主非一物，茅君有德长者经济大家，而于政治学政制史未达一间，余当撰“立宪之草蛇灰线，民主之循名责实”论之。",
+        "verification": "machine-generated; quote matched, attribution and factual accuracy unverified"
+      },
+      "source": "machine interpretation",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/01_Internet/%E5%88%98%E4%BB%B2%E6%95%AC360doc%E8%A8%80%E8%AE%BA%E8%A1%A5%E5%85%85.md",
+      "fetched_at": "2026-11-16T03:27:07.011301+00:00"
+    }
+  ],
+  "edges": [
+    {
+      "src": "person:liu-zhongjing",
+      "dst": "liu:chunk:92d9ef5dc908a64d2aca61fc",
+      "rel": "associated_with",
+      "attrs": {
+        "note": "材料相关；须核实说话人"
+      },
+      "source": "source archive",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/01_Internet/%E5%88%98%E4%BB%B2%E6%95%AC360doc%E8%A8%80%E8%AE%BA%E8%A1%A5%E5%85%85.md",
+      "fetched_at": "2026-11-16T03:27:07.011301+00:00"
+    },
+    {
+      "src": "liu:chunk:92d9ef5dc908a64d2aca61fc",
+      "dst": "liu:extracted:92d9ef5dc908a64d2aca61fc:0",
+      "rel": "expresses",
+      "attrs": {},
+      "source": "machine interpretation",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/01_Internet/%E5%88%98%E4%BB%B2%E6%95%AC360doc%E8%A8%80%E8%AE%BA%E8%A1%A5%E5%85%85.md",
+      "fetched_at": "2026-11-16T03:27:07.011301+00:00"
+    }
+  ]
+}
