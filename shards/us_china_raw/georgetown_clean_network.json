@@ -1,0 +1,119 @@
+{
+ "mission": "乔治城大学校友关系网络清洗 + 最可疑10人",
+ "dataset": {
+  "georgetown_alumni_raw_pages": 1220,
+  "georgetown_extracts": 1197,
+  "georgetown_full": 61,
+  "us_china_graph_nodes": null
+ },
+ "funding": {
+  "amount_usd": 10000000,
+  "donor": "Spring Breeze Foundation (Hong Kong)",
+  "supported_by": "CP Group (Charoen Pokphand, Thailand)",
+  "recipient": "Georgetown University",
+  "program": "Initiative for US-China Dialogue on Global Issues",
+  "date": "2016-01-14",
+  "url": "https://www.georgetown.edu/news/10m-gift-will-create-u-s-china-initiative-on-global-issues-at-georgetown/",
+  "quote": "The Spring Breeze Foundation is supported by the CP Group ... “As a leading global university in Washington, D.C., Georgetown is well positioned to advance the most important international relationship of our era.” — CP Group Vice Chairman Yang Xiaoping"
+ },
+ "funding_verified": "georgetown.edu 官方新闻 2016-01-14 原文：A $10 million gift from the Hong-Kong based Spring Breeze Foundation... The Spring Breeze Foundation is supported by the CP Group... \"advance the most important international relationship of our era\" — CP Group Vice Chairman Yang Xiaoping",
+ "bridge_to_previous_ten": {
+  "结论": "前十人中无一在 1220 个乔治城校友页/1197 份维基正文里出现；与本网络的连接只有机构层：Barshefsky/Donilon/Lew/Greenberg/Hills/Blumenthal/Blair/Thornton 都在 NCUSCR 董事会，而 NCUSCR 与乔治城同属「美中对话机构圈」，但无资金互流证据。",
+  "例外": "R. Nicholas Burns 维基条目出现在搜索命中（10 条），但校友页本身无条目；需单独核实。",
+  "资金澄清": "CUSEF 的钱（$5M 老布什基金会、卡特中心、SAIS、蒙大拿大学 Baucus Institute）没有一笔流向 NCUSR/NCUSCR；乔治城这笔 $10M 来自 Spring Breeze Foundation（CP Group 支持），是另一条独立的香港/泰资线，与 CUSEF 无关。"
+ },
+ "top10": [
+  {
+   "rank": 1,
+   "name": "Bill Clinton",
+   "score": 98,
+   "georgetown": "乔治城 1968 本科",
+   "doing_for_china": "总统；2000 签 PNTR、支持中国 2001 入世",
+   "suspicion": "克林顿基金会收外国捐款；乔治城拿 Spring Breeze/CP Group $10M",
+   "source": "维基正文＋georgetown_network.json"
+  },
+  {
+   "rank": 2,
+   "name": "John J. DeGioia",
+   "score": 92,
+   "georgetown": "乔治城校长（1998 起）",
+   "doing_for_china": "校方最高决策者，2016 亲自接受 $10M 并设美中对话项目",
+   "suspicion": "Spring Breeze Foundation（香港、CP Group 支持）→ 乔治城 $10M",
+   "source": "georgetown.edu 官方新闻 2016-01-14 原文"
+  },
+  {
+   "rank": 3,
+   "name": "Thomas Banchoff",
+   "score": 88,
+   "georgetown": "乔治城全球事务副校长",
+   "doing_for_china": "官方新闻里为该项目定调「structured dialogue and practical cooperation」",
+   "suspicion": "$10M 项目的校方主管",
+   "source": "georgetown.edu 官方新闻原文"
+  },
+  {
+   "rank": 4,
+   "name": "Dennis Wilder",
+   "score": 85,
+   "georgetown": "乔治城 SFS 实践教授",
+   "doing_for_china": "前 CIA 高级情报官、白宫国安会中国事务主任；在该校美中全球议题对话项目任高级研究员",
+   "suspicion": "拿 $10M 项目职位；情报权＋对华对话",
+   "source": "维基正文＋georgetown_network.json"
+  },
+  {
+   "rank": 5,
+   "name": "Chi Wang",
+   "score": 82,
+   "georgetown": "乔治城教授",
+   "doing_for_china": "创办亚洲史博士项目、美中关系项目联合主席；前美国国会图书馆中韩部主任",
+   "suspicion": "在校内搭对华学术管道数十年",
+   "source": "georgetown_network.json"
+  },
+  {
+   "rank": 6,
+   "name": "David B. Shear",
+   "score": 78,
+   "georgetown": "乔治城校友",
+   "doing_for_china": "前助理国防部长（亚太安全，2014-16）、前驻越南大使；管对华周边安全",
+   "suspicion": "权力位＋校友网",
+   "source": "维基正文＋georgetown_network.json"
+  },
+  {
+   "rank": 7,
+   "name": "Hanscom Smith",
+   "score": 74,
+   "georgetown": "乔治城校友",
+   "doing_for_china": "2019-22 驻港澳总领事、前驻沪总领事；香港任期正逢国安法",
+   "suspicion": "一线对华外交岗位",
+   "source": "维基正文＋georgetown_network.json"
+  },
+  {
+   "rank": 8,
+   "name": "David O. Shullman",
+   "score": 72,
+   "georgetown": "乔治城兼职教授",
+   "doing_for_china": "前 CIA 高级分析、大西洋理事会 Global China Hub 主任",
+   "suspicion": "智库＋情报＋校友三重叠加",
+   "source": "维基正文＋georgetown_network.json"
+  },
+  {
+   "rank": 9,
+   "name": "Carl Chien",
+   "score": 68,
+   "georgetown": "乔治城校友",
+   "doing_for_china": "摩根大通亚太副主席、亚太管委会成员，负责大中华客户",
+   "suspicion": "在华金融利益＋校友网",
+   "source": "维基正文＋georgetown_network.json"
+  },
+  {
+   "rank": 10,
+   "name": "Eric Hotung",
+   "score": 65,
+   "georgetown": "乔治城校友",
+   "doing_for_china": "香港亿万富豪、长期做对华慈善与商界往来",
+   "suspicion": "资金端人物",
+   "source": "georgetown_network.json"
+  }
+ ],
+ "boundary": "以上均为公开记录里的任职/政策/捐赠关系，无一人被查到个人收取中方资金；\"可疑\"指资金绕道机构＋决策权＋亲接触立场三者重合，是核查优先级不是结论。",
+ "not_done": "FEC 官方 API DEMO_KEY 全 429、OpenSecrets 403，个人逐笔政治捐款明细未补；Spring Breeze Foundation 的 990/注册文件未拉取。"
+}

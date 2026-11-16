@@ -1,0 +1,158 @@
+{
+ "question": "乔治城大学与白宫关系网络是否存在一个节点集中联系",
+ "method": "从 1197 份乔治城校友维基正文抽「人—机构」二部图（64 人同时连乔治城与白宫/政府），算节点度与介数中心性",
+ "answer": "存在，但集中节点不是某个人，是机构节点 Georgetown 本身",
+ "metrics": {
+  "bridge_people": 62,
+  "graph_nodes": 71,
+  "georgetown_betweenness": 0.7167,
+  "georgetown_degree": 62,
+  "next_hubs": [
+   {
+    "node": "Congress",
+    "degree": 32,
+    "betweenness": 0.1177,
+    "coverage": 32
+   },
+   {
+    "node": "StateDept",
+    "degree": 26,
+    "betweenness": 0.0825,
+    "coverage": 26
+   },
+   {
+    "node": "Cabinet",
+    "degree": 12,
+    "betweenness": 0.0146,
+    "coverage": 12
+   },
+   {
+    "node": "Admin",
+    "degree": 6,
+    "betweenness": 0.0029,
+    "coverage": 6
+   },
+   {
+    "node": "SFS/Walsh",
+    "degree": 9,
+    "betweenness": 0.0073,
+    "coverage": 9
+   },
+   {
+    "node": "White House",
+    "degree": 8,
+    "betweenness": 0.0068,
+    "coverage": 8
+   },
+   {
+    "node": "China",
+    "degree": 5,
+    "betweenness": 0.0022,
+    "coverage": 5
+   }
+  ],
+  "top_person_bridges": [
+   {
+    "name": "Dennis Wilder",
+    "betweenness": 0.0363,
+    "degree": 5,
+    "anchors": [
+     "CIA/Intel",
+     "China",
+     "Georgetown",
+     "SFS/Walsh",
+     "StateDept"
+    ]
+   },
+   {
+    "name": "Melanne Verveer",
+    "betweenness": 0.0122,
+    "degree": 5,
+    "anchors": [
+     "Admin",
+     "Congress",
+     "Georgetown",
+     "StateDept",
+     "White House"
+    ]
+   },
+   {
+    "name": "Taylor Wettach",
+    "betweenness": 0.0115,
+    "degree": 5,
+    "anchors": [
+     "Admin",
+     "Congress",
+     "Georgetown",
+     "SFS/Walsh",
+     "StateDept"
+    ]
+   },
+   {
+    "name": "Taro Kono",
+    "betweenness": 0.0084,
+    "degree": 4,
+    "anchors": [
+     "China",
+     "Congress",
+     "Georgetown",
+     "StateDept"
+    ]
+   },
+   {
+    "name": "David B. Shear",
+    "betweenness": 0.0084,
+    "degree": 4,
+    "anchors": [
+     "Cabinet",
+     "China",
+     "Georgetown",
+     "StateDept"
+    ]
+   },
+   {
+    "name": "Martin P. Paone",
+    "betweenness": 0.0082,
+    "degree": 4,
+    "anchors": [
+     "Admin",
+     "Congress",
+     "Georgetown",
+     "White House"
+    ]
+   },
+   {
+    "name": "Ismael Moreno Pino",
+    "betweenness": 0.0077,
+    "degree": 4,
+    "anchors": [
+     "China",
+     "Georgetown",
+     "SFS/Walsh",
+     "StateDept"
+    ]
+   },
+   {
+    "name": "Paul D. Miller (academic)",
+    "betweenness": 0.0072,
+    "degree": 4,
+    "anchors": [
+     "Georgetown",
+     "SFS/Walsh",
+     "StateDept",
+     "White House"
+    ]
+   }
+  ]
+ },
+ "human_hub": "真要找一个「人形枢纽」是 Dennis Wilder：乔治城 SFS 实践教授 + 美中全球议题对话项目前主任/高级研究员 + 前 CIA 高级情报官/白宫国安会中国事务主任 + NCUSCR 会员，一身同时连起白宫、情报界、乔治城、对华机构四块；但介数仅 0.0078，远低于 Georgetown 的 0.7246，不是结构性瓶颈。",
+ "other_bridge_people": [
+  "Massimo Ambrosetti",
+  "Taro Kono",
+  "Ismael Moreno Pino",
+  "David B. Shear",
+  "Dennis Wilder"
+ ],
+ "structure": "星形/辐条结构：所有人通过「乔治城」这一个节点互连，白宫侧退而由 Congress(32)、StateDept(26)、Cabinet(12) 分散承接；没有一个白宫侧节点或人物能替代它。Edmund A. Walsh 1919 创办 SFS（早于美国外交部 6 年）是历史源头。",
+ "boundary": "基于公开维基正文的关键词共现，不是私人关系或资金断言；DeGioia / Banchoff 不在校友正文库里，故未进图；FEC/990 仍未补。"
+}

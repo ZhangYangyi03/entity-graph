@@ -1,0 +1,117 @@
+{
+ "question": "抛开维基 intro 与对华视角，乔治城校友有无可疑共性/抱团/聚集场所",
+ "data": "Wikidata SPARQL Q333886 校友 8310 条结构化关系 + 本机 1197 份维基 intro 交叉",
+ "coverage": {
+  "people_with_places": 1466,
+  "place_nodes": 1219,
+  "total_relations": 8310
+ },
+ "key_findings": [
+  {
+   "rank": 1,
+   "finding": "达沃斯世界经济论坛年会是唯一可验证的连年同场聚集场所",
+   "detail": "2013-2020 八届分别命中 12/12/16/15/8/14/15/9 人，同一批人反复多届到场",
+   "core_people": [
+    {
+     "name": "Mary Callahan Erdoes",
+     "years": 8
+    },
+    {
+     "name": "John Riady",
+     "years": 8
+    },
+    {
+     "name": "Mark Weinberger",
+     "years": 7
+    },
+    {
+     "name": "Turki bin Faisal Al Saud",
+     "years": 6
+    },
+    {
+     "name": "Q7926694",
+     "years": 5
+    },
+    {
+     "name": "Patricia Russo",
+     "years": 4
+    },
+    {
+     "name": "Mohammed Gulam Dewji",
+     "years": 4
+    },
+    {
+     "name": "Dalia Grybauskaitė",
+     "years": 4
+    },
+    {
+     "name": "Anabel González",
+     "years": 4
+    },
+    {
+     "name": "Sadako Ogata",
+     "years": 3
+    },
+    {
+     "name": "Robert Lighthizer",
+     "years": 3
+    },
+    {
+     "name": "Q15849",
+     "years": 3
+    },
+    {
+     "name": "Nasser Judeh",
+     "years": 3
+    },
+    {
+     "name": "María Fernanda Suárez",
+     "years": 3
+    },
+    {
+     "name": "Mark R. Dybul",
+     "years": 3
+    },
+    {
+     "name": "Kirstjen Nielsen",
+     "years": 3
+    }
+   ]
+  },
+  {
+   "rank": 2,
+   "finding": "政坛高度党派化且集中在国会与州议会",
+   "detail": "民主党 195、共和党 144；众议员 70、参议员 20、马里兰众议院 12、纽约州议会 12、弗吉尼亚众议院 7"
+  },
+  {
+   "rank": 3,
+   "finding": "学术荣誉形成第二套筛选管道",
+   "detail": "Rhodes 35、Guggenheim 32、Fulbright 15、美国艺术与科学学院 18、AAAS Fellow 21、国家科学院 5"
+  },
+  {
+   "rank": 4,
+   "finding": "华盛顿本地学术-政府旋转走廊",
+   "detail": "Johns Hopkins 20、Harvard 19、NIH 17、国务院 16、CIA 9、American University 14、GWU 14、Syracuse 13、UVA 13"
+  },
+  {
+   "rank": 5,
+   "finding": "军警/勋章群体显著 + 耶稣会底色",
+   "detail": "Bronze Star 22、Legion of Merit 21、Defense Superior Service Medal 7、Catholic priest 29"
+  },
+  {
+   "rank": 6,
+   "finding": "小型精英组织有具体名单",
+   "detail": "Bilderberg 指导委员会 2、Problem Solvers Caucus 4、Congressional Progressive Caucus 3、Atlantik-Brücke 2、Phi Beta Kappa 2、Kappa Alpha Theta 2"
+  }
+ ],
+ "bucket_sizes": {
+  "国会/立法": 12,
+  "行政部门": 63,
+  "军警/勋章": 29,
+  "学术/学会": 798,
+  "金融/达沃斯": 68,
+  "地方政坛": 30
+ },
+ "boundary": "Wikidata 是结构化声明（谁填谁算），不是私人往来或秘密结社证据；达沃斯同场只说明同届受邀，不说明彼此相识或协同。维基全文拉取被 429 限流，故未做全文共现。",
+ "not_done": "正式 FEC / 990、校友会内部名录、俱乐部会员册未取。"
+}

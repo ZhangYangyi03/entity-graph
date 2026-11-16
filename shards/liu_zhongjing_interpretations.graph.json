@@ -1,0 +1,263 @@
+{
+  "nodes": [
+    {
+      "key": "person:liu-zhongjing",
+      "kind": "person",
+      "label": "刘仲敬",
+      "attrs": {
+        "identity_scope": "演讲者；具体观点不代表事实已核实"
+      },
+      "source": "公开访谈汇编",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In",
+      "fetched_at": "2026-11-16T03:01:40+00:00"
+    },
+    {
+      "key": "liu:interview:057",
+      "kind": "interpreted_work",
+      "label": "刘仲敬访谈057：论费拉资本主义",
+      "attrs": {
+        "summary": "他把缺乏稳固组织保障的廉价雇佣劳动，与其所描述的欧洲封建契约和行会传统相对照，认为后者的跨代权利与技艺传承有助于积累工艺；又区分理论建模与手艺人的默会知识。此为其比较历史解释，而非已证实的普遍规律。",
+        "scope": "仅依据公开转写部分",
+        "verification": "原文观点已归因；事实与预测未经独立核验",
+        "quality_warning": "访谈057为公开节选，访谈040有显著转写错误"
+      },
+      "source": "公开访谈逐字稿",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/04_interview/%E5%88%98%E4%BB%B2%E6%95%AC%E8%AE%BF%E8%B0%88057.md",
+      "fetched_at": "2026-11-16T03:01:40+00:00"
+    },
+    {
+      "key": "liu:concept:e59072fe8f9d16b2",
+      "kind": "attributed_concept",
+      "label": "费拉资本主义",
+      "attrs": {
+        "description": "他用这一带有贬义的标签指缺少稳定组织保障、依赖削弱劳动者议价能力的雇佣秩序；他否认廉价劳动力本身足以产生先进技术。",
+        "attribution": "刘仲敬在该访谈中的观点",
+        "evidence_timestamp": "06:51",
+        "verification": "未独立核验"
+      },
+      "source": "公开访谈逐字稿",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/04_interview/%E5%88%98%E4%BB%B2%E6%95%AC%E8%AE%BF%E8%B0%88057.md",
+      "fetched_at": "2026-11-16T03:01:40+00:00"
+    },
+    {
+      "key": "liu:concept:b6244e96cd179008",
+      "kind": "attributed_concept",
+      "label": "跨代契约与工艺传统",
+      "attrs": {
+        "description": "他认为稳定的行会及跨代权利为技能保存与积累提供条件；这一因果关系需要独立史料检验。",
+        "attribution": "刘仲敬在该访谈中的观点",
+        "evidence_timestamp": "07:00–10:25",
+        "verification": "未独立核验"
+      },
+      "source": "公开访谈逐字稿",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/04_interview/%E5%88%98%E4%BB%B2%E6%95%AC%E8%AE%BF%E8%B0%88057.md",
+      "fetched_at": "2026-11-16T03:01:40+00:00"
+    },
+    {
+      "key": "liu:concept:41fe1f5de0210606",
+      "kind": "attributed_concept",
+      "label": "理论建模与默会技艺",
+      "attrs": {
+        "description": "他区分通过抽象构建解释模型的科学活动与依赖师徒实践传递的工艺技能，并主张两者结合。",
+        "attribution": "刘仲敬在该访谈中的观点",
+        "evidence_timestamp": "19:21–24:34",
+        "verification": "未独立核验"
+      },
+      "source": "公开访谈逐字稿",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/04_interview/%E5%88%98%E4%BB%B2%E6%95%AC%E8%AE%BF%E8%B0%88057.md",
+      "fetched_at": "2026-11-16T03:01:40+00:00"
+    },
+    {
+      "key": "liu:concept:c24ed648f293efd2",
+      "kind": "attributed_concept",
+      "label": "诸夏的策略性含混",
+      "attrs": {
+        "description": "他称自己有意让诸夏概念保持含混，以吸纳不同诉求者，并坦承其个人和阶级政治目的。",
+        "attribution": "刘仲敬在该访谈中的观点",
+        "evidence_timestamp": "01:20–02:37",
+        "verification": "未独立核验"
+      },
+      "source": "公开访谈逐字稿",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/04_interview/%E5%88%98%E4%BB%B2%E6%95%AC%E8%AE%BF%E8%B0%88057.md",
+      "fetched_at": "2026-11-16T03:01:40+00:00"
+    },
+    {
+      "key": "liu:interview:040",
+      "kind": "interpreted_work",
+      "label": "刘仲敬访谈040：论六四",
+      "attrs": {
+        "summary": "他以苏联对外干预能力、军事资源及其承诺可信度解释冷战末期的政治转折，并将1989年中国镇压与体制延续联系起来；访谈存在明显转写错误，相关因果与反事实均为其个人解释。",
+        "scope": "仅依据公开转写部分",
+        "verification": "原文观点已归因；事实与预测未经独立核验",
+        "quality_warning": "访谈057为公开节选，访谈040有显著转写错误"
+      },
+      "source": "公开访谈逐字稿",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/04_interview/%E5%88%98%E4%BB%B2%E6%95%AC%E8%AE%BF%E8%B0%88040.md",
+      "fetched_at": "2026-11-16T03:01:40+00:00"
+    },
+    {
+      "key": "liu:concept:68e8af96d772e657",
+      "kind": "attributed_concept",
+      "label": "资源约束与干预能力",
+      "attrs": {
+        "description": "他认为苏联安全体系依靠集中资源与海外干预能力，其能力衰退削弱对盟友及本国权力结构的约束。",
+        "attribution": "刘仲敬在该访谈中的观点",
+        "evidence_timestamp": "00:01:00–00:05:30",
+        "verification": "未独立核验"
+      },
+      "source": "公开访谈逐字稿",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/04_interview/%E5%88%98%E4%BB%B2%E6%95%AC%E8%AE%BF%E8%B0%88040.md",
+      "fetched_at": "2026-11-16T03:01:40+00:00"
+    },
+    {
+      "key": "liu:concept:b52fdc6892a78cb8",
+      "kind": "attributed_concept",
+      "label": "镇压能力的可信度",
+      "attrs": {
+        "description": "他将苏联晚期政治衰弱解释为强制能力及使用意愿的可信度降低；这是一种有争议的因果解释。",
+        "attribution": "刘仲敬在该访谈中的观点",
+        "evidence_timestamp": "00:04:39–00:07:38",
+        "verification": "未独立核验"
+      },
+      "source": "公开访谈逐字稿",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/04_interview/%E5%88%98%E4%BB%B2%E6%95%AC%E8%AE%BF%E8%B0%88040.md",
+      "fetched_at": "2026-11-16T03:01:40+00:00"
+    },
+    {
+      "key": "liu:concept:51face12fbfd08c8",
+      "kind": "attributed_concept",
+      "label": "政治变迁的资源成本",
+      "attrs": {
+        "description": "他批评忽略组织能力、军事财政资源和转型成本的政治方案，认为制度转变的结果受现存力量约束。",
+        "attribution": "刘仲敬在该访谈中的观点",
+        "evidence_timestamp": "00:23:51–00:24:36",
+        "verification": "未独立核验"
+      },
+      "source": "公开访谈逐字稿",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/04_interview/%E5%88%98%E4%BB%B2%E6%95%AC%E8%AE%BF%E8%B0%88040.md",
+      "fetched_at": "2026-11-16T03:01:40+00:00"
+    },
+    {
+      "key": "liu:concept:892d6c72b4d6df98",
+      "kind": "attributed_concept",
+      "label": "宪法的军事财政解释",
+      "attrs": {
+        "description": "他认为军事和财政力量是宪法秩序的核心，文官与知识分子难以脱离实际组织力量决定政治结果。",
+        "attribution": "刘仲敬在该访谈中的观点",
+        "evidence_timestamp": "00:35:06",
+        "verification": "未独立核验"
+      },
+      "source": "公开访谈逐字稿",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/04_interview/%E5%88%98%E4%BB%B2%E6%95%AC%E8%AE%BF%E8%B0%88040.md",
+      "fetched_at": "2026-11-16T03:01:40+00:00"
+    }
+  ],
+  "edges": [
+    {
+      "src": "person:liu-zhongjing",
+      "dst": "liu:interview:057",
+      "rel": "speaker_in",
+      "attrs": {},
+      "source": "公开访谈逐字稿",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/04_interview/%E5%88%98%E4%BB%B2%E6%95%AC%E8%AE%BF%E8%B0%88057.md",
+      "fetched_at": "2026-11-16T03:01:40+00:00"
+    },
+    {
+      "src": "liu:interview:057",
+      "dst": "liu:concept:e59072fe8f9d16b2",
+      "rel": "expresses",
+      "attrs": {
+        "evidence_timestamp": "06:51"
+      },
+      "source": "公开访谈逐字稿",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/04_interview/%E5%88%98%E4%BB%B2%E6%95%AC%E8%AE%BF%E8%B0%88057.md",
+      "fetched_at": "2026-11-16T03:01:40+00:00"
+    },
+    {
+      "src": "liu:interview:057",
+      "dst": "liu:concept:b6244e96cd179008",
+      "rel": "expresses",
+      "attrs": {
+        "evidence_timestamp": "07:00–10:25"
+      },
+      "source": "公开访谈逐字稿",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/04_interview/%E5%88%98%E4%BB%B2%E6%95%AC%E8%AE%BF%E8%B0%88057.md",
+      "fetched_at": "2026-11-16T03:01:40+00:00"
+    },
+    {
+      "src": "liu:interview:057",
+      "dst": "liu:concept:41fe1f5de0210606",
+      "rel": "expresses",
+      "attrs": {
+        "evidence_timestamp": "19:21–24:34"
+      },
+      "source": "公开访谈逐字稿",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/04_interview/%E5%88%98%E4%BB%B2%E6%95%AC%E8%AE%BF%E8%B0%88057.md",
+      "fetched_at": "2026-11-16T03:01:40+00:00"
+    },
+    {
+      "src": "liu:interview:057",
+      "dst": "liu:concept:c24ed648f293efd2",
+      "rel": "expresses",
+      "attrs": {
+        "evidence_timestamp": "01:20–02:37"
+      },
+      "source": "公开访谈逐字稿",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/04_interview/%E5%88%98%E4%BB%B2%E6%95%AC%E8%AE%BF%E8%B0%88057.md",
+      "fetched_at": "2026-11-16T03:01:40+00:00"
+    },
+    {
+      "src": "person:liu-zhongjing",
+      "dst": "liu:interview:040",
+      "rel": "speaker_in",
+      "attrs": {},
+      "source": "公开访谈逐字稿",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/04_interview/%E5%88%98%E4%BB%B2%E6%95%AC%E8%AE%BF%E8%B0%88040.md",
+      "fetched_at": "2026-11-16T03:01:40+00:00"
+    },
+    {
+      "src": "liu:interview:040",
+      "dst": "liu:concept:68e8af96d772e657",
+      "rel": "expresses",
+      "attrs": {
+        "evidence_timestamp": "00:01:00–00:05:30"
+      },
+      "source": "公开访谈逐字稿",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/04_interview/%E5%88%98%E4%BB%B2%E6%95%AC%E8%AE%BF%E8%B0%88040.md",
+      "fetched_at": "2026-11-16T03:01:40+00:00"
+    },
+    {
+      "src": "liu:interview:040",
+      "dst": "liu:concept:b52fdc6892a78cb8",
+      "rel": "expresses",
+      "attrs": {
+        "evidence_timestamp": "00:04:39–00:07:38"
+      },
+      "source": "公开访谈逐字稿",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/04_interview/%E5%88%98%E4%BB%B2%E6%95%AC%E8%AE%BF%E8%B0%88040.md",
+      "fetched_at": "2026-11-16T03:01:40+00:00"
+    },
+    {
+      "src": "liu:interview:040",
+      "dst": "liu:concept:51face12fbfd08c8",
+      "rel": "expresses",
+      "attrs": {
+        "evidence_timestamp": "00:23:51–00:24:36"
+      },
+      "source": "公开访谈逐字稿",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/04_interview/%E5%88%98%E4%BB%B2%E6%95%AC%E8%AE%BF%E8%B0%88040.md",
+      "fetched_at": "2026-11-16T03:01:40+00:00"
+    },
+    {
+      "src": "liu:interview:040",
+      "dst": "liu:concept:892d6c72b4d6df98",
+      "rel": "expresses",
+      "attrs": {
+        "evidence_timestamp": "00:35:06"
+      },
+      "source": "公开访谈逐字稿",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/04_interview/%E5%88%98%E4%BB%B2%E6%95%AC%E8%AE%BF%E8%B0%88040.md",
+      "fetched_at": "2026-11-16T03:01:40+00:00"
+    }
+  ]
+}

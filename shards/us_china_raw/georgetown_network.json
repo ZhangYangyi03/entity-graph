@@ -1,0 +1,160 @@
+{
+ "source": "Georgetown alumni network + Wikipedia intro/full extract + Georgetown official news",
+ "funding": {
+  "amount_usd": 10000000,
+  "donor": "Spring Breeze Foundation (Hong Kong)",
+  "supported_by": "CP Group (Charoen Pokphand, Thailand)",
+  "recipient": "Georgetown University",
+  "program": "Initiative for US-China Dialogue on Global Issues",
+  "date": "2016-01-14",
+  "url": "https://www.georgetown.edu/news/10m-gift-will-create-u-s-china-initiative-on-global-issues-at-georgetown/",
+  "quote": "The Spring Breeze Foundation is supported by the CP Group ... “As a leading global university in Washington, D.C., Georgetown is well positioned to advance the most important international relationship of our era.” — CP Group Vice Chairman Yang Xiaoping"
+ },
+ "nodes": [
+  {
+   "name": "Bill Clinton",
+   "role": "总统",
+   "georgetown_link": "alumni/faculty",
+   "claim": "乔治城 1968 本科；任内给中国永久正常贸易关系(PNTR)、支持 2001 入世；克林顿基金会收外国捐款"
+  },
+  {
+   "name": "Alexander Haig",
+   "role": "国务卿",
+   "georgetown_link": "alumni/faculty",
+   "claim": "乔治城 1961 硕士；1972 随尼克松访华、推动对华开放；后经商"
+  },
+  {
+   "name": "Dennis Wilder",
+   "role": "CIA 高级情报官",
+   "georgetown_link": "alumni/faculty",
+   "claim": "乔治城 SFS 实践教授、美中全球议题对话项目高级研究员"
+  },
+  {
+   "name": "David B. Shear",
+   "role": "助理国防部长(亚太)",
+   "georgetown_link": "alumni/faculty",
+   "claim": "乔治城校友；2014-16 管亚太安全"
+  },
+  {
+   "name": "Chi Wang",
+   "role": "乔治城教授",
+   "georgetown_link": "alumni/faculty",
+   "claim": "创办乔治城亚洲史博士项目、美中关系项目联合主席"
+  },
+  {
+   "name": "Hanscom Smith",
+   "role": "驻港澳总领事/驻沪总领事",
+   "georgetown_link": "alumni/faculty",
+   "claim": "乔治城校友；2019-22 港澳总领事"
+  },
+  {
+   "name": "David O. Shullman",
+   "role": "大西洋理事会 Global China Hub 主任",
+   "georgetown_link": "alumni/faculty",
+   "claim": "乔治城兼职教授；前 CIA 高级分析"
+  },
+  {
+   "name": "Carl Chien",
+   "role": "摩根大通亚太副主席",
+   "georgetown_link": "alumni/faculty",
+   "claim": "乔治城校友；亚太管理层、对华客户关系"
+  },
+  {
+   "name": "Handel Lee",
+   "role": "金杜律所高级合伙人",
+   "georgetown_link": "alumni/faculty",
+   "claim": "乔治城校友；在华地产与法律业务"
+  },
+  {
+   "name": "John Riady",
+   "role": "Lippo 集团 CEO",
+   "georgetown_link": "alumni/faculty",
+   "claim": "乔治城校友；印尼华商在华投资"
+  },
+  {
+   "name": "Eric Hotung",
+   "role": "香港亿万富豪",
+   "georgetown_link": "alumni/faculty",
+   "claim": "乔治城校友；对华慈善与商界"
+  },
+  {
+   "name": "Adel al-Jubeir",
+   "role": "沙特外交国务大臣",
+   "georgetown_link": "alumni/faculty",
+   "claim": "乔治城校友；沙中关系"
+  }
+ ],
+ "edges": [
+  {
+   "src": "Bill Clinton",
+   "rel": "affiliated_with",
+   "dst": "Georgetown University"
+  },
+  {
+   "src": "Alexander Haig",
+   "rel": "affiliated_with",
+   "dst": "Georgetown University"
+  },
+  {
+   "src": "Dennis Wilder",
+   "rel": "affiliated_with",
+   "dst": "Georgetown University"
+  },
+  {
+   "src": "David B. Shear",
+   "rel": "affiliated_with",
+   "dst": "Georgetown University"
+  },
+  {
+   "src": "Chi Wang",
+   "rel": "affiliated_with",
+   "dst": "Georgetown University"
+  },
+  {
+   "src": "Hanscom Smith",
+   "rel": "affiliated_with",
+   "dst": "Georgetown University"
+  },
+  {
+   "src": "David O. Shullman",
+   "rel": "affiliated_with",
+   "dst": "Georgetown University"
+  },
+  {
+   "src": "Carl Chien",
+   "rel": "affiliated_with",
+   "dst": "Georgetown University"
+  },
+  {
+   "src": "Handel Lee",
+   "rel": "affiliated_with",
+   "dst": "Georgetown University"
+  },
+  {
+   "src": "John Riady",
+   "rel": "affiliated_with",
+   "dst": "Georgetown University"
+  },
+  {
+   "src": "Eric Hotung",
+   "rel": "affiliated_with",
+   "dst": "Georgetown University"
+  },
+  {
+   "src": "Adel al-Jubeir",
+   "rel": "affiliated_with",
+   "dst": "Georgetown University"
+  },
+  {
+   "src": "Spring Breeze Foundation",
+   "rel": "funded",
+   "dst": "Georgetown University",
+   "amount": 10000000
+  },
+  {
+   "src": "CP Group",
+   "rel": "supports",
+   "dst": "Spring Breeze Foundation"
+  }
+ ]
+}
