@@ -150,6 +150,62 @@
       "source": "公开访谈逐字稿",
       "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/04_interview/%E5%88%98%E4%BB%B2%E6%95%AC%E8%AE%BF%E8%B0%88040.md",
       "fetched_at": "2026-11-16T03:01:40+00:00"
+    },
+    {
+      "key": "liu:interview:041",
+      "kind": "interpreted_work",
+      "label": "刘仲敬访谈041：论香港独立与诸夏建国",
+      "attrs": {
+        "summary": "他讨论香港与区域政治的联系，认为政治项目受组织、财政资源及外部环境制约；他将英国宪制的稳固归因于长期形成的阶级与地方利益网络，并对知识分子和政治口号的独立作用持怀疑态度。文稿包含武装及政治主张，均为其立场而非事实或建议。",
+        "scope": "已阅读原文开头至17:58；非全篇",
+        "verification": "未经独立核验",
+        "quality_warning": "转载转写存在错字、重复与明显错漏"
+      },
+      "source": "公开访谈逐字稿",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/04_interview/%E5%88%98%E4%BB%B2%E6%95%AC%E8%AE%BF%E8%B0%88041.md",
+      "fetched_at": "2026-11-16T03:04:15+00:00"
+    },
+    {
+      "key": "liu:concept:ed7204873c95177c",
+      "kind": "attributed_concept",
+      "label": "政治组织的资源约束",
+      "attrs": {
+        "description": "他主张政治组织应以实际可调动的组织能力与财政资源为约束，不应只依据目标或名义支持者规模推断其能力。",
+        "attribution": "刘仲敬在该访谈中的观点",
+        "evidence_timestamp": "00:01:56–00:03:17",
+        "verification": "未独立核验"
+      },
+      "source": "公开访谈逐字稿",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/04_interview/%E5%88%98%E4%BB%B2%E6%95%AC%E8%AE%BF%E8%B0%88041.md",
+      "fetched_at": "2026-11-16T03:04:15+00:00"
+    },
+    {
+      "key": "liu:concept:6a20a29eb57898bc",
+      "kind": "attributed_concept",
+      "label": "政治立场的社会基础",
+      "attrs": {
+        "description": "他认为英国长期政党认同与阶级、地区和家族网络相联系，并把这些稳定纽带视为其宪制支柱；此为需检验的历史解释。",
+        "attribution": "刘仲敬在该访谈中的观点",
+        "evidence_timestamp": "00:09:57–00:15:39",
+        "verification": "未独立核验"
+      },
+      "source": "公开访谈逐字稿",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/04_interview/%E5%88%98%E4%BB%B2%E6%95%AC%E8%AE%BF%E8%B0%88041.md",
+      "fetched_at": "2026-11-16T03:04:15+00:00"
+    },
+    {
+      "key": "liu:concept:7d6db84a0ef5d745",
+      "kind": "attributed_concept",
+      "label": "香港与区域政治的关联",
+      "attrs": {
+        "description": "他把香港政治前景与广东及更大区域的政治变化联系起来，属于他的政治判断而非可直接确认的事实。",
+        "attribution": "刘仲敬在该访谈中的观点",
+        "evidence_timestamp": "00:03:17–00:04:35",
+        "verification": "未独立核验"
+      },
+      "source": "公开访谈逐字稿",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/04_interview/%E5%88%98%E4%BB%B2%E6%95%AC%E8%AE%BF%E8%B0%88041.md",
+      "fetched_at": "2026-11-16T03:04:15+00:00"
     }
   ],
   "edges": [
@@ -258,6 +314,48 @@
       "source": "公开访谈逐字稿",
       "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/04_interview/%E5%88%98%E4%BB%B2%E6%95%AC%E8%AE%BF%E8%B0%88040.md",
       "fetched_at": "2026-11-16T03:01:40+00:00"
+    },
+    {
+      "src": "person:liu-zhongjing",
+      "dst": "liu:interview:041",
+      "rel": "speaker_in",
+      "attrs": {},
+      "source": "公开访谈逐字稿",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/04_interview/%E5%88%98%E4%BB%B2%E6%95%AC%E8%AE%BF%E8%B0%88041.md",
+      "fetched_at": "2026-11-16T03:04:15+00:00"
+    },
+    {
+      "src": "liu:interview:041",
+      "dst": "liu:concept:ed7204873c95177c",
+      "rel": "expresses",
+      "attrs": {
+        "evidence_timestamp": "00:01:56–00:03:17"
+      },
+      "source": "公开访谈逐字稿",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/04_interview/%E5%88%98%E4%BB%B2%E6%95%AC%E8%AE%BF%E8%B0%88041.md",
+      "fetched_at": "2026-11-16T03:04:15+00:00"
+    },
+    {
+      "src": "liu:interview:041",
+      "dst": "liu:concept:6a20a29eb57898bc",
+      "rel": "expresses",
+      "attrs": {
+        "evidence_timestamp": "00:09:57–00:15:39"
+      },
+      "source": "公开访谈逐字稿",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/04_interview/%E5%88%98%E4%BB%B2%E6%95%AC%E8%AE%BF%E8%B0%88041.md",
+      "fetched_at": "2026-11-16T03:04:15+00:00"
+    },
+    {
+      "src": "liu:interview:041",
+      "dst": "liu:concept:7d6db84a0ef5d745",
+      "rel": "expresses",
+      "attrs": {
+        "evidence_timestamp": "00:03:17–00:04:35"
+      },
+      "source": "公开访谈逐字稿",
+      "url": "https://github.com/LiuZhongjing/LiuZhongjing-All-In/blob/7ccc6aba1db08ac72b5f5c6e970b73fb14abcc2b/04_interview/%E5%88%98%E4%BB%B2%E6%95%AC%E8%AE%BF%E8%B0%88041.md",
+      "fetched_at": "2026-11-16T03:04:15+00:00"
     }
   ]
 }
