@@ -1,0 +1,18 @@
+  合并后：1913 节点 / 2627 边
+  节点类型：bci_direction=7  bio_domain=5  chain_stage=3  company=7  company_dk=1  company_gleif=110  company_slice=498  concept=2  country=250  country_slice=4  dataset=29  de_authority=5  device=3  disclosure=82  disease=5  four_chain=1  fr_company=5  government=1  income_hub=4  institute=1  institution=156  language_slice=5  library_record=8  listed_company=99  market_board=2  national_library=2  organization=6  platform=1  protein=1  publication=21  publication_chi=5  publication_fre=1  publication_ger=3  publication_ja=10  publication_slice=249  region_hub=6  subregion_hub=17  target=4  trial=278  year_bucket=16
+  关系类型：about_concept=10  associated_with=5  belongs_to_region=249  belongs_to_subregion=247  catalogued_in=8  co_author_country=91  counts_toward=8  covers_stage=3  discloses=82  enables=1  encodes=1  feeds=5  has_catalogue=2  has_company_slice=498  has_publication_slice=253  has_year_bucket=16  in_board=86  in_country_slice=16  in_language_slice=19  institution_located_in=90  manufactures=3  market_attention_on=2  registered_in=111  regulates=1  relevant_to=27  same_as=3  shares_income_band=215  sits_in=5  sliced_by_language=5  sponsors=3  trial_located_in=264  trial_spans_country=3  trial_sponsored_by=275  works_on=20
+  有论文又有试验的国家 29 个
+  三源齐全（论文+试验+企业）的国家（按论文数）：
+    德国 Germany                         论文   950  试验   5  企业命中  37
+    美国 United States of America        论文   803  试验  94  企业命中  12
+    意大利 Italy                          论文   612  试验   6  企业命中  22
+    加拿大 Canada                         论文   483  试验   9  企业命中   1
+    法国 France                          论文   406  试验  18  企业命中  20
+    印度 India                           论文   375  试验   1  企业命中  60
+    西班牙 Spain                          论文   351  试验   3  企业命中  17
+    英国 United Kingdom of Great Britain and Northern Ireland 论文   343  试验   7  企业命中  35
+    澳大利亚 Australia                     论文   340  试验   3  企业命中   2
+    奥地利 Austria                        论文   315  试验   3  企业命中   5
+    瑞士 Switzerland                     论文   253  试验   9  企业命中   4
+    比利时 Belgium                        论文   165  试验   2  企业命中  12
+  只有论文没有试验的国家数：93

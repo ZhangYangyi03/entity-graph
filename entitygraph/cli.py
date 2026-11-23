@@ -435,6 +435,15 @@ def main(argv=None) -> int:
     ml.add_argument("--out", default="multilingual.graph.json")
     ml.add_argument("--format", choices=["summary", "json", "lines"], default="summary")
 
+    mg = sub.add_parser("merge", help="把五张图并成一张（按 key 并集 + 补上缺的连线）")
+    mg.add_argument("--out", default="all.graph.json")
+    mg.add_argument("--format", choices=["summary", "json", "lines"], default="summary")
+
+    ig = sub.add_parser("institutions", help="机构（ROR）与跨国临床试验（字段级证据）")
+    ig.add_argument("--term", default='"brain-computer interface"')
+    ig.add_argument("--out", default="institutions.graph.json")
+    ig.add_argument("--format", choices=["summary", "json", "lines"], default="summary")
+
     wd = sub.add_parser("world", help="全球 249 国全量（ISO-3166 一个不落）")
     wd.add_argument("--gleif-term", default="brain,neuro")
     wd.add_argument("--no-epmc", action="store_true")
@@ -465,6 +474,24 @@ def main(argv=None) -> int:
         g = build_biomed_graph(args.symbol, drug=args.drug, diseases=args.diseases,
                                drugs=args.drugs, papers=args.papers)
         return _finish_graph(g, args, "biomed")
+
+    if args.cmd == "merge":
+        from .merge_world import merge, merge_report
+        g = merge()
+        if args.format == "summary":
+            g.summary_text = merge_report(g)
+        elif args.format == "lines":
+            g.summary_text = g.dumps_lines()
+        return _finish_graph(g, args, "merge")
+
+    if args.cmd == "institutions":
+        from .institutions import build_institution_graph, institution_report
+        g = build_institution_graph(args.term)
+        if args.format == "summary":
+            g.summary_text = institution_report(g)
+        elif args.format == "lines":
+            g.summary_text = g.dumps_lines()
+        return _finish_graph(g, args, "institutions")
 
     if args.cmd == "world":
         from .world import build_world_graph, world_report

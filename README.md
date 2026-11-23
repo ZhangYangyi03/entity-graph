@@ -809,3 +809,78 @@ Europe PMC 在本机 TLS 会间歇性 EOF，所以它单独给了 5 次重试 �
                     测试断言只有这两行是未分类
 
 一条规矩：论文数为 0 的国家不连边。空集合不是关系。
+
+## 从"猜"到"字段"：机构层与跨国试验
+
+前三项里最关键的一处：在此之前，一个国家有多少脑机接口论文，是靠**在国家名出现在机构
+字符串里**数出来的——所以那些数全是下限。这一层换成记录自己声明的字段。
+
+    $ python -m entitygraph.cli institutions
+
+ClinicalTrials.gov v2（国别、申办方都是字段，不用猜）
+
+    试验          275 条，两页翻完
+    涉及国家      33 个，节点用 country:<ISO2> 落地
+    跨国试验      3 条，国家间边 trial_spans_country
+                  CH–US（NCT03379532）、IE–GB（NCT03827187）、IL–US（NCT04050696）
+    试验前五      美国 94、中国 30、新加坡 22、法国 18、瑞士 9
+
+ROR：机构名 -> 一个注册 ID、一个国家、一个类型
+
+    申办机构      156 个
+    结构化匹配    90 个（例如 University of Michigan -> ror.org/00jmfr291 / United States）
+    显式不匹配    66 个，保留原名、标 unmatched，**不猜归属**
+
+匹配规则只有一条，而且是踩过坑之后收紧的
+
+    规则：去掉机构名里的连接词后，词集合必须完全相同。
+
+    为什么不用相似度：先写了 Jaccard≥0.7，实测放过了
+    「National University Hospital, Singapore」≈「National University of Singapore」——
+    一家医院和一所大学，相似度 0.75，会默默把 21 家试验记到错误的机构上。
+    也拦得住「BrainQ Technologies」→「ARIA Technologies」（法国另一家公司）、
+    「Axoft, Inc.」→「Instituto Nacional de Cancerología」。
+
+    为什么不能更严：ClinicalTrials.gov 写「University of Aarhus」，ROR 写「Aarhus University」，
+    同一所学校，词集合相同只是词序和 of 不同——纯字符串相等会漏掉它。
+
+年度曲线（宽口径，说清楚是哪一种计数）
+
+    2010: 416   2015: 936   2020: 1639   2023: 2241   2025: 3219
+    口径：("brain-computer interface" OR "brain computer interface" OR "BCI"
+           OR "brain-machine interface")，逐年算，含缩写与复数
+    精确短语 2025 年是 1724，宽口径是 3219 —— 两个数都记在 concept:BCI 节点上，
+                差距摆出来，不挑一个好看的说
+
+OpenAlex 依然不可用：api.openalex.org 每次 429（带不带 polite-pool mailto 都一样，
+2026-11-23 又测了一次）。它本可以用 institutions.country_code 直接消掉下限，但没有就是没有；
+拿"碰巧成功的那一次"当真数比留个缺口更糟。
+
+## 五张图并成一张：现在能问出单个图问不出的问题
+
+    $ python -m entitygraph.cli merge
+
+    合并后 1913 节点 / 2627 边（world + institutions + nordic + multilingual + industry）
+
+并集能成立，是因为五张图从一开始就约定：国家永远是 `country:<ISO2>`，概念永远是
+`concept:BCI`。合并是按 key 求并集，不是模糊对齐。
+
+补上的那条线，原来根本画不出来
+
+    上市公司 -> 国家  85 条 listed_in_country
+    这个仓的行业图知道一只 A 股是中国的公司，却没有边，因为当时没有国家节点可指。
+    现在有了，边就按它**上市的市场**画（"market": "A股" 是记录里的字），
+    边上注明「按上市市场，不是经营地」——不把上市地偷换成经营地。
+
+于是第一次能问：哪些国家是三条独立测量同时指向的？
+
+    德国 论文 950   试验  5  企业命中 37
+    美国 论文 803   试验 94  企业命中 12
+    意大利 612 / 6 / 22      加拿大 483 / 9 / 1      法国 406 / 18 / 20
+    印度 375 / 1 / 60        西班牙 351 / 3 / 17     英国 343 / 7 / 35
+    澳大利亚 340 / 3 / 2     奥地利 315 / 3 / 5      瑞士 253 / 9 / 4      比利时 165 / 2 / 12
+
+    有论文又有试验的国家 29 个；只有论文没有试验的 93 个；三源同时齐全 16 个。
+
+这三列是三种不同的测量方法（论文按机构国名=下限、试验按地点字段=总数、企业按 GLEIF
+关键词命中），并列而不是相加——它们的证据强度不一样，加起来就是一个假精度。
