@@ -449,6 +449,11 @@ def attach_diplomatic(g: Graph, idx: dict[str, str] | None = None) -> dict:
     except FetchError as e:
         return {"edges": 0, "error": str(e)[:150]}
     edges = unmatched = 0
+    # 先把度数清零。否则每构建一次就在旧值上再加一遍：实测同一张表跑两轮，中国的建交度
+    # 742 -> 1484，而边数一直是 6276。strip_geo() 摘的是边，摘不掉节点属性里的这个计数。
+    for n in g.nodes.values():
+        if n.kind == "country" and (n.attrs or {}).get("diplomatic_relations") is not None:
+            n.attrs = dict(n.attrs, diplomatic_relations=0)
     for r in rows:
         a, b = idx.get(r["a"]), idx.get(r["b"])
         if not a or not b:
