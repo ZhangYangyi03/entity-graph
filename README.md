@@ -671,3 +671,44 @@ A full sweep of 11,823 objects is 36 seconds.
 打上「弱命中：关键词」标记。这类误命中不修，图谱越扩越脏。
 
 清单末尾照旧列出它回答不了的三件事：FTO（无专利族数据）、非上市公司估值、数据集穷举度。
+
+## 德语 / 法语（以及中文、日文标签）
+
+之前所有源都是英语的。这一层补上德语和法语——德国是 DRKS/GND/DFG 那一套，法国是
+HAL/SIRENE/Bpifrance 那一套，两边都用母语发布。只用英语扫，等于把这两个市场删掉。
+
+    $ python -m entitygraph.cli multilingual --rows 6
+
+同一个概念只有一个节点，靠 Wikidata 的多语言标签挂在上面：
+
+    en  brain–computer interface
+    de  Brain-Computer-Interface
+    fr  interface neuronale directe
+    zh  脑机接口
+    ja  ブレイン・マシン・インタフェース
+
+实测（2026-11-23，本机）：
+
+    source                        访问    结果
+    Wikidata 多语言标签            REST    Q897410，一实体五语言
+    HAL（法国开放档案）            REST    主题命中 1123 篇；lang_s:fr 过滤生效
+    GND（德国规范档 / lobid）      REST    150 条，含企业（如 g.tec，Utrecht，成立 2015）
+    recherche-entreprises（法国）  REST    SIRENE 企业库，按自由词查
+    Europe PMC LANG 过滤           REST    ger 3 / fre 1 / chi 174 篇
+
+「只在英语里找过」这件事现在是个可以量化的数字：语言切片节点把每种语言的命中数
+写进图里，`language_report()` 直接打出来。
+
+明确不通的四个，写下来免得下次当 bug 重试：
+
+    DNB SRU (services.dnb.de)      403，需要账号
+    CTIS  (euclinicaltrials.eu)    403，需要 API key
+    OpenAIRE (api.openaire.eu)     本机 TLS 握手超时
+    CORDIS 检索 API                500
+
+DRKS（德国临床试验注册）记为**已知缺口**，不是填出来的行：它的检索是 POST 表单，
+GET 只返回空壳。我给它写了检测和一条 gap 说明，但没有编造任何一条试验记录——
+这个仓库的规矩是宁可空缺，不编数据。
+
+计分与作图规矩同前：每条边带 lang 与 basis，德语边的 basis 写「GND 检索命中」，
+不会因为语言不同就被算成技术证据。

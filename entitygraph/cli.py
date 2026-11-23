@@ -427,6 +427,13 @@ def main(argv=None) -> int:
     dv.add_argument("--out-json", default="成果清单.json")
     dv.add_argument("--top", type=int, default=6)
 
+    ml = sub.add_parser("multilingual", help="德语/法语的 BCI 数据源与多语言标签")
+    ml.add_argument("--term", default="brain-computer interface")
+    ml.add_argument("--rows", type=int, default=8)
+    ml.add_argument("--no-fr-companies", action="store_true")
+    ml.add_argument("--out", default="multilingual.graph.json")
+    ml.add_argument("--format", choices=["summary", "json", "lines"], default="summary")
+
     args = ap.parse_args(argv)
 
     if args.cmd == "bci":
@@ -442,6 +449,14 @@ def main(argv=None) -> int:
         g = build_biomed_graph(args.symbol, drug=args.drug, diseases=args.diseases,
                                drugs=args.drugs, papers=args.papers)
         return _finish_graph(g, args, "biomed")
+
+    if args.cmd == "multilingual":
+        from .multilingual import build_multilingual_graph, language_report
+        g = build_multilingual_graph(args.term, rows=args.rows,
+                                     with_fr_companies=not args.no_fr_companies)
+        if args.format == "summary":
+            g.summary_text = language_report(g)
+        return _finish_graph(g, args, "multilingual")
 
     if args.cmd == "deliverables":
         from .deliverables import build_deliverables, render_markdown

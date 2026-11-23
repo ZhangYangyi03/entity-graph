@@ -357,3 +357,83 @@ def test_short_cjk_keyword_inside_an_unrelated_word_is_refused():
     # 「电脑控制系统」 must not become 脑控装备 evidence (measured on a real cninfo title)
     assert D.classify("睿能科技：针织袜机电脑控制系统生产基地项目") == []
     assert D.classify("脑控轮椅与脑控接口")[0]["direction"] == "brain_control"
+
+
+# ------------------------------------------------------------------ 德语 / 法语
+from entitygraph import multilingual as ML  # noqa: E402
+
+
+def test_one_concept_carries_every_language_label(monkeypatch):
+    monkeypatch.setattr(ML, "wikidata_labels", lambda *a, **k: {
+        "qid": "Q897410", "labels": {"en": "brain–computer interface",
+                                     "de": "Brain-Computer-Interface",
+                                     "fr": "interface neuronale directe", "zh": "脑机接口"},
+        "descriptions": {}})
+    monkeypatch.setattr(ML, "gnd", lambda *a, **k: [])
+    monkeypatch.setattr(ML, "hal", lambda *a, **k: [])
+    monkeypatch.setattr(ML, "recherche_entreprise", lambda *a, **k: [])
+    monkeypatch.setattr(ML, "europepmc_lang", lambda *a, **k: {"lang": "ger", "hit_count": 0, "rows": []})
+    monkeypatch.setattr(ML, "_get", lambda *a, **k: "<html>no ids here</html>")
+    g = ML.build_multilingual_graph(rows=1)
+    concept = [n for n in g.nodes.values() if n.kind == "concept"]
+    assert len(concept) == 1, "one node, four labels -- not four unrelated nodes"
+    assert set(concept[0].attrs["labels"]) == {"en", "de", "fr", "zh"}
+
+
+def test_german_authority_records_attach_with_their_own_language_tag(monkeypatch):
+    monkeypatch.setattr(ML, "wikidata_labels", lambda *a, **k: {"qid": "Q1", "labels": {}, "descriptions": {}})
+    monkeypatch.setattr(ML, "gnd", lambda *a, **k: [
+        {"gnd": "https://d-nb.info/gnd/1", "name": "g.tec", "place": "Utrecht",
+         "established": "2015", "type": "CorporateBody", "url": "https://d-nb.info/gnd/1"}])
+    monkeypatch.setattr(ML, "hal", lambda *a, **k: [])
+    monkeypatch.setattr(ML, "recherche_entreprise", lambda *a, **k: [])
+    monkeypatch.setattr(ML, "europepmc_lang", lambda *a, **k: {"lang": "ger", "hit_count": 0, "rows": []})
+    monkeypatch.setattr(ML, "_get", lambda *a, **k: "")
+    g = ML.build_multilingual_graph(rows=1)
+    edges = [e for e in g.edges.values() if e.rel == "about_concept"]
+    assert edges and edges[0].attrs["lang"] == "de"
+
+
+def test_drks_is_reported_as_a_gap_rather_than_given_fake_rows(monkeypatch):
+    monkeypatch.setattr(ML, "wikidata_labels", lambda *a, **k: {"qid": "Q1", "labels": {}, "descriptions": {}})
+    monkeypatch.setattr(ML, "gnd", lambda *a, **k: [])
+    monkeypatch.setattr(ML, "hal", lambda *a, **k: [])
+    monkeypatch.setattr(ML, "recherche_entreprise", lambda *a, **k: [])
+    monkeypatch.setattr(ML, "europepmc_lang", lambda *a, **k: {"lang": "ger", "hit_count": 0, "rows": []})
+    monkeypatch.setattr(ML, "_get", lambda *a, **k: "<html>empty shell, no DRKS id</html>")
+    g = ML.build_multilingual_graph(rows=1)
+    assert any("DRKS" in n["source"] for n in g._notes)
+    assert not [n for n in g.nodes.values() if n.kind == "trial"]
+
+
+def test_language_report_counts_what_is_not_english(monkeypatch):
+    monkeypatch.setattr(ML, "wikidata_labels", lambda *a, **k: {
+        "qid": "Q1", "labels": {"en": "BCI", "de": "BCI-de", "fr": "BCI-fr"}, "descriptions": {}})
+    monkeypatch.setattr(ML, "gnd", lambda *a, **k: [])
+    monkeypatch.setattr(ML, "hal", lambda *a, **k: [])
+    monkeypatch.setattr(ML, "recherche_entreprise", lambda *a, **k: [])
+    monkeypatch.setattr(ML, "europepmc_lang",
+                        lambda term, lang, page_size=10: {"lang": lang,
+                                                          "hit_count": {"ger": 3, "fre": 1, "chi": 174}[lang],
+                                                          "rows": []})
+    monkeypatch.setattr(ML, "_get", lambda *a, **k: "")
+    txt = ML.language_report(ML.build_multilingual_graph(rows=1))
+    assert "174" in txt and "BCI-de" in txt
+
+
+def test_hal_language_filter_is_passed_through_not_ignored():
+    seen = {}
+
+    class R:
+        def read(self): return b'{"response":{"docs":[]}}'
+        def __enter__(self): return self
+        def __exit__(self, *a): return False
+
+    import entitygraph.multilingual as m
+    orig = m.urllib.request.urlopen
+    m.urllib.request.urlopen = lambda req, **k: (seen.update(url=req.full_url), R())[1]
+    try:
+        m.hal("bci", rows=2, lang="fr")
+    finally:
+        m.urllib.request.urlopen = orig
+    assert "lang_s%3Afr" in seen["url"] or "lang_s:fr" in seen["url"]
