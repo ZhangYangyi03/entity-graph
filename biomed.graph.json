@@ -1,0 +1,607 @@
+{
+  "nodes": [
+    {
+      "key": "ensembl:ENSG00000146648",
+      "kind": "target",
+      "label": "EGFR",
+      "attrs": {
+        "ensembl": "ENSG00000146648",
+        "full_name": "epidermal growth factor receptor",
+        "biotype": "protein_coding",
+        "function": "Receptor tyrosine kinase binding ligands of the EGF family and activating several signaling cascades to convert extracellular cues into appropriate cellular responses (PubMed:10805725, PubMed:12297050, PubMed:12620237, PubMed:12873986, PubMed:15374980, PubMed:15590694, PubMed:17115032, PubMed:19560417, PubMed:21258366, PubMed:27153536, PubMed:2790960, PubMed:35538033, PubMed:9488479). Known ligands include EGF, TGFA/TGF-alpha, AREG, epigen/EPGN, BTC/betacellulin, epiregulin/EREG and HBEGF/heparin-binding EGF (PubMed:12297049, PubMed:15611079, PubMed:17909029, PubMed:20837704, PubMed:27153536, "
+      },
+      "source": "Open Targets",
+      "url": "https://platform.opentargets.org/target/ENSG00000146648",
+      "fetched_at": "2026-11-23T03:33:38+00:00"
+    },
+    {
+      "key": "disease:MONDO_0005233",
+      "kind": "disease",
+      "label": "non-small cell lung carcinoma",
+      "attrs": {
+        "mondo": "MONDO_0005233"
+      },
+      "source": "Open Targets",
+      "url": "https://platform.opentargets.org/disease/MONDO_0005233",
+      "fetched_at": "2026-11-23T03:33:38+00:00"
+    },
+    {
+      "key": "disease:MONDO_0005061",
+      "kind": "disease",
+      "label": "lung adenocarcinoma",
+      "attrs": {
+        "mondo": "MONDO_0005061"
+      },
+      "source": "Open Targets",
+      "url": "https://platform.opentargets.org/disease/MONDO_0005061",
+      "fetched_at": "2026-11-23T03:33:38+00:00"
+    },
+    {
+      "key": "disease:MONDO_0004992",
+      "kind": "disease",
+      "label": "cancer",
+      "attrs": {
+        "mondo": "MONDO_0004992"
+      },
+      "source": "Open Targets",
+      "url": "https://platform.opentargets.org/disease/MONDO_0004992",
+      "fetched_at": "2026-11-23T03:33:38+00:00"
+    },
+    {
+      "key": "disease:MONDO_0010150",
+      "kind": "disease",
+      "label": "head and neck squamous cell carcinoma",
+      "attrs": {
+        "mondo": "MONDO_0010150"
+      },
+      "source": "Open Targets",
+      "url": "https://platform.opentargets.org/disease/MONDO_0010150",
+      "fetched_at": "2026-11-23T03:33:38+00:00"
+    },
+    {
+      "key": "disease:MONDO_0008903",
+      "kind": "disease",
+      "label": "lung cancer",
+      "attrs": {
+        "mondo": "MONDO_0008903"
+      },
+      "source": "Open Targets",
+      "url": "https://platform.opentargets.org/disease/MONDO_0008903",
+      "fetched_at": "2026-11-23T03:33:38+00:00"
+    },
+    {
+      "key": "uniprot:A0A068JCC9",
+      "kind": "protein",
+      "label": "A0A068JCC9",
+      "attrs": {
+        "accession": "A0A068JCC9",
+        "length": 33,
+        "function": ""
+      },
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/A0A068JCC9/entry",
+      "fetched_at": "2026-11-23T03:33:38+00:00"
+    },
+    {
+      "key": "chembl_target:CHEMBL4523747",
+      "kind": "target",
+      "label": "EGFR/PPP1CA",
+      "attrs": {
+        "chembl_id": "CHEMBL4523747",
+        "organism": "Homo sapiens",
+        "target_type": "PROTEIN-PROTEIN INTERACTION"
+      },
+      "source": "ChEMBL",
+      "url": "https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL4523747/",
+      "fetched_at": "2026-11-23T03:33:38+00:00"
+    },
+    {
+      "key": "chembl_target:CHEMBL5465557",
+      "kind": "target",
+      "label": "CCN2-EGFR",
+      "attrs": {
+        "chembl_id": "CHEMBL5465557",
+        "organism": "Homo sapiens",
+        "target_type": "PROTEIN-PROTEIN INTERACTION"
+      },
+      "source": "ChEMBL",
+      "url": "https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL5465557/",
+      "fetched_at": "2026-11-23T03:33:38+00:00"
+    },
+    {
+      "key": "chembl_target:CHEMBL3608",
+      "kind": "target",
+      "label": "Epidermal growth factor receptor",
+      "attrs": {
+        "chembl_id": "CHEMBL3608",
+        "organism": "Mus musculus",
+        "target_type": "SINGLE PROTEIN"
+      },
+      "source": "ChEMBL",
+      "url": "https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL3608/",
+      "fetched_at": "2026-11-23T03:33:38+00:00"
+    },
+    {
+      "key": "pubchem:5291",
+      "kind": "compound",
+      "label": "imatinib",
+      "attrs": {
+        "cid": 5291,
+        "formula": "C29H31N7O",
+        "weight": "493.6",
+        "smiles": "CC1=C(C=C(C=C1)NC(=O)C2=CC=C(C=C2)CN3CCN(CC3)C)NC4=NC=CC(=N4)C5=CN=CC=C5"
+      },
+      "source": "PubChem",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5291",
+      "fetched_at": "2026-11-23T03:33:45+00:00"
+    },
+    {
+      "key": "rxnorm:2699837",
+      "kind": "drug",
+      "label": "imatinib 80 MG/ML Oral Solution [Imkeldi]",
+      "attrs": {
+        "rxcui": "2699837",
+        "tty": "SBD"
+      },
+      "source": "RxNorm",
+      "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=2699837",
+      "fetched_at": "2026-11-23T03:33:53+00:00"
+    },
+    {
+      "key": "rxnorm:404588",
+      "kind": "drug",
+      "label": "imatinib 100 MG Oral Tablet [Gleevec]",
+      "attrs": {
+        "rxcui": "404588",
+        "tty": "SBD"
+      },
+      "source": "RxNorm",
+      "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=404588",
+      "fetched_at": "2026-11-23T03:33:53+00:00"
+    },
+    {
+      "key": "rxnorm:404589",
+      "kind": "drug",
+      "label": "imatinib 400 MG Oral Tablet [Gleevec]",
+      "attrs": {
+        "rxcui": "404589",
+        "tty": "SBD"
+      },
+      "source": "RxNorm",
+      "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=404589",
+      "fetched_at": "2026-11-23T03:33:53+00:00"
+    },
+    {
+      "key": "rxnorm:2699831",
+      "kind": "drug",
+      "label": "imatinib 80 MG/ML Oral Solution",
+      "attrs": {
+        "rxcui": "2699831",
+        "tty": "SCD"
+      },
+      "source": "RxNorm",
+      "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=2699831",
+      "fetched_at": "2026-11-23T03:33:53+00:00"
+    },
+    {
+      "key": "rxnorm:284206",
+      "kind": "drug",
+      "label": "imatinib 100 MG Oral Capsule",
+      "attrs": {
+        "rxcui": "284206",
+        "tty": "SCD"
+      },
+      "source": "RxNorm",
+      "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=284206",
+      "fetched_at": "2026-11-23T03:33:53+00:00"
+    },
+    {
+      "key": "rxnorm:403878",
+      "kind": "drug",
+      "label": "imatinib 100 MG Oral Tablet",
+      "attrs": {
+        "rxcui": "403878",
+        "tty": "SCD"
+      },
+      "source": "RxNorm",
+      "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=403878",
+      "fetched_at": "2026-11-23T03:33:53+00:00"
+    },
+    {
+      "key": "spl:7c037022-7fc8-4b6e-9db3-427206c572b4",
+      "kind": "label",
+      "label": "IMATINIB MESYLATE TABLET, FILM COATED [MAJOR PHARMACEUTICALS]",
+      "attrs": {
+        "setid": "7c037022-7fc8-4b6e-9db3-427206c572b4",
+        "published": "Nov 18, 2026"
+      },
+      "source": "DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7c037022-7fc8-4b6e-9db3-427206c572b4",
+      "fetched_at": "2026-11-23T03:34:00+00:00"
+    },
+    {
+      "key": "spl:a1787fad-3612-43e1-98fa-ce62361e0b3c",
+      "kind": "label",
+      "label": "IMATINIB MESYLATE (IMATINIB) TABLET, FILM COATED [MYLAN PHARMACEUTICALS INC.]",
+      "attrs": {
+        "setid": "a1787fad-3612-43e1-98fa-ce62361e0b3c",
+        "published": "Oct 29, 2026"
+      },
+      "source": "DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a1787fad-3612-43e1-98fa-ce62361e0b3c",
+      "fetched_at": "2026-11-23T03:34:00+00:00"
+    },
+    {
+      "key": "spl:6e7ed4ef-24e3-4545-9a99-2e34c946e8e7",
+      "kind": "label",
+      "label": "IMATINIB MESYLATE TABLET, FILM COATED [AMERICAN HEALTH PACKAGING]",
+      "attrs": {
+        "setid": "6e7ed4ef-24e3-4545-9a99-2e34c946e8e7",
+        "published": "Oct 28, 2026"
+      },
+      "source": "DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6e7ed4ef-24e3-4545-9a99-2e34c946e8e7",
+      "fetched_at": "2026-11-23T03:34:00+00:00"
+    },
+    {
+      "key": "spl:26658bb7-9ba1-a10e-e063-6394a90a172e",
+      "kind": "label",
+      "label": "IMKELDI (IMATINIB ORAL) SOLUTION [SHORLA ONCOLOGY INC.,]",
+      "attrs": {
+        "setid": "26658bb7-9ba1-a10e-e063-6394a90a172e",
+        "published": "Oct 26, 2026"
+      },
+      "source": "DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=26658bb7-9ba1-a10e-e063-6394a90a172e",
+      "fetched_at": "2026-11-23T03:34:00+00:00"
+    },
+    {
+      "key": "spl:9131b2ce-752d-3a30-e053-2a95a90adaab",
+      "kind": "label",
+      "label": "IMATINIB MESYLATE (IMATINIB) TABLET, FILM COATED [GOLDEN STATE MEDICAL SUPPLY, INC.]",
+      "attrs": {
+        "setid": "9131b2ce-752d-3a30-e053-2a95a90adaab",
+        "published": "Oct 21, 2026"
+      },
+      "source": "DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9131b2ce-752d-3a30-e053-2a95a90adaab",
+      "fetched_at": "2026-11-23T03:34:00+00:00"
+    },
+    {
+      "key": "label:imatinib",
+      "kind": "label",
+      "label": "Imatinib Mesylate label",
+      "attrs": {
+        "indications": "1 INDICATIONS AND USAGE Imatinib mesylate is a kinase inhibitor indicated for the treatment of: • Newly diagnosed adult and pediatric patients with Philadelphia chromosome positive chronic myeloid leukemia (Ph+ CML) in chronic phase ( 1.1 ) • Patients with Philadelphia chromosome positive chronic myeloid leukemia (Ph+ CML) in blast crisis (BC), accelerated phase (AP), or in chronic phase (CP) afte",
+        "mechanism": "12.1 Mechanism of Action Imatinib mesylate is a protein-tyrosine kinase inhibitor that inhibits the BCR-ABL tyrosine kinase, the constitutive abnormal tyrosine kinase created by the Philadelphia chromosome abnormality in CML. Imatinib inhibits proliferation and induces apoptosis in BCR-ABL positive cell lines as well as fresh leukemic cells from Philadelphia chromosome positive chronic myeloid leu",
+        "manufacturer": "Apotex Corp"
+      },
+      "source": "openFDA drug",
+      "url": "https://open.fda.gov/apis/drug/label/",
+      "fetched_at": "2026-11-23T03:34:10+00:00"
+    },
+    {
+      "key": "drug:imatinib",
+      "kind": "drug",
+      "label": "imatinib",
+      "attrs": {
+        "reports": 22026,
+        "serious": null
+      },
+      "source": "openFDA FAERS",
+      "url": "https://open.fda.gov/apis/drug/event/",
+      "fetched_at": "2026-11-23T03:34:46+00:00"
+    },
+    {
+      "key": "epmc:43021317",
+      "kind": "publication",
+      "label": "Repurposing of abemaciclib to overcome C797S-mediated osimertinib resistance in EGFR-mutant lung adenocarcinoma.",
+      "attrs": {
+        "pmid": "43021317",
+        "doi": "10.1186/s12929-026-01297-0",
+        "journal": "J Biomed Sci",
+        "year": "2026",
+        "open_access": "Y"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/43021317",
+      "fetched_at": "2026-11-23T03:35:06+00:00"
+    },
+    {
+      "key": "epmc:42897839",
+      "kind": "publication",
+      "label": "Discovery and Mechanistic Investigation of a Novel Kinase Inhibitor Targeting EGFR Resistance Mutations.",
+      "attrs": {
+        "pmid": "42897839",
+        "doi": "10.2174/0113894501509463261008055141",
+        "journal": "Curr Drug Targets",
+        "year": "2026",
+        "open_access": "N"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/42897839",
+      "fetched_at": "2026-11-23T03:35:06+00:00"
+    },
+    {
+      "key": "epmc:42984819",
+      "kind": "publication",
+      "label": "A Fluorescence-Based High-Throughput Screening Method for EGFR Inhibitors Using an EGFR-Targeted Environment-Sensitive Fluorescent Probe.",
+      "attrs": {
+        "pmid": "42984819",
+        "doi": "10.1155/jamc/9333993",
+        "journal": "J Anal Methods Chem",
+        "year": "2026",
+        "open_access": "Y"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/42984819",
+      "fetched_at": "2026-11-23T03:35:06+00:00"
+    }
+  ],
+  "edges": [
+    {
+      "src": "ensembl:ENSG00000146648",
+      "dst": "disease:MONDO_0005233",
+      "rel": "associated_with",
+      "attrs": {
+        "score": 0.8503239816603523
+      },
+      "source": "Open Targets",
+      "url": "https://platform.opentargets.org/target/ENSG00000146648/associations",
+      "fetched_at": "2026-11-23T03:33:38+00:00"
+    },
+    {
+      "src": "ensembl:ENSG00000146648",
+      "dst": "disease:MONDO_0005061",
+      "rel": "associated_with",
+      "attrs": {
+        "score": 0.7744562914488016
+      },
+      "source": "Open Targets",
+      "url": "https://platform.opentargets.org/target/ENSG00000146648/associations",
+      "fetched_at": "2026-11-23T03:33:38+00:00"
+    },
+    {
+      "src": "ensembl:ENSG00000146648",
+      "dst": "disease:MONDO_0004992",
+      "rel": "associated_with",
+      "attrs": {
+        "score": 0.7369034892013269
+      },
+      "source": "Open Targets",
+      "url": "https://platform.opentargets.org/target/ENSG00000146648/associations",
+      "fetched_at": "2026-11-23T03:33:38+00:00"
+    },
+    {
+      "src": "ensembl:ENSG00000146648",
+      "dst": "disease:MONDO_0010150",
+      "rel": "associated_with",
+      "attrs": {
+        "score": 0.7252247339566977
+      },
+      "source": "Open Targets",
+      "url": "https://platform.opentargets.org/target/ENSG00000146648/associations",
+      "fetched_at": "2026-11-23T03:33:38+00:00"
+    },
+    {
+      "src": "ensembl:ENSG00000146648",
+      "dst": "disease:MONDO_0008903",
+      "rel": "associated_with",
+      "attrs": {
+        "score": 0.7173442514015181
+      },
+      "source": "Open Targets",
+      "url": "https://platform.opentargets.org/target/ENSG00000146648/associations",
+      "fetched_at": "2026-11-23T03:33:38+00:00"
+    },
+    {
+      "src": "ensembl:ENSG00000146648",
+      "dst": "uniprot:A0A068JCC9",
+      "rel": "encodes",
+      "attrs": {
+        "gene": "EGFR"
+      },
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/A0A068JCC9/entry",
+      "fetched_at": "2026-11-23T03:33:38+00:00"
+    },
+    {
+      "src": "chembl_target:CHEMBL4523747",
+      "dst": "ensembl:ENSG00000146648",
+      "rel": "same_as",
+      "attrs": {
+        "basis": "ChEMBL target search by gene symbol"
+      },
+      "source": "ChEMBL",
+      "url": "https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL4523747/",
+      "fetched_at": "2026-11-23T03:33:38+00:00"
+    },
+    {
+      "src": "chembl_target:CHEMBL5465557",
+      "dst": "ensembl:ENSG00000146648",
+      "rel": "same_as",
+      "attrs": {
+        "basis": "ChEMBL target search by gene symbol"
+      },
+      "source": "ChEMBL",
+      "url": "https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL5465557/",
+      "fetched_at": "2026-11-23T03:33:38+00:00"
+    },
+    {
+      "src": "chembl_target:CHEMBL3608",
+      "dst": "ensembl:ENSG00000146648",
+      "rel": "same_as",
+      "attrs": {
+        "basis": "ChEMBL target search by gene symbol"
+      },
+      "source": "ChEMBL",
+      "url": "https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL3608/",
+      "fetched_at": "2026-11-23T03:33:38+00:00"
+    },
+    {
+      "src": "rxnorm:2699837",
+      "dst": "ensembl:ENSG00000146648",
+      "rel": "treats_target",
+      "attrs": {
+        "tty": "SBD"
+      },
+      "source": "RxNorm",
+      "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=2699837",
+      "fetched_at": "2026-11-23T03:33:53+00:00"
+    },
+    {
+      "src": "rxnorm:404588",
+      "dst": "ensembl:ENSG00000146648",
+      "rel": "treats_target",
+      "attrs": {
+        "tty": "SBD"
+      },
+      "source": "RxNorm",
+      "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=404588",
+      "fetched_at": "2026-11-23T03:33:53+00:00"
+    },
+    {
+      "src": "rxnorm:404589",
+      "dst": "ensembl:ENSG00000146648",
+      "rel": "treats_target",
+      "attrs": {
+        "tty": "SBD"
+      },
+      "source": "RxNorm",
+      "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=404589",
+      "fetched_at": "2026-11-23T03:33:53+00:00"
+    },
+    {
+      "src": "rxnorm:2699831",
+      "dst": "ensembl:ENSG00000146648",
+      "rel": "treats_target",
+      "attrs": {
+        "tty": "SCD"
+      },
+      "source": "RxNorm",
+      "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=2699831",
+      "fetched_at": "2026-11-23T03:33:53+00:00"
+    },
+    {
+      "src": "rxnorm:284206",
+      "dst": "ensembl:ENSG00000146648",
+      "rel": "treats_target",
+      "attrs": {
+        "tty": "SCD"
+      },
+      "source": "RxNorm",
+      "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=284206",
+      "fetched_at": "2026-11-23T03:33:53+00:00"
+    },
+    {
+      "src": "rxnorm:403878",
+      "dst": "ensembl:ENSG00000146648",
+      "rel": "treats_target",
+      "attrs": {
+        "tty": "SCD"
+      },
+      "source": "RxNorm",
+      "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=403878",
+      "fetched_at": "2026-11-23T03:33:53+00:00"
+    },
+    {
+      "src": "drug:imatinib",
+      "dst": "spl:7c037022-7fc8-4b6e-9db3-427206c572b4",
+      "rel": "labelled_by",
+      "attrs": {},
+      "source": "DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7c037022-7fc8-4b6e-9db3-427206c572b4",
+      "fetched_at": "2026-11-23T03:34:00+00:00"
+    },
+    {
+      "src": "drug:imatinib",
+      "dst": "spl:a1787fad-3612-43e1-98fa-ce62361e0b3c",
+      "rel": "labelled_by",
+      "attrs": {},
+      "source": "DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a1787fad-3612-43e1-98fa-ce62361e0b3c",
+      "fetched_at": "2026-11-23T03:34:00+00:00"
+    },
+    {
+      "src": "drug:imatinib",
+      "dst": "spl:6e7ed4ef-24e3-4545-9a99-2e34c946e8e7",
+      "rel": "labelled_by",
+      "attrs": {},
+      "source": "DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6e7ed4ef-24e3-4545-9a99-2e34c946e8e7",
+      "fetched_at": "2026-11-23T03:34:00+00:00"
+    },
+    {
+      "src": "drug:imatinib",
+      "dst": "spl:26658bb7-9ba1-a10e-e063-6394a90a172e",
+      "rel": "labelled_by",
+      "attrs": {},
+      "source": "DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=26658bb7-9ba1-a10e-e063-6394a90a172e",
+      "fetched_at": "2026-11-23T03:34:00+00:00"
+    },
+    {
+      "src": "drug:imatinib",
+      "dst": "spl:9131b2ce-752d-3a30-e053-2a95a90adaab",
+      "rel": "labelled_by",
+      "attrs": {},
+      "source": "DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9131b2ce-752d-3a30-e053-2a95a90adaab",
+      "fetched_at": "2026-11-23T03:34:00+00:00"
+    },
+    {
+      "src": "drug:imatinib",
+      "dst": "label:imatinib",
+      "rel": "labelled_by",
+      "attrs": {},
+      "source": "openFDA drug",
+      "url": "https://open.fda.gov/apis/drug/label/",
+      "fetched_at": "2026-11-23T03:34:10+00:00"
+    },
+    {
+      "src": "drug:imatinib",
+      "dst": "ensembl:ENSG00000146648",
+      "rel": "indicated_for",
+      "attrs": {
+        "reports": 22026,
+        "serious_reports": null
+      },
+      "source": "openFDA FAERS",
+      "url": "https://open.fda.gov/apis/drug/event/",
+      "fetched_at": "2026-11-23T03:34:46+00:00"
+    },
+    {
+      "src": "epmc:43021317",
+      "dst": "ensembl:ENSG00000146648",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "EGFR"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/43021317",
+      "fetched_at": "2026-11-23T03:35:06+00:00"
+    },
+    {
+      "src": "epmc:42897839",
+      "dst": "ensembl:ENSG00000146648",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "EGFR"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/42897839",
+      "fetched_at": "2026-11-23T03:35:06+00:00"
+    },
+    {
+      "src": "epmc:42984819",
+      "dst": "ensembl:ENSG00000146648",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "EGFR"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/42984819",
+      "fetched_at": "2026-11-23T03:35:06+00:00"
+    }
+  ]
+}
