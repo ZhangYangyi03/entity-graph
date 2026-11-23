@@ -884,3 +884,44 @@ OpenAlex 依然不可用：api.openalex.org 每次 429（带不带 polite-pool m
 
 这三列是三种不同的测量方法（论文按机构国名=下限、试验按地点字段=总数、企业按 GLEIF
 关键词命中），并列而不是相加——它们的证据强度不一样，加起来就是一个假精度。
+## 商业 / 政治 / 金融三层，全部落在同两个主题上
+
+要求是"国家之间不仅学术联系，商业、政治、金融也要整合"，同时"针对脑机接口和生物医药那俩
+主题"。所以三层都不是泛泛的国家关系，每一层都缩到主题口径上：
+
+    层     关系                     口径与判据
+    商业   bci_biopharma_exports_to  HS 9018 医疗器械 / 9021 假体与神经刺激 / 9027 诊断仪 / 3004 药品
+            bci_biopharma_imports_from  UN Comtrade，按报告国-伙伴国双边额（USD）
+    金融   market_comoves_with       单国 MSCI 指数 ETF 的一年日收益皮尔逊相关（同为 iShares）
+            moves_with_bci_biopharma_sector 该国股指与 XBI/IBB/BBH/FBT/IHI/IXJ 生物医药板块的相关
+    政治   has_diplomatic_relations_with  Wikidata P530 有向建交
+            votes_with               联大点名投票的理想点距离，一致性 = 1 - |Δ|/2，阈值 0.75
+
+边上的 attrs 一律带值、年份、依据（basis），因为"相关"和"资本流动"是两件事，混在一张图上
+就是把结论悄悄换成证据。官方双边金融流量（BIS/IMF CDIS/OECD FDI）在本机三个源全部不可达
+（406/500/406），所以金融层用股指同步性代替，并在 gaps 里明说它不是资本流——这条限制写进
+README 而不是藏在代码里。
+
+同时修掉三个会静默出错的真 bug，每个都是"看起来有数据，其实是空的"：
+
+1. Comtrade 报告国码。参考清单里 841 是 "USA and Puerto Rico (...1980)"，entryExpiredDate
+   1980-12-31；842 才是美国。原来的字典后写覆盖先写，取到 841，于是美国对 2024 年的查询返回
+   零行——全世界的贸易都在，只有美国那一整块没了。现在过期条目不覆盖生效条目。
+2. 500 行截断。公共预览接口单次最多回 500 行，一国四个 HS 码一起查正好卡在 500，出口和进口
+   被截掉一半而 status 仍是 200。改成按 flowCode 分开取（同一对国家 202 + 130 行），并把
+   "返回恰好 500 行"当成截断而不是数据。
+3. 联大阈值。一致性 > 0.5 会留下 11252 条边，占全部国家对 61%——"多数国家多数时候意见相同"
+   把其它每一层都淹掉了。改到 0.75，边变成"投票站在一起"，丢掉的 10796 对写在 gaps 里。
+
+复现：
+
+    python -m entitygraph.cli geo --out all.graph.json          # 只吃缓存，秒级，不烧额度
+    python -m entitygraph.cli geo --out all.graph.json --fetch-trade   # 联网补取
+    python tools/fetch_theme_trade.py                            # 后台慢慢补（公共额度限流）
+    python -m pytest -q                                          # 235 项，含三层口径的判据测试
+
+已知残缺：Comtrade 公共预览对前两个报告国就开始 403 Quota Exceeded，所以主题贸易目前只有
+美国（91.5 亿美元出口）和中国（18.4 亿）两个报告国的双边明细，共 665 条边；其余国家在
+gaps 里点名，不留假覆盖。后台脚本会按限额节奏补齐，缓存写盘所以断点续取。
+
+
