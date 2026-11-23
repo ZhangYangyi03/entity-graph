@@ -532,3 +532,57 @@ minimum, and prints both numbers so the step's error is visible rather than assu
        10.978 km  (step said 14.570, +3.592) STARLINK-2386 <-> STARLINK-3153
 
 A full sweep of 11,823 objects is 36 seconds.
+
+## 脑机接口 6+1 与生物制造产业图谱
+
+`industry.graph.json` 是《生物制造、脑机接口领域产业图谱研究项目实施方案》要的那张图：
+以脑机接口「6+1」七条技术路线为骨架，把实测数据源的证据按关键词挂到路线上，再标
+产业链环节（上游材料器件 / 中游系统装备 / 下游临床应用）与四链（产业链、创新链、人才链、
+资金链）。
+
+    $ python -m entitygraph.cli industry --out industry.graph.json
+    industry: nodes 82  edges 85
+    kinds: bci_direction=7  bio_domain=5  chain_stage=3  dataset=29  company=7 ...
+    rels:  work_on=20  relevant_to=27  counts_toward=8  covers_stage=3 ...
+
+三条命令各管一段：
+
+    python -m entitygraph.cli bci     --limit 4      # 数据集/试验/论文/器械
+    python -m entitygraph.cli biomed  --symbol EGFR --drug imatinib   # 靶点→药→标签→不良事件
+    python -m entitygraph.cli industry                # 把上面两段按 6+1 与四链标注
+
+七条路线（`entitygraph/directions.py`，每条带实施方案要求的技术性能参数）：
+神经调控、神经修复、微针电极、生物人工脑盖骨双向接口、脑深区磁声成像、脑控装备、+1 类器官/片上脑机接口。
+
+数据源，全部免 key，2026-11-23 在本机实测：
+
+    source              访问方式   贡献
+    OpenNeuro           GraphQL    BIDS 数据集（EEG/MEG/iEEG/fMRI）
+    DANDI               REST       NWB dandisets，细胞电生理
+    NeuroVault          REST       1.8 万+ 统计图谱
+    PhysioNet           HTML       经典 EEG 语料（eegmmidb 等），无 API，解析页面
+    BNCI Horizon 2020   HTML       BCI 专用目录 34 套，带受试者/信号数
+    ClinicalTrials.gov  REST v2    在研器械与干预试验
+    PubMed E-utilities  REST       论文
+    openFDA 510(k)      REST       已上市 EEG/BCI 器械与申请人
+    Open Targets        GraphQL    靶点—疾病关联（打分）
+    ChEMBL / UniProt / PubChem / RxNorm / DailyMed / Europe PMC / bioRxiv / openFDA 药品
+                                  靶点→化合物→药物→标签→不良事件
+
+明确试过并放弃的两个，写在这里免得下次当 bug 重试：
+
+    NIH RePORTER (api.reporter.nih.gov)  自签证书链，本机信任库与 certifi 都拒绝。
+    RCSB PDB (search.rcsb.org)           同上，"unable to get local issuer certificate"。
+    两者都是真数据，但要用就得关掉证书校验——这个仓库不做这个交易。
+
+图谱的规矩照旧，一处没松：**每一条边都带它来自哪个 URL**。证据节点里的
+`bci6plus1` 标签还额外带 `tagging` 说明——一个关键词都没命中的记录会被标成
+"no 6+1 keyword matched; left untagged rather than guessed"，而不是硬塞进某条路线。
+
+### 这张图现在缺什么（缺就是缺，不装作有）
+
+    企业节点     6+1 的企业（脑虎科技、阶梯医疗、博睿康、华大智造、金斯瑞、凯莱英）
+                 已从实施方案里落成节点并注明出处；但要按工商/融资维度铺开，需要企查查
+                 或 GLEIF 付费面，本机没有 key。
+    专利         FTO 与专利许可调研要智慧芽/Incopat 或付费 API，没有免 key 全库。
+    资金链       NIH RePORTER 本可用（项目、经费、机构），倒在证书上（见上）。

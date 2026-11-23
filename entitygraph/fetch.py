@@ -107,3 +107,55 @@ def get(url: str, *, ttl: float = 86400.0, timeout: float = 30.0, headers: dict 
 
 def q(s: str) -> str:
     return urllib.parse.quote(s, safe="")
+
+
+
+def post(url: str, payload: dict | list, *, ttl: float = 0.0, timeout: float = 30.0,
+         headers: dict | None = None, retries: int = 1) -> dict:
+    """POST JSON and parse the reply, under the same cache/UA/TLS rules as get().
+
+    Several of the sources added for the BCI/biomedical graphs (OpenNeuro's GraphQL
+    endpoint, NIH RePORTER, RCSB search) answer only to POST and reject a GET with 400.
+    The cache key is url+body, so a repeat inside the TTL does not re-post.
+    """
+    body = json.dumps(payload).encode()
+    cp = _cache_path(url + "|" + hashlib.sha256(body).hexdigest()[:16])
+    if ttl > 0 and os.path.exists(cp) and time.time() - os.path.getmtime(cp) < ttl:
+        with open(cp, encoding="utf-8") as f:
+            return json.load(f)["json"]
+
+    h = {"User-Agent": DEFAULT_UA, "Accept": "application/json",
+         "Content-Type": "application/json"}
+    if headers:
+        h.update(headers)
+
+    last: Exception | None = None
+    for attempt in range(retries + 1):
+        try:
+            req = urllib.request.Request(url, data=body, headers=h, method="POST")
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                text = r.read().decode("utf-8", "ignore")
+            break
+        except urllib.error.HTTPError as e:
+            if e.code in (400, 403, 404) or attempt == retries:
+                raise FetchError("%d %s" % (e.code, url)) from e
+            last = e
+        except Exception as e:
+            if attempt == retries:
+                raise FetchError("%s: %s <- %s" % (type(e).__name__, e, url)) from e
+            last = e
+        time.sleep(1.5 * (attempt + 1))
+    else:  # pragma: no cover
+        raise FetchError(str(last))
+
+    try:
+        parsed = json.loads(text)
+    except json.JSONDecodeError as e:
+        raise FetchError("not JSON from %s: %r" % (url, text[:120])) from e
+
+    if ttl > 0:
+        os.makedirs(CACHE_DIR, exist_ok=True)
+        with open(cp, "w", encoding="utf-8") as f:
+            json.dump({"url": url, "at": time.time(), "text": text, "json": parsed}, f,
+                      ensure_ascii=False)
+    return parsed

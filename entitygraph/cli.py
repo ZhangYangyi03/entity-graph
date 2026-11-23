@@ -297,6 +297,23 @@ def _orbit(args) -> int:
     return 0
 
 
+def _finish_graph(g, args, what: str) -> int:
+    """Write a built graph and print what it really contains, gaps included."""
+    with open(args.out, "w", encoding="utf-8") as f:
+        f.write(g.dumps_lines() if args.format == "lines" else g.to_json())
+    st = g.stats()
+    print("%s: nodes %d  edges %d" % (what, st["nodes"], st["edges"]))
+    print("kinds: " + "  ".join("%s=%d" % kv for kv in sorted(st["by_kind"].items())))
+    print("rels:  " + "  ".join("%s=%d" % kv for kv in sorted(st["by_rel"].items())))
+    notes = getattr(g, "_notes", [])
+    if notes:
+        print("gaps (a dead source is reported, not hidden):")
+        for n in notes:
+            print("  ! %-24s %-18s %s" % (n["source"], n["what"], n["error"][:90]))
+    print("wrote " + args.out)
+    return 0
+
+
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(prog="entitygraph")
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -366,7 +383,55 @@ def main(argv=None) -> int:
     w.add_argument("--merge", help="existing graph JSON to extend instead of starting fresh")
     w.add_argument("--no-text", action="store_true", help="skip the trafilatura markdown pass")
 
+    bci = sub.add_parser("bci", help="brain-computer-interface datasets, trials, papers, devices")
+    bci.add_argument("--term", default="brain-computer interface")
+    bci.add_argument("--limit", type=int, default=5, help="rows per source")
+    bci.add_argument("--no-datasets", action="store_true")
+    bci.add_argument("--no-trials", action="store_true")
+    bci.add_argument("--no-papers", action="store_true")
+    bci.add_argument("--no-devices", action="store_true")
+    bci.add_argument("--no-neurovault", action="store_true")
+    bci.add_argument("--out", default="bci.graph.json")
+    bci.add_argument("--format", choices=["summary", "json", "lines"], default="summary")
+
+    bm = sub.add_parser("biomed", help="target -> disease -> compound -> drug -> label graph")
+    bm.add_argument("--symbol", default="EGFR", help="gene symbol, e.g. EGFR")
+    bm.add_argument("--drug", help="drug name for the compound/label half, e.g. imatinib")
+    bm.add_argument("--diseases", type=int, default=8)
+    bm.add_argument("--drugs", type=int, default=8)
+    bm.add_argument("--papers", type=int, default=4)
+    bm.add_argument("--out", default="biomed.graph.json")
+    bm.add_argument("--format", choices=["summary", "json", "lines"], default="summary")
+
+    ind = sub.add_parser("industry", help="the 6+1 BCI + bio-manufacturing industry map")
+    ind.add_argument("--term", default="brain-computer interface")
+    ind.add_argument("--limit", type=int, default=4, help="rows per source")
+    ind.add_argument("--bio-symbol", default="EGFR", help="gene symbol for the bio half")
+    ind.add_argument("--no-bio", action="store_true", help="skip the bio-manufacturing half")
+    ind.add_argument("--out", default="industry.graph.json")
+    ind.add_argument("--format", choices=["summary", "json", "lines"], default="summary")
+
     args = ap.parse_args(argv)
+
+    if args.cmd == "bci":
+        from .bci import build_bci_graph
+        g = build_bci_graph(args.term, limit=args.limit,
+                            datasets=not args.no_datasets, trials=not args.no_trials,
+                            papers=not args.no_papers, devices=not args.no_devices,
+                            neurovault_search=not args.no_neurovault)
+        return _finish_graph(g, args, "bci")
+
+    if args.cmd == "biomed":
+        from .biomed import build_biomed_graph
+        g = build_biomed_graph(args.symbol, drug=args.drug, diseases=args.diseases,
+                               drugs=args.drugs, papers=args.papers)
+        return _finish_graph(g, args, "biomed")
+
+    if args.cmd == "industry":
+        from .industry import build_industry_map
+        g = build_industry_map(args.term, limit=args.limit, bio_symbol=args.bio_symbol,
+                              with_bio=not args.no_bio)
+        return _finish_graph(g, args, "industry")
 
     if args.cmd == "web":
         from .web import build_web, to_dict

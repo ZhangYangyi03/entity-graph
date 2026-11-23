@@ -1,0 +1,1596 @@
+{
+  "nodes": [
+    {
+      "key": "topic:brain-computer-interface",
+      "kind": "topic",
+      "label": "brain-computer interface",
+      "attrs": {
+        "terms": [
+          "brain-computer interface",
+          "brain computer interface",
+          "motor imagery",
+          "P300",
+          "SSVEP",
+          "electrocorticography",
+          "intracortical",
+          "neuroprosthesis"
+        ]
+      },
+      "source": "operator query",
+      "url": "",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "key": "dataset:openneuro:ds007720",
+      "kind": "dataset",
+      "label": "BCI-FIT: A customization protocol for communication brain-computer interface systems.",
+      "attrs": {
+        "id": "ds007720",
+        "access": "graphql",
+        "format": "BIDS"
+      },
+      "source": "OpenNeuro",
+      "url": "https://openneuro.org/datasets/ds007720",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "key": "dataset:openneuro:ds002720",
+      "kind": "dataset",
+      "label": "BCItempo",
+      "attrs": {
+        "id": "ds002720",
+        "access": "graphql",
+        "format": "BIDS"
+      },
+      "source": "OpenNeuro",
+      "url": "https://openneuro.org/datasets/ds002720",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "key": "dataset:openneuro:ds002724",
+      "kind": "dataset",
+      "label": "phBCMItraining",
+      "attrs": {
+        "id": "ds002724",
+        "access": "graphql",
+        "format": "BIDS"
+      },
+      "source": "OpenNeuro",
+      "url": "https://openneuro.org/datasets/ds002724",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "key": "dataset:openneuro:ds002722",
+      "kind": "dataset",
+      "label": "phBCMIcalibration",
+      "attrs": {
+        "id": "ds002722",
+        "access": "graphql",
+        "format": "BIDS"
+      },
+      "source": "OpenNeuro",
+      "url": "https://openneuro.org/datasets/ds002722",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "key": "dataset:dandi:000003",
+      "kind": "dataset",
+      "label": "Physiological Properties and Behavioral Correlates of Hippocampal Granule Cells and Mossy Cells",
+      "attrs": {
+        "id": "000003",
+        "access": "rest",
+        "format": "NWB",
+        "contact": "Senzai, Yuta",
+        "assets": 101,
+        "status": "Valid"
+      },
+      "source": "DANDI",
+      "url": "https://dandiarchive.org/dandiset/000003",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "key": "dataset:dandi:000005",
+      "kind": "dataset",
+      "label": "Electrophysiology data from thalamic and cortical neurons during somatosensation",
+      "attrs": {
+        "id": "000005",
+        "access": "rest",
+        "format": "NWB",
+        "contact": "Svoboda, Karel",
+        "assets": 148,
+        "status": "Valid"
+      },
+      "source": "DANDI",
+      "url": "https://dandiarchive.org/dandiset/000005",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "key": "dataset:dandi:000006",
+      "kind": "dataset",
+      "label": "Mouse anterior lateral motor cortex (ALM) in delay response task",
+      "attrs": {
+        "id": "000006",
+        "access": "rest",
+        "format": "NWB",
+        "contact": "Svoboda, Karel",
+        "assets": 53,
+        "status": "Valid"
+      },
+      "source": "DANDI",
+      "url": "https://dandiarchive.org/dandiset/000006",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "key": "dataset:dandi:000008",
+      "kind": "dataset",
+      "label": "Phenotypic variation within and across transcriptomic cell types in mouse motor cortex",
+      "attrs": {
+        "id": "000008",
+        "access": "rest",
+        "format": "NWB",
+        "contact": "Tolias, Andreas Savas",
+        "assets": 1328,
+        "status": "Valid"
+      },
+      "source": "DANDI",
+      "url": "https://dandiarchive.org/dandiset/000008",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "key": "dataset:bnci-horizon-2020:001-2014",
+      "kind": "dataset",
+      "label": "1. Four class motor imagery (001-2014)",
+      "attrs": {
+        "id": "001-2014",
+        "access": "html",
+        "participants": null,
+        "signals": null,
+        "description": "This four class motor imagery data set was originally released as data set 2a of the BCI Competition IV ."
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2014/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "key": "dataset:bnci-horizon-2020:002-2014",
+      "kind": "dataset",
+      "label": "2. Two class motor imagery (002-2014)",
+      "attrs": {
+        "id": "002-2014",
+        "access": "html",
+        "participants": 14,
+        "signals": 15,
+        "description": "Participants 14 Signals 15 EEG Data S01T , S01E , S02T , S02E , S03T , S03E , S04T , S04E , S05T , S05E , S06T , S06E , S07T , S07E , S08T , S08E , S09T , S09E "
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/002-2014/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "key": "dataset:bnci-horizon-2020:003-2014",
+      "kind": "dataset",
+      "label": "3. Mental arithmetic (003-2014)",
+      "attrs": {
+        "id": "003-2014",
+        "access": "html",
+        "participants": 8,
+        "signals": 52,
+        "description": "Participants 8 Signals 52 fNIRS Data S01 , S02 , S03 , S04 , S05 , S06 , S07 , S08 License Creative Commons Attribution No Derivatives license (CC BY-ND 4.0) Li"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/003-2014/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "key": "dataset:bnci-horizon-2020:004-2014",
+      "kind": "dataset",
+      "label": "4. Two class motor imagery (004-2014)",
+      "attrs": {
+        "id": "004-2014",
+        "access": "html",
+        "participants": null,
+        "signals": null,
+        "description": "This two class motor imagery data set was originally released as data set 2b of the BCI Competition IV ."
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/004-2014/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "key": "dataset:bnci-horizon-2020:005-2014",
+      "kind": "dataset",
+      "label": "5. Auditory oddball during hypnosis (005-2014)",
+      "attrs": {
+        "id": "005-2014",
+        "access": "html",
+        "participants": 2,
+        "signals": 27,
+        "description": "Participants 2 Signals 27 EEG, 4 EOG Data S01 , S02 License Creative Commons Attribution Non-Commercial No Derivatives license (CC BY-NC-ND 4.0) Licensor Prof. "
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/005-2014/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "key": "dataset:bnci-horizon-2020:006-2014",
+      "kind": "dataset",
+      "label": "6. SCP training in stroke (006-2014)",
+      "attrs": {
+        "id": "006-2014",
+        "access": "html",
+        "participants": 2,
+        "signals": 1,
+        "description": "Participants 2 Signals 1 EEG, 1 EOG Data S01 , S02 License Creative Commons Attribution Non-Commercial No Derivatives license (CC BY-NC-ND 4.0) Licensor Prof. D"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/006-2014/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "key": "dataset:bnci-horizon-2020:007-2014",
+      "kind": "dataset",
+      "label": "7. Two-finger gameplay with deliberately failing controller (007-2014)",
+      "attrs": {
+        "id": "007-2014",
+        "access": "html",
+        "participants": 10,
+        "signals": 32,
+        "description": "Participants 10 Signals 32 EEG, 4 EOG, 4 EMG, temperature, GSR, respiration Data S00 , S01 , S02 , S04 , S05 , S06 , S07 , S09 , S10 , S11 License Creative Comm"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/007-2014/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "key": "dataset:bnci-horizon-2020:008-2014",
+      "kind": "dataset",
+      "label": "8. P300 speller with ALS patients (008-2014)",
+      "attrs": {
+        "id": "008-2014",
+        "access": "html",
+        "participants": 8,
+        "signals": 8,
+        "description": "Participants 8 Signals 8 EEG Data A01 , A02 , A03 , A04 , A05 , A06 , A07 , A08 License Creative Commons Attribution Non-Commercial No Derivatives license (CC B"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/008-2014/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "key": "dataset:bnci-horizon-2020:009-2014",
+      "kind": "dataset",
+      "label": "9. Covert and overt ERP-based BCI (009-2014)",
+      "attrs": {
+        "id": "009-2014",
+        "access": "html",
+        "participants": 10,
+        "signals": 16,
+        "description": "Participants 10 Signals 16 EEG Data A01S , A01G , A02S , A02G , A03S , A03G , A04S , A04G , A05S , A05G , A06S , A06G , A07S , A07G , A08S , A08G , A09S , A09G "
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/009-2014/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "key": "dataset:bnci-horizon-2020:001-2015",
+      "kind": "dataset",
+      "label": "10. Autocalibration and recurrent adaptation (001-2015)",
+      "attrs": {
+        "id": "001-2015",
+        "access": "html",
+        "participants": 12,
+        "signals": 13,
+        "description": "Participants 12 Signals 13 EEG Data S01A , S01B , S02A , S02B , S03A , S03B , S04A , S04B , S05A , S05B , S06A , S06B , S07A , S07B , S08A , S08B , S08C , S09A "
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2015/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "key": "dataset:bnci-horizon-2020:002-2015",
+      "kind": "dataset",
+      "label": "11. Neuroprosthetic control of an EEG/EOG BNCI (002-2015)",
+      "attrs": {
+        "id": "002-2015",
+        "access": "html",
+        "participants": 1,
+        "signals": 5,
+        "description": "Participants 1 Signals 5 EEG, 1 EOG Data S01 License Creative Commons Attribution Non-Commercial No Derivatives license (CC BY-NC-ND 4.0) Licensor Applied Neuro"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/002-2015/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "key": "dataset:bnci-horizon-2020:003-2015",
+      "kind": "dataset",
+      "label": "12. Visual P300 speller (003-2015)",
+      "attrs": {
+        "id": "003-2015",
+        "access": "html",
+        "participants": 10,
+        "signals": 8,
+        "description": "Participants 10 Signals 8 EEG Data s1 , s2 , s3 , s4 , s5 , s6 , s7 , s8 , s9 , s10 License Creative Commons Attribution Non-Commercial No Derivatives license ("
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/003-2015/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "key": "dataset:bnci-horizon-2020:004-2015",
+      "kind": "dataset",
+      "label": "13. Individual imagery (004-2015)",
+      "attrs": {
+        "id": "004-2015",
+        "access": "html",
+        "participants": 9,
+        "signals": 30,
+        "description": "Participants 9 Signals 30 EEG Data A , C , D , E , F , G , H , J , L License Creative Commons Attribution Non-Commercial No Derivatives license (CC BY-NC-ND 4.0"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/004-2015/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "key": "dataset:bnci-horizon-2020:011-2015",
+      "kind": "dataset",
+      "label": "20. ECoG-based BCI based on cognitive control (011-2015)",
+      "attrs": {
+        "id": "011-2015",
+        "access": "html",
+        "participants": 1,
+        "signals": 112,
+        "description": "Participants 1 Signals 112 subdural ECoG Data 1 , 2 License Creative Commons Attribution No Derivatives license (CC BY-ND 4.0) Licensor Brain Center Rudolf Magn"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/011-2015/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "key": "dataset:bnci-horizon-2020:013-2015",
+      "kind": "dataset",
+      "label": "22. Monitoring error-related potentials (013-2015)",
+      "attrs": {
+        "id": "013-2015",
+        "access": "html",
+        "participants": 6,
+        "signals": 64,
+        "description": "Participants 6 Signals 64 EEG Data S01-1 , S01-2 , S02-1 , S02-2 , S03-1 , S03-2 , S04-1 , S04-2 , S05-1 , S05-2 , S06-1 , S06-2 License Creative Commons Attrib"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/013-2015/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "key": "dataset:bnci-horizon-2020:001-2016",
+      "kind": "dataset",
+      "label": "23. ECoG-based 1-class motor imagery BCI (001-2016)",
+      "attrs": {
+        "id": "001-2016",
+        "access": "html",
+        "participants": 10,
+        "signals": 64,
+        "description": "Participants 10 Signals 64-106 subdural ECoG Data S01 , S02 , S03 , S04 , S05 , S06 , S07 , S08 , S09 , S10 License Creative Commons Attribution No Derivatives "
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2016/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "key": "dataset:bnci-horizon-2020:002-2016",
+      "kind": "dataset",
+      "label": "24. Emergency braking during simulated driving (002-2016)",
+      "attrs": {
+        "id": "002-2016",
+        "access": "html",
+        "participants": 18,
+        "signals": 59,
+        "description": "Participants 18 Signals 59 EEG, 2 EOG, 1 EMG, 7 others Data VPae , VPbba , VPgab , VPgag , VPgam , VPja , VPbad , VPdx , VPgac , VPgah , VPih , VPsaj , VPbax , "
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/002-2016/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "key": "dataset:bnci-horizon-2020:001-2017",
+      "kind": "dataset",
+      "label": "25. Upper limb movement decoding from EEG (001-2017)",
+      "attrs": {
+        "id": "001-2017",
+        "access": "html",
+        "participants": 15,
+        "signals": 61,
+        "description": "Participants 15 Signals 61 EEG, 3 EOG, movement data Data S01_ME , S01_MI , S02_ME , S02_MI , S03_ME , S03_MI , S04_ME , S04_MI , S05_ME , S05_MI , S06_ME , S06"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2017/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "key": "dataset:bnci-horizon-2020:001-2019",
+      "kind": "dataset",
+      "label": "26. Attempted arm and hand movements in persons with spinal cord injury (001-2019)",
+      "attrs": {
+        "id": "001-2019",
+        "access": "html",
+        "participants": 10,
+        "signals": 61,
+        "description": "Participants 10 Signals 61 EEG, 3 EOG, movement data Data P01 , P02 , P03 , P04 , P05 , P06 , P07 , P08 , P09 , P09 online session 1 train , P09 online session "
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2019/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "key": "dataset:bnci-horizon-2020:001-2020",
+      "kind": "dataset",
+      "label": "27. Reach and Grasp movement decoding from EEG with gel, water and dry electrodes (001-2020)",
+      "attrs": {
+        "id": "001-2020",
+        "access": "html",
+        "participants": 15,
+        "signals": 32,
+        "description": "Participants 15 each recording Signals 32 EEG, 6 EOG, movement data Data G01 , G02 , G03 , G04 , G05 , G06 , G07 , G08 , G09 , G10 , G11 , G12 , G13 , G14 , G15"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2020/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "key": "dataset:bnci-horizon-2020:002-2020",
+      "kind": "dataset",
+      "label": "28. Spatial attention shifts to colored items - an EEG-based BCI (002-2020)",
+      "attrs": {
+        "id": "002-2020",
+        "access": "html",
+        "participants": 18,
+        "signals": 29,
+        "description": "Participants 18 Signals 29 EEG, 2 EOG Data P01 , P02 , P03 , P04 , P05 , P06 , P07 , P08 , P09 , P10 , P11 , P12 , P13 , P14 , P15 , P16 , P17 , P18 License Cre"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/002-2020/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "key": "dataset:bnci-horizon-2020:001-2022",
+      "kind": "dataset",
+      "label": "29. EEG Correlates of Difficulty Level (001-2022)",
+      "attrs": {
+        "id": "001-2022",
+        "access": "html",
+        "participants": 13,
+        "signals": null,
+        "description": "Participants 13 Signals EEG, EOG Data P01b , P01w , P02b , P02w , P03b , P03w , P04b , P04w , P05b , P05w , P06b , P06w , P07b , P07w , P08b , P08w , P09b , P09"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2022/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "key": "dataset:bnci-horizon-2020:001-2024",
+      "kind": "dataset",
+      "label": "30. Handwritten Character Classification from EEG through Continuous Kinematic Decoding (001-2024)",
+      "attrs": {
+        "id": "001-2024",
+        "access": "html",
+        "participants": 20,
+        "signals": 60,
+        "description": "Participants 20 Signals 60 EEG, 4 EOG, Movement Data S01 , S02 , S03 , S04 , S05 , S06 , S07 , S08 , S09 , S10 , S11 , S12 , S13 , S14 , S15 , S16 , S17 , S18 ,"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2024/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "key": "dataset:bnci-horizon-2020:001-2025",
+      "kind": "dataset",
+      "label": "31. Simultaneous encoding of speed, distance, and direction in discrete reaching: an EEG study (001-2025)",
+      "attrs": {
+        "id": "001-2025",
+        "access": "html",
+        "participants": 20,
+        "signals": 60,
+        "description": "Participants 20 Signals 60 EEG, 4 EOG, Movement Data p001 , p002 , p003 , p004 , p005 , p006 , p007 , p008 , p009 , p010 , p011 , p012 , p013 , p014 , p015 , p0"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2025/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "key": "dataset:bnci-horizon-2020:002-2025",
+      "kind": "dataset",
+      "label": "32. Continuous 2D trajectory decoding from attempted movement in able-bodied participants  (002-2025)",
+      "attrs": {
+        "id": "002-2025",
+        "access": "html",
+        "participants": 20,
+        "signals": 60,
+        "description": "Participants 20 Signals 60 EEG, 4 EOG, Movement Data fe3_ses1_perc0 , fe3_ses1_perc50 , fe3_ses1_perc100 , fe3_ses2_perc0 , fe3_ses2_perc50 , fe3_ses2_perc100 ,"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/002-2025/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "key": "dataset:bnci-horizon-2020:001-2026",
+      "kind": "dataset",
+      "label": "33. Asynchronous right-hand movements for brain click applications (001-2026)",
+      "attrs": {
+        "id": "001-2026",
+        "access": "html",
+        "participants": 25,
+        "signals": 60,
+        "description": "Participants 25 Signals 60 EEG, 4 EOG, Movement Data sub-s000 , sub-s001 , sub-s002 , sub-s003 , sub-s004 , sub-s005 , sub-s006 , sub-s007 , sub-s008 , sub-s009"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2026/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "key": "dataset:physionet:mimic-iv-ed-ext-triagesim",
+      "kind": "dataset",
+      "label": "MIMIC-IV-ED-Ext-TriageSim: A Dataset of Simulated Nurse-Patient Emergency Triage Dialogues Grounded in MIMIC-IV-ED Visits v1.0.0",
+      "attrs": {
+        "id": "mimic-iv-ed-ext-triagesim",
+        "access": "html",
+        "published": "Nov. 20, 2026",
+        "description": "A large-scale corpus of simulated nurse-patient emergency triage dialogues, each grounded in a real MIMIC-IV-ED visit and labelled with its recorded Emergency S"
+      },
+      "source": "PhysioNet",
+      "url": "https://physionet.org/content/mimic-iv-ed-ext-triagesim/1.0.0/",
+      "fetched_at": "2026-11-23T03:35:18+00:00"
+    },
+    {
+      "key": "dataset:physionet:vitaldb-anesllm",
+      "kind": "dataset",
+      "label": "VitalDB - AnesLLM: a dataset and benchmark based on real intraoperative anaesthetic decisions v1.0",
+      "attrs": {
+        "id": "vitaldb-anesllm",
+        "access": "html",
+        "published": "Nov. 20, 2026",
+        "description": "Real intraoperative anaesthetic decisions derived from VitalDB, each with the pre-decision patient state, the action taken and two consensus actions, for evalua"
+      },
+      "source": "PhysioNet",
+      "url": "https://physionet.org/content/vitaldb-anesllm/1.0/",
+      "fetched_at": "2026-11-23T03:35:18+00:00"
+    },
+    {
+      "key": "dataset:physionet:sentiment-icu-model",
+      "kind": "dataset",
+      "label": "SentimentICUModel: A Clinical Large Language Model for Clinical Sentiment Polarity Identification in ICU Clinical Notes v1.0.0",
+      "attrs": {
+        "id": "sentiment-icu-model",
+        "access": "html",
+        "published": "Nov. 19, 2026",
+        "description": "This model is a clinical large language model that effectively captures positivity or negativity (also referred to as clinical sentiment) about patients’ clinic"
+      },
+      "source": "PhysioNet",
+      "url": "https://physionet.org/content/sentiment-icu-model/1.0.0/",
+      "fetched_at": "2026-11-23T03:35:18+00:00"
+    },
+    {
+      "key": "dataset:physionet:noise-holter-database",
+      "kind": "dataset",
+      "label": "Noise Holter Database: a multi-device, multi-arrhythmia real-world clinical ECG signal quality benchmark v1.0.0",
+      "attrs": {
+        "id": "noise-holter-database",
+        "access": "html",
+        "published": "Nov. 17, 2026",
+        "description": "The Noise Holter Database provides 258 ambulatory ECGs featuring authentic noise and diverse arrhythmias. Segments are expert-annotated into three quality class"
+      },
+      "source": "PhysioNet",
+      "url": "https://physionet.org/content/noise-holter-database/1.0.0/",
+      "fetched_at": "2026-11-23T03:35:18+00:00"
+    },
+    {
+      "key": "dataset:neurovault:862",
+      "kind": "dataset",
+      "label": "AkiNikolaidis's temporary collection",
+      "attrs": {
+        "id": "862",
+        "access": "rest",
+        "images": 0,
+        "owner": "AkiNikolaidis"
+      },
+      "source": "NeuroVault",
+      "url": "https://neurovault.org/collections/862/",
+      "fetched_at": "2026-11-23T03:35:25+00:00"
+    },
+    {
+      "key": "dataset:neurovault:38",
+      "kind": "dataset",
+      "label": "AFNI_data6",
+      "attrs": {
+        "id": "38",
+        "access": "rest",
+        "images": 0,
+        "owner": "danielglen"
+      },
+      "source": "NeuroVault",
+      "url": "https://neurovault.org/collections/38/",
+      "fetched_at": "2026-11-23T03:35:25+00:00"
+    },
+    {
+      "key": "dataset:neurovault:55",
+      "kind": "dataset",
+      "label": "Naturally occurring future-focused thought predicts default mode network connectivity. ",
+      "attrs": {
+        "id": "55",
+        "access": "rest",
+        "images": 0,
+        "owner": "florence.ruby"
+      },
+      "source": "NeuroVault",
+      "url": "https://neurovault.org/collections/55/",
+      "fetched_at": "2026-11-23T03:35:25+00:00"
+    },
+    {
+      "key": "dataset:neurovault:72",
+      "kind": "dataset",
+      "label": "sylvia.morelli's temporary collection",
+      "attrs": {
+        "id": "72",
+        "access": "rest",
+        "images": 0,
+        "owner": "sylvia.morelli"
+      },
+      "source": "NeuroVault",
+      "url": "https://neurovault.org/collections/72/",
+      "fetched_at": "2026-11-23T03:35:25+00:00"
+    },
+    {
+      "key": "nct:NCT05880251",
+      "kind": "trial",
+      "label": "Operant Conditioning of Sensory Brain Responses to Reduce Phantom Limb Pain in People With Limb Amputation",
+      "attrs": {
+        "nct": "NCT05880251",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "enrollment": 20,
+        "conditions": [
+          "Phantom Limb Pain After Amputation",
+          "Lower Limb Amputation",
+          "Upper Limb Amputation",
+          "Phantom Pain",
+          "Chronic Pain"
+        ]
+      },
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT05880251",
+      "fetched_at": "2026-11-23T03:35:33+00:00"
+    },
+    {
+      "key": "org:va-office-of-research-and-development",
+      "kind": "organization",
+      "label": "VA Office of Research and Development",
+      "attrs": {},
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT05880251",
+      "fetched_at": "2026-11-23T03:35:33+00:00"
+    },
+    {
+      "key": "nct:NCT07472556",
+      "kind": "trial",
+      "label": "Using Motor Imagery-based Brain-computer Interface With Multiple Sclerosis Patients.",
+      "attrs": {
+        "nct": "NCT07472556",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "NA",
+        "enrollment": 40,
+        "conditions": [
+          "Multiple Sclerosis"
+        ]
+      },
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT07472556",
+      "fetched_at": "2026-11-23T03:35:33+00:00"
+    },
+    {
+      "key": "org:pasquale-arpaia",
+      "kind": "organization",
+      "label": "Pasquale Arpaia",
+      "attrs": {},
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT07472556",
+      "fetched_at": "2026-11-23T03:35:33+00:00"
+    },
+    {
+      "key": "nct:NCT02011399",
+      "kind": "trial",
+      "label": "Brain Computer Interfaces (Mu Rhythm Learning)",
+      "attrs": {
+        "nct": "NCT02011399",
+        "status": "TERMINATED",
+        "phase": null,
+        "enrollment": 7,
+        "conditions": [
+          "Mobility Impairments"
+        ]
+      },
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT02011399",
+      "fetched_at": "2026-11-23T03:35:33+00:00"
+    },
+    {
+      "key": "org:university-of-michigan",
+      "kind": "organization",
+      "label": "University of Michigan",
+      "attrs": {},
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT02011399",
+      "fetched_at": "2026-11-23T03:35:33+00:00"
+    },
+    {
+      "key": "nct:NCT03379532",
+      "kind": "trial",
+      "label": "BCI-controlled NMES in Subacute Stroke",
+      "attrs": {
+        "nct": "NCT03379532",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "enrollment": 31,
+        "conditions": [
+          "Stroke"
+        ]
+      },
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT03379532",
+      "fetched_at": "2026-11-23T03:35:33+00:00"
+    },
+    {
+      "key": "org:university-hospital-geneva",
+      "kind": "organization",
+      "label": "University Hospital, Geneva",
+      "attrs": {},
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT03379532",
+      "fetched_at": "2026-11-23T03:35:33+00:00"
+    },
+    {
+      "key": "pmid:34502636",
+      "kind": "publication",
+      "label": "Brain-Computer Interface: Advancement and Challenges",
+      "attrs": {
+        "pmid": "34502636",
+        "journal": "Sensors (Basel)",
+        "date": "2021 Aug 26",
+        "authors": [
+          "Mridha MF",
+          "Das SC",
+          "Kabir MM",
+          "Lima AA",
+          "Islam MR",
+          "Watanobe Y"
+        ]
+      },
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34502636/",
+      "fetched_at": "2026-11-23T03:35:47+00:00"
+    },
+    {
+      "key": "pmid:39275636",
+      "kind": "publication",
+      "label": "Brain Neuroplasticity Leveraging Virtual Reality and Brain-Computer Interface Technologies",
+      "attrs": {
+        "pmid": "39275636",
+        "journal": "Sensors (Basel)",
+        "date": "2024 Sep 3",
+        "authors": [
+          "Drigas A",
+          "Sideraki A"
+        ]
+      },
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39275636/",
+      "fetched_at": "2026-11-23T03:35:47+00:00"
+    },
+    {
+      "key": "pmid:37447849",
+      "kind": "publication",
+      "label": "State-of-the-Art on Brain-Computer Interface Technology",
+      "attrs": {
+        "pmid": "37447849",
+        "journal": "Sensors (Basel)",
+        "date": "2023 Jun 28",
+        "authors": [
+          "Peksa J",
+          "Mamchur D"
+        ]
+      },
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37447849/",
+      "fetched_at": "2026-11-23T03:35:47+00:00"
+    },
+    {
+      "key": "pmid:39523287",
+      "kind": "publication",
+      "label": "Neurosurgery and the Brain-Computer Interface",
+      "attrs": {
+        "pmid": "39523287",
+        "journal": "Adv Exp Med Biol",
+        "date": "2024",
+        "authors": [
+          "Rosenfeld JV"
+        ]
+      },
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39523287/",
+      "fetched_at": "2026-11-23T03:35:47+00:00"
+    },
+    {
+      "key": "fda510k:K781041",
+      "kind": "device",
+      "label": "ELECTROENCEPHALOGRAPH ACCUTRACE 100 (K781041)",
+      "attrs": {
+        "k_number": "K781041",
+        "class": "2",
+        "specialty": "N",
+        "decision": "SESE",
+        "decision_date": "1978-06-28"
+      },
+      "source": "openFDA 510(k)",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K781041",
+      "fetched_at": "2026-11-23T03:35:55+00:00"
+    },
+    {
+      "key": "org:beckman-instruments-inc",
+      "kind": "organization",
+      "label": "Beckman Instruments, Inc.",
+      "attrs": {},
+      "source": "openFDA 510(k)",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K781041",
+      "fetched_at": "2026-11-23T03:35:55+00:00"
+    },
+    {
+      "key": "fda510k:K896666",
+      "kind": "device",
+      "label": "P460, DG32 ELECTROENCEPHALOGRAPH (K896666)",
+      "attrs": {
+        "k_number": "K896666",
+        "class": "2",
+        "specialty": "N",
+        "decision": "SESE",
+        "decision_date": "1990-02-16"
+      },
+      "source": "openFDA 510(k)",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K896666",
+      "fetched_at": "2026-11-23T03:35:55+00:00"
+    },
+    {
+      "key": "org:teca-inc",
+      "kind": "organization",
+      "label": "Teca, Inc.",
+      "attrs": {
+        "_sources": [
+          "openFDA 510(k)"
+        ]
+      },
+      "source": "openFDA 510(k)",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K896666",
+      "fetched_at": "2026-11-23T03:35:55+00:00"
+    },
+    {
+      "key": "fda510k:K960170",
+      "kind": "device",
+      "label": "ELECTROENCEPHALOGRAPH (EEG) (K960170)",
+      "attrs": {
+        "k_number": "K960170",
+        "class": "2",
+        "specialty": "N",
+        "decision": "SESE",
+        "decision_date": "1996-03-01"
+      },
+      "source": "openFDA 510(k)",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K960170",
+      "fetched_at": "2026-11-23T03:35:55+00:00"
+    },
+    {
+      "key": "org:moberg-medical-inc",
+      "kind": "organization",
+      "label": "Moberg Medical, Inc.",
+      "attrs": {},
+      "source": "openFDA 510(k)",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K960170",
+      "fetched_at": "2026-11-23T03:35:55+00:00"
+    },
+    {
+      "key": "fda510k:K863749",
+      "kind": "device",
+      "label": "TECA/ECEM T5 PORTABLE ELECTROENCEPHALOGRAPH (K863749)",
+      "attrs": {
+        "k_number": "K863749",
+        "class": "2",
+        "specialty": "N",
+        "decision": "SESE",
+        "decision_date": "1986-10-06"
+      },
+      "source": "openFDA 510(k)",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K863749",
+      "fetched_at": "2026-11-23T03:35:55+00:00"
+    }
+  ],
+  "edges": [
+    {
+      "src": "dataset:openneuro:ds007720",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "OpenNeuro",
+      "url": "https://openneuro.org/datasets/ds007720",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "src": "dataset:openneuro:ds002720",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "OpenNeuro",
+      "url": "https://openneuro.org/datasets/ds002720",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "src": "dataset:openneuro:ds002724",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "OpenNeuro",
+      "url": "https://openneuro.org/datasets/ds002724",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "src": "dataset:openneuro:ds002722",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "OpenNeuro",
+      "url": "https://openneuro.org/datasets/ds002722",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "src": "dataset:dandi:000003",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "DANDI",
+      "url": "https://dandiarchive.org/dandiset/000003",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "src": "dataset:dandi:000005",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "DANDI",
+      "url": "https://dandiarchive.org/dandiset/000005",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "src": "dataset:dandi:000006",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "DANDI",
+      "url": "https://dandiarchive.org/dandiset/000006",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "src": "dataset:dandi:000008",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "DANDI",
+      "url": "https://dandiarchive.org/dandiset/000008",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "src": "dataset:bnci-horizon-2020:001-2014",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2014/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "src": "dataset:bnci-horizon-2020:002-2014",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/002-2014/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "src": "dataset:bnci-horizon-2020:003-2014",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/003-2014/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "src": "dataset:bnci-horizon-2020:004-2014",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/004-2014/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "src": "dataset:bnci-horizon-2020:005-2014",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/005-2014/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "src": "dataset:bnci-horizon-2020:006-2014",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/006-2014/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "src": "dataset:bnci-horizon-2020:007-2014",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/007-2014/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "src": "dataset:bnci-horizon-2020:008-2014",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/008-2014/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "src": "dataset:bnci-horizon-2020:009-2014",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/009-2014/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "src": "dataset:bnci-horizon-2020:001-2015",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2015/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "src": "dataset:bnci-horizon-2020:002-2015",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/002-2015/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "src": "dataset:bnci-horizon-2020:003-2015",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/003-2015/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "src": "dataset:bnci-horizon-2020:004-2015",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/004-2015/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "src": "dataset:bnci-horizon-2020:011-2015",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/011-2015/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "src": "dataset:bnci-horizon-2020:013-2015",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/013-2015/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "src": "dataset:bnci-horizon-2020:001-2016",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2016/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "src": "dataset:bnci-horizon-2020:002-2016",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/002-2016/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "src": "dataset:bnci-horizon-2020:001-2017",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2017/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "src": "dataset:bnci-horizon-2020:001-2019",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2019/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "src": "dataset:bnci-horizon-2020:001-2020",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2020/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "src": "dataset:bnci-horizon-2020:002-2020",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/002-2020/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "src": "dataset:bnci-horizon-2020:001-2022",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2022/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "src": "dataset:bnci-horizon-2020:001-2024",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2024/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "src": "dataset:bnci-horizon-2020:001-2025",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2025/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "src": "dataset:bnci-horizon-2020:002-2025",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/002-2025/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "src": "dataset:bnci-horizon-2020:001-2026",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2026/",
+      "fetched_at": "2026-11-23T03:35:10+00:00"
+    },
+    {
+      "src": "dataset:physionet:mimic-iv-ed-ext-triagesim",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "PhysioNet",
+      "url": "https://physionet.org/content/mimic-iv-ed-ext-triagesim/1.0.0/",
+      "fetched_at": "2026-11-23T03:35:18+00:00"
+    },
+    {
+      "src": "dataset:physionet:vitaldb-anesllm",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "PhysioNet",
+      "url": "https://physionet.org/content/vitaldb-anesllm/1.0/",
+      "fetched_at": "2026-11-23T03:35:18+00:00"
+    },
+    {
+      "src": "dataset:physionet:sentiment-icu-model",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "PhysioNet",
+      "url": "https://physionet.org/content/sentiment-icu-model/1.0.0/",
+      "fetched_at": "2026-11-23T03:35:18+00:00"
+    },
+    {
+      "src": "dataset:physionet:noise-holter-database",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "PhysioNet",
+      "url": "https://physionet.org/content/noise-holter-database/1.0.0/",
+      "fetched_at": "2026-11-23T03:35:18+00:00"
+    },
+    {
+      "src": "dataset:neurovault:862",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "NeuroVault",
+      "url": "https://neurovault.org/collections/862/",
+      "fetched_at": "2026-11-23T03:35:25+00:00"
+    },
+    {
+      "src": "dataset:neurovault:38",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "NeuroVault",
+      "url": "https://neurovault.org/collections/38/",
+      "fetched_at": "2026-11-23T03:35:25+00:00"
+    },
+    {
+      "src": "dataset:neurovault:55",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "NeuroVault",
+      "url": "https://neurovault.org/collections/55/",
+      "fetched_at": "2026-11-23T03:35:25+00:00"
+    },
+    {
+      "src": "dataset:neurovault:72",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "NeuroVault",
+      "url": "https://neurovault.org/collections/72/",
+      "fetched_at": "2026-11-23T03:35:25+00:00"
+    },
+    {
+      "src": "nct:NCT05880251",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT05880251",
+      "fetched_at": "2026-11-23T03:35:33+00:00"
+    },
+    {
+      "src": "org:va-office-of-research-and-development",
+      "dst": "nct:NCT05880251",
+      "rel": "sponsors",
+      "attrs": {
+        "role": "lead"
+      },
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT05880251",
+      "fetched_at": "2026-11-23T03:35:33+00:00"
+    },
+    {
+      "src": "nct:NCT07472556",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT07472556",
+      "fetched_at": "2026-11-23T03:35:33+00:00"
+    },
+    {
+      "src": "org:pasquale-arpaia",
+      "dst": "nct:NCT07472556",
+      "rel": "sponsors",
+      "attrs": {
+        "role": "lead"
+      },
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT07472556",
+      "fetched_at": "2026-11-23T03:35:33+00:00"
+    },
+    {
+      "src": "nct:NCT02011399",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT02011399",
+      "fetched_at": "2026-11-23T03:35:33+00:00"
+    },
+    {
+      "src": "org:university-of-michigan",
+      "dst": "nct:NCT02011399",
+      "rel": "sponsors",
+      "attrs": {
+        "role": "lead"
+      },
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT02011399",
+      "fetched_at": "2026-11-23T03:35:33+00:00"
+    },
+    {
+      "src": "nct:NCT03379532",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT03379532",
+      "fetched_at": "2026-11-23T03:35:33+00:00"
+    },
+    {
+      "src": "org:university-hospital-geneva",
+      "dst": "nct:NCT03379532",
+      "rel": "sponsors",
+      "attrs": {
+        "role": "lead"
+      },
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT03379532",
+      "fetched_at": "2026-11-23T03:35:33+00:00"
+    },
+    {
+      "src": "pmid:34502636",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34502636/",
+      "fetched_at": "2026-11-23T03:35:47+00:00"
+    },
+    {
+      "src": "pmid:39275636",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39275636/",
+      "fetched_at": "2026-11-23T03:35:47+00:00"
+    },
+    {
+      "src": "pmid:37447849",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37447849/",
+      "fetched_at": "2026-11-23T03:35:47+00:00"
+    },
+    {
+      "src": "pmid:39523287",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39523287/",
+      "fetched_at": "2026-11-23T03:35:47+00:00"
+    },
+    {
+      "src": "fda510k:K781041",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "openFDA 510(k)",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K781041",
+      "fetched_at": "2026-11-23T03:35:55+00:00"
+    },
+    {
+      "src": "org:beckman-instruments-inc",
+      "dst": "fda510k:K781041",
+      "rel": "manufactures",
+      "attrs": {
+        "k_number": "K781041"
+      },
+      "source": "openFDA 510(k)",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K781041",
+      "fetched_at": "2026-11-23T03:35:55+00:00"
+    },
+    {
+      "src": "fda510k:K896666",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "openFDA 510(k)",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K896666",
+      "fetched_at": "2026-11-23T03:35:55+00:00"
+    },
+    {
+      "src": "org:teca-inc",
+      "dst": "fda510k:K896666",
+      "rel": "manufactures",
+      "attrs": {
+        "k_number": "K896666"
+      },
+      "source": "openFDA 510(k)",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K896666",
+      "fetched_at": "2026-11-23T03:35:55+00:00"
+    },
+    {
+      "src": "fda510k:K960170",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "openFDA 510(k)",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K960170",
+      "fetched_at": "2026-11-23T03:35:55+00:00"
+    },
+    {
+      "src": "org:moberg-medical-inc",
+      "dst": "fda510k:K960170",
+      "rel": "manufactures",
+      "attrs": {
+        "k_number": "K960170"
+      },
+      "source": "openFDA 510(k)",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K960170",
+      "fetched_at": "2026-11-23T03:35:55+00:00"
+    },
+    {
+      "src": "fda510k:K863749",
+      "dst": "topic:brain-computer-interface",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "brain-computer interface"
+      },
+      "source": "openFDA 510(k)",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K863749",
+      "fetched_at": "2026-11-23T03:35:55+00:00"
+    },
+    {
+      "src": "org:teca-inc",
+      "dst": "fda510k:K863749",
+      "rel": "manufactures",
+      "attrs": {
+        "k_number": "K863749"
+      },
+      "source": "openFDA 510(k)",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K863749",
+      "fetched_at": "2026-11-23T03:35:55+00:00"
+    }
+  ]
+}
