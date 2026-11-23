@@ -913,6 +913,35 @@ README 而不是藏在代码里。
 3. 联大阈值。一致性 > 0.5 会留下 11252 条边，占全部国家对 61%——"多数国家多数时候意见相同"
    把其它每一层都淹掉了。改到 0.75，边变成"投票站在一起"，丢掉的 10796 对写在 gaps 里。
 
+
+### 企业层（GLEIF）：注册国与跨境母子公司，以及为什么不按行业码过滤
+
+"按 NACE 行业码过滤"这条路不存在——实测 GLEIF 的 lei-records 里 entity 只有 legalName /
+address / status / category 这些字段，没有行业码。所以判据换成两条硬的：
+
+1. 名字必须落在医疗锚词上（neuro / biotech / pharma / therapeut / medical / diagnos /
+   surgic / implant / prosthe / rehabilit / genom / clinic），裸的 brain 不算，因为实测
+   命中里 BRAIN PETROLEUM（迪拜石油贸易）、BRAIN-SOL（太阳能）、IT-Brain Software（软件）
+   全都含 brain，一个都不是主题。分档 strong/weak/off，只有 strong 进结论。
+2. 母公司关系直接取 GLEIF 的 direct-parent / ultimate-parent，"跨境母子公司"因此是登记
+   数据而不是名字猜测。
+
+三条实测的坑，每个都会给出看起来正常、其实全错的答案：
+
+- 关系里的节点字段叫 `id`，不是 `nodeID`。读 nodeID 时每一条都是 None，110 家企业零条母
+  公司关系，而请求返回 200——一层数据静默变空。
+- 搜索用 `filter[entity.legalName]` 是精确匹配，14 个龙头只找到 1 个；`filter[fulltext]`
+  才找到 16 个。
+- 只做前缀匹配会把养老金计划、爱尔兰子公司当成集团总部：Medtronic → "Medtronic Defined
+  Contribution Plan Master Trust"，Boston Scientific → "BOSTON SCIENTIFIC PENSION PLAN"，
+  Pfizer → "PFIZER CONSUMER HEALTHCARE"，每一个都会把公司放进错的国家。改成"名字 = 查询
+  名 + 只有法律后缀"且国别必须一致的形状判据后，38 个龙头确认 16 个，剩下 22 个留空——
+  留空是对的，编一个更糟。
+
+顺带修掉一个不报错的死锁：缓存写盘用的普通 Lock 被嵌套获取（gleif_record → _save），
+线程等自己，进度卡在 32/110 几分钟毫无输出，看起来和网速慢一模一样。换成 RLock。
+
+
 复现：
 
     python -m entitygraph.cli geo --out all.graph.json          # 只吃缓存，秒级，不烧额度

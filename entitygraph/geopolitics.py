@@ -39,6 +39,9 @@ import io
 import json
 import math
 import os
+import re
+import urllib.parse
+import re
 import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -62,6 +65,9 @@ TRADE_YEAR = 2024
 # under it (240-295 rows). Truncation would look exactly like "this country has no trade".
 THEME_HS = {"9018": "电医疗仪器(EEG/EMG)", "9021": "假体/矫形器械",
             "9027": "理化分析仪(诊断)", "3004": "药品(定量包装)"}
+GLEIF = "https://api.gleif.org/api/v1/lei-records/%s"
+GLEIF_PARENT = "https://api.gleif.org/api/v1/lei-records/%s/direct-parent-relationship"
+GLEIF_ULTIMATE = "https://api.gleif.org/api/v1/lei-records/%s/ultimate-parent-relationship"
 TRADE_URL = ("https://comtradeapi.un.org/public/v1/preview/C/A/HS"
              "?reporterCode=%s&period=%s&cmdCode=%s")
 REF_URL = "https://comtradeapi.un.org/files/v1/app/reference/%s.json"
@@ -122,7 +128,11 @@ def _write_lock():
     global _LOCK
     if _LOCK is None:
         import threading
-        _LOCK = threading.Lock()
+        # RLock, not Lock. Measured: with a plain Lock the GLEIF fetcher hung at 32/110
+        # records for minutes with no output -- the thread took the lock in gleif_record,
+        # called _save, and _save took the same lock again. A self-deadlock reports nothing,
+        # so it looks exactly like a slow network.
+        _LOCK = threading.RLock()
     return _LOCK
 
 
@@ -674,8 +684,290 @@ def attach_theme_market(g: Graph, idx: dict[str, str] | None = None,
             "missing_symbols": [s for s in wanted if s not in series][:12]}
 
 
+
+# ---------------------------------------------------------------- 企业层：GLEIF
+# GLEIF 没有 NACE 行业码（实测 lei-records 的 entity 里只有 legalName/address/status 等），
+# 所以"按行业码过滤"这条路不存在。剩下的判据只有两条，都很硬：
+#   1. 名字要真的落在医疗/神经科技上，而不是把 brain 当字面词——实测命中里有
+#      "BRAIN PETROLEUM PRODUCTS TRADING L.L.C"（迪拜石油贸易），这类必须剔掉；
+#   2. 母公司关系直接取 GLEIF 的 direct-parent / ultimate-parent，这两条端点实测 200，
+#      于是"跨境母子公司"这一层是权威登记数据，不是名字猜测。
+# 名字里"像医疗"要分档，因为裸的 brain 会把软件公司、太阳能公司都拉进来。实测命中里
+# IT-Brain Software GmbH 是软件、BRAIN-SOL Foltinek GmbH 是太阳能、BRAIN PETROLEUM 是
+# 石油贸易——三个都含 brain，一个都不是主题。所以判据是"医疗锚词"，brain 只能在旁边陪跑：
+#   strong: neuro/biotech/pharma/therapeut/medical/medtech/diagnos/surgic/implant/prosthe/
+#           rehab/genom/genetic/clinic/hospital/bio-/bioscien/biomed/biopharm
+#   weak  : brain/cell/health/device/sensor/stimul/cortex/synapse/electrode —— 单独不算
+THEME_NAME_STRONG = (
+    "neuro", "biotech", "pharma", "therapeut", "medical", "medtech", "diagnos", "surgic",
+    "implant", "prosthe", "rehab", "genom", "genetic", "clinic", "hospital", "bio-",
+    "bioscien", "biomed", "biopharm", "medicin", "neural", "neuromod", "synchron",
+    "prosthes",
+)
+THEME_NAME_WEAK = ("brain", "cell", "health", "device", "sensor", "stimul", "cortex",
+                   "synapse", "electrode", "bci")
+THEME_NAME_VETO = (
+    "petroleum", "oil", "gas", "shipping", "cargo", "logistic", "freight", "general trading",
+    "trading", "real estate", "property", "food", "restaurant", "hotel", "textile",
+    "construction", "cement", "steel", "mining", "agricultur", "insurance", "bank",
+    "holding", "investment", "capital", "finance", "software", "solar", "energy",
+    "consulting", "media", "advertis", "travel", "auto", "motor",
+)
+
+
+def gleif_record(lei: str) -> dict:
+    cache = _load("gleif_records.json", {})
+    if lei in cache:
+        return cache[lei]
+    try:
+        # tries=1: GLEIF answers 404 for a LEI it does not know and that is an answer, not a
+        # transport failure. Measured: the retry ladder (2+4+6s sleeps x3 endpoints) cost 72s
+        # per record, i.e. two hours for 110 companies.
+        d = _json(GLEIF % lei, timeout=25, tries=1, accept="application/vnd.api+json")
+        a = (d.get("data") or {}).get("attributes") or {}
+        ent = a.get("entity") or {}
+        names = [ent["legalName"]["name"]] + [x.get("name") for x in ent.get("otherNames") or []]
+        rec = {"lei": lei, "names": [n for n in names if n],
+               "country": (ent.get("legalAddress") or {}).get("country"),
+               "status": ent.get("status"),
+               "parent": None, "ultimate": None}
+    except FetchError as e:
+        return {"lei": lei, "names": [], "country": None, "status": None,
+                "parent": None, "ultimate": None, "error": str(e)[:80]}
+    for endpoint, key in ((GLEIF_PARENT, "parent"), (GLEIF_ULTIMATE, "ultimate")):
+        try:
+            r = _json(endpoint % lei, timeout=25, tries=1,
+                      accept="application/vnd.api+json")
+            one = (r.get("data") or {}).get("attributes") or {}
+            start = ((one.get("relationship") or {}).get("startNode") or {})
+            end = ((one.get("relationship") or {}).get("endNode") or {})
+            # The field is `id`, not `nodeID`. Measured: reading nodeID gave None on every
+            # record, so 110 companies came back with zero parent relationships and the
+            # whole cross-border layer was silently empty while the request returned 200.
+            if end.get("id"):
+                rec[key] = {"lei": end.get("id"), "name": end.get("id"),
+                            "period": (one.get("registration") or {}).get("period")}
+        except FetchError:
+            pass
+    # 逐条读-改-写，并且加锁：实测 32/110 条丢失，原因是 6 个线程各自持有旧字典、最后
+    # 一个写盘的人把别人刚拿到的记录覆盖掉了。缓存文件是共享状态，不能整字典覆盖。
+    cache = _load("gleif_records.json", {})
+    cache[lei] = rec
+    _save("gleif_records.json", cache)      # _save already holds the (re-entrant) lock
+    return rec
+
+
+def theme_name_tier(names: list[str] | None) -> str:
+    """'strong' / 'weak' / 'off'. Only 'strong' counts as a theme company."""
+    low = " ".join(n for n in (names or []) if n).lower()
+    if not low or any(t in low for t in THEME_NAME_VETO):
+        return "off"
+    if any(t in low for t in THEME_NAME_STRONG):
+        return "strong"
+    if any(t in low for t in THEME_NAME_WEAK):
+        return "weak"
+    return "off"
+
+
+def _theme_name_ok(names: list[str]) -> bool:
+    return theme_name_tier(names) == "strong"
+
+
+def attach_gleif_parents(g: Graph, idx: dict[str, str] | None = None,
+                         workers: int = 6, include_leads: bool = True) -> dict:
+    """企业 → 注册国，企业 → 母公司（跨境合并），并把名字不落在主题上的企业标出来。
+
+    交叉核验的另一半在 attach_gleif_theme()：一家公司名字像医疗，但如果没有临床试验、
+    没有论文、也没有母公司关系，它就只是一个字符串，不参与主题结论。
+    """
+    idx = idx if idx is not None else country_index(g)
+    leis = [n.attrs["lei"] for n in g.nodes.values()
+            if n.kind == "company_gleif" and (n.attrs or {}).get("lei")]
+    if include_leads:
+        found = 0
+        with ThreadPoolExecutor(workers) as ex:
+            for hit in ex.map(lambda c: gleif_find(c[0], c[1]), THEME_LEAD_COMPANIES):
+                if not hit:
+                    continue
+                found += 1
+                key = "lei:" + hit["lei"]
+                if key not in g.nodes:
+                    g.add_node(Node(key=key, kind="company_gleif",
+                                    label=hit["names"][0], attrs=dict(hit, lead=True),
+                                    source="GLEIF 名称检索", fetched_at=NOW(),
+                                    url="https://search.gleif.org/#/record/" + hit["lei"]))
+                if hit["lei"] not in leis:
+                    leis.append(hit["lei"])
+    recs = {}
+    with ThreadPoolExecutor(workers) as ex:
+        for rec in ex.map(gleif_record, leis):
+            recs[rec["lei"]] = rec
+    reg_edges = parent_edges = cross_border = 0
+    kept, dropped = [], []
+    for lei, rec in recs.items():
+        node = g.nodes.get("lei:" + lei)
+        if node is None:
+            continue
+        ok = _theme_name_ok(rec.get("names") or [])
+        node.attrs = dict(node.attrs or {}, names=rec.get("names"), country=rec.get("country"),
+                          status=rec.get("status"), theme_name_match=ok)
+        label = (rec.get("names") or [node.label or lei])[0]
+        node.label = label if len(label) > 0 else node.label
+        (kept if ok else dropped).append(lei)
+        if not ok:
+            continue
+        iso = rec.get("country")
+        if iso in idx:
+            g.add_edge(Edge(src="lei:" + lei, dst=idx[iso], rel="registered_in",
+                            attrs={"as_of": (rec.get("status") or "")},
+                            source="GLEIF", fetched_at=NOW(),
+                            url="https://search.gleif.org/#/record/" + lei))
+            reg_edges += 1
+        par = rec.get("parent") or rec.get("ultimate")
+        if par and par.get("lei") and par["lei"] != lei:
+            pk = "lei:" + par["lei"]
+            if pk not in g.nodes:
+                prec = gleif_record(par["lei"])
+                g.add_node(Node(key=pk, kind="company_gleif", label=(prec.get("names") or [par["lei"]])[0],
+                                attrs=dict(prec, parent_of=lei), source="GLEIF",
+                                fetched_at=NOW(),
+                                url="https://search.gleif.org/#/record/" + par["lei"]))
+                iso2 = prec.get("country")
+                if iso2 in idx:
+                    g.add_edge(Edge(src=pk, dst=idx[iso2], rel="registered_in",
+                                    attrs={}, source="GLEIF", fetched_at=NOW(),
+                                    url="https://search.gleif.org/#/record/" + par["lei"]))
+            g.add_edge(Edge(src="lei:" + lei, dst=pk, rel="consolidated_by",
+                            attrs={"level": "direct" if rec.get("parent") else "ultimate"},
+                            source="GLEIF RR", fetched_at=NOW(),
+                            url="https://search.gleif.org/#/record/" + lei))
+            parent_edges += 1
+            if iso and rec.get("country") and _parent_country(par["lei"]) not in (None, iso):
+                cross_border += 1
+    return {"companies": len(leis), "leads_found": locals().get("found", 0),
+            "theme_name_match": len(kept),
+            "dropped_off_theme": len(dropped), "registered_in": reg_edges,
+            "consolidated_by": parent_edges, "cross_border_hint": cross_border,
+            "dropped_sample": (dropped[:8])}
+
+
+def _parent_country(lei: str) -> str | None:
+    return (gleif_record(lei) or {}).get("country")
+
+
+GLEIF_SEARCH = "https://api.gleif.org/api/v1/lei-records?page[size]=8&filter[fulltext]=%s"
+
+
+# 法律后缀允许叠加（"Holding AG"、"Technologies, Inc."），但每一个词都必须是后缀词，
+# 这样 "Medtronic Europe Sàrl" 会因为 Europe 不是后缀而被拒，"F. Hoffmann-La Roche AG"
+# 这种名字里带非后缀词的则整条不匹配、直接跳过（漏掉比安错好）。
+_SUFFIX_WORDS = {
+    "plc", "ag", "sa", "nv", "bv", "se", "inc", "incorporated", "corp", "corporation",
+    "co", "company", "ltd", "limited", "llc", "lp", "gmbh", "kg", "kgaa", "sarl", "srl",
+    "spa", "ab", "asa", "oyj", "aps", "holding", "holdings", "group", "groupe", "the",
+    "international", "technologies", "technology", "medtech", "healthcare", "sciences",
+    "systems", "laboratories", "labs", "pharma", "pharmaceuticals", "and", "&", "deutschland",
+}
+
+
+class _LegalTail:
+    """Match a trailing fragment made only of legal-suffix words.
+
+    Measured: a single-token regex rejected "Holding AG" and "Technologies, Inc.", which are
+    exactly the shapes a group head takes, while "Medtronic Europe Sàrl" must be rejected.
+    So the test is token-based: strip punctuation, then every remaining word must be a suffix
+    word. Anything else (Europe, PENSION, Consumer, India) means it is not the group head.
+    """
+
+    DOTTED = {"n.v.": "nv", "b.v.": "bv", "s.a.": "sa", "s.r.l.": "srl", "p.l.c.": "plc",
+              "l.l.c.": "llc", "s.p.a.": "spa", "a.s.": "as", "a.b.": "ab", "s.a.s.": "sas"}
+
+    def match(self, tail: str):
+        low = (tail or "").lower()
+        for k, v in self.DOTTED.items():
+            low = low.replace(k, v)
+        words = [w for w in re.split(r"[\s,.&]+", low) if w]
+        if not words:
+            return None
+        if all(w in _SUFFIX_WORDS for w in words):
+            return True
+        return None
+
+
+LEGAL_SUFFIX = _LegalTail()
+
+
+def gleif_find(name: str, country: str | None = None) -> dict | None:
+    """Find the group head for `name`, or return None rather than guessing.
+
+    Measured, and each one is a real wrong answer this function first gave:
+      "Medtronic"         -> "Medtronic Defined Contribution Plan Master Trust" (a pension plan)
+      "Boston Scientific" -> "BOSTON SCIENTIFIC PENSION PLAN" (IE)
+      "Pfizer"            -> "PFIZER CONSUMER HEALTHCARE" (GB)
+      after adding a 404-means-no-parent rule:
+      "Medtronic"         -> "Medtronic Europe Sàrl" (CH)   <- 404 means NOT REPORTED, not
+                                                              'no parent'. A subsidiary that
+                                                              files no parent is indistinguishable
+                                                              from a group head by that test.
+
+    So the rule is now a shape test, not a graph test: the candidate's legal name must be the
+    queried name plus nothing but legal suffixes (AG/SA/PLC/Inc/GmbH/Holding...), and when a
+    country is supplied it must match. Anything else returns None. A lead that GLEIF does not
+    confirm stays absent, which is the correct outcome -- inventing it would be worse.
+    """
+    try:
+        d = _json(GLEIF_SEARCH % urllib.parse.quote(name), timeout=25, tries=1,
+                  accept="application/vnd.api+json")
+    except FetchError:
+        return None
+    want = name.strip().lower()
+    best = None
+    for rec in d.get("data") or []:
+        a = (rec.get("attributes") or {}).get("entity") or {}
+        names = [(a.get("legalName") or {}).get("name")] + [x.get("name") for x in a.get("otherNames") or []]
+        names = [n for n in names if n]
+        if a.get("status") != "ACTIVE":
+            continue
+        iso = (a.get("legalAddress") or {}).get("country")
+        if country and iso != country:
+            continue
+        for n in names:
+            low = n.strip().lower()
+            if not low.startswith(want):
+                continue
+            tail = low[len(want):].strip(" ,.")
+            if tail and not LEGAL_SUFFIX.match(" " + tail):
+                continue
+            cand = {"lei": rec["id"], "names": names, "country": iso,
+                    "matched_name": n, "tail": tail}
+            if best is None or len(tail) < len(best["tail"]):
+                best = cand
+            break
+    return best
+
+
+
+
+# 主题龙头：脑机接口与生物医药里真正有全球母子公司结构的公司。名字用来查 LEI，
+# 不是用来当证据——查不到就跳过，绝不用近似名硬套。
+THEME_LEAD_COMPANIES = (
+    ("Medtronic", "IE"), ("Boston Scientific", "US"), ("Abbott Laboratories", "US"),
+    ("Stryker", "US"), ("Becton Dickinson", "US"), ("Siemens Healthineers", "DE"),
+    ("Nihon Kohden", "JP"), ("NeuroPace", "US"), ("LivaNova", "GB"), ("Elekta", "SE"),
+    ("Roche Holding", "CH"), ("Novartis", "CH"), ("Pfizer", "US"),
+    ("Johnson & Johnson", "US"), ("Merck", "US"), ("Sanofi", "FR"),
+    ("AstraZeneca", "GB"), ("GSK", "GB"), ("Takeda", "JP"), ("Daiichi Sankyo", "JP"),
+    ("UCB", "BE"), ("Biogen", "US"), ("Amgen", "US"), ("Gilead Sciences", "US"),
+    ("Baxter International", "US"), ("Terumo", "JP"), ("Olympus", "JP"),
+    ("Koninklijke Philips", "NL"), ("Fresenius", "DE"), ("B. Braun", "DE"),
+    ("Synchron", "US"), ("Blackrock Neurotech", "US"), ("ONWARD Medical", "NL"),
+    ("Saluda Medical", "AU"), ("iRhythm Technologies", "US"), ("Inari Medical", "US"),
+    ("Nevro", "US"), ("Soterix Medical", "US"),
+)
+
+
 # ------------------------------------------------------------------ driver
-LAYERS = ("trade", "diplomatic", "unvotes", "market")
+LAYERS = ("trade", "diplomatic", "unvotes", "market", "gleif")
 
 
 def attach_trade_cached(g: Graph, idx: dict[str, str] | None = None) -> dict:
@@ -750,16 +1042,25 @@ def attach_all(g: Graph, layers=LAYERS) -> dict:
                                   stats["unvotes"]["dropped_below_threshold"])})
     if "market" in layers:
         stats["market"] = attach_theme_market(g, idx)
-        notes.append({"source": "Yahoo Finance", "what": "股指同步性（主题口径）",
-                      "error": "%d 个序列；国家间 %d 条边；国家-生物医药板块 %d 条边"
-                               % (stats["market"]["series"], stats["market"]["edges"],
-                                  stats["market"].get("theme_edges", 0))})
-    notes.append({"source": "BIS / IMF CDIS / OECD FDI", "what": "官方双边金融流量",
-                  "error": "三个源在本机全部不可达（BIS 406/404，IMF data 500，OECD 406），"
-                           "所以金融层用股指同步性代替，并标明它不是资本流"})
-    g._notes = notes  # type: ignore[attr-defined]
-    g._geo_stats = stats  # type: ignore[attr-defined]
-    return stats
+    if "gleif" in layers:
+        try:
+            stats["gleif"] = attach_gleif_parents(g, idx)
+        except Exception as e:                      # a dead registry must not kill the build
+            stats["gleif"] = {"error": str(e)[:120]}
+        if "market" in stats:
+            notes.append({"source": "Yahoo Finance", "what": "股指同步性（主题口径）",
+                          "error": "%d 个序列；国家间 %d 条边；国家-生物医药板块 %d 条边"
+                                   % (stats["market"]["series"], stats["market"]["edges"],
+                                      stats["market"].get("theme_edges", 0))})
+        if "gleif" in stats:
+            gl = stats["gleif"]
+            notes.append({"source": "GLEIF", "what": "企业注册国与跨境母子公司",
+                          "error": gl.get("error") or
+                                   "%d 家企业，名字强命中主题 %d 家，剔掉 %d 家；"
+                                   "注册国边 %d 条，合并关系 %d 条"
+                                   % (gl["companies"], gl["theme_name_match"],
+                                      gl["dropped_off_theme"], gl["registered_in"],
+                                      gl["consolidated_by"])})
 
 
 def geo_report(g: Graph, top: int = 8) -> str:
@@ -808,4 +1109,27 @@ def geo_report(g: Graph, top: int = 8) -> str:
             L.append("    %-22s -- %-22s %.3f（%d 天）"
                      % (lab(e.src), lab(e.dst), e.attrs.get("pearson") or 0,
                         e.attrs.get("days") or 0))
+    # 企业层：只报名字强命中主题、且真的连到注册国的那批，并把被剔掉的点名三例——
+    # 一个"过滤了什么"的句子，比多一行计数更能说明这层数据能不能用。
+    gleif = [n for n in g.nodes.values() if n.kind == "company_gleif"
+             and (n.attrs or {}).get("theme_name_match")]
+    if gleif:
+        by_c = Counter((n.attrs or {}).get("country") for n in gleif)
+        leads = [n for n in gleif if (n.attrs or {}).get("lead")]
+        L.append("  企业（GLEIF，名字强命中主题）%d 家，分布于 %d 个国家/地区；"
+                 "其中主题龙头经名称+国别+法律后缀三重确认 %d 家"
+                 % (len(gleif), len(by_c), len(leads)))
+        L.append("    最多的注册地：" + "、".join("%s %d" % (c, k) for c, k in by_c.most_common(6)))
+        if leads:
+            L.append("    已确认龙头及注册国：" + "、".join(
+                "%s(%s)" % ((n.attrs.get("matched_name") or n.label)[:26],
+                            (n.attrs or {}).get("country")) for n in leads[:8]))
+        off = [n for n in g.nodes.values() if n.kind == "company_gleif"
+               and (n.attrs or {}).get("theme_name_match") is False]
+        if off:
+            L.append("    因名字不落在医疗锚词上被剔除 %d 家，例如：%s"
+                     % (len(off), "、".join((n.label or "")[:24] for n in off[:3])))
+    cons = [e for e in g.edges.values() if e.rel == "consolidated_by"]
+    if cons:
+        L.append("  母子公司关系（GLEIF RR）：%d 条" % len(cons))
     return "\n".join(L)

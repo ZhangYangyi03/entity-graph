@@ -124,3 +124,49 @@ def test_stored_graph_has_no_dangling_edges():
     bad = [(e.src, e.rel, e.dst) for e in g.edges.values()
            if e.src not in g.nodes or e.dst not in g.nodes]
     assert bad == []
+
+
+# ------------------------------------------------------------------ 企业层：GLEIF
+
+def test_theme_name_tier_rejects_brain_without_a_medical_anchor():
+    # 实测的四个 miss：都含 brain，一个都不是主题
+    assert G.theme_name_tier(["BRAIN PETROLEUM PRODUCTS TRADING L.L.C"]) == "off"
+    assert G.theme_name_tier(["IT-Brain Software GmbH"]) == "off"
+    assert G.theme_name_tier(["BRAIN-SOL Foltinek GmbH"]) == "weak"
+    assert G.theme_name_tier(["Brain Beyond Pty Ltd"]) == "weak"
+    # 而真正落在主题上的必须命中
+    assert G.theme_name_tier(["EVER Neuro Pharma GmbH"]) == "strong"
+    assert G.theme_name_tier(["Neuroelectrics Barcelona SL"]) == "strong"
+
+
+def test_legal_suffix_shape_test_separates_a_group_head_from_a_subsidiary():
+    # "Medtronic Europe Sàrl" 通过 404 判据会被当成"没有母公司"，但它明显是子公司。
+    # 所以判据是名字形状：查询名 + 只有法律后缀。
+    ok = ["AG", "Inc.", "PLC", "N.V.", "SA", "GmbH", "Holding AG", "Corporation",
+          "Technologies, Inc."]
+    bad = ["Europe Sàrl", "Europe", "PENSION PLAN", "Consumer Healthcare",
+           "Defined Contribution Plan Master Trust", "India Private Limited"]
+    # "Limited" 单独出现时是后缀也是子公司标志（"MEDTRONIC LIMITED" 就是爱尔兰子公司），
+    # 这类靠国别校验挡：查 "Medtronic" 且国别 IE 时才认，查 US 时 IE 那条直接出局。
+    for t in ok:
+        assert G.LEGAL_SUFFIX.match(" " + t.lower()), t
+    for t in bad:
+        assert not G.LEGAL_SUFFIX.match(" " + t.lower()), t
+
+
+def test_gleif_parent_parser_reads_the_id_field_not_nodeid():
+    # 实测：关系里的节点字段叫 id，读 nodeID 恒为 None，于是 110 家企业零条母公司关系，
+    # 而请求返回 200 —— 静默空。这条测试盯住字段名。
+    src = open(os.path.join(ROOT, "entitygraph", "geopolitics.py"), encoding="utf-8").read()
+    i = src.index("def gleif_record(")
+    j = src.index("def _theme_name_ok", i)
+    seg = src[i:j]
+    assert 'end.get("id")' in seg
+    assert 'end.get("nodeID")' not in seg
+
+
+def test_gleif_cache_write_does_not_self_deadlock():
+    # 实测卡在 32/110 好几分钟：gleif_record 拿了普通 Lock 再调 _save，_save 又拿同一把锁。
+    # 一个自死锁不报错，看起来和网速慢完全一样。
+    import threading
+    assert isinstance(G._write_lock(), type(threading.RLock()))
