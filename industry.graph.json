@@ -11,7 +11,7 @@
       },
       "source": "实施方案 6+1 布局",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "dir:neurorepair",
@@ -24,7 +24,7 @@
       },
       "source": "实施方案 6+1 布局",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "dir:microneedle",
@@ -37,7 +37,7 @@
       },
       "source": "实施方案 6+1 布局",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "dir:skull_interface",
@@ -50,7 +50,7 @@
       },
       "source": "实施方案 6+1 布局",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "dir:magneto_acoustic",
@@ -63,7 +63,7 @@
       },
       "source": "实施方案 6+1 布局",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "dir:brain_control",
@@ -76,7 +76,7 @@
       },
       "source": "实施方案 6+1 布局",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "dir:organoid",
@@ -89,7 +89,7 @@
       },
       "source": "实施方案 6+1 布局",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "bio:synthetic_biology",
@@ -100,7 +100,7 @@
       },
       "source": "实施方案 生物制造定义",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "bio:enzyme_engineering",
@@ -111,7 +111,7 @@
       },
       "source": "实施方案 生物制造定义",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "bio:fermentation",
@@ -122,7 +122,7 @@
       },
       "source": "实施方案 生物制造定义",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "bio:cell_engineering",
@@ -133,7 +133,7 @@
       },
       "source": "实施方案 生物制造定义",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "bio:organoid_manufacturing",
@@ -144,7 +144,7 @@
       },
       "source": "实施方案 生物制造定义",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "stage:upstream",
@@ -155,7 +155,7 @@
       },
       "source": "实施方案 产业链环节",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "stage:midstream",
@@ -166,7 +166,7 @@
       },
       "source": "实施方案 产业链环节",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "stage:downstream",
@@ -177,7 +177,7 @@
       },
       "source": "实施方案 产业链环节",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "actor:unknown",
@@ -199,7 +199,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "four_chain:unknown",
@@ -213,7 +213,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "actor:neuroxess",
@@ -232,7 +232,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "actor:stairmed",
@@ -251,7 +251,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "actor:neuracle",
@@ -270,7 +270,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "actor:mgi",
@@ -289,7 +289,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "actor:genscript",
@@ -308,7 +308,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "actor:asymchem",
@@ -327,7 +327,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "actor:united-imaging",
@@ -346,7 +346,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "gov:unknown",
@@ -360,7 +360,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "platform:xiehe-tianjin",
@@ -377,7 +377,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "dataset:openneuro:ds007720",
@@ -399,7 +399,7 @@
       },
       "source": "OpenNeuro",
       "url": "https://openneuro.org/datasets/ds007720",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "dataset:openneuro:ds002720",
@@ -420,7 +420,7 @@
       },
       "source": "OpenNeuro",
       "url": "https://openneuro.org/datasets/ds002720",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "dataset:openneuro:ds002724",
@@ -439,7 +439,7 @@
       },
       "source": "OpenNeuro",
       "url": "https://openneuro.org/datasets/ds002724",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "dataset:bnci:001-2014",
@@ -461,7 +461,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2014/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "dataset:bnci:002-2014",
@@ -483,7 +483,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/002-2014/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "dataset:bnci:003-2014",
@@ -503,7 +503,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/003-2014/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "dataset:bnci:004-2014",
@@ -525,7 +525,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/004-2014/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "dataset:bnci:005-2014",
@@ -545,7 +545,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/005-2014/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "dataset:bnci:006-2014",
@@ -565,7 +565,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/006-2014/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "dataset:bnci:007-2014",
@@ -585,7 +585,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/007-2014/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "dataset:bnci:008-2014",
@@ -608,7 +608,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/008-2014/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "dataset:bnci:009-2014",
@@ -630,7 +630,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/009-2014/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "dataset:bnci:001-2015",
@@ -650,7 +650,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2015/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "dataset:bnci:002-2015",
@@ -672,7 +672,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/002-2015/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "dataset:bnci:003-2015",
@@ -694,7 +694,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/003-2015/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "dataset:bnci:004-2015",
@@ -714,7 +714,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/004-2015/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "dataset:bnci:011-2015",
@@ -736,7 +736,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/011-2015/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "dataset:bnci:013-2015",
@@ -756,7 +756,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/013-2015/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "dataset:bnci:001-2016",
@@ -778,7 +778,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2016/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "dataset:bnci:002-2016",
@@ -798,7 +798,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/002-2016/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "dataset:bnci:001-2017",
@@ -820,7 +820,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2017/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "dataset:bnci:001-2019",
@@ -843,7 +843,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2019/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "dataset:bnci:001-2020",
@@ -866,7 +866,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2020/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "dataset:bnci:002-2020",
@@ -888,7 +888,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/002-2020/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "dataset:bnci:001-2022",
@@ -908,7 +908,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2022/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "dataset:bnci:001-2024",
@@ -928,7 +928,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2024/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "dataset:bnci:001-2025",
@@ -948,7 +948,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2025/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "dataset:bnci:002-2025",
@@ -968,7 +968,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/002-2025/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "dataset:bnci:001-2026",
@@ -990,7 +990,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2026/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "nct:NCT05880251",
@@ -1011,7 +1011,7 @@
       },
       "source": "ClinicalTrials.gov",
       "url": "https://clinicaltrials.gov/study/NCT05880251",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "org:va-office-of-research-and-development",
@@ -1020,7 +1020,7 @@
       "attrs": {},
       "source": "ClinicalTrials.gov",
       "url": "https://clinicaltrials.gov/study/NCT05880251",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "nct:NCT07472556",
@@ -1043,7 +1043,7 @@
       },
       "source": "ClinicalTrials.gov",
       "url": "https://clinicaltrials.gov/study/NCT07472556",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "org:pasquale-arpaia",
@@ -1052,7 +1052,7 @@
       "attrs": {},
       "source": "ClinicalTrials.gov",
       "url": "https://clinicaltrials.gov/study/NCT07472556",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "nct:NCT02011399",
@@ -1074,7 +1074,7 @@
       },
       "source": "ClinicalTrials.gov",
       "url": "https://clinicaltrials.gov/study/NCT02011399",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "org:university-of-michigan",
@@ -1083,7 +1083,7 @@
       "attrs": {},
       "source": "ClinicalTrials.gov",
       "url": "https://clinicaltrials.gov/study/NCT02011399",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "pmid:34502636",
@@ -1105,7 +1105,7 @@
       },
       "source": "PubMed",
       "url": "https://pubmed.ncbi.nlm.nih.gov/34502636/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "pmid:39275636",
@@ -1127,7 +1127,7 @@
       },
       "source": "PubMed",
       "url": "https://pubmed.ncbi.nlm.nih.gov/39275636/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "pmid:37447849",
@@ -1149,7 +1149,7 @@
       },
       "source": "PubMed",
       "url": "https://pubmed.ncbi.nlm.nih.gov/37447849/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "fda510k:K781041",
@@ -1171,7 +1171,7 @@
       },
       "source": "openFDA 510(k)",
       "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K781041",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "org:beckman-instruments-inc",
@@ -1180,7 +1180,7 @@
       "attrs": {},
       "source": "openFDA 510(k)",
       "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K781041",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "fda510k:K896666",
@@ -1202,7 +1202,7 @@
       },
       "source": "openFDA 510(k)",
       "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K896666",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "org:teca-inc",
@@ -1211,7 +1211,7 @@
       "attrs": {},
       "source": "openFDA 510(k)",
       "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K896666",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "fda510k:K960170",
@@ -1233,7 +1233,7 @@
       },
       "source": "openFDA 510(k)",
       "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K960170",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "org:moberg-medical-inc",
@@ -1242,7 +1242,7 @@
       "attrs": {},
       "source": "openFDA 510(k)",
       "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K960170",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "bio_ensembl:ENSG00000146648",
@@ -1263,7 +1263,7 @@
       },
       "source": "Open Targets",
       "url": "https://platform.opentargets.org/target/ENSG00000146648",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "bio_disease:MONDO_0005233",
@@ -1281,7 +1281,7 @@
       },
       "source": "Open Targets",
       "url": "https://platform.opentargets.org/disease/MONDO_0005233",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "bio_disease:MONDO_0005061",
@@ -1299,7 +1299,7 @@
       },
       "source": "Open Targets",
       "url": "https://platform.opentargets.org/disease/MONDO_0005061",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "bio_disease:MONDO_0004992",
@@ -1317,7 +1317,7 @@
       },
       "source": "Open Targets",
       "url": "https://platform.opentargets.org/disease/MONDO_0004992",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "bio_disease:MONDO_0010150",
@@ -1335,7 +1335,7 @@
       },
       "source": "Open Targets",
       "url": "https://platform.opentargets.org/disease/MONDO_0010150",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "bio_disease:MONDO_0008903",
@@ -1353,7 +1353,7 @@
       },
       "source": "Open Targets",
       "url": "https://platform.opentargets.org/disease/MONDO_0008903",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "bio_uniprot:A0A068JCC9",
@@ -1373,7 +1373,7 @@
       },
       "source": "UniProt",
       "url": "https://www.uniprot.org/uniprotkb/A0A068JCC9/entry",
-      "fetched_at": "2026-11-23T03:33:08+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "bio_chembl_target:CHEMBL4523747",
@@ -1393,7 +1393,7 @@
       },
       "source": "ChEMBL",
       "url": "https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL4523747/",
-      "fetched_at": "2026-11-23T03:33:08+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "bio_chembl_target:CHEMBL5465557",
@@ -1413,7 +1413,7 @@
       },
       "source": "ChEMBL",
       "url": "https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL5465557/",
-      "fetched_at": "2026-11-23T03:33:08+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "bio_chembl_target:CHEMBL3608",
@@ -1433,7 +1433,7 @@
       },
       "source": "ChEMBL",
       "url": "https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL3608/",
-      "fetched_at": "2026-11-23T03:33:08+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "bio_epmc:43021317",
@@ -1455,7 +1455,7 @@
       },
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/43021317",
-      "fetched_at": "2026-11-23T03:33:08+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "key": "bio_epmc:42897839",
@@ -1477,7 +1477,2828 @@
       },
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/42897839",
-      "fetched_at": "2026-11-23T03:33:08+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
+    },
+    {
+      "key": "board:ths:308535",
+      "kind": "market_board",
+      "label": "脑机接口",
+      "attrs": {
+        "ths_code": "308535",
+        "market": "A股",
+        "constituents": 50,
+        "basis": "市场板块归类，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:39+00:00"
+    },
+    {
+      "key": "cnstock:300007",
+      "kind": "listed_company",
+      "label": "汉威科技 (300007)",
+      "attrs": {
+        "code": "300007",
+        "market": "A股",
+        "price": 33.81,
+        "total_mcap_yi": 110.71,
+        "float_mcap_yi": 96.8,
+        "pe_ttm": 69.01,
+        "pb": 3.68,
+        "turnover_pct": 8.45
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:002172",
+      "kind": "listed_company",
+      "label": "澳洋健康 (002172)",
+      "attrs": {
+        "code": "002172",
+        "market": "A股",
+        "price": 5.13,
+        "total_mcap_yi": 39.28,
+        "float_mcap_yi": 39.25,
+        "pe_ttm": 101.6,
+        "pb": 18.41,
+        "turnover_pct": 15.95
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:603666",
+      "kind": "listed_company",
+      "label": "亿嘉和 (603666)",
+      "attrs": {
+        "code": "603666",
+        "market": "A股",
+        "price": 25.36,
+        "total_mcap_yi": 52.12,
+        "float_mcap_yi": 52.12,
+        "pe_ttm": -24.15,
+        "pb": 2.65,
+        "turnover_pct": 5.83
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:603920",
+      "kind": "listed_company",
+      "label": "世运电路 (603920)",
+      "attrs": {
+        "code": "603920",
+        "market": "A股",
+        "price": 34.76,
+        "total_mcap_yi": 250.48,
+        "float_mcap_yi": 250.48,
+        "pe_ttm": 66.09,
+        "pb": 4.02,
+        "turnover_pct": 3.39
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:002009",
+      "kind": "listed_company",
+      "label": "天奇股份 (002009)",
+      "attrs": {
+        "code": "002009",
+        "market": "A股",
+        "price": 14.08,
+        "total_mcap_yi": 56.63,
+        "float_mcap_yi": 49.88,
+        "pe_ttm": 129.95,
+        "pb": 2.75,
+        "turnover_pct": 9.71
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:300652",
+      "kind": "listed_company",
+      "label": "雷迪克 (300652)",
+      "attrs": {
+        "code": "300652",
+        "market": "A股",
+        "price": 23.0,
+        "total_mcap_yi": 30.68,
+        "float_mcap_yi": 27.48,
+        "pe_ttm": 38.46,
+        "pb": 1.94,
+        "turnover_pct": 3.01
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:301293",
+      "kind": "listed_company",
+      "label": "三博脑科 (301293)",
+      "attrs": {
+        "code": "301293",
+        "market": "A股",
+        "price": 43.93,
+        "total_mcap_yi": 90.49,
+        "float_mcap_yi": 75.65,
+        "pe_ttm": 132.54,
+        "pb": 3.75,
+        "turnover_pct": 2.37
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:603127",
+      "kind": "listed_company",
+      "label": "昭衍新药 (603127)",
+      "attrs": {
+        "code": "603127",
+        "market": "A股",
+        "price": 33.6,
+        "total_mcap_yi": 251.78,
+        "float_mcap_yi": 210.91,
+        "pe_ttm": 21.95,
+        "pb": 2.75,
+        "turnover_pct": 3.57
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:688306",
+      "kind": "listed_company",
+      "label": "均普智能 (688306)",
+      "attrs": {
+        "code": "688306",
+        "market": "A股",
+        "price": 7.92,
+        "total_mcap_yi": 108.69,
+        "float_mcap_yi": 97.28,
+        "pe_ttm": 242.99,
+        "pb": 4.0,
+        "turnover_pct": 1.29
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:688039",
+      "kind": "listed_company",
+      "label": "当虹科技 (688039)",
+      "attrs": {
+        "code": "688039",
+        "market": "A股",
+        "price": 27.12,
+        "total_mcap_yi": 30.0,
+        "float_mcap_yi": 30.0,
+        "pe_ttm": -22.22,
+        "pb": 3.02,
+        "turnover_pct": 1.81
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:301515",
+      "kind": "listed_company",
+      "label": "港通医疗 (301515)",
+      "attrs": {
+        "code": "301515",
+        "market": "A股",
+        "price": 14.73,
+        "total_mcap_yi": 14.73,
+        "float_mcap_yi": 9.95,
+        "pe_ttm": -376.96,
+        "pb": 1.21,
+        "turnover_pct": 1.68
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:000566",
+      "kind": "listed_company",
+      "label": "海南海药 (000566)",
+      "attrs": {
+        "code": "000566",
+        "market": "A股",
+        "price": 3.39,
+        "total_mcap_yi": 43.98,
+        "float_mcap_yi": 43.96,
+        "pe_ttm": -8.25,
+        "pb": -16.57,
+        "turnover_pct": 1.06
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:688767",
+      "kind": "listed_company",
+      "label": "博拓生物 (688767)",
+      "attrs": {
+        "code": "688767",
+        "market": "A股",
+        "price": 35.39,
+        "total_mcap_yi": 52.85,
+        "float_mcap_yi": 52.85,
+        "pe_ttm": 511.98,
+        "pb": 2.47,
+        "turnover_pct": 0.79
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:301337",
+      "kind": "listed_company",
+      "label": "亚华电子 (301337)",
+      "attrs": {
+        "code": "301337",
+        "market": "A股",
+        "price": 19.89,
+        "total_mcap_yi": 20.83,
+        "float_mcap_yi": 20.38,
+        "pe_ttm": -160.07,
+        "pb": 1.92,
+        "turnover_pct": 1.19
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:002925",
+      "kind": "listed_company",
+      "label": "盈趣科技 (002925)",
+      "attrs": {
+        "code": "002925",
+        "market": "A股",
+        "price": 16.75,
+        "total_mcap_yi": 129.25,
+        "float_mcap_yi": 122.45,
+        "pe_ttm": 23.45,
+        "pb": 2.59,
+        "turnover_pct": 0.58
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:600056",
+      "kind": "listed_company",
+      "label": "中国医药 (600056)",
+      "attrs": {
+        "code": "600056",
+        "market": "A股",
+        "price": 8.12,
+        "total_mcap_yi": 121.47,
+        "float_mcap_yi": 121.42,
+        "pe_ttm": 39.24,
+        "pb": 1.01,
+        "turnover_pct": 0.5
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:600704",
+      "kind": "listed_company",
+      "label": "物产中大 (600704)",
+      "attrs": {
+        "code": "600704",
+        "market": "A股",
+        "price": 4.81,
+        "total_mcap_yi": 248.73,
+        "float_mcap_yi": 248.73,
+        "pe_ttm": 7.03,
+        "pb": 0.6,
+        "turnover_pct": 0.58
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:300678",
+      "kind": "listed_company",
+      "label": "中科信息 (300678)",
+      "attrs": {
+        "code": "300678",
+        "market": "A股",
+        "price": 17.81,
+        "total_mcap_yi": 52.79,
+        "float_mcap_yi": 52.14,
+        "pe_ttm": 272.19,
+        "pb": 6.23,
+        "turnover_pct": 1.01
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:300003",
+      "kind": "listed_company",
+      "label": "乐普医疗 (300003)",
+      "attrs": {
+        "code": "300003",
+        "market": "A股",
+        "price": 11.07,
+        "total_mcap_yi": 204.07,
+        "float_mcap_yi": 174.79,
+        "pe_ttm": 31.0,
+        "pb": 1.25,
+        "turnover_pct": 0.81
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:002219",
+      "kind": "listed_company",
+      "label": "新里程 (002219)",
+      "attrs": {
+        "code": "002219",
+        "market": "A股",
+        "price": 1.71,
+        "total_mcap_yi": 59.03,
+        "float_mcap_yi": 55.95,
+        "pe_ttm": 87.31,
+        "pb": 2.99,
+        "turnover_pct": 1.04
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:300014",
+      "kind": "listed_company",
+      "label": "亿纬锂能 (300014)",
+      "attrs": {
+        "code": "300014",
+        "market": "A股",
+        "price": 43.91,
+        "total_mcap_yi": 969.42,
+        "float_mcap_yi": 942.9,
+        "pe_ttm": 14.78,
+        "pb": 1.86,
+        "turnover_pct": 0.84
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:300352",
+      "kind": "listed_company",
+      "label": "ST信源 (300352)",
+      "attrs": {
+        "code": "300352",
+        "market": "A股",
+        "price": 1.93,
+        "total_mcap_yi": 27.98,
+        "float_mcap_yi": 24.68,
+        "pe_ttm": -8.01,
+        "pb": 3.15,
+        "turnover_pct": 0.8
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:002111",
+      "kind": "listed_company",
+      "label": "威海广泰 (002111)",
+      "attrs": {
+        "code": "002111",
+        "market": "A股",
+        "price": 6.91,
+        "total_mcap_yi": 36.76,
+        "float_mcap_yi": 33.77,
+        "pe_ttm": 22.39,
+        "pb": 1.23,
+        "turnover_pct": 0.87
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:002465",
+      "kind": "listed_company",
+      "label": "海格通信 (002465)",
+      "attrs": {
+        "code": "002465",
+        "market": "A股",
+        "price": 8.2,
+        "total_mcap_yi": 203.51,
+        "float_mcap_yi": 203.19,
+        "pe_ttm": -27.67,
+        "pb": 1.82,
+        "turnover_pct": 0.98
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:601567",
+      "kind": "listed_company",
+      "label": "三星电气 (601567)",
+      "attrs": {
+        "code": "601567",
+        "market": "A股",
+        "price": 10.87,
+        "total_mcap_yi": 152.7,
+        "float_mcap_yi": 152.7,
+        "pe_ttm": 34.25,
+        "pb": 1.27,
+        "turnover_pct": 0.49
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:300884",
+      "kind": "listed_company",
+      "label": "狄耐克 (300884)",
+      "attrs": {
+        "code": "300884",
+        "market": "A股",
+        "price": 8.0,
+        "total_mcap_yi": 20.31,
+        "float_mcap_yi": 15.31,
+        "pe_ttm": 77.93,
+        "pb": 1.6,
+        "turnover_pct": 1.79
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:688575",
+      "kind": "listed_company",
+      "label": "亚辉龙 (688575)",
+      "attrs": {
+        "code": "688575",
+        "market": "A股",
+        "price": 9.45,
+        "total_mcap_yi": 54.0,
+        "float_mcap_yi": 54.0,
+        "pe_ttm": 50.72,
+        "pb": 1.91,
+        "turnover_pct": 0.61
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:002602",
+      "kind": "listed_company",
+      "label": "世纪华通 (002602)",
+      "attrs": {
+        "code": "002602",
+        "market": "A股",
+        "price": 10.47,
+        "total_mcap_yi": 771.71,
+        "float_mcap_yi": 711.63,
+        "pe_ttm": 10.18,
+        "pb": 2.18,
+        "turnover_pct": 0.59
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:002195",
+      "kind": "listed_company",
+      "label": "岩山科技 (002195)",
+      "attrs": {
+        "code": "002195",
+        "market": "A股",
+        "price": 4.72,
+        "total_mcap_yi": 267.46,
+        "float_mcap_yi": 265.07,
+        "pe_ttm": -268.16,
+        "pb": 2.72,
+        "turnover_pct": 0.99
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:000650",
+      "kind": "listed_company",
+      "label": "仁和药业 (000650)",
+      "attrs": {
+        "code": "000650",
+        "market": "A股",
+        "price": 4.72,
+        "total_mcap_yi": 66.08,
+        "float_mcap_yi": 62.84,
+        "pe_ttm": 17.11,
+        "pb": 1.05,
+        "turnover_pct": 0.64
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:600648",
+      "kind": "listed_company",
+      "label": "外高桥 (600648)",
+      "attrs": {
+        "code": "600648",
+        "market": "A股",
+        "price": 8.16,
+        "total_mcap_yi": 110.97,
+        "float_mcap_yi": 94.6,
+        "pe_ttm": 11.75,
+        "pb": 0.71,
+        "turnover_pct": 0.12
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:600998",
+      "kind": "listed_company",
+      "label": "九州通 (600998)",
+      "attrs": {
+        "code": "600998",
+        "market": "A股",
+        "price": 5.14,
+        "total_mcap_yi": 259.18,
+        "float_mcap_yi": 259.18,
+        "pe_ttm": 13.21,
+        "pb": 0.94,
+        "turnover_pct": 0.41
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:002230",
+      "kind": "listed_company",
+      "label": "科大讯飞 (002230)",
+      "attrs": {
+        "code": "002230",
+        "market": "A股",
+        "price": 34.36,
+        "total_mcap_yi": 825.35,
+        "float_mcap_yi": 781.14,
+        "pe_ttm": 88.94,
+        "pb": 3.62,
+        "turnover_pct": 0.54
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:600459",
+      "kind": "listed_company",
+      "label": "贵研铂业 (600459)",
+      "attrs": {
+        "code": "600459",
+        "market": "A股",
+        "price": 14.3,
+        "total_mcap_yi": 117.71,
+        "float_mcap_yi": 117.71,
+        "pe_ttm": 17.76,
+        "pb": 1.29,
+        "turnover_pct": 0.98
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:300459",
+      "kind": "listed_company",
+      "label": "汤姆猫 (300459)",
+      "attrs": {
+        "code": "300459",
+        "market": "A股",
+        "price": 3.17,
+        "total_mcap_yi": 111.45,
+        "float_mcap_yi": 104.16,
+        "pe_ttm": -10.18,
+        "pb": 14.06,
+        "turnover_pct": 1.81
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:300143",
+      "kind": "listed_company",
+      "label": "盈康生命 (300143)",
+      "attrs": {
+        "code": "300143",
+        "market": "A股",
+        "price": 6.3,
+        "total_mcap_yi": 61.29,
+        "float_mcap_yi": 52.43,
+        "pe_ttm": 73.23,
+        "pb": 2.53,
+        "turnover_pct": 0.39
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:300430",
+      "kind": "listed_company",
+      "label": "*ST益通 (300430)",
+      "attrs": {
+        "code": "300430",
+        "market": "A股",
+        "price": 3.04,
+        "total_mcap_yi": 8.3,
+        "float_mcap_yi": 7.9,
+        "pe_ttm": -0.85,
+        "pb": 0.63,
+        "turnover_pct": 1.28
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:603610",
+      "kind": "listed_company",
+      "label": "麒盛科技 (603610)",
+      "attrs": {
+        "code": "603610",
+        "market": "A股",
+        "price": 8.69,
+        "total_mcap_yi": 30.67,
+        "float_mcap_yi": 30.67,
+        "pe_ttm": -92.76,
+        "pb": 1.02,
+        "turnover_pct": 1.11
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:301290",
+      "kind": "listed_company",
+      "label": "东星医疗 (301290)",
+      "attrs": {
+        "code": "301290",
+        "market": "A股",
+        "price": 22.01,
+        "total_mcap_yi": 22.05,
+        "float_mcap_yi": 17.52,
+        "pe_ttm": 29.61,
+        "pb": 1.02,
+        "turnover_pct": 1.76
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:603716",
+      "kind": "listed_company",
+      "label": "塞力医疗 (603716)",
+      "attrs": {
+        "code": "603716",
+        "market": "A股",
+        "price": 12.33,
+        "total_mcap_yi": 27.84,
+        "float_mcap_yi": 27.84,
+        "pe_ttm": -15.81,
+        "pb": 2.57,
+        "turnover_pct": 2.27
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:300409",
+      "kind": "listed_company",
+      "label": "道氏技术 (300409)",
+      "attrs": {
+        "code": "300409",
+        "market": "A股",
+        "price": 11.48,
+        "total_mcap_yi": 89.8,
+        "float_mcap_yi": 79.92,
+        "pe_ttm": 22.9,
+        "pb": 1.12,
+        "turnover_pct": 1.83
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:688273",
+      "kind": "listed_company",
+      "label": "麦澜德 (688273)",
+      "attrs": {
+        "code": "688273",
+        "market": "A股",
+        "price": 21.07,
+        "total_mcap_yi": 21.07,
+        "float_mcap_yi": 21.07,
+        "pe_ttm": 33.07,
+        "pb": 1.53,
+        "turnover_pct": 1.0
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:603008",
+      "kind": "listed_company",
+      "label": "ST喜临门 (603008)",
+      "attrs": {
+        "code": "603008",
+        "market": "A股",
+        "price": 8.23,
+        "total_mcap_yi": 30.31,
+        "float_mcap_yi": 30.31,
+        "pe_ttm": -15.89,
+        "pb": 0.86,
+        "turnover_pct": 0.82
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:301099",
+      "kind": "listed_company",
+      "label": "雅创电子 (301099)",
+      "attrs": {
+        "code": "301099",
+        "market": "A股",
+        "price": 31.81,
+        "total_mcap_yi": 60.1,
+        "float_mcap_yi": 36.57,
+        "pe_ttm": 13.42,
+        "pb": 3.44,
+        "turnover_pct": 2.8
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:300632",
+      "kind": "listed_company",
+      "label": "光莆股份 (300632)",
+      "attrs": {
+        "code": "300632",
+        "market": "A股",
+        "price": 10.99,
+        "total_mcap_yi": 33.54,
+        "float_mcap_yi": 25.01,
+        "pe_ttm": -43.88,
+        "pb": 1.97,
+        "turnover_pct": 3.55
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:688580",
+      "kind": "listed_company",
+      "label": "伟思医疗 (688580)",
+      "attrs": {
+        "code": "688580",
+        "market": "A股",
+        "price": 32.42,
+        "total_mcap_yi": 31.05,
+        "float_mcap_yi": 31.05,
+        "pe_ttm": 19.42,
+        "pb": 1.81,
+        "turnover_pct": 0.62
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:300793",
+      "kind": "listed_company",
+      "label": "佳禾智能 (300793)",
+      "attrs": {
+        "code": "300793",
+        "market": "A股",
+        "price": 10.9,
+        "total_mcap_yi": 41.48,
+        "float_mcap_yi": 40.56,
+        "pe_ttm": -26.44,
+        "pb": 1.45,
+        "turnover_pct": 2.23
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:002555",
+      "kind": "listed_company",
+      "label": "三七互娱 (002555)",
+      "attrs": {
+        "code": "002555",
+        "market": "A股",
+        "price": 13.84,
+        "total_mcap_yi": 304.44,
+        "float_mcap_yi": 224.38,
+        "pe_ttm": 15.03,
+        "pb": 2.33,
+        "turnover_pct": 0.91
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:002324",
+      "kind": "listed_company",
+      "label": "普利特 (002324)",
+      "attrs": {
+        "code": "002324",
+        "market": "A股",
+        "price": 7.47,
+        "total_mcap_yi": 83.09,
+        "float_mcap_yi": 57.98,
+        "pe_ttm": 57.32,
+        "pb": 1.77,
+        "turnover_pct": 3.16
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "cnstock:301015",
+      "kind": "listed_company",
+      "label": "百洋制药 (301015)",
+      "attrs": {
+        "code": "301015",
+        "market": "A股",
+        "price": 22.34,
+        "total_mcap_yi": 117.42,
+        "float_mcap_yi": 117.41,
+        "pe_ttm": 49.37,
+        "pb": 5.05,
+        "turnover_pct": 0.46,
+        "_sources": [
+          "同花顺概念板块 + 腾讯行情"
+        ]
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "key": "board:ths:308614",
+      "kind": "market_board",
+      "label": "阿尔茨海默概念",
+      "attrs": {
+        "ths_code": "308614",
+        "market": "A股",
+        "constituents": 36,
+        "basis": "市场板块归类，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:45+00:00"
+    },
+    {
+      "key": "cnstock:688046",
+      "kind": "listed_company",
+      "label": "药康生物 (688046)",
+      "attrs": {
+        "code": "688046",
+        "market": "A股",
+        "price": 29.21,
+        "total_mcap_yi": 119.82,
+        "float_mcap_yi": 119.82,
+        "pe_ttm": 59.07,
+        "pb": 5.27,
+        "turnover_pct": 1.42
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "key": "cnstock:688105",
+      "kind": "listed_company",
+      "label": "诺唯赞 (688105)",
+      "attrs": {
+        "code": "688105",
+        "market": "A股",
+        "price": 18.38,
+        "total_mcap_yi": 95.02,
+        "float_mcap_yi": 95.02,
+        "pe_ttm": 9567.73,
+        "pb": 2.62,
+        "turnover_pct": 0.95
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "key": "cnstock:688253",
+      "kind": "listed_company",
+      "label": "英诺特 (688253)",
+      "attrs": {
+        "code": "688253",
+        "market": "A股",
+        "price": 46.02,
+        "total_mcap_yi": 63.49,
+        "float_mcap_yi": 63.49,
+        "pe_ttm": 116.14,
+        "pb": 3.08,
+        "turnover_pct": 1.08
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "key": "cnstock:688336",
+      "kind": "listed_company",
+      "label": "三生国健 (688336)",
+      "attrs": {
+        "code": "688336",
+        "market": "A股",
+        "price": 27.23,
+        "total_mcap_yi": 244.04,
+        "float_mcap_yi": 244.04,
+        "pe_ttm": 7.9,
+        "pb": 2.83,
+        "turnover_pct": 0.33
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "key": "cnstock:300404",
+      "kind": "listed_company",
+      "label": "博济医药 (300404)",
+      "attrs": {
+        "code": "300404",
+        "market": "A股",
+        "price": 9.22,
+        "total_mcap_yi": 35.57,
+        "float_mcap_yi": 26.32,
+        "pe_ttm": 61.45,
+        "pb": 3.27,
+        "turnover_pct": 3.29
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "key": "cnstock:300244",
+      "kind": "listed_company",
+      "label": "迪安诊断 (300244)",
+      "attrs": {
+        "code": "300244",
+        "market": "A股",
+        "price": 17.66,
+        "total_mcap_yi": 110.37,
+        "float_mcap_yi": 88.56,
+        "pe_ttm": 23.51,
+        "pb": 1.64,
+        "turnover_pct": 3.78
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "key": "cnstock:688068",
+      "kind": "listed_company",
+      "label": "热景生物 (688068)",
+      "attrs": {
+        "code": "688068",
+        "market": "A股",
+        "price": 54.86,
+        "total_mcap_yi": 50.88,
+        "float_mcap_yi": 50.88,
+        "pe_ttm": -17.01,
+        "pb": 2.16,
+        "turnover_pct": 1.57
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "key": "cnstock:300016",
+      "kind": "listed_company",
+      "label": "北陆药业 (300016)",
+      "attrs": {
+        "code": "300016",
+        "market": "A股",
+        "price": 6.55,
+        "total_mcap_yi": 38.1,
+        "float_mcap_yi": 38.06,
+        "pe_ttm": 23.45,
+        "pb": 1.53,
+        "turnover_pct": 1.52
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "key": "cnstock:301509",
+      "kind": "listed_company",
+      "label": "金凯生科 (301509)",
+      "attrs": {
+        "code": "301509",
+        "market": "A股",
+        "price": 21.69,
+        "total_mcap_yi": 26.12,
+        "float_mcap_yi": 12.31,
+        "pe_ttm": 57.87,
+        "pb": 1.22,
+        "turnover_pct": 2.45
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "key": "cnstock:301130",
+      "kind": "listed_company",
+      "label": "西点药业 (301130)",
+      "attrs": {
+        "code": "301130",
+        "market": "A股",
+        "price": 19.05,
+        "total_mcap_yi": 14.57,
+        "float_mcap_yi": 11.24,
+        "pe_ttm": -305.74,
+        "pb": 1.68,
+        "turnover_pct": 1.92
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "key": "cnstock:002107",
+      "kind": "listed_company",
+      "label": "沃华医药 (002107)",
+      "attrs": {
+        "code": "002107",
+        "market": "A股",
+        "price": 5.23,
+        "total_mcap_yi": 30.19,
+        "float_mcap_yi": 29.88,
+        "pe_ttm": 24.27,
+        "pb": 4.54,
+        "turnover_pct": 0.61
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "key": "cnstock:000756",
+      "kind": "listed_company",
+      "label": "新华制药 (000756)",
+      "attrs": {
+        "code": "000756",
+        "market": "A股",
+        "price": 10.94,
+        "total_mcap_yi": 76.22,
+        "float_mcap_yi": 54.58,
+        "pe_ttm": 33.32,
+        "pb": 1.43,
+        "turnover_pct": 0.86
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "key": "cnstock:002693",
+      "kind": "listed_company",
+      "label": "双成药业 (002693)",
+      "attrs": {
+        "code": "002693",
+        "market": "A股",
+        "price": 6.83,
+        "total_mcap_yi": 28.32,
+        "float_mcap_yi": 28.07,
+        "pe_ttm": 64.35,
+        "pb": 6.51,
+        "turnover_pct": 1.71
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "key": "cnstock:002773",
+      "kind": "listed_company",
+      "label": "康弘药业 (002773)",
+      "attrs": {
+        "code": "002773",
+        "market": "A股",
+        "price": 20.61,
+        "total_mcap_yi": 189.89,
+        "float_mcap_yi": 141.56,
+        "pe_ttm": 20.77,
+        "pb": 2.01,
+        "turnover_pct": 0.65
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "key": "cnstock:002393",
+      "kind": "listed_company",
+      "label": "力生制药 (002393)",
+      "attrs": {
+        "code": "002393",
+        "market": "A股",
+        "price": 11.24,
+        "total_mcap_yi": 34.65,
+        "float_mcap_yi": 33.74,
+        "pe_ttm": 27.93,
+        "pb": 0.77,
+        "turnover_pct": 0.43
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "key": "cnstock:600572",
+      "kind": "listed_company",
+      "label": "康恩贝 (600572)",
+      "attrs": {
+        "code": "600572",
+        "market": "A股",
+        "price": 4.01,
+        "total_mcap_yi": 101.88,
+        "float_mcap_yi": 101.61,
+        "pe_ttm": 22.3,
+        "pb": 1.4,
+        "turnover_pct": 0.94
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "key": "cnstock:601607",
+      "kind": "listed_company",
+      "label": "上海医药 (601607)",
+      "attrs": {
+        "code": "601607",
+        "market": "A股",
+        "price": 16.16,
+        "total_mcap_yi": 599.27,
+        "float_mcap_yi": 450.74,
+        "pe_ttm": 11.61,
+        "pb": 0.76,
+        "turnover_pct": 0.28
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "key": "cnstock:603669",
+      "kind": "listed_company",
+      "label": "灵康药业 (603669)",
+      "attrs": {
+        "code": "603669",
+        "market": "A股",
+        "price": 4.11,
+        "total_mcap_yi": 29.28,
+        "float_mcap_yi": 29.28,
+        "pe_ttm": -23.07,
+        "pb": 4.95,
+        "turnover_pct": 2.14
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "key": "cnstock:600227",
+      "kind": "listed_company",
+      "label": "赤天化 (600227)",
+      "attrs": {
+        "code": "600227",
+        "market": "A股",
+        "price": 2.82,
+        "total_mcap_yi": 47.62,
+        "float_mcap_yi": 36.03,
+        "pe_ttm": -49.9,
+        "pb": 2.07,
+        "turnover_pct": 2.41
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "key": "cnstock:600771",
+      "kind": "listed_company",
+      "label": "广誉远 (600771)",
+      "attrs": {
+        "code": "600771",
+        "market": "A股",
+        "price": 11.35,
+        "total_mcap_yi": 55.56,
+        "float_mcap_yi": 55.56,
+        "pe_ttm": 87.87,
+        "pb": 3.34,
+        "turnover_pct": 0.79
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "key": "cnstock:600789",
+      "kind": "listed_company",
+      "label": "鲁抗医药 (600789)",
+      "attrs": {
+        "code": "600789",
+        "market": "A股",
+        "price": 6.22,
+        "total_mcap_yi": 65.01,
+        "float_mcap_yi": 62.84,
+        "pe_ttm": 47.7,
+        "pb": 1.24,
+        "turnover_pct": 0.88
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "key": "cnstock:002287",
+      "kind": "listed_company",
+      "label": "奇正藏药 (002287)",
+      "attrs": {
+        "code": "002287",
+        "market": "A股",
+        "price": 17.61,
+        "total_mcap_yi": 100.75,
+        "float_mcap_yi": 100.55,
+        "pe_ttm": 15.94,
+        "pb": 2.01,
+        "turnover_pct": 0.17
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "key": "cnstock:002675",
+      "kind": "listed_company",
+      "label": "东诚药业 (002675)",
+      "attrs": {
+        "code": "002675",
+        "market": "A股",
+        "price": 11.71,
+        "total_mcap_yi": 96.56,
+        "float_mcap_yi": 87.05,
+        "pe_ttm": 45.96,
+        "pb": 2.17,
+        "turnover_pct": 0.77
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "key": "cnstock:002603",
+      "kind": "listed_company",
+      "label": "以岭药业 (002603)",
+      "attrs": {
+        "code": "002603",
+        "market": "A股",
+        "price": 14.73,
+        "total_mcap_yi": 246.09,
+        "float_mcap_yi": 202.72,
+        "pe_ttm": 17.81,
+        "pb": 2.19,
+        "turnover_pct": 0.54
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "key": "cnstock:603439",
+      "kind": "listed_company",
+      "label": "三力制药 (603439)",
+      "attrs": {
+        "code": "603439",
+        "market": "A股",
+        "price": 8.67,
+        "total_mcap_yi": 35.01,
+        "float_mcap_yi": 35.01,
+        "pe_ttm": 66.26,
+        "pb": 2.31,
+        "turnover_pct": 1.68
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "key": "cnstock:002262",
+      "kind": "listed_company",
+      "label": "恩华药业 (002262)",
+      "attrs": {
+        "code": "002262",
+        "market": "A股",
+        "price": 22.28,
+        "total_mcap_yi": 225.69,
+        "float_mcap_yi": 196.91,
+        "pe_ttm": 20.56,
+        "pb": 2.56,
+        "turnover_pct": 0.5
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "key": "cnstock:002044",
+      "kind": "listed_company",
+      "label": "美年健康 (002044)",
+      "attrs": {
+        "code": "002044",
+        "market": "A股",
+        "price": 4.1,
+        "total_mcap_yi": 160.48,
+        "float_mcap_yi": 158.84,
+        "pe_ttm": 48.65,
+        "pb": 1.95,
+        "turnover_pct": 1.11
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "key": "cnstock:600521",
+      "kind": "listed_company",
+      "label": "华海药业 (600521)",
+      "attrs": {
+        "code": "600521",
+        "market": "A股",
+        "price": 15.47,
+        "total_mcap_yi": 231.98,
+        "float_mcap_yi": 231.98,
+        "pe_ttm": 24.53,
+        "pb": 2.36,
+        "turnover_pct": 0.64
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "key": "cnstock:002020",
+      "kind": "listed_company",
+      "label": "京新药业 (002020)",
+      "attrs": {
+        "code": "002020",
+        "market": "A股",
+        "price": 10.83,
+        "total_mcap_yi": 93.25,
+        "float_mcap_yi": 78.41,
+        "pe_ttm": 13.14,
+        "pb": 1.55,
+        "turnover_pct": 0.87
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "key": "cnstock:603980",
+      "kind": "listed_company",
+      "label": "吉华集团 (603980)",
+      "attrs": {
+        "code": "603980",
+        "market": "A股",
+        "price": 6.72,
+        "total_mcap_yi": 45.48,
+        "float_mcap_yi": 45.48,
+        "pe_ttm": 38.01,
+        "pb": 1.16,
+        "turnover_pct": 3.16
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "key": "cnstock:300676",
+      "kind": "listed_company",
+      "label": "华大基因 (300676)",
+      "attrs": {
+        "code": "300676",
+        "market": "A股",
+        "price": 32.64,
+        "total_mcap_yi": 136.54,
+        "float_mcap_yi": 135.79,
+        "pe_ttm": -25.05,
+        "pb": 1.66,
+        "turnover_pct": 0.92
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "key": "cnstock:600196",
+      "kind": "listed_company",
+      "label": "复星医药 (600196)",
+      "attrs": {
+        "code": "600196",
+        "market": "A股",
+        "price": 20.3,
+        "total_mcap_yi": 542.1,
+        "float_mcap_yi": 430.05,
+        "pe_ttm": 15.42,
+        "pb": 1.08,
+        "turnover_pct": 0.45
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "key": "cnstock:300017",
+      "kind": "listed_company",
+      "label": "网宿科技 (300017)",
+      "attrs": {
+        "code": "300017",
+        "market": "A股",
+        "price": 13.4,
+        "total_mcap_yi": 334.42,
+        "float_mcap_yi": 317.11,
+        "pe_ttm": 43.97,
+        "pb": 3.25,
+        "turnover_pct": 1.83
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "key": "cnstock:920017",
+      "kind": "listed_company",
+      "label": "星昊医药 (920017)",
+      "attrs": {
+        "code": "920017",
+        "market": "A股",
+        "price": null,
+        "total_mcap_yi": null,
+        "float_mcap_yi": null,
+        "pe_ttm": null,
+        "pb": null,
+        "turnover_pct": null
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "key": "cnstock:600267",
+      "kind": "listed_company",
+      "label": "海正药业 (600267)",
+      "attrs": {
+        "code": "600267",
+        "market": "A股",
+        "price": 12.18,
+        "total_mcap_yi": 143.76,
+        "float_mcap_yi": 143.76,
+        "pe_ttm": 11.73,
+        "pb": 1.51,
+        "turnover_pct": 0.96
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "key": "cnstock:06681",
+      "kind": "listed_company",
+      "label": "脑动极光-B",
+      "attrs": {
+        "code": "06681",
+        "market": "A股/港股",
+        "note": "公告命中，但不在所查板块成分内"
+      },
+      "source": "巨潮资讯",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-04-02/1225073760.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:06681:1225073760.PDF",
+      "kind": "disclosure",
+      "label": "脑动极光-B：自愿公告 - 成为北京前沿脑机接口研究院战略合作单位携手推进脑机接口关键技术临床转化",
+      "attrs": {
+        "sec_code": "06681",
+        "sec_name": "脑动极光-B",
+        "date": 1775082611000,
+        "_sources": [
+          "巨潮资讯（标题索引）"
+        ]
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-04-02/1225073760.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:06681:1225680396.PDF",
+      "kind": "disclosure",
+      "label": "脑动极光-B：自愿公告 - 多认知域数字疗法DELIGHT研究发表于《eClinicalMedicine》揭示「脑心同治」新机制",
+      "attrs": {
+        "sec_code": "06681",
+        "sec_name": "脑动极光-B",
+        "date": 1795126827000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-11-20/1225680396.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:002602:1214044251.PDF",
+      "kind": "disclosure",
+      "label": "世纪华通：关于传奇创新研究中心脑机接口研究进展的自愿性信息披露公告",
+      "attrs": {
+        "sec_code": "002602",
+        "sec_name": "世纪华通",
+        "date": 1657814400000,
+        "_sources": [
+          "巨潮资讯（标题索引）"
+        ]
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2022-07-15/1214044251.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "cnstock:002173",
+      "kind": "listed_company",
+      "label": "创新医疗",
+      "attrs": {
+        "code": "002173",
+        "market": "A股/港股",
+        "note": "公告命中，但不在所查板块成分内"
+      },
+      "source": "巨潮资讯",
+      "url": "http://static.cninfo.com.cn/finalpage/2021-02-09/1209259274.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:002173:1209259274.PDF",
+      "kind": "disclosure",
+      "label": "创新医疗：关于参股脑机接口项目公司完成工商注册登记的公告",
+      "attrs": {
+        "sec_code": "002173",
+        "sec_name": "创新医疗",
+        "date": 1612800000000,
+        "_sources": [
+          "巨潮资讯（标题索引）"
+        ]
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2021-02-09/1209259274.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:002173:1209141798.PDF",
+      "kind": "disclosure",
+      "label": "创新医疗：关于参股设立“脑机接口”项目公司暨关联交易的公告",
+      "attrs": {
+        "sec_code": "002173",
+        "sec_name": "创新医疗",
+        "date": 1611072000000,
+        "_sources": [
+          "巨潮资讯（标题索引）"
+        ]
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2021-01-20/1209141798.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:688253:1225625767.PDF",
+      "kind": "disclosure",
+      "label": "英诺特：关于自愿披露与专业投资机构共同投资设立脑智能创业投资基金的公告",
+      "attrs": {
+        "sec_code": "688253",
+        "sec_name": "英诺特",
+        "date": 1793030400000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-10-27/1225625767.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:301293:1225139870.PDF",
+      "kind": "disclosure",
+      "label": "三博脑科：关于续聘2026年度审计机构的公告",
+      "attrs": {
+        "sec_code": "301293",
+        "sec_name": "三博脑科",
+        "date": 1776787200000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-04-22/1225139870.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:301293:1225039511.PDF",
+      "kind": "disclosure",
+      "label": "三博脑科：关于与专业投资机构共同投资认购的基金合伙人变更及份额转让并重新签订合伙协议的公告",
+      "attrs": {
+        "sec_code": "301293",
+        "sec_name": "三博脑科",
+        "date": 1774597451000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-03-27/1225039511.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:301293:1225028025.PDF",
+      "kind": "disclosure",
+      "label": "三博脑科：关于与专业投资机构共同投资认购的基金扩募增资及新增合伙人的公告",
+      "attrs": {
+        "sec_code": "301293",
+        "sec_name": "三博脑科",
+        "date": 1774348089000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-03-24/1225028025.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:301293:1224877223.PDF",
+      "kind": "disclosure",
+      "label": "三博脑科：关于与专业投资机构共同投资认购的基金存续期变更并签订补充协议的公告",
+      "attrs": {
+        "sec_code": "301293",
+        "sec_name": "三博脑科",
+        "date": 1765788611000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2025-12-15/1224877223.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:301293:1224647875.PDF",
+      "kind": "disclosure",
+      "label": "三博脑科：关于与专业投资机构共同投资设立基金的公告",
+      "attrs": {
+        "sec_code": "301293",
+        "sec_name": "三博脑科",
+        "date": 1757415562000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2025-09-09/1224647875.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:301293:1224589327.PDF",
+      "kind": "disclosure",
+      "label": "三博脑科：关于与专业投资机构共同投资认购基金份额的公告",
+      "attrs": {
+        "sec_code": "301293",
+        "sec_name": "三博脑科",
+        "date": 1756284750000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2025-08-27/1224589327.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:301293:1224555133.PDF",
+      "kind": "disclosure",
+      "label": "三博脑科：关于与专业投资机构共同投资认购基金份额的公告",
+      "attrs": {
+        "sec_code": "301293",
+        "sec_name": "三博脑科",
+        "date": 1755852374000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2025-08-22/1224555133.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:301293:1223125399.PDF",
+      "kind": "disclosure",
+      "label": "三博脑科：关于续聘2025年度审计机构的公告",
+      "attrs": {
+        "sec_code": "301293",
+        "sec_name": "三博脑科",
+        "date": 1744905600000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2025-04-18/1223125399.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:301293:1220652375.PDF",
+      "kind": "disclosure",
+      "label": "三博脑科：关于续聘2024年度审计机构的公告",
+      "attrs": {
+        "sec_code": "301293",
+        "sec_name": "三博脑科",
+        "date": 1721145600000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2024-07-17/1220652375.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:301293:1219664705.PDF",
+      "kind": "disclosure",
+      "label": "三博脑科：关于成立清华大学（生物医学工程学院）-三博脑科脑机精准医学联合研究中心的公告",
+      "attrs": {
+        "sec_code": "301293",
+        "sec_name": "三博脑科",
+        "date": 1713456000000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2024-04-19/1219664705.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:301293:1216922031.PDF",
+      "kind": "disclosure",
+      "label": "三博脑科：关于续聘2023年度审计机构的公告",
+      "attrs": {
+        "sec_code": "301293",
+        "sec_name": "三博脑科",
+        "date": 1685116800000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2023-05-27/1216922031.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:301293:1216391093.PDF",
+      "kind": "disclosure",
+      "label": "三博脑科：落实投资者关系管理相关规定的安排、股利分配决策程序、股东投票机制建立情况",
+      "attrs": {
+        "sec_code": "301293",
+        "sec_name": "三博脑科",
+        "date": 1681315200000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2023-04-13/1216391093.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "cnstock:00354",
+      "kind": "listed_company",
+      "label": "中国软件国际",
+      "attrs": {
+        "code": "00354",
+        "market": "A股/港股",
+        "note": "公告命中，但不在所查板块成分内"
+      },
+      "source": "巨潮资讯",
+      "url": "http://static.cninfo.com.cn/finalpage/2025-06-16/1223880152.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:00354:1223880152.PDF",
+      "kind": "disclosure",
+      "label": "中国软件国际：自愿性公告 - 中软国际首发鸿云虚拟机 鸿蒙电脑迎来双系统智能交互、跨端流转、海量应用新突破",
+      "attrs": {
+        "sec_code": "00354",
+        "sec_name": "中国软件国际",
+        "date": 1750027710000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2025-06-16/1223880152.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "cnstock:01371",
+      "kind": "listed_company",
+      "label": "华彩控股",
+      "attrs": {
+        "code": "01371",
+        "market": "A股/港股",
+        "note": "公告命中，但不在所查板块成分内"
+      },
+      "source": "巨潮资讯",
+      "url": "http://static.cninfo.com.cn/finalpage/2019-07-15/1206450181.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:01371:1206450181.PDF",
+      "kind": "disclosure",
+      "label": "华彩控股：中标重庆电脑福彩投注机及技术服务项目",
+      "attrs": {
+        "sec_code": "01371",
+        "sec_name": "华彩控股",
+        "date": 1563206399000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2019-07-15/1206450181.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:01371:1200872226.PDF",
+      "kind": "disclosure",
+      "label": "华彩控股：於广东省福彩电脑票投注机使用权及服务采购项目成功中标",
+      "attrs": {
+        "sec_code": "01371",
+        "sec_name": "华彩控股",
+        "date": 1429492592000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2015-04-20/1200872226.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "cnstock:603933",
+      "kind": "listed_company",
+      "label": "睿能科技",
+      "attrs": {
+        "code": "603933",
+        "market": "A股/港股",
+        "note": "公告命中，但不在所查板块成分内"
+      },
+      "source": "巨潮资讯",
+      "url": "http://static.cninfo.com.cn/finalpage/2019-03-27/1205940980.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:603933:1205940980.PDF",
+      "kind": "disclosure",
+      "label": "睿能科技：全资子公司福建海睿达——针织袜机电脑控制系统生产基地建设项目可行性研究报告",
+      "attrs": {
+        "sec_code": "603933",
+        "sec_name": "睿能科技",
+        "date": 1553616000000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2019-03-27/1205940980.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "cnstock:002021",
+      "kind": "listed_company",
+      "label": "*ST中捷",
+      "attrs": {
+        "code": "002021",
+        "market": "A股/港股",
+        "note": "公告命中，但不在所查板块成分内"
+      },
+      "source": "巨潮资讯",
+      "url": "http://static.cninfo.com.cn/finalpage/2018-10-29/1205545278.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:002021:1205545278.PDF",
+      "kind": "disclosure",
+      "label": "中捷资源：关于变更募集资金投向暨向年新增6万台高速电脑包缝机技改项目投资的公告",
+      "attrs": {
+        "sec_code": "002021",
+        "sec_name": "*ST中捷",
+        "date": 1540742400000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2018-10-29/1205545278.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:002021:1205545283.PDF",
+      "kind": "disclosure",
+      "label": "中捷资源：浙江中捷缝纫科技有限公司年新增6万台高速电脑包缝机技改项目可行性研究报告",
+      "attrs": {
+        "sec_code": "002021",
+        "sec_name": "*ST中捷",
+        "date": 1540742400000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2018-10-29/1205545283.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:002021:1200250444.PDF",
+      "kind": "disclosure",
+      "label": "中捷股份：关于调整《年产56,000台高速直驱电脑平缝机、绷缝机技改项目》实施主体的公告",
+      "attrs": {
+        "sec_code": "002021",
+        "sec_name": "*ST中捷",
+        "date": 1411142400000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2014-09-20/1200250444.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:002021:62358336.PDF",
+      "kind": "disclosure",
+      "label": "中捷股份：关于变更募集资金投向暨向年产56000台高速直驱电脑平缝机、绷缝机技改项目追加投资的公告",
+      "attrs": {
+        "sec_code": "002021",
+        "sec_name": "*ST中捷",
+        "date": 1365782400000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2013-04-13/62358336.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:002021:59112166.PDF",
+      "kind": "disclosure",
+      "label": "中捷股份：中屹机械工业有限公司年产30000台高速直驱电脑包缝机技改项目可行性研究报告",
+      "attrs": {
+        "sec_code": "002021",
+        "sec_name": "*ST中捷",
+        "date": 1299882600000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2011-03-12/59112166.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:002021:59112167.PDF",
+      "kind": "disclosure",
+      "label": "中捷股份：年产56000台高速直驱电脑平缝机、绷缝机技改项目可行性研究报告",
+      "attrs": {
+        "sec_code": "002021",
+        "sec_name": "*ST中捷",
+        "date": 1299882600000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2011-03-12/59112167.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:002021:50081537.PDF",
+      "kind": "disclosure",
+      "label": "中捷股份：董事会关于调整年产1500台新型机光电一体电脑绣花机技术改造项目实施主体的公告",
+      "attrs": {
+        "sec_code": "002021",
+        "sec_name": "*ST中捷",
+        "date": 1236810600000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2009-03-12/50081537.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:002021:50081532.PDF",
+      "kind": "disclosure",
+      "label": "中捷股份：光大证券股份有限公司关于公司变更“机光电一体电脑绣花机技改项目”实施主体事宜的保荐意见",
+      "attrs": {
+        "sec_code": "002021",
+        "sec_name": "*ST中捷",
+        "date": 1236810600000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2009-03-12/50081532.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "cnstock:600843",
+      "kind": "listed_company",
+      "label": "上工申贝",
+      "attrs": {
+        "code": "600843",
+        "market": "A股/港股",
+        "note": "公告命中，但不在所查板块成分内"
+      },
+      "source": "巨潮资讯",
+      "url": "http://static.cninfo.com.cn/finalpage/2018-08-07/1205262454.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:600843:1205262454.PDF",
+      "kind": "disclosure",
+      "label": "上工申贝：关于收购天津宝盈电脑机械有限公司65%股权及增资的补充公告",
+      "attrs": {
+        "sec_code": "600843",
+        "sec_name": "上工申贝",
+        "date": 1533571200000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2018-08-07/1205262454.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:600843:1205249558.PDF",
+      "kind": "disclosure",
+      "label": "上工申贝：拟收购天津宝盈电脑机械有限公司所涉及股东全部权益价值评估报告",
+      "attrs": {
+        "sec_code": "600843",
+        "sec_name": "上工申贝",
+        "date": 1533139200000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2018-08-02/1205249558.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:600843:1205249560.PDF",
+      "kind": "disclosure",
+      "label": "上工申贝：关于收购天津宝盈电脑机械有限公司65%股权及增资的公告",
+      "attrs": {
+        "sec_code": "600843",
+        "sec_name": "上工申贝",
+        "date": 1533139200000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2018-08-02/1205249560.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "cnstock:000066",
+      "kind": "listed_company",
+      "label": "中国长城",
+      "attrs": {
+        "code": "000066",
+        "market": "A股/港股",
+        "note": "公告命中，但不在所查板块成分内"
+      },
+      "source": "巨潮资讯",
+      "url": "http://static.cninfo.com.cn/finalpage/2016-07-15/1202474270.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:000066:1202474270.PDF",
+      "kind": "disclosure",
+      "label": "长城电脑：立信会计师事务所（特殊普通合伙）关于《中国长城计算机深圳股份有限公司吸收合并长城信息产业股份有限公司及重大资产置换和发行股份购买资产并募集配套资金暨关联交易》的专项核查意见",
+      "attrs": {
+        "sec_code": "000066",
+        "sec_name": "中国长城",
+        "date": 1468512000000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2016-07-15/1202474270.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:000066:1202450399.PDF",
+      "kind": "disclosure",
+      "label": "长城电脑：关于《中国长城计算机深圳股份有限公司吸收合并长城信息产业股份有限公司及重大资产置换和发行股份购买资产并募集配套资金暨关联交易申请文件》之反馈意见回复",
+      "attrs": {
+        "sec_code": "000066",
+        "sec_name": "中国长城",
+        "date": 1467648000000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2016-07-05/1202450399.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:000066:1202450403.PDF",
+      "kind": "disclosure",
+      "label": "长城电脑：北京中企华资产评估有限责任公司关于《中国长城计算机深圳股份有限公司吸收合并长城信息产业股份有限公司及重大资产置换和发行股份购买资产并募集配套资金暨关联交易申请文件》之反馈意见回复",
+      "attrs": {
+        "sec_code": "000066",
+        "sec_name": "中国长城",
+        "date": 1467648000000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2016-07-05/1202450403.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:000066:1202450400.PDF",
+      "kind": "disclosure",
+      "label": "长城电脑：海通证券股份有限公司关于《中国长城计算机深圳股份有限公司吸收合并长城信息产业股份有限公司及重大资产置换和发行股份购买资产并募集配套资金暨关联交易申请文件》之反馈意见回复",
+      "attrs": {
+        "sec_code": "000066",
+        "sec_name": "中国长城",
+        "date": 1467648000000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2016-07-05/1202450400.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:000066:1202450402.PDF",
+      "kind": "disclosure",
+      "label": "长城电脑：立信会计师事务所（特殊普通合伙）关于《中国长城计算机深圳股份有限公司吸收合并长城信息产业股份有限公司及重大资产置换和发行股份购买资产并募集配套资金暨关联交易申请文件》之反馈意见回复",
+      "attrs": {
+        "sec_code": "000066",
+        "sec_name": "中国长城",
+        "date": 1467648000000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2016-07-05/1202450402.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:000066:1202067864.PDF",
+      "kind": "disclosure",
+      "label": "长城电脑：海通证券股份有限公司关于深圳证券交易所《关于对中国长城计算机深圳股份有限公司和长城信息产业股份有限公司的重组问询函》的反馈意见回复暨独立财务顾问补充核查意见",
+      "attrs": {
+        "sec_code": "000066",
+        "sec_name": "中国长城",
+        "date": 1458662400000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2016-03-23/1202067864.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:000066:1202067865.PDF",
+      "kind": "disclosure",
+      "label": "长城电脑：北京金杜（成都）律师事务所关于深圳证券交易所《关于对中国长城计算机深圳股份有限公司和长城信息产业股份有限公司的重组问询函》之专项法律意见书（二）",
+      "attrs": {
+        "sec_code": "000066",
+        "sec_name": "中国长城",
+        "date": 1458662400000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2016-03-23/1202067865.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:000066:1202033181.PDF",
+      "kind": "disclosure",
+      "label": "长城电脑：北京金杜（成都）律师事务所关于深圳证券交易所《关于对中国长城计算机深圳股份有限公司和长城信息产业股份有限公司的重组问询函》之专项法律意见书",
+      "attrs": {
+        "sec_code": "000066",
+        "sec_name": "中国长城",
+        "date": 1457539200000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2016-03-10/1202033181.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:000066:1202033180.PDF",
+      "kind": "disclosure",
+      "label": "长城电脑：海通证券股份有限公司关于深圳证券交易所《关于对中国长城计算机深圳股份有限公司和长城信息产业股份有限公司的重组问询函》的反馈意见回复暨独立财务顾问补充核查意见",
+      "attrs": {
+        "sec_code": "000066",
+        "sec_name": "中国长城",
+        "date": 1457539200000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2016-03-10/1202033180.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:000066:1201996795.PDF",
+      "kind": "disclosure",
+      "label": "长城电脑：海通证券股份有限公司对《中国长城计算机深圳股份有限公司关于停牌前股票价格波动未达到“128号文”第五条相关标准的说明》之核查意见",
+      "attrs": {
+        "sec_code": "000066",
+        "sec_name": "中国长城",
+        "date": 1456329600000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2016-02-25/1201996795.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:000066:63561757.PDF",
+      "kind": "disclosure",
+      "label": "长城电脑：北京市金杜律师事务所关于《中国长城计算机深圳股份有限公司收购报告书》的法律意见书",
+      "attrs": {
+        "sec_code": "000066",
+        "sec_name": "中国长城",
+        "date": 1392134400000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2014-02-12/63561757.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:000066:59554319.PDF",
+      "kind": "disclosure",
+      "label": "长城电脑：关于更换保荐机构的公告",
+      "attrs": {
+        "sec_code": "000066",
+        "sec_name": "中国长城",
+        "date": 1308090600000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2011-06-15/59554319.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:000066:59362595.PDF",
+      "kind": "disclosure",
+      "label": "长城电脑：关于计划与国际商业机器（中国）有限公司合作的提示性公告",
+      "attrs": {
+        "sec_code": "000066",
+        "sec_name": "中国长城",
+        "date": 1304029800000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2011-04-29/59362595.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:000066:59206974.PDF",
+      "kind": "disclosure",
+      "label": "长城电脑：关于为子公司中国长城计算机（香港）控股有限公司提供担保的公告",
+      "attrs": {
+        "sec_code": "000066",
+        "sec_name": "中国长城",
+        "date": 1301524200000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2011-03-31/59206974.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:000066:52061077.PDF",
+      "kind": "disclosure",
+      "label": "长城电脑：关于收购中国长城计算机（香港）控股有限公司股权暨关联交易的公告",
+      "attrs": {
+        "sec_code": "000066",
+        "sec_name": "中国长城",
+        "date": 1241389800000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2009-05-04/52061077.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:000066:52061078.PDF",
+      "kind": "disclosure",
+      "label": "长城电脑：拟收购中国长城计算机（香港）控股有限公司股权项目资产评估报告书",
+      "attrs": {
+        "sec_code": "000066",
+        "sec_name": "中国长城",
+        "date": 1241389800000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2009-05-04/52061078.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:000066:52061079.PDF",
+      "kind": "disclosure",
+      "label": "长城电脑：拟收购中国长城计算机（香港）控股有限公司股权项目资产评估说明",
+      "attrs": {
+        "sec_code": "000066",
+        "sec_name": "中国长城",
+        "date": 1241389800000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2009-05-04/52061079.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:000066:52061080.PDF",
+      "kind": "disclosure",
+      "label": "长城电脑：中国长城计算机(香港)控股有限公司2008年度财务报表的专项审计报告",
+      "attrs": {
+        "sec_code": "000066",
+        "sec_name": "中国长城",
+        "date": 1241389800000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2009-05-04/52061080.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:000066:48492069.PDF",
+      "kind": "disclosure",
+      "label": "长城电脑：关于收购中国长城计算机（香港）控股有限公司股权暨关联交易的提示性公告",
+      "attrs": {
+        "sec_code": "000066",
+        "sec_name": "中国长城",
+        "date": 1232404200000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2009-01-20/48492069.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "cnstock:002226",
+      "kind": "listed_company",
+      "label": "江南化工",
+      "attrs": {
+        "code": "002226",
+        "market": "A股/港股",
+        "note": "公告命中，但不在所查板块成分内"
+      },
+      "source": "巨潮资讯",
+      "url": "http://static.cninfo.com.cn/finalpage/2015-09-09/1201567129.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:002226:1201567129.PDF",
+      "kind": "disclosure",
+      "label": "江南化工：关于完成投资云端机器人大脑项目的公告",
+      "attrs": {
+        "sec_code": "002226",
+        "sec_name": "江南化工",
+        "date": 1441728000000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2015-09-09/1201567129.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:002226:1201428420.PDF",
+      "kind": "disclosure",
+      "label": "江南化工：关于投资云端机器人大脑项目进展公告",
+      "attrs": {
+        "sec_code": "002226",
+        "sec_name": "江南化工",
+        "date": 1439395200000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2015-08-13/1201428420.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:002226:1201236382.PDF",
+      "kind": "disclosure",
+      "label": "江南化工：关于投资云端机器人大脑项目的公告",
+      "attrs": {
+        "sec_code": "002226",
+        "sec_name": "江南化工",
+        "date": 1435939200000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2015-07-04/1201236382.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "cnstock:600435",
+      "kind": "listed_company",
+      "label": "北方导航",
+      "attrs": {
+        "code": "600435",
+        "market": "A股/港股",
+        "note": "公告命中，但不在所查板块成分内"
+      },
+      "source": "巨潮资讯",
+      "url": "http://static.cninfo.com.cn/finalpage/2014-12-26/1200495257.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:600435:1200495257.PDF",
+      "kind": "disclosure",
+      "label": "北方导航：关于重新挂牌出售子公司武汉北方天鸟佳美电脑绣花机制造有限公司股权的结果公告",
+      "attrs": {
+        "sec_code": "600435",
+        "sec_name": "北方导航",
+        "date": 1419523200000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2014-12-26/1200495257.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:600435:63337762.PDF",
+      "kind": "disclosure",
+      "label": "北方导航：关于重新挂牌出售子公司武汉北方天鸟佳美电脑绣花机制造有限公司股权的进展公告",
+      "attrs": {
+        "sec_code": "600435",
+        "sec_name": "北方导航",
+        "date": 1386172801000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2013-12-05/63337762.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:600435:63207158.PDF",
+      "kind": "disclosure",
+      "label": "北方导航：关于重新挂牌出售子公司武汉北方天鸟佳美电脑绣花机制造有限公司股权的公告",
+      "attrs": {
+        "sec_code": "600435",
+        "sec_name": "北方导航",
+        "date": 1382976001000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2013-10-29/63207158.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:600435:63207159.PDF",
+      "kind": "disclosure",
+      "label": "北方导航：拟进行股权转让所涉及的武汉北方天鸟佳美电脑绣花机制造有限公司股东全部权益价值资产评估报告书",
+      "attrs": {
+        "sec_code": "600435",
+        "sec_name": "北方导航",
+        "date": 1382976001000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2013-10-29/63207159.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:600435:61637218.PDF",
+      "kind": "disclosure",
+      "label": "北方导航：关于挂牌出售子公司武汉北方天鸟佳美电脑绣花机制造有限公司股权的进展公告",
+      "attrs": {
+        "sec_code": "600435",
+        "sec_name": "北方导航",
+        "date": 1349822100000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2012-10-10/61637218.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:600435:60943510.PDF",
+      "kind": "disclosure",
+      "label": "中兵光电：关于挂牌出售子公司武汉北方天鸟佳美电脑绣花机制造有限公司股权的进展公告",
+      "attrs": {
+        "sec_code": "600435",
+        "sec_name": "北方导航",
+        "date": 1335997980000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2012-05-03/60943510.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:600435:60712713.PDF",
+      "kind": "disclosure",
+      "label": "中兵光电：关于挂牌出售子公司武汉北方天鸟佳美电脑绣花机制造有限公司股权的公告",
+      "attrs": {
+        "sec_code": "600435",
+        "sec_name": "北方导航",
+        "date": 1332455580000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2012-03-23/60712713.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:600435:52925310.PDF",
+      "kind": "disclosure",
+      "label": "中兵光电：关于将电脑刺绣机经营资产租赁给北京华北光学仪器有限公司经营的关联交易公告",
+      "attrs": {
+        "sec_code": "600435",
+        "sec_name": "北方导航",
+        "date": 1243377000000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2009-05-27/52925310.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "cnstock:600487",
+      "kind": "listed_company",
+      "label": "亨通光电",
+      "attrs": {
+        "code": "600487",
+        "market": "A股/港股",
+        "note": "公告命中，但不在所查板块成分内"
+      },
+      "source": "巨潮资讯",
+      "url": "http://static.cninfo.com.cn/finalpage/2014-04-24/63901061.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:600487:63901061.PDF",
+      "kind": "disclosure",
+      "label": "亨通光电：拟收购华宇电脑（江苏）有限公司拥有的工业土地使用权、建（构）筑物及机械设备项目资产评估报告书",
+      "attrs": {
+        "sec_code": "600487",
+        "sec_name": "亨通光电",
+        "date": 1398268801000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2014-04-24/63901061.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "cnstock:08161",
+      "kind": "listed_company",
+      "label": "华彩控股",
+      "attrs": {
+        "code": "08161",
+        "market": "A股/港股",
+        "note": "公告命中，但不在所查板块成分内"
+      },
+      "source": "巨潮资讯",
+      "url": "http://static.cninfo.com.cn/finalpage/2013-07-25/62871252.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:08161:62871252.PDF",
+      "kind": "disclosure",
+      "label": "华彩控股：於贵州省体彩电脑彩票终端机采购项目成功中标",
+      "attrs": {
+        "sec_code": "08161",
+        "sec_name": "华彩控股",
+        "date": 1374745590000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2013-07-25/62871252.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:08161:62532831.PDF",
+      "kind": "disclosure",
+      "label": "华彩控股：与重庆福彩中心签署电脑彩票投注机供应合同",
+      "attrs": {
+        "sec_code": "08161",
+        "sec_name": "华彩控股",
+        "date": 1369739730000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2013-05-28/62532831.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:08161:62236947.PDF",
+      "kind": "disclosure",
+      "label": "华彩控股：成功入围国家体彩电脑票终端机供应商",
+      "attrs": {
+        "sec_code": "08161",
+        "sec_name": "华彩控股",
+        "date": 1363779511000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2013-03-20/62236947.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:08161:61998949.PDF",
+      "kind": "disclosure",
+      "label": "华彩控股：於重庆电脑福利彩票投注机系统及技术服务采购项目成功中标",
+      "attrs": {
+        "sec_code": "08161",
+        "sec_name": "华彩控股",
+        "date": 1357660800000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2013-01-09/61998949.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:08161:54312351.PDF",
+      "kind": "disclosure",
+      "label": "华彩控股：於广东省福利彩票之传统电脑彩票投注机及服务采购项目成功中标",
+      "attrs": {
+        "sec_code": "08161",
+        "sec_name": "华彩控股",
+        "date": 1246658400000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2009-07-04/54312351.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "cnstock:300307",
+      "kind": "listed_company",
+      "label": "慈星股份",
+      "attrs": {
+        "code": "300307",
+        "market": "A股/港股",
+        "note": "公告命中，但不在所查板块成分内"
+      },
+      "source": "巨潮资讯",
+      "url": "http://static.cninfo.com.cn/finalpage/2013-07-24/62867500.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:300307:62867500.PDF",
+      "kind": "disclosure",
+      "label": "慈星股份：关于收购上海事坦格电脑横机生产线并注销上海事坦格的补充公告",
+      "attrs": {
+        "sec_code": "300307",
+        "sec_name": "慈星股份",
+        "date": 1374656964000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2013-07-24/62867500.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:300307:62356267.PDF",
+      "kind": "disclosure",
+      "label": "慈星股份：关于变更年产6000台电脑针织丝袜机产业化项目投资概算的可行性研究报告",
+      "attrs": {
+        "sec_code": "300307",
+        "sec_name": "慈星股份",
+        "date": 1365755129000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2013-04-12/62356267.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:300307:62356265.PDF",
+      "kind": "disclosure",
+      "label": "慈星股份：关于变更年产5000台嵌花电脑针织横机产业化项目投资概算的可行性研究报告",
+      "attrs": {
+        "sec_code": "300307",
+        "sec_name": "慈星股份",
+        "date": 1365755129000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2013-04-12/62356265.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:300307:62356268.PDF",
+      "kind": "disclosure",
+      "label": "慈星股份：关于变更电脑针织机械研发中心项目投资概算的可行性研究报告",
+      "attrs": {
+        "sec_code": "300307",
+        "sec_name": "慈星股份",
+        "date": 1365755129000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2013-04-12/62356268.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:300307:62356266.PDF",
+      "kind": "disclosure",
+      "label": "慈星股份：关于变更年产5000台电脑无缝针织内衣机产业化项目投资概算的可行性研究报告",
+      "attrs": {
+        "sec_code": "300307",
+        "sec_name": "慈星股份",
+        "date": 1365755129000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2013-04-12/62356266.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:300307:62356264.PDF",
+      "kind": "disclosure",
+      "label": "慈星股份：关于变更年产20000台电脑针织横机产业化项目投资概算的可行性研究报告",
+      "attrs": {
+        "sec_code": "300307",
+        "sec_name": "慈星股份",
+        "date": 1365755129000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2013-04-12/62356264.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:300307:61416211.PDF",
+      "kind": "disclosure",
+      "label": "慈星股份：关于收购上海事坦格电脑横机生产线并注销上海事坦格的公告",
+      "attrs": {
+        "sec_code": "300307",
+        "sec_name": "慈星股份",
+        "date": 1344897000000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2012-08-14/61416211.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "cnstock:300042",
+      "kind": "listed_company",
+      "label": "朗科科技",
+      "attrs": {
+        "code": "300042",
+        "market": "A股/港股",
+        "note": "公告命中，但不在所查板块成分内"
+      },
+      "source": "巨潮资讯",
+      "url": "http://static.cninfo.com.cn/finalpage/2011-08-17/59832753.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:300042:59832753.PDF",
+      "kind": "disclosure",
+      "label": "朗科科技：关于台湾发明专利第I237264号“一种多功能半导体存储装置及用以启动电脑主机的方法”在台湾诉讼进展公告",
+      "attrs": {
+        "sec_code": "300042",
+        "sec_name": "朗科科技",
+        "date": 1313577480000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2011-08-17/59832753.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:300042:58711414.PDF",
+      "kind": "disclosure",
+      "label": "朗科科技：关于台湾发明专利第I 237264号“一种多功能半导体存储装置及用以启动电脑主机的方法”在台湾诉讼进展公告",
+      "attrs": {
+        "sec_code": "300042",
+        "sec_name": "朗科科技",
+        "date": 1290758700000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2010-11-26/58711414.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:300042:58438896.PDF",
+      "kind": "disclosure",
+      "label": "朗科科技：关于台湾发明专利第I237264号“一种多功能半导体存储装置及用以启动电脑主机的方法”在台湾诉讼进展公告",
+      "attrs": {
+        "sec_code": "300042",
+        "sec_name": "朗科科技",
+        "date": 1284435360000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2010-09-14/58438896.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:300042:58296934.PDF",
+      "kind": "disclosure",
+      "label": "朗科科技：关于台湾发明专利第I237264号“一种多功能半导体存储装置及用以启动电脑主机的方法”在台湾诉讼进展公告",
+      "attrs": {
+        "sec_code": "300042",
+        "sec_name": "朗科科技",
+        "date": 1281652200000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2010-08-13/58296934.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:300042:58163766.PDF",
+      "kind": "disclosure",
+      "label": "朗科科技：关于台湾发明专利第I237264号“一种多功能半导体存储装置及用以启动电脑主机的方法”在台湾举发案的进展公告",
+      "attrs": {
+        "sec_code": "300042",
+        "sec_name": "朗科科技",
+        "date": 1278973800000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2010-07-13/58163766.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "key": "announcement:cninfo:300042:57769013.PDF",
+      "kind": "disclosure",
+      "label": "朗科科技：关于台湾发明专利第I237264号“一种多功能半导体存储装置及用以启动电脑主机的方法”在台湾诉讼进展公告",
+      "attrs": {
+        "sec_code": "300042",
+        "sec_name": "朗科科技",
+        "date": 1270179780000
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2010-04-02/57769013.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
     }
   ],
   "edges": [
@@ -1490,7 +4311,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "actor:unknown",
@@ -1501,7 +4322,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "actor:unknown",
@@ -1512,7 +4333,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "actor:unknown",
@@ -1523,7 +4344,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "actor:unknown",
@@ -1534,7 +4355,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "actor:unknown",
@@ -1545,7 +4366,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "actor:unknown",
@@ -1556,7 +4377,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "actor:unknown",
@@ -1567,7 +4388,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "actor:neuroxess",
@@ -1578,7 +4399,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "actor:neuroxess",
@@ -1589,7 +4410,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "actor:neuroxess",
@@ -1600,7 +4421,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "actor:stairmed",
@@ -1611,7 +4432,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "actor:stairmed",
@@ -1622,7 +4443,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "actor:stairmed",
@@ -1633,7 +4454,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "actor:neuracle",
@@ -1644,7 +4465,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "actor:neuracle",
@@ -1655,7 +4476,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "actor:neuracle",
@@ -1666,7 +4487,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "actor:mgi",
@@ -1677,7 +4498,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "actor:mgi",
@@ -1688,7 +4509,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "actor:genscript",
@@ -1699,7 +4520,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "actor:genscript",
@@ -1710,7 +4531,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "actor:asymchem",
@@ -1721,7 +4542,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "actor:asymchem",
@@ -1732,7 +4553,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "actor:asymchem",
@@ -1743,7 +4564,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "actor:united-imaging",
@@ -1754,7 +4575,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "actor:united-imaging",
@@ -1765,7 +4586,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "actor:unknown",
@@ -1776,7 +4597,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "actor:unknown",
@@ -1787,7 +4608,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "gov:unknown",
@@ -1798,7 +4619,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "platform:xiehe-tianjin",
@@ -1809,7 +4630,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "platform:xiehe-tianjin",
@@ -1820,7 +4641,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "platform:xiehe-tianjin",
@@ -1831,7 +4652,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "dataset:openneuro:ds007720",
@@ -1843,7 +4664,7 @@
       },
       "source": "OpenNeuro",
       "url": "https://openneuro.org/datasets/ds007720",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "dataset:openneuro:ds007720",
@@ -1854,7 +4675,7 @@
       },
       "source": "OpenNeuro",
       "url": "https://openneuro.org/datasets/ds007720",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "dataset:openneuro:ds002720",
@@ -1866,7 +4687,7 @@
       },
       "source": "OpenNeuro",
       "url": "https://openneuro.org/datasets/ds002720",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "dataset:bnci:001-2014",
@@ -1878,7 +4699,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2014/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "dataset:bnci:002-2014",
@@ -1890,7 +4711,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/002-2014/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "dataset:bnci:004-2014",
@@ -1902,7 +4723,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/004-2014/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "dataset:bnci:008-2014",
@@ -1914,7 +4735,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/008-2014/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "dataset:bnci:008-2014",
@@ -1925,7 +4746,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/008-2014/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "dataset:bnci:009-2014",
@@ -1937,7 +4758,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/009-2014/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "dataset:bnci:002-2015",
@@ -1949,7 +4770,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/002-2015/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "dataset:bnci:003-2015",
@@ -1961,7 +4782,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/003-2015/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "dataset:bnci:011-2015",
@@ -1973,7 +4794,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/011-2015/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "dataset:bnci:001-2016",
@@ -1985,7 +4806,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2016/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "dataset:bnci:001-2017",
@@ -1997,7 +4818,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2017/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "dataset:bnci:001-2019",
@@ -2009,7 +4830,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2019/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "dataset:bnci:001-2019",
@@ -2020,7 +4841,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2019/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "dataset:bnci:001-2020",
@@ -2032,7 +4853,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2020/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "dataset:bnci:001-2020",
@@ -2044,7 +4865,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2020/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "dataset:bnci:002-2020",
@@ -2056,7 +4877,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/002-2020/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "dataset:bnci:001-2026",
@@ -2068,7 +4889,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2026/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "nct:NCT05880251",
@@ -2079,7 +4900,7 @@
       },
       "source": "ClinicalTrials.gov",
       "url": "https://clinicaltrials.gov/study/NCT05880251",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "org:va-office-of-research-and-development",
@@ -2090,7 +4911,7 @@
       },
       "source": "ClinicalTrials.gov",
       "url": "https://clinicaltrials.gov/study/NCT05880251",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "nct:NCT07472556",
@@ -2102,7 +4923,7 @@
       },
       "source": "ClinicalTrials.gov",
       "url": "https://clinicaltrials.gov/study/NCT07472556",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "nct:NCT07472556",
@@ -2113,7 +4934,7 @@
       },
       "source": "ClinicalTrials.gov",
       "url": "https://clinicaltrials.gov/study/NCT07472556",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "org:pasquale-arpaia",
@@ -2124,7 +4945,7 @@
       },
       "source": "ClinicalTrials.gov",
       "url": "https://clinicaltrials.gov/study/NCT07472556",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "nct:NCT02011399",
@@ -2136,7 +4957,7 @@
       },
       "source": "ClinicalTrials.gov",
       "url": "https://clinicaltrials.gov/study/NCT02011399",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "org:university-of-michigan",
@@ -2147,7 +4968,7 @@
       },
       "source": "ClinicalTrials.gov",
       "url": "https://clinicaltrials.gov/study/NCT02011399",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "pmid:34502636",
@@ -2159,7 +4980,7 @@
       },
       "source": "PubMed",
       "url": "https://pubmed.ncbi.nlm.nih.gov/34502636/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "pmid:39275636",
@@ -2171,7 +4992,7 @@
       },
       "source": "PubMed",
       "url": "https://pubmed.ncbi.nlm.nih.gov/39275636/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "pmid:37447849",
@@ -2183,7 +5004,7 @@
       },
       "source": "PubMed",
       "url": "https://pubmed.ncbi.nlm.nih.gov/37447849/",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "fda510k:K781041",
@@ -2195,7 +5016,7 @@
       },
       "source": "openFDA 510(k)",
       "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K781041",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "org:beckman-instruments-inc",
@@ -2206,7 +5027,7 @@
       },
       "source": "openFDA 510(k)",
       "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K781041",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "fda510k:K896666",
@@ -2218,7 +5039,7 @@
       },
       "source": "openFDA 510(k)",
       "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K896666",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "org:teca-inc",
@@ -2229,7 +5050,7 @@
       },
       "source": "openFDA 510(k)",
       "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K896666",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "fda510k:K960170",
@@ -2241,7 +5062,7 @@
       },
       "source": "openFDA 510(k)",
       "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K960170",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "org:moberg-medical-inc",
@@ -2252,7 +5073,7 @@
       },
       "source": "openFDA 510(k)",
       "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K960170",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "bio_ensembl:ENSG00000146648",
@@ -2263,7 +5084,7 @@
       },
       "source": "Open Targets",
       "url": "https://platform.opentargets.org/target/ENSG00000146648/associations",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "bio_ensembl:ENSG00000146648",
@@ -2274,7 +5095,7 @@
       },
       "source": "Open Targets",
       "url": "https://platform.opentargets.org/target/ENSG00000146648/associations",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "bio_ensembl:ENSG00000146648",
@@ -2285,7 +5106,7 @@
       },
       "source": "Open Targets",
       "url": "https://platform.opentargets.org/target/ENSG00000146648/associations",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "bio_ensembl:ENSG00000146648",
@@ -2296,7 +5117,7 @@
       },
       "source": "Open Targets",
       "url": "https://platform.opentargets.org/target/ENSG00000146648/associations",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "bio_ensembl:ENSG00000146648",
@@ -2307,7 +5128,7 @@
       },
       "source": "Open Targets",
       "url": "https://platform.opentargets.org/target/ENSG00000146648/associations",
-      "fetched_at": "2026-11-23T03:33:00+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "bio_ensembl:ENSG00000146648",
@@ -2318,7 +5139,7 @@
       },
       "source": "UniProt",
       "url": "https://www.uniprot.org/uniprotkb/A0A068JCC9/entry",
-      "fetched_at": "2026-11-23T03:33:08+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "bio_chembl_target:CHEMBL4523747",
@@ -2329,7 +5150,7 @@
       },
       "source": "ChEMBL",
       "url": "https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL4523747/",
-      "fetched_at": "2026-11-23T03:33:08+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "bio_chembl_target:CHEMBL5465557",
@@ -2340,7 +5161,7 @@
       },
       "source": "ChEMBL",
       "url": "https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL5465557/",
-      "fetched_at": "2026-11-23T03:33:08+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "bio_chembl_target:CHEMBL3608",
@@ -2351,7 +5172,7 @@
       },
       "source": "ChEMBL",
       "url": "https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL3608/",
-      "fetched_at": "2026-11-23T03:33:08+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "bio_epmc:43021317",
@@ -2362,7 +5183,7 @@
       },
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/43021317",
-      "fetched_at": "2026-11-23T03:33:08+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "bio_epmc:42897839",
@@ -2373,7 +5194,7 @@
       },
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/42897839",
-      "fetched_at": "2026-11-23T03:33:08+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "bio:synthetic_biology",
@@ -2384,7 +5205,7 @@
       },
       "source": "实施方案 生物制造定义",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:08+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "bio:enzyme_engineering",
@@ -2395,7 +5216,7 @@
       },
       "source": "实施方案 生物制造定义",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:08+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "bio:fermentation",
@@ -2406,7 +5227,7 @@
       },
       "source": "实施方案 生物制造定义",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:08+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "bio:cell_engineering",
@@ -2417,7 +5238,7 @@
       },
       "source": "实施方案 生物制造定义",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:08+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "bio:organoid_manufacturing",
@@ -2428,7 +5249,7 @@
       },
       "source": "实施方案 图1",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:08+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
     },
     {
       "src": "bio:organoid_manufacturing",
@@ -2439,7 +5260,1855 @@
       },
       "source": "实施方案 生物制造定义",
       "url": "",
-      "fetched_at": "2026-11-23T03:33:08+00:00"
+      "fetched_at": "2026-11-23T03:47:34+00:00"
+    },
+    {
+      "src": "cnstock:300007",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:002172",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:603666",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:603920",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:002009",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:300652",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:301293",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:603127",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:688306",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:688039",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:301515",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:000566",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:688767",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:301337",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:002925",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:600056",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:600704",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:300678",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:300003",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:002219",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:300014",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:300352",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:002111",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:002465",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:601567",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:300884",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:688575",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:002602",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:002195",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:000650",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:600648",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:600998",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:002230",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:600459",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:300459",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:300143",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:300430",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:603610",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:301290",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:603716",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:300409",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:688273",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:603008",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:301099",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:300632",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:688580",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:300793",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:002555",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:002324",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:301015",
+      "dst": "board:ths:308535",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
+      "fetched_at": "2026-11-23T03:47:40+00:00"
+    },
+    {
+      "src": "cnstock:688046",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:688105",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:688253",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:688336",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:300404",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:300244",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:688068",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:300016",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:301509",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:301015",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:301130",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:002107",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:000756",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:002693",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:002773",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:002393",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:600572",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:601607",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:603669",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:600227",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:600771",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:600789",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:002287",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:002675",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:002603",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:603439",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:002262",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:002044",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:600521",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:002020",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:603980",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:300676",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:600196",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:300017",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:920017",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:600267",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T03:47:46+00:00"
+    },
+    {
+      "src": "cnstock:06681",
+      "dst": "announcement:cninfo:06681:1225073760.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-04-02/1225073760.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:06681",
+      "dst": "announcement:cninfo:06681:1225680396.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-11-20/1225680396.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:002602",
+      "dst": "announcement:cninfo:002602:1214044251.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2022-07-15/1214044251.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:002173",
+      "dst": "announcement:cninfo:002173:1209259274.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2021-02-09/1209259274.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:002173",
+      "dst": "announcement:cninfo:002173:1209141798.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2021-01-20/1209141798.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:688253",
+      "dst": "announcement:cninfo:688253:1225625767.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-10-27/1225625767.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:301293",
+      "dst": "announcement:cninfo:301293:1225139870.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-04-22/1225139870.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:301293",
+      "dst": "announcement:cninfo:301293:1225039511.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-03-27/1225039511.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:301293",
+      "dst": "announcement:cninfo:301293:1225028025.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-03-24/1225028025.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:301293",
+      "dst": "announcement:cninfo:301293:1224877223.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2025-12-15/1224877223.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:301293",
+      "dst": "announcement:cninfo:301293:1224647875.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2025-09-09/1224647875.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:301293",
+      "dst": "announcement:cninfo:301293:1224589327.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2025-08-27/1224589327.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:301293",
+      "dst": "announcement:cninfo:301293:1224555133.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2025-08-22/1224555133.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:301293",
+      "dst": "announcement:cninfo:301293:1223125399.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2025-04-18/1223125399.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:301293",
+      "dst": "announcement:cninfo:301293:1220652375.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2024-07-17/1220652375.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:301293",
+      "dst": "announcement:cninfo:301293:1219664705.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2024-04-19/1219664705.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:301293",
+      "dst": "announcement:cninfo:301293:1216922031.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2023-05-27/1216922031.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:301293",
+      "dst": "announcement:cninfo:301293:1216391093.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2023-04-13/1216391093.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:00354",
+      "dst": "announcement:cninfo:00354:1223880152.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2025-06-16/1223880152.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:01371",
+      "dst": "announcement:cninfo:01371:1206450181.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2019-07-15/1206450181.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:01371",
+      "dst": "announcement:cninfo:01371:1200872226.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2015-04-20/1200872226.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:603933",
+      "dst": "announcement:cninfo:603933:1205940980.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2019-03-27/1205940980.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:002021",
+      "dst": "announcement:cninfo:002021:1205545278.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2018-10-29/1205545278.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:002021",
+      "dst": "announcement:cninfo:002021:1205545283.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2018-10-29/1205545283.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:002021",
+      "dst": "announcement:cninfo:002021:1200250444.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2014-09-20/1200250444.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:002021",
+      "dst": "announcement:cninfo:002021:62358336.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2013-04-13/62358336.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:002021",
+      "dst": "announcement:cninfo:002021:59112166.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2011-03-12/59112166.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:002021",
+      "dst": "announcement:cninfo:002021:59112167.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2011-03-12/59112167.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:002021",
+      "dst": "announcement:cninfo:002021:50081537.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2009-03-12/50081537.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:002021",
+      "dst": "announcement:cninfo:002021:50081532.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2009-03-12/50081532.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:600843",
+      "dst": "announcement:cninfo:600843:1205262454.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2018-08-07/1205262454.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:600843",
+      "dst": "announcement:cninfo:600843:1205249558.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2018-08-02/1205249558.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:600843",
+      "dst": "announcement:cninfo:600843:1205249560.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2018-08-02/1205249560.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:000066",
+      "dst": "announcement:cninfo:000066:1202474270.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2016-07-15/1202474270.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:000066",
+      "dst": "announcement:cninfo:000066:1202450399.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2016-07-05/1202450399.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:000066",
+      "dst": "announcement:cninfo:000066:1202450403.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2016-07-05/1202450403.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:000066",
+      "dst": "announcement:cninfo:000066:1202450400.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2016-07-05/1202450400.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:000066",
+      "dst": "announcement:cninfo:000066:1202450402.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2016-07-05/1202450402.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:000066",
+      "dst": "announcement:cninfo:000066:1202067864.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2016-03-23/1202067864.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:000066",
+      "dst": "announcement:cninfo:000066:1202067865.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2016-03-23/1202067865.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:000066",
+      "dst": "announcement:cninfo:000066:1202033181.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2016-03-10/1202033181.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:000066",
+      "dst": "announcement:cninfo:000066:1202033180.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2016-03-10/1202033180.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:000066",
+      "dst": "announcement:cninfo:000066:1201996795.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2016-02-25/1201996795.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:000066",
+      "dst": "announcement:cninfo:000066:63561757.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2014-02-12/63561757.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:000066",
+      "dst": "announcement:cninfo:000066:59554319.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2011-06-15/59554319.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:000066",
+      "dst": "announcement:cninfo:000066:59362595.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2011-04-29/59362595.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:000066",
+      "dst": "announcement:cninfo:000066:59206974.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2011-03-31/59206974.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:000066",
+      "dst": "announcement:cninfo:000066:52061077.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2009-05-04/52061077.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:000066",
+      "dst": "announcement:cninfo:000066:52061078.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2009-05-04/52061078.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:000066",
+      "dst": "announcement:cninfo:000066:52061079.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2009-05-04/52061079.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:000066",
+      "dst": "announcement:cninfo:000066:52061080.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2009-05-04/52061080.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:000066",
+      "dst": "announcement:cninfo:000066:48492069.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2009-01-20/48492069.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:002226",
+      "dst": "announcement:cninfo:002226:1201567129.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2015-09-09/1201567129.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:002226",
+      "dst": "announcement:cninfo:002226:1201428420.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2015-08-13/1201428420.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:002226",
+      "dst": "announcement:cninfo:002226:1201236382.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2015-07-04/1201236382.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:600435",
+      "dst": "announcement:cninfo:600435:1200495257.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2014-12-26/1200495257.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:600435",
+      "dst": "announcement:cninfo:600435:63337762.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2013-12-05/63337762.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:600435",
+      "dst": "announcement:cninfo:600435:63207158.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2013-10-29/63207158.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:600435",
+      "dst": "announcement:cninfo:600435:63207159.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2013-10-29/63207159.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:600435",
+      "dst": "announcement:cninfo:600435:61637218.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2012-10-10/61637218.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:600435",
+      "dst": "announcement:cninfo:600435:60943510.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2012-05-03/60943510.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:600435",
+      "dst": "announcement:cninfo:600435:60712713.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2012-03-23/60712713.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:600435",
+      "dst": "announcement:cninfo:600435:52925310.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2009-05-27/52925310.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:600487",
+      "dst": "announcement:cninfo:600487:63901061.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2014-04-24/63901061.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:08161",
+      "dst": "announcement:cninfo:08161:62871252.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2013-07-25/62871252.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:08161",
+      "dst": "announcement:cninfo:08161:62532831.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2013-05-28/62532831.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:08161",
+      "dst": "announcement:cninfo:08161:62236947.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2013-03-20/62236947.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:08161",
+      "dst": "announcement:cninfo:08161:61998949.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2013-01-09/61998949.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:08161",
+      "dst": "announcement:cninfo:08161:54312351.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2009-07-04/54312351.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:300307",
+      "dst": "announcement:cninfo:300307:62867500.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2013-07-24/62867500.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:300307",
+      "dst": "announcement:cninfo:300307:62356267.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2013-04-12/62356267.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:300307",
+      "dst": "announcement:cninfo:300307:62356265.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2013-04-12/62356265.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:300307",
+      "dst": "announcement:cninfo:300307:62356268.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2013-04-12/62356268.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:300307",
+      "dst": "announcement:cninfo:300307:62356266.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2013-04-12/62356266.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:300307",
+      "dst": "announcement:cninfo:300307:62356264.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2013-04-12/62356264.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:300307",
+      "dst": "announcement:cninfo:300307:61416211.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2012-08-14/61416211.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:300042",
+      "dst": "announcement:cninfo:300042:59832753.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2011-08-17/59832753.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:300042",
+      "dst": "announcement:cninfo:300042:58711414.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2010-11-26/58711414.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:300042",
+      "dst": "announcement:cninfo:300042:58438896.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2010-09-14/58438896.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:300042",
+      "dst": "announcement:cninfo:300042:58296934.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2010-08-13/58296934.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:300042",
+      "dst": "announcement:cninfo:300042:58163766.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2010-07-13/58163766.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
+    },
+    {
+      "src": "cnstock:300042",
+      "dst": "announcement:cninfo:300042:57769013.PDF",
+      "rel": "discloses",
+      "attrs": {
+        "note": "公告标题命中关键词，仅表示有披露，不含技术判定"
+      },
+      "source": "巨潮资讯（标题索引）",
+      "url": "http://static.cninfo.com.cn/finalpage/2010-04-02/57769013.PDF",
+      "fetched_at": "2026-11-23T03:47:49+00:00"
     }
   ]
 }
