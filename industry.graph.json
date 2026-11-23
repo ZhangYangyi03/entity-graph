@@ -11,7 +11,7 @@
       },
       "source": "实施方案 6+1 布局",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "dir:neurorepair",
@@ -24,7 +24,7 @@
       },
       "source": "实施方案 6+1 布局",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "dir:microneedle",
@@ -37,7 +37,7 @@
       },
       "source": "实施方案 6+1 布局",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "dir:skull_interface",
@@ -50,7 +50,7 @@
       },
       "source": "实施方案 6+1 布局",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "dir:magneto_acoustic",
@@ -63,7 +63,7 @@
       },
       "source": "实施方案 6+1 布局",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "dir:brain_control",
@@ -76,7 +76,7 @@
       },
       "source": "实施方案 6+1 布局",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "dir:organoid",
@@ -89,7 +89,7 @@
       },
       "source": "实施方案 6+1 布局",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "bio:synthetic_biology",
@@ -100,7 +100,7 @@
       },
       "source": "实施方案 生物制造定义",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "bio:enzyme_engineering",
@@ -111,7 +111,7 @@
       },
       "source": "实施方案 生物制造定义",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "bio:fermentation",
@@ -122,7 +122,7 @@
       },
       "source": "实施方案 生物制造定义",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "bio:cell_engineering",
@@ -133,7 +133,7 @@
       },
       "source": "实施方案 生物制造定义",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "bio:organoid_manufacturing",
@@ -144,7 +144,7 @@
       },
       "source": "实施方案 生物制造定义",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "stage:upstream",
@@ -155,7 +155,7 @@
       },
       "source": "实施方案 产业链环节",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "stage:midstream",
@@ -166,7 +166,7 @@
       },
       "source": "实施方案 产业链环节",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "stage:downstream",
@@ -177,7 +177,7 @@
       },
       "source": "实施方案 产业链环节",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "actor:unknown",
@@ -199,7 +199,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "four_chain:unknown",
@@ -213,7 +213,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "actor:neuroxess",
@@ -232,7 +232,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "actor:stairmed",
@@ -251,7 +251,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "actor:neuracle",
@@ -270,7 +270,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "actor:mgi",
@@ -289,7 +289,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "actor:genscript",
@@ -308,7 +308,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "actor:asymchem",
@@ -327,7 +327,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "actor:united-imaging",
@@ -346,7 +346,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "gov:unknown",
@@ -360,7 +360,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "platform:xiehe-tianjin",
@@ -377,7 +377,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "dataset:openneuro:ds007720",
@@ -399,7 +399,7 @@
       },
       "source": "OpenNeuro",
       "url": "https://openneuro.org/datasets/ds007720",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "dataset:openneuro:ds002720",
@@ -420,7 +420,7 @@
       },
       "source": "OpenNeuro",
       "url": "https://openneuro.org/datasets/ds002720",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "dataset:openneuro:ds002724",
@@ -439,7 +439,7 @@
       },
       "source": "OpenNeuro",
       "url": "https://openneuro.org/datasets/ds002724",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "dataset:bnci:001-2014",
@@ -461,7 +461,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2014/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "dataset:bnci:002-2014",
@@ -483,7 +483,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/002-2014/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "dataset:bnci:003-2014",
@@ -503,7 +503,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/003-2014/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "dataset:bnci:004-2014",
@@ -525,7 +525,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/004-2014/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "dataset:bnci:005-2014",
@@ -545,7 +545,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/005-2014/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "dataset:bnci:006-2014",
@@ -565,7 +565,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/006-2014/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "dataset:bnci:007-2014",
@@ -585,7 +585,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/007-2014/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "dataset:bnci:008-2014",
@@ -608,7 +608,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/008-2014/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "dataset:bnci:009-2014",
@@ -630,7 +630,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/009-2014/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "dataset:bnci:001-2015",
@@ -650,7 +650,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2015/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "dataset:bnci:002-2015",
@@ -672,7 +672,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/002-2015/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "dataset:bnci:003-2015",
@@ -694,7 +694,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/003-2015/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "dataset:bnci:004-2015",
@@ -714,7 +714,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/004-2015/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "dataset:bnci:011-2015",
@@ -736,7 +736,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/011-2015/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "dataset:bnci:013-2015",
@@ -756,7 +756,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/013-2015/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "dataset:bnci:001-2016",
@@ -778,7 +778,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2016/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "dataset:bnci:002-2016",
@@ -798,7 +798,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/002-2016/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "dataset:bnci:001-2017",
@@ -820,7 +820,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2017/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "dataset:bnci:001-2019",
@@ -843,7 +843,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2019/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "dataset:bnci:001-2020",
@@ -866,7 +866,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2020/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "dataset:bnci:002-2020",
@@ -888,7 +888,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/002-2020/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "dataset:bnci:001-2022",
@@ -908,7 +908,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2022/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "dataset:bnci:001-2024",
@@ -928,7 +928,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2024/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "dataset:bnci:001-2025",
@@ -948,7 +948,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2025/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "dataset:bnci:002-2025",
@@ -968,7 +968,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/002-2025/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "dataset:bnci:001-2026",
@@ -990,7 +990,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2026/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "nct:NCT05880251",
@@ -1011,7 +1011,7 @@
       },
       "source": "ClinicalTrials.gov",
       "url": "https://clinicaltrials.gov/study/NCT05880251",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "org:va-office-of-research-and-development",
@@ -1020,7 +1020,7 @@
       "attrs": {},
       "source": "ClinicalTrials.gov",
       "url": "https://clinicaltrials.gov/study/NCT05880251",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "nct:NCT07472556",
@@ -1043,7 +1043,7 @@
       },
       "source": "ClinicalTrials.gov",
       "url": "https://clinicaltrials.gov/study/NCT07472556",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "org:pasquale-arpaia",
@@ -1052,7 +1052,7 @@
       "attrs": {},
       "source": "ClinicalTrials.gov",
       "url": "https://clinicaltrials.gov/study/NCT07472556",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "nct:NCT02011399",
@@ -1074,7 +1074,7 @@
       },
       "source": "ClinicalTrials.gov",
       "url": "https://clinicaltrials.gov/study/NCT02011399",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "org:university-of-michigan",
@@ -1083,7 +1083,7 @@
       "attrs": {},
       "source": "ClinicalTrials.gov",
       "url": "https://clinicaltrials.gov/study/NCT02011399",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "pmid:34502636",
@@ -1105,7 +1105,7 @@
       },
       "source": "PubMed",
       "url": "https://pubmed.ncbi.nlm.nih.gov/34502636/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "pmid:39275636",
@@ -1127,7 +1127,7 @@
       },
       "source": "PubMed",
       "url": "https://pubmed.ncbi.nlm.nih.gov/39275636/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "pmid:37447849",
@@ -1149,7 +1149,7 @@
       },
       "source": "PubMed",
       "url": "https://pubmed.ncbi.nlm.nih.gov/37447849/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "fda510k:K781041",
@@ -1171,7 +1171,7 @@
       },
       "source": "openFDA 510(k)",
       "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K781041",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "org:beckman-instruments-inc",
@@ -1180,7 +1180,7 @@
       "attrs": {},
       "source": "openFDA 510(k)",
       "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K781041",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "fda510k:K896666",
@@ -1202,7 +1202,7 @@
       },
       "source": "openFDA 510(k)",
       "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K896666",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "org:teca-inc",
@@ -1211,7 +1211,7 @@
       "attrs": {},
       "source": "openFDA 510(k)",
       "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K896666",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "fda510k:K960170",
@@ -1233,7 +1233,7 @@
       },
       "source": "openFDA 510(k)",
       "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K960170",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "org:moberg-medical-inc",
@@ -1242,7 +1242,7 @@
       "attrs": {},
       "source": "openFDA 510(k)",
       "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K960170",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "bio_ensembl:ENSG00000146648",
@@ -1263,7 +1263,7 @@
       },
       "source": "Open Targets",
       "url": "https://platform.opentargets.org/target/ENSG00000146648",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "bio_disease:MONDO_0005233",
@@ -1281,7 +1281,7 @@
       },
       "source": "Open Targets",
       "url": "https://platform.opentargets.org/disease/MONDO_0005233",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "bio_disease:MONDO_0005061",
@@ -1299,7 +1299,7 @@
       },
       "source": "Open Targets",
       "url": "https://platform.opentargets.org/disease/MONDO_0005061",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "bio_disease:MONDO_0004992",
@@ -1317,7 +1317,7 @@
       },
       "source": "Open Targets",
       "url": "https://platform.opentargets.org/disease/MONDO_0004992",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "bio_disease:MONDO_0010150",
@@ -1335,7 +1335,7 @@
       },
       "source": "Open Targets",
       "url": "https://platform.opentargets.org/disease/MONDO_0010150",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "bio_disease:MONDO_0008903",
@@ -1353,7 +1353,7 @@
       },
       "source": "Open Targets",
       "url": "https://platform.opentargets.org/disease/MONDO_0008903",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "bio_uniprot:A0A068JCC9",
@@ -1373,7 +1373,7 @@
       },
       "source": "UniProt",
       "url": "https://www.uniprot.org/uniprotkb/A0A068JCC9/entry",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "bio_chembl_target:CHEMBL4523747",
@@ -1393,7 +1393,7 @@
       },
       "source": "ChEMBL",
       "url": "https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL4523747/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "bio_chembl_target:CHEMBL5465557",
@@ -1413,7 +1413,7 @@
       },
       "source": "ChEMBL",
       "url": "https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL5465557/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "bio_chembl_target:CHEMBL3608",
@@ -1433,7 +1433,7 @@
       },
       "source": "ChEMBL",
       "url": "https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL3608/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "bio_epmc:43021317",
@@ -1455,7 +1455,7 @@
       },
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/43021317",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "bio_epmc:42897839",
@@ -1477,7 +1477,7 @@
       },
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/42897839",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "key": "board:ths:308535",
@@ -1494,7 +1494,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:300007",
@@ -1512,7 +1512,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:002172",
@@ -1530,7 +1530,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:603666",
@@ -1548,7 +1548,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:603920",
@@ -1566,7 +1566,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:002009",
@@ -1584,7 +1584,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:300652",
@@ -1602,7 +1602,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:301293",
@@ -1620,7 +1620,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:603127",
@@ -1638,7 +1638,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:688306",
@@ -1656,7 +1656,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:688039",
@@ -1674,7 +1674,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:301515",
@@ -1692,7 +1692,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:000566",
@@ -1710,7 +1710,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:688767",
@@ -1728,7 +1728,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:301337",
@@ -1746,7 +1746,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:002925",
@@ -1764,7 +1764,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:600056",
@@ -1782,7 +1782,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:600704",
@@ -1800,7 +1800,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:300678",
@@ -1818,7 +1818,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:300003",
@@ -1836,7 +1836,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:002219",
@@ -1854,7 +1854,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:300014",
@@ -1872,7 +1872,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:300352",
@@ -1890,7 +1890,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:002111",
@@ -1908,7 +1908,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:002465",
@@ -1926,7 +1926,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:601567",
@@ -1944,7 +1944,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:300884",
@@ -1962,7 +1962,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:688575",
@@ -1980,7 +1980,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:002602",
@@ -1998,7 +1998,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:002195",
@@ -2016,7 +2016,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:000650",
@@ -2034,7 +2034,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:600648",
@@ -2052,7 +2052,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:600998",
@@ -2070,7 +2070,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:002230",
@@ -2088,7 +2088,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:600459",
@@ -2106,7 +2106,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:300459",
@@ -2124,7 +2124,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:300143",
@@ -2142,7 +2142,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:300430",
@@ -2160,7 +2160,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:603610",
@@ -2178,7 +2178,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:301290",
@@ -2196,7 +2196,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:603716",
@@ -2214,7 +2214,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:300409",
@@ -2232,7 +2232,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:688273",
@@ -2250,7 +2250,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:603008",
@@ -2268,7 +2268,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:301099",
@@ -2286,7 +2286,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:300632",
@@ -2304,7 +2304,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:688580",
@@ -2322,7 +2322,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:300793",
@@ -2340,7 +2340,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:002555",
@@ -2358,7 +2358,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:002324",
@@ -2376,7 +2376,7 @@
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "key": "cnstock:301015",
@@ -2390,11 +2390,661 @@
         "float_mcap_yi": 117.41,
         "pe_ttm": 49.37,
         "pb": 5.05,
-        "turnover_pct": 0.46
+        "turnover_pct": 0.46,
+        "_sources": [
+          "同花顺概念板块 + 腾讯行情"
+        ]
       },
       "source": "同花顺概念板块 + 腾讯行情",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
+    },
+    {
+      "key": "board:ths:308614",
+      "kind": "market_board",
+      "label": "阿尔茨海默概念",
+      "attrs": {
+        "ths_code": "308614",
+        "market": "A股",
+        "constituents": 36,
+        "quoted": 35,
+        "basis": "市场板块归类，非技术判定",
+        "mcap_yi": 4565.4,
+        "median_mcap_yi": 95.02
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "key": "cnstock:688046",
+      "kind": "listed_company",
+      "label": "药康生物 (688046)",
+      "attrs": {
+        "code": "688046",
+        "market": "A股",
+        "price": 29.21,
+        "total_mcap_yi": 119.82,
+        "float_mcap_yi": 119.82,
+        "pe_ttm": 59.07,
+        "pb": 5.27,
+        "turnover_pct": 1.42
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "key": "cnstock:688105",
+      "kind": "listed_company",
+      "label": "诺唯赞 (688105)",
+      "attrs": {
+        "code": "688105",
+        "market": "A股",
+        "price": 18.38,
+        "total_mcap_yi": 95.02,
+        "float_mcap_yi": 95.02,
+        "pe_ttm": 9567.73,
+        "pb": 2.62,
+        "turnover_pct": 0.95
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "key": "cnstock:688253",
+      "kind": "listed_company",
+      "label": "英诺特 (688253)",
+      "attrs": {
+        "code": "688253",
+        "market": "A股",
+        "price": 46.02,
+        "total_mcap_yi": 63.49,
+        "float_mcap_yi": 63.49,
+        "pe_ttm": 116.14,
+        "pb": 3.08,
+        "turnover_pct": 1.08
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "key": "cnstock:688336",
+      "kind": "listed_company",
+      "label": "三生国健 (688336)",
+      "attrs": {
+        "code": "688336",
+        "market": "A股",
+        "price": 27.23,
+        "total_mcap_yi": 244.04,
+        "float_mcap_yi": 244.04,
+        "pe_ttm": 7.9,
+        "pb": 2.83,
+        "turnover_pct": 0.33
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "key": "cnstock:300404",
+      "kind": "listed_company",
+      "label": "博济医药 (300404)",
+      "attrs": {
+        "code": "300404",
+        "market": "A股",
+        "price": 9.22,
+        "total_mcap_yi": 35.57,
+        "float_mcap_yi": 26.32,
+        "pe_ttm": 61.45,
+        "pb": 3.27,
+        "turnover_pct": 3.29
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "key": "cnstock:300244",
+      "kind": "listed_company",
+      "label": "迪安诊断 (300244)",
+      "attrs": {
+        "code": "300244",
+        "market": "A股",
+        "price": 17.66,
+        "total_mcap_yi": 110.37,
+        "float_mcap_yi": 88.56,
+        "pe_ttm": 23.51,
+        "pb": 1.64,
+        "turnover_pct": 3.78
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "key": "cnstock:688068",
+      "kind": "listed_company",
+      "label": "热景生物 (688068)",
+      "attrs": {
+        "code": "688068",
+        "market": "A股",
+        "price": 54.86,
+        "total_mcap_yi": 50.88,
+        "float_mcap_yi": 50.88,
+        "pe_ttm": -17.01,
+        "pb": 2.16,
+        "turnover_pct": 1.57
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "key": "cnstock:300016",
+      "kind": "listed_company",
+      "label": "北陆药业 (300016)",
+      "attrs": {
+        "code": "300016",
+        "market": "A股",
+        "price": 6.55,
+        "total_mcap_yi": 38.1,
+        "float_mcap_yi": 38.06,
+        "pe_ttm": 23.45,
+        "pb": 1.53,
+        "turnover_pct": 1.52
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "key": "cnstock:301509",
+      "kind": "listed_company",
+      "label": "金凯生科 (301509)",
+      "attrs": {
+        "code": "301509",
+        "market": "A股",
+        "price": 21.69,
+        "total_mcap_yi": 26.12,
+        "float_mcap_yi": 12.31,
+        "pe_ttm": 57.87,
+        "pb": 1.22,
+        "turnover_pct": 2.45
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "key": "cnstock:301130",
+      "kind": "listed_company",
+      "label": "西点药业 (301130)",
+      "attrs": {
+        "code": "301130",
+        "market": "A股",
+        "price": 19.05,
+        "total_mcap_yi": 14.57,
+        "float_mcap_yi": 11.24,
+        "pe_ttm": -305.74,
+        "pb": 1.68,
+        "turnover_pct": 1.92
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "key": "cnstock:002107",
+      "kind": "listed_company",
+      "label": "沃华医药 (002107)",
+      "attrs": {
+        "code": "002107",
+        "market": "A股",
+        "price": 5.23,
+        "total_mcap_yi": 30.19,
+        "float_mcap_yi": 29.88,
+        "pe_ttm": 24.27,
+        "pb": 4.54,
+        "turnover_pct": 0.61
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "key": "cnstock:000756",
+      "kind": "listed_company",
+      "label": "新华制药 (000756)",
+      "attrs": {
+        "code": "000756",
+        "market": "A股",
+        "price": 10.94,
+        "total_mcap_yi": 76.22,
+        "float_mcap_yi": 54.58,
+        "pe_ttm": 33.32,
+        "pb": 1.43,
+        "turnover_pct": 0.86
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "key": "cnstock:002693",
+      "kind": "listed_company",
+      "label": "双成药业 (002693)",
+      "attrs": {
+        "code": "002693",
+        "market": "A股",
+        "price": 6.83,
+        "total_mcap_yi": 28.32,
+        "float_mcap_yi": 28.07,
+        "pe_ttm": 64.35,
+        "pb": 6.51,
+        "turnover_pct": 1.71
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "key": "cnstock:002773",
+      "kind": "listed_company",
+      "label": "康弘药业 (002773)",
+      "attrs": {
+        "code": "002773",
+        "market": "A股",
+        "price": 20.61,
+        "total_mcap_yi": 189.89,
+        "float_mcap_yi": 141.56,
+        "pe_ttm": 20.77,
+        "pb": 2.01,
+        "turnover_pct": 0.65
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "key": "cnstock:002393",
+      "kind": "listed_company",
+      "label": "力生制药 (002393)",
+      "attrs": {
+        "code": "002393",
+        "market": "A股",
+        "price": 11.24,
+        "total_mcap_yi": 34.65,
+        "float_mcap_yi": 33.74,
+        "pe_ttm": 27.93,
+        "pb": 0.77,
+        "turnover_pct": 0.43
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "key": "cnstock:600572",
+      "kind": "listed_company",
+      "label": "康恩贝 (600572)",
+      "attrs": {
+        "code": "600572",
+        "market": "A股",
+        "price": 4.01,
+        "total_mcap_yi": 101.88,
+        "float_mcap_yi": 101.61,
+        "pe_ttm": 22.3,
+        "pb": 1.4,
+        "turnover_pct": 0.94
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "key": "cnstock:601607",
+      "kind": "listed_company",
+      "label": "上海医药 (601607)",
+      "attrs": {
+        "code": "601607",
+        "market": "A股",
+        "price": 16.16,
+        "total_mcap_yi": 599.27,
+        "float_mcap_yi": 450.74,
+        "pe_ttm": 11.61,
+        "pb": 0.76,
+        "turnover_pct": 0.28
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "key": "cnstock:603669",
+      "kind": "listed_company",
+      "label": "灵康药业 (603669)",
+      "attrs": {
+        "code": "603669",
+        "market": "A股",
+        "price": 4.11,
+        "total_mcap_yi": 29.28,
+        "float_mcap_yi": 29.28,
+        "pe_ttm": -23.07,
+        "pb": 4.95,
+        "turnover_pct": 2.14
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "key": "cnstock:600227",
+      "kind": "listed_company",
+      "label": "赤天化 (600227)",
+      "attrs": {
+        "code": "600227",
+        "market": "A股",
+        "price": 2.82,
+        "total_mcap_yi": 47.62,
+        "float_mcap_yi": 36.03,
+        "pe_ttm": -49.9,
+        "pb": 2.07,
+        "turnover_pct": 2.41
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "key": "cnstock:600771",
+      "kind": "listed_company",
+      "label": "广誉远 (600771)",
+      "attrs": {
+        "code": "600771",
+        "market": "A股",
+        "price": 11.35,
+        "total_mcap_yi": 55.56,
+        "float_mcap_yi": 55.56,
+        "pe_ttm": 87.87,
+        "pb": 3.34,
+        "turnover_pct": 0.79
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "key": "cnstock:600789",
+      "kind": "listed_company",
+      "label": "鲁抗医药 (600789)",
+      "attrs": {
+        "code": "600789",
+        "market": "A股",
+        "price": 6.22,
+        "total_mcap_yi": 65.01,
+        "float_mcap_yi": 62.84,
+        "pe_ttm": 47.7,
+        "pb": 1.24,
+        "turnover_pct": 0.88
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "key": "cnstock:002287",
+      "kind": "listed_company",
+      "label": "奇正藏药 (002287)",
+      "attrs": {
+        "code": "002287",
+        "market": "A股",
+        "price": 17.61,
+        "total_mcap_yi": 100.75,
+        "float_mcap_yi": 100.55,
+        "pe_ttm": 15.94,
+        "pb": 2.01,
+        "turnover_pct": 0.17
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "key": "cnstock:002675",
+      "kind": "listed_company",
+      "label": "东诚药业 (002675)",
+      "attrs": {
+        "code": "002675",
+        "market": "A股",
+        "price": 11.71,
+        "total_mcap_yi": 96.56,
+        "float_mcap_yi": 87.05,
+        "pe_ttm": 45.96,
+        "pb": 2.17,
+        "turnover_pct": 0.77
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "key": "cnstock:002603",
+      "kind": "listed_company",
+      "label": "以岭药业 (002603)",
+      "attrs": {
+        "code": "002603",
+        "market": "A股",
+        "price": 14.73,
+        "total_mcap_yi": 246.09,
+        "float_mcap_yi": 202.72,
+        "pe_ttm": 17.81,
+        "pb": 2.19,
+        "turnover_pct": 0.54
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "key": "cnstock:603439",
+      "kind": "listed_company",
+      "label": "三力制药 (603439)",
+      "attrs": {
+        "code": "603439",
+        "market": "A股",
+        "price": 8.67,
+        "total_mcap_yi": 35.01,
+        "float_mcap_yi": 35.01,
+        "pe_ttm": 66.26,
+        "pb": 2.31,
+        "turnover_pct": 1.68
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "key": "cnstock:002262",
+      "kind": "listed_company",
+      "label": "恩华药业 (002262)",
+      "attrs": {
+        "code": "002262",
+        "market": "A股",
+        "price": 22.28,
+        "total_mcap_yi": 225.69,
+        "float_mcap_yi": 196.91,
+        "pe_ttm": 20.56,
+        "pb": 2.56,
+        "turnover_pct": 0.5
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "key": "cnstock:002044",
+      "kind": "listed_company",
+      "label": "美年健康 (002044)",
+      "attrs": {
+        "code": "002044",
+        "market": "A股",
+        "price": 4.1,
+        "total_mcap_yi": 160.48,
+        "float_mcap_yi": 158.84,
+        "pe_ttm": 48.65,
+        "pb": 1.95,
+        "turnover_pct": 1.11
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "key": "cnstock:600521",
+      "kind": "listed_company",
+      "label": "华海药业 (600521)",
+      "attrs": {
+        "code": "600521",
+        "market": "A股",
+        "price": 15.47,
+        "total_mcap_yi": 231.98,
+        "float_mcap_yi": 231.98,
+        "pe_ttm": 24.53,
+        "pb": 2.36,
+        "turnover_pct": 0.64
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "key": "cnstock:002020",
+      "kind": "listed_company",
+      "label": "京新药业 (002020)",
+      "attrs": {
+        "code": "002020",
+        "market": "A股",
+        "price": 10.83,
+        "total_mcap_yi": 93.25,
+        "float_mcap_yi": 78.41,
+        "pe_ttm": 13.14,
+        "pb": 1.55,
+        "turnover_pct": 0.87
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "key": "cnstock:603980",
+      "kind": "listed_company",
+      "label": "吉华集团 (603980)",
+      "attrs": {
+        "code": "603980",
+        "market": "A股",
+        "price": 6.72,
+        "total_mcap_yi": 45.48,
+        "float_mcap_yi": 45.48,
+        "pe_ttm": 38.01,
+        "pb": 1.16,
+        "turnover_pct": 3.16
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "key": "cnstock:300676",
+      "kind": "listed_company",
+      "label": "华大基因 (300676)",
+      "attrs": {
+        "code": "300676",
+        "market": "A股",
+        "price": 32.64,
+        "total_mcap_yi": 136.54,
+        "float_mcap_yi": 135.79,
+        "pe_ttm": -25.05,
+        "pb": 1.66,
+        "turnover_pct": 0.92
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "key": "cnstock:600196",
+      "kind": "listed_company",
+      "label": "复星医药 (600196)",
+      "attrs": {
+        "code": "600196",
+        "market": "A股",
+        "price": 20.3,
+        "total_mcap_yi": 542.1,
+        "float_mcap_yi": 430.05,
+        "pe_ttm": 15.42,
+        "pb": 1.08,
+        "turnover_pct": 0.45
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "key": "cnstock:300017",
+      "kind": "listed_company",
+      "label": "网宿科技 (300017)",
+      "attrs": {
+        "code": "300017",
+        "market": "A股",
+        "price": 13.4,
+        "total_mcap_yi": 334.42,
+        "float_mcap_yi": 317.11,
+        "pe_ttm": 43.97,
+        "pb": 3.25,
+        "turnover_pct": 1.83
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "key": "cnstock:920017",
+      "kind": "listed_company",
+      "label": "星昊医药 (920017)",
+      "attrs": {
+        "code": "920017",
+        "market": "A股",
+        "price": null,
+        "total_mcap_yi": null,
+        "float_mcap_yi": null,
+        "pe_ttm": null,
+        "pb": null,
+        "turnover_pct": null
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "key": "cnstock:600267",
+      "kind": "listed_company",
+      "label": "海正药业 (600267)",
+      "attrs": {
+        "code": "600267",
+        "market": "A股",
+        "price": 12.18,
+        "total_mcap_yi": 143.76,
+        "float_mcap_yi": 143.76,
+        "pe_ttm": 11.73,
+        "pb": 1.51,
+        "turnover_pct": 0.96
+      },
+      "source": "同花顺概念板块 + 腾讯行情",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
     },
     {
       "key": "cnstock:06681",
@@ -2407,7 +3057,7 @@
       },
       "source": "巨潮资讯",
       "url": "http://static.cninfo.com.cn/finalpage/2026-04-02/1225073760.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:06681:1225073760.PDF",
@@ -2423,7 +3073,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2026-04-02/1225073760.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:06681:1225680396.PDF",
@@ -2436,7 +3086,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2026-11-20/1225680396.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:002602:1214044251.PDF",
@@ -2452,7 +3102,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2022-07-15/1214044251.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "cnstock:002173",
@@ -2465,7 +3115,7 @@
       },
       "source": "巨潮资讯",
       "url": "http://static.cninfo.com.cn/finalpage/2021-02-09/1209259274.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:002173:1209259274.PDF",
@@ -2481,7 +3131,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2021-02-09/1209259274.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:002173:1209141798.PDF",
@@ -2497,20 +3147,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2021-01-20/1209141798.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
-    },
-    {
-      "key": "cnstock:688253",
-      "kind": "listed_company",
-      "label": "英诺特",
-      "attrs": {
-        "code": "688253",
-        "market": "A股/港股",
-        "note": "公告命中，但不在所查板块成分内"
-      },
-      "source": "巨潮资讯",
-      "url": "http://static.cninfo.com.cn/finalpage/2026-10-27/1225625767.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:688253:1225625767.PDF",
@@ -2523,7 +3160,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2026-10-27/1225625767.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:301293:1225139870.PDF",
@@ -2536,7 +3173,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2026-04-22/1225139870.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:301293:1225039511.PDF",
@@ -2549,7 +3186,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2026-03-27/1225039511.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:301293:1225028025.PDF",
@@ -2562,7 +3199,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2026-03-24/1225028025.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:301293:1224877223.PDF",
@@ -2575,7 +3212,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2025-12-15/1224877223.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:301293:1224647875.PDF",
@@ -2588,7 +3225,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2025-09-09/1224647875.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:301293:1224589327.PDF",
@@ -2601,7 +3238,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2025-08-27/1224589327.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:301293:1224555133.PDF",
@@ -2614,7 +3251,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2025-08-22/1224555133.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:301293:1223125399.PDF",
@@ -2627,7 +3264,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2025-04-18/1223125399.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:301293:1220652375.PDF",
@@ -2640,7 +3277,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2024-07-17/1220652375.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:301293:1219664705.PDF",
@@ -2653,7 +3290,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2024-04-19/1219664705.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:301293:1216922031.PDF",
@@ -2666,7 +3303,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2023-05-27/1216922031.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:301293:1216391093.PDF",
@@ -2679,7 +3316,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2023-04-13/1216391093.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "cnstock:00354",
@@ -2692,7 +3329,7 @@
       },
       "source": "巨潮资讯",
       "url": "http://static.cninfo.com.cn/finalpage/2025-06-16/1223880152.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:00354:1223880152.PDF",
@@ -2705,7 +3342,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2025-06-16/1223880152.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "cnstock:01371",
@@ -2718,7 +3355,7 @@
       },
       "source": "巨潮资讯",
       "url": "http://static.cninfo.com.cn/finalpage/2019-07-15/1206450181.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:01371:1206450181.PDF",
@@ -2731,7 +3368,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2019-07-15/1206450181.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:01371:1200872226.PDF",
@@ -2744,7 +3381,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2015-04-20/1200872226.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "cnstock:603933",
@@ -2757,7 +3394,7 @@
       },
       "source": "巨潮资讯",
       "url": "http://static.cninfo.com.cn/finalpage/2019-03-27/1205940980.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:603933:1205940980.PDF",
@@ -2770,7 +3407,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2019-03-27/1205940980.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "cnstock:002021",
@@ -2783,7 +3420,7 @@
       },
       "source": "巨潮资讯",
       "url": "http://static.cninfo.com.cn/finalpage/2018-10-29/1205545278.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:002021:1205545278.PDF",
@@ -2796,7 +3433,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2018-10-29/1205545278.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:002021:1205545283.PDF",
@@ -2809,7 +3446,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2018-10-29/1205545283.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:002021:1200250444.PDF",
@@ -2822,7 +3459,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2014-09-20/1200250444.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:002021:62358336.PDF",
@@ -2835,7 +3472,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2013-04-13/62358336.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:002021:59112166.PDF",
@@ -2848,7 +3485,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2011-03-12/59112166.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:002021:59112167.PDF",
@@ -2861,7 +3498,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2011-03-12/59112167.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:002021:50081537.PDF",
@@ -2874,7 +3511,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2009-03-12/50081537.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:002021:50081532.PDF",
@@ -2887,7 +3524,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2009-03-12/50081532.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "cnstock:600843",
@@ -2900,7 +3537,7 @@
       },
       "source": "巨潮资讯",
       "url": "http://static.cninfo.com.cn/finalpage/2018-08-07/1205262454.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:600843:1205262454.PDF",
@@ -2913,7 +3550,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2018-08-07/1205262454.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:600843:1205249558.PDF",
@@ -2926,7 +3563,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2018-08-02/1205249558.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:600843:1205249560.PDF",
@@ -2939,7 +3576,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2018-08-02/1205249560.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "cnstock:000066",
@@ -2952,7 +3589,7 @@
       },
       "source": "巨潮资讯",
       "url": "http://static.cninfo.com.cn/finalpage/2016-07-15/1202474270.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:000066:1202474270.PDF",
@@ -2965,7 +3602,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2016-07-15/1202474270.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:000066:1202450399.PDF",
@@ -2978,7 +3615,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2016-07-05/1202450399.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:000066:1202450403.PDF",
@@ -2991,7 +3628,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2016-07-05/1202450403.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:000066:1202450400.PDF",
@@ -3004,7 +3641,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2016-07-05/1202450400.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:000066:1202450402.PDF",
@@ -3017,7 +3654,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2016-07-05/1202450402.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:000066:1202067864.PDF",
@@ -3030,7 +3667,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2016-03-23/1202067864.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:000066:1202067865.PDF",
@@ -3043,7 +3680,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2016-03-23/1202067865.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:000066:1202033181.PDF",
@@ -3056,7 +3693,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2016-03-10/1202033181.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:000066:1202033180.PDF",
@@ -3069,7 +3706,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2016-03-10/1202033180.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:000066:1201996795.PDF",
@@ -3082,7 +3719,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2016-02-25/1201996795.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:000066:63561757.PDF",
@@ -3095,7 +3732,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2014-02-12/63561757.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:000066:59554319.PDF",
@@ -3108,7 +3745,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2011-06-15/59554319.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:000066:59362595.PDF",
@@ -3121,7 +3758,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2011-04-29/59362595.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:000066:59206974.PDF",
@@ -3134,7 +3771,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2011-03-31/59206974.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:000066:52061077.PDF",
@@ -3147,7 +3784,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2009-05-04/52061077.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:000066:52061078.PDF",
@@ -3160,7 +3797,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2009-05-04/52061078.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:000066:52061079.PDF",
@@ -3173,7 +3810,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2009-05-04/52061079.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:000066:52061080.PDF",
@@ -3186,7 +3823,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2009-05-04/52061080.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:000066:48492069.PDF",
@@ -3199,7 +3836,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2009-01-20/48492069.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "cnstock:002226",
@@ -3212,7 +3849,7 @@
       },
       "source": "巨潮资讯",
       "url": "http://static.cninfo.com.cn/finalpage/2015-09-09/1201567129.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:002226:1201567129.PDF",
@@ -3225,7 +3862,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2015-09-09/1201567129.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:002226:1201428420.PDF",
@@ -3238,7 +3875,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2015-08-13/1201428420.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:002226:1201236382.PDF",
@@ -3251,7 +3888,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2015-07-04/1201236382.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "cnstock:600435",
@@ -3264,7 +3901,7 @@
       },
       "source": "巨潮资讯",
       "url": "http://static.cninfo.com.cn/finalpage/2014-12-26/1200495257.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:600435:1200495257.PDF",
@@ -3277,7 +3914,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2014-12-26/1200495257.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:600435:63337762.PDF",
@@ -3290,7 +3927,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2013-12-05/63337762.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:600435:63207158.PDF",
@@ -3303,7 +3940,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2013-10-29/63207158.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:600435:63207159.PDF",
@@ -3316,7 +3953,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2013-10-29/63207159.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:600435:61637218.PDF",
@@ -3329,7 +3966,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2012-10-10/61637218.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:600435:60943510.PDF",
@@ -3342,7 +3979,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2012-05-03/60943510.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:600435:60712713.PDF",
@@ -3355,7 +3992,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2012-03-23/60712713.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:600435:52925310.PDF",
@@ -3368,7 +4005,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2009-05-27/52925310.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "cnstock:600487",
@@ -3381,7 +4018,7 @@
       },
       "source": "巨潮资讯",
       "url": "http://static.cninfo.com.cn/finalpage/2014-04-24/63901061.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:600487:63901061.PDF",
@@ -3394,7 +4031,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2014-04-24/63901061.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "cnstock:08161",
@@ -3407,7 +4044,7 @@
       },
       "source": "巨潮资讯",
       "url": "http://static.cninfo.com.cn/finalpage/2013-07-25/62871252.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:08161:62871252.PDF",
@@ -3420,7 +4057,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2013-07-25/62871252.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:08161:62532831.PDF",
@@ -3433,7 +4070,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2013-05-28/62532831.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:08161:62236947.PDF",
@@ -3446,7 +4083,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2013-03-20/62236947.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:08161:61998949.PDF",
@@ -3459,7 +4096,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2013-01-09/61998949.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:08161:54312351.PDF",
@@ -3472,7 +4109,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2009-07-04/54312351.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "cnstock:300307",
@@ -3485,7 +4122,7 @@
       },
       "source": "巨潮资讯",
       "url": "http://static.cninfo.com.cn/finalpage/2013-07-24/62867500.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:300307:62867500.PDF",
@@ -3498,7 +4135,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2013-07-24/62867500.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:300307:62356267.PDF",
@@ -3511,7 +4148,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2013-04-12/62356267.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:300307:62356265.PDF",
@@ -3524,7 +4161,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2013-04-12/62356265.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:300307:62356268.PDF",
@@ -3537,7 +4174,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2013-04-12/62356268.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:300307:62356266.PDF",
@@ -3550,7 +4187,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2013-04-12/62356266.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:300307:62356264.PDF",
@@ -3563,7 +4200,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2013-04-12/62356264.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:300307:61416211.PDF",
@@ -3576,7 +4213,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2012-08-14/61416211.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "cnstock:300042",
@@ -3589,7 +4226,7 @@
       },
       "source": "巨潮资讯",
       "url": "http://static.cninfo.com.cn/finalpage/2011-08-17/59832753.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:300042:59832753.PDF",
@@ -3602,7 +4239,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2011-08-17/59832753.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:300042:58711414.PDF",
@@ -3615,7 +4252,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2010-11-26/58711414.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:300042:58438896.PDF",
@@ -3628,7 +4265,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2010-09-14/58438896.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:300042:58296934.PDF",
@@ -3641,7 +4278,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2010-08-13/58296934.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:300042:58163766.PDF",
@@ -3654,7 +4291,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2010-07-13/58163766.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "key": "announcement:cninfo:300042:57769013.PDF",
@@ -3667,7 +4304,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2010-04-02/57769013.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     }
   ],
   "edges": [
@@ -3680,7 +4317,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "actor:unknown",
@@ -3691,7 +4328,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "actor:unknown",
@@ -3702,7 +4339,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "actor:unknown",
@@ -3713,7 +4350,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "actor:unknown",
@@ -3724,7 +4361,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "actor:unknown",
@@ -3735,7 +4372,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "actor:unknown",
@@ -3746,7 +4383,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "actor:unknown",
@@ -3757,7 +4394,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "actor:neuroxess",
@@ -3768,7 +4405,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "actor:neuroxess",
@@ -3779,7 +4416,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "actor:neuroxess",
@@ -3790,7 +4427,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "actor:stairmed",
@@ -3801,7 +4438,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "actor:stairmed",
@@ -3812,7 +4449,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "actor:stairmed",
@@ -3823,7 +4460,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "actor:neuracle",
@@ -3834,7 +4471,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "actor:neuracle",
@@ -3845,7 +4482,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "actor:neuracle",
@@ -3856,7 +4493,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "actor:mgi",
@@ -3867,7 +4504,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "actor:mgi",
@@ -3878,7 +4515,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "actor:genscript",
@@ -3889,7 +4526,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "actor:genscript",
@@ -3900,7 +4537,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "actor:asymchem",
@@ -3911,7 +4548,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "actor:asymchem",
@@ -3922,7 +4559,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "actor:asymchem",
@@ -3933,7 +4570,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "actor:united-imaging",
@@ -3944,7 +4581,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "actor:united-imaging",
@@ -3955,7 +4592,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "actor:unknown",
@@ -3966,7 +4603,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "actor:unknown",
@@ -3977,7 +4614,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "gov:unknown",
@@ -3988,7 +4625,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "platform:xiehe-tianjin",
@@ -3999,7 +4636,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "platform:xiehe-tianjin",
@@ -4010,7 +4647,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "platform:xiehe-tianjin",
@@ -4021,7 +4658,7 @@
       },
       "source": "实施方案（项目文档）",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "dataset:openneuro:ds007720",
@@ -4033,7 +4670,7 @@
       },
       "source": "OpenNeuro",
       "url": "https://openneuro.org/datasets/ds007720",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "dataset:openneuro:ds007720",
@@ -4044,7 +4681,7 @@
       },
       "source": "OpenNeuro",
       "url": "https://openneuro.org/datasets/ds007720",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "dataset:openneuro:ds002720",
@@ -4056,7 +4693,7 @@
       },
       "source": "OpenNeuro",
       "url": "https://openneuro.org/datasets/ds002720",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "dataset:bnci:001-2014",
@@ -4068,7 +4705,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2014/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "dataset:bnci:002-2014",
@@ -4080,7 +4717,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/002-2014/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "dataset:bnci:004-2014",
@@ -4092,7 +4729,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/004-2014/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "dataset:bnci:008-2014",
@@ -4104,7 +4741,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/008-2014/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "dataset:bnci:008-2014",
@@ -4115,7 +4752,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/008-2014/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "dataset:bnci:009-2014",
@@ -4127,7 +4764,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/009-2014/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "dataset:bnci:002-2015",
@@ -4139,7 +4776,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/002-2015/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "dataset:bnci:003-2015",
@@ -4151,7 +4788,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/003-2015/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "dataset:bnci:011-2015",
@@ -4163,7 +4800,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/011-2015/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "dataset:bnci:001-2016",
@@ -4175,7 +4812,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2016/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "dataset:bnci:001-2017",
@@ -4187,7 +4824,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2017/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "dataset:bnci:001-2019",
@@ -4199,7 +4836,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2019/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "dataset:bnci:001-2019",
@@ -4210,7 +4847,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2019/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "dataset:bnci:001-2020",
@@ -4222,7 +4859,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2020/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "dataset:bnci:001-2020",
@@ -4234,7 +4871,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2020/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "dataset:bnci:002-2020",
@@ -4246,7 +4883,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/002-2020/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "dataset:bnci:001-2026",
@@ -4258,7 +4895,7 @@
       },
       "source": "BNCI Horizon 2020",
       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2026/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "nct:NCT05880251",
@@ -4269,7 +4906,7 @@
       },
       "source": "ClinicalTrials.gov",
       "url": "https://clinicaltrials.gov/study/NCT05880251",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "org:va-office-of-research-and-development",
@@ -4280,7 +4917,7 @@
       },
       "source": "ClinicalTrials.gov",
       "url": "https://clinicaltrials.gov/study/NCT05880251",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "nct:NCT07472556",
@@ -4292,7 +4929,7 @@
       },
       "source": "ClinicalTrials.gov",
       "url": "https://clinicaltrials.gov/study/NCT07472556",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "nct:NCT07472556",
@@ -4303,7 +4940,7 @@
       },
       "source": "ClinicalTrials.gov",
       "url": "https://clinicaltrials.gov/study/NCT07472556",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "org:pasquale-arpaia",
@@ -4314,7 +4951,7 @@
       },
       "source": "ClinicalTrials.gov",
       "url": "https://clinicaltrials.gov/study/NCT07472556",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "nct:NCT02011399",
@@ -4326,7 +4963,7 @@
       },
       "source": "ClinicalTrials.gov",
       "url": "https://clinicaltrials.gov/study/NCT02011399",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "org:university-of-michigan",
@@ -4337,7 +4974,7 @@
       },
       "source": "ClinicalTrials.gov",
       "url": "https://clinicaltrials.gov/study/NCT02011399",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "pmid:34502636",
@@ -4349,7 +4986,7 @@
       },
       "source": "PubMed",
       "url": "https://pubmed.ncbi.nlm.nih.gov/34502636/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "pmid:39275636",
@@ -4361,7 +4998,7 @@
       },
       "source": "PubMed",
       "url": "https://pubmed.ncbi.nlm.nih.gov/39275636/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "pmid:37447849",
@@ -4373,7 +5010,7 @@
       },
       "source": "PubMed",
       "url": "https://pubmed.ncbi.nlm.nih.gov/37447849/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "fda510k:K781041",
@@ -4385,7 +5022,7 @@
       },
       "source": "openFDA 510(k)",
       "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K781041",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "org:beckman-instruments-inc",
@@ -4396,7 +5033,7 @@
       },
       "source": "openFDA 510(k)",
       "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K781041",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "fda510k:K896666",
@@ -4408,7 +5045,7 @@
       },
       "source": "openFDA 510(k)",
       "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K896666",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "org:teca-inc",
@@ -4419,7 +5056,7 @@
       },
       "source": "openFDA 510(k)",
       "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K896666",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "fda510k:K960170",
@@ -4431,7 +5068,7 @@
       },
       "source": "openFDA 510(k)",
       "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K960170",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "org:moberg-medical-inc",
@@ -4442,7 +5079,7 @@
       },
       "source": "openFDA 510(k)",
       "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K960170",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "bio_ensembl:ENSG00000146648",
@@ -4453,7 +5090,7 @@
       },
       "source": "Open Targets",
       "url": "https://platform.opentargets.org/target/ENSG00000146648/associations",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "bio_ensembl:ENSG00000146648",
@@ -4464,7 +5101,7 @@
       },
       "source": "Open Targets",
       "url": "https://platform.opentargets.org/target/ENSG00000146648/associations",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "bio_ensembl:ENSG00000146648",
@@ -4475,7 +5112,7 @@
       },
       "source": "Open Targets",
       "url": "https://platform.opentargets.org/target/ENSG00000146648/associations",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "bio_ensembl:ENSG00000146648",
@@ -4486,7 +5123,7 @@
       },
       "source": "Open Targets",
       "url": "https://platform.opentargets.org/target/ENSG00000146648/associations",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "bio_ensembl:ENSG00000146648",
@@ -4497,7 +5134,7 @@
       },
       "source": "Open Targets",
       "url": "https://platform.opentargets.org/target/ENSG00000146648/associations",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "bio_ensembl:ENSG00000146648",
@@ -4508,7 +5145,7 @@
       },
       "source": "UniProt",
       "url": "https://www.uniprot.org/uniprotkb/A0A068JCC9/entry",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "bio_chembl_target:CHEMBL4523747",
@@ -4519,7 +5156,7 @@
       },
       "source": "ChEMBL",
       "url": "https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL4523747/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "bio_chembl_target:CHEMBL5465557",
@@ -4530,7 +5167,7 @@
       },
       "source": "ChEMBL",
       "url": "https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL5465557/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "bio_chembl_target:CHEMBL3608",
@@ -4541,7 +5178,7 @@
       },
       "source": "ChEMBL",
       "url": "https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL3608/",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "bio_epmc:43021317",
@@ -4552,7 +5189,7 @@
       },
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/43021317",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "bio_epmc:42897839",
@@ -4563,7 +5200,7 @@
       },
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/42897839",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "bio:synthetic_biology",
@@ -4574,7 +5211,7 @@
       },
       "source": "实施方案 生物制造定义",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "bio:enzyme_engineering",
@@ -4585,7 +5222,7 @@
       },
       "source": "实施方案 生物制造定义",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "bio:fermentation",
@@ -4596,7 +5233,7 @@
       },
       "source": "实施方案 生物制造定义",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "bio:cell_engineering",
@@ -4607,7 +5244,7 @@
       },
       "source": "实施方案 生物制造定义",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "bio:organoid_manufacturing",
@@ -4618,7 +5255,7 @@
       },
       "source": "实施方案 图1",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "bio:organoid_manufacturing",
@@ -4629,7 +5266,7 @@
       },
       "source": "实施方案 生物制造定义",
       "url": "",
-      "fetched_at": "2026-11-23T04:04:50+00:00"
+      "fetched_at": "2026-11-23T04:07:45+00:00"
     },
     {
       "src": "cnstock:300007",
@@ -4640,7 +5277,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:002172",
@@ -4651,7 +5288,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:603666",
@@ -4662,7 +5299,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:603920",
@@ -4673,7 +5310,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:002009",
@@ -4684,7 +5321,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:300652",
@@ -4695,7 +5332,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:301293",
@@ -4706,7 +5343,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:603127",
@@ -4717,7 +5354,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:688306",
@@ -4728,7 +5365,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:688039",
@@ -4739,7 +5376,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:301515",
@@ -4750,7 +5387,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:000566",
@@ -4761,7 +5398,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:688767",
@@ -4772,7 +5409,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:301337",
@@ -4783,7 +5420,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:002925",
@@ -4794,7 +5431,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:600056",
@@ -4805,7 +5442,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:600704",
@@ -4816,7 +5453,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:300678",
@@ -4827,7 +5464,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:300003",
@@ -4838,7 +5475,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:002219",
@@ -4849,7 +5486,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:300014",
@@ -4860,7 +5497,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:300352",
@@ -4871,7 +5508,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:002111",
@@ -4882,7 +5519,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:002465",
@@ -4893,7 +5530,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:601567",
@@ -4904,7 +5541,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:300884",
@@ -4915,7 +5552,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:688575",
@@ -4926,7 +5563,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:002602",
@@ -4937,7 +5574,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:002195",
@@ -4948,7 +5585,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:000650",
@@ -4959,7 +5596,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:600648",
@@ -4970,7 +5607,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:600998",
@@ -4981,7 +5618,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:002230",
@@ -4992,7 +5629,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:600459",
@@ -5003,7 +5640,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:300459",
@@ -5014,7 +5651,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:300143",
@@ -5025,7 +5662,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:300430",
@@ -5036,7 +5673,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:603610",
@@ -5047,7 +5684,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:301290",
@@ -5058,7 +5695,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:603716",
@@ -5069,7 +5706,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:300409",
@@ -5080,7 +5717,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:688273",
@@ -5091,7 +5728,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:603008",
@@ -5102,7 +5739,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:301099",
@@ -5113,7 +5750,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:300632",
@@ -5124,7 +5761,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:688580",
@@ -5135,7 +5772,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:300793",
@@ -5146,7 +5783,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:002555",
@@ -5157,7 +5794,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:002324",
@@ -5168,7 +5805,7 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
     },
     {
       "src": "cnstock:301015",
@@ -5179,7 +5816,403 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:04:57+00:00"
+      "fetched_at": "2026-11-23T04:07:51+00:00"
+    },
+    {
+      "src": "cnstock:688046",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "src": "cnstock:688105",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "src": "cnstock:688253",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "src": "cnstock:688336",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "src": "cnstock:300404",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "src": "cnstock:300244",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "src": "cnstock:688068",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "src": "cnstock:300016",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "src": "cnstock:301509",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "src": "cnstock:301015",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "src": "cnstock:301130",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "src": "cnstock:002107",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "src": "cnstock:000756",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "src": "cnstock:002693",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "src": "cnstock:002773",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "src": "cnstock:002393",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "src": "cnstock:600572",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "src": "cnstock:601607",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "src": "cnstock:603669",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "src": "cnstock:600227",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "src": "cnstock:600771",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "src": "cnstock:600789",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "src": "cnstock:002287",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "src": "cnstock:002675",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "src": "cnstock:002603",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "src": "cnstock:603439",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "src": "cnstock:002262",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "src": "cnstock:002044",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "src": "cnstock:600521",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "src": "cnstock:002020",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "src": "cnstock:603980",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "src": "cnstock:300676",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "src": "cnstock:600196",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "src": "cnstock:300017",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "src": "cnstock:920017",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
+    },
+    {
+      "src": "cnstock:600267",
+      "dst": "board:ths:308614",
+      "rel": "in_board",
+      "attrs": {
+        "basis": "板块归属，非技术判定"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:56+00:00"
     },
     {
       "src": "cnstock:06681",
@@ -5190,7 +6223,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2026-04-02/1225073760.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:06681",
@@ -5201,7 +6234,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2026-11-20/1225680396.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:002602",
@@ -5212,7 +6245,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2022-07-15/1214044251.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:002173",
@@ -5223,7 +6256,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2021-02-09/1209259274.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:002173",
@@ -5234,7 +6267,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2021-01-20/1209141798.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:688253",
@@ -5245,7 +6278,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2026-10-27/1225625767.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:301293",
@@ -5256,7 +6289,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2026-04-22/1225139870.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:301293",
@@ -5267,7 +6300,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2026-03-27/1225039511.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:301293",
@@ -5278,7 +6311,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2026-03-24/1225028025.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:301293",
@@ -5289,7 +6322,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2025-12-15/1224877223.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:301293",
@@ -5300,7 +6333,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2025-09-09/1224647875.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:301293",
@@ -5311,7 +6344,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2025-08-27/1224589327.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:301293",
@@ -5322,7 +6355,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2025-08-22/1224555133.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:301293",
@@ -5333,7 +6366,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2025-04-18/1223125399.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:301293",
@@ -5344,7 +6377,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2024-07-17/1220652375.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:301293",
@@ -5355,7 +6388,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2024-04-19/1219664705.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:301293",
@@ -5366,7 +6399,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2023-05-27/1216922031.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:301293",
@@ -5377,7 +6410,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2023-04-13/1216391093.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:00354",
@@ -5388,7 +6421,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2025-06-16/1223880152.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:01371",
@@ -5399,7 +6432,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2019-07-15/1206450181.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:01371",
@@ -5410,7 +6443,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2015-04-20/1200872226.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:603933",
@@ -5421,7 +6454,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2019-03-27/1205940980.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:002021",
@@ -5432,7 +6465,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2018-10-29/1205545278.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:002021",
@@ -5443,7 +6476,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2018-10-29/1205545283.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:002021",
@@ -5454,7 +6487,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2014-09-20/1200250444.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:002021",
@@ -5465,7 +6498,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2013-04-13/62358336.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:002021",
@@ -5476,7 +6509,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2011-03-12/59112166.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:002021",
@@ -5487,7 +6520,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2011-03-12/59112167.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:002021",
@@ -5498,7 +6531,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2009-03-12/50081537.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:002021",
@@ -5509,7 +6542,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2009-03-12/50081532.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:600843",
@@ -5520,7 +6553,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2018-08-07/1205262454.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:600843",
@@ -5531,7 +6564,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2018-08-02/1205249558.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:600843",
@@ -5542,7 +6575,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2018-08-02/1205249560.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:000066",
@@ -5553,7 +6586,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2016-07-15/1202474270.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:000066",
@@ -5564,7 +6597,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2016-07-05/1202450399.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:000066",
@@ -5575,7 +6608,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2016-07-05/1202450403.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:000066",
@@ -5586,7 +6619,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2016-07-05/1202450400.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:000066",
@@ -5597,7 +6630,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2016-07-05/1202450402.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:000066",
@@ -5608,7 +6641,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2016-03-23/1202067864.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:000066",
@@ -5619,7 +6652,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2016-03-23/1202067865.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:000066",
@@ -5630,7 +6663,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2016-03-10/1202033181.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:000066",
@@ -5641,7 +6674,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2016-03-10/1202033180.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:000066",
@@ -5652,7 +6685,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2016-02-25/1201996795.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:000066",
@@ -5663,7 +6696,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2014-02-12/63561757.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:000066",
@@ -5674,7 +6707,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2011-06-15/59554319.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:000066",
@@ -5685,7 +6718,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2011-04-29/59362595.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:000066",
@@ -5696,7 +6729,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2011-03-31/59206974.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:000066",
@@ -5707,7 +6740,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2009-05-04/52061077.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:000066",
@@ -5718,7 +6751,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2009-05-04/52061078.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:000066",
@@ -5729,7 +6762,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2009-05-04/52061079.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:000066",
@@ -5740,7 +6773,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2009-05-04/52061080.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:000066",
@@ -5751,7 +6784,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2009-01-20/48492069.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:002226",
@@ -5762,7 +6795,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2015-09-09/1201567129.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:002226",
@@ -5773,7 +6806,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2015-08-13/1201428420.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:002226",
@@ -5784,7 +6817,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2015-07-04/1201236382.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:600435",
@@ -5795,7 +6828,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2014-12-26/1200495257.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:600435",
@@ -5806,7 +6839,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2013-12-05/63337762.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:600435",
@@ -5817,7 +6850,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2013-10-29/63207158.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:600435",
@@ -5828,7 +6861,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2013-10-29/63207159.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:600435",
@@ -5839,7 +6872,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2012-10-10/61637218.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:600435",
@@ -5850,7 +6883,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2012-05-03/60943510.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:600435",
@@ -5861,7 +6894,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2012-03-23/60712713.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:600435",
@@ -5872,7 +6905,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2009-05-27/52925310.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:600487",
@@ -5883,7 +6916,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2014-04-24/63901061.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:08161",
@@ -5894,7 +6927,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2013-07-25/62871252.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:08161",
@@ -5905,7 +6938,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2013-05-28/62532831.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:08161",
@@ -5916,7 +6949,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2013-03-20/62236947.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:08161",
@@ -5927,7 +6960,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2013-01-09/61998949.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:08161",
@@ -5938,7 +6971,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2009-07-04/54312351.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:300307",
@@ -5949,7 +6982,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2013-07-24/62867500.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:300307",
@@ -5960,7 +6993,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2013-04-12/62356267.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:300307",
@@ -5971,7 +7004,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2013-04-12/62356265.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:300307",
@@ -5982,7 +7015,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2013-04-12/62356268.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:300307",
@@ -5993,7 +7026,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2013-04-12/62356266.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:300307",
@@ -6004,7 +7037,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2013-04-12/62356264.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:300307",
@@ -6015,7 +7048,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2012-08-14/61416211.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:300042",
@@ -6026,7 +7059,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2011-08-17/59832753.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:300042",
@@ -6037,7 +7070,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2010-11-26/58711414.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:300042",
@@ -6048,7 +7081,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2010-09-14/58438896.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:300042",
@@ -6059,7 +7092,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2010-08-13/58296934.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:300042",
@@ -6070,7 +7103,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2010-07-13/58163766.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "cnstock:300042",
@@ -6081,7 +7114,7 @@
       },
       "source": "巨潮资讯（标题索引）",
       "url": "http://static.cninfo.com.cn/finalpage/2010-04-02/57769013.PDF",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     },
     {
       "src": "board:ths:308535",
@@ -6096,7 +7129,22 @@
       },
       "source": "同花顺概念板块",
       "url": "http://q.10jqka.com.cn/gn/detail/code/308535/",
-      "fetched_at": "2026-11-23T04:05:58+00:00"
+      "fetched_at": "2026-11-23T04:07:59+00:00"
+    },
+    {
+      "src": "board:ths:308614",
+      "dst": "dir:brain_control",
+      "rel": "market_attention_on",
+      "attrs": {
+        "basis": "板块归类，非技术判定",
+        "board": "阿尔茨海默概念",
+        "constituents": 36,
+        "mcap_yi": 4565.4,
+        "note": "资本关注度，不计入技术得分"
+      },
+      "source": "同花顺概念板块",
+      "url": "http://q.10jqka.com.cn/gn/detail/code/308614/",
+      "fetched_at": "2026-11-23T04:07:59+00:00"
     }
   ]
 }
