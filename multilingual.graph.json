@@ -1,0 +1,656 @@
+{
+  "nodes": [
+    {
+      "key": "wd:Q897410",
+      "kind": "concept",
+      "label": "brain–computer interface",
+      "attrs": {
+        "labels": {
+          "en": "brain–computer interface",
+          "de": "Brain-Computer-Interface",
+          "fr": "interface neuronale directe",
+          "zh": "脑机接口",
+          "ja": "ブレイン・マシン・インタフェース"
+        },
+        "descriptions": {
+          "en": "connection between brain and computer",
+          "de": "spezielle Mensch-Maschine-Schnittstelle, die ohne Aktivierung des peripheren Nervensystems eine Verbindung zwischen dem Gehirn und einem Computer ermöglicht",
+          "zh": "大脑和计算机之间的联系"
+        },
+        "languages": [
+          "de",
+          "en",
+          "fr",
+          "ja",
+          "zh"
+        ],
+        "qid": "Q897410"
+      },
+      "source": "Wikidata（多语言标签）",
+      "url": "https://www.wikidata.org/wiki/Q897410",
+      "fetched_at": "2026-11-23T06:01:26+00:00"
+    },
+    {
+      "key": "gnd:1156215250",
+      "kind": "de_authority",
+      "label": "Brain-Computer Interface Society",
+      "attrs": {
+        "gnd_id": "https://d-nb.info/gnd/1156215250",
+        "place": "Utrecht",
+        "established": "2015",
+        "type": "CorporateBody"
+      },
+      "source": "GND（德国规范档）",
+      "url": "https://d-nb.info/gnd/1156215250",
+      "fetched_at": "2026-11-23T06:01:34+00:00"
+    },
+    {
+      "key": "gnd:1138929670",
+      "kind": "de_authority",
+      "label": "Graz Brain-Computer Interface Conference (7. : 2017 : Graz)",
+      "attrs": {
+        "gnd_id": "https://d-nb.info/gnd/1138929670",
+        "place": null,
+        "established": null,
+        "type": "ConferenceOrEvent"
+      },
+      "source": "GND（德国规范档）",
+      "url": "https://d-nb.info/gnd/1138929670",
+      "fetched_at": "2026-11-23T06:01:34+00:00"
+    },
+    {
+      "key": "gnd:1092569200",
+      "kind": "de_authority",
+      "label": "International Winter Conference on Brain-Computer Interface",
+      "attrs": {
+        "gnd_id": "https://d-nb.info/gnd/1092569200",
+        "place": null,
+        "established": null,
+        "type": "AuthorityResource"
+      },
+      "source": "GND（德国规范档）",
+      "url": "https://d-nb.info/gnd/1092569200",
+      "fetched_at": "2026-11-23T06:01:34+00:00"
+    },
+    {
+      "key": "gnd:1091190275",
+      "kind": "de_authority",
+      "label": "Computer Simulation in Brain Science (1986 : Copenhagen)",
+      "attrs": {
+        "gnd_id": "https://d-nb.info/gnd/1091190275",
+        "place": null,
+        "established": null,
+        "type": "AuthorityResource"
+      },
+      "source": "GND（德国规范档）",
+      "url": "https://d-nb.info/gnd/1091190275",
+      "fetched_at": "2026-11-23T06:01:34+00:00"
+    },
+    {
+      "key": "gnd:1197826769",
+      "kind": "de_authority",
+      "label": "Brain-Computer Interface Conference (8. : 2019 : Graz)",
+      "attrs": {
+        "gnd_id": "https://d-nb.info/gnd/1197826769",
+        "place": null,
+        "established": null,
+        "type": "AuthorityResource"
+      },
+      "source": "GND（德国规范档）",
+      "url": "https://d-nb.info/gnd/1197826769",
+      "fetched_at": "2026-11-23T06:01:34+00:00"
+    },
+    {
+      "key": "gnd:4616897-7",
+      "kind": "de_authority",
+      "label": "Gehirn-Computer-Schnittstelle",
+      "attrs": {
+        "gnd_id": "https://d-nb.info/gnd/4616897-7",
+        "place": null,
+        "established": null,
+        "type": "SubjectHeadingSensoStricto"
+      },
+      "source": "GND（德国规范档）",
+      "url": "https://d-nb.info/gnd/4616897-7",
+      "fetched_at": "2026-11-23T06:01:34+00:00"
+    },
+    {
+      "key": "frco:417545118",
+      "kind": "fr_company",
+      "label": "NEUROTECH",
+      "attrs": {
+        "siren": "417545118",
+        "naf": "72.1Z",
+        "created": "1997-12-19",
+        "city": "DIEDENDORF",
+        "section": "M"
+      },
+      "source": "recherche-entreprises.api.gouv.fr（SIRENE）",
+      "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/417545118",
+      "fetched_at": "2026-11-23T06:02:02+00:00"
+    },
+    {
+      "key": "frco:433075769",
+      "kind": "fr_company",
+      "label": "NEUROTECH",
+      "attrs": {
+        "siren": "433075769",
+        "naf": "47.78C",
+        "created": "2000-09-13",
+        "city": "CREUTZWALD",
+        "section": "G"
+      },
+      "source": "recherche-entreprises.api.gouv.fr（SIRENE）",
+      "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/433075769",
+      "fetched_at": "2026-11-23T06:02:02+00:00"
+    },
+    {
+      "key": "frco:400530655",
+      "kind": "fr_company",
+      "label": "NEUROTECH",
+      "attrs": {
+        "siren": "400530655",
+        "naf": "72.19Z",
+        "created": "1995-01-02",
+        "city": "PARIS 1",
+        "section": "M"
+      },
+      "source": "recherche-entreprises.api.gouv.fr（SIRENE）",
+      "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/400530655",
+      "fetched_at": "2026-11-23T06:02:02+00:00"
+    },
+    {
+      "key": "frco:981451230",
+      "kind": "fr_company",
+      "label": "NEUROTECH VISION",
+      "attrs": {
+        "siren": "981451230",
+        "naf": "72.19Z",
+        "created": "2023-11-09",
+        "city": "PARIS",
+        "section": "M"
+      },
+      "source": "recherche-entreprises.api.gouv.fr（SIRENE）",
+      "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/981451230",
+      "fetched_at": "2026-11-23T06:02:02+00:00"
+    },
+    {
+      "key": "frco:935281964",
+      "kind": "fr_company",
+      "label": "MICROPORT NEUROTECH GLOBAL B.V.",
+      "attrs": {
+        "siren": "935281964",
+        "naf": "72.11Z",
+        "created": "2022-04-08",
+        "city": null,
+        "section": "M"
+      },
+      "source": "recherche-entreprises.api.gouv.fr（SIRENE）",
+      "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/935281964",
+      "fetched_at": "2026-11-23T06:02:02+00:00"
+    },
+    {
+      "key": "frco:832672927",
+      "kind": "fr_company",
+      "label": "COGLAB (NEUROTECHX PARIS)",
+      "attrs": {
+        "siren": "832672927",
+        "naf": "94.99Z",
+        "created": "2017-09-07",
+        "city": "MONTREUIL",
+        "section": "S"
+      },
+      "source": "recherche-entreprises.api.gouv.fr（SIRENE）",
+      "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/832672927",
+      "fetched_at": "2026-11-23T06:02:02+00:00"
+    },
+    {
+      "key": "lang:ger",
+      "kind": "language_slice",
+      "label": "Deutsch",
+      "attrs": {
+        "lang_code": "ger",
+        "hit_count": 3,
+        "sample": 3
+      },
+      "source": "Europe PMC LANG 过滤",
+      "url": "https://europepmc.org/",
+      "fetched_at": "2026-11-23T06:02:13+00:00"
+    },
+    {
+      "key": "epmc:ger:0",
+      "kind": "publication_ger",
+      "label": "[Functional electrical stimulation instead of surgery? Improvement of grasping function with FES in a patient with C5 te",
+      "attrs": {
+        "pmid": "16025358",
+        "year": "2005",
+        "lang": null,
+        "journal": "Unfallchirurg"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/16025358",
+      "fetched_at": "2026-11-23T06:02:13+00:00"
+    },
+    {
+      "key": "epmc:ger:1",
+      "kind": "publication_ger",
+      "label": "[EEG-based communication--a new concept for rehabilitative support in patients with severe motor impairment].",
+      "attrs": {
+        "pmid": "14677109",
+        "year": "2003",
+        "lang": null,
+        "journal": "Rehabilitation (Stuttg)"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/14677109",
+      "fetched_at": "2026-11-23T06:02:13+00:00"
+    },
+    {
+      "key": "epmc:ger:2",
+      "kind": "publication_ger",
+      "label": "[Mental activity hand orthosis control using the EEG: a case study].",
+      "attrs": {
+        "pmid": "11830792",
+        "year": "2002",
+        "lang": null,
+        "journal": "Rehabilitation (Stuttg)"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/11830792",
+      "fetched_at": "2026-11-23T06:02:13+00:00"
+    },
+    {
+      "key": "lang:fre",
+      "kind": "language_slice",
+      "label": "Français",
+      "attrs": {
+        "lang_code": "fre",
+        "hit_count": 1,
+        "sample": 1
+      },
+      "source": "Europe PMC LANG 过滤",
+      "url": "https://europepmc.org/",
+      "fetched_at": "2026-11-23T06:02:21+00:00"
+    },
+    {
+      "key": "epmc:fre:0",
+      "kind": "publication_fre",
+      "label": "[Use of a brain-computer interface by a patient with a craniocerebral injury].",
+      "attrs": {
+        "pmid": "20464895",
+        "year": "2010",
+        "lang": null,
+        "journal": "Can J Occup Ther"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/20464895",
+      "fetched_at": "2026-11-23T06:02:21+00:00"
+    },
+    {
+      "key": "lang:chi",
+      "kind": "language_slice",
+      "label": "中文",
+      "attrs": {
+        "lang_code": "chi",
+        "hit_count": 174,
+        "sample": 6
+      },
+      "source": "Europe PMC LANG 过滤",
+      "url": "https://europepmc.org/",
+      "fetched_at": "2026-11-23T06:02:29+00:00"
+    },
+    {
+      "key": "epmc:chi:0",
+      "kind": "publication_chi",
+      "label": "[Discussion on the closed-loop regulation strategy for acupuncture \"&lt;i&gt;Deqi&lt;/i&gt;\" based on brain-computer int",
+      "attrs": {
+        "pmid": "42908451",
+        "year": "2026",
+        "lang": null,
+        "journal": "Zhen Ci Yan Jiu"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/42908451",
+      "fetched_at": "2026-11-23T06:02:29+00:00"
+    },
+    {
+      "key": "epmc:chi:1",
+      "kind": "publication_chi",
+      "label": "[Research and Countermeasure Analysis on the Classification of Brain-Computer Interface Rehabilitation Medical Devices].",
+      "attrs": {
+        "pmid": "42338375",
+        "year": "2026",
+        "lang": null,
+        "journal": "Zhongguo Yi Liao Qi Xie Za Zhi"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/42338375",
+      "fetched_at": "2026-11-23T06:02:29+00:00"
+    },
+    {
+      "key": "epmc:chi:2",
+      "kind": "publication_chi",
+      "label": "[Historical development, frontiers of exploration, and disciplinary horizons of acupuncture research].",
+      "attrs": {
+        "pmid": "42779390",
+        "year": "2026",
+        "lang": null,
+        "journal": "Zhen Ci Yan Jiu"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/42779390",
+      "fetched_at": "2026-11-23T06:02:29+00:00"
+    },
+    {
+      "key": "epmc:chi:3",
+      "kind": "publication_chi",
+      "label": "[Progress and Prospects of Ultrasound Brain-Computer Interface Medical Devices Technology].",
+      "attrs": {
+        "pmid": "41987469",
+        "year": "2026",
+        "lang": null,
+        "journal": "Zhongguo Yi Liao Qi Xie Za Zhi"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/41987469",
+      "fetched_at": "2026-11-23T06:02:29+00:00"
+    },
+    {
+      "key": "epmc:chi:4",
+      "kind": "publication_chi",
+      "label": "[Review of Progress of Optical Brain-Computer Interface Technology and Prospects for Medical Device Testing Technology].",
+      "attrs": {
+        "pmid": "41672620",
+        "year": "2026",
+        "lang": null,
+        "journal": "Zhongguo Yi Liao Qi Xie Za Zhi"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/41672620",
+      "fetched_at": "2026-11-23T06:02:29+00:00"
+    },
+    {
+      "key": "epmc:chi:5",
+      "kind": "publication_chi",
+      "label": "[Emerging role of brain-computer interface in orthopedic rehabilitation and motor function restoration].",
+      "attrs": {
+        "pmid": "42642203",
+        "year": "2026",
+        "lang": null,
+        "journal": "Zhongguo Xiu Fu Chong Jian Wai Ke Za Zhi"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/42642203",
+      "fetched_at": "2026-11-23T06:02:29+00:00"
+    }
+  ],
+  "edges": [
+    {
+      "src": "gnd:1156215250",
+      "dst": "wd:Q897410",
+      "rel": "about_concept",
+      "attrs": {
+        "lang": "de",
+        "basis": "GND 检索命中 brain-computer"
+      },
+      "source": "GND",
+      "url": "https://d-nb.info/gnd/1156215250",
+      "fetched_at": "2026-11-23T06:01:34+00:00"
+    },
+    {
+      "src": "gnd:1138929670",
+      "dst": "wd:Q897410",
+      "rel": "about_concept",
+      "attrs": {
+        "lang": "de",
+        "basis": "GND 检索命中 brain-computer"
+      },
+      "source": "GND",
+      "url": "https://d-nb.info/gnd/1138929670",
+      "fetched_at": "2026-11-23T06:01:34+00:00"
+    },
+    {
+      "src": "gnd:1092569200",
+      "dst": "wd:Q897410",
+      "rel": "about_concept",
+      "attrs": {
+        "lang": "de",
+        "basis": "GND 检索命中 brain-computer"
+      },
+      "source": "GND",
+      "url": "https://d-nb.info/gnd/1092569200",
+      "fetched_at": "2026-11-23T06:01:34+00:00"
+    },
+    {
+      "src": "gnd:1091190275",
+      "dst": "wd:Q897410",
+      "rel": "about_concept",
+      "attrs": {
+        "lang": "de",
+        "basis": "GND 检索命中 brain-computer"
+      },
+      "source": "GND",
+      "url": "https://d-nb.info/gnd/1091190275",
+      "fetched_at": "2026-11-23T06:01:34+00:00"
+    },
+    {
+      "src": "gnd:1197826769",
+      "dst": "wd:Q897410",
+      "rel": "about_concept",
+      "attrs": {
+        "lang": "de",
+        "basis": "GND 检索命中 brain-computer"
+      },
+      "source": "GND",
+      "url": "https://d-nb.info/gnd/1197826769",
+      "fetched_at": "2026-11-23T06:01:34+00:00"
+    },
+    {
+      "src": "gnd:4616897-7",
+      "dst": "wd:Q897410",
+      "rel": "about_concept",
+      "attrs": {
+        "lang": "de",
+        "basis": "GND 检索命中 brain-computer"
+      },
+      "source": "GND",
+      "url": "https://d-nb.info/gnd/4616897-7",
+      "fetched_at": "2026-11-23T06:01:34+00:00"
+    },
+    {
+      "src": "frco:417545118",
+      "dst": "wd:Q897410",
+      "rel": "about_concept",
+      "attrs": {
+        "lang": "fr",
+        "basis": "企业名检索命中 neurotech"
+      },
+      "source": "recherche-entreprises",
+      "url": "",
+      "fetched_at": "2026-11-23T06:02:02+00:00"
+    },
+    {
+      "src": "frco:433075769",
+      "dst": "wd:Q897410",
+      "rel": "about_concept",
+      "attrs": {
+        "lang": "fr",
+        "basis": "企业名检索命中 neurotech"
+      },
+      "source": "recherche-entreprises",
+      "url": "",
+      "fetched_at": "2026-11-23T06:02:02+00:00"
+    },
+    {
+      "src": "frco:400530655",
+      "dst": "wd:Q897410",
+      "rel": "about_concept",
+      "attrs": {
+        "lang": "fr",
+        "basis": "企业名检索命中 neurotech"
+      },
+      "source": "recherche-entreprises",
+      "url": "",
+      "fetched_at": "2026-11-23T06:02:02+00:00"
+    },
+    {
+      "src": "frco:981451230",
+      "dst": "wd:Q897410",
+      "rel": "about_concept",
+      "attrs": {
+        "lang": "fr",
+        "basis": "企业名检索命中 neurotech"
+      },
+      "source": "recherche-entreprises",
+      "url": "",
+      "fetched_at": "2026-11-23T06:02:02+00:00"
+    },
+    {
+      "src": "frco:935281964",
+      "dst": "wd:Q897410",
+      "rel": "about_concept",
+      "attrs": {
+        "lang": "fr",
+        "basis": "企业名检索命中 neurotech"
+      },
+      "source": "recherche-entreprises",
+      "url": "",
+      "fetched_at": "2026-11-23T06:02:02+00:00"
+    },
+    {
+      "src": "frco:832672927",
+      "dst": "wd:Q897410",
+      "rel": "about_concept",
+      "attrs": {
+        "lang": "fr",
+        "basis": "企业名检索命中 neurotech"
+      },
+      "source": "recherche-entreprises",
+      "url": "",
+      "fetched_at": "2026-11-23T06:02:02+00:00"
+    },
+    {
+      "src": "lang:ger",
+      "dst": "wd:Q897410",
+      "rel": "sliced_by_language",
+      "attrs": {
+        "hit_count": 3
+      },
+      "source": "Europe PMC",
+      "url": "",
+      "fetched_at": "2026-11-23T06:02:13+00:00"
+    },
+    {
+      "src": "epmc:ger:0",
+      "dst": "lang:ger",
+      "rel": "in_language_slice",
+      "attrs": {},
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/16025358",
+      "fetched_at": "2026-11-23T06:02:13+00:00"
+    },
+    {
+      "src": "epmc:ger:1",
+      "dst": "lang:ger",
+      "rel": "in_language_slice",
+      "attrs": {},
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/14677109",
+      "fetched_at": "2026-11-23T06:02:13+00:00"
+    },
+    {
+      "src": "epmc:ger:2",
+      "dst": "lang:ger",
+      "rel": "in_language_slice",
+      "attrs": {},
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/11830792",
+      "fetched_at": "2026-11-23T06:02:13+00:00"
+    },
+    {
+      "src": "lang:fre",
+      "dst": "wd:Q897410",
+      "rel": "sliced_by_language",
+      "attrs": {
+        "hit_count": 1
+      },
+      "source": "Europe PMC",
+      "url": "",
+      "fetched_at": "2026-11-23T06:02:21+00:00"
+    },
+    {
+      "src": "epmc:fre:0",
+      "dst": "lang:fre",
+      "rel": "in_language_slice",
+      "attrs": {},
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/20464895",
+      "fetched_at": "2026-11-23T06:02:21+00:00"
+    },
+    {
+      "src": "lang:chi",
+      "dst": "wd:Q897410",
+      "rel": "sliced_by_language",
+      "attrs": {
+        "hit_count": 174
+      },
+      "source": "Europe PMC",
+      "url": "",
+      "fetched_at": "2026-11-23T06:02:29+00:00"
+    },
+    {
+      "src": "epmc:chi:0",
+      "dst": "lang:chi",
+      "rel": "in_language_slice",
+      "attrs": {},
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/42908451",
+      "fetched_at": "2026-11-23T06:02:29+00:00"
+    },
+    {
+      "src": "epmc:chi:1",
+      "dst": "lang:chi",
+      "rel": "in_language_slice",
+      "attrs": {},
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/42338375",
+      "fetched_at": "2026-11-23T06:02:29+00:00"
+    },
+    {
+      "src": "epmc:chi:2",
+      "dst": "lang:chi",
+      "rel": "in_language_slice",
+      "attrs": {},
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/42779390",
+      "fetched_at": "2026-11-23T06:02:29+00:00"
+    },
+    {
+      "src": "epmc:chi:3",
+      "dst": "lang:chi",
+      "rel": "in_language_slice",
+      "attrs": {},
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/41987469",
+      "fetched_at": "2026-11-23T06:02:29+00:00"
+    },
+    {
+      "src": "epmc:chi:4",
+      "dst": "lang:chi",
+      "rel": "in_language_slice",
+      "attrs": {},
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/41672620",
+      "fetched_at": "2026-11-23T06:02:29+00:00"
+    },
+    {
+      "src": "epmc:chi:5",
+      "dst": "lang:chi",
+      "rel": "in_language_slice",
+      "attrs": {},
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/42642203",
+      "fetched_at": "2026-11-23T06:02:29+00:00"
+    }
+  ]
+}
