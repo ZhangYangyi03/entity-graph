@@ -1,0 +1,33 @@
+  国家总数 249（ISO-3166 全量，无遗漏）
+  有 BCI 论文的国家 122；论文数为 0 的 127；取数失败的 0
+  有 GLEIF 关键词命中企业的国家 34 / 已查 249
+  论文数前 15：
+     1. 中华人民共和国 China                  3767
+     2. 德国 Germany                      950
+     3. 美国 United States of America     803
+     4. 意大利 Italy                       612
+     5. 加拿大 Canada                      483
+     6. 日本 Japan                        476
+     7. 法国 France                       406
+     8. 印度 India                        375
+     9. 西班牙 Spain                       351
+    10. 英国 United Kingdom of Great Britain and Northern Ireland    343
+    11. 澳大利亚 Australia                  340
+    12. 奥地利 Austria                     315
+    13. 瑞士 Switzerland                  253
+    14. 伊朗 Iran, Islamic Republic of    215
+    15. 新加坡 Singapore                   207
+  论文数为 0 的国家（全部列出，不留空行）：
+    AD AG AI AL AQ AS AW AX AZ BB BF BI BJ BL BM BN BQ BS BV BW CC CF CI CK CM CR CV CW CX DJ DM DO EH ER FK FM FO GF GG GL GM GN GP GQ GS GT GU GW GY HM HN HT IM IO JM KH KI KM KN KP KY LA LR LS MD MF MG MH ML MP MQ MR MS MU MV MW MZ NA NC NE NF NI NL NR NU PF PG PM PN PW RE SB SC SH SJ SL SM SN SO SR SS ST SX SY SZ TC TD TF TG TJ TK TL TM TO TT TV UM UY VC VG VI VU WF WS YT ZM ZW
+  国家之间的论文合作（Europe PMC 双国机构名同现，下限）：
+    德国 Germany                 -- 意大利 Italy                     98 篇
+    中华人民共和国 China              -- 美国 United States of Americ    97 篇
+    中华人民共和国 China              -- 日本 Japan                      82 篇
+    中华人民共和国 China              -- 德国 Germany                    78 篇
+    德国 Germany                 -- 美国 United States of Americ    75 篇
+    德国 Germany                 -- 瑞士 Switzerland                73 篇
+    中华人民共和国 China              -- 英国 United Kingdom of Great    71 篇
+    德国 Germany                 -- 西班牙 Spain                     61 篇
+    美国 United States of Americ -- 英国 United Kingdom of Great    61 篇
+    中华人民共和国 China              -- 加拿大 Canada                    60 篇
+  区域枢纽 6 个，收入层枢纽 4 个，次区域枢纽 17 个（骨架，非证据）

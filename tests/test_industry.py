@@ -560,3 +560,144 @@ def test_nordic_report_prints_all_four_countries():
     txt = ND.nordic_report(g)
     for zh in ("瑞典", "丹麦", "芬兰", "斯洛文尼亚"):
         assert zh in txt
+
+
+# ------------------------------------------------------------------ 全球 249 国
+from entitygraph import world as WD  # noqa: E402
+
+
+def test_the_spine_is_all_249_iso_codes_and_drops_nothing():
+    # built from the checked-in snapshot, so the assertion is about the list, not the network
+    spine = WD.iso_countries()
+    assert len(spine) == 249, "ISO-3166 officially-assigned count; a short list is a lie"
+    codes = {r["iso2"] for r in spine}
+    for must in ("SE", "DK", "FI", "SI", "TV", "VA", "AQ", "TW", "PS", "NR", "SS", "TL"):
+        assert must in codes, "missing %s" % must
+    # a country is never a bare code: every row has a region (or an explicit 未分类)
+    assert all(r["region"] and r["name"] for r in spine)
+    odd = {r["iso2"] for r in spine if r["region"] == "未分类"}
+    assert odd == {"AQ", "TW"}, "only the two rows the upstream source leaves blank"
+    assert WD.EPMC_NAME["SE"] == "Sweden", "ISO2 undercounts; the name is the query"
+
+
+def test_a_country_with_zero_findings_is_a_row_not_a_hole(monkeypatch):
+    monkeypatch.setattr(WD, "iso_countries", lambda: [
+        {"iso2": "AA", "iso3": "AAA", "name": "Alpha", "region": "R", "sub_region": "S",
+         "intermediate": None},
+        {"iso2": "BB", "iso3": "BBB", "name": "Beta", "region": "R", "sub_region": "S",
+         "intermediate": None}])
+    monkeypatch.setattr(WD, "wd_labels", lambda: {})
+    monkeypatch.setattr(WD, "worldbank_countries", lambda: {})
+    monkeypatch.setattr(WD, "worldbank_indicator", lambda *a, **k: {})
+    monkeypatch.setattr(WD, "epmc_count",
+                        lambda name, tries=3, cache=None: 0 if name == "Alpha" else 7)
+    monkeypatch.setattr(WD, "gleif_entities", lambda *a, **k: {"iso2": "AA", "term": "brain",
+                                                              "total": 0, "rows": []})
+    g = WD.build_world_graph()
+    countries = [n for n in g.nodes.values() if n.kind == "country"]
+    assert len(countries) == 2
+    assert len([n for n in g.nodes.values() if n.kind == "publication_slice"]) == 2
+
+
+def test_a_failed_lookup_is_not_silently_a_zero(monkeypatch):
+    monkeypatch.setattr(WD, "iso_countries", lambda: [
+        {"iso2": "AA", "iso3": "AAA", "name": "Alpha", "region": "R", "sub_region": "S",
+         "intermediate": None}])
+    monkeypatch.setattr(WD, "wd_labels", lambda: {})
+    monkeypatch.setattr(WD, "worldbank_countries", lambda: {})
+    monkeypatch.setattr(WD, "worldbank_indicator", lambda *a, **k: {})
+    monkeypatch.setattr(WD, "epmc_count", lambda *a, **k: None)
+    monkeypatch.setattr(WD, "gleif_entities", lambda *a, **k: {"iso2": "AA", "term": "brain",
+                                                              "total": 0, "rows": []})
+    g = WD.build_world_graph()
+    assert any("取数失败" in n["error"] for n in g._notes)
+    assert not [n for n in g.nodes.values() if n.kind == "publication_slice"]
+
+
+def test_epmc_is_queried_by_country_name_because_iso2_undercounts(monkeypatch):
+    seen = {}
+
+    class R:
+        def read(self):
+            return b'{"hitCount": 3}'
+        def __enter__(self): return self
+        def __exit__(self, *a): return False
+
+    monkeypatch.setattr(WD, "_cache_load", lambda: {})   # a cached answer would skip the URL
+    monkeypatch.setattr(WD, "_cache_save", lambda d: None)
+    orig = WD.urllib.request.urlopen
+    WD.urllib.request.urlopen = lambda req, **k: (seen.update(url=req.full_url), R())[1]
+    try:
+        WD.epmc_count(WD.EPMC_NAME["SE"])
+    finally:
+        WD.urllib.request.urlopen = orig
+    import urllib.parse as _up
+    assert "Sweden" in _up.unquote(seen["url"]), \
+        "ISO2 'SE' measured 11 hits against 68 for 'Sweden' -- the name is the honest query"
+
+
+def test_world_report_names_the_countries_that_have_nothing():
+    from entitygraph.model import Edge, Graph, Node
+    g = Graph()
+    g.add_node(Node(key="country:AA", kind="country", label="Alpha", attrs={"iso2": "AA"},
+                    source="s", url=""))
+    g.add_node(Node(key="epmc:AA", kind="publication_slice", label="x",
+                    attrs={"iso2": "AA", "hit_count": 0}, source="s", url=""))
+    txt = WD.world_report(g)
+    assert "论文数为 0" in txt and "AA" in txt
+
+
+def test_the_openalex_failure_is_recorded_rather_than_worked_around(monkeypatch):
+    monkeypatch.setattr(WD, "iso_countries", lambda: [
+        {"iso2": "AA", "iso3": "AAA", "name": "Alpha", "region": "R", "sub_region": "S",
+         "intermediate": None}])
+    monkeypatch.setattr(WD, "wd_labels", lambda: {})
+    monkeypatch.setattr(WD, "worldbank_countries", lambda: {})
+    monkeypatch.setattr(WD, "worldbank_indicator", lambda *a, **k: {})
+    monkeypatch.setattr(WD, "epmc_count", lambda *a, **k: 1)
+    monkeypatch.setattr(WD, "gleif_entities", lambda *a, **k: {"iso2": "AA", "term": "brain",
+                                                              "total": 0, "rows": []})
+    g = WD.build_world_graph()
+    assert any("OpenAlex" in n["source"] and "429" in n["error"] for n in g._notes)
+
+
+def test_countries_are_related_to_each_other_three_ways(monkeypatch):
+    from entitygraph.model import Graph, Node
+    g = Graph()
+    for iso2, region, income, cnt in (("AA", "Europe", "High income", 90),
+                                      ("BB", "Europe", "High income", 40),
+                                      ("CC", "Asia", "Low income", 0)):
+        g.add_node(Node(key="country:" + iso2, kind="country", label=iso2,
+                        attrs={"iso2": iso2, "name_en": iso2, "region": region,
+                               "sub_region": "Sub-" + region, "income": income},
+                        source="s", url=""))
+        g.add_node(Node(key="epmc:" + iso2, kind="publication_slice", label="x",
+                        attrs={"iso2": iso2, "hit_count": cnt}, source="s", url=""))
+    monkeypatch.setattr(WD, "_load_json", lambda p: {})
+    monkeypatch.setattr(WD, "_save_json", lambda p, d: None)
+    monkeypatch.setattr(WD, "epmc_pair", lambda a, b, cache=None: 12 if {a, b} == {"AA", "BB"} else 0)
+    WD.add_country_relations(g)
+    rels = {e.rel for e in g.edges.values()}
+    assert {"belongs_to_region", "belongs_to_subregion", "shares_income_band",
+            "co_author_country"} <= rels
+    co = [e for e in g.edges.values() if e.rel == "co_author_country"]
+    assert len(co) == 1 and co[0].attrs["papers"] == 12
+    assert co[0].attrs["symmetric"] is True and "下限" in co[0].attrs["unit"]
+    assert {co[0].src, co[0].dst} == {"country:AA", "country:BB"}
+
+
+def test_zero_co_authorship_is_no_edge_not_a_zero_edge(monkeypatch):
+    from entitygraph.model import Graph, Node
+    g = Graph()
+    for iso2 in ("AA", "BB"):
+        g.add_node(Node(key="country:" + iso2, kind="country", label=iso2,
+                        attrs={"iso2": iso2, "name_en": iso2, "region": "R",
+                               "sub_region": "S", "income": "I"}, source="s", url=""))
+        g.add_node(Node(key="epmc:" + iso2, kind="publication_slice", label="x",
+                        attrs={"iso2": iso2, "hit_count": 5}, source="s", url=""))
+    monkeypatch.setattr(WD, "_load_json", lambda p: {})
+    monkeypatch.setattr(WD, "_save_json", lambda p, d: None)
+    monkeypatch.setattr(WD, "epmc_pair", lambda a, b, cache=None: 0)
+    WD.add_country_relations(g)
+    assert not [e for e in g.edges.values() if e.rel == "co_author_country"], \
+        "no evidence is no edge -- an empty set is not a relation"

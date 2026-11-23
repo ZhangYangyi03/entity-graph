@@ -435,6 +435,14 @@ def main(argv=None) -> int:
     ml.add_argument("--out", default="multilingual.graph.json")
     ml.add_argument("--format", choices=["summary", "json", "lines"], default="summary")
 
+    wd = sub.add_parser("world", help="全球 249 国全量（ISO-3166 一个不落）")
+    wd.add_argument("--gleif-term", default="brain,neuro")
+    wd.add_argument("--no-epmc", action="store_true")
+    wd.add_argument("--no-gleif", action="store_true")
+    wd.add_argument("--limit", type=int, default=None, help="只跑前 N 国（调试用）")
+    wd.add_argument("--out", default="world.graph.json")
+    wd.add_argument("--format", choices=["summary", "json", "lines"], default="summary")
+
     nd = sub.add_parser("nordic", help="瑞典/丹麦/芬兰/斯洛文尼亚 的 BCI 数据源")
     nd.add_argument("--term", default="brain-computer interface")
     nd.add_argument("--rows", type=int, default=6)
@@ -457,6 +465,17 @@ def main(argv=None) -> int:
         g = build_biomed_graph(args.symbol, drug=args.drug, diseases=args.diseases,
                                drugs=args.drugs, papers=args.papers)
         return _finish_graph(g, args, "biomed")
+
+    if args.cmd == "world":
+        from .world import build_world_graph, world_report
+        g = build_world_graph(
+                              gleif_terms=tuple(t.strip() for t in args.gleif_term.split(",") if t.strip()),
+                              with_epmc=not args.no_epmc,
+                              with_gleif=not args.no_gleif,
+                              limit=args.limit)
+        if args.format == "summary":
+            g.summary_text = world_report(g)
+        return _finish_graph(g, args, "world")
 
     if args.cmd == "nordic":
         from .nordic import build_nordic_graph, nordic_report

@@ -767,3 +767,45 @@ api.nb.no 国家书目 18479 条，挂在 country:NO 上，**不**并进丹麦�
 脑机接口。关键词命中不等于业务相关，这条不删。
 
 Europe PMC 在本机 TLS 会间歇性 EOF，所以它单独给了 5 次重试 —— 这是实测行为，不是保险。
+
+## 全世界 249 个国家，一个不落
+
+    $ python -m entitygraph.cli world
+
+骨架是 ISO-3166 官方 249 个两位代码（不是「两百个左右」），清单本身带快照
+`tests/data/iso3166_snapshot.json`，断网时也照样出全图，快照里写着抓取日期。
+
+    国家节点        249   一个不少，包括 Antarctica、Vatican、Nauru、Tuvalu、Tokelau
+    论文切片        249   每国一条，0 也写 0
+    企业切片        498   每国两条（关键词 brain / neuro）
+    区域/次区域/收入  6 / 17 / 4   World Bank 与 ISO 给的，是骨架不是证据
+    国家间论文合作   91 条  Europe PMC 双国机构名同现，带篇数
+
+跑出来的分布（2026-11-23 实测）
+
+    有 BCI 论文的国家   122
+    论文数为 0 的国家   127   —— 全部列在报告里，不留空行
+    有 GLEIF 命中企业的国家  34（110 家实体）
+    取数失败            0
+
+论文数前五：中国 3767、德国 950、美国 803、意大利 612、加拿大 483。
+
+国家之间的关系，三种，分清楚哪种是骨架哪种是证据
+
+    关系              来源                    性质
+    belongs_to_region       World Bank       骨架：地理归属
+    belongs_to_subregion    ISO-3166         骨架
+    shares_income_band      World Bank       骨架：收入层
+    co_author_country       Europe PMC       证据：两国机构名同现于同一批论文
+
+合作前五：德国–意大利 98、中国–美国 97、中国–日本 82、中国–德国 78、德国–美国 75。
+
+三条实测出来的坑，都写进代码和报告，不当成 bug 反复踩
+
+    OpenAlex        api.openalex.org 每次都 429（连带 mailto 的 polite pool 也是），本机不可用
+    Europe PMC      AFF 用两位代码会掉六分之五：「SE」11 篇对「Sweden」68 篇，「CI」2 篇对
+                    「Ivory Coast」0 篇。所以一律按国名查，**所有计数都是下限，不是总数**
+    ISO 上游漏项    Antarctica 与 Taiwan 两行没有 region；我没有替它猜一个大洲，标成「未分类」，
+                    测试断言只有这两行是未分类
+
+一条规矩：论文数为 0 的国家不连边。空集合不是关系。
