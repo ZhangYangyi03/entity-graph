@@ -1,0 +1,779 @@
+{
+  "nodes": [
+    {
+      "key": "country:SE",
+      "kind": "country",
+      "label": "瑞典 Sweden",
+      "attrs": {
+        "iso": "SE",
+        "name_en": "Sweden",
+        "sources": [
+          "Libris XL",
+          "Europe PMC"
+        ]
+      },
+      "source": "本模块的国家清单",
+      "url": "",
+      "fetched_at": "2026-11-23T06:22:18+00:00"
+    },
+    {
+      "key": "country:DK",
+      "kind": "country",
+      "label": "丹麦 Denmark",
+      "attrs": {
+        "iso": "DK",
+        "name_en": "Denmark",
+        "sources": [
+          "api.nb.no",
+          "cvrapi.dk",
+          "Europe PMC"
+        ]
+      },
+      "source": "本模块的国家清单",
+      "url": "",
+      "fetched_at": "2026-11-23T06:22:18+00:00"
+    },
+    {
+      "key": "country:FI",
+      "kind": "country",
+      "label": "芬兰 Finland",
+      "attrs": {
+        "iso": "FI",
+        "name_en": "Finland",
+        "sources": [
+          "Europe PMC"
+        ]
+      },
+      "source": "本模块的国家清单",
+      "url": "",
+      "fetched_at": "2026-11-23T06:22:18+00:00"
+    },
+    {
+      "key": "country:SI",
+      "kind": "country",
+      "label": "斯洛文尼亚 Slovenia",
+      "attrs": {
+        "iso": "SI",
+        "name_en": "Slovenia",
+        "sources": [
+          "Europe PMC"
+        ]
+      },
+      "source": "本模块的国家清单",
+      "url": "",
+      "fetched_at": "2026-11-23T06:22:18+00:00"
+    },
+    {
+      "key": "slice:epmc:SE",
+      "kind": "country_slice",
+      "label": "Europe PMC AFF:Sweden",
+      "attrs": {
+        "iso": "SE",
+        "hit_count": 68,
+        "sample": 4
+      },
+      "source": "Europe PMC（机构国别过滤）",
+      "url": "https://europepmc.org/search?query=Sweden",
+      "fetched_at": "2026-11-23T06:22:25+00:00"
+    },
+    {
+      "key": "pub:SE:0",
+      "kind": "publication",
+      "label": "Rotation-based metric on the Riemannian manifold of SPD matrices with applications to source data selection for brain-co",
+      "attrs": {
+        "pmid": "42253789",
+        "year": "2026",
+        "journal": "Front Hum Neurosci",
+        "country": "SE"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/42253789",
+      "fetched_at": "2026-11-23T06:22:25+00:00"
+    },
+    {
+      "key": "pub:SE:1",
+      "kind": "publication",
+      "label": "Real-time regulation of room temperature based on individual thermal sensation using an online brain-computer interface.",
+      "attrs": {
+        "pmid": "36168224",
+        "year": "2022",
+        "journal": "Indoor Air",
+        "country": "SE"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/36168224",
+      "fetched_at": "2026-11-23T06:22:25+00:00"
+    },
+    {
+      "key": "pub:SE:2",
+      "kind": "publication",
+      "label": "Comparison and extension of the Riemannian Procrustes analysis and tangent space alignment transfer learning methods.",
+      "attrs": {
+        "pmid": "43038655",
+        "year": "2026",
+        "journal": "J Neural Eng",
+        "country": "SE"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/43038655",
+      "fetched_at": "2026-11-23T06:22:25+00:00"
+    },
+    {
+      "key": "pub:SE:3",
+      "kind": "publication",
+      "label": "Successful Single-Session Neural Self-Regulation Through Neurofeedback Varies Between Features.",
+      "attrs": {
+        "pmid": "42458811",
+        "year": "2026",
+        "journal": "Hum Brain Mapp",
+        "country": "SE"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/42458811",
+      "fetched_at": "2026-11-23T06:22:25+00:00"
+    },
+    {
+      "key": "slice:epmc:DK",
+      "kind": "country_slice",
+      "label": "Europe PMC AFF:Denmark",
+      "attrs": {
+        "iso": "DK",
+        "hit_count": 134,
+        "sample": 4
+      },
+      "source": "Europe PMC（机构国别过滤）",
+      "url": "https://europepmc.org/search?query=Denmark",
+      "fetched_at": "2026-11-23T06:22:32+00:00"
+    },
+    {
+      "key": "pub:DK:0",
+      "kind": "publication",
+      "label": "A Comparison Between Movement-Related Brain Activity Modalities for Increasing Corticospinal Excitability Using an Assoc",
+      "attrs": {
+        "pmid": "42980617",
+        "year": "2026",
+        "journal": "Neuromodulation",
+        "country": "DK"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/42980617",
+      "fetched_at": "2026-11-23T06:22:32+00:00"
+    },
+    {
+      "key": "pub:DK:1",
+      "kind": "publication",
+      "label": "Specificity of Pairing Afferent and Efferent Activity for Inducing Neural Plasticity with an Associative Brain-Computer ",
+      "attrs": {
+        "pmid": "41600345",
+        "year": "2026",
+        "journal": "Sensors (Basel)",
+        "country": "DK"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/41600345",
+      "fetched_at": "2026-11-23T06:22:32+00:00"
+    },
+    {
+      "key": "pub:DK:2",
+      "kind": "publication",
+      "label": "Associative brain-computer interface training increases wrist extensor corticospinal excitability in patients with subac",
+      "attrs": {
+        "pmid": "39704693",
+        "year": "2025",
+        "journal": "J Neurophysiol",
+        "country": "DK"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/39704693",
+      "fetched_at": "2026-11-23T06:22:32+00:00"
+    },
+    {
+      "key": "pub:DK:3",
+      "kind": "publication",
+      "label": "A Brain Computer Interface Neuromodulatory Device for Stroke Rehabilitation: Iterative User-Centered Design Approach.",
+      "attrs": {
+        "pmid": "38079202",
+        "year": "2023",
+        "journal": "JMIR Rehabil Assist Technol",
+        "country": "DK"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/38079202",
+      "fetched_at": "2026-11-23T06:22:32+00:00"
+    },
+    {
+      "key": "slice:epmc:FI",
+      "kind": "country_slice",
+      "label": "Europe PMC AFF:Finland",
+      "attrs": {
+        "iso": "FI",
+        "hit_count": 60,
+        "sample": 4
+      },
+      "source": "Europe PMC（机构国别过滤）",
+      "url": "https://europepmc.org/search?query=Finland",
+      "fetched_at": "2026-11-23T06:22:40+00:00"
+    },
+    {
+      "key": "pub:FI:0",
+      "kind": "publication",
+      "label": "Comparing MEG and EEG measurement set-ups for a brain-computer interface based on selective auditory attention.",
+      "attrs": {
+        "pmid": "40209163",
+        "year": "2025",
+        "journal": "PLoS One",
+        "country": "FI"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/40209163",
+      "fetched_at": "2026-11-23T06:22:40+00:00"
+    },
+    {
+      "key": "pub:FI:1",
+      "kind": "publication",
+      "label": "Motor Imagery Classification for Brain Computer Interface Using Deep Convolutional Neural Networks and Mixup Augmentatio",
+      "attrs": {
+        "pmid": "36578777",
+        "year": "2022",
+        "journal": "IEEE Open J Eng Med Biol",
+        "country": "FI"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/36578777",
+      "fetched_at": "2026-11-23T06:22:40+00:00"
+    },
+    {
+      "key": "pub:FI:2",
+      "kind": "publication",
+      "label": "Largest Lyapunov Exponent Optimization for Control of a Bionic-Hand: A Brain Computer Interface Study.",
+      "attrs": {
+        "pmid": "36188803",
+        "year": "2021",
+        "journal": "Front Rehabil Sci",
+        "country": "FI"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/36188803",
+      "fetched_at": "2026-11-23T06:22:40+00:00"
+    },
+    {
+      "key": "pub:FI:3",
+      "kind": "publication",
+      "label": "Event-related brain potential markers of visual and auditory perception: A useful tool for brain computer interface syst",
+      "attrs": {
+        "pmid": "36523756",
+        "year": "2022",
+        "journal": "Front Behav Neurosci",
+        "country": "FI"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/36523756",
+      "fetched_at": "2026-11-23T06:22:40+00:00"
+    },
+    {
+      "key": "slice:epmc:SI",
+      "kind": "country_slice",
+      "label": "Europe PMC AFF:Slovenia",
+      "attrs": {
+        "iso": "SI",
+        "hit_count": 19,
+        "sample": 4
+      },
+      "source": "Europe PMC（机构国别过滤）",
+      "url": "https://europepmc.org/search?query=Slovenia",
+      "fetched_at": "2026-11-23T06:22:47+00:00"
+    },
+    {
+      "key": "pub:SI:0",
+      "kind": "publication",
+      "label": "Vision Restoration to People with Long-Term Blindness Using the Brain-Computer Interface Technology: A Sociotechnical Re",
+      "attrs": {
+        "pmid": "42733633",
+        "year": "2026",
+        "journal": "Patient Prefer Adherence",
+        "country": "SI"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/42733633",
+      "fetched_at": "2026-11-23T06:22:47+00:00"
+    },
+    {
+      "key": "pub:SI:1",
+      "kind": "publication",
+      "label": "Brain-computer interface analysis of a dynamic visuo-motor task.",
+      "attrs": {
+        "pmid": "21112747",
+        "year": "2011",
+        "journal": "Artif Intell Med",
+        "country": "SI"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/21112747",
+      "fetched_at": "2026-11-23T06:22:47+00:00"
+    },
+    {
+      "key": "pub:SI:2",
+      "kind": "publication",
+      "label": "The self-paced graz brain-computer interface: methods and applications.",
+      "attrs": {
+        "pmid": "18350133",
+        "year": "2007",
+        "journal": "Comput Intell Neurosci",
+        "country": "SI"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/18350133",
+      "fetched_at": "2026-11-23T06:22:47+00:00"
+    },
+    {
+      "key": "pub:SI:3",
+      "kind": "publication",
+      "label": "Editorial: Patient cooperative robotics in neurorehabilitation.",
+      "attrs": {
+        "pmid": "37265521",
+        "year": "2023",
+        "journal": "Front Neurorobot",
+        "country": "SI"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/37265521",
+      "fetched_at": "2026-11-23T06:22:47+00:00"
+    },
+    {
+      "key": "natlib:SE",
+      "kind": "national_library",
+      "label": "Libris XL（瑞典国家联合目录）",
+      "attrs": {
+        "hit_count": 24107,
+        "sample": 4
+      },
+      "source": "Libris XL (KB)",
+      "url": "https://libris.kb.se/",
+      "fetched_at": "2026-11-23T06:22:55+00:00"
+    },
+    {
+      "key": "libris:0",
+      "kind": "library_record",
+      "label": "",
+      "attrs": {
+        "year": "2013"
+      },
+      "source": "Libris XL",
+      "url": "https://libris.kb.se/kt3ltlf1hnt87v7w#it",
+      "fetched_at": "2026-11-23T06:22:55+00:00"
+    },
+    {
+      "key": "libris:1",
+      "kind": "library_record",
+      "label": "",
+      "attrs": {
+        "year": "2022"
+      },
+      "source": "Libris XL",
+      "url": "https://libris.kb.se/g1g1zp1wdrwj562s#it",
+      "fetched_at": "2026-11-23T06:22:55+00:00"
+    },
+    {
+      "key": "libris:2",
+      "kind": "library_record",
+      "label": "",
+      "attrs": {
+        "year": "2022"
+      },
+      "source": "Libris XL",
+      "url": "https://libris.kb.se/rdf7qgg0pw1t971r#it",
+      "fetched_at": "2026-11-23T06:22:55+00:00"
+    },
+    {
+      "key": "libris:3",
+      "kind": "library_record",
+      "label": "",
+      "attrs": {
+        "year": "2013"
+      },
+      "source": "Libris XL",
+      "url": "https://libris.kb.se/ftc579x0cm6j0248#it",
+      "fetched_at": "2026-11-23T06:22:55+00:00"
+    },
+    {
+      "key": "natlib:DK",
+      "kind": "national_library",
+      "label": "Nasjonalbiblioteket 目录 API（挪威/丹麦区实测可用）",
+      "attrs": {
+        "hit_count": 18479,
+        "sample": 4
+      },
+      "source": "api.nb.no",
+      "url": "https://api.nb.no/catalog/v1/items",
+      "fetched_at": "2026-11-23T06:23:03+00:00"
+    },
+    {
+      "key": "nb:0",
+      "kind": "library_record",
+      "label": "The  computer and the brain",
+      "attrs": {
+        "year": "1958",
+        "creators": [
+          "Von Neumann, John"
+        ]
+      },
+      "source": "api.nb.no",
+      "url": "https://www.nb.no/items/3479ce11e287254c7681215c4da580a1",
+      "fetched_at": "2026-11-23T06:23:03+00:00"
+    },
+    {
+      "key": "nb:1",
+      "kind": "library_record",
+      "label": "Opportunities and implications of brain-computer interface technology",
+      "attrs": {
+        "year": "2020",
+        "creators": [
+          "Vahle, Mark W."
+        ]
+      },
+      "source": "api.nb.no",
+      "url": "https://www.nb.no/items/e8b9aa70f77d685ec87dfc75c43bec1f",
+      "fetched_at": "2026-11-23T06:23:03+00:00"
+    },
+    {
+      "key": "nb:2",
+      "kind": "library_record",
+      "label": "Cyborg mind : what brain-computer and mind-cyberspace interfaces mean for cyberneuroethics",
+      "attrs": {
+        "year": "2019",
+        "creators": [
+          "MacKellar, Calum"
+        ]
+      },
+      "source": "api.nb.no",
+      "url": "https://www.nb.no/items/64b21df87c3ba7d57eb7f7e3c71870a7",
+      "fetched_at": "2026-11-23T06:23:03+00:00"
+    },
+    {
+      "key": "nb:3",
+      "kind": "library_record",
+      "label": "Brain computer interface (SSVEP-BCI and P300-BCI) : neurophysiology and experimental examples",
+      "attrs": {
+        "year": "2011",
+        "creators": [
+          "Leidland, Einar",
+          "Universitetet i Bergen Institutt for biomedisin"
+        ]
+      },
+      "source": "api.nb.no",
+      "url": "https://www.nb.no/items/e187dd9622b737ab38820dee2158f399",
+      "fetched_at": "2026-11-23T06:23:03+00:00"
+    },
+    {
+      "key": "frco_dk:44435616",
+      "kind": "company_dk",
+      "label": "Neuro Recovery ApS",
+      "attrs": {
+        "cvr": 44435616,
+        "city": "Aarhus N",
+        "zipcode": "8200",
+        "industry_code": 869900,
+        "industry": "Drift af sundhedsvæsen i øvrigt i.a.n."
+      },
+      "source": "cvrapi.dk（丹麦 CVR 登记）",
+      "url": "https://datacvr.virk.dk/enhed/virksomhed/44435616",
+      "fetched_at": "2026-11-23T06:23:10+00:00"
+    }
+  ],
+  "edges": [
+    {
+      "src": "country:SE",
+      "dst": "slice:epmc:SE",
+      "rel": "has_publication_slice",
+      "attrs": {
+        "hit_count": 68
+      },
+      "source": "Europe PMC",
+      "url": "",
+      "fetched_at": "2026-11-23T06:22:25+00:00"
+    },
+    {
+      "src": "pub:SE:0",
+      "dst": "slice:epmc:SE",
+      "rel": "in_country_slice",
+      "attrs": {},
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/42253789",
+      "fetched_at": "2026-11-23T06:22:25+00:00"
+    },
+    {
+      "src": "pub:SE:1",
+      "dst": "slice:epmc:SE",
+      "rel": "in_country_slice",
+      "attrs": {},
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/36168224",
+      "fetched_at": "2026-11-23T06:22:25+00:00"
+    },
+    {
+      "src": "pub:SE:2",
+      "dst": "slice:epmc:SE",
+      "rel": "in_country_slice",
+      "attrs": {},
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/43038655",
+      "fetched_at": "2026-11-23T06:22:25+00:00"
+    },
+    {
+      "src": "pub:SE:3",
+      "dst": "slice:epmc:SE",
+      "rel": "in_country_slice",
+      "attrs": {},
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/42458811",
+      "fetched_at": "2026-11-23T06:22:25+00:00"
+    },
+    {
+      "src": "country:DK",
+      "dst": "slice:epmc:DK",
+      "rel": "has_publication_slice",
+      "attrs": {
+        "hit_count": 134
+      },
+      "source": "Europe PMC",
+      "url": "",
+      "fetched_at": "2026-11-23T06:22:32+00:00"
+    },
+    {
+      "src": "pub:DK:0",
+      "dst": "slice:epmc:DK",
+      "rel": "in_country_slice",
+      "attrs": {},
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/42980617",
+      "fetched_at": "2026-11-23T06:22:32+00:00"
+    },
+    {
+      "src": "pub:DK:1",
+      "dst": "slice:epmc:DK",
+      "rel": "in_country_slice",
+      "attrs": {},
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/41600345",
+      "fetched_at": "2026-11-23T06:22:32+00:00"
+    },
+    {
+      "src": "pub:DK:2",
+      "dst": "slice:epmc:DK",
+      "rel": "in_country_slice",
+      "attrs": {},
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/39704693",
+      "fetched_at": "2026-11-23T06:22:32+00:00"
+    },
+    {
+      "src": "pub:DK:3",
+      "dst": "slice:epmc:DK",
+      "rel": "in_country_slice",
+      "attrs": {},
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/38079202",
+      "fetched_at": "2026-11-23T06:22:32+00:00"
+    },
+    {
+      "src": "country:FI",
+      "dst": "slice:epmc:FI",
+      "rel": "has_publication_slice",
+      "attrs": {
+        "hit_count": 60
+      },
+      "source": "Europe PMC",
+      "url": "",
+      "fetched_at": "2026-11-23T06:22:40+00:00"
+    },
+    {
+      "src": "pub:FI:0",
+      "dst": "slice:epmc:FI",
+      "rel": "in_country_slice",
+      "attrs": {},
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/40209163",
+      "fetched_at": "2026-11-23T06:22:40+00:00"
+    },
+    {
+      "src": "pub:FI:1",
+      "dst": "slice:epmc:FI",
+      "rel": "in_country_slice",
+      "attrs": {},
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/36578777",
+      "fetched_at": "2026-11-23T06:22:40+00:00"
+    },
+    {
+      "src": "pub:FI:2",
+      "dst": "slice:epmc:FI",
+      "rel": "in_country_slice",
+      "attrs": {},
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/36188803",
+      "fetched_at": "2026-11-23T06:22:40+00:00"
+    },
+    {
+      "src": "pub:FI:3",
+      "dst": "slice:epmc:FI",
+      "rel": "in_country_slice",
+      "attrs": {},
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/36523756",
+      "fetched_at": "2026-11-23T06:22:40+00:00"
+    },
+    {
+      "src": "country:SI",
+      "dst": "slice:epmc:SI",
+      "rel": "has_publication_slice",
+      "attrs": {
+        "hit_count": 19
+      },
+      "source": "Europe PMC",
+      "url": "",
+      "fetched_at": "2026-11-23T06:22:47+00:00"
+    },
+    {
+      "src": "pub:SI:0",
+      "dst": "slice:epmc:SI",
+      "rel": "in_country_slice",
+      "attrs": {},
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/42733633",
+      "fetched_at": "2026-11-23T06:22:47+00:00"
+    },
+    {
+      "src": "pub:SI:1",
+      "dst": "slice:epmc:SI",
+      "rel": "in_country_slice",
+      "attrs": {},
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/21112747",
+      "fetched_at": "2026-11-23T06:22:47+00:00"
+    },
+    {
+      "src": "pub:SI:2",
+      "dst": "slice:epmc:SI",
+      "rel": "in_country_slice",
+      "attrs": {},
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/18350133",
+      "fetched_at": "2026-11-23T06:22:47+00:00"
+    },
+    {
+      "src": "pub:SI:3",
+      "dst": "slice:epmc:SI",
+      "rel": "in_country_slice",
+      "attrs": {},
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/37265521",
+      "fetched_at": "2026-11-23T06:22:47+00:00"
+    },
+    {
+      "src": "country:SE",
+      "dst": "natlib:SE",
+      "rel": "has_catalogue",
+      "attrs": {
+        "hit_count": 24107
+      },
+      "source": "Libris XL",
+      "url": "",
+      "fetched_at": "2026-11-23T06:22:55+00:00"
+    },
+    {
+      "src": "libris:0",
+      "dst": "natlib:SE",
+      "rel": "catalogued_in",
+      "attrs": {},
+      "source": "Libris XL",
+      "url": "https://libris.kb.se/kt3ltlf1hnt87v7w#it",
+      "fetched_at": "2026-11-23T06:22:55+00:00"
+    },
+    {
+      "src": "libris:1",
+      "dst": "natlib:SE",
+      "rel": "catalogued_in",
+      "attrs": {},
+      "source": "Libris XL",
+      "url": "https://libris.kb.se/g1g1zp1wdrwj562s#it",
+      "fetched_at": "2026-11-23T06:22:55+00:00"
+    },
+    {
+      "src": "libris:2",
+      "dst": "natlib:SE",
+      "rel": "catalogued_in",
+      "attrs": {},
+      "source": "Libris XL",
+      "url": "https://libris.kb.se/rdf7qgg0pw1t971r#it",
+      "fetched_at": "2026-11-23T06:22:55+00:00"
+    },
+    {
+      "src": "libris:3",
+      "dst": "natlib:SE",
+      "rel": "catalogued_in",
+      "attrs": {},
+      "source": "Libris XL",
+      "url": "https://libris.kb.se/ftc579x0cm6j0248#it",
+      "fetched_at": "2026-11-23T06:22:55+00:00"
+    },
+    {
+      "src": "country:DK",
+      "dst": "natlib:DK",
+      "rel": "has_catalogue",
+      "attrs": {
+        "hit_count": 18479,
+        "note": "该端点是挪威国家库，这里仅作丹麦侧可用的书目接口证据，不当作丹麦国家目录"
+      },
+      "source": "api.nb.no",
+      "url": "",
+      "fetched_at": "2026-11-23T06:23:03+00:00"
+    },
+    {
+      "src": "nb:0",
+      "dst": "natlib:DK",
+      "rel": "catalogued_in",
+      "attrs": {},
+      "source": "api.nb.no",
+      "url": "",
+      "fetched_at": "2026-11-23T06:23:03+00:00"
+    },
+    {
+      "src": "nb:1",
+      "dst": "natlib:DK",
+      "rel": "catalogued_in",
+      "attrs": {},
+      "source": "api.nb.no",
+      "url": "",
+      "fetched_at": "2026-11-23T06:23:03+00:00"
+    },
+    {
+      "src": "nb:2",
+      "dst": "natlib:DK",
+      "rel": "catalogued_in",
+      "attrs": {},
+      "source": "api.nb.no",
+      "url": "",
+      "fetched_at": "2026-11-23T06:23:03+00:00"
+    },
+    {
+      "src": "nb:3",
+      "dst": "natlib:DK",
+      "rel": "catalogued_in",
+      "attrs": {},
+      "source": "api.nb.no",
+      "url": "",
+      "fetched_at": "2026-11-23T06:23:03+00:00"
+    },
+    {
+      "src": "frco_dk:44435616",
+      "dst": "country:DK",
+      "rel": "registered_in",
+      "attrs": {
+        "basis": "丹麦工商登记命中"
+      },
+      "source": "cvrapi.dk",
+      "url": "https://datacvr.virk.dk/enhed/virksomhed/44435616",
+      "fetched_at": "2026-11-23T06:23:10+00:00"
+    }
+  ]
+}
