@@ -14673,7 +14673,13 @@
         "status": "ACTIVE",
         "validated_as": "11786993",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "براين لتجارة المنتجات البترولية ش.ذ.م.م",
+          "BRAIN PETROLEUM PRODUCTS TRADING L.L.C"
+        ],
+        "country": "AE",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/98450059F08C7056CD23",
@@ -14949,7 +14955,13 @@
         "status": "ACTIVE",
         "validated_as": "090110s",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "THE BRAIN COMPANY - Beteiligungs GmbH",
+          "The Brain Company Beteiligungs GmbH"
+        ],
+        "country": "AT",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/8945005F8GLPHNY16950",
@@ -14965,7 +14977,12 @@
         "status": "ACTIVE",
         "validated_as": "270359m",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "IT-Brain Software GmbH"
+        ],
+        "country": "AT",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/98450005080BB810B034",
@@ -14981,7 +14998,12 @@
         "status": "ACTIVE",
         "validated_as": "601501k",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "BRAIN-SOL Foltinek GmbH"
+        ],
+        "country": "AT",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/5299005SYH1RBROJNY07",
@@ -15010,7 +15032,12 @@
         "status": "ACTIVE",
         "validated_as": "316993t",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "EVER Neuro Pharma GmbH"
+        ],
+        "country": "AT",
+        "theme_name_match": true
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/5299006CDZNH8GYFUV91",
@@ -15039,7 +15066,13 @@
         "status": "ACTIVE",
         "validated_as": "128 086 082",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "Brain Beyond Pty Ltd",
+          "Brain Beyond Pty. Ltd."
+        ],
+        "country": "AU",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/549300VNR3IRHLU41161",
@@ -15055,7 +15088,12 @@
         "status": "ACTIVE",
         "validated_as": "614 997 956",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "BRAIN INVESTMENT GROUP PTY LTD"
+        ],
+        "country": "AU",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/984500B9D6B0C5CD0496",
@@ -15253,7 +15291,13 @@
         "status": "ACTIVE",
         "validated_as": "0468.395.875",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "BRAIN STAR-IL & BC",
+          "BRAIN STAR"
+        ],
+        "country": "BE",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/984500BB03A758CF6B79",
@@ -15269,7 +15313,12 @@
         "status": "ACTIVE",
         "validated_as": "0676.678.037",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "BRAIN ACADEMY"
+        ],
+        "country": "BE",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/254900V1D7MHSNCQYK71",
@@ -15285,7 +15334,12 @@
         "status": "ACTIVE",
         "validated_as": "0441.497.379",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "The Antwerp Brain Work Company NV"
+        ],
+        "country": "BE",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/8945008L0YPM6DQMQ142",
@@ -15314,7 +15368,12 @@
         "status": "ACTIVE",
         "validated_as": "0466.926.623",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "SEGHERS NEURO-PSYCHIATRIE"
+        ],
+        "country": "BE",
+        "theme_name_match": true
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/967600X359C7I630TB29",
@@ -15330,7 +15389,12 @@
         "status": "ACTIVE",
         "validated_as": "0455622955",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "DOKTERSPRAKTIJK LUDO NIJS NEURO-HEALTH EN PAIN CENTER"
+        ],
+        "country": "BE",
+        "theme_name_match": true
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/9676008MIWWW0MVJVQ04",
@@ -15346,7 +15410,12 @@
         "status": "INACTIVE",
         "validated_as": "0475780941",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "DR. E. BERGEN - NEURO-PSYCHIATRIE"
+        ],
+        "country": "BE",
+        "theme_name_match": true
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/6994005B01KRAONR2609",
@@ -15401,7 +15470,12 @@
         "status": "ACTIVE",
         "validated_as": "203831564",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "МБАЛ СЪРЦЕ И МОЗЪК ЕАД"
+        ],
+        "country": "BG",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/485100QR9NNTAIFIJW63",
@@ -15833,7 +15907,12 @@
         "status": "ACTIVE",
         "validated_as": "2241405",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "BRAIN POWER STUDIO INC."
+        ],
+        "country": "CA",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/549300MZ305DN9GBO188",
@@ -15979,7 +16058,13 @@
         "status": "ACTIVE",
         "validated_as": "CHE-456.370.333",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "EBAG Equity Brain AG in Liquidation",
+          "EBAG Equity Brain AG"
+        ],
+        "country": "CH",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/984500B8E5BBB1B84C56",
@@ -15995,7 +16080,12 @@
         "status": "ACTIVE",
         "validated_as": "CHE-424.984.212",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "Brain AG"
+        ],
+        "country": "CH",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/391200N6CHKRGHRG7W06",
@@ -16011,7 +16101,12 @@
         "status": "ACTIVE",
         "validated_as": "CHE-231.954.103",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "Capital Brain Solutions (CBS) AG"
+        ],
+        "country": "CH",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/529900ZX02XIDX9BFL43",
@@ -16040,7 +16135,12 @@
         "status": "ACTIVE",
         "validated_as": "CHE109805571",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "Fondation européenne pour l'Avancement des Neuro-Sciences"
+        ],
+        "country": "CH",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/894500HRGB364FVKWF49",
@@ -16355,7 +16455,12 @@
         "status": "ACTIVE",
         "validated_as": "ΗΕ 363364",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "BIG BRAIN PRODUCTIONS LTD"
+        ],
+        "country": "CY",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/213800EA1BCBTZ3WQM56",
@@ -16410,7 +16515,12 @@
         "status": "ACTIVE",
         "validated_as": "28577507",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "NEURO-MEDNET s.r.o."
+        ],
+        "country": "CZ",
+        "theme_name_match": true
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/315700T9F4AT73ERHJ52",
@@ -16439,7 +16549,12 @@
         "status": "ACTIVE",
         "validated_as": "HRB 118521",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "Brain Products GmbH Soft- und Hardware für neurophysiologische Forschungsanwendungen"
+        ],
+        "country": "DE",
+        "theme_name_match": true
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/391200GTVUT7BTSYET42",
@@ -16455,7 +16570,12 @@
         "status": "ACTIVE",
         "validated_as": "HRB 288787",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "Carpe Omnia GmbH"
+        ],
+        "country": "DE",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/529900YYV1D84N2H2U77",
@@ -16471,7 +16591,14 @@
         "status": "ACTIVE",
         "validated_as": "HRB 178236",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "Pixel Birb GmbH",
+          "Lizard Brain UG (haftungsbeschränkt)",
+          "Lizard Brain GmbH"
+        ],
+        "country": "DE",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/984500F704TD7DG44352",
@@ -16500,7 +16627,12 @@
         "status": "ACTIVE",
         "validated_as": "HRB 94142B",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "npc neuro physio concept gmbh"
+        ],
+        "country": "DE",
+        "theme_name_match": true
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/391200QKCQ1QSRS0GH06",
@@ -16516,7 +16648,12 @@
         "status": "ACTIVE",
         "validated_as": "HRB 10019",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "Neuro-Net GmbH"
+        ],
+        "country": "DE",
+        "theme_name_match": true
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/391200MKZZPZ6CJYYO28",
@@ -16532,7 +16669,12 @@
         "status": "ACTIVE",
         "validated_as": "HRB 11112",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "NeuRo Planen GmbH"
+        ],
+        "country": "DE",
+        "theme_name_match": true
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/894500TWQ7CJ9XGPL923",
@@ -16587,7 +16729,13 @@
         "status": "ACTIVE",
         "validated_as": "36439440",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "BRAIN+ A/S",
+          "BRAIN+ ApS"
+        ],
+        "country": "DK",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/9845007708709CEGD845",
@@ -16603,7 +16751,12 @@
         "status": "ACTIVE",
         "validated_as": "43015095",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "Future-Brain ApS"
+        ],
+        "country": "DK",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/984500D95Q7B5FCAAF03",
@@ -16619,7 +16772,12 @@
         "status": "ACTIVE",
         "validated_as": "41311835",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "Centre for Brain-Based Leadership and Learning ApS"
+        ],
+        "country": "DK",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/894500PXDN4RY993F186",
@@ -16648,7 +16806,12 @@
         "status": "INACTIVE",
         "validated_as": "32839509",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "NEURO VISION HOLDING ApS"
+        ],
+        "country": "DK",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/9845003E8E3E4795DB33",
@@ -16778,10 +16941,13 @@
       "attrs": {
         "lei": "984500C1C3E0PU8RBD97",
         "city": "Tallinn",
-        "status": "INACTIVE",
+        "status": null,
         "validated_as": "14615515",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [],
+        "country": null,
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/984500C1C3E0PU8RBD97",
@@ -16794,10 +16960,13 @@
       "attrs": {
         "lei": "984500DC6E55B7545482",
         "city": "Tallinn",
-        "status": "ACTIVE",
+        "status": null,
         "validated_as": "14767544",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [],
+        "country": null,
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/984500DC6E55B7545482",
@@ -16914,10 +17083,13 @@
       "attrs": {
         "lei": "959800FG6GWSCZ9K7G28",
         "city": "Valencia",
-        "status": "INACTIVE",
+        "status": null,
         "validated_as": "1000171614132",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [],
+        "country": null,
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/959800FG6GWSCZ9K7G28",
@@ -16930,10 +17102,13 @@
       "attrs": {
         "lei": "959800MGD36RXUWPTN93",
         "city": "Badalona",
-        "status": "ACTIVE",
+        "status": null,
         "validated_as": "1000379169795",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [],
+        "country": null,
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/959800MGD36RXUWPTN93",
@@ -16949,7 +17124,12 @@
         "status": "ACTIVE",
         "validated_as": "1000072971356",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "BRAIN AND CODE SL"
+        ],
+        "country": "ES",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/95980073EU6WLCFRQD02",
@@ -16975,10 +17155,13 @@
       "attrs": {
         "lei": "95980001Z449L6QX1W76",
         "city": "Elche/Elx",
-        "status": "ACTIVE",
+        "status": null,
         "validated_as": "1000177847576",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [],
+        "country": null,
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/95980001Z449L6QX1W76",
@@ -16991,10 +17174,13 @@
       "attrs": {
         "lei": "959800T7L51BAXSDM325",
         "city": "Madrid",
-        "status": "INACTIVE",
+        "status": null,
         "validated_as": "1000257357369",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [],
+        "country": null,
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/959800T7L51BAXSDM325",
@@ -17049,7 +17235,13 @@
         "status": "ACTIVE",
         "validated_as": "1075457-8",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "Valona Intelligence Oy",
+          "M-Brain Insight Oy"
+        ],
+        "country": "FI",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/743700C7KN5Z36BJAA31",
@@ -17062,10 +17254,13 @@
       "attrs": {
         "lei": "7437000MJ0S08H18IL80",
         "city": "HELSINKI",
-        "status": "ACTIVE",
+        "status": null,
         "validated_as": "1508015-4",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [],
+        "country": null,
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/7437000MJ0S08H18IL80",
@@ -17078,10 +17273,13 @@
       "attrs": {
         "lei": "743700MQLC5K7WL8WQ43",
         "city": "HELSINKI",
-        "status": "ACTIVE",
+        "status": null,
         "validated_as": "1932837-2",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [],
+        "country": null,
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/743700MQLC5K7WL8WQ43",
@@ -17107,10 +17305,13 @@
       "attrs": {
         "lei": "743700GUMKO6U37R5O73",
         "city": "TAMPERE",
-        "status": "ACTIVE",
+        "status": null,
         "validated_as": "2712284-1",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [],
+        "country": null,
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/743700GUMKO6U37R5O73",
@@ -17240,10 +17441,13 @@
       "attrs": {
         "lei": "648800E69WK1MJ9O4532",
         "city": "La Chapelle-de-Brain",
-        "status": "ACTIVE",
+        "status": null,
         "validated_as": "999156094",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [],
+        "country": null,
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/648800E69WK1MJ9O4532",
@@ -17256,10 +17460,13 @@
       "attrs": {
         "lei": "969500K4ZJEQMCGJBT50",
         "city": "BRAIN-SUR-ALLONNES",
-        "status": "ACTIVE",
+        "status": null,
         "validated_as": "882165830",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [],
+        "country": null,
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/969500K4ZJEQMCGJBT50",
@@ -17275,7 +17482,12 @@
         "status": "ACTIVE",
         "validated_as": "821925336",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "L V P HOLDING"
+        ],
+        "country": "FR",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/9695006OBXZODRD3IT97",
@@ -17301,10 +17513,13 @@
       "attrs": {
         "lei": "969500IKU483K6RSZW46",
         "city": "CHABRELOCHE",
-        "status": "ACTIVE",
+        "status": null,
         "validated_as": "440291698",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [],
+        "country": null,
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/969500IKU483K6RSZW46",
@@ -17317,10 +17532,13 @@
       "attrs": {
         "lei": "254900WS2EC23ZG9RQ41",
         "city": "Neufchâteau",
-        "status": "ACTIVE",
+        "status": null,
         "validated_as": "812 448 991",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [],
+        "country": null,
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/254900WS2EC23ZG9RQ41",
@@ -17372,10 +17590,13 @@
       "attrs": {
         "lei": "2138007QVZ73JYBNVM87",
         "city": "WYKE REGIS",
-        "status": "ACTIVE",
+        "status": null,
         "validated_as": "1094183",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [],
+        "country": null,
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/2138007QVZ73JYBNVM87",
@@ -17388,10 +17609,13 @@
       "attrs": {
         "lei": "2138001NCZR334PPNW55",
         "city": "FLEET",
-        "status": "ACTIVE",
+        "status": null,
         "validated_as": "1117538",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [],
+        "country": null,
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/2138001NCZR334PPNW55",
@@ -17404,10 +17628,13 @@
       "attrs": {
         "lei": "213800CXQZWWE3V8X223",
         "city": "MILTON KEYNES",
-        "status": "ACTIVE",
+        "status": null,
         "validated_as": "08570737",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [],
+        "country": null,
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/213800CXQZWWE3V8X223",
@@ -17433,10 +17660,13 @@
       "attrs": {
         "lei": "213800GM5OH3AVMJKM23",
         "city": "LONDON",
-        "status": "ACTIVE",
+        "status": null,
         "validated_as": "10090704",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [],
+        "country": null,
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/213800GM5OH3AVMJKM23",
@@ -17452,7 +17682,12 @@
         "status": "ACTIVE",
         "validated_as": "205907",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "ROYAL HOSPITAL FOR NEURO-DISABILITY"
+        ],
+        "country": "GB",
+        "theme_name_match": true
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/549300EST5WAQK41JY81",
@@ -17465,10 +17700,13 @@
       "attrs": {
         "lei": "213800SQ3YW63DNHKQ19",
         "city": "PRESTON",
-        "status": "ACTIVE",
+        "status": null,
         "validated_as": "1129387",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [],
+        "country": null,
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/213800SQ3YW63DNHKQ19",
@@ -18069,7 +18307,13 @@
         "status": "ACTIVE",
         "validated_as": "01-09-337663",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "Brain-gut Invest Korlátolt Felelősségű Társaság",
+          "KAJOFI Klinika Korlátolt Felelősségű Társaság"
+        ],
+        "country": "HU",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/529900SHEDUYDZM2MV49",
@@ -18085,7 +18329,13 @@
         "status": "ACTIVE",
         "validated_as": "01-09-182663",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "\"BRAIN-SYS\" Kereskedelmi és Szolgáltató Korlátolt Felelősségű Társaság",
+          "\"BRAIN-SYS\" Kft."
+        ],
+        "country": "HU",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/984500Y1E06EO82FAB91",
@@ -18166,7 +18416,12 @@
         "status": "ACTIVE",
         "validated_as": "491512",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "NEURO SYSTEMS CARE UNLIMITED COMPANY"
+        ],
+        "country": "IE",
+        "theme_name_match": true
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/984500A2A37B87969672",
@@ -18247,7 +18502,14 @@
         "status": "ACTIVE",
         "validated_as": "UDYAM-MH-14-0040701",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "AXON BRAIN HOSPITAL",
+          "SHRI NILESH GOVIND KINGE",
+          "AXON BRAIN HOSPITAL & ADVANCED STROKE CENTRE JALGAON"
+        ],
+        "country": "IN",
+        "theme_name_match": true
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/98450006CD9D79111F11",
@@ -18263,7 +18525,12 @@
         "status": "ACTIVE",
         "validated_as": "01AAFTA9788C1ZR",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "AL-AMIN CHARITABLE TRUST"
+        ],
+        "country": "IN",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/8945002B50ZCV13O9792",
@@ -18279,7 +18546,13 @@
         "status": "ACTIVE",
         "validated_as": "03AAJFN6308H1ZF",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "NASA BRAIN & SPINE CENTRE",
+          "M/S NASA BRAIN & SPINE CENTRE"
+        ],
+        "country": "IN",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/984500AA4B2E551F5974",
@@ -18308,7 +18581,12 @@
         "status": "ACTIVE",
         "validated_as": "U85100KA2012PTC066928",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "SYNAPSE NEUROCARE PRIVATE LIMITED"
+        ],
+        "country": "IN",
+        "theme_name_match": true
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/335800VXJIRFU3CVE183",
@@ -18324,7 +18602,12 @@
         "status": "ACTIVE",
         "validated_as": "27AAYFN1855E1ZU",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "NEW TULJAI INFRA"
+        ],
+        "country": "IN",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/648800CZAKCABRL4AS72",
@@ -18340,7 +18623,12 @@
         "status": "ACTIVE",
         "validated_as": "37ADKPA9843N4ZV",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "ANNE SAMBA SIVA RAO"
+        ],
+        "country": "IN",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/335800Z94JO3RZ138K13",
@@ -18473,7 +18761,12 @@
         "status": "ACTIVE",
         "validated_as": "02956660423",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "BRAIN MILANO SRL"
+        ],
+        "country": "IT",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/894500EC44XNUVMGS865",
@@ -18489,7 +18782,12 @@
         "status": "ACTIVE",
         "validated_as": "06777490969",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "BRAIN MANAGEMENT SRL"
+        ],
+        "country": "IT",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/8156003411179B9E0122",
@@ -18505,7 +18803,12 @@
         "status": "ACTIVE",
         "validated_as": "05997050876",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "BRAIN STYLE S.R.L."
+        ],
+        "country": "IT",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/815600D7C57748967350",
@@ -18534,7 +18837,13 @@
         "status": "ACTIVE",
         "validated_as": "00187210042",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "COOPERATIVA SOCIALE DI COMUNITA' NUOVA NEURO - IMPRESA SOCIALE",
+          "COOPERATIVA DI COMUNITA' NUOVA NEURO - IMPRESA SOCIALE"
+        ],
+        "country": "IT",
+        "theme_name_match": true
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/8156002EB49CC965CD47",
@@ -18550,7 +18859,12 @@
         "status": "ACTIVE",
         "validated_as": "05636080961",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "NEURO-ZONE S.R.L."
+        ],
+        "country": "IT",
+        "theme_name_match": true
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/815600B3515D73F0B194",
@@ -18566,7 +18880,12 @@
         "status": "ACTIVE",
         "validated_as": "10692100018",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "NEURO-RADIO-CLINICAL SERVICE S.R.L."
+        ],
+        "country": "IT",
+        "theme_name_match": true
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/815600417D762E449916",
@@ -18673,7 +18992,13 @@
         "status": "ACTIVE",
         "validated_as": "2908-01-019772",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "株式会社ソフトブレイン",
+          "Soft Brain Co., Ltd."
+        ],
+        "country": "JP",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/353800D9FITZMIXEK214",
@@ -18949,7 +19274,12 @@
         "status": "ACTIVE",
         "validated_as": "OG-345126",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "Brain Alpha Limited"
+        ],
+        "country": "KY",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/254900S67A3WL4B5L103",
@@ -18965,7 +19295,12 @@
         "status": "ACTIVE",
         "validated_as": null,
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "Quantic Trust - Target Early Termination Smart Brain Fund 202003"
+        ],
+        "country": "KY",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/549300FEOZG4PXTM8Z53",
@@ -19111,7 +19446,12 @@
         "status": "ACTIVE",
         "validated_as": "FL-0002.712.552-6",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "KH Brain Foundation"
+        ],
+        "country": "LI",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/529900XVGEQIR5LDVP83",
@@ -19257,7 +19597,13 @@
         "status": "ACTIVE",
         "validated_as": "B260604",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "Nettle Capital SCSP",
+          "DEEP BRAIN STIMULATION INVESTMENTS SCSP"
+        ],
+        "country": "LU",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/9845000ED8NQ036BIF27",
@@ -19273,7 +19619,12 @@
         "status": "ACTIVE",
         "validated_as": "B98368",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "BRAIN&STONES SA"
+        ],
+        "country": "LU",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/984500EE3C8C7A74AC24",
@@ -19289,7 +19640,12 @@
         "status": "INACTIVE",
         "validated_as": null,
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "Roche-Brune Funds - Capital Brain"
+        ],
+        "country": "LU",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/54930088MQHZZOOKZ519",
@@ -19331,7 +19687,12 @@
         "status": "ACTIVE",
         "validated_as": "40103795843",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "Brain Games Publishing, Sabiedrība ar ierobežotu atbildību"
+        ],
+        "country": "LV",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/648826817WSQFH2W3S72",
@@ -19347,7 +19708,12 @@
         "status": "ACTIVE",
         "validated_as": "40003690406",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "Sabiedrība ar ierobežotu atbildību \"BRAIN GAMES\""
+        ],
+        "country": "LV",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/984500097C3BDC78B917",
@@ -20169,7 +20535,12 @@
         "status": "ACTIVE",
         "validated_as": "83255354",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "Noisy Brain B.V."
+        ],
+        "country": "NL",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/724500MYIEZIB8HQY403",
@@ -20185,7 +20556,12 @@
         "status": "ACTIVE",
         "validated_as": "69789029",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "Brain Builders B.V."
+        ],
+        "country": "NL",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/724500T4TGZFDMVMQY73",
@@ -20201,7 +20577,12 @@
         "status": "ACTIVE",
         "validated_as": "62348221",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "Brain Power B.V."
+        ],
+        "country": "NL",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/724500VUZE48F10X2C97",
@@ -20230,7 +20611,12 @@
         "status": "ACTIVE",
         "validated_as": "62122959",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "Vriens Neuro Vitaal B.V."
+        ],
+        "country": "NL",
+        "theme_name_match": true
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/724500S70YY0S71Y8K83",
@@ -20246,7 +20632,12 @@
         "status": "ACTIVE",
         "validated_as": "01090020",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "Beleggingsclub Neuro"
+        ],
+        "country": "NL",
+        "theme_name_match": true
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/724500UO9H98R63FLQ91",
@@ -20262,7 +20653,12 @@
         "status": "ACTIVE",
         "validated_as": "71938427",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "NEURO EAC B.V."
+        ],
+        "country": "NL",
+        "theme_name_match": true
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/724500WNUOKYVQ6CD145",
@@ -20291,7 +20687,12 @@
         "status": "ACTIVE",
         "validated_as": "989 004 166",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "BRAIN AND HEART INVEST AS"
+        ],
+        "country": "NO",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/636700TMX19LU8B3LG88",
@@ -20320,7 +20721,12 @@
         "status": "ACTIVE",
         "validated_as": "931 929 771",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "MAHAVIR NEURO AS"
+        ],
+        "country": "NO",
+        "theme_name_match": true
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/6367003ETBXDA4VN0S97",
@@ -20635,7 +21041,12 @@
         "status": "ACTIVE",
         "validated_as": "0000442483",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "BLUE BRAIN SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ"
+        ],
+        "country": "PL",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/259400RNETTJS9XPOR44",
@@ -20651,7 +21062,12 @@
         "status": "ACTIVE",
         "validated_as": "0000694542",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "\"BRAIN EMBASSY\" SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWA"
+        ],
+        "country": "PL",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/259400L12OCUXGKZJF69",
@@ -20667,7 +21083,12 @@
         "status": "ACTIVE",
         "validated_as": "0000931003",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "BLUE BRAIN POLSKA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ"
+        ],
+        "country": "PL",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/2594002STYSEQ5LMOR95",
@@ -20696,7 +21117,13 @@
         "status": "ACTIVE",
         "validated_as": "6341888751",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "NEURO-CARE GABRIELA KŁODOWSKA",
+          "GABRIELA KŁODOWSKA"
+        ],
+        "country": "PL",
+        "theme_name_match": true
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/259400KYN0DNN9BQY081",
@@ -20829,7 +21256,12 @@
         "status": "ACTIVE",
         "validated_as": "510033830",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "BRAIN ME CONSULTING, UNIPESSOAL LDA"
+        ],
+        "country": "PT",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/8945002QDW7SYDDYLX49",
@@ -20845,7 +21277,12 @@
         "status": "ACTIVE",
         "validated_as": "516233505",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "THE BRAIN AND I, LDA"
+        ],
+        "country": "PT",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/984500475409F6411433",
@@ -20861,7 +21298,12 @@
         "status": "ACTIVE",
         "validated_as": "516376080",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "ARITHMETIC BRAIN - UNIPESSOAL LDA"
+        ],
+        "country": "PT",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/8945007HRADAGNNLVC65",
@@ -20890,7 +21332,12 @@
         "status": "ACTIVE",
         "validated_as": "508728738",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "Neuro-Ratio, Radiodiagnóstico Lda"
+        ],
+        "country": "PT",
+        "theme_name_match": true
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/894500HUOEFAPE902770",
@@ -21023,7 +21470,12 @@
         "status": "ACTIVE",
         "validated_as": "19095028",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "BRAIN LABS SRL"
+        ],
+        "country": "RO",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/315700RRZ9Z23X4FFN59",
@@ -21039,7 +21491,12 @@
         "status": "ACTIVE",
         "validated_as": "33675799",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "BRAIN CONSULT INVEST SRL"
+        ],
+        "country": "RO",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/787200LS886LA271D464",
@@ -21068,7 +21525,12 @@
         "status": "ACTIVE",
         "validated_as": "5149594",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "ASOCIAŢIA PENTRU PROTEJAREA ŞI AJUTORAREA HANDICAPAŢILOR NEURO PSIHICI"
+        ],
+        "country": "RO",
+        "theme_name_match": true
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/98450097647490PC8E43",
@@ -21279,7 +21741,12 @@
         "status": "ACTIVE",
         "validated_as": "556685-9871",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "Tremont Capital AB"
+        ],
+        "country": "SE",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/549300VNI37U74CWQG98",
@@ -21295,7 +21762,13 @@
         "status": "ACTIVE",
         "validated_as": "556940-8312",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "Rinto Hiff Industrier AB",
+          "Quietus Advice K & W nr 966 AB"
+        ],
+        "country": "SE",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/549300J8FNPWHRZT1R61",
@@ -21311,7 +21784,13 @@
         "status": "ACTIVE",
         "validated_as": "556687-3401",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "House of Service Investment Sverige AB",
+          "Betjänten Holding AB"
+        ],
+        "country": "SE",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/549300N7HTFMQFZFJG32",
@@ -21340,7 +21819,12 @@
         "status": "ACTIVE",
         "validated_as": "825001-0918",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "Neuro Förbundet Norrköping"
+        ],
+        "country": "SE",
+        "theme_name_match": true
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/549300Z61CICGPX57W41",
@@ -21356,7 +21840,12 @@
         "status": "INACTIVE",
         "validated_as": "5566732003",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "Neuro-Logos AB"
+        ],
+        "country": "SE",
+        "theme_name_match": true
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/894500G93M95S0E6XA32",
@@ -21372,7 +21861,12 @@
         "status": "ACTIVE",
         "validated_as": "556478-2596",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "Stockholm Neuro Center Aktiebolag"
+        ],
+        "country": "SE",
+        "theme_name_match": true
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/98450067BFD0CAEY5414",
@@ -21921,7 +22415,12 @@
         "status": "ACTIVE",
         "validated_as": "0105540060996",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "บริษัท วาลีโอ เบรน (ประเทศไทย) จำกัด"
+        ],
+        "country": "TH",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/5493001H50LJC8JXQ563",
@@ -22327,7 +22826,12 @@
         "status": "ACTIVE",
         "validated_as": "LC1146523",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "NOLA 4, LLC"
+        ],
+        "country": "US",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/549300HI2W3SI3LB0B67",
@@ -22343,7 +22847,13 @@
         "status": "INACTIVE",
         "validated_as": "S000071596",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "Left Brain Compound Growth Fund",
+          "Ultimus Managers Trust - Left Brain Compound Growth Fund"
+        ],
+        "country": "US",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/54930050T20B3EW4F560",
@@ -22359,7 +22869,12 @@
         "status": "ACTIVE",
         "validated_as": "LC001583039",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "Brain Dev 5, LLC"
+        ],
+        "country": "US",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/549300WWI1M4V8ML3H95",
@@ -22388,7 +22903,13 @@
         "status": "ACTIVE",
         "validated_as": null,
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "Institute of Biomedical Research Corp.",
+          "Neuro-Biotech Corp."
+        ],
+        "country": "US",
+        "theme_name_match": true
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/549300XZK7TEH35X0V68",
@@ -22404,7 +22925,12 @@
         "status": "ACTIVE",
         "validated_as": "990843",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "CENTRE FOR NEURO SKILLS"
+        ],
+        "country": "US",
+        "theme_name_match": true
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/549300VODN45QS4RV692",
@@ -22420,7 +22946,12 @@
         "status": "ACTIVE",
         "validated_as": "5976073",
         "query": "neuro",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "ALZAMEND NEURO, INC."
+        ],
+        "country": "US",
+        "theme_name_match": true
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/549300W6G6EUO4ZRIB82",
@@ -22579,7 +23110,12 @@
         "status": "ACTIVE",
         "validated_as": "1947747",
         "query": "brain",
-        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口"
+        "caveat": "GLEIF 全文索引按关键词命中，未核验其是否真做脑机接口",
+        "names": [
+          "Super Brain Investments Limited"
+        ],
+        "country": "VG",
+        "theme_name_match": false
       },
       "source": "GLEIF LEI",
       "url": "https://search.gleif.org/#/record/254900ERDVU054CIOL83",
@@ -37842,11 +38378,11 @@
       "dst": "country:AT",
       "rel": "registered_in",
       "attrs": {
-        "basis": "LEI 登记国别"
+        "as_of": "ACTIVE"
       },
-      "source": "GLEIF LEI",
-      "url": "",
-      "fetched_at": "2026-11-23T07:41:33+00:00"
+      "source": "GLEIF",
+      "url": "https://search.gleif.org/#/record/5299006CDZNH8GYFUV91",
+      "fetched_at": "2026-11-23T09:58:56+00:00"
     },
     {
       "src": "country:AT",
@@ -38100,33 +38636,33 @@
       "dst": "country:BE",
       "rel": "registered_in",
       "attrs": {
-        "basis": "LEI 登记国别"
+        "as_of": "ACTIVE"
       },
-      "source": "GLEIF LEI",
-      "url": "",
-      "fetched_at": "2026-11-23T07:41:33+00:00"
+      "source": "GLEIF",
+      "url": "https://search.gleif.org/#/record/967600X359C7I630TB29",
+      "fetched_at": "2026-11-23T09:58:56+00:00"
     },
     {
       "src": "lei:9676008MIWWW0MVJVQ04",
       "dst": "country:BE",
       "rel": "registered_in",
       "attrs": {
-        "basis": "LEI 登记国别"
+        "as_of": "ACTIVE"
       },
-      "source": "GLEIF LEI",
-      "url": "",
-      "fetched_at": "2026-11-23T07:41:33+00:00"
+      "source": "GLEIF",
+      "url": "https://search.gleif.org/#/record/9676008MIWWW0MVJVQ04",
+      "fetched_at": "2026-11-23T09:58:56+00:00"
     },
     {
       "src": "lei:6994005B01KRAONR2609",
       "dst": "country:BE",
       "rel": "registered_in",
       "attrs": {
-        "basis": "LEI 登记国别"
+        "as_of": "INACTIVE"
       },
-      "source": "GLEIF LEI",
-      "url": "",
-      "fetched_at": "2026-11-23T07:41:33+00:00"
+      "source": "GLEIF",
+      "url": "https://search.gleif.org/#/record/6994005B01KRAONR2609",
+      "fetched_at": "2026-11-23T09:58:56+00:00"
     },
     {
       "src": "country:BE",
@@ -39074,11 +39610,11 @@
       "dst": "country:CZ",
       "rel": "registered_in",
       "attrs": {
-        "basis": "LEI 登记国别"
+        "as_of": "ACTIVE"
       },
-      "source": "GLEIF LEI",
-      "url": "",
-      "fetched_at": "2026-11-23T07:41:33+00:00"
+      "source": "GLEIF",
+      "url": "https://search.gleif.org/#/record/315700T9F4AT73ERHJ52",
+      "fetched_at": "2026-11-23T09:58:56+00:00"
     },
     {
       "src": "country:CZ",
@@ -39097,11 +39633,11 @@
       "dst": "country:DE",
       "rel": "registered_in",
       "attrs": {
-        "basis": "LEI 登记国别"
+        "as_of": "ACTIVE"
       },
-      "source": "GLEIF LEI",
-      "url": "",
-      "fetched_at": "2026-11-23T07:41:33+00:00"
+      "source": "GLEIF",
+      "url": "https://search.gleif.org/#/record/391200GTVUT7BTSYET42",
+      "fetched_at": "2026-11-23T09:58:56+00:00"
     },
     {
       "src": "lei:529900YYV1D84N2H2U77",
@@ -39142,33 +39678,33 @@
       "dst": "country:DE",
       "rel": "registered_in",
       "attrs": {
-        "basis": "LEI 登记国别"
+        "as_of": "ACTIVE"
       },
-      "source": "GLEIF LEI",
-      "url": "",
-      "fetched_at": "2026-11-23T07:41:33+00:00"
+      "source": "GLEIF",
+      "url": "https://search.gleif.org/#/record/391200QKCQ1QSRS0GH06",
+      "fetched_at": "2026-11-23T09:58:56+00:00"
     },
     {
       "src": "lei:391200MKZZPZ6CJYYO28",
       "dst": "country:DE",
       "rel": "registered_in",
       "attrs": {
-        "basis": "LEI 登记国别"
+        "as_of": "ACTIVE"
       },
-      "source": "GLEIF LEI",
-      "url": "",
-      "fetched_at": "2026-11-23T07:41:33+00:00"
+      "source": "GLEIF",
+      "url": "https://search.gleif.org/#/record/391200MKZZPZ6CJYYO28",
+      "fetched_at": "2026-11-23T09:58:56+00:00"
     },
     {
       "src": "lei:894500TWQ7CJ9XGPL923",
       "dst": "country:DE",
       "rel": "registered_in",
       "attrs": {
-        "basis": "LEI 登记国别"
+        "as_of": "ACTIVE"
       },
-      "source": "GLEIF LEI",
-      "url": "",
-      "fetched_at": "2026-11-23T07:41:33+00:00"
+      "source": "GLEIF",
+      "url": "https://search.gleif.org/#/record/894500TWQ7CJ9XGPL923",
+      "fetched_at": "2026-11-23T09:58:56+00:00"
     },
     {
       "src": "country:DE",
@@ -39919,11 +40455,11 @@
       "dst": "country:GB",
       "rel": "registered_in",
       "attrs": {
-        "basis": "LEI 登记国别"
+        "as_of": "ACTIVE"
       },
-      "source": "GLEIF LEI",
-      "url": "",
-      "fetched_at": "2026-11-23T07:41:33+00:00"
+      "source": "GLEIF",
+      "url": "https://search.gleif.org/#/record/549300EST5WAQK41JY81",
+      "fetched_at": "2026-11-23T09:58:56+00:00"
     },
     {
       "src": "lei:213800SQ3YW63DNHKQ19",
@@ -40563,11 +41099,11 @@
       "dst": "country:IE",
       "rel": "registered_in",
       "attrs": {
-        "basis": "LEI 登记国别"
+        "as_of": "ACTIVE"
       },
-      "source": "GLEIF LEI",
-      "url": "",
-      "fetched_at": "2026-11-23T07:41:33+00:00"
+      "source": "GLEIF",
+      "url": "https://search.gleif.org/#/record/984500A2A37B87969672",
+      "fetched_at": "2026-11-23T09:58:56+00:00"
     },
     {
       "src": "country:IE",
@@ -40634,11 +41170,11 @@
       "dst": "country:IN",
       "rel": "registered_in",
       "attrs": {
-        "basis": "LEI 登记国别"
+        "as_of": "ACTIVE"
       },
-      "source": "GLEIF LEI",
-      "url": "",
-      "fetched_at": "2026-11-23T07:41:33+00:00"
+      "source": "GLEIF",
+      "url": "https://search.gleif.org/#/record/98450006CD9D79111F11",
+      "fetched_at": "2026-11-23T09:58:56+00:00"
     },
     {
       "src": "lei:8945002B50ZCV13O9792",
@@ -40679,11 +41215,11 @@
       "dst": "country:IN",
       "rel": "registered_in",
       "attrs": {
-        "basis": "LEI 登记国别"
+        "as_of": "ACTIVE"
       },
-      "source": "GLEIF LEI",
-      "url": "",
-      "fetched_at": "2026-11-23T07:41:33+00:00"
+      "source": "GLEIF",
+      "url": "https://search.gleif.org/#/record/335800VXJIRFU3CVE183",
+      "fetched_at": "2026-11-23T09:58:56+00:00"
     },
     {
       "src": "lei:648800CZAKCABRL4AS72",
@@ -40865,33 +41401,33 @@
       "dst": "country:IT",
       "rel": "registered_in",
       "attrs": {
-        "basis": "LEI 登记国别"
+        "as_of": "ACTIVE"
       },
-      "source": "GLEIF LEI",
-      "url": "",
-      "fetched_at": "2026-11-23T07:41:33+00:00"
+      "source": "GLEIF",
+      "url": "https://search.gleif.org/#/record/8156002EB49CC965CD47",
+      "fetched_at": "2026-11-23T09:58:56+00:00"
     },
     {
       "src": "lei:815600B3515D73F0B194",
       "dst": "country:IT",
       "rel": "registered_in",
       "attrs": {
-        "basis": "LEI 登记国别"
+        "as_of": "ACTIVE"
       },
-      "source": "GLEIF LEI",
-      "url": "",
-      "fetched_at": "2026-11-23T07:41:33+00:00"
+      "source": "GLEIF",
+      "url": "https://search.gleif.org/#/record/815600B3515D73F0B194",
+      "fetched_at": "2026-11-23T09:58:56+00:00"
     },
     {
       "src": "lei:815600417D762E449916",
       "dst": "country:IT",
       "rel": "registered_in",
       "attrs": {
-        "basis": "LEI 登记国别"
+        "as_of": "ACTIVE"
       },
-      "source": "GLEIF LEI",
-      "url": "",
-      "fetched_at": "2026-11-23T07:41:33+00:00"
+      "source": "GLEIF",
+      "url": "https://search.gleif.org/#/record/815600417D762E449916",
+      "fetched_at": "2026-11-23T09:58:56+00:00"
     },
     {
       "src": "country:IT",
@@ -42374,33 +42910,33 @@
       "dst": "country:NL",
       "rel": "registered_in",
       "attrs": {
-        "basis": "LEI 登记国别"
+        "as_of": "ACTIVE"
       },
-      "source": "GLEIF LEI",
-      "url": "",
-      "fetched_at": "2026-11-23T07:41:33+00:00"
+      "source": "GLEIF",
+      "url": "https://search.gleif.org/#/record/724500S70YY0S71Y8K83",
+      "fetched_at": "2026-11-23T09:58:56+00:00"
     },
     {
       "src": "lei:724500UO9H98R63FLQ91",
       "dst": "country:NL",
       "rel": "registered_in",
       "attrs": {
-        "basis": "LEI 登记国别"
+        "as_of": "ACTIVE"
       },
-      "source": "GLEIF LEI",
-      "url": "",
-      "fetched_at": "2026-11-23T07:41:33+00:00"
+      "source": "GLEIF",
+      "url": "https://search.gleif.org/#/record/724500UO9H98R63FLQ91",
+      "fetched_at": "2026-11-23T09:58:56+00:00"
     },
     {
       "src": "lei:724500WNUOKYVQ6CD145",
       "dst": "country:NL",
       "rel": "registered_in",
       "attrs": {
-        "basis": "LEI 登记国别"
+        "as_of": "ACTIVE"
       },
-      "source": "GLEIF LEI",
-      "url": "",
-      "fetched_at": "2026-11-23T07:41:33+00:00"
+      "source": "GLEIF",
+      "url": "https://search.gleif.org/#/record/724500WNUOKYVQ6CD145",
+      "fetched_at": "2026-11-23T09:58:56+00:00"
     },
     {
       "src": "country:NL",
@@ -42442,11 +42978,11 @@
       "dst": "country:NO",
       "rel": "registered_in",
       "attrs": {
-        "basis": "LEI 登记国别"
+        "as_of": "ACTIVE"
       },
-      "source": "GLEIF LEI",
-      "url": "",
-      "fetched_at": "2026-11-23T07:41:33+00:00"
+      "source": "GLEIF",
+      "url": "https://search.gleif.org/#/record/6367003ETBXDA4VN0S97",
+      "fetched_at": "2026-11-23T09:58:56+00:00"
     },
     {
       "src": "country:NO",
@@ -42774,11 +43310,11 @@
       "dst": "country:PL",
       "rel": "registered_in",
       "attrs": {
-        "basis": "LEI 登记国别"
+        "as_of": "ACTIVE"
       },
-      "source": "GLEIF LEI",
-      "url": "",
-      "fetched_at": "2026-11-23T07:41:33+00:00"
+      "source": "GLEIF",
+      "url": "https://search.gleif.org/#/record/259400KYN0DNN9BQY081",
+      "fetched_at": "2026-11-23T09:58:56+00:00"
     },
     {
       "src": "country:PL",
@@ -42938,11 +43474,11 @@
       "dst": "country:PT",
       "rel": "registered_in",
       "attrs": {
-        "basis": "LEI 登记国别"
+        "as_of": "ACTIVE"
       },
-      "source": "GLEIF LEI",
-      "url": "",
-      "fetched_at": "2026-11-23T07:41:33+00:00"
+      "source": "GLEIF",
+      "url": "https://search.gleif.org/#/record/894500HUOEFAPE902770",
+      "fetched_at": "2026-11-23T09:58:56+00:00"
     },
     {
       "src": "country:PT",
@@ -43091,11 +43627,11 @@
       "dst": "country:RO",
       "rel": "registered_in",
       "attrs": {
-        "basis": "LEI 登记国别"
+        "as_of": "ACTIVE"
       },
-      "source": "GLEIF LEI",
-      "url": "",
-      "fetched_at": "2026-11-23T07:41:33+00:00"
+      "source": "GLEIF",
+      "url": "https://search.gleif.org/#/record/98450097647490PC8E43",
+      "fetched_at": "2026-11-23T09:58:56+00:00"
     },
     {
       "src": "country:RO",
@@ -43327,33 +43863,33 @@
       "dst": "country:SE",
       "rel": "registered_in",
       "attrs": {
-        "basis": "LEI 登记国别"
+        "as_of": "ACTIVE"
       },
-      "source": "GLEIF LEI",
-      "url": "",
-      "fetched_at": "2026-11-23T07:41:33+00:00"
+      "source": "GLEIF",
+      "url": "https://search.gleif.org/#/record/549300Z61CICGPX57W41",
+      "fetched_at": "2026-11-23T09:58:56+00:00"
     },
     {
       "src": "lei:894500G93M95S0E6XA32",
       "dst": "country:SE",
       "rel": "registered_in",
       "attrs": {
-        "basis": "LEI 登记国别"
+        "as_of": "INACTIVE"
       },
-      "source": "GLEIF LEI",
-      "url": "",
-      "fetched_at": "2026-11-23T07:41:33+00:00"
+      "source": "GLEIF",
+      "url": "https://search.gleif.org/#/record/894500G93M95S0E6XA32",
+      "fetched_at": "2026-11-23T09:58:56+00:00"
     },
     {
       "src": "lei:98450067BFD0CAEY5414",
       "dst": "country:SE",
       "rel": "registered_in",
       "attrs": {
-        "basis": "LEI 登记国别"
+        "as_of": "ACTIVE"
       },
-      "source": "GLEIF LEI",
-      "url": "",
-      "fetched_at": "2026-11-23T07:41:33+00:00"
+      "source": "GLEIF",
+      "url": "https://search.gleif.org/#/record/98450067BFD0CAEY5414",
+      "fetched_at": "2026-11-23T09:58:56+00:00"
     },
     {
       "src": "country:SE",
@@ -44268,33 +44804,33 @@
       "dst": "country:US",
       "rel": "registered_in",
       "attrs": {
-        "basis": "LEI 登记国别"
+        "as_of": "ACTIVE"
       },
-      "source": "GLEIF LEI",
-      "url": "",
-      "fetched_at": "2026-11-23T07:41:33+00:00"
+      "source": "GLEIF",
+      "url": "https://search.gleif.org/#/record/549300XZK7TEH35X0V68",
+      "fetched_at": "2026-11-23T09:58:56+00:00"
     },
     {
       "src": "lei:549300VODN45QS4RV692",
       "dst": "country:US",
       "rel": "registered_in",
       "attrs": {
-        "basis": "LEI 登记国别"
+        "as_of": "ACTIVE"
       },
-      "source": "GLEIF LEI",
-      "url": "",
-      "fetched_at": "2026-11-23T07:41:33+00:00"
+      "source": "GLEIF",
+      "url": "https://search.gleif.org/#/record/549300VODN45QS4RV692",
+      "fetched_at": "2026-11-23T09:58:56+00:00"
     },
     {
       "src": "lei:549300W6G6EUO4ZRIB82",
       "dst": "country:US",
       "rel": "registered_in",
       "attrs": {
-        "basis": "LEI 登记国别"
+        "as_of": "ACTIVE"
       },
-      "source": "GLEIF LEI",
-      "url": "",
-      "fetched_at": "2026-11-23T07:41:33+00:00"
+      "source": "GLEIF",
+      "url": "https://search.gleif.org/#/record/549300W6G6EUO4ZRIB82",
+      "fetched_at": "2026-11-23T09:58:56+00:00"
     },
     {
       "src": "country:US",
