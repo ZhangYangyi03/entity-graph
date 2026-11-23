@@ -1,0 +1,1653 @@
+{
+  "nodes": [
+    {
+      "key": "dir:neuromodulation",
+      "kind": "bci_direction",
+      "label": "神经调控",
+      "attrs": {
+        "en": "neuromodulation",
+        "tech_params": "闭环延迟; 多模态刺激参数>=4类(电/磁/声/光)",
+        "definition": "deep brain stimulation dbs spinal cord stimulation vagus nerve stimulation neuromodulation transcranial"
+      },
+      "source": "实施方案 6+1 布局",
+      "url": "",
+      "fetched_at": "2026-11-23T03:30:18+00:00"
+    },
+    {
+      "key": "dir:neurorepair",
+      "kind": "bci_direction",
+      "label": "神经修复",
+      "attrs": {
+        "en": "neurorepair",
+        "tech_params": "运动/感觉/语言功能修复评价参数体系",
+        "definition": "nerve regeneration spinal cord injury axon regeneration scaffold collagen stroke rehabilitation"
+      },
+      "source": "实施方案 6+1 布局",
+      "url": "",
+      "fetched_at": "2026-11-23T03:30:18+00:00"
+    },
+    {
+      "key": "dir:microneedle",
+      "kind": "bci_direction",
+      "label": "微针电极",
+      "attrs": {
+        "en": "microneedle electrode",
+        "tech_params": "通道数; 长期稳定性; 阻抗漂移; TRL",
+        "definition": "microneedle microelectrode array utah array neural probe flexible electrode dry electrode"
+      },
+      "source": "实施方案 6+1 布局",
+      "url": "",
+      "fetched_at": "2026-11-23T03:30:18+00:00"
+    },
+    {
+      "key": "dir:skull_interface",
+      "kind": "bci_direction",
+      "label": "生物人工脑盖骨双向接口",
+      "attrs": {
+        "en": "bio-artificial skull interface",
+        "tech_params": "双向传输误码率; TRL",
+        "definition": "cranioplasty skull cranial implant bone flap wireless implant transcranial transmission"
+      },
+      "source": "实施方案 6+1 布局",
+      "url": "",
+      "fetched_at": "2026-11-23T03:30:18+00:00"
+    },
+    {
+      "key": "dir:magneto_acoustic",
+      "kind": "bci_direction",
+      "label": "脑深区磁声成像",
+      "attrs": {
+        "en": "magneto-acoustic imaging",
+        "tech_params": "深区空间分辨; 无创穿透量(cm级); 颅骨等效衰减量",
+        "definition": "magnetoacoustic magneto-acoustic thermoacoustic acoustoelectric focused ultrasound imaging deep brain imaging"
+      },
+      "source": "实施方案 6+1 布局",
+      "url": "",
+      "fetched_at": "2026-11-23T03:30:18+00:00"
+    },
+    {
+      "key": "dir:brain_control",
+      "kind": "bci_direction",
+      "label": "脑控装备",
+      "attrs": {
+        "en": "brain-controlled equipment",
+        "tech_params": "非侵入解码指令; 信息传输率; 对标国际梯队",
+        "definition": "brain-controlled brain actuated eeg wheelchair exoskeleton brain-machine interface robot drone control"
+      },
+      "source": "实施方案 6+1 布局",
+      "url": "",
+      "fetched_at": "2026-11-23T03:30:18+00:00"
+    },
+    {
+      "key": "dir:organoid",
+      "kind": "bci_direction",
+      "label": "+1 类器官/片上脑机接口",
+      "attrs": {
+        "en": "organoid / brain-on-a-chip interface",
+        "tech_params": "离体类脑器官双向耦合存活天数; 可稳定记录时长",
+        "definition": "brain organoid cerebral organoid organoid intelligence brain-on-a-chip multielectrode array organoid neurosphere"
+      },
+      "source": "实施方案 6+1 布局",
+      "url": "",
+      "fetched_at": "2026-11-23T03:30:18+00:00"
+    },
+    {
+      "key": "bio:synthetic_biology",
+      "kind": "bio_domain",
+      "label": "合成生物学",
+      "attrs": {
+        "en": "synthetic_biology"
+      },
+      "source": "实施方案 生物制造定义",
+      "url": "",
+      "fetched_at": "2026-11-23T03:30:18+00:00"
+    },
+    {
+      "key": "bio:enzyme_engineering",
+      "kind": "bio_domain",
+      "label": "酶工程",
+      "attrs": {
+        "en": "enzyme_engineering"
+      },
+      "source": "实施方案 生物制造定义",
+      "url": "",
+      "fetched_at": "2026-11-23T03:30:18+00:00"
+    },
+    {
+      "key": "bio:fermentation",
+      "kind": "bio_domain",
+      "label": "发酵工程",
+      "attrs": {
+        "en": "fermentation"
+      },
+      "source": "实施方案 生物制造定义",
+      "url": "",
+      "fetched_at": "2026-11-23T03:30:18+00:00"
+    },
+    {
+      "key": "bio:cell_engineering",
+      "kind": "bio_domain",
+      "label": "细胞工程",
+      "attrs": {
+        "en": "cell_engineering"
+      },
+      "source": "实施方案 生物制造定义",
+      "url": "",
+      "fetched_at": "2026-11-23T03:30:18+00:00"
+    },
+    {
+      "key": "bio:organoid_manufacturing",
+      "kind": "bio_domain",
+      "label": "类器官生物制造",
+      "attrs": {
+        "en": "organoid_manufacturing"
+      },
+      "source": "实施方案 生物制造定义",
+      "url": "",
+      "fetched_at": "2026-11-23T03:30:18+00:00"
+    },
+    {
+      "key": "stage:upstream",
+      "kind": "chain_stage",
+      "label": "上游(材料/器件/芯片)",
+      "attrs": {
+        "en": "upstream"
+      },
+      "source": "实施方案 产业链环节",
+      "url": "",
+      "fetched_at": "2026-11-23T03:30:18+00:00"
+    },
+    {
+      "key": "stage:midstream",
+      "kind": "chain_stage",
+      "label": "中游(系统/装备/算法)",
+      "attrs": {
+        "en": "midstream"
+      },
+      "source": "实施方案 产业链环节",
+      "url": "",
+      "fetched_at": "2026-11-23T03:30:18+00:00"
+    },
+    {
+      "key": "stage:downstream",
+      "kind": "chain_stage",
+      "label": "下游(临床/应用)",
+      "attrs": {
+        "en": "downstream"
+      },
+      "source": "实施方案 产业链环节",
+      "url": "",
+      "fetched_at": "2026-11-23T03:30:18+00:00"
+    },
+    {
+      "key": "dataset:openneuro:ds007720",
+      "kind": "dataset",
+      "label": "BCI-FIT: A customization protocol for communication brain-computer interface systems.",
+      "attrs": {
+        "id": "ds007720",
+        "format": "BIDS",
+        "bci6plus1": [
+          "brain_control"
+        ],
+        "chain_stage": "midstream",
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ]
+      },
+      "source": "OpenNeuro",
+      "url": "https://openneuro.org/datasets/ds007720",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "key": "dataset:openneuro:ds002720",
+      "kind": "dataset",
+      "label": "BCItempo",
+      "attrs": {
+        "id": "ds002720",
+        "format": "BIDS",
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "OpenNeuro",
+      "url": "https://openneuro.org/datasets/ds002720",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "key": "dataset:openneuro:ds002724",
+      "kind": "dataset",
+      "label": "phBCMItraining",
+      "attrs": {
+        "id": "ds002724",
+        "format": "BIDS",
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "OpenNeuro",
+      "url": "https://openneuro.org/datasets/ds002724",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "key": "dataset:bnci:001-2014",
+      "kind": "dataset",
+      "label": "1. Four class motor imagery (001-2014)",
+      "attrs": {
+        "id": "001-2014",
+        "participants": null,
+        "signals": null,
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2014/",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "key": "dataset:bnci:002-2014",
+      "kind": "dataset",
+      "label": "2. Two class motor imagery (002-2014)",
+      "attrs": {
+        "id": "002-2014",
+        "participants": 14,
+        "signals": 15,
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/002-2014/",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "key": "dataset:bnci:003-2014",
+      "kind": "dataset",
+      "label": "3. Mental arithmetic (003-2014)",
+      "attrs": {
+        "id": "003-2014",
+        "participants": 8,
+        "signals": 52,
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/003-2014/",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "key": "dataset:bnci:004-2014",
+      "kind": "dataset",
+      "label": "4. Two class motor imagery (004-2014)",
+      "attrs": {
+        "id": "004-2014",
+        "participants": null,
+        "signals": null,
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/004-2014/",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "key": "dataset:bnci:005-2014",
+      "kind": "dataset",
+      "label": "5. Auditory oddball during hypnosis (005-2014)",
+      "attrs": {
+        "id": "005-2014",
+        "participants": 2,
+        "signals": 27,
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/005-2014/",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "key": "dataset:bnci:006-2014",
+      "kind": "dataset",
+      "label": "6. SCP training in stroke (006-2014)",
+      "attrs": {
+        "id": "006-2014",
+        "participants": 2,
+        "signals": 1,
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/006-2014/",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "key": "dataset:bnci:007-2014",
+      "kind": "dataset",
+      "label": "7. Two-finger gameplay with deliberately failing controller (007-2014)",
+      "attrs": {
+        "id": "007-2014",
+        "participants": 10,
+        "signals": 32,
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/007-2014/",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "key": "dataset:bnci:008-2014",
+      "kind": "dataset",
+      "label": "8. P300 speller with ALS patients (008-2014)",
+      "attrs": {
+        "id": "008-2014",
+        "participants": 8,
+        "signals": 8,
+        "bci6plus1": [
+          "brain_control"
+        ],
+        "chain_stage": "downstream",
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ]
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/008-2014/",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "key": "dataset:bnci:009-2014",
+      "kind": "dataset",
+      "label": "9. Covert and overt ERP-based BCI (009-2014)",
+      "attrs": {
+        "id": "009-2014",
+        "participants": 10,
+        "signals": 16,
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/009-2014/",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "key": "dataset:bnci:001-2015",
+      "kind": "dataset",
+      "label": "10. Autocalibration and recurrent adaptation (001-2015)",
+      "attrs": {
+        "id": "001-2015",
+        "participants": 12,
+        "signals": 13,
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2015/",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "key": "dataset:bnci:002-2015",
+      "kind": "dataset",
+      "label": "11. Neuroprosthetic control of an EEG/EOG BNCI (002-2015)",
+      "attrs": {
+        "id": "002-2015",
+        "participants": 1,
+        "signals": 5,
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/002-2015/",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "key": "dataset:bnci:003-2015",
+      "kind": "dataset",
+      "label": "12. Visual P300 speller (003-2015)",
+      "attrs": {
+        "id": "003-2015",
+        "participants": 10,
+        "signals": 8,
+        "bci6plus1": [
+          "brain_control"
+        ],
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ]
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/003-2015/",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "key": "dataset:bnci:004-2015",
+      "kind": "dataset",
+      "label": "13. Individual imagery (004-2015)",
+      "attrs": {
+        "id": "004-2015",
+        "participants": 9,
+        "signals": 30,
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/004-2015/",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "key": "dataset:bnci:011-2015",
+      "kind": "dataset",
+      "label": "20. ECoG-based BCI based on cognitive control (011-2015)",
+      "attrs": {
+        "id": "011-2015",
+        "participants": 1,
+        "signals": 112,
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/011-2015/",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "key": "dataset:bnci:013-2015",
+      "kind": "dataset",
+      "label": "22. Monitoring error-related potentials (013-2015)",
+      "attrs": {
+        "id": "013-2015",
+        "participants": 6,
+        "signals": 64,
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/013-2015/",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "key": "dataset:bnci:001-2016",
+      "kind": "dataset",
+      "label": "23. ECoG-based 1-class motor imagery BCI (001-2016)",
+      "attrs": {
+        "id": "001-2016",
+        "participants": 10,
+        "signals": 64,
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2016/",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "key": "dataset:bnci:002-2016",
+      "kind": "dataset",
+      "label": "24. Emergency braking during simulated driving (002-2016)",
+      "attrs": {
+        "id": "002-2016",
+        "participants": 18,
+        "signals": 59,
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/002-2016/",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "key": "dataset:bnci:001-2017",
+      "kind": "dataset",
+      "label": "25. Upper limb movement decoding from EEG (001-2017)",
+      "attrs": {
+        "id": "001-2017",
+        "participants": 15,
+        "signals": 61,
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2017/",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "key": "dataset:bnci:001-2019",
+      "kind": "dataset",
+      "label": "26. Attempted arm and hand movements in persons with spinal cord injury (001-2019)",
+      "attrs": {
+        "id": "001-2019",
+        "participants": 10,
+        "signals": 61,
+        "bci6plus1": [
+          "neurorepair"
+        ],
+        "chain_stage": "midstream",
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ]
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2019/",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "key": "dataset:bnci:001-2020",
+      "kind": "dataset",
+      "label": "27. Reach and Grasp movement decoding from EEG with gel, water and dry electrodes (001-2020)",
+      "attrs": {
+        "id": "001-2020",
+        "participants": 15,
+        "signals": 32,
+        "bci6plus1": [
+          "microneedle"
+        ],
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ]
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2020/",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "key": "dataset:bnci:002-2020",
+      "kind": "dataset",
+      "label": "28. Spatial attention shifts to colored items - an EEG-based BCI (002-2020)",
+      "attrs": {
+        "id": "002-2020",
+        "participants": 18,
+        "signals": 29,
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/002-2020/",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "key": "dataset:bnci:001-2022",
+      "kind": "dataset",
+      "label": "29. EEG Correlates of Difficulty Level (001-2022)",
+      "attrs": {
+        "id": "001-2022",
+        "participants": 13,
+        "signals": null,
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2022/",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "key": "dataset:bnci:001-2024",
+      "kind": "dataset",
+      "label": "30. Handwritten Character Classification from EEG through Continuous Kinematic Decoding (001-2024)",
+      "attrs": {
+        "id": "001-2024",
+        "participants": 20,
+        "signals": 60,
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2024/",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "key": "dataset:bnci:001-2025",
+      "kind": "dataset",
+      "label": "31. Simultaneous encoding of speed, distance, and direction in discrete reaching: an EEG study (001-2025)",
+      "attrs": {
+        "id": "001-2025",
+        "participants": 20,
+        "signals": 60,
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2025/",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "key": "dataset:bnci:002-2025",
+      "kind": "dataset",
+      "label": "32. Continuous 2D trajectory decoding from attempted movement in able-bodied participants  (002-2025)",
+      "attrs": {
+        "id": "002-2025",
+        "participants": 20,
+        "signals": 60,
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/002-2025/",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "key": "dataset:bnci:001-2026",
+      "kind": "dataset",
+      "label": "33. Asynchronous right-hand movements for brain click applications (001-2026)",
+      "attrs": {
+        "id": "001-2026",
+        "participants": 25,
+        "signals": 60,
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2026/",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "key": "nct:NCT05880251",
+      "kind": "trial",
+      "label": "Operant Conditioning of Sensory Brain Responses to Reduce Phantom Limb Pain in People With Limb Amputation",
+      "attrs": {
+        "nct": "NCT05880251",
+        "phase": "NA",
+        "status": "COMPLETED",
+        "chain_stage": "upstream",
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT05880251",
+      "fetched_at": "2026-11-23T03:30:33+00:00"
+    },
+    {
+      "key": "org:va-office-of-research-and-development",
+      "kind": "organization",
+      "label": "VA Office of Research and Development",
+      "attrs": {},
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT05880251",
+      "fetched_at": "2026-11-23T03:30:33+00:00"
+    },
+    {
+      "key": "nct:NCT07472556",
+      "kind": "trial",
+      "label": "Using Motor Imagery-based Brain-computer Interface With Multiple Sclerosis Patients.",
+      "attrs": {
+        "nct": "NCT07472556",
+        "phase": "NA",
+        "status": "NOT_YET_RECRUITING",
+        "bci6plus1": [
+          "brain_control"
+        ],
+        "chain_stage": "downstream",
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ]
+      },
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT07472556",
+      "fetched_at": "2026-11-23T03:30:33+00:00"
+    },
+    {
+      "key": "org:pasquale-arpaia",
+      "kind": "organization",
+      "label": "Pasquale Arpaia",
+      "attrs": {},
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT07472556",
+      "fetched_at": "2026-11-23T03:30:33+00:00"
+    },
+    {
+      "key": "nct:NCT02011399",
+      "kind": "trial",
+      "label": "Brain Computer Interfaces (Mu Rhythm Learning)",
+      "attrs": {
+        "nct": "NCT02011399",
+        "phase": null,
+        "status": "TERMINATED",
+        "bci6plus1": [
+          "brain_control"
+        ],
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ]
+      },
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT02011399",
+      "fetched_at": "2026-11-23T03:30:33+00:00"
+    },
+    {
+      "key": "org:university-of-michigan",
+      "kind": "organization",
+      "label": "University of Michigan",
+      "attrs": {},
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT02011399",
+      "fetched_at": "2026-11-23T03:30:33+00:00"
+    },
+    {
+      "key": "pmid:34502636",
+      "kind": "publication",
+      "label": "Brain-Computer Interface: Advancement and Challenges",
+      "attrs": {
+        "pmid": "34502636",
+        "journal": "Sensors (Basel)",
+        "date": "2021 Aug 26",
+        "bci6plus1": [
+          "brain_control"
+        ],
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ]
+      },
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34502636/",
+      "fetched_at": "2026-11-23T03:30:47+00:00"
+    },
+    {
+      "key": "pmid:39275636",
+      "kind": "publication",
+      "label": "Brain Neuroplasticity Leveraging Virtual Reality and Brain-Computer Interface Technologies",
+      "attrs": {
+        "pmid": "39275636",
+        "journal": "Sensors (Basel)",
+        "date": "2024 Sep 3",
+        "bci6plus1": [
+          "brain_control"
+        ],
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ]
+      },
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39275636/",
+      "fetched_at": "2026-11-23T03:30:47+00:00"
+    },
+    {
+      "key": "pmid:37447849",
+      "kind": "publication",
+      "label": "State-of-the-Art on Brain-Computer Interface Technology",
+      "attrs": {
+        "pmid": "37447849",
+        "journal": "Sensors (Basel)",
+        "date": "2023 Jun 28",
+        "bci6plus1": [
+          "brain_control"
+        ],
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ]
+      },
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37447849/",
+      "fetched_at": "2026-11-23T03:30:47+00:00"
+    },
+    {
+      "key": "fda510k:K781041",
+      "kind": "device",
+      "label": "ELECTROENCEPHALOGRAPH ACCUTRACE 100 (K781041)",
+      "attrs": {
+        "k_number": "K781041",
+        "class": "2",
+        "decision_date": "1978-06-28",
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "openFDA 510(k)",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K781041",
+      "fetched_at": "2026-11-23T03:30:55+00:00"
+    },
+    {
+      "key": "org:beckman-instruments-inc",
+      "kind": "organization",
+      "label": "Beckman Instruments, Inc.",
+      "attrs": {},
+      "source": "openFDA 510(k)",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K781041",
+      "fetched_at": "2026-11-23T03:30:55+00:00"
+    },
+    {
+      "key": "fda510k:K896666",
+      "kind": "device",
+      "label": "P460, DG32 ELECTROENCEPHALOGRAPH (K896666)",
+      "attrs": {
+        "k_number": "K896666",
+        "class": "2",
+        "decision_date": "1990-02-16",
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "openFDA 510(k)",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K896666",
+      "fetched_at": "2026-11-23T03:30:55+00:00"
+    },
+    {
+      "key": "org:teca-inc",
+      "kind": "organization",
+      "label": "Teca, Inc.",
+      "attrs": {},
+      "source": "openFDA 510(k)",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K896666",
+      "fetched_at": "2026-11-23T03:30:55+00:00"
+    },
+    {
+      "key": "fda510k:K960170",
+      "kind": "device",
+      "label": "ELECTROENCEPHALOGRAPH (EEG) (K960170)",
+      "attrs": {
+        "k_number": "K960170",
+        "class": "2",
+        "decision_date": "1996-03-01",
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "openFDA 510(k)",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K960170",
+      "fetched_at": "2026-11-23T03:30:55+00:00"
+    },
+    {
+      "key": "org:moberg-medical-inc",
+      "kind": "organization",
+      "label": "Moberg Medical, Inc.",
+      "attrs": {},
+      "source": "openFDA 510(k)",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K960170",
+      "fetched_at": "2026-11-23T03:30:55+00:00"
+    },
+    {
+      "key": "bio_ensembl:ENSG00000146648",
+      "kind": "target",
+      "label": "EGFR",
+      "attrs": {
+        "ensembl": "ENSG00000146648",
+        "full_name": "epidermal growth factor receptor",
+        "biotype": "protein_coding",
+        "function": "Receptor tyrosine kinase binding ligands of the EGF family and activating several signaling cascades to convert extracellular cues into appropriate cellular responses (PubMed:10805725, PubMed:12297050, PubMed:12620237, PubMed:12873986, PubMed:15374980, PubMed:15590694, PubMed:17115032, PubMed:19560417, PubMed:21258366, PubMed:27153536, PubMed:2790960, PubMed:35538033, PubMed:9488479). Known ligands include EGF, TGFA/TGF-alpha, AREG, epigen/EPGN, BTC/betacellulin, epiregulin/EREG and HBEGF/heparin-binding EGF (PubMed:12297049, PubMed:15611079, PubMed:17909029, PubMed:20837704, PubMed:27153536, ",
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "Open Targets",
+      "url": "https://platform.opentargets.org/target/ENSG00000146648",
+      "fetched_at": "2026-11-23T03:31:09+00:00"
+    },
+    {
+      "key": "bio_disease:MONDO_0005233",
+      "kind": "disease",
+      "label": "non-small cell lung carcinoma",
+      "attrs": {
+        "mondo": "MONDO_0005233",
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "Open Targets",
+      "url": "https://platform.opentargets.org/disease/MONDO_0005233",
+      "fetched_at": "2026-11-23T03:31:09+00:00"
+    },
+    {
+      "key": "bio_disease:MONDO_0005061",
+      "kind": "disease",
+      "label": "lung adenocarcinoma",
+      "attrs": {
+        "mondo": "MONDO_0005061",
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "Open Targets",
+      "url": "https://platform.opentargets.org/disease/MONDO_0005061",
+      "fetched_at": "2026-11-23T03:31:09+00:00"
+    },
+    {
+      "key": "bio_disease:MONDO_0004992",
+      "kind": "disease",
+      "label": "cancer",
+      "attrs": {
+        "mondo": "MONDO_0004992",
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "Open Targets",
+      "url": "https://platform.opentargets.org/disease/MONDO_0004992",
+      "fetched_at": "2026-11-23T03:31:09+00:00"
+    },
+    {
+      "key": "bio_disease:MONDO_0010150",
+      "kind": "disease",
+      "label": "head and neck squamous cell carcinoma",
+      "attrs": {
+        "mondo": "MONDO_0010150",
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "Open Targets",
+      "url": "https://platform.opentargets.org/disease/MONDO_0010150",
+      "fetched_at": "2026-11-23T03:31:09+00:00"
+    },
+    {
+      "key": "bio_disease:MONDO_0008903",
+      "kind": "disease",
+      "label": "lung cancer",
+      "attrs": {
+        "mondo": "MONDO_0008903",
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "Open Targets",
+      "url": "https://platform.opentargets.org/disease/MONDO_0008903",
+      "fetched_at": "2026-11-23T03:31:09+00:00"
+    },
+    {
+      "key": "bio_chembl_target:CHEMBL4523747",
+      "kind": "target",
+      "label": "EGFR/PPP1CA",
+      "attrs": {
+        "chembl_id": "CHEMBL4523747",
+        "organism": "Homo sapiens",
+        "target_type": "PROTEIN-PROTEIN INTERACTION",
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "ChEMBL",
+      "url": "https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL4523747/",
+      "fetched_at": "2026-11-23T03:31:52+00:00"
+    },
+    {
+      "key": "bio_chembl_target:CHEMBL5465557",
+      "kind": "target",
+      "label": "CCN2-EGFR",
+      "attrs": {
+        "chembl_id": "CHEMBL5465557",
+        "organism": "Homo sapiens",
+        "target_type": "PROTEIN-PROTEIN INTERACTION",
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "ChEMBL",
+      "url": "https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL5465557/",
+      "fetched_at": "2026-11-23T03:31:59+00:00"
+    },
+    {
+      "key": "bio_chembl_target:CHEMBL3608",
+      "kind": "target",
+      "label": "Epidermal growth factor receptor",
+      "attrs": {
+        "chembl_id": "CHEMBL3608",
+        "organism": "Mus musculus",
+        "target_type": "SINGLE PROTEIN",
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "ChEMBL",
+      "url": "https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL3608/",
+      "fetched_at": "2026-11-23T03:32:06+00:00"
+    },
+    {
+      "key": "bio_epmc:43021317",
+      "kind": "publication",
+      "label": "Repurposing of abemaciclib to overcome C797S-mediated osimertinib resistance in EGFR-mutant lung adenocarcinoma.",
+      "attrs": {
+        "pmid": "43021317",
+        "doi": "10.1186/s12929-026-01297-0",
+        "journal": "J Biomed Sci",
+        "year": "2026",
+        "open_access": "Y",
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/43021317",
+      "fetched_at": "2026-11-23T03:32:24+00:00"
+    },
+    {
+      "key": "bio_epmc:42897839",
+      "kind": "publication",
+      "label": "Discovery and Mechanistic Investigation of a Novel Kinase Inhibitor Targeting EGFR Resistance Mutations.",
+      "attrs": {
+        "pmid": "42897839",
+        "doi": "10.2174/0113894501509463261008055141",
+        "journal": "Curr Drug Targets",
+        "year": "2026",
+        "open_access": "N",
+        "chains": [
+          "产业链",
+          "创新链",
+          "人才链",
+          "资金链"
+        ],
+        "tagging": "no 6+1 keyword matched; left untagged rather than guessed"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/42897839",
+      "fetched_at": "2026-11-23T03:32:24+00:00"
+    }
+  ],
+  "edges": [
+    {
+      "src": "dataset:openneuro:ds007720",
+      "dst": "dir:brain_control",
+      "rel": "relevant_to",
+      "attrs": {
+        "match": "brain-computer interface",
+        "confidence": "ok"
+      },
+      "source": "OpenNeuro",
+      "url": "https://openneuro.org/datasets/ds007720",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "src": "dataset:openneuro:ds007720",
+      "dst": "stage:midstream",
+      "rel": "sits_in",
+      "attrs": {
+        "match": "system"
+      },
+      "source": "OpenNeuro",
+      "url": "https://openneuro.org/datasets/ds007720",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "src": "dataset:bnci:008-2014",
+      "dst": "dir:brain_control",
+      "rel": "relevant_to",
+      "attrs": {
+        "match": "p300 speller",
+        "confidence": "ok"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/008-2014/",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "src": "dataset:bnci:008-2014",
+      "dst": "stage:downstream",
+      "rel": "sits_in",
+      "attrs": {
+        "match": "patient"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/008-2014/",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "src": "dataset:bnci:003-2015",
+      "dst": "dir:brain_control",
+      "rel": "relevant_to",
+      "attrs": {
+        "match": "p300 speller",
+        "confidence": "ok"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/003-2015/",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "src": "dataset:bnci:001-2019",
+      "dst": "dir:neurorepair",
+      "rel": "relevant_to",
+      "attrs": {
+        "match": "spinal cord injury",
+        "confidence": "ok"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2019/",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "src": "dataset:bnci:001-2019",
+      "dst": "stage:midstream",
+      "rel": "sits_in",
+      "attrs": {
+        "match": "arm"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2019/",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "src": "dataset:bnci:001-2020",
+      "dst": "dir:microneedle",
+      "rel": "relevant_to",
+      "attrs": {
+        "match": "dry electrode",
+        "confidence": "ok"
+      },
+      "source": "BNCI Horizon 2020",
+      "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2020/",
+      "fetched_at": "2026-11-23T03:30:26+00:00"
+    },
+    {
+      "src": "nct:NCT05880251",
+      "dst": "stage:upstream",
+      "rel": "sits_in",
+      "attrs": {
+        "match": "sensor"
+      },
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT05880251",
+      "fetched_at": "2026-11-23T03:30:33+00:00"
+    },
+    {
+      "src": "org:va-office-of-research-and-development",
+      "dst": "nct:NCT05880251",
+      "rel": "sponsors",
+      "attrs": {
+        "role": "lead"
+      },
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT05880251",
+      "fetched_at": "2026-11-23T03:30:33+00:00"
+    },
+    {
+      "src": "nct:NCT07472556",
+      "dst": "dir:brain_control",
+      "rel": "relevant_to",
+      "attrs": {
+        "match": "brain-computer interface",
+        "confidence": "ok"
+      },
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT07472556",
+      "fetched_at": "2026-11-23T03:30:33+00:00"
+    },
+    {
+      "src": "nct:NCT07472556",
+      "dst": "stage:downstream",
+      "rel": "sits_in",
+      "attrs": {
+        "match": "patient"
+      },
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT07472556",
+      "fetched_at": "2026-11-23T03:30:33+00:00"
+    },
+    {
+      "src": "org:pasquale-arpaia",
+      "dst": "nct:NCT07472556",
+      "rel": "sponsors",
+      "attrs": {
+        "role": "lead"
+      },
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT07472556",
+      "fetched_at": "2026-11-23T03:30:33+00:00"
+    },
+    {
+      "src": "nct:NCT02011399",
+      "dst": "dir:brain_control",
+      "rel": "relevant_to",
+      "attrs": {
+        "match": "brain computer interface",
+        "confidence": "ok"
+      },
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT02011399",
+      "fetched_at": "2026-11-23T03:30:33+00:00"
+    },
+    {
+      "src": "org:university-of-michigan",
+      "dst": "nct:NCT02011399",
+      "rel": "sponsors",
+      "attrs": {
+        "role": "lead"
+      },
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT02011399",
+      "fetched_at": "2026-11-23T03:30:33+00:00"
+    },
+    {
+      "src": "pmid:34502636",
+      "dst": "dir:brain_control",
+      "rel": "relevant_to",
+      "attrs": {
+        "match": "brain-computer interface",
+        "confidence": "ok"
+      },
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34502636/",
+      "fetched_at": "2026-11-23T03:30:47+00:00"
+    },
+    {
+      "src": "pmid:39275636",
+      "dst": "dir:brain_control",
+      "rel": "relevant_to",
+      "attrs": {
+        "match": "brain-computer interface",
+        "confidence": "ok"
+      },
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39275636/",
+      "fetched_at": "2026-11-23T03:30:47+00:00"
+    },
+    {
+      "src": "pmid:37447849",
+      "dst": "dir:brain_control",
+      "rel": "relevant_to",
+      "attrs": {
+        "match": "brain-computer interface",
+        "confidence": "ok"
+      },
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37447849/",
+      "fetched_at": "2026-11-23T03:30:47+00:00"
+    },
+    {
+      "src": "org:beckman-instruments-inc",
+      "dst": "fda510k:K781041",
+      "rel": "manufactures",
+      "attrs": {
+        "k_number": "K781041"
+      },
+      "source": "openFDA 510(k)",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K781041",
+      "fetched_at": "2026-11-23T03:30:55+00:00"
+    },
+    {
+      "src": "org:teca-inc",
+      "dst": "fda510k:K896666",
+      "rel": "manufactures",
+      "attrs": {
+        "k_number": "K896666"
+      },
+      "source": "openFDA 510(k)",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K896666",
+      "fetched_at": "2026-11-23T03:30:55+00:00"
+    },
+    {
+      "src": "org:moberg-medical-inc",
+      "dst": "fda510k:K960170",
+      "rel": "manufactures",
+      "attrs": {
+        "k_number": "K960170"
+      },
+      "source": "openFDA 510(k)",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K960170",
+      "fetched_at": "2026-11-23T03:30:55+00:00"
+    },
+    {
+      "src": "bio_ensembl:ENSG00000146648",
+      "dst": "bio_disease:MONDO_0005233",
+      "rel": "associated_with",
+      "attrs": {
+        "score": 0.8503239816603523
+      },
+      "source": "Open Targets",
+      "url": "https://platform.opentargets.org/target/ENSG00000146648/associations",
+      "fetched_at": "2026-11-23T03:31:09+00:00"
+    },
+    {
+      "src": "bio_ensembl:ENSG00000146648",
+      "dst": "bio_disease:MONDO_0005061",
+      "rel": "associated_with",
+      "attrs": {
+        "score": 0.7744562914488016
+      },
+      "source": "Open Targets",
+      "url": "https://platform.opentargets.org/target/ENSG00000146648/associations",
+      "fetched_at": "2026-11-23T03:31:09+00:00"
+    },
+    {
+      "src": "bio_ensembl:ENSG00000146648",
+      "dst": "bio_disease:MONDO_0004992",
+      "rel": "associated_with",
+      "attrs": {
+        "score": 0.7369034892013269
+      },
+      "source": "Open Targets",
+      "url": "https://platform.opentargets.org/target/ENSG00000146648/associations",
+      "fetched_at": "2026-11-23T03:31:09+00:00"
+    },
+    {
+      "src": "bio_ensembl:ENSG00000146648",
+      "dst": "bio_disease:MONDO_0010150",
+      "rel": "associated_with",
+      "attrs": {
+        "score": 0.7252247339566977
+      },
+      "source": "Open Targets",
+      "url": "https://platform.opentargets.org/target/ENSG00000146648/associations",
+      "fetched_at": "2026-11-23T03:31:09+00:00"
+    },
+    {
+      "src": "bio_ensembl:ENSG00000146648",
+      "dst": "bio_disease:MONDO_0008903",
+      "rel": "associated_with",
+      "attrs": {
+        "score": 0.7173442514015181
+      },
+      "source": "Open Targets",
+      "url": "https://platform.opentargets.org/target/ENSG00000146648/associations",
+      "fetched_at": "2026-11-23T03:31:09+00:00"
+    },
+    {
+      "src": "bio_chembl_target:CHEMBL4523747",
+      "dst": "bio_ensembl:ENSG00000146648",
+      "rel": "same_as",
+      "attrs": {
+        "basis": "ChEMBL target search by gene symbol"
+      },
+      "source": "ChEMBL",
+      "url": "https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL4523747/",
+      "fetched_at": "2026-11-23T03:31:52+00:00"
+    },
+    {
+      "src": "bio_chembl_target:CHEMBL5465557",
+      "dst": "bio_ensembl:ENSG00000146648",
+      "rel": "same_as",
+      "attrs": {
+        "basis": "ChEMBL target search by gene symbol"
+      },
+      "source": "ChEMBL",
+      "url": "https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL5465557/",
+      "fetched_at": "2026-11-23T03:31:59+00:00"
+    },
+    {
+      "src": "bio_chembl_target:CHEMBL3608",
+      "dst": "bio_ensembl:ENSG00000146648",
+      "rel": "same_as",
+      "attrs": {
+        "basis": "ChEMBL target search by gene symbol"
+      },
+      "source": "ChEMBL",
+      "url": "https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL3608/",
+      "fetched_at": "2026-11-23T03:32:06+00:00"
+    },
+    {
+      "src": "bio_epmc:43021317",
+      "dst": "bio_ensembl:ENSG00000146648",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "EGFR"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/43021317",
+      "fetched_at": "2026-11-23T03:32:24+00:00"
+    },
+    {
+      "src": "bio_epmc:42897839",
+      "dst": "bio_ensembl:ENSG00000146648",
+      "rel": "relevant_to",
+      "attrs": {
+        "term": "EGFR"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/42897839",
+      "fetched_at": "2026-11-23T03:32:24+00:00"
+    },
+    {
+      "src": "bio:synthetic_biology",
+      "dst": "dir:neuromodulation",
+      "rel": "feeds",
+      "attrs": {
+        "basis": "生物制造提供材料/器件上游"
+      },
+      "source": "实施方案 生物制造定义",
+      "url": "",
+      "fetched_at": "2026-11-23T03:32:24+00:00"
+    },
+    {
+      "src": "bio:enzyme_engineering",
+      "dst": "dir:neuromodulation",
+      "rel": "feeds",
+      "attrs": {
+        "basis": "生物制造提供材料/器件上游"
+      },
+      "source": "实施方案 生物制造定义",
+      "url": "",
+      "fetched_at": "2026-11-23T03:32:24+00:00"
+    },
+    {
+      "src": "bio:fermentation",
+      "dst": "dir:neuromodulation",
+      "rel": "feeds",
+      "attrs": {
+        "basis": "生物制造提供材料/器件上游"
+      },
+      "source": "实施方案 生物制造定义",
+      "url": "",
+      "fetched_at": "2026-11-23T03:32:24+00:00"
+    },
+    {
+      "src": "bio:cell_engineering",
+      "dst": "dir:neuromodulation",
+      "rel": "feeds",
+      "attrs": {
+        "basis": "生物制造提供材料/器件上游"
+      },
+      "source": "实施方案 生物制造定义",
+      "url": "",
+      "fetched_at": "2026-11-23T03:32:24+00:00"
+    },
+    {
+      "src": "bio:organoid_manufacturing",
+      "dst": "dir:organoid",
+      "rel": "enables",
+      "attrs": {
+        "basis": "类器官制造是 +1 片上脑机接口的供给端"
+      },
+      "source": "实施方案 图1",
+      "url": "",
+      "fetched_at": "2026-11-23T03:32:24+00:00"
+    },
+    {
+      "src": "bio:organoid_manufacturing",
+      "dst": "dir:neuromodulation",
+      "rel": "feeds",
+      "attrs": {
+        "basis": "生物制造提供材料/器件上游"
+      },
+      "source": "实施方案 生物制造定义",
+      "url": "",
+      "fetched_at": "2026-11-23T03:32:24+00:00"
+    }
+  ]
+}
