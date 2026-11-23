@@ -3,16 +3,32 @@
     {
       "key": "wd:Q897410",
       "kind": "concept",
-      "label": "brain-computer interface",
+      "label": "brain–computer interface",
       "attrs": {
-        "labels": {},
-        "descriptions": {},
-        "languages": [],
+        "labels": {
+          "en": "brain–computer interface",
+          "de": "Brain-Computer-Interface",
+          "fr": "interface neuronale directe",
+          "zh": "脑机接口",
+          "ja": "ブレイン・マシン・インタフェース"
+        },
+        "descriptions": {
+          "en": "connection between brain and computer",
+          "de": "spezielle Mensch-Maschine-Schnittstelle, die ohne Aktivierung des peripheren Nervensystems eine Verbindung zwischen dem Gehirn und einem Computer ermöglicht",
+          "zh": "大脑和计算机之间的联系"
+        },
+        "languages": [
+          "de",
+          "en",
+          "fr",
+          "ja",
+          "zh"
+        ],
         "qid": "Q897410"
       },
       "source": "Wikidata（多语言标签）",
       "url": "https://www.wikidata.org/wiki/Q897410",
-      "fetched_at": "2026-11-23T06:08:31+00:00"
+      "fetched_at": "2026-11-23T06:11:13+00:00"
     },
     {
       "key": "gnd:1156215250",
@@ -26,7 +42,7 @@
       },
       "source": "GND（德国规范档）",
       "url": "https://d-nb.info/gnd/1156215250",
-      "fetched_at": "2026-11-23T06:08:38+00:00"
+      "fetched_at": "2026-11-23T06:11:20+00:00"
     },
     {
       "key": "gnd:1138929670",
@@ -40,7 +56,7 @@
       },
       "source": "GND（德国规范档）",
       "url": "https://d-nb.info/gnd/1138929670",
-      "fetched_at": "2026-11-23T06:08:38+00:00"
+      "fetched_at": "2026-11-23T06:11:20+00:00"
     },
     {
       "key": "gnd:1092569200",
@@ -54,7 +70,7 @@
       },
       "source": "GND（德国规范档）",
       "url": "https://d-nb.info/gnd/1092569200",
-      "fetched_at": "2026-11-23T06:08:38+00:00"
+      "fetched_at": "2026-11-23T06:11:20+00:00"
     },
     {
       "key": "gnd:1091190275",
@@ -68,7 +84,7 @@
       },
       "source": "GND（德国规范档）",
       "url": "https://d-nb.info/gnd/1091190275",
-      "fetched_at": "2026-11-23T06:08:38+00:00"
+      "fetched_at": "2026-11-23T06:11:20+00:00"
     },
     {
       "key": "gnd:1197826769",
@@ -82,7 +98,7 @@
       },
       "source": "GND（德国规范档）",
       "url": "https://d-nb.info/gnd/1197826769",
-      "fetched_at": "2026-11-23T06:08:38+00:00"
+      "fetched_at": "2026-11-23T06:11:20+00:00"
     },
     {
       "key": "frco:417545118",
@@ -97,7 +113,7 @@
       },
       "source": "recherche-entreprises.api.gouv.fr（SIRENE）",
       "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/417545118",
-      "fetched_at": "2026-11-23T06:09:06+00:00"
+      "fetched_at": "2026-11-23T06:11:49+00:00"
     },
     {
       "key": "frco:433075769",
@@ -112,7 +128,7 @@
       },
       "source": "recherche-entreprises.api.gouv.fr（SIRENE）",
       "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/433075769",
-      "fetched_at": "2026-11-23T06:09:06+00:00"
+      "fetched_at": "2026-11-23T06:11:49+00:00"
     },
     {
       "key": "frco:400530655",
@@ -127,7 +143,7 @@
       },
       "source": "recherche-entreprises.api.gouv.fr（SIRENE）",
       "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/400530655",
-      "fetched_at": "2026-11-23T06:09:06+00:00"
+      "fetched_at": "2026-11-23T06:11:49+00:00"
     },
     {
       "key": "frco:981451230",
@@ -142,7 +158,7 @@
       },
       "source": "recherche-entreprises.api.gouv.fr（SIRENE）",
       "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/981451230",
-      "fetched_at": "2026-11-23T06:09:06+00:00"
+      "fetched_at": "2026-11-23T06:11:49+00:00"
     },
     {
       "key": "frco:935281964",
@@ -157,7 +173,7 @@
       },
       "source": "recherche-entreprises.api.gouv.fr（SIRENE）",
       "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/935281964",
-      "fetched_at": "2026-11-23T06:09:06+00:00"
+      "fetched_at": "2026-11-23T06:11:49+00:00"
     },
     {
       "key": "lang:ger",
@@ -170,7 +186,7 @@
       },
       "source": "Europe PMC LANG 过滤",
       "url": "https://europepmc.org/",
-      "fetched_at": "2026-11-23T06:09:14+00:00"
+      "fetched_at": "2026-11-23T06:11:56+00:00"
     },
     {
       "key": "epmc:ger:0",
@@ -184,7 +200,7 @@
       },
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/16025358",
-      "fetched_at": "2026-11-23T06:09:14+00:00"
+      "fetched_at": "2026-11-23T06:11:56+00:00"
     },
     {
       "key": "epmc:ger:1",
@@ -198,7 +214,7 @@
       },
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/14677109",
-      "fetched_at": "2026-11-23T06:09:14+00:00"
+      "fetched_at": "2026-11-23T06:11:56+00:00"
     },
     {
       "key": "epmc:ger:2",
@@ -212,7 +228,7 @@
       },
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/11830792",
-      "fetched_at": "2026-11-23T06:09:14+00:00"
+      "fetched_at": "2026-11-23T06:11:56+00:00"
     },
     {
       "key": "lang:fre",
@@ -225,7 +241,7 @@
       },
       "source": "Europe PMC LANG 过滤",
       "url": "https://europepmc.org/",
-      "fetched_at": "2026-11-23T06:09:22+00:00"
+      "fetched_at": "2026-11-23T06:12:04+00:00"
     },
     {
       "key": "epmc:fre:0",
@@ -239,7 +255,7 @@
       },
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/20464895",
-      "fetched_at": "2026-11-23T06:09:22+00:00"
+      "fetched_at": "2026-11-23T06:12:04+00:00"
     },
     {
       "key": "lang:chi",
@@ -252,7 +268,7 @@
       },
       "source": "Europe PMC LANG 过滤",
       "url": "https://europepmc.org/",
-      "fetched_at": "2026-11-23T06:09:31+00:00"
+      "fetched_at": "2026-11-23T06:12:11+00:00"
     },
     {
       "key": "epmc:chi:0",
@@ -266,7 +282,7 @@
       },
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/42908451",
-      "fetched_at": "2026-11-23T06:09:31+00:00"
+      "fetched_at": "2026-11-23T06:12:11+00:00"
     },
     {
       "key": "epmc:chi:1",
@@ -280,7 +296,7 @@
       },
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/42338375",
-      "fetched_at": "2026-11-23T06:09:31+00:00"
+      "fetched_at": "2026-11-23T06:12:11+00:00"
     },
     {
       "key": "epmc:chi:2",
@@ -294,7 +310,7 @@
       },
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/42779390",
-      "fetched_at": "2026-11-23T06:09:31+00:00"
+      "fetched_at": "2026-11-23T06:12:11+00:00"
     },
     {
       "key": "epmc:chi:3",
@@ -308,7 +324,7 @@
       },
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/41987469",
-      "fetched_at": "2026-11-23T06:09:31+00:00"
+      "fetched_at": "2026-11-23T06:12:11+00:00"
     },
     {
       "key": "epmc:chi:4",
@@ -322,7 +338,7 @@
       },
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/41672620",
-      "fetched_at": "2026-11-23T06:09:31+00:00"
+      "fetched_at": "2026-11-23T06:12:11+00:00"
     },
     {
       "key": "jpslice:ja:jstage",
@@ -336,7 +352,7 @@
       },
       "source": "J-STAGE（日本）",
       "url": "",
-      "fetched_at": "2026-11-23T06:09:39+00:00"
+      "fetched_at": "2026-11-23T06:12:19+00:00"
     },
     {
       "key": "jp:jstage:0",
@@ -348,7 +364,7 @@
       },
       "source": "J-STAGE（日本）",
       "url": "https://www.jstage.jst.go.jp/article/jasi/26/0/26_0_327/_article/-char/ja/",
-      "fetched_at": "2026-11-23T06:09:39+00:00"
+      "fetched_at": "2026-11-23T06:12:19+00:00"
     },
     {
       "key": "jp:jstage:1",
@@ -360,7 +376,7 @@
       },
       "source": "J-STAGE（日本）",
       "url": "https://www.jstage.jst.go.jp/article/jbse/5/1/5_1_32/_article/-char/ja/",
-      "fetched_at": "2026-11-23T06:09:39+00:00"
+      "fetched_at": "2026-11-23T06:12:19+00:00"
     },
     {
       "key": "jp:jstage:2",
@@ -372,7 +388,7 @@
       },
       "source": "J-STAGE（日本）",
       "url": "https://www.jstage.jst.go.jp/article/jaciii/18/3/18_311/_article/-char/ja/",
-      "fetched_at": "2026-11-23T06:09:39+00:00"
+      "fetched_at": "2026-11-23T06:12:19+00:00"
     },
     {
       "key": "jp:jstage:3",
@@ -384,7 +400,7 @@
       },
       "source": "J-STAGE（日本）",
       "url": "https://www.jstage.jst.go.jp/article/jje1965/40/Supplement/40_Supplement_66/_article/-char/ja/",
-      "fetched_at": "2026-11-23T06:09:39+00:00"
+      "fetched_at": "2026-11-23T06:12:19+00:00"
     },
     {
       "key": "jp:jstage:4",
@@ -396,7 +412,7 @@
       },
       "source": "J-STAGE（日本）",
       "url": "https://www.jstage.jst.go.jp/article/jabedit/28/1/28_61/_article/-char/ja/",
-      "fetched_at": "2026-11-23T06:09:39+00:00"
+      "fetched_at": "2026-11-23T06:12:19+00:00"
     },
     {
       "key": "jpslice:ja:cinii",
@@ -410,7 +426,7 @@
       },
       "source": "CiNii（日本）",
       "url": "",
-      "fetched_at": "2026-11-23T06:09:47+00:00"
+      "fetched_at": "2026-11-23T06:12:26+00:00"
     },
     {
       "key": "jp:cinii:0",
@@ -422,7 +438,7 @@
       },
       "source": "CiNii（日本）",
       "url": "https://cir.nii.ac.jp/crid/1971430859716748209",
-      "fetched_at": "2026-11-23T06:09:47+00:00"
+      "fetched_at": "2026-11-23T06:12:26+00:00"
     },
     {
       "key": "jp:cinii:1",
@@ -434,7 +450,7 @@
       },
       "source": "CiNii（日本）",
       "url": "https://cir.nii.ac.jp/crid/1870309018089953024",
-      "fetched_at": "2026-11-23T06:09:47+00:00"
+      "fetched_at": "2026-11-23T06:12:26+00:00"
     },
     {
       "key": "jp:cinii:2",
@@ -446,7 +462,7 @@
       },
       "source": "CiNii（日本）",
       "url": "https://cir.nii.ac.jp/crid/1363670318764102656",
-      "fetched_at": "2026-11-23T06:09:47+00:00"
+      "fetched_at": "2026-11-23T06:12:26+00:00"
     },
     {
       "key": "jp:cinii:3",
@@ -458,7 +474,7 @@
       },
       "source": "CiNii（日本）",
       "url": "https://cir.nii.ac.jp/crid/1873398393068624256",
-      "fetched_at": "2026-11-23T06:09:47+00:00"
+      "fetched_at": "2026-11-23T06:12:26+00:00"
     },
     {
       "key": "jp:cinii:4",
@@ -470,7 +486,7 @@
       },
       "source": "CiNii（日本）",
       "url": "https://cir.nii.ac.jp/crid/1970023484888507521",
-      "fetched_at": "2026-11-23T06:09:47+00:00"
+      "fetched_at": "2026-11-23T06:12:26+00:00"
     }
   ],
   "edges": [
@@ -484,7 +500,7 @@
       },
       "source": "GND",
       "url": "https://d-nb.info/gnd/1156215250",
-      "fetched_at": "2026-11-23T06:08:38+00:00"
+      "fetched_at": "2026-11-23T06:11:20+00:00"
     },
     {
       "src": "gnd:1138929670",
@@ -496,7 +512,7 @@
       },
       "source": "GND",
       "url": "https://d-nb.info/gnd/1138929670",
-      "fetched_at": "2026-11-23T06:08:38+00:00"
+      "fetched_at": "2026-11-23T06:11:20+00:00"
     },
     {
       "src": "gnd:1092569200",
@@ -508,7 +524,7 @@
       },
       "source": "GND",
       "url": "https://d-nb.info/gnd/1092569200",
-      "fetched_at": "2026-11-23T06:08:38+00:00"
+      "fetched_at": "2026-11-23T06:11:20+00:00"
     },
     {
       "src": "gnd:1091190275",
@@ -520,7 +536,7 @@
       },
       "source": "GND",
       "url": "https://d-nb.info/gnd/1091190275",
-      "fetched_at": "2026-11-23T06:08:38+00:00"
+      "fetched_at": "2026-11-23T06:11:20+00:00"
     },
     {
       "src": "gnd:1197826769",
@@ -532,7 +548,7 @@
       },
       "source": "GND",
       "url": "https://d-nb.info/gnd/1197826769",
-      "fetched_at": "2026-11-23T06:08:38+00:00"
+      "fetched_at": "2026-11-23T06:11:20+00:00"
     },
     {
       "src": "frco:417545118",
@@ -544,7 +560,7 @@
       },
       "source": "recherche-entreprises",
       "url": "",
-      "fetched_at": "2026-11-23T06:09:06+00:00"
+      "fetched_at": "2026-11-23T06:11:49+00:00"
     },
     {
       "src": "frco:433075769",
@@ -556,7 +572,7 @@
       },
       "source": "recherche-entreprises",
       "url": "",
-      "fetched_at": "2026-11-23T06:09:06+00:00"
+      "fetched_at": "2026-11-23T06:11:49+00:00"
     },
     {
       "src": "frco:400530655",
@@ -568,7 +584,7 @@
       },
       "source": "recherche-entreprises",
       "url": "",
-      "fetched_at": "2026-11-23T06:09:06+00:00"
+      "fetched_at": "2026-11-23T06:11:49+00:00"
     },
     {
       "src": "frco:981451230",
@@ -580,7 +596,7 @@
       },
       "source": "recherche-entreprises",
       "url": "",
-      "fetched_at": "2026-11-23T06:09:06+00:00"
+      "fetched_at": "2026-11-23T06:11:49+00:00"
     },
     {
       "src": "frco:935281964",
@@ -592,7 +608,7 @@
       },
       "source": "recherche-entreprises",
       "url": "",
-      "fetched_at": "2026-11-23T06:09:06+00:00"
+      "fetched_at": "2026-11-23T06:11:49+00:00"
     },
     {
       "src": "lang:ger",
@@ -603,7 +619,7 @@
       },
       "source": "Europe PMC",
       "url": "",
-      "fetched_at": "2026-11-23T06:09:14+00:00"
+      "fetched_at": "2026-11-23T06:11:56+00:00"
     },
     {
       "src": "epmc:ger:0",
@@ -612,7 +628,7 @@
       "attrs": {},
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/16025358",
-      "fetched_at": "2026-11-23T06:09:14+00:00"
+      "fetched_at": "2026-11-23T06:11:56+00:00"
     },
     {
       "src": "epmc:ger:1",
@@ -621,7 +637,7 @@
       "attrs": {},
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/14677109",
-      "fetched_at": "2026-11-23T06:09:14+00:00"
+      "fetched_at": "2026-11-23T06:11:56+00:00"
     },
     {
       "src": "epmc:ger:2",
@@ -630,7 +646,7 @@
       "attrs": {},
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/11830792",
-      "fetched_at": "2026-11-23T06:09:14+00:00"
+      "fetched_at": "2026-11-23T06:11:56+00:00"
     },
     {
       "src": "lang:fre",
@@ -641,7 +657,7 @@
       },
       "source": "Europe PMC",
       "url": "",
-      "fetched_at": "2026-11-23T06:09:22+00:00"
+      "fetched_at": "2026-11-23T06:12:04+00:00"
     },
     {
       "src": "epmc:fre:0",
@@ -650,7 +666,7 @@
       "attrs": {},
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/20464895",
-      "fetched_at": "2026-11-23T06:09:22+00:00"
+      "fetched_at": "2026-11-23T06:12:04+00:00"
     },
     {
       "src": "lang:chi",
@@ -661,7 +677,7 @@
       },
       "source": "Europe PMC",
       "url": "",
-      "fetched_at": "2026-11-23T06:09:31+00:00"
+      "fetched_at": "2026-11-23T06:12:11+00:00"
     },
     {
       "src": "epmc:chi:0",
@@ -670,7 +686,7 @@
       "attrs": {},
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/42908451",
-      "fetched_at": "2026-11-23T06:09:31+00:00"
+      "fetched_at": "2026-11-23T06:12:11+00:00"
     },
     {
       "src": "epmc:chi:1",
@@ -679,7 +695,7 @@
       "attrs": {},
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/42338375",
-      "fetched_at": "2026-11-23T06:09:31+00:00"
+      "fetched_at": "2026-11-23T06:12:11+00:00"
     },
     {
       "src": "epmc:chi:2",
@@ -688,7 +704,7 @@
       "attrs": {},
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/42779390",
-      "fetched_at": "2026-11-23T06:09:31+00:00"
+      "fetched_at": "2026-11-23T06:12:11+00:00"
     },
     {
       "src": "epmc:chi:3",
@@ -697,7 +713,7 @@
       "attrs": {},
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/41987469",
-      "fetched_at": "2026-11-23T06:09:31+00:00"
+      "fetched_at": "2026-11-23T06:12:11+00:00"
     },
     {
       "src": "epmc:chi:4",
@@ -706,7 +722,7 @@
       "attrs": {},
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/41672620",
-      "fetched_at": "2026-11-23T06:09:31+00:00"
+      "fetched_at": "2026-11-23T06:12:11+00:00"
     },
     {
       "src": "jpslice:ja:jstage",
@@ -717,7 +733,7 @@
       },
       "source": "J-STAGE（日本）",
       "url": "",
-      "fetched_at": "2026-11-23T06:09:39+00:00"
+      "fetched_at": "2026-11-23T06:12:19+00:00"
     },
     {
       "src": "jp:jstage:0",
@@ -726,7 +742,7 @@
       "attrs": {},
       "source": "J-STAGE（日本）",
       "url": "https://www.jstage.jst.go.jp/article/jasi/26/0/26_0_327/_article/-char/ja/",
-      "fetched_at": "2026-11-23T06:09:39+00:00"
+      "fetched_at": "2026-11-23T06:12:19+00:00"
     },
     {
       "src": "jp:jstage:1",
@@ -735,7 +751,7 @@
       "attrs": {},
       "source": "J-STAGE（日本）",
       "url": "https://www.jstage.jst.go.jp/article/jbse/5/1/5_1_32/_article/-char/ja/",
-      "fetched_at": "2026-11-23T06:09:39+00:00"
+      "fetched_at": "2026-11-23T06:12:19+00:00"
     },
     {
       "src": "jp:jstage:2",
@@ -744,7 +760,7 @@
       "attrs": {},
       "source": "J-STAGE（日本）",
       "url": "https://www.jstage.jst.go.jp/article/jaciii/18/3/18_311/_article/-char/ja/",
-      "fetched_at": "2026-11-23T06:09:39+00:00"
+      "fetched_at": "2026-11-23T06:12:19+00:00"
     },
     {
       "src": "jp:jstage:3",
@@ -753,7 +769,7 @@
       "attrs": {},
       "source": "J-STAGE（日本）",
       "url": "https://www.jstage.jst.go.jp/article/jje1965/40/Supplement/40_Supplement_66/_article/-char/ja/",
-      "fetched_at": "2026-11-23T06:09:39+00:00"
+      "fetched_at": "2026-11-23T06:12:19+00:00"
     },
     {
       "src": "jp:jstage:4",
@@ -762,7 +778,7 @@
       "attrs": {},
       "source": "J-STAGE（日本）",
       "url": "https://www.jstage.jst.go.jp/article/jabedit/28/1/28_61/_article/-char/ja/",
-      "fetched_at": "2026-11-23T06:09:39+00:00"
+      "fetched_at": "2026-11-23T06:12:19+00:00"
     },
     {
       "src": "jpslice:ja:cinii",
@@ -773,7 +789,7 @@
       },
       "source": "CiNii（日本）",
       "url": "",
-      "fetched_at": "2026-11-23T06:09:47+00:00"
+      "fetched_at": "2026-11-23T06:12:26+00:00"
     },
     {
       "src": "jp:cinii:0",
@@ -782,7 +798,7 @@
       "attrs": {},
       "source": "CiNii（日本）",
       "url": "https://cir.nii.ac.jp/crid/1971430859716748209",
-      "fetched_at": "2026-11-23T06:09:47+00:00"
+      "fetched_at": "2026-11-23T06:12:26+00:00"
     },
     {
       "src": "jp:cinii:1",
@@ -791,7 +807,7 @@
       "attrs": {},
       "source": "CiNii（日本）",
       "url": "https://cir.nii.ac.jp/crid/1870309018089953024",
-      "fetched_at": "2026-11-23T06:09:47+00:00"
+      "fetched_at": "2026-11-23T06:12:26+00:00"
     },
     {
       "src": "jp:cinii:2",
@@ -800,7 +816,7 @@
       "attrs": {},
       "source": "CiNii（日本）",
       "url": "https://cir.nii.ac.jp/crid/1363670318764102656",
-      "fetched_at": "2026-11-23T06:09:47+00:00"
+      "fetched_at": "2026-11-23T06:12:26+00:00"
     },
     {
       "src": "jp:cinii:3",
@@ -809,7 +825,7 @@
       "attrs": {},
       "source": "CiNii（日本）",
       "url": "https://cir.nii.ac.jp/crid/1873398393068624256",
-      "fetched_at": "2026-11-23T06:09:47+00:00"
+      "fetched_at": "2026-11-23T06:12:26+00:00"
     },
     {
       "src": "jp:cinii:4",
@@ -818,7 +834,7 @@
       "attrs": {},
       "source": "CiNii（日本）",
       "url": "https://cir.nii.ac.jp/crid/1970023484888507521",
-      "fetched_at": "2026-11-23T06:09:47+00:00"
+      "fetched_at": "2026-11-23T06:12:26+00:00"
     }
   ]
 }
