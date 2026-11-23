@@ -266,6 +266,23 @@ def build_industry_map(term: str = "brain-computer interface", *, limit: int = 4
         except Exception as e:                      # a market fetch must not sink the map
             note("market layer", "board/quotes/disclosures", e)
 
+    # --- bridge: 板块 -> 路线（资本关注度，明确不计入技术得分） ----------------------
+    # A market board says where money is looking, not how much technology exists. The edge
+    # carries that in its own rel and basis so the 成果清单 can show it as a separate column
+    # instead of letting 6925 亿 of market cap inflate a technology score.
+    board_to_dir = {"308535": "brain_control", "308614": "brain_control"}
+    for n in list(g.nodes.values()):
+        if n.kind != "market_board":
+            continue
+        did = board_to_dir.get((n.attrs or {}).get("ths_code", ""))
+        if did and did in dir_keys:
+            g.add_edge(Edge(src=n.key, dst=dir_keys[did], rel="market_attention_on",
+                            attrs={"basis": "板块归类，非技术判定", "board": n.label,
+                                   "constituents": (n.attrs or {}).get("constituents"),
+                                   "mcap_yi": (n.attrs or {}).get("mcap_yi"),
+                                   "note": "资本关注度，不计入技术得分"},
+                            source=n.source, url=n.url, fetched_at=NOW()))
+
     # --- bridge: 披露标题 -> 6+1 路线 ------------------------------------------------
     # A disclosure title is the only public sentence I can read without opening the PDF,
     # so the edge says exactly that: title-keyword evidence, and the keyword rides on it.

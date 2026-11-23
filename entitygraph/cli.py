@@ -421,6 +421,12 @@ def main(argv=None) -> int:
     br.add_argument("--out", default="产业图谱价值快照.md")
     br.add_argument("--top", type=int, default=20)
 
+    dv = sub.add_parser("deliverables", help="7 条路线各自的可转让成果清单")
+    dv.add_argument("--graph", default="industry.graph.json")
+    dv.add_argument("--out-md", default="可转让成果清单.md")
+    dv.add_argument("--out-json", default="成果清单.json")
+    dv.add_argument("--top", type=int, default=6)
+
     args = ap.parse_args(argv)
 
     if args.cmd == "bci":
@@ -436,6 +442,23 @@ def main(argv=None) -> int:
         g = build_biomed_graph(args.symbol, drug=args.drug, diseases=args.diseases,
                                drugs=args.drugs, papers=args.papers)
         return _finish_graph(g, args, "biomed")
+
+    if args.cmd == "deliverables":
+        from .deliverables import build_deliverables, render_markdown
+        bundle = build_deliverables(args.graph)
+        md = render_markdown(bundle, top_items=args.top)
+        with open(args.out_md, "w", encoding="utf-8", newline="\n") as f:
+            f.write(md)
+        with open(args.out_json, "w", encoding="utf-8", newline="\n") as f:
+            json.dump(bundle, f, ensure_ascii=False, indent=1)
+        print("routes %d  (证据空白 %d 条)"
+              % (len(bundle["routes"]), sum(1 for r in bundle["routes"] if r["empty"])))
+        print("    排名  路线                  得分  占比   证据类型数")
+        for i, r in enumerate(bundle["routes"], 1):
+            print("    %4d  %-20s %5d %5.1f%%   %d"
+                  % (i, r["name"], r["score"], r["share"], len(r["evidence_kinds"])))
+        print("wrote %s / %s" % (args.out_md, args.out_json))
+        return 0
 
     if args.cmd == "brief":
         from .market import value_brief

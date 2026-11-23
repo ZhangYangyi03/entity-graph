@@ -141,6 +141,29 @@ def _norm(text: str) -> str:
     return re.sub(r"\s+", " ", (text or "").lower())
 
 
+# A short CJK keyword can be a substring of a word with nothing to do with us. Measured
+# in this repo: 「脑控」 inside 「电脑控制系统」(睿能科技 针织袜机 公告) — the title hit the
+# 6+1 layer and put a sock-machine company into 脑控装备. Rather than drop short CJK
+# keywords (「脑控」 is the most useful one), refuse the match when it sits inside the
+# longer word that contains it. Each entry is (keyword, forbidden preceding chars).
+CJK_FALSE_FRIENDS = {"脑控": ("电",)}
+
+
+def _cjk_ok(text: str, kw: str) -> bool:
+    """True when every occurrence of kw is not part of a longer unrelated word."""
+    bad = CJK_FALSE_FRIENDS.get(kw)
+    if not bad:
+        return True
+    start = 0
+    while True:
+        i = text.find(kw, start)
+        if i < 0:
+            return True
+        if i > 0 and text[i - 1] in bad:
+            return False
+        start = i + 1
+
+
 def classify(text: str) -> list[dict]:
     """Which 6+1 directions a piece of text touches, with the keyword that decided it.
 
@@ -153,7 +176,7 @@ def classify(text: str) -> list[dict]:
         return []
     out, seen = [], set()
     for did, d in DIRECTIONS.items():
-        hits = [k for k in d["keywords"] if k.lower() in t]
+        hits = [k for k in d["keywords"] if k.lower() in t and _cjk_ok(t, k)]
         if not hits:
             continue
         if did in seen:

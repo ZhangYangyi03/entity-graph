@@ -1,0 +1,1299 @@
+{
+ "routes": [
+  {
+   "direction": "brain_control",
+   "name": "脑控装备",
+   "tech_params": "非侵入解码指令; 信息传输率; 对标国际梯队",
+   "score": 28,
+   "evidence_kinds": [
+    "company",
+    "dataset",
+    "institute",
+    "publication",
+    "trial"
+   ],
+   "counts": {
+    "company": 1,
+    "dataset": 15,
+    "institute": 1,
+    "publication": 3,
+    "trial": 2
+   },
+   "transferables": [
+    {
+     "kind": "company",
+     "kind_label": "企业技术主体",
+     "transfer": "产业化载体：可直接对接的承接方",
+     "weight": 2,
+     "items": [
+      {
+       "label": "博睿康",
+       "key": "actor:neuracle",
+       "source": "实施方案（项目文档）",
+       "url": "",
+       "attrs": {
+        "short": "Neuracle",
+        "chain": "产业链",
+        "fact": "NEO-ONE SCI 于2026年3月获批第三类医疗器械注册证，全球首款获批上市的侵入式BCI医疗器械",
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ]
+       },
+       "rel": "works_on",
+       "edge_attrs": {
+        "basis": "NEO-ONE SCI 于2026年3月获批第三类医疗器械注册证，全球首款获批上市的侵入式BCI医疗器械"
+       }
+      }
+     ]
+    },
+    {
+     "kind": "dataset",
+     "kind_label": "数据集",
+     "transfer": "数据资产：可授权/可复现，是算法类成果的载体",
+     "weight": 1,
+     "items": [
+      {
+       "label": "1. Four class motor imagery (001-2014)",
+       "key": "dataset:bnci:001-2014",
+       "source": "BNCI Horizon 2020",
+       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2014/",
+       "attrs": {
+        "id": "001-2014",
+        "participants": null,
+        "signals": null,
+        "bci6plus1": [
+         "brain_control"
+        ],
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ]
+       },
+       "rel": "relevant_to",
+       "edge_attrs": {
+        "match": "motor imagery",
+        "confidence": "ok"
+       }
+      },
+      {
+       "label": "11. Neuroprosthetic control of an EEG/EOG BNCI (002-2015)",
+       "key": "dataset:bnci:002-2015",
+       "source": "BNCI Horizon 2020",
+       "url": "https://bnci-horizon-2020.eu/database/data-sets/002-2015/",
+       "attrs": {
+        "id": "002-2015",
+        "participants": 1,
+        "signals": 5,
+        "bci6plus1": [
+         "brain_control"
+        ],
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ]
+       },
+       "rel": "relevant_to",
+       "edge_attrs": {
+        "match": "neuroprosthetic",
+        "confidence": "ok"
+       }
+      },
+      {
+       "label": "12. Visual P300 speller (003-2015)",
+       "key": "dataset:bnci:003-2015",
+       "source": "BNCI Horizon 2020",
+       "url": "https://bnci-horizon-2020.eu/database/data-sets/003-2015/",
+       "attrs": {
+        "id": "003-2015",
+        "participants": 10,
+        "signals": 8,
+        "bci6plus1": [
+         "brain_control"
+        ],
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ]
+       },
+       "rel": "relevant_to",
+       "edge_attrs": {
+        "match": "p300 speller",
+        "confidence": "ok"
+       }
+      },
+      {
+       "label": "2. Two class motor imagery (002-2014)",
+       "key": "dataset:bnci:002-2014",
+       "source": "BNCI Horizon 2020",
+       "url": "https://bnci-horizon-2020.eu/database/data-sets/002-2014/",
+       "attrs": {
+        "id": "002-2014",
+        "participants": 14,
+        "signals": 15,
+        "bci6plus1": [
+         "brain_control"
+        ],
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ]
+       },
+       "rel": "relevant_to",
+       "edge_attrs": {
+        "match": "motor imagery",
+        "confidence": "ok"
+       }
+      },
+      {
+       "label": "20. ECoG-based BCI based on cognitive control (011-2015)",
+       "key": "dataset:bnci:011-2015",
+       "source": "BNCI Horizon 2020",
+       "url": "https://bnci-horizon-2020.eu/database/data-sets/011-2015/",
+       "attrs": {
+        "id": "011-2015",
+        "participants": 1,
+        "signals": 112,
+        "bci6plus1": [
+         "brain_control"
+        ],
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ]
+       },
+       "rel": "relevant_to",
+       "edge_attrs": {
+        "match": "ecog",
+        "confidence": "ok"
+       }
+      },
+      {
+       "label": "23. ECoG-based 1-class motor imagery BCI (001-2016)",
+       "key": "dataset:bnci:001-2016",
+       "source": "BNCI Horizon 2020",
+       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2016/",
+       "attrs": {
+        "id": "001-2016",
+        "participants": 10,
+        "signals": 64,
+        "bci6plus1": [
+         "brain_control"
+        ],
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ]
+       },
+       "rel": "relevant_to",
+       "edge_attrs": {
+        "match": "motor imagery",
+        "confidence": "ok"
+       }
+      },
+      {
+       "label": "25. Upper limb movement decoding from EEG (001-2017)",
+       "key": "dataset:bnci:001-2017",
+       "source": "BNCI Horizon 2020",
+       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2017/",
+       "attrs": {
+        "id": "001-2017",
+        "participants": 15,
+        "signals": 61,
+        "bci6plus1": [
+         "brain_control"
+        ],
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ]
+       },
+       "rel": "relevant_to",
+       "edge_attrs": {
+        "match": "movement decoding",
+        "confidence": "ok"
+       }
+      },
+      {
+       "label": "27. Reach and Grasp movement decoding from EEG with gel, water and dry electrodes (001-2020)",
+       "key": "dataset:bnci:001-2020",
+       "source": "BNCI Horizon 2020",
+       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2020/",
+       "attrs": {
+        "id": "001-2020",
+        "participants": 15,
+        "signals": 32,
+        "bci6plus1": [
+         "microneedle",
+         "brain_control"
+        ],
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ]
+       },
+       "rel": "relevant_to",
+       "edge_attrs": {
+        "match": "movement decoding",
+        "confidence": "ok"
+       }
+      },
+      {
+       "label": "28. Spatial attention shifts to colored items - an EEG-based BCI (002-2020)",
+       "key": "dataset:bnci:002-2020",
+       "source": "BNCI Horizon 2020",
+       "url": "https://bnci-horizon-2020.eu/database/data-sets/002-2020/",
+       "attrs": {
+        "id": "002-2020",
+        "participants": 18,
+        "signals": 29,
+        "bci6plus1": [
+         "brain_control"
+        ],
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ]
+       },
+       "rel": "relevant_to",
+       "edge_attrs": {
+        "match": "eeg-based",
+        "confidence": "ok"
+       }
+      },
+      {
+       "label": "33. Asynchronous right-hand movements for brain click applications (001-2026)",
+       "key": "dataset:bnci:001-2026",
+       "source": "BNCI Horizon 2020",
+       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2026/",
+       "attrs": {
+        "id": "001-2026",
+        "participants": 25,
+        "signals": 60,
+        "bci6plus1": [
+         "brain_control"
+        ],
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ]
+       },
+       "rel": "relevant_to",
+       "edge_attrs": {
+        "match": "brain click",
+        "confidence": "ok"
+       }
+      },
+      {
+       "label": "4. Two class motor imagery (004-2014)",
+       "key": "dataset:bnci:004-2014",
+       "source": "BNCI Horizon 2020",
+       "url": "https://bnci-horizon-2020.eu/database/data-sets/004-2014/",
+       "attrs": {
+        "id": "004-2014",
+        "participants": null,
+        "signals": null,
+        "bci6plus1": [
+         "brain_control"
+        ],
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ]
+       },
+       "rel": "relevant_to",
+       "edge_attrs": {
+        "match": "motor imagery",
+        "confidence": "ok"
+       }
+      },
+      {
+       "label": "8. P300 speller with ALS patients (008-2014)",
+       "key": "dataset:bnci:008-2014",
+       "source": "BNCI Horizon 2020",
+       "url": "https://bnci-horizon-2020.eu/database/data-sets/008-2014/",
+       "attrs": {
+        "id": "008-2014",
+        "participants": 8,
+        "signals": 8,
+        "bci6plus1": [
+         "brain_control"
+        ],
+        "chain_stage": "downstream",
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ]
+       },
+       "rel": "relevant_to",
+       "edge_attrs": {
+        "match": "p300 speller",
+        "confidence": "ok"
+       }
+      },
+      {
+       "label": "9. Covert and overt ERP-based BCI (009-2014)",
+       "key": "dataset:bnci:009-2014",
+       "source": "BNCI Horizon 2020",
+       "url": "https://bnci-horizon-2020.eu/database/data-sets/009-2014/",
+       "attrs": {
+        "id": "009-2014",
+        "participants": 10,
+        "signals": 16,
+        "bci6plus1": [
+         "brain_control"
+        ],
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ]
+       },
+       "rel": "relevant_to",
+       "edge_attrs": {
+        "match": "erp-based",
+        "confidence": "ok"
+       }
+      },
+      {
+       "label": "BCI-FIT: A customization protocol for communication brain-computer interface systems.",
+       "key": "dataset:openneuro:ds007720",
+       "source": "OpenNeuro",
+       "url": "https://openneuro.org/datasets/ds007720",
+       "attrs": {
+        "id": "ds007720",
+        "format": "BIDS",
+        "bci6plus1": [
+         "brain_control"
+        ],
+        "chain_stage": "midstream",
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ]
+       },
+       "rel": "relevant_to",
+       "edge_attrs": {
+        "match": "brain-computer interface",
+        "confidence": "ok"
+       }
+      },
+      {
+       "label": "BCItempo",
+       "key": "dataset:openneuro:ds002720",
+       "source": "OpenNeuro",
+       "url": "https://openneuro.org/datasets/ds002720",
+       "attrs": {
+        "id": "ds002720",
+        "format": "BIDS",
+        "bci6plus1": [
+         "brain_control"
+        ],
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ]
+       },
+       "rel": "relevant_to",
+       "edge_attrs": {
+        "match": "bci",
+        "confidence": "ok"
+       }
+      }
+     ]
+    },
+    {
+     "kind": "institute",
+     "kind_label": "科研承担单位",
+     "transfer": "技术出让方：职务成果的所有权一侧",
+     "weight": 2,
+     "items": [
+      {
+       "label": "中国医学科学院生物医学工程研究所",
+       "key": "actor:unknown",
+       "source": "实施方案（项目文档）",
+       "url": "",
+       "attrs": {
+        "short": "医工所",
+        "chain": "创新链",
+        "fact": "6+1 技术部署的实施主体（项目承担单位）",
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ],
+        "_sources": [
+         "实施方案（项目文档）"
+        ]
+       },
+       "rel": "works_on",
+       "edge_attrs": {
+        "basis": "高校调研对象；基础科学前沿"
+       }
+      }
+     ]
+    },
+    {
+     "kind": "publication",
+     "kind_label": "论文/方法学",
+     "transfer": "方法学资产：可授权 know-how，也可作专利布局基础",
+     "weight": 1,
+     "items": [
+      {
+       "label": "Brain Neuroplasticity Leveraging Virtual Reality and Brain-Computer Interface Technologies",
+       "key": "pmid:39275636",
+       "source": "PubMed",
+       "url": "https://pubmed.ncbi.nlm.nih.gov/39275636/",
+       "attrs": {
+        "pmid": "39275636",
+        "journal": "Sensors (Basel)",
+        "date": "2024 Sep 3",
+        "bci6plus1": [
+         "brain_control"
+        ],
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ]
+       },
+       "rel": "relevant_to",
+       "edge_attrs": {
+        "match": "brain-computer interface",
+        "confidence": "ok"
+       }
+      },
+      {
+       "label": "Brain-Computer Interface: Advancement and Challenges",
+       "key": "pmid:34502636",
+       "source": "PubMed",
+       "url": "https://pubmed.ncbi.nlm.nih.gov/34502636/",
+       "attrs": {
+        "pmid": "34502636",
+        "journal": "Sensors (Basel)",
+        "date": "2021 Aug 26",
+        "bci6plus1": [
+         "brain_control"
+        ],
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ]
+       },
+       "rel": "relevant_to",
+       "edge_attrs": {
+        "match": "brain-computer interface",
+        "confidence": "ok"
+       }
+      },
+      {
+       "label": "State-of-the-Art on Brain-Computer Interface Technology",
+       "key": "pmid:37447849",
+       "source": "PubMed",
+       "url": "https://pubmed.ncbi.nlm.nih.gov/37447849/",
+       "attrs": {
+        "pmid": "37447849",
+        "journal": "Sensors (Basel)",
+        "date": "2023 Jun 28",
+        "bci6plus1": [
+         "brain_control"
+        ],
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ]
+       },
+       "rel": "relevant_to",
+       "edge_attrs": {
+        "match": "brain-computer interface",
+        "confidence": "ok"
+       }
+      }
+     ]
+    },
+    {
+     "kind": "trial",
+     "kind_label": "在研临床试验",
+     "transfer": "在研项目：可按适应症/中心做合作或早期授权",
+     "weight": 3,
+     "items": [
+      {
+       "label": "Brain Computer Interfaces (Mu Rhythm Learning)",
+       "key": "nct:NCT02011399",
+       "source": "ClinicalTrials.gov",
+       "url": "https://clinicaltrials.gov/study/NCT02011399",
+       "attrs": {
+        "nct": "NCT02011399",
+        "phase": null,
+        "status": "TERMINATED",
+        "bci6plus1": [
+         "brain_control"
+        ],
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ]
+       },
+       "rel": "relevant_to",
+       "edge_attrs": {
+        "match": "brain computer interface",
+        "confidence": "ok"
+       }
+      },
+      {
+       "label": "Using Motor Imagery-based Brain-computer Interface With Multiple Sclerosis Patients.",
+       "key": "nct:NCT07472556",
+       "source": "ClinicalTrials.gov",
+       "url": "https://clinicaltrials.gov/study/NCT07472556",
+       "attrs": {
+        "nct": "NCT07472556",
+        "phase": "NA",
+        "status": "NOT_YET_RECRUITING",
+        "bci6plus1": [
+         "brain_control"
+        ],
+        "chain_stage": "downstream",
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ]
+       },
+       "rel": "relevant_to",
+       "edge_attrs": {
+        "match": "brain-computer interface",
+        "confidence": "ok"
+       }
+      }
+     ]
+    }
+   ],
+   "capital_attention": [
+    {
+     "board": "脑机接口",
+     "constituents": 50,
+     "mcap_yi": 6925.63,
+     "source": "同花顺概念板块",
+     "url": "http://q.10jqka.com.cn/gn/detail/code/308535/"
+    },
+    {
+     "board": "阿尔茨海默概念",
+     "constituents": 36,
+     "mcap_yi": 4565.4,
+     "source": "同花顺概念板块",
+     "url": "http://q.10jqka.com.cn/gn/detail/code/308614/"
+    }
+   ],
+   "empty": false,
+   "empty_reason": "",
+   "share": 42.4
+  },
+  {
+   "direction": "microneedle",
+   "name": "微针电极",
+   "tech_params": "通道数; 长期稳定性; 阻抗漂移; TRL",
+   "score": 19,
+   "evidence_kinds": [
+    "company",
+    "dataset",
+    "device",
+    "institute"
+   ],
+   "counts": {
+    "company": 2,
+    "dataset": 1,
+    "device": 3,
+    "institute": 1
+   },
+   "transferables": [
+    {
+     "kind": "company",
+     "kind_label": "企业技术主体",
+     "transfer": "产业化载体：可直接对接的承接方",
+     "weight": 2,
+     "items": [
+      {
+       "label": "脑虎科技",
+       "key": "actor:neuroxess",
+       "source": "实施方案（项目文档）",
+       "url": "",
+       "attrs": {
+        "short": "NeuroXess",
+        "chain": "产业链",
+        "fact": "国家制造业转型升级基金以7+3年长存续期投资的企业之一",
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ]
+       },
+       "rel": "works_on",
+       "edge_attrs": {
+        "basis": "国家制造业转型升级基金以7+3年长存续期投资的企业之一"
+       }
+      },
+      {
+       "label": "阶梯医疗",
+       "key": "actor:stairmed",
+       "source": "实施方案（项目文档）",
+       "url": "",
+       "attrs": {
+        "short": "StairMed",
+        "chain": "产业链",
+        "fact": "WRS 01 已完成42例长期植入，受试者累计在体时长超5000天",
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ]
+       },
+       "rel": "works_on",
+       "edge_attrs": {
+        "basis": "WRS 01 已完成42例长期植入，受试者累计在体时长超5000天"
+       }
+      }
+     ]
+    },
+    {
+     "kind": "dataset",
+     "kind_label": "数据集",
+     "transfer": "数据资产：可授权/可复现，是算法类成果的载体",
+     "weight": 1,
+     "items": [
+      {
+       "label": "27. Reach and Grasp movement decoding from EEG with gel, water and dry electrodes (001-2020)",
+       "key": "dataset:bnci:001-2020",
+       "source": "BNCI Horizon 2020",
+       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2020/",
+       "attrs": {
+        "id": "001-2020",
+        "participants": 15,
+        "signals": 32,
+        "bci6plus1": [
+         "microneedle",
+         "brain_control"
+        ],
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ]
+       },
+       "rel": "relevant_to",
+       "edge_attrs": {
+        "match": "dry electrode",
+        "confidence": "ok"
+       }
+      }
+     ]
+    },
+    {
+     "kind": "device",
+     "kind_label": "器械注册/上市许可",
+     "transfer": "合规锚点：已有主管当局受理或放行的产品，可作许可与合资标的",
+     "weight": 4,
+     "items": [
+      {
+       "label": "ELECTROENCEPHALOGRAPH (EEG) (K960170)",
+       "key": "fda510k:K960170",
+       "source": "openFDA 510(k)",
+       "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K960170",
+       "attrs": {
+        "k_number": "K960170",
+        "class": "2",
+        "decision_date": "1996-03-01",
+        "bci6plus1": [
+         "microneedle"
+        ],
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ]
+       },
+       "rel": "relevant_to",
+       "edge_attrs": {
+        "match": "electroencephalograph",
+        "confidence": "ok"
+       }
+      },
+      {
+       "label": "ELECTROENCEPHALOGRAPH ACCUTRACE 100 (K781041)",
+       "key": "fda510k:K781041",
+       "source": "openFDA 510(k)",
+       "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K781041",
+       "attrs": {
+        "k_number": "K781041",
+        "class": "2",
+        "decision_date": "1978-06-28",
+        "bci6plus1": [
+         "microneedle"
+        ],
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ]
+       },
+       "rel": "relevant_to",
+       "edge_attrs": {
+        "match": "electroencephalograph",
+        "confidence": "weak"
+       }
+      },
+      {
+       "label": "P460, DG32 ELECTROENCEPHALOGRAPH (K896666)",
+       "key": "fda510k:K896666",
+       "source": "openFDA 510(k)",
+       "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K896666",
+       "attrs": {
+        "k_number": "K896666",
+        "class": "2",
+        "decision_date": "1990-02-16",
+        "bci6plus1": [
+         "microneedle"
+        ],
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ]
+       },
+       "rel": "relevant_to",
+       "edge_attrs": {
+        "match": "electroencephalograph",
+        "confidence": "weak"
+       }
+      }
+     ]
+    },
+    {
+     "kind": "institute",
+     "kind_label": "科研承担单位",
+     "transfer": "技术出让方：职务成果的所有权一侧",
+     "weight": 2,
+     "items": [
+      {
+       "label": "中国医学科学院生物医学工程研究所",
+       "key": "actor:unknown",
+       "source": "实施方案（项目文档）",
+       "url": "",
+       "attrs": {
+        "short": "医工所",
+        "chain": "创新链",
+        "fact": "6+1 技术部署的实施主体（项目承担单位）",
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ],
+        "_sources": [
+         "实施方案（项目文档）"
+        ]
+       },
+       "rel": "works_on",
+       "edge_attrs": {
+        "basis": "2025年10月底完成国内首例全植入、全无线、全功能柔性脑机接口植入（28岁高位截瘫）"
+       }
+      }
+     ]
+    }
+   ],
+   "capital_attention": [],
+   "empty": false,
+   "empty_reason": "",
+   "share": 28.8
+  },
+  {
+   "direction": "skull_interface",
+   "name": "生物人工脑盖骨双向接口",
+   "tech_params": "双向传输误码率; TRL",
+   "score": 6,
+   "evidence_kinds": [
+    "company",
+    "institute"
+   ],
+   "counts": {
+    "company": 2,
+    "institute": 1
+   },
+   "transferables": [
+    {
+     "kind": "company",
+     "kind_label": "企业技术主体",
+     "transfer": "产业化载体：可直接对接的承接方",
+     "weight": 2,
+     "items": [
+      {
+       "label": "脑虎科技",
+       "key": "actor:neuroxess",
+       "source": "实施方案（项目文档）",
+       "url": "",
+       "attrs": {
+        "short": "NeuroXess",
+        "chain": "产业链",
+        "fact": "国家制造业转型升级基金以7+3年长存续期投资的企业之一",
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ]
+       },
+       "rel": "works_on",
+       "edge_attrs": {
+        "basis": "国家制造业转型升级基金以7+3年长存续期投资的企业之一"
+       }
+      },
+      {
+       "label": "阶梯医疗",
+       "key": "actor:stairmed",
+       "source": "实施方案（项目文档）",
+       "url": "",
+       "attrs": {
+        "short": "StairMed",
+        "chain": "产业链",
+        "fact": "WRS 01 已完成42例长期植入，受试者累计在体时长超5000天",
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ]
+       },
+       "rel": "works_on",
+       "edge_attrs": {
+        "basis": "WRS 01 已完成42例长期植入，受试者累计在体时长超5000天"
+       }
+      }
+     ]
+    },
+    {
+     "kind": "institute",
+     "kind_label": "科研承担单位",
+     "transfer": "技术出让方：职务成果的所有权一侧",
+     "weight": 2,
+     "items": [
+      {
+       "label": "中国医学科学院生物医学工程研究所",
+       "key": "actor:unknown",
+       "source": "实施方案（项目文档）",
+       "url": "",
+       "attrs": {
+        "short": "医工所",
+        "chain": "创新链",
+        "fact": "6+1 技术部署的实施主体（项目承担单位）",
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ],
+        "_sources": [
+         "实施方案（项目文档）"
+        ]
+       },
+       "rel": "works_on",
+       "edge_attrs": {
+        "basis": "颅骨改性技术（超声在颅骨局部形成微孔改善跨颅信号传导）的早期探索"
+       }
+      }
+     ]
+    }
+   ],
+   "capital_attention": [],
+   "empty": false,
+   "empty_reason": "",
+   "share": 9.1
+  },
+  {
+   "direction": "neuromodulation",
+   "name": "神经调控",
+   "tech_params": "闭环延迟; 多模态刺激参数>=4类(电/磁/声/光)",
+   "score": 4,
+   "evidence_kinds": [
+    "company",
+    "institute"
+   ],
+   "counts": {
+    "company": 1,
+    "institute": 1
+   },
+   "transferables": [
+    {
+     "kind": "company",
+     "kind_label": "企业技术主体",
+     "transfer": "产业化载体：可直接对接的承接方",
+     "weight": 2,
+     "items": [
+      {
+       "label": "博睿康",
+       "key": "actor:neuracle",
+       "source": "实施方案（项目文档）",
+       "url": "",
+       "attrs": {
+        "short": "Neuracle",
+        "chain": "产业链",
+        "fact": "NEO-ONE SCI 于2026年3月获批第三类医疗器械注册证，全球首款获批上市的侵入式BCI医疗器械",
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ]
+       },
+       "rel": "works_on",
+       "edge_attrs": {
+        "basis": "NEO-ONE SCI 于2026年3月获批第三类医疗器械注册证，全球首款获批上市的侵入式BCI医疗器械"
+       }
+      }
+     ]
+    },
+    {
+     "kind": "institute",
+     "kind_label": "科研承担单位",
+     "transfer": "技术出让方：职务成果的所有权一侧",
+     "weight": 2,
+     "items": [
+      {
+       "label": "中国医学科学院生物医学工程研究所",
+       "key": "actor:unknown",
+       "source": "实施方案（项目文档）",
+       "url": "",
+       "attrs": {
+        "short": "医工所",
+        "chain": "创新链",
+        "fact": "6+1 技术部署的实施主体（项目承担单位）",
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ],
+        "_sources": [
+         "实施方案（项目文档）"
+        ]
+       },
+       "rel": "works_on",
+       "edge_attrs": {
+        "basis": "全球首例'北脑一号+时序脊髓电刺激+外骨骼'联合治疗，完全性脊髓损伤跨级修复"
+       }
+      }
+     ]
+    }
+   ],
+   "capital_attention": [],
+   "empty": false,
+   "empty_reason": "",
+   "share": 6.1
+  },
+  {
+   "direction": "magneto_acoustic",
+   "name": "脑深区磁声成像",
+   "tech_params": "深区空间分辨; 无创穿透量(cm级); 颅骨等效衰减量",
+   "score": 4,
+   "evidence_kinds": [
+    "company",
+    "institute"
+   ],
+   "counts": {
+    "company": 1,
+    "institute": 1
+   },
+   "transferables": [
+    {
+     "kind": "company",
+     "kind_label": "企业技术主体",
+     "transfer": "产业化载体：可直接对接的承接方",
+     "weight": 2,
+     "items": [
+      {
+       "label": "联影医疗",
+       "key": "actor:united-imaging",
+       "source": "实施方案（项目文档）",
+       "url": "",
+       "attrs": {
+        "short": "United Imaging",
+        "chain": "产业链",
+        "fact": "医工全重共建单位；脑成像与脑活动观测技术创新合作",
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ]
+       },
+       "rel": "works_on",
+       "edge_attrs": {
+        "basis": "医工全重共建单位；脑成像与脑活动观测技术创新合作"
+       }
+      }
+     ]
+    },
+    {
+     "kind": "institute",
+     "kind_label": "科研承担单位",
+     "transfer": "技术出让方：职务成果的所有权一侧",
+     "weight": 2,
+     "items": [
+      {
+       "label": "中国医学科学院生物医学工程研究所",
+       "key": "actor:unknown",
+       "source": "实施方案（项目文档）",
+       "url": "",
+       "attrs": {
+        "short": "医工所",
+        "chain": "创新链",
+        "fact": "6+1 技术部署的实施主体（项目承担单位）",
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ],
+        "_sources": [
+         "实施方案（项目文档）"
+        ]
+       },
+       "rel": "works_on",
+       "edge_attrs": {
+        "basis": "6+1 技术部署的实施主体（项目承担单位）"
+       }
+      }
+     ]
+    }
+   ],
+   "capital_attention": [],
+   "empty": false,
+   "empty_reason": "",
+   "share": 6.1
+  },
+  {
+   "direction": "neurorepair",
+   "name": "神经修复",
+   "tech_params": "运动/感觉/语言功能修复评价参数体系",
+   "score": 3,
+   "evidence_kinds": [
+    "dataset",
+    "institute"
+   ],
+   "counts": {
+    "dataset": 1,
+    "institute": 1
+   },
+   "transferables": [
+    {
+     "kind": "dataset",
+     "kind_label": "数据集",
+     "transfer": "数据资产：可授权/可复现，是算法类成果的载体",
+     "weight": 1,
+     "items": [
+      {
+       "label": "26. Attempted arm and hand movements in persons with spinal cord injury (001-2019)",
+       "key": "dataset:bnci:001-2019",
+       "source": "BNCI Horizon 2020",
+       "url": "https://bnci-horizon-2020.eu/database/data-sets/001-2019/",
+       "attrs": {
+        "id": "001-2019",
+        "participants": 10,
+        "signals": 61,
+        "bci6plus1": [
+         "neurorepair"
+        ],
+        "chain_stage": "midstream",
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ]
+       },
+       "rel": "relevant_to",
+       "edge_attrs": {
+        "match": "spinal cord injury",
+        "confidence": "ok"
+       }
+      }
+     ]
+    },
+    {
+     "kind": "institute",
+     "kind_label": "科研承担单位",
+     "transfer": "技术出让方：职务成果的所有权一侧",
+     "weight": 2,
+     "items": [
+      {
+       "label": "中国医学科学院生物医学工程研究所",
+       "key": "actor:unknown",
+       "source": "实施方案（项目文档）",
+       "url": "",
+       "attrs": {
+        "short": "医工所",
+        "chain": "创新链",
+        "fact": "6+1 技术部署的实施主体（项目承担单位）",
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ],
+        "_sources": [
+         "实施方案（项目文档）"
+        ]
+       },
+       "rel": "works_on",
+       "edge_attrs": {
+        "basis": "全球首例'北脑一号+时序脊髓电刺激+外骨骼'联合治疗，完全性脊髓损伤跨级修复"
+       }
+      }
+     ]
+    }
+   ],
+   "capital_attention": [],
+   "empty": false,
+   "empty_reason": "",
+   "share": 4.5
+  },
+  {
+   "direction": "organoid",
+   "name": "+1 类器官/片上脑机接口",
+   "tech_params": "离体类脑器官双向耦合存活天数; 可稳定记录时长",
+   "score": 2,
+   "evidence_kinds": [
+    "institute"
+   ],
+   "counts": {
+    "institute": 1
+   },
+   "transferables": [
+    {
+     "kind": "institute",
+     "kind_label": "科研承担单位",
+     "transfer": "技术出让方：职务成果的所有权一侧",
+     "weight": 2,
+     "items": [
+      {
+       "label": "中国医学科学院生物医学工程研究所",
+       "key": "actor:unknown",
+       "source": "实施方案（项目文档）",
+       "url": "",
+       "attrs": {
+        "short": "医工所",
+        "chain": "创新链",
+        "fact": "6+1 技术部署的实施主体（项目承担单位）",
+        "chains": [
+         "产业链",
+         "创新链",
+         "人才链",
+         "资金链"
+        ],
+        "_sources": [
+         "实施方案（项目文档）"
+        ]
+       },
+       "rel": "works_on",
+       "edge_attrs": {
+        "basis": "2024年7月研发全球首个片上脑机接口智能交互系统（培养脑控制机器人避障/抓握）"
+       }
+      }
+     ]
+    }
+   ],
+   "capital_attention": [],
+   "empty": false,
+   "empty_reason": "",
+   "share": 3.0
+  }
+ ],
+ "total_score": 66,
+ "weights": {
+  "device": {
+   "label": "器械注册/上市许可",
+   "weight": 4,
+   "transfer": "合规锚点：已有主管当局受理或放行的产品，可作许可与合资标的"
+  },
+  "trial": {
+   "label": "在研临床试验",
+   "weight": 3,
+   "transfer": "在研项目：可按适应症/中心做合作或早期授权"
+  },
+  "company": {
+   "label": "企业技术主体",
+   "weight": 2,
+   "transfer": "产业化载体：可直接对接的承接方"
+  },
+  "institute": {
+   "label": "科研承担单位",
+   "weight": 2,
+   "transfer": "技术出让方：职务成果的所有权一侧"
+  },
+  "publication": {
+   "label": "论文/方法学",
+   "weight": 1,
+   "transfer": "方法学资产：可授权 know-how，也可作专利布局基础"
+  },
+  "dataset": {
+   "label": "数据集",
+   "weight": 1,
+   "transfer": "数据资产：可授权/可复现，是算法类成果的载体"
+  },
+  "disclosure": {
+   "label": "上市公司披露",
+   "weight": 1,
+   "transfer": "资本市场证据：说明已有主体押注，可用于对接买方"
+  },
+  "listed_company": {
+   "label": "上市公司(板块)",
+   "weight": 1,
+   "transfer": "潜在买方/承接方（板块归类，非技术判定）"
+  }
+ },
+ "source_graph": "industry.graph.json"
+}

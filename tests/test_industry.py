@@ -277,3 +277,83 @@ def test_unknown_board_id_is_refused_by_name_not_silently_ignored(monkeypatch):
     from entitygraph.model import Graph
     g, summ = MK.build_market_layer(Graph(), boards=("nosuchboard",), keywords=())
     assert summ["notes"] and "board id" in summ["notes"][0]["error"]
+
+
+# ------------------------------------------------------------------ 成果清单
+from entitygraph import deliverables as DL  # noqa: E402
+
+
+def _sample_graph(tmp_path):
+    nodes = [
+        {"key": "dir:brain_control", "kind": "bci_direction", "label": "脑控装备",
+         "attrs": {"tech_params": "信息传输率"}, "source": "s", "url": ""},
+        {"key": "dir:microneedle", "kind": "bci_direction", "label": "微针电极",
+         "attrs": {"tech_params": "阻抗"}, "source": "s", "url": ""},
+        {"key": "dir:emptyone", "kind": "bci_direction", "label": "空白路线",
+         "attrs": {}, "source": "s", "url": ""},
+        {"key": "d1", "kind": "dataset", "label": "set", "attrs": {}, "source": "OpenNeuro",
+         "url": "http://x/1"},
+        {"key": "comp1", "kind": "company", "label": "脑虎科技", "attrs": {"fact": "f"},
+         "source": "方案", "url": ""},
+        {"key": "board:1", "kind": "market_board", "label": "脑机接口",
+         "attrs": {"ths_code": "308535", "constituents": 50, "mcap_yi": 6925.6},
+         "source": "同花顺", "url": ""},
+        {"key": "ann1", "kind": "disclosure", "label": "关于脑机接口的自愿性公告",
+         "attrs": {}, "source": "巨潮", "url": "http://y"},
+    ]
+    edges = [
+        {"src": "d1", "dst": "dir:brain_control", "rel": "relevant_to",
+         "attrs": {"confidence": "weak", "keyword": "eeg"}, "source": "", "url": ""},
+        {"src": "comp1", "dst": "dir:brain_control", "rel": "works_on", "attrs": {},
+         "source": "", "url": ""},
+        {"src": "ann1", "dst": "dir:brain_control", "rel": "mentions_direction",
+         "attrs": {"confidence": "ok", "keyword": "脑机接口"}, "source": "", "url": ""},
+        {"src": "board:1", "dst": "dir:brain_control", "rel": "market_attention_on",
+         "attrs": {"board": "脑机接口", "constituents": 50, "mcap_yi": 6925.6},
+         "source": "同花顺", "url": ""},
+    ]
+    path = tmp_path / "g.json"
+    path.write_text(json.dumps({"nodes": nodes, "edges": edges}, ensure_ascii=False),
+                    encoding="utf-8")
+    return str(path)
+
+
+def test_score_is_the_published_formula_and_nothing_else(tmp_path):
+    b = DL.build_deliverables(_sample_graph(tmp_path))
+    by = {r["direction"]: r for r in b["routes"]}
+    # dataset(1) + company(2) + disclosure(1) = 4
+    assert by["brain_control"]["score"] == 4
+    assert b["weights"]["dataset"]["weight"] == 1
+    assert b["weights"]["device"]["weight"] == 4
+
+
+def test_market_cap_never_enters_the_technology_score(tmp_path):
+    b = DL.build_deliverables(_sample_graph(tmp_path))
+    bc = [r for r in b["routes"] if r["direction"] == "brain_control"][0]
+    assert bc["score"] == 4, "6925亿 of market cap must not raise a density score"
+    assert bc["capital_attention"] and bc["capital_attention"][0]["mcap_yi"] == 6925.6
+
+
+def test_a_route_with_no_evidence_is_reported_empty_not_filled(tmp_path):
+    b = DL.build_deliverables(_sample_graph(tmp_path))
+    e = [r for r in b["routes"] if r["direction"] == "emptyone"][0]
+    assert e["empty"] is True and e["score"] == 0
+    assert "没有任何一条证据边" in e["empty_reason"]
+
+
+def test_weak_hits_are_marked_in_the_rendered_list(tmp_path):
+    md = DL.render_markdown(DL.build_deliverables(_sample_graph(tmp_path)))
+    assert "弱命中：eeg" in md
+    assert "证据密度" in md and "不是估值" in md.replace("*", "")
+
+
+def test_rendered_list_says_what_it_cannot_answer(tmp_path):
+    md = DL.render_markdown(DL.build_deliverables(_sample_graph(tmp_path)))
+    for phrase in ("FTO", "非上市公司", "穷举"):
+        assert phrase in md
+
+
+def test_short_cjk_keyword_inside_an_unrelated_word_is_refused():
+    # 「电脑控制系统」 must not become 脑控装备 evidence (measured on a real cninfo title)
+    assert D.classify("睿能科技：针织袜机电脑控制系统生产基地项目") == []
+    assert D.classify("脑控轮椅与脑控接口")[0]["direction"] == "brain_control"

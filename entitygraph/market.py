@@ -44,12 +44,18 @@ BOARDS = {
 
 def _get_gbk(url: str, referer: str = "http://q.10jqka.com.cn/", timeout: float = 30.0) -> str:
     """同花顺 serves gb18030 and drops clients without a browser UA + referer."""
-    req = urllib.request.Request(url, headers={"User-Agent": BROWSER_UA, "Referer": referer})
-    try:
-        with urllib.request.urlopen(req, timeout=timeout, context=SSL_CONTEXT) as r:
-            return r.read().decode("gb18030", "ignore")
-    except Exception as e:
-        raise FetchError("%s: %s <- %s" % (type(e).__name__, e, url)) from e
+    # 同花顺 drops a request now and then (measured: 阿尔茨海默概念 第4页 TimeoutError).
+    # Two retries with a short backoff, then the caller is told which URL died.
+    last = None
+    for attempt in range(3):
+        req = urllib.request.Request(url, headers={"User-Agent": BROWSER_UA, "Referer": referer})
+        try:
+            with urllib.request.urlopen(req, timeout=timeout, context=SSL_CONTEXT) as r:
+                return r.read().decode("gb18030", "ignore")
+        except Exception as e:
+            last = e
+            time.sleep(1.2 * (attempt + 1))
+    raise FetchError("%s: %s <- %s (3 attempts)" % (type(last).__name__, last, url)) from last
 
 
 # ------------------------------------------------------------------ boards
