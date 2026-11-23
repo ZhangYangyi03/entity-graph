@@ -969,6 +969,21 @@ THEME_LEAD_COMPANIES = (
 # ------------------------------------------------------------------ driver
 LAYERS = ("trade", "diplomatic", "unvotes", "market", "gleif")
 
+# 这一层自己产出的关系。重复构建时必须先摘掉，否则每跑一次就在旧图上再叠一遍：
+# 实测中国建交度从 742 涨到 2968，看起来像数据变多了，其实是同一批边被加了四次。
+GEO_RELS = (
+    "bci_biopharma_exports_to", "bci_biopharma_imports_from", "registered_in",
+    "consolidated_by", "has_diplomatic_relations_with", "votes_with",
+    "market_comoves_with", "moves_with_bci_biopharma_sector",
+)
+
+
+def strip_geo(g: Graph) -> int:
+    before = len(g.edges)
+    for key in [k for k, e in g.edges.items() if e.rel in GEO_RELS]:
+        g.edges.pop(key, None)
+    return before - len(g.edges)
+
 
 def attach_trade_cached(g: Graph, idx: dict[str, str] | None = None) -> dict:
     """Turn whatever is already in the trade cache into edges. No network."""
@@ -1061,6 +1076,12 @@ def attach_all(g: Graph, layers=LAYERS) -> dict:
                                    % (gl["companies"], gl["theme_name_match"],
                                       gl["dropped_off_theme"], gl["registered_in"],
                                       gl["consolidated_by"])})
+    notes.append({"source": "BIS / IMF CDIS / OECD FDI", "what": "官方双边金融流量",
+                  "error": "三个源在本机全部不可达（BIS 406/404，IMF data 500，OECD 406），"
+                           "所以金融层用股指同步性代替，并标明它不是资本流"})
+    g._notes = notes  # type: ignore[attr-defined]
+    g._geo_stats = stats  # type: ignore[attr-defined]
+    return stats
 
 
 def geo_report(g: Graph, top: int = 8) -> str:

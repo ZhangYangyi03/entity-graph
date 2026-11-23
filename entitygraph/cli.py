@@ -438,7 +438,7 @@ def main(argv=None) -> int:
 
     gp = sub.add_parser("geo", help="商业/政治/金融三层国家间关系（并回 all.graph.json）")
     gp.add_argument("--into", default="all.graph.json", help="在这张图上叠加，缺就用 world")
-    gp.add_argument("--layers", default="trade,diplomatic,unvotes,market")
+    gp.add_argument("--layers", default="trade,diplomatic,unvotes,market,gleif")
     gp.add_argument("--fetch-trade", action="store_true",
                     help="联网补取 Comtrade（限额内）；不加则只用缓存，避免整张图被限流卡死")
     gp.add_argument("--out", default="")
@@ -485,11 +485,14 @@ def main(argv=None) -> int:
         return _finish_graph(g, args, "biomed")
 
     if args.cmd == "geo":
-        from .geopolitics import attach_all, attach_trade, geo_report
+        from .geopolitics import attach_all, attach_trade, geo_report, strip_geo
         from .merge_world import load_graph, merge
         import os as _os
         src = args.into if _os.path.exists(args.into) else None
         g = load_graph(src) if src else merge()
+        n = strip_geo(g)                         # 幂等：不把上一轮的边再叠一遍
+        if n:
+            print("  摘掉上一轮的 %d 条 geo 边，重新构建" % n)
         layers = tuple(x for x in args.layers.split(",") if x)
         if getattr(args, "fetch_trade", False) and "trade" in layers:
             attach_trade(g)                  # explicit: pull what the quota still allows
