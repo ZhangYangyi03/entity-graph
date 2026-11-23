@@ -312,7 +312,8 @@ def _finish_graph(g, args, what: str) -> int:
     if notes:
         print("gaps (a dead source is reported, not hidden):")
         for n in notes:
-            print("  ! %-24s %-18s %s" % (n["source"], n["what"], n["error"][:90]))
+            print("  ! %-24s %-18s %s" % (n.get("source", "?"), n.get("what", "?"),
+                                          (n.get("error") or "")[:90]))
     print("wrote " + args.out)
     return 0
 
@@ -435,6 +436,12 @@ def main(argv=None) -> int:
     ml.add_argument("--out", default="multilingual.graph.json")
     ml.add_argument("--format", choices=["summary", "json", "lines"], default="summary")
 
+    gp = sub.add_parser("geo", help="商业/政治/金融三层国家间关系（并回 all.graph.json）")
+    gp.add_argument("--into", default="all.graph.json", help="在这张图上叠加，缺就用 world")
+    gp.add_argument("--layers", default="trade,diplomatic,unvotes,market")
+    gp.add_argument("--out", default="")
+    gp.add_argument("--format", choices=["summary", "json", "lines"], default="summary")
+
     mg = sub.add_parser("merge", help="把五张图并成一张（按 key 并集 + 补上缺的连线）")
     mg.add_argument("--out", default="all.graph.json")
     mg.add_argument("--format", choices=["summary", "json", "lines"], default="summary")
@@ -474,6 +481,19 @@ def main(argv=None) -> int:
         g = build_biomed_graph(args.symbol, drug=args.drug, diseases=args.diseases,
                                drugs=args.drugs, papers=args.papers)
         return _finish_graph(g, args, "biomed")
+
+    if args.cmd == "geo":
+        from .geopolitics import attach_all, geo_report
+        from .merge_world import load_graph, merge
+        import os as _os
+        src = args.into if _os.path.exists(args.into) else None
+        g = load_graph(src) if src else merge()
+        attach_all(g, tuple(x for x in args.layers.split(",") if x))
+        if args.format == "summary":
+            g.summary_text = geo_report(g)
+        elif args.format == "lines":
+            g.summary_text = g.dumps_lines()
+        return _finish_graph(g, args, "geo")
 
     if args.cmd == "merge":
         from .merge_world import merge, merge_report
