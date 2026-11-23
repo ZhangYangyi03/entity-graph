@@ -431,6 +431,7 @@ def main(argv=None) -> int:
     ml.add_argument("--term", default="brain-computer interface")
     ml.add_argument("--rows", type=int, default=8)
     ml.add_argument("--no-fr-companies", action="store_true")
+    ml.add_argument("--no-cjk", action="store_true", help="跳过 日文 J-STAGE / CiNii")
     ml.add_argument("--out", default="multilingual.graph.json")
     ml.add_argument("--format", choices=["summary", "json", "lines"], default="summary")
 
@@ -454,6 +455,9 @@ def main(argv=None) -> int:
         from .multilingual import build_multilingual_graph, language_report
         g = build_multilingual_graph(args.term, rows=args.rows,
                                      with_fr_companies=not args.no_fr_companies)
+        if not args.no_cjk:
+            from .multilingual import build_cjk_graph
+            g = build_cjk_graph(args.term, count=args.rows, graph=g)
         if args.format == "summary":
             g.summary_text = language_report(g)
         return _finish_graph(g, args, "multilingual")

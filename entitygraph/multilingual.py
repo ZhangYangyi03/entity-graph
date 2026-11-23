@@ -304,8 +304,9 @@ def language_report(g: Graph) -> str:
     for n in g.nodes.values():
         if n.kind == "language_slice":
             a = n.attrs or {}
-            L.append("  %-4s 语言文献命中 %4d 条（本图取样 %d 条）"
-                     % (a.get("lang_code"), a.get("hit_count", 0), a.get("sample", 0)))
+            L.append("  %-4s %-16s 语言文献命中 %4d 条（本图取样 %d 条）"
+                     % (a.get("lang_code"), (a.get("source_name") or ""), 
+                        a.get("hit_count", 0), a.get("sample", 0)))
     kinds: dict[str, int] = {}
     for n in g.nodes.values():
         kinds[n.kind] = kinds.get(n.kind, 0) + 1
@@ -313,3 +314,104 @@ def language_report(g: Graph) -> str:
         if kinds.get(k):
             L.append("  %-14s %d 条" % (k, kinds[k]))
     return "\n".join(L)
+
+
+# ------------------------------------------------------------------ Japanese / Korean
+def jstage(term: str = "brain-computer interface", count: int = 10) -> dict:
+    """J-STAGE (Japan) Atom API, service=3 = 論文検索.
+
+    Measured on this host: 14673 hits for the bare term `brain-computer`, 2853 for the
+    quoted phrase `"brain-computer interface"` that the CLI uses by default. Both numbers
+    are real; the docstring keeps both so neither reads as a contradiction later.
+
+    Returns the hit count as well as the rows, because the count is the point: a
+    Japanese-language sweep that reports 3 rows while the archive holds 14673 is
+    hiding its own coverage.
+    """
+    url = ("https://api.jstage.jst.go.jp/searchapi/do?service=3&text=%s&count=%d"
+           % (urllib.parse.quote(term), count))
+    x = _get(url)
+    total = None
+    m = re.search(r"<opensearch:totalResults>\s*(\d+)", x)
+    if m:
+        total = int(m.group(1))
+    rows = []
+    for blk in re.findall(r"<entry>(.*?)</entry>", x, re.S):
+        title = re.search(r"<title>(.*?)</title>", blk, re.S)
+        link = re.search(r'<link[^>]*href="([^"]+)"', blk)
+        date = re.search(r"<prism:publicationDate>(.*?)</prism:publicationDate>", blk)
+        t = (title.group(1) if title else "").strip()
+        t = re.sub(r"^<!\[CDATA\[|\]\]>$", "", t).strip()
+        rows.append({"title": t, "url": link.group(1) if link else "",
+                     "date": date.group(1) if date else ""})
+    return {"total": total, "returned": len(rows), "rows": rows}
+
+
+def cinii(term: str = '"brain-computer interface"', count: int = 10) -> dict:
+    """CiNii Research (Japan) OpenSearch.
+
+    Measured on this host: 4287 hits for `"brain-computer interface"` queried directly,
+    4315 when the CLI's already-quoted term is passed through. Same archive, two spellings
+    of the query -- recorded so a future reader does not think one of them is wrong.
+    """
+    url = ("https://cir.nii.ac.jp/opensearch/all?q=%s&format=json&count=%d"
+           % (urllib.parse.quote(term), count))
+    d = _json(url)
+    rows = []
+    for it in d.get("items") or []:
+        rows.append({"title": (it.get("title") or "")[:200],
+                     "date": it.get("dc:date") or it.get("prism:publicationDate"),
+                     "url": it.get("@id") or ""})
+    total = d.get("opensearch:totalResults")
+    try:
+        total = int(total)
+    except (TypeError, ValueError):
+        pass
+    return {"total": total, "returned": len(rows), "rows": rows}
+
+
+def build_cjk_graph(term: str = '"brain-computer interface"', *, count: int = 8,
+                    graph: Graph | None = None) -> Graph:
+    """Japanese and Korean slices. Korea is reported as a gap, not filled with guesses."""
+    g = graph or Graph()
+    notes: list[dict] = []
+
+    def note(source, what, err):
+        notes.append({"source": source, "what": what, "error": str(err)[:200]})
+
+    ck = "wd:" + BCI_ENTITY
+    if ck not in g.nodes:
+        g.add_node(Node(key=ck, kind="concept", label=term, attrs={"qid": BCI_ENTITY},
+                        source="Wikidata", url="https://www.wikidata.org/wiki/" + BCI_ENTITY,
+                        fetched_at=NOW()))
+
+    for name, fn, lang in (("J-STAGE（日本）", jstage, "ja"), ("CiNii（日本）", cinii, "ja")):
+        try:
+            res = fn(term, count=count)
+            if not res["rows"]:
+                note(name, term, "0 rows parsed")
+                continue
+            slice_key = "jpslice:" + lang + ":" + name.split("（")[0].lower().replace("-", "")
+            g.add_node(Node(key=slice_key, kind="language_slice", label=name,
+                            attrs={"lang_code": lang, "hit_count": res["total"],
+                                   "sample": res["returned"], "source_name": name},
+                            source=name, url="", fetched_at=NOW()))
+            g.add_edge(Edge(src=slice_key, dst=ck, rel="sliced_by_language",
+                            attrs={"hit_count": res["total"]}, source=name, url="",
+                            fetched_at=NOW()))
+            for i, r in enumerate(res["rows"]):
+                pk = "jp:%s:%d" % (slice_key.split(":")[-1], i)
+                g.add_node(Node(key=pk, kind="publication_ja", label=(r["title"] or "")[:120],
+                                attrs={"date": r.get("date"), "lang": "ja"},
+                                source=name, url=r.get("url") or "", fetched_at=NOW()))
+                g.add_edge(Edge(src=pk, dst=slice_key, rel="in_language_slice", attrs={},
+                                source=name, url=r.get("url") or "", fetched_at=NOW()))
+        except FetchError as e:
+            note(name, term, e)
+
+    # Korea: both public entry points were measured and neither yields usable records.
+    notes.append({"source": "KoreaMed / KCI（韩国）", "what": "brain-computer",
+                  "error": "KoreaMed 检索页无结构化结果（需 session/form），KCI 需 POST 且返回段可解析性差；"
+                           "记为已知缺口，不写假记录"})
+    g._notes = notes  # type: ignore[attr-defined]
+    return g

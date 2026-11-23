@@ -437,3 +437,44 @@ def test_hal_language_filter_is_passed_through_not_ignored():
     finally:
         m.urllib.request.urlopen = orig
     assert "lang_s%3Afr" in seen["url"] or "lang_s:fr" in seen["url"]
+
+
+# ------------------------------------------------------------------ 日文 / 韩文
+def test_jstage_parses_atom_and_keeps_the_archive_total():
+    atom = """<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">
+    <opensearch:totalResults>2853</opensearch:totalResults>
+    <entry><title><![CDATA[A BCI study]]></title>
+      <link href="https://www.jstage.jst.go.jp/article/x/1"/></entry></feed>"""
+
+    class R:
+        def read(self): return atom.encode()
+        def __enter__(self): return self
+        def __exit__(self, *a): return False
+
+    import entitygraph.multilingual as m
+    orig = m.urllib.request.urlopen
+    m.urllib.request.urlopen = lambda req, **k: R()
+    try:
+        res = m.jstage("bci", count=1)
+    finally:
+        m.urllib.request.urlopen = orig
+    assert res["total"] == 2853
+    assert res["rows"][0]["title"] == "A BCI study", "CDATA must be stripped"
+
+
+def test_a_japanese_slice_carries_its_archive_total_not_just_the_sample(monkeypatch):
+    monkeypatch.setattr(ML, "jstage", lambda *a, **k: {
+        "total": 2853, "returned": 1,
+        "rows": [{"title": "jp paper", "url": "http://j/1", "date": "2020"}]})
+    monkeypatch.setattr(ML, "cinii", lambda *a, **k: {"total": 4315, "returned": 0, "rows": []})
+    g = ML.build_cjk_graph(count=1)
+    sl = [n for n in g.nodes.values() if n.kind == "language_slice"]
+    assert sl and sl[0].attrs["hit_count"] == 2853
+
+
+def test_korea_is_a_named_gap_with_no_invented_rows(monkeypatch):
+    monkeypatch.setattr(ML, "jstage", lambda *a, **k: {"total": 0, "returned": 0, "rows": []})
+    monkeypatch.setattr(ML, "cinii", lambda *a, **k: {"total": 0, "returned": 0, "rows": []})
+    g = ML.build_cjk_graph(count=1)
+    assert any("Korea" in n["source"] or "韩国" in n["source"] for n in g._notes)
+    assert not [n for n in g.nodes.values() if n.kind == "publication_ko"]

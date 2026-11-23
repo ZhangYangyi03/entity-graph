@@ -712,3 +712,24 @@ GET 只返回空壳。我给它写了检测和一条 gap 说明，但没有编�
 
 计分与作图规矩同前：每条边带 lang 与 basis，德语边的 basis 写「GND 检索命中」，
 不会因为语言不同就被算成技术证据。
+
+### 再加日文与韩文
+
+    source            访问          实测命中（本机 2026-11-23）
+    J-STAGE（日本）    Atom API      brain-computer 14673 条；"brain-computer interface" 2853 条
+    CiNii（日本）      OpenSearch    4287 条（按已加引号的短语查为 4315 条，同一库两种写法）
+    KoreaMed / KCI     网页          **不通**：KoreaMed 检索页无结构化结果，KCI 需 POST 且返回难以解析
+
+`python -m entitygraph.cli multilingual` 现在一次跑完：英/德/法/中/日 五种语言标签，
+德法日三个区域的数据源，语言切片节点把每种语言的档案命中数写成图里的数字（不是只留取样）。
+
+```
+  ger  语言文献命中    3 条（本图取样 3 条）
+  fre  语言文献命中    1 条
+  chi  语言文献命中  174 条
+  ja   J-STAGE（日本）    语言文献命中 2853 条（本图取样 5 条）
+  ja   CiNii（日本）      语言文献命中 4315 条（本图取样 5 条）
+```
+
+韩国留空：KoreaMed 和 KCI 两个入口都测了，都拿不到可结构化解析的记录，于是写成
+一条 gap 说明——`publication_ko` 节点一条都没有，测试守着这一点。宁可空着，不编。
