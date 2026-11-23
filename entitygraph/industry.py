@@ -40,7 +40,8 @@ def _slug(s: str) -> str:
 
 def build_industry_map(term: str = "brain-computer interface", *, limit: int = 4,
                        bio_symbol: str = "EGFR", with_bio: bool = True,
-                       graph: Graph | None = None) -> Graph:
+                       graph: Graph | None = None,
+                       market: bool = False) -> Graph:
     """Tag every fetched record with its 6+1 direction and chain stage, then link them."""
     g = graph or Graph()
     notes: list[dict] = []
@@ -250,6 +251,41 @@ def build_industry_map(term: str = "brain-computer interface", *, limit: int = 4
         g.add_edge(Edge(src=bk, dst="dir:neuromodulation", rel="feeds",
                         attrs={"basis": "生物制造提供材料/器件上游"},
                         source="实施方案 生物制造定义", url="", fetched_at=NOW()))
+
+    # --- the 商业价值 layer: 板块 -> 上市公司 -> 市值 -> 涉主题公告 ---------------------
+    # Off by default so the offline test suite never touches the wire; the CLI turns it on.
+    if market:
+        from . import market as MK
+        try:
+            g, mk_summary = MK.build_market_layer(
+                g, boards=("bci", "alzheimer"),
+                keywords=("脑机接口", "脑机"),
+                graph_out=True)
+            notes.extend(getattr(g, "_notes", []) or [])
+            g._market_summary = mk_summary  # type: ignore[attr-defined]
+        except Exception as e:                      # a market fetch must not sink the map
+            note("market layer", "board/quotes/disclosures", e)
+
+    # --- bridge: 披露标题 -> 6+1 路线 ------------------------------------------------
+    # A disclosure title is the only public sentence I can read without opening the PDF,
+    # so the edge says exactly that: title-keyword evidence, and the keyword rides on it.
+    bridged = 0
+    for n in list(g.nodes.values()):
+        if n.kind != "disclosure":
+            continue
+        for hit in D.classify(n.label):
+            dk = dir_keys.get(hit["direction"])
+            if not dk:
+                continue
+            g.add_edge(Edge(src=n.key, dst=dk, rel="mentions_direction",
+                            attrs={"keyword": hit["match"],
+                                   "confidence": hit["confidence"],
+                                   "basis": "仅公告标题命中，未读全文"},
+                            source=n.source, url=n.url, fetched_at=NOW()))
+            bridged += 1
+    if bridged:
+        notes.append({"source": "披露-路线桥", "what": "公告标题 -> 6+1",
+                      "error": "%d 条边；仅标题，未读全文" % bridged})
 
     g._notes = notes  # type: ignore[attr-defined]
     return g

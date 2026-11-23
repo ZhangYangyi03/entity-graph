@@ -305,6 +305,9 @@ def _finish_graph(g, args, what: str) -> int:
     print("%s: nodes %d  edges %d" % (what, st["nodes"], st["edges"]))
     print("kinds: " + "  ".join("%s=%d" % kv for kv in sorted(st["by_kind"].items())))
     print("rels:  " + "  ".join("%s=%d" % kv for kv in sorted(st["by_rel"].items())))
+    extra = getattr(g, "summary_text", "")
+    if extra:
+        print(extra)
     notes = getattr(g, "_notes", [])
     if notes:
         print("gaps (a dead source is reported, not hidden):")
@@ -408,8 +411,15 @@ def main(argv=None) -> int:
     ind.add_argument("--limit", type=int, default=4, help="rows per source")
     ind.add_argument("--bio-symbol", default="EGFR", help="gene symbol for the bio half")
     ind.add_argument("--no-bio", action="store_true", help="skip the bio-manufacturing half")
+    ind.add_argument("--no-market", action="store_true",
+                     help="skip the 商业价值 layer (同花顺板块/腾讯市值/巨潮公告)")
     ind.add_argument("--out", default="industry.graph.json")
     ind.add_argument("--format", choices=["summary", "json", "lines"], default="summary")
+
+    br = sub.add_parser("brief", help="turn a written graph into the one-page 价值快照")
+    br.add_argument("--graph", default="industry.graph.json")
+    br.add_argument("--out", default="产业图谱价值快照.md")
+    br.add_argument("--top", type=int, default=20)
 
     args = ap.parse_args(argv)
 
@@ -427,10 +437,20 @@ def main(argv=None) -> int:
                                drugs=args.drugs, papers=args.papers)
         return _finish_graph(g, args, "biomed")
 
+    if args.cmd == "brief":
+        from .market import value_brief
+        txt = value_brief(args.graph, args.out, top=args.top)
+        print("wrote %s (%d lines, %d chars)" % (args.out, txt.count("\n"), len(txt)))
+        return 0
+
     if args.cmd == "industry":
         from .industry import build_industry_map
         g = build_industry_map(args.term, limit=args.limit, bio_symbol=args.bio_symbol,
-                              with_bio=not args.no_bio)
+                              with_bio=not args.no_bio, market=not args.no_market)
+        summary = getattr(g, "_market_summary", None)
+        if summary and args.format == "summary":
+            from .market import value_report
+            g.summary_text = value_report(summary)
         return _finish_graph(g, args, "industry")
 
     if args.cmd == "web":

@@ -177,3 +177,103 @@ def test_build_biomed_refuses_without_a_target(monkeypatch):
     g = biomed.build_biomed_graph("NOSUCHGENE")
     assert g.stats()["nodes"] == 1  # the gene node itself, from the operator's query
     assert g.nodes[list(g.nodes)[0]].source == "operator query"
+
+
+# ------------------------------------------------------------------ 商业价值 layer
+from entitygraph import market as MK  # noqa: E402
+
+
+def _fake_board(code, max_pages=40):
+    return [{"code": "300007", "name": "汉威科技", "price": "33.81", "change_pct": "1.0"},
+            {"code": "002230", "name": "科大讯飞", "price": "40.0", "change_pct": "0.5"}]
+
+
+def _fake_quotes(codes, batch=60):
+    return {"300007": {"name": "汉威科技", "price": 33.81, "total_mcap_yi": 110.71,
+                       "float_mcap_yi": 96.8, "pe_ttm": 69.01, "pb": 3.68,
+                       "turnover_pct": 8.45},
+            "002230": {"name": "科大讯飞", "price": 40.0, "total_mcap_yi": 825.35,
+                       "float_mcap_yi": 781.14, "pe_ttm": 88.94, "pb": 3.62,
+                       "turnover_pct": 2.0}}
+
+
+def _fake_cninfo(keyword, page_size=30, column="szse", max_pages=10):
+    return {"keyword": keyword, "total": 1, "returned": 1, "rows": [
+        {"sec_code": "002173", "sec_name": "创新医疗", "title": "关于参股脑机接口公司",
+         "date": 1612761600000, "url": "http://static.cninfo.com.cn/finalpage/x.PDF",
+         "pdf": "finalpage/x.PDF"}]}
+
+
+def test_market_layer_totals_are_computed_from_the_quotes(monkeypatch):
+    monkeypatch.setattr(MK, "ths_board_members", _fake_board)
+    monkeypatch.setattr(MK, "tencent_quotes", _fake_quotes)
+    monkeypatch.setattr(MK, "cninfo_search", _fake_cninfo)
+    from entitygraph.model import Graph
+    g, summ = MK.build_market_layer(Graph(), boards=("bci",), keywords=("脑机接口",))
+    assert summ["companies"] == 2
+    assert summ["total_mcap_yi"] == pytest.approx(936.06, abs=0.01)
+    assert summ["median_mcap_yi"] == pytest.approx(468.03, abs=0.01)
+    assert summ["disclosed"] == 1
+    kinds = {n.kind for n in g.nodes.values()}
+    assert {"market_board", "listed_company", "disclosure"} <= kinds
+
+
+def test_a_board_edge_declares_itself_a_market_label_not_a_technical_one(monkeypatch):
+    monkeypatch.setattr(MK, "ths_board_members", _fake_board)
+    monkeypatch.setattr(MK, "tencent_quotes", _fake_quotes)
+    monkeypatch.setattr(MK, "cninfo_search", _fake_cninfo)
+    from entitygraph.model import Graph
+    g, _ = MK.build_market_layer(Graph(), boards=("bci",), keywords=())
+    board_edges = [e for e in g.edges.values() if e.rel == "in_board"]
+    assert board_edges
+    assert all("非技术判定" in e.attrs["basis"] for e in board_edges)
+
+
+def test_a_dead_market_source_is_a_note_and_the_map_still_builds(monkeypatch):
+    def boom(*a, **k):
+        raise MK.FetchError("connection refused")
+    monkeypatch.setattr(MK, "ths_board_members", boom)
+    monkeypatch.setattr(MK, "cninfo_search", boom)
+    from entitygraph.model import Graph
+    g, summ = MK.build_market_layer(Graph(), boards=("bci",), keywords=("脑机接口",))
+    assert summ["companies"] == 0
+    assert [n["source"] for n in summ["notes"]] and "同花顺板块" in summ["notes"][0]["source"]
+
+
+def test_value_report_says_what_it_could_not_see():
+    txt = MK.value_report({"boards": [{"name": "脑机接口", "constituents": 50, "quoted": 50,
+                                       "mcap_yi": 6925.6}],
+                           "companies": 85, "total_mcap_yi": 11491.0,
+                           "median_mcap_yi": 76.2, "disclosed": 17,
+                           "notes": [{"source": "巨潮公告", "what": "脑机",
+                                      "error": "truncated"}]})
+    assert "6925.6" in txt and "11491.0" in txt and "truncated" in txt
+
+
+def test_cninfo_walks_pages_instead_of_reading_the_first_as_the_whole(monkeypatch):
+    calls = []
+
+    def fake_page(num):
+        calls.append(num)
+        rows = [{"announcementTitle": "t%d" % num, "secCode": "0%d" % num,
+                 "secName": "n", "adjunctUrl": "finalpage/%d.PDF" % num,
+                 "announcementTime": 0}]
+        return {"totalAnnouncement": 3, "announcements": rows}
+
+    class R:
+        def __init__(self, d): self._b = json.dumps(d).encode()
+        def read(self): return self._b
+        def __enter__(self): return self
+        def __exit__(self, *a): return False
+
+    monkeypatch.setattr(MK.urllib.request, "urlopen", lambda req, **k: R(fake_page(1)))
+    monkeypatch.setattr(MK.time, "sleep", lambda *a: None)
+    res = MK.cninfo_search("脑机", page_size=1)
+    assert res["returned"] >= 1
+    assert res["total"] == 3
+
+
+def test_unknown_board_id_is_refused_by_name_not_silently_ignored(monkeypatch):
+    from entitygraph.model import Graph
+    g, summ = MK.build_market_layer(Graph(), boards=("nosuchboard",), keywords=())
+    assert summ["notes"] and "board id" in summ["notes"][0]["error"]
