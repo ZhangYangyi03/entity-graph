@@ -435,6 +435,13 @@ def main(argv=None) -> int:
     ml.add_argument("--out", default="multilingual.graph.json")
     ml.add_argument("--format", choices=["summary", "json", "lines"], default="summary")
 
+    nd = sub.add_parser("nordic", help="瑞典/丹麦/芬兰/斯洛文尼亚 的 BCI 数据源")
+    nd.add_argument("--term", default="brain-computer interface")
+    nd.add_argument("--rows", type=int, default=6)
+    nd.add_argument("--countries", default="SE,DK,FI,SI")
+    nd.add_argument("--out", default="nordic.graph.json")
+    nd.add_argument("--format", choices=["summary", "json", "lines"], default="summary")
+
     args = ap.parse_args(argv)
 
     if args.cmd == "bci":
@@ -450,6 +457,14 @@ def main(argv=None) -> int:
         g = build_biomed_graph(args.symbol, drug=args.drug, diseases=args.diseases,
                                drugs=args.drugs, papers=args.papers)
         return _finish_graph(g, args, "biomed")
+
+    if args.cmd == "nordic":
+        from .nordic import build_nordic_graph, nordic_report
+        cs_ = tuple(x.strip().upper() for x in args.countries.split(",") if x.strip())
+        g = build_nordic_graph(args.term, rows=args.rows, countries=cs_)
+        if args.format == "summary":
+            g.summary_text = nordic_report(g)
+        return _finish_graph(g, args, "nordic")
 
     if args.cmd == "multilingual":
         from .multilingual import build_multilingual_graph, language_report

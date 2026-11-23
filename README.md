@@ -733,3 +733,37 @@ GET 只返回空壳。我给它写了检测和一条 gap 说明，但没有编�
 
 韩国留空：KoreaMed 和 KCI 两个入口都测了，都拿不到可结构化解析的记录，于是写成
 一条 gap 说明——`publication_ko` 节点一条都没有，测试守着这一点。宁可空着，不编。
+
+## 瑞典 / 丹麦 / 芬兰 / 斯洛文尼亚
+
+    $ python -m entitygraph.cli nordic --rows 4
+
+四国各有一个可以复核的数字，这是这一层的全部意义——「我们查过瑞典」不是证据，
+一个能一条查询重跑出来的计数才是：
+
+    国家        来源                          实测命中
+    瑞典        Europe PMC AFF:"Sweden"        68 篇 BCI 论文
+                Libris XL（国家联合目录）       24107 条记录
+    丹麦        Europe PMC AFF:"Denmark"       134 篇
+                cvrapi.dk（CVR 工商登记）       Neuro Recovery ApS，CVR 44435616，8200 Aarhus N，NACE 869900
+    芬兰        Europe PMC AFF:"Finland"       60 篇
+    斯洛文尼亚  Europe PMC AFF:"Slovenia"      19 篇
+
+顺带覆盖挪威（不在四国里，但接口通了，就没理由装看不见）：
+api.nb.no 国家书目 18479 条，挂在 country:NO 上，**不**并进丹麦的计数里——
+把挪威国家库算成丹麦的国家目录，那个丹麦数字就成假的了，测试守着这一点。
+
+实测不通的七个，写进代码里的 DEAD_ENDPOINTS，免得下次重跑：
+
+    DiVA（瑞典高校档案）        TLS 握手超时，两次
+    Finna（芬兰国家库）         403，要 API key
+    DTU Pure（丹麦理工）        TLS EOF
+    SICRIS（斯洛文尼亚科研登记）  502 Bad Gateway
+    OpenScience.si / dLib.si    页面能开，但拿不到可结构化记录
+    Swepub                      404，旧 API 已下线
+    data.norge.no               404
+
+丹麦那家企业带一条 caveat：它是按关键词 neuro 命中的登记记录，没有核验它是否真做
+脑机接口。关键词命中不等于业务相关，这条不删。
+
+Europe PMC 在本机 TLS 会间歇性 EOF，所以它单独给了 5 次重试 —— 这是实测行为，不是保险。

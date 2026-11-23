@@ -14,7 +14,7 @@
       },
       "source": "本模块的国家清单",
       "url": "",
-      "fetched_at": "2026-11-23T06:23:41+00:00"
+      "fetched_at": "2026-11-23T06:26:13+00:00"
     },
     {
       "key": "country:DK",
@@ -31,7 +31,7 @@
       },
       "source": "本模块的国家清单",
       "url": "",
-      "fetched_at": "2026-11-23T06:23:41+00:00"
+      "fetched_at": "2026-11-23T06:26:13+00:00"
     },
     {
       "key": "country:FI",
@@ -46,7 +46,7 @@
       },
       "source": "本模块的国家清单",
       "url": "",
-      "fetched_at": "2026-11-23T06:23:41+00:00"
+      "fetched_at": "2026-11-23T06:26:13+00:00"
     },
     {
       "key": "country:SI",
@@ -61,7 +61,76 @@
       },
       "source": "本模块的国家清单",
       "url": "",
-      "fetched_at": "2026-11-23T06:23:41+00:00"
+      "fetched_at": "2026-11-23T06:26:13+00:00"
+    },
+    {
+      "key": "slice:epmc:SE",
+      "kind": "country_slice",
+      "label": "Europe PMC AFF:Sweden",
+      "attrs": {
+        "iso": "SE",
+        "hit_count": 68,
+        "sample": 4
+      },
+      "source": "Europe PMC（机构国别过滤）",
+      "url": "https://europepmc.org/search?query=Sweden",
+      "fetched_at": "2026-11-23T06:26:28+00:00"
+    },
+    {
+      "key": "pub:SE:0",
+      "kind": "publication",
+      "label": "Rotation-based metric on the Riemannian manifold of SPD matrices with applications to source data selection for brain-co",
+      "attrs": {
+        "pmid": "42253789",
+        "year": "2026",
+        "journal": "Front Hum Neurosci",
+        "country": "SE"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/42253789",
+      "fetched_at": "2026-11-23T06:26:28+00:00"
+    },
+    {
+      "key": "pub:SE:1",
+      "kind": "publication",
+      "label": "Real-time regulation of room temperature based on individual thermal sensation using an online brain-computer interface.",
+      "attrs": {
+        "pmid": "36168224",
+        "year": "2022",
+        "journal": "Indoor Air",
+        "country": "SE"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/36168224",
+      "fetched_at": "2026-11-23T06:26:28+00:00"
+    },
+    {
+      "key": "pub:SE:2",
+      "kind": "publication",
+      "label": "Comparison and extension of the Riemannian Procrustes analysis and tangent space alignment transfer learning methods.",
+      "attrs": {
+        "pmid": "43038655",
+        "year": "2026",
+        "journal": "J Neural Eng",
+        "country": "SE"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/43038655",
+      "fetched_at": "2026-11-23T06:26:28+00:00"
+    },
+    {
+      "key": "pub:SE:3",
+      "kind": "publication",
+      "label": "Successful Single-Session Neural Self-Regulation Through Neurofeedback Varies Between Features.",
+      "attrs": {
+        "pmid": "42458811",
+        "year": "2026",
+        "journal": "Hum Brain Mapp",
+        "country": "SE"
+      },
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/42458811",
+      "fetched_at": "2026-11-23T06:26:28+00:00"
     },
     {
       "key": "slice:epmc:DK",
@@ -74,7 +143,7 @@
       },
       "source": "Europe PMC（机构国别过滤）",
       "url": "https://europepmc.org/search?query=Denmark",
-      "fetched_at": "2026-11-23T06:25:16+00:00"
+      "fetched_at": "2026-11-23T06:26:39+00:00"
     },
     {
       "key": "pub:DK:0",
@@ -88,7 +157,7 @@
       },
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/42980617",
-      "fetched_at": "2026-11-23T06:25:16+00:00"
+      "fetched_at": "2026-11-23T06:26:39+00:00"
     },
     {
       "key": "pub:DK:1",
@@ -102,7 +171,7 @@
       },
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/41600345",
-      "fetched_at": "2026-11-23T06:25:16+00:00"
+      "fetched_at": "2026-11-23T06:26:39+00:00"
     },
     {
       "key": "pub:DK:2",
@@ -116,7 +185,7 @@
       },
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/39704693",
-      "fetched_at": "2026-11-23T06:25:16+00:00"
+      "fetched_at": "2026-11-23T06:26:39+00:00"
     },
     {
       "key": "pub:DK:3",
@@ -130,7 +199,7 @@
       },
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/38079202",
-      "fetched_at": "2026-11-23T06:25:16+00:00"
+      "fetched_at": "2026-11-23T06:26:39+00:00"
     },
     {
       "key": "slice:epmc:FI",
@@ -143,7 +212,7 @@
       },
       "source": "Europe PMC（机构国别过滤）",
       "url": "https://europepmc.org/search?query=Finland",
-      "fetched_at": "2026-11-23T06:25:31+00:00"
+      "fetched_at": "2026-11-23T06:26:47+00:00"
     },
     {
       "key": "pub:FI:0",
@@ -157,7 +226,7 @@
       },
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/40209163",
-      "fetched_at": "2026-11-23T06:25:31+00:00"
+      "fetched_at": "2026-11-23T06:26:47+00:00"
     },
     {
       "key": "pub:FI:1",
@@ -171,7 +240,7 @@
       },
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/36578777",
-      "fetched_at": "2026-11-23T06:25:31+00:00"
+      "fetched_at": "2026-11-23T06:26:47+00:00"
     },
     {
       "key": "pub:FI:2",
@@ -185,7 +254,7 @@
       },
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/36188803",
-      "fetched_at": "2026-11-23T06:25:31+00:00"
+      "fetched_at": "2026-11-23T06:26:47+00:00"
     },
     {
       "key": "pub:FI:3",
@@ -199,7 +268,7 @@
       },
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/36523756",
-      "fetched_at": "2026-11-23T06:25:31+00:00"
+      "fetched_at": "2026-11-23T06:26:47+00:00"
     },
     {
       "key": "slice:epmc:SI",
@@ -212,7 +281,7 @@
       },
       "source": "Europe PMC（机构国别过滤）",
       "url": "https://europepmc.org/search?query=Slovenia",
-      "fetched_at": "2026-11-23T06:25:46+00:00"
+      "fetched_at": "2026-11-23T06:27:01+00:00"
     },
     {
       "key": "pub:SI:0",
@@ -226,7 +295,7 @@
       },
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/42733633",
-      "fetched_at": "2026-11-23T06:25:46+00:00"
+      "fetched_at": "2026-11-23T06:27:01+00:00"
     },
     {
       "key": "pub:SI:1",
@@ -240,7 +309,7 @@
       },
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/21112747",
-      "fetched_at": "2026-11-23T06:25:46+00:00"
+      "fetched_at": "2026-11-23T06:27:01+00:00"
     },
     {
       "key": "pub:SI:2",
@@ -254,7 +323,7 @@
       },
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/18350133",
-      "fetched_at": "2026-11-23T06:25:46+00:00"
+      "fetched_at": "2026-11-23T06:27:01+00:00"
     },
     {
       "key": "pub:SI:3",
@@ -268,7 +337,7 @@
       },
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/37265521",
-      "fetched_at": "2026-11-23T06:25:46+00:00"
+      "fetched_at": "2026-11-23T06:27:01+00:00"
     },
     {
       "key": "natlib:SE",
@@ -280,7 +349,7 @@
       },
       "source": "Libris XL (KB)",
       "url": "https://libris.kb.se/",
-      "fetched_at": "2026-11-23T06:25:54+00:00"
+      "fetched_at": "2026-11-23T06:27:09+00:00"
     },
     {
       "key": "libris:0",
@@ -291,7 +360,7 @@
       },
       "source": "Libris XL",
       "url": "https://libris.kb.se/kt3ltlf1hnt87v7w#it",
-      "fetched_at": "2026-11-23T06:25:54+00:00"
+      "fetched_at": "2026-11-23T06:27:09+00:00"
     },
     {
       "key": "libris:1",
@@ -302,7 +371,7 @@
       },
       "source": "Libris XL",
       "url": "https://libris.kb.se/g1g1zp1wdrwj562s#it",
-      "fetched_at": "2026-11-23T06:25:54+00:00"
+      "fetched_at": "2026-11-23T06:27:09+00:00"
     },
     {
       "key": "libris:2",
@@ -313,7 +382,7 @@
       },
       "source": "Libris XL",
       "url": "https://libris.kb.se/rdf7qgg0pw1t971r#it",
-      "fetched_at": "2026-11-23T06:25:54+00:00"
+      "fetched_at": "2026-11-23T06:27:09+00:00"
     },
     {
       "key": "libris:3",
@@ -324,7 +393,7 @@
       },
       "source": "Libris XL",
       "url": "https://libris.kb.se/ftc579x0cm6j0248#it",
-      "fetched_at": "2026-11-23T06:25:54+00:00"
+      "fetched_at": "2026-11-23T06:27:09+00:00"
     },
     {
       "key": "country:NO",
@@ -340,7 +409,7 @@
       },
       "source": "本模块的国家清单",
       "url": "",
-      "fetched_at": "2026-11-23T06:26:01+00:00"
+      "fetched_at": "2026-11-23T06:27:16+00:00"
     },
     {
       "key": "natlib:NO",
@@ -353,7 +422,7 @@
       },
       "source": "api.nb.no",
       "url": "https://api.nb.no/catalog/v1/items",
-      "fetched_at": "2026-11-23T06:26:01+00:00"
+      "fetched_at": "2026-11-23T06:27:16+00:00"
     },
     {
       "key": "nb:0",
@@ -367,7 +436,7 @@
       },
       "source": "api.nb.no",
       "url": "https://www.nb.no/items/3479ce11e287254c7681215c4da580a1",
-      "fetched_at": "2026-11-23T06:26:01+00:00"
+      "fetched_at": "2026-11-23T06:27:16+00:00"
     },
     {
       "key": "nb:1",
@@ -381,7 +450,7 @@
       },
       "source": "api.nb.no",
       "url": "https://www.nb.no/items/e8b9aa70f77d685ec87dfc75c43bec1f",
-      "fetched_at": "2026-11-23T06:26:01+00:00"
+      "fetched_at": "2026-11-23T06:27:16+00:00"
     },
     {
       "key": "nb:2",
@@ -395,7 +464,7 @@
       },
       "source": "api.nb.no",
       "url": "https://www.nb.no/items/64b21df87c3ba7d57eb7f7e3c71870a7",
-      "fetched_at": "2026-11-23T06:26:01+00:00"
+      "fetched_at": "2026-11-23T06:27:16+00:00"
     },
     {
       "key": "nb:3",
@@ -410,7 +479,7 @@
       },
       "source": "api.nb.no",
       "url": "https://www.nb.no/items/e187dd9622b737ab38820dee2158f399",
-      "fetched_at": "2026-11-23T06:26:01+00:00"
+      "fetched_at": "2026-11-23T06:27:16+00:00"
     },
     {
       "key": "frco_dk:44435616",
@@ -427,10 +496,57 @@
       },
       "source": "cvrapi.dk（丹麦 CVR 登记）",
       "url": "https://datacvr.virk.dk/enhed/virksomhed/44435616",
-      "fetched_at": "2026-11-23T06:26:08+00:00"
+      "fetched_at": "2026-11-23T06:27:23+00:00"
     }
   ],
   "edges": [
+    {
+      "src": "country:SE",
+      "dst": "slice:epmc:SE",
+      "rel": "has_publication_slice",
+      "attrs": {
+        "hit_count": 68
+      },
+      "source": "Europe PMC",
+      "url": "",
+      "fetched_at": "2026-11-23T06:26:28+00:00"
+    },
+    {
+      "src": "pub:SE:0",
+      "dst": "slice:epmc:SE",
+      "rel": "in_country_slice",
+      "attrs": {},
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/42253789",
+      "fetched_at": "2026-11-23T06:26:28+00:00"
+    },
+    {
+      "src": "pub:SE:1",
+      "dst": "slice:epmc:SE",
+      "rel": "in_country_slice",
+      "attrs": {},
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/36168224",
+      "fetched_at": "2026-11-23T06:26:28+00:00"
+    },
+    {
+      "src": "pub:SE:2",
+      "dst": "slice:epmc:SE",
+      "rel": "in_country_slice",
+      "attrs": {},
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/43038655",
+      "fetched_at": "2026-11-23T06:26:28+00:00"
+    },
+    {
+      "src": "pub:SE:3",
+      "dst": "slice:epmc:SE",
+      "rel": "in_country_slice",
+      "attrs": {},
+      "source": "Europe PMC",
+      "url": "https://europepmc.org/article/MED/42458811",
+      "fetched_at": "2026-11-23T06:26:28+00:00"
+    },
     {
       "src": "country:DK",
       "dst": "slice:epmc:DK",
@@ -440,7 +556,7 @@
       },
       "source": "Europe PMC",
       "url": "",
-      "fetched_at": "2026-11-23T06:25:16+00:00"
+      "fetched_at": "2026-11-23T06:26:39+00:00"
     },
     {
       "src": "pub:DK:0",
@@ -449,7 +565,7 @@
       "attrs": {},
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/42980617",
-      "fetched_at": "2026-11-23T06:25:16+00:00"
+      "fetched_at": "2026-11-23T06:26:39+00:00"
     },
     {
       "src": "pub:DK:1",
@@ -458,7 +574,7 @@
       "attrs": {},
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/41600345",
-      "fetched_at": "2026-11-23T06:25:16+00:00"
+      "fetched_at": "2026-11-23T06:26:39+00:00"
     },
     {
       "src": "pub:DK:2",
@@ -467,7 +583,7 @@
       "attrs": {},
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/39704693",
-      "fetched_at": "2026-11-23T06:25:16+00:00"
+      "fetched_at": "2026-11-23T06:26:39+00:00"
     },
     {
       "src": "pub:DK:3",
@@ -476,7 +592,7 @@
       "attrs": {},
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/38079202",
-      "fetched_at": "2026-11-23T06:25:16+00:00"
+      "fetched_at": "2026-11-23T06:26:39+00:00"
     },
     {
       "src": "country:FI",
@@ -487,7 +603,7 @@
       },
       "source": "Europe PMC",
       "url": "",
-      "fetched_at": "2026-11-23T06:25:31+00:00"
+      "fetched_at": "2026-11-23T06:26:47+00:00"
     },
     {
       "src": "pub:FI:0",
@@ -496,7 +612,7 @@
       "attrs": {},
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/40209163",
-      "fetched_at": "2026-11-23T06:25:31+00:00"
+      "fetched_at": "2026-11-23T06:26:47+00:00"
     },
     {
       "src": "pub:FI:1",
@@ -505,7 +621,7 @@
       "attrs": {},
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/36578777",
-      "fetched_at": "2026-11-23T06:25:31+00:00"
+      "fetched_at": "2026-11-23T06:26:47+00:00"
     },
     {
       "src": "pub:FI:2",
@@ -514,7 +630,7 @@
       "attrs": {},
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/36188803",
-      "fetched_at": "2026-11-23T06:25:31+00:00"
+      "fetched_at": "2026-11-23T06:26:47+00:00"
     },
     {
       "src": "pub:FI:3",
@@ -523,7 +639,7 @@
       "attrs": {},
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/36523756",
-      "fetched_at": "2026-11-23T06:25:31+00:00"
+      "fetched_at": "2026-11-23T06:26:47+00:00"
     },
     {
       "src": "country:SI",
@@ -534,7 +650,7 @@
       },
       "source": "Europe PMC",
       "url": "",
-      "fetched_at": "2026-11-23T06:25:46+00:00"
+      "fetched_at": "2026-11-23T06:27:01+00:00"
     },
     {
       "src": "pub:SI:0",
@@ -543,7 +659,7 @@
       "attrs": {},
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/42733633",
-      "fetched_at": "2026-11-23T06:25:46+00:00"
+      "fetched_at": "2026-11-23T06:27:01+00:00"
     },
     {
       "src": "pub:SI:1",
@@ -552,7 +668,7 @@
       "attrs": {},
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/21112747",
-      "fetched_at": "2026-11-23T06:25:46+00:00"
+      "fetched_at": "2026-11-23T06:27:01+00:00"
     },
     {
       "src": "pub:SI:2",
@@ -561,7 +677,7 @@
       "attrs": {},
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/18350133",
-      "fetched_at": "2026-11-23T06:25:46+00:00"
+      "fetched_at": "2026-11-23T06:27:01+00:00"
     },
     {
       "src": "pub:SI:3",
@@ -570,7 +686,7 @@
       "attrs": {},
       "source": "Europe PMC",
       "url": "https://europepmc.org/article/MED/37265521",
-      "fetched_at": "2026-11-23T06:25:46+00:00"
+      "fetched_at": "2026-11-23T06:27:01+00:00"
     },
     {
       "src": "country:SE",
@@ -581,7 +697,7 @@
       },
       "source": "Libris XL",
       "url": "",
-      "fetched_at": "2026-11-23T06:25:54+00:00"
+      "fetched_at": "2026-11-23T06:27:09+00:00"
     },
     {
       "src": "libris:0",
@@ -590,7 +706,7 @@
       "attrs": {},
       "source": "Libris XL",
       "url": "https://libris.kb.se/kt3ltlf1hnt87v7w#it",
-      "fetched_at": "2026-11-23T06:25:54+00:00"
+      "fetched_at": "2026-11-23T06:27:09+00:00"
     },
     {
       "src": "libris:1",
@@ -599,7 +715,7 @@
       "attrs": {},
       "source": "Libris XL",
       "url": "https://libris.kb.se/g1g1zp1wdrwj562s#it",
-      "fetched_at": "2026-11-23T06:25:54+00:00"
+      "fetched_at": "2026-11-23T06:27:09+00:00"
     },
     {
       "src": "libris:2",
@@ -608,7 +724,7 @@
       "attrs": {},
       "source": "Libris XL",
       "url": "https://libris.kb.se/rdf7qgg0pw1t971r#it",
-      "fetched_at": "2026-11-23T06:25:54+00:00"
+      "fetched_at": "2026-11-23T06:27:09+00:00"
     },
     {
       "src": "libris:3",
@@ -617,7 +733,7 @@
       "attrs": {},
       "source": "Libris XL",
       "url": "https://libris.kb.se/ftc579x0cm6j0248#it",
-      "fetched_at": "2026-11-23T06:25:54+00:00"
+      "fetched_at": "2026-11-23T06:27:09+00:00"
     },
     {
       "src": "country:NO",
@@ -628,7 +744,7 @@
       },
       "source": "api.nb.no",
       "url": "",
-      "fetched_at": "2026-11-23T06:26:01+00:00"
+      "fetched_at": "2026-11-23T06:27:16+00:00"
     },
     {
       "src": "nb:0",
@@ -637,7 +753,7 @@
       "attrs": {},
       "source": "api.nb.no",
       "url": "",
-      "fetched_at": "2026-11-23T06:26:01+00:00"
+      "fetched_at": "2026-11-23T06:27:16+00:00"
     },
     {
       "src": "nb:1",
@@ -646,7 +762,7 @@
       "attrs": {},
       "source": "api.nb.no",
       "url": "",
-      "fetched_at": "2026-11-23T06:26:01+00:00"
+      "fetched_at": "2026-11-23T06:27:16+00:00"
     },
     {
       "src": "nb:2",
@@ -655,7 +771,7 @@
       "attrs": {},
       "source": "api.nb.no",
       "url": "",
-      "fetched_at": "2026-11-23T06:26:01+00:00"
+      "fetched_at": "2026-11-23T06:27:16+00:00"
     },
     {
       "src": "nb:3",
@@ -664,7 +780,7 @@
       "attrs": {},
       "source": "api.nb.no",
       "url": "",
-      "fetched_at": "2026-11-23T06:26:01+00:00"
+      "fetched_at": "2026-11-23T06:27:16+00:00"
     },
     {
       "src": "frco_dk:44435616",
@@ -675,7 +791,7 @@
       },
       "source": "cvrapi.dk",
       "url": "https://datacvr.virk.dk/enhed/virksomhed/44435616",
-      "fetched_at": "2026-11-23T06:26:08+00:00"
+      "fetched_at": "2026-11-23T06:27:23+00:00"
     }
   ]
 }

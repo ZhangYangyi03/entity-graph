@@ -478,3 +478,85 @@ def test_korea_is_a_named_gap_with_no_invented_rows(monkeypatch):
     g = ML.build_cjk_graph(count=1)
     assert any("Korea" in n["source"] or "韩国" in n["source"] for n in g._notes)
     assert not [n for n in g.nodes.values() if n.kind == "publication_ko"]
+
+
+# ------------------------------------------------------------------ 北欧 + 斯洛文尼亚
+from entitygraph import nordic as ND  # noqa: E402
+
+
+def _offline_nordic(monkeypatch, counts=None):
+    counts = counts or {"Sweden": 68, "Denmark": 134, "Finland": 60, "Slovenia": 19}
+
+    monkeypatch.setattr(ND, "epmc_country", lambda c, term=ND.TERM, page_size=10: {
+        "country": c, "hit_count": counts[c],
+        "rows": [{"title": "t-%s" % c, "pmid": "1", "year": "2020", "journal": "J",
+                  "url": "http://e/1"}]})
+    monkeypatch.setattr(ND, "libris", lambda *a, **k: {"total": 24107, "returned": 1, "rows": [
+        {"title": "sv book", "year": "2015", "id": "/x", "url": "https://libris.kb.se/x"}]})
+    monkeypatch.setattr(ND, "nb_no", lambda *a, **k: {"total": 18479, "returned": 1, "rows": [
+        {"title": "no book", "year": "1999", "creators": [], "id": "abc"}]})
+    monkeypatch.setattr(ND, "cvrapi_dk", lambda *a, **k: {
+        "name": "Neuro Recovery ApS", "cvr": 44435616, "city": "Aarhus N",
+        "zipcode": "8200", "industry_code": 869900, "industry": "x",
+        "address": "a", "phone": None, "email": None,
+        "url": "https://datacvr.virk.dk/enhed/virksomhed/44435616"})
+
+
+def test_each_of_the_four_countries_gets_its_own_verifiable_count(monkeypatch):
+    _offline_nordic(monkeypatch)
+    g = ND.build_nordic_graph(rows=1)
+    slices = {n.attrs["iso"]: n.attrs["hit_count"] for n in g.nodes.values()
+              if n.kind == "country_slice"}
+    assert slices == {"SE": 68, "DK": 134, "FI": 60, "SI": 19}
+
+
+def test_all_four_codes_are_present_even_if_one_source_dies(monkeypatch):
+    _offline_nordic(monkeypatch)
+
+    def boom(*a, **k):
+        raise ND.FetchError("down")
+    monkeypatch.setattr(ND, "libris", boom)
+    monkeypatch.setattr(ND, "nb_no", boom)
+    monkeypatch.setattr(ND, "cvrapi_dk", boom)
+    g = ND.build_nordic_graph(rows=1)
+    countries = {n.attrs["iso"] for n in g.nodes.values() if n.kind == "country"}
+    assert {"SE", "DK", "FI", "SI"} <= countries
+    assert any("Libris" in n["source"] for n in g._notes)
+
+
+def test_the_norwegian_catalogue_is_not_filed_under_denmark(monkeypatch):
+    _offline_nordic(monkeypatch)
+    g = ND.build_nordic_graph(rows=1)
+    edges = [e for e in g.edges.values() if e.rel == "has_catalogue"]
+    dsts = {e.dst for e in edges}
+    assert "country:NO" in {e.src for e in edges}
+    assert not any(e.src == "country:DK" and "natlib:DK" == e.dst for e in edges), \
+        "a Norwegian endpoint must not inflate the Denmark count"
+
+
+def test_every_dead_endpoint_is_recorded_with_its_failure_mode(monkeypatch):
+    _offline_nordic(monkeypatch)
+    g = ND.build_nordic_graph(rows=1)
+    dead = [n for n in g._notes if "不可用" in n["error"]]
+    assert len(dead) == len(ND.DEAD_ENDPOINTS)
+    for spec in ("DiVA", "Finna", "DTU", "SICRIS"):
+        assert any(spec in n["source"] for n in dead)
+
+
+def test_the_danish_company_carries_the_caveat_that_it_is_a_keyword_hit(monkeypatch):
+    _offline_nordic(monkeypatch)
+    g = ND.build_nordic_graph(rows=1)
+    co = [n for n in g.nodes.values() if n.kind == "company_dk"][0]
+    assert co.attrs["cvr"] == 44435616
+    assert "未核验" in co.attrs["caveat"]
+
+
+def test_nordic_report_prints_all_four_countries():
+    from entitygraph.model import Graph, Node
+    g = Graph()
+    for code, zh in (("SE", "瑞典"), ("DK", "丹麦"), ("FI", "芬兰"), ("SI", "斯洛文尼亚")):
+        g.add_node(Node(key="country:" + code, kind="country", label="%s" % zh,
+                        attrs={"iso": code}, source="s", url=""))
+    txt = ND.nordic_report(g)
+    for zh in ("瑞典", "丹麦", "芬兰", "斯洛文尼亚"):
+        assert zh in txt
