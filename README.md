@@ -962,6 +962,8 @@ address / status / category 这些字段，没有行业码。所以判据换成�
     python -m pytest -q                                          # 235 项，含三层口径的判据测试
 
 主题贸易现在的覆盖（2026-11-24 实测）：41 个报告国、10600 条边、每国 88~213 个伙伴国。
+（下一个能自主接入的层是专利，见本节末「还没接的」：Google Patents 的 xhr 端点实测可用，
+  30187 件 BCI 专利，字段含受让机构/公开日/同族，能把「谁在真做」从论文换到权利人。）
 按主题出口额排：美国 915 亿美元（210 个伙伴）、德国 783（207）、荷兰 426（206）、
 法国 303（198）、英国 215（206）、中国 184（200）、新加坡 103（175）、日本 92（178）。
 这数字能自证是真的：德国排到第二、中国只到第六，如果截断或回退到"只有美中"，这个顺序
@@ -972,6 +974,21 @@ address / status / category 这些字段，没有行业码。所以判据换成�
 1. 公共预览对每次响应封顶 500 行，而且不报错。四个 HS 编码放一次请求里请求，返回正好
    500 行就以为是全量，实际某些编码整段丢了。改成按单个 HS 编码请求（各 155~340 行），
    若某一码仍到 500（美国 9018 就是），再按 flowCode=X/M 拆开各取一次。
+还没接的（都是本机实测可达性，不是猜的）：
+
+    Google Patents xhr 端点  可用。30187 件 BCI 专利可检索，字段有 title / assignee / inventor /
+                            filing_date / publication_date / publication_number / family_metadata /
+                            pdf。实测样本里受让方是 天津大学 x5、华南理工大学 x4、高丽大学 x3、
+                            浙江大学 x3、Neurable Inc.，也就是能把当前的层从「谁在发论文」
+                            推进到「谁在申请专利、哪些权利人跨国」。未接的唯一原因是
+                            publication_number 到手后还要解析国别，这一步没做。
+    PatentsView (search)     不可达：TLS UNEXPECTED_EOF
+    EPO OPS                  403，需 OAuth
+    Lens.org API             401，需 key
+    IMF SDMX (dataservices)  TLS UNEXPECTED_EOF —— 所以官方双边金融流量仍只能用股指同步性代替
+    USPTO developer portal   200，但返回的是前端空壳，不是数据
+    OpenAlex                 429，本机长期限流
+
 2. 限流的 429 不能当答案缓存。以前会把 429 当作"这个国家没有贸易"写进缓存，下一次运行
    读缓存就永远看不到它了；现在限流只返回错误、不落盘。
 
