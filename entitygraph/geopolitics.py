@@ -1006,7 +1006,7 @@ GEO_RELS = (
     "bci_biopharma_exports_to", "bci_biopharma_imports_from", "registered_in",
     "consolidated_by", "has_diplomatic_relations_with", "votes_with",
     "market_comoves_with", "moves_with_bci_biopharma_sector",
-    "bank_claims_on", "bank_liabilities_to",
+    "bank_claims_on", "bank_liabilities_to", "bank_net_claims_with",
 )
 
 
@@ -1107,6 +1107,7 @@ def bis_positions(period: str | None = None) -> dict:
                 continue
             table.setdefault(r, {})[c] = round(f, 1)
         out["legs"][name] = table
+        out["reporters_available_" + name] = len([r for r in code_rc if r in allowed])
         # Measured, and the reason this list is kept: BIS serves a row for each reporting
         # country against counterparty code 5J ("All countries") IN ADDITION to its named
         # partners. So "has an aggregate row" is true of almost everyone and means nothing.
@@ -1183,10 +1184,51 @@ def attach_bis_flows(g: Graph, idx: dict[str, str] | None = None) -> dict:
                 edges += 1
             if leg == "claims":
                 totals[r] = round(sum(partners.values()), 1)
+    # Net and asymmetry. Two directed edges already say who claims on whom; what they do not
+    # say is the DIFFERENCE, and the difference is usually the finding: UK banks claim 2383 bn
+    # on the US while US banks claim 1240 bn on the UK, and neither single number carries that.
+    # `bank_net_claims_with` is emitted once per pair, directed from the larger gross creditor,
+    # only when the asymmetry is material (>=25% of the larger side) -- a relation per pair
+    # regardless of size would drown the 8120 real positions in noise.
+    net_edges = 0
+    for a, partners in (bis["legs"].get("claims") or {}).items():
+        if a not in idx:
+            continue
+        for b, av in partners.items():
+            if b not in idx or a >= b:
+                continue
+            bv = ((bis["legs"].get("claims") or {}).get(b) or {}).get(a)
+            if bv is None:
+                continue
+            hi, lo = max(av, bv), min(av, bv)
+            if hi <= 0 or (hi - lo) / hi < 0.25:
+                continue
+            src, dst = (idx[a], idx[b]) if av >= bv else (idx[b], idx[a])
+            g.add_edge(Edge(src=src, dst=dst, rel="bank_net_claims_with",
+                            attrs={"net_usd_millions": round(hi - lo, 1),
+                                   "gross_usd_millions": round(av + bv, 1),
+                                   "ratio": round(hi / lo, 2) if lo else None,
+                                   "asymmetry": "两向债权不对称 ≥25%",
+                                   "basis": "A 对 B 的债权 − B 对 A 的债权，取绝对值，方向指向净债权方",
+                                   "period": period},
+                            source="BIS Locational Banking Statistics", fetched_at=NOW(),
+                            url="https://data.bis.org/topics/LBS"))
+            net_edges += 1
+    # net position per country: everything its banks claim on the world minus everything the
+    # world's banks claim on it. Signed, so a net debtor is negative rather than absent.
+    ltab = bis["legs"].get("liabilities") or {}
+    liab_as_cp: dict[str, float] = {}
+    for r, partners in ltab.items():
+        for c, v in partners.items():
+            liab_as_cp[c] = liab_as_cp.get(c, 0.0) + v
     for iso, tot in totals.items():
         n = g.nodes.get(idx.get(iso))
         if n:
-            n.attrs = dict(n.attrs or {}, bis_claims_usd_millions=tot, bis_period=period)
+            liab = liab_as_cp.get(iso)
+            n.attrs = dict(n.attrs or {}, bis_claims_usd_millions=tot,
+                           bis_period=period,
+                           bis_net_usd_millions=(round(tot - liab, 1)
+                                                 if liab is not None else None))
     # BIS counterparty codes that are regions ("Advanced economies"), offshore catch-alls
     # ("Unallocated offshore centres") or international organisations are NOT countries, and
     # they are left out of the edge set on purpose: turning "Emerging Europe" into a country
@@ -1196,6 +1238,7 @@ def attach_bis_flows(g: Graph, idx: dict[str, str] | None = None) -> dict:
             "unmatched_iso2": sorted(unmatched), "unmatched_n": len(unmatched),
             "non_country_n": len(bis.get("non_country") or {}),
             "non_country": sorted(bis.get("non_country") or {}),
+            "net_edges": net_edges,
             "aggregate_only": (bis.get("aggregate_only_claims") or [])[:6],
             "aggregate_only_n": len(bis.get("aggregate_only_claims") or []),
             "top_claims": sorted(totals.items(), key=lambda x: -x[1])[:6]}
@@ -1353,6 +1396,16 @@ def geo_report(g: Graph, top: int = 8) -> str:
         for e in cl:
             L.append("    %-22s -> %-22s %8.1f 十亿"
                      % (lab(e.src), lab(e.dst), (e.attrs.get("usd_millions") or 0) / 1e3))
+    nt = sorted([e for e in g.edges.values() if e.rel == "bank_net_claims_with"],
+                key=lambda e: -(e.attrs.get("net_usd_millions") or 0))[:top]
+    if nt:
+        L.append("  两向债权最不对称的对（净额指向净债权方；不对称 >=25%% 才落边，共 %d 对）："
+                 % sum(1 for e in g.edges.values() if e.rel == "bank_net_claims_with"))
+        for e in nt:
+            L.append("    %-22s 净对 %-22s %8.1f 十亿（毛额 %.1f，比 %.1f 倍）"
+                     % (lab(e.src), lab(e.dst), (e.attrs.get("net_usd_millions") or 0) / 1e3,
+                        (e.attrs.get("gross_usd_millions") or 0) / 1e3,
+                        e.attrs.get("ratio") or 0))
     dip = [e for e in g.edges.values() if e.rel == "has_diplomatic_relations_with"]
     if dip:
         deg = Counter()
@@ -1396,6 +1449,11 @@ def geo_report(g: Graph, top: int = 8) -> str:
         if off:
             L.append("    因名字不落在医疗锚词上被剔除 %d 家，例如：%s"
                      % (len(off), "、".join((n.label or "")[:24] for n in off[:3])))
+    try:
+        from . import manifest as _M
+        L.extend(_M.report().split("\n"))
+    except Exception as _e:      # noqa: BLE001 - the层清单 must never break the graph build
+        L.append("  层清单不可用：%s" % str(_e)[:80])
     cons = [e for e in g.edges.values() if e.rel == "consolidated_by"]
     if cons:
         L.append("  母子公司关系（GLEIF RR）：%d 条" % len(cons))

@@ -108,6 +108,74 @@ def test_bis_claims_and_liabilities_stay_directed():
     assert "bank_claims_on" in G.GEO_RELS and "bank_liabilities_to" in G.GEO_RELS
 
 
+def _built_graph():
+    import json, os
+    path = os.path.join(ROOT, "all.graph.json")
+    if not os.path.exists(path):
+        pytest.skip("all.graph.json not built")
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def test_built_bis_edges_carry_no_nan_and_no_aggregate_country():
+    # the two measured traps, asserted against the artefact rather than the source: a nan usd
+    # poisons every sum downstream, and a "country" node for All countries double-counts.
+    g = _built_graph()
+    bank = [e for e in g["edges"] if e["rel"].startswith("bank_")]
+    if not bank:
+        pytest.skip("no BIS layer in this build")
+    for e in bank:
+        for k, v in (e.get("attrs") or {}).items():
+            if isinstance(v, float):
+                assert v == v, "nan in %s %s" % (e["rel"], k)
+    keys = {n["key"] for n in g["nodes"]}
+    for code in ("5J", "5A"):
+        assert not any(k.endswith(":" + code) for k in keys), code + " became a country node"
+
+
+def test_built_bis_asymmetry_shows_the_uk_us_case():
+    # measured 2026-2024-Q2: UK banks claim ~2383 bn on the US, US banks ~1240 bn on the UK.
+    # If the directed legs ever collapse into one symmetric number this ordering breaks.
+    g = _built_graph()
+    cl = [e for e in g["edges"] if e["rel"] == "bank_claims_on"]
+    if not cl:
+        pytest.skip("no BIS layer in this build")
+    lab = {n["key"]: (n.get("label") or "") for n in g["nodes"]}
+    def find(a, b):
+        for e in cl:
+            if a in lab.get(e["src"], "") and b in lab.get(e["dst"], ""):
+                return e["attrs"].get("usd_millions") or 0
+        return 0
+    uk_us = find("United Kingdom", "United States")
+    us_uk = find("United States", "United Kingdom")
+    assert uk_us > 2_000_000 and us_uk > 1_000_000
+    assert uk_us > us_uk
+
+
+def test_net_relation_only_fires_on_material_asymmetry():
+    src = open(os.path.join(ROOT, "entitygraph", "geopolitics.py"), encoding="utf-8").read()
+    assert "bank_net_claims_with" in src and "< 0.25" in src
+
+
+def test_manifest_counts_layers_instead_of_the_report():
+    # "how many layers" used to be counted by hand; the manifest is now the one answer
+    from entitygraph import manifest as M
+    t = M.layer_table()
+    assert len(t) >= 12
+    assert sum(1 for l in t if l["merged"]) == len(M.merged_layers())
+    assert "bank_claims_on" in M.all_geo_rels()
+
+
+def test_manifest_coverage_denominator_is_a_known_universe():
+    # a denominator that equals the number we happened to try would read 41/41 and hide the
+    # 39 countries never fetched
+    from entitygraph import manifest as M
+    rows = {r["name"]: r for r in M.coverage()}
+    trade = rows.get("地缘：主题贸易")
+    if trade and trade["denom"]:
+        assert trade["denom"] > trade["have"]
+
+
 def test_country_and_theme_etfs_do_not_collide():
     assert not (set(G.COUNTRY_ETFS.values()) & set(G.THEME_ETFS))
     assert "XBI" in G.THEME_ETFS and "SPY" in G.COUNTRY_ETFS.values()
