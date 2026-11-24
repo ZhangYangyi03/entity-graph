@@ -27,6 +27,13 @@ Refused, and why (so the next session does not retry them as bugs):
 DRKS is recorded as a known gap rather than faked: its search endpoint is a POST form
 and a GET returns an empty shell. Writing a row for it without a working query would be
 the exact kind of invention this repo refuses.
+
+Korean, resolved 2026-11-24. KoreaMed (SearchBasic.php) and KoreaScience (search.page)
+were measured again and both still hide the rows -- KoreaMed answers 200 with a byte-for-byte
+identical 85,908-byte shell for every query, KoreaScience renders the list in JavaScript.
+KCI's portal does return them, behind a POST to poArtiSearList.kci: 274 records for
+`brain-computer interface` over 100/100/74, with title, author, journal, society, KCI
+subject class, citation count and the ART id. That is what `kci()` now does.
 """
 from __future__ import annotations
 
@@ -35,6 +42,7 @@ import json
 import re
 import urllib.parse
 import urllib.request
+import html as _html
 
 from .fetch import DEFAULT_UA, SSL_CONTEXT, FetchError
 from .model import Edge, Graph, Node
@@ -42,11 +50,29 @@ from .model import Edge, Graph, Node
 NOW = lambda: _dt.datetime.now(_dt.timezone.utc).isoformat(timespec="seconds")
 
 BCI_ENTITY = "Q897410"          # 脑机接口, verified against the Wikidata API
+KCI_SEARCH = "https://www.kci.go.kr/kciportal/po/search/poArtiSearList.kci"
+KCI_URL = KCI_SEARCH
+KCI_VIEW = "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId="
 LANG_SOURCES = {"en": "English", "de": "Deutsch", "fr": "Français", "zh": "中文"}
 
 
 def _get(url: str, timeout: float = 30.0, accept: str = "*/*") -> str:
     req = urllib.request.Request(url, headers={"User-Agent": DEFAULT_UA, "Accept": accept})
+    try:
+        with urllib.request.urlopen(req, timeout=timeout, context=SSL_CONTEXT) as r:
+            return r.read().decode("utf-8", "ignore")
+    except Exception as e:
+        raise FetchError("%s: %s <- %s" % (type(e).__name__, e, url)) from e
+
+
+def _post(url: str, form: dict, timeout: float = 60.0) -> str:
+    """POST a form and return the body. KCI's article list exists only behind a POST."""
+    body = urllib.parse.urlencode(form).encode("utf-8")
+    req = urllib.request.Request(url, data=body, headers={
+        "User-Agent": DEFAULT_UA,
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Accept-Language": "ko,en;q=0.8",
+        "Referer": KCI_SEARCH})
     try:
         with urllib.request.urlopen(req, timeout=timeout, context=SSL_CONTEXT) as r:
             return r.read().decode("utf-8", "ignore")
@@ -370,6 +396,67 @@ def cinii(term: str = '"brain-computer interface"', count: int = 10) -> dict:
     return {"total": total, "returned": len(rows), "rows": rows}
 
 
+def kci(term: str = "brain-computer interface", per_page: int = 100,
+        max_pages: int = 4) -> dict:
+    """KCI (Korea Citation Index) article search.
+
+    Measured on this host: KoreaMed's SearchBasic.php answers 200 with a fixed 85,908-byte
+    shell no matter what is posted (no records, no total), and KoreaScience.kr's search.page
+    returns a JavaScript shell with zero server-rendered hits. Both look like "0 results";
+    both are really "the results are not in the HTML". KCI's own portal search does render
+    them, but only through a POST to poArtiSearList.kci -- the GET page is the shell.
+
+    What works: POST poArtiSearList.kci with poSearchBean.conditionList=KEYALL,
+    poSearchBean.keywordList=<term>, poSearchBean.startPg=<n>, poSearchBean.docsCount=<per>.
+    Measured result for `brain-computer interface`: 274 records over pages of 100/100/74,
+    each row carrying title, author, journal, society, issue date, KCI subject class,
+    citation count, page range and the ART id needed for the article URL.
+
+    Records are kept as-is (Korean title or English title, whichever the journal filed);
+    the language of a record is not assumed from the country of the journal.
+    """
+    base = {"poSearchBean.conditionList": "KEYALL", "poSearchBean.userRecommend": "N",
+            "poSearchBean.searType": "all"}
+    rows: list[dict] = []
+    seen: set[str] = set()
+    total = None
+    for pg in range(1, max_pages + 1):
+        form = dict(base, **{"poSearchBean.keywordList": term,
+                             "poSearchBean.startPg": str(pg),
+                             "poSearchBean.docsCount": str(per_page)})
+        try:
+            h = _post(KCI_URL, form)
+        except FetchError as e:
+            if rows:
+                break
+            raise
+        if total is None:
+            flat = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", h))
+            m = re.search(r"총\s*([\d,]+)\s*건", flat)
+            total = int(m.group(1).replace(",", "")) if m else None
+        got = 0
+        for blk in h.split('<input type="hidden" name="R_ROWNUM"')[1:]:
+            def field(name: str, _b=blk) -> str:
+                m = re.search(r'name="%s" value="([^"]*)"' % name, _b)
+                return m.group(1) if m else ""
+            aid = field("R_SYST_LOCA_ID1")
+            if not aid or aid in seen:
+                continue
+            seen.add(aid)
+            got += 1
+            rows.append({
+                "id": aid, "title": _html.unescape(field("R_INDE_TITL")), "author": field("R_CRET_NM"),
+                "journal": field("R_SERE_NM"), "society": field("R_PUBI_INSI_NM"),
+                "date": field("R_PUBI_DT"), "major": field("R_MAJOR"),
+                "cited": field("R_CITATED_IDX"),
+                "pages": ("%s~%s" % (field("R_ST_PG"), field("R_END_PG"))
+                          if field("R_ST_PG") else ""),
+                "url": KCI_VIEW + aid})
+        if got == 0:
+            break
+    return {"total": total, "returned": len(rows), "rows": rows}
+
+
 def build_cjk_graph(term: str = '"brain-computer interface"', *, count: int = 8,
                     graph: Graph | None = None) -> Graph:
     """Japanese and Korean slices. Korea is reported as a gap, not filled with guesses."""
@@ -409,9 +496,41 @@ def build_cjk_graph(term: str = '"brain-computer interface"', *, count: int = 8,
         except FetchError as e:
             note(name, term, e)
 
-    # Korea: both public entry points were measured and neither yields usable records.
-    notes.append({"source": "KoreaMed / KCI（韩国）", "what": "brain-computer",
-                  "error": "KoreaMed 检索页无结构化结果（需 session/form），KCI 需 POST 且返回段可解析性差；"
-                           "记为已知缺口，不写假记录"})
+    # Korea. KoreaMed and KoreaScience were both re-measured and both still hide their
+    # results (KoreaMed answers 200 with a fixed 85,908-byte shell for any query; KoreaScience
+    # renders the list in JavaScript). KCI's portal does render them, behind a POST.
+    try:
+        kres = kci(term.strip('"') or "brain-computer interface", per_page=100, max_pages=4)
+        if kres["rows"]:
+            kslice = "krslice:kci"
+            g.add_node(Node(key=kslice, kind="language_slice", label="KCI（韩国）",
+                            attrs={"lang_code": "ko", "hit_count": kres["total"],
+                                   "sample": kres["returned"], "source_name": "KCI",
+                                   "note": "记录语言不按刊物国别推断：标题原文照抄"},
+                            source="KCI", url="https://www.kci.go.kr/", fetched_at=NOW()))
+            g.add_edge(Edge(src=kslice, dst=ck, rel="sliced_by_language",
+                            attrs={"hit_count": kres["total"]}, source="KCI", url="",
+                            fetched_at=NOW()))
+            for r in kres["rows"]:
+                pk = "kr:kci:" + r["id"]
+                g.add_node(Node(key=pk, kind="publication_ko", label=(r["title"] or "")[:120],
+                                attrs={"date": r.get("date"), "journal": r.get("journal"),
+                                       "author": r.get("author"), "major": r.get("major"),
+                                       "cited": r.get("cited"), "pages": r.get("pages"),
+                                       "society": r.get("society")},
+                                source="KCI", url=r.get("url") or "", fetched_at=NOW()))
+                g.add_edge(Edge(src=pk, dst=kslice, rel="in_language_slice", attrs={},
+                                source="KCI", url=r.get("url") or "", fetched_at=NOW()))
+                if r.get("society"):
+                    sk = "kr:soc:" + re.sub(r"\s+", "-", r["society"])
+                    g.add_node(Node(key=sk, kind="organization", label=r["society"],
+                                    attrs={"country": "KR"},
+                                    source="KCI", url="https://www.kci.go.kr/", fetched_at=NOW()))
+                    g.add_edge(Edge(src=sk, dst=pk, rel="publishes", attrs={},
+                                    source="KCI", url=r.get("url") or "", fetched_at=NOW()))
+        else:
+            note("KCI（韩国）", term, "0 rows parsed")
+    except FetchError as e:
+        note("KCI（韩国）", term, e)
     g._notes = notes  # type: ignore[attr-defined]
     return g
