@@ -28,3 +28,5 @@ shards/us_china_raw/_build_state.pkl
 
 # 清洗产物：30MB 级、可由 python -m entitygraph.cli clean 重建，不进库
 clean/*.graph.json
+# 爬虫自动清洗的滚动图谱与日志：随时在长，可由 crawler 重建
+clean/auto/

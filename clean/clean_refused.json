@@ -1,0 +1,2245 @@
+{
+ "refusals": [
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "300etf",
+   "keys": [
+    "cnstock:510300",
+    "cnstock:510330"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "a",
+   "keys": [
+    "cnstock:000002",
+    "cnstock:000725"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "alden state bank",
+   "keys": [
+    "bank:fdic:17622",
+    "bank:fdic:9831"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "alliance bank",
+   "keys": [
+    "bank:fdic:10973",
+    "bank:fdic:11569",
+    "bank:fdic:12511",
+    "bank:fdic:197",
+    "bank:fdic:34566"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "american bank",
+   "keys": [
+    "bank:fdic:19234",
+    "bank:fdic:20311",
+    "bank:fdic:34422"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "american bank national association",
+   "keys": [
+    "bank:fdic:21567",
+    "bank:fdic:23886",
+    "bank:fdic:5800"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "american bank trust",
+   "keys": [
+    "bank:fdic:1117",
+    "bank:fdic:17906",
+    "bank:fdic:35568"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "american exchange bank",
+   "keys": [
+    "bank:fdic:10647",
+    "bank:fdic:428"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "american heritage bank",
+   "keys": [
+    "bank:fdic:4190",
+    "bank:fdic:57025"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "american state bank",
+   "keys": [
+    "bank:fdic:228",
+    "bank:fdic:26944",
+    "bank:fdic:9967"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "b",
+   "keys": [
+    "cnstock:06681",
+    "cnstock:200030",
+    "cnstock:200037",
+    "cnstock:200468",
+    "cnstock:900905",
+    "cnstock:900920"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "bank",
+   "keys": [
+    "bank:fdic:14291",
+    "bank:fdic:26522",
+    "bank:fdic:34409"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "bank of china",
+   "keys": [
+    "bank:fdic:33652",
+    "bank:fdic:33653"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "bank of commerce",
+   "keys": [
+    "bank:fdic:13274",
+    "bank:fdic:1374",
+    "bank:fdic:18059",
+    "bank:fdic:22639",
+    "bank:fdic:26217",
+    "bank:fdic:57491",
+    "bank:fdic:9359"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "bank of east asia",
+   "keys": [
+    "bank:fdic:26028",
+    "bank:fdic:33646"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "bank of monticello",
+   "keys": [
+    "bank:fdic:12232",
+    "bank:fdic:2145"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "bank of oak ridge",
+   "keys": [
+    "bank:fdic:21529",
+    "bank:fdic:35365"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "bank of salem",
+   "keys": [
+    "bank:fdic:11243",
+    "bank:fdic:14349"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "bank of west",
+   "keys": [
+    "bank:fdic:25703",
+    "bank:fdic:26627"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "bankers bank",
+   "keys": [
+    "bank:fdic:23537",
+    "bank:fdic:26677"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "banksouth",
+   "keys": [
+    "bank:fdic:16418",
+    "bank:fdic:77"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "bankwest",
+   "keys": [
+    "bank:fdic:16704",
+    "bank:fdic:4009"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "brighton bank",
+   "keys": [
+    "bank:fdic:22578",
+    "bank:fdic:9189"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "centennial bank",
+   "keys": [
+    "bank:fdic:11241",
+    "bank:fdic:8439"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "central bank",
+   "keys": [
+    "bank:fdic:15555",
+    "bank:fdic:1756",
+    "bank:fdic:17612",
+    "bank:fdic:31545",
+    "bank:fdic:58377",
+    "bank:fdic:9204"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "central national bank",
+   "keys": [
+    "bank:fdic:22396",
+    "bank:fdic:4702"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "central state bank",
+   "keys": [
+    "bank:fdic:10903",
+    "bank:fdic:1550",
+    "bank:fdic:72",
+    "bank:fdic:8487"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "century bank",
+   "keys": [
+    "bank:fdic:11448",
+    "bank:fdic:28362"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "century bank and trust",
+   "keys": [
+    "bank:fdic:147",
+    "bank:fdic:5015"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "charter bank",
+   "keys": [
+    "bank:fdic:18660",
+    "bank:fdic:34686"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "citizens bank",
+   "keys": [
+    "bank:fdic:10266",
+    "bank:fdic:10520",
+    "bank:fdic:1164",
+    "bank:fdic:13055",
+    "bank:fdic:14488",
+    "bank:fdic:14851",
+    "bank:fdic:15932",
+    "bank:fdic:16369",
+    "bank:fdic:16817",
+    "bank:fdic:17211",
+    "bank:fdic:17809",
+    "bank:fdic:22358",
+    "bank:fdic:22601",
+    "bank:fdic:23523",
+    "bank:fdic:262",
+    "bank:fdic:3140",
+    "bank:fdic:324",
+    "bank:fdic:893",
+    "bank:fdic:9306",
+    "bank:fdic:9647"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "citizens bank and trust",
+   "keys": [
+    "bank:fdic:5673",
+    "bank:fdic:823"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "citizens bank trust",
+   "keys": [
+    "bank:fdic:10218",
+    "bank:fdic:1376",
+    "bank:fdic:14293",
+    "bank:fdic:15675",
+    "bank:fdic:16417",
+    "bank:fdic:1972",
+    "bank:fdic:5469",
+    "bank:fdic:57483",
+    "bank:fdic:8738",
+    "bank:fdic:9777"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "citizens community bank",
+   "keys": [
+    "bank:fdic:12079",
+    "bank:fdic:12694",
+    "bank:fdic:33739",
+    "bank:fdic:33753"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "citizens federal savings and loan association",
+   "keys": [
+    "bank:fdic:27841",
+    "bank:fdic:28060"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "citizens first bank",
+   "keys": [
+    "bank:fdic:13032",
+    "bank:fdic:35477"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "citizens national bank",
+   "keys": [
+    "bank:fdic:20954",
+    "bank:fdic:24085",
+    "bank:fdic:3127",
+    "bank:fdic:4678"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "citizens savings bank",
+   "keys": [
+    "bank:fdic:10125",
+    "bank:fdic:12128",
+    "bank:fdic:14785",
+    "bank:fdic:30270",
+    "bank:fdic:31184"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "citizens state bank",
+   "keys": [
+    "bank:fdic:10474",
+    "bank:fdic:11759",
+    "bank:fdic:11905",
+    "bank:fdic:12303",
+    "bank:fdic:14269",
+    "bank:fdic:15111",
+    "bank:fdic:15261",
+    "bank:fdic:15519",
+    "bank:fdic:16581",
+    "bank:fdic:16753",
+    "bank:fdic:17214",
+    "bank:fdic:17672",
+    "bank:fdic:18356",
+    "bank:fdic:18724",
+    "bank:fdic:2467",
+    "bank:fdic:5495",
+    "bank:fdic:6194",
+    "bank:fdic:8183",
+    "bank:fdic:9047"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "citizens state bank and trust",
+   "keys": [
+    "bank:fdic:15254",
+    "bank:fdic:5830"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "city bank trust",
+   "keys": [
+    "bank:fdic:12608",
+    "bank:fdic:5396"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "city national bank",
+   "keys": [
+    "bank:fdic:17281",
+    "bank:fdic:24367"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "city state bank",
+   "keys": [
+    "bank:fdic:14410",
+    "bank:fdic:17607"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "cleveland state bank",
+   "keys": [
+    "bank:fdic:12201",
+    "bank:fdic:9517"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "cnb bank",
+   "keys": [
+    "bank:fdic:13876",
+    "bank:fdic:14507",
+    "bank:fdic:2241"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "columbia bank",
+   "keys": [
+    "bank:fdic:17266",
+    "bank:fdic:28834"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "commerce bank",
+   "keys": [
+    "bank:fdic:10212",
+    "bank:fdic:23772",
+    "bank:fdic:24998",
+    "bank:fdic:34938"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "commercial bank",
+   "keys": [
+    "bank:fdic:11777",
+    "bank:fdic:12246",
+    "bank:fdic:14642",
+    "bank:fdic:175",
+    "bank:fdic:18584",
+    "bank:fdic:19595",
+    "bank:fdic:22354",
+    "bank:fdic:27409",
+    "bank:fdic:9310",
+    "bank:fdic:9356"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "commercial bank trust",
+   "keys": [
+    "bank:fdic:8660",
+    "bank:fdic:90"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "commercial state bank",
+   "keys": [
+    "bank:fdic:10330",
+    "bank:fdic:13819",
+    "bank:fdic:1986"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "community bank",
+   "keys": [
+    "bank:fdic:10791",
+    "bank:fdic:14649",
+    "bank:fdic:1687",
+    "bank:fdic:25752",
+    "bank:fdic:31272",
+    "bank:fdic:34020",
+    "bank:fdic:34666",
+    "bank:fdic:58517",
+    "bank:fdic:5981",
+    "bank:fdic:7848",
+    "bank:fdic:8975"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "community bank and trust",
+   "keys": [
+    "bank:fdic:13068",
+    "bank:fdic:23189"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "community first bank",
+   "keys": [
+    "bank:fdic:10595",
+    "bank:fdic:11595",
+    "bank:fdic:12512",
+    "bank:fdic:35020",
+    "bank:fdic:5197"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "community national bank",
+   "keys": [
+    "bank:fdic:24897",
+    "bank:fdic:25665",
+    "bank:fdic:6271"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "community savings bank",
+   "keys": [
+    "bank:fdic:14633",
+    "bank:fdic:28841",
+    "bank:fdic:32286"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "community state bank",
+   "keys": [
+    "bank:fdic:14883",
+    "bank:fdic:17551",
+    "bank:fdic:18272",
+    "bank:fdic:1839",
+    "bank:fdic:20279",
+    "bank:fdic:22567",
+    "bank:fdic:230",
+    "bank:fdic:23257",
+    "bank:fdic:27201",
+    "bank:fdic:5619",
+    "bank:fdic:58732",
+    "bank:fdic:8067",
+    "bank:fdic:9536"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "cornerstone bank",
+   "keys": [
+    "bank:fdic:13198",
+    "bank:fdic:30067",
+    "bank:fdic:5496",
+    "bank:fdic:57250",
+    "bank:fdic:58859",
+    "bank:fdic:90282"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "county bank",
+   "keys": [
+    "bank:fdic:12220",
+    "bank:fdic:33009"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "crossroads bank",
+   "keys": [
+    "bank:fdic:10709",
+    "bank:fdic:21486",
+    "bank:fdic:29839"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "crown bank",
+   "keys": [
+    "bank:fdic:34259",
+    "bank:fdic:35480"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "dime bank",
+   "keys": [
+    "bank:fdic:18200",
+    "bank:fdic:9888"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "eagle bank",
+   "keys": [
+    "bank:fdic:58282",
+    "bank:fdic:8824",
+    "bank:fdic:90191"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "enterprise bank",
+   "keys": [
+    "bank:fdic:33380",
+    "bank:fdic:34786"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "etf",
+   "keys": [
+    "cnstock:158049",
+    "cnstock:159915",
+    "cnstock:159920",
+    "cnstock:159934",
+    "cnstock:159937",
+    "cnstock:511110",
+    "cnstock:512000",
+    "cnstock:512800",
+    "cnstock:512880",
+    "cnstock:513100",
+    "cnstock:515290",
+    "cnstock:518880",
+    "cnstock:562400",
+    "cnstock:588170",
+    "cnstock:589190"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "exchange bank",
+   "keys": [
+    "bank:fdic:10672",
+    "bank:fdic:1435",
+    "bank:fdic:160",
+    "bank:fdic:8274",
+    "bank:fdic:8468"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "exchange state bank",
+   "keys": [
+    "bank:fdic:10132",
+    "bank:fdic:12402",
+    "bank:fdic:14556",
+    "bank:fdic:16094"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "f m bank",
+   "keys": [
+    "bank:fdic:12761",
+    "bank:fdic:14922",
+    "bank:fdic:16897",
+    "bank:fdic:5401"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "f m bank and trust",
+   "keys": [
+    "bank:fdic:16916",
+    "bank:fdic:30595"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "farmers and merchants bank",
+   "keys": [
+    "bank:fdic:10280",
+    "bank:fdic:13415",
+    "bank:fdic:13801",
+    "bank:fdic:13887",
+    "bank:fdic:14275",
+    "bank:fdic:15801",
+    "bank:fdic:16440",
+    "bank:fdic:16810",
+    "bank:fdic:1735",
+    "bank:fdic:1843",
+    "bank:fdic:1895",
+    "bank:fdic:3170",
+    "bank:fdic:4144",
+    "bank:fdic:5716"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "farmers and merchants state bank",
+   "keys": [
+    "bank:fdic:13999",
+    "bank:fdic:15610",
+    "bank:fdic:21728",
+    "bank:fdic:501"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "farmers bank",
+   "keys": [
+    "bank:fdic:1296",
+    "bank:fdic:14894",
+    "bank:fdic:1696",
+    "bank:fdic:2850",
+    "bank:fdic:4054",
+    "bank:fdic:5709",
+    "bank:fdic:57335",
+    "bank:fdic:8661"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "farmers bank and trust",
+   "keys": [
+    "bank:fdic:12869",
+    "bank:fdic:2765"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "farmers bank trust",
+   "keys": [
+    "bank:fdic:1291",
+    "bank:fdic:17614",
+    "bank:fdic:4621"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "farmers merchants bank",
+   "keys": [
+    "bank:fdic:12284",
+    "bank:fdic:15779",
+    "bank:fdic:16216",
+    "bank:fdic:1745",
+    "bank:fdic:2036",
+    "bank:fdic:8668",
+    "bank:fdic:9069",
+    "bank:fdic:9462"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "farmers merchants bank trust",
+   "keys": [
+    "bank:fdic:10382",
+    "bank:fdic:13737"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "farmers merchants state bank",
+   "keys": [
+    "bank:fdic:13242",
+    "bank:fdic:5969"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "farmers national bank",
+   "keys": [
+    "bank:fdic:3732",
+    "bank:fdic:4611"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "farmers savings bank",
+   "keys": [
+    "bank:fdic:10500",
+    "bank:fdic:14807",
+    "bank:fdic:18284",
+    "bank:fdic:18394"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "farmers state bank",
+   "keys": [
+    "bank:fdic:11307",
+    "bank:fdic:12107",
+    "bank:fdic:12855",
+    "bank:fdic:13407",
+    "bank:fdic:13775",
+    "bank:fdic:13883",
+    "bank:fdic:14209",
+    "bank:fdic:14344",
+    "bank:fdic:14578",
+    "bank:fdic:14991",
+    "bank:fdic:15258",
+    "bank:fdic:15367",
+    "bank:fdic:15853",
+    "bank:fdic:1686",
+    "bank:fdic:16941",
+    "bank:fdic:17632",
+    "bank:fdic:19720",
+    "bank:fdic:342",
+    "bank:fdic:404",
+    "bank:fdic:526",
+    "bank:fdic:5797",
+    "bank:fdic:5838",
+    "bank:fdic:6156",
+    "bank:fdic:8503",
+    "bank:fdic:8647",
+    "bank:fdic:8760",
+    "bank:fdic:879",
+    "bank:fdic:9106",
+    "bank:fdic:9295"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "farmers state bank of hoffman",
+   "keys": [
+    "bank:fdic:9259",
+    "bank:fdic:9354"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "farmers state bank trust",
+   "keys": [
+    "bank:fdic:10458",
+    "bank:fdic:16114"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "farmers trust and savings bank",
+   "keys": [
+    "bank:fdic:12858",
+    "bank:fdic:14195"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "farmers trust savings bank",
+   "keys": [
+    "bank:fdic:14392",
+    "bank:fdic:8510"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "fidelity bank",
+   "keys": [
+    "bank:fdic:11507",
+    "bank:fdic:19644",
+    "bank:fdic:28316",
+    "bank:fdic:5753"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "first american bank",
+   "keys": [
+    "bank:fdic:15762",
+    "bank:fdic:2240",
+    "bank:fdic:3657"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "first american bank and trust",
+   "keys": [
+    "bank:fdic:16858",
+    "bank:fdic:8149"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "first bank",
+   "keys": [
+    "bank:fdic:12229",
+    "bank:fdic:14885",
+    "bank:fdic:15019",
+    "bank:fdic:16473",
+    "bank:fdic:3121",
+    "bank:fdic:4092",
+    "bank:fdic:4519",
+    "bank:fdic:58481",
+    "bank:fdic:5907",
+    "bank:fdic:6917",
+    "bank:fdic:9620"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "first bank and trust",
+   "keys": [
+    "bank:fdic:15348",
+    "bank:fdic:22918",
+    "bank:fdic:5438"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "first bank trust",
+   "keys": [
+    "bank:fdic:13946",
+    "bank:fdic:27394",
+    "bank:fdic:3973"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "first capital bank",
+   "keys": [
+    "bank:fdic:3399",
+    "bank:fdic:34966"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "first citizens bank",
+   "keys": [
+    "bank:fdic:23152",
+    "bank:fdic:4433"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "first commerce bank",
+   "keys": [
+    "bank:fdic:57273",
+    "bank:fdic:57465",
+    "bank:fdic:58054"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "first community bank",
+   "keys": [
+    "bank:fdic:11225",
+    "bank:fdic:13012",
+    "bank:fdic:13179",
+    "bank:fdic:14904",
+    "bank:fdic:22964",
+    "bank:fdic:24353",
+    "bank:fdic:34047",
+    "bank:fdic:34533",
+    "bank:fdic:5384"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "first farmers merchants national bank",
+   "keys": [
+    "bank:fdic:33131",
+    "bank:fdic:5186"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "first federal bank",
+   "keys": [
+    "bank:fdic:29782",
+    "bank:fdic:31077",
+    "bank:fdic:31313"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "first federal savings and loan association",
+   "keys": [
+    "bank:fdic:29090",
+    "bank:fdic:29345",
+    "bank:fdic:30812",
+    "bank:fdic:31197",
+    "bank:fdic:31409"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "first federal savings bank",
+   "keys": [
+    "bank:fdic:28924",
+    "bank:fdic:29056",
+    "bank:fdic:29690",
+    "bank:fdic:31516"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "first fidelity bank",
+   "keys": [
+    "bank:fdic:1122",
+    "bank:fdic:23473"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "first financial bank",
+   "keys": [
+    "bank:fdic:19440",
+    "bank:fdic:28905",
+    "bank:fdic:3066",
+    "bank:fdic:6600"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "first heritage bank",
+   "keys": [
+    "bank:fdic:4457",
+    "bank:fdic:4636"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "first independent bank",
+   "keys": [
+    "bank:fdic:18380",
+    "bank:fdic:1900"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "first liberty bank",
+   "keys": [
+    "bank:fdic:14029",
+    "bank:fdic:3301"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "first national bank",
+   "keys": [
+    "bank:fdic:14712",
+    "bank:fdic:17643",
+    "bank:fdic:22271",
+    "bank:fdic:25894",
+    "bank:fdic:34455",
+    "bank:fdic:3887",
+    "bank:fdic:4256",
+    "bank:fdic:4324",
+    "bank:fdic:6811"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "first national bank and trust",
+   "keys": [
+    "bank:fdic:2779",
+    "bank:fdic:4756"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "first national bank trust",
+   "keys": [
+    "bank:fdic:3639",
+    "bank:fdic:4086",
+    "bank:fdic:5062"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "first national community bank",
+   "keys": [
+    "bank:fdic:22092",
+    "bank:fdic:5357"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "first resource bank",
+   "keys": [
+    "bank:fdic:57967",
+    "bank:fdic:58039"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "first security bank",
+   "keys": [
+    "bank:fdic:1622",
+    "bank:fdic:17120",
+    "bank:fdic:251",
+    "bank:fdic:3698",
+    "bank:fdic:4041",
+    "bank:fdic:4752",
+    "bank:fdic:5633",
+    "bank:fdic:9728"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "first security bank and trust",
+   "keys": [
+    "bank:fdic:17001",
+    "bank:fdic:1852"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "first security state bank",
+   "keys": [
+    "bank:fdic:11932",
+    "bank:fdic:18508"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "first southern bank",
+   "keys": [
+    "bank:fdic:10055",
+    "bank:fdic:15565",
+    "bank:fdic:29332",
+    "bank:fdic:31158"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "first state bank",
+   "keys": [
+    "bank:fdic:10503",
+    "bank:fdic:11175",
+    "bank:fdic:12149",
+    "bank:fdic:1218",
+    "bank:fdic:12244",
+    "bank:fdic:12283",
+    "bank:fdic:12757",
+    "bank:fdic:13632",
+    "bank:fdic:15032",
+    "bank:fdic:15050",
+    "bank:fdic:15206",
+    "bank:fdic:15271",
+    "bank:fdic:15321",
+    "bank:fdic:15511",
+    "bank:fdic:15539",
+    "bank:fdic:15663",
+    "bank:fdic:15752",
+    "bank:fdic:16177",
+    "bank:fdic:16333",
+    "bank:fdic:16600",
+    "bank:fdic:16643",
+    "bank:fdic:16695",
+    "bank:fdic:17509",
+    "bank:fdic:17588",
+    "bank:fdic:17775",
+    "bank:fdic:17950",
+    "bank:fdic:18301",
+    "bank:fdic:19163",
+    "bank:fdic:21752",
+    "bank:fdic:22448",
+    "bank:fdic:2301",
+    "bank:fdic:24498",
+    "bank:fdic:5791",
+    "bank:fdic:57910",
+    "bank:fdic:5821",
+    "bank:fdic:5835",
+    "bank:fdic:8522",
+    "bank:fdic:8604",
+    "bank:fdic:9437",
+    "bank:fdic:9879"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "first state bank and trust",
+   "keys": [
+    "bank:fdic:10159",
+    "bank:fdic:11559",
+    "bank:fdic:14185",
+    "bank:fdic:14974",
+    "bank:fdic:16332"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "first texas bank",
+   "keys": [
+    "bank:fdic:11935",
+    "bank:fdic:3293"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "first united bank",
+   "keys": [
+    "bank:fdic:12769",
+    "bank:fdic:15472"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "first united bank and trust",
+   "keys": [
+    "bank:fdic:34150",
+    "bank:fdic:4239"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "firstbank",
+   "keys": [
+    "bank:fdic:14331",
+    "bank:fdic:8663"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "five star bank",
+   "keys": [
+    "bank:fdic:35361",
+    "bank:fdic:659"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "fnb bank",
+   "keys": [
+    "bank:fdic:14420",
+    "bank:fdic:2759",
+    "bank:fdic:6794",
+    "bank:fdic:954"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "fnb community bank",
+   "keys": [
+    "bank:fdic:16127",
+    "bank:fdic:3840"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "foresight bank",
+   "keys": [
+    "bank:fdic:5229",
+    "bank:fdic:5749"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "fowler state bank",
+   "keys": [
+    "bank:fdic:12372",
+    "bank:fdic:1821"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "franklin savings bank",
+   "keys": [
+    "bank:fdic:17951",
+    "bank:fdic:19836"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "freedom bank",
+   "keys": [
+    "bank:fdic:15664",
+    "bank:fdic:17881",
+    "bank:fdic:35221",
+    "bank:fdic:58010",
+    "bank:fdic:58712"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "frontier bank",
+   "keys": [
+    "bank:fdic:14730",
+    "bank:fdic:33922"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "gateway bank",
+   "keys": [
+    "bank:fdic:57644",
+    "bank:fdic:8730"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "generations bank",
+   "keys": [
+    "bank:fdic:14096",
+    "bank:fdic:88"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "genesis bank",
+   "keys": [
+    "bank:fdic:15817",
+    "bank:fdic:59245"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "glenwood state bank",
+   "keys": [
+    "bank:fdic:8853",
+    "bank:fdic:956"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "grant county bank",
+   "keys": [
+    "bank:fdic:10918",
+    "bank:fdic:15778"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "grant county state bank",
+   "keys": [
+    "bank:fdic:15687",
+    "bank:fdic:9417"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "great southern bank",
+   "keys": [
+    "bank:fdic:29546",
+    "bank:fdic:8552"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "greenfield banking",
+   "keys": [
+    "bank:fdic:15255",
+    "bank:fdic:15632"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "guaranty bank",
+   "keys": [
+    "bank:fdic:22273",
+    "bank:fdic:58892"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "guaranty bank and trust",
+   "keys": [
+    "bank:fdic:15953",
+    "bank:fdic:17767"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "heartland bank",
+   "keys": [
+    "bank:fdic:14809",
+    "bank:fdic:18740"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "heartland state bank",
+   "keys": [
+    "bank:fdic:3919",
+    "bank:fdic:9007"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "heritage bank",
+   "keys": [
+    "bank:fdic:17145",
+    "bank:fdic:29012",
+    "bank:fdic:33119",
+    "bank:fdic:57548"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "heritage community bank",
+   "keys": [
+    "bank:fdic:15282",
+    "bank:fdic:57656"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "high plains bank",
+   "keys": [
+    "bank:fdic:3017",
+    "bank:fdic:418"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "home savings bank",
+   "keys": [
+    "bank:fdic:26798",
+    "bank:fdic:28246"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "home state bank",
+   "keys": [
+    "bank:fdic:14867",
+    "bank:fdic:9745"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "hometown bank",
+   "keys": [
+    "bank:fdic:30219",
+    "bank:fdic:31028"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "horizon bank",
+   "keys": [
+    "bank:fdic:14327",
+    "bank:fdic:4360"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "independence bank",
+   "keys": [
+    "bank:fdic:20989",
+    "bank:fdic:22925"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "independent bank",
+   "keys": [
+    "bank:fdic:27811",
+    "bank:fdic:34728"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "international bank of commerce",
+   "keys": [
+    "bank:fdic:19629",
+    "bank:fdic:24961",
+    "bank:fdic:25679",
+    "bank:fdic:59093"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "iowa state bank",
+   "keys": [
+    "bank:fdic:10497",
+    "bank:fdic:13953",
+    "bank:fdic:15808",
+    "bank:fdic:15947",
+    "bank:fdic:950"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "jackson county bank",
+   "keys": [
+    "bank:fdic:13109",
+    "bank:fdic:291"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "jefferson bank",
+   "keys": [
+    "bank:fdic:11445",
+    "bank:fdic:16470"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "lakeside bank",
+   "keys": [
+    "bank:fdic:19573",
+    "bank:fdic:21693"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "legacy bank",
+   "keys": [
+    "bank:fdic:17676",
+    "bank:fdic:19011",
+    "bank:fdic:4042",
+    "bank:fdic:57953",
+    "bank:fdic:59204"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "legends bank",
+   "keys": [
+    "bank:fdic:12616",
+    "bank:fdic:34936"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "liberty bank",
+   "keys": [
+    "bank:fdic:11719",
+    "bank:fdic:17943",
+    "bank:fdic:20429",
+    "bank:fdic:28463",
+    "bank:fdic:58778"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "liberty national bank",
+   "keys": [
+    "bank:fdic:11522",
+    "bank:fdic:57505"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "local bank",
+   "keys": [
+    "bank:fdic:2327",
+    "bank:fdic:9614"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "main street bank",
+   "keys": [
+    "bank:fdic:29847",
+    "bank:fdic:90235"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "mechanics bank",
+   "keys": [
+    "bank:fdic:1768",
+    "bank:fdic:29011"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "merchants planters bank",
+   "keys": [
+    "bank:fdic:107",
+    "bank:fdic:16464"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "mid america bank",
+   "keys": [
+    "bank:fdic:11459",
+    "bank:fdic:17374"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "midwest bank",
+   "keys": [
+    "bank:fdic:13255",
+    "bank:fdic:3711",
+    "bank:fdic:9737"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "millennium bank",
+   "keys": [
+    "bank:fdic:35138",
+    "bank:fdic:58348"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "mission bank",
+   "keys": [
+    "bank:fdic:34805",
+    "bank:fdic:57137"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "mountain valley bank",
+   "keys": [
+    "bank:fdic:1705",
+    "bank:fdic:17411"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "nebraska state bank",
+   "keys": [
+    "bank:fdic:13696",
+    "bank:fdic:16516",
+    "bank:fdic:9819"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "neighborhood national bank",
+   "keys": [
+    "bank:fdic:18885",
+    "bank:fdic:34548"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "north valley bank",
+   "keys": [
+    "bank:fdic:18710",
+    "bank:fdic:2284"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "northeast bank",
+   "keys": [
+    "bank:fdic:16659",
+    "bank:fdic:19690"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "northwest bank",
+   "keys": [
+    "bank:fdic:28178",
+    "bank:fdic:32647",
+    "bank:fdic:58752"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "pasquale arpaia",
+   "keys": [
+    "inst:unmatched:pasquale arpaia",
+    "org:pasquale-arpaia"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "peoples bank",
+   "keys": [
+    "bank:fdic:1147",
+    "bank:fdic:12226",
+    "bank:fdic:12230",
+    "bank:fdic:12531",
+    "bank:fdic:13220",
+    "bank:fdic:14692",
+    "bank:fdic:15216",
+    "bank:fdic:1562",
+    "bank:fdic:1566",
+    "bank:fdic:15871",
+    "bank:fdic:16152",
+    "bank:fdic:16265",
+    "bank:fdic:16603",
+    "bank:fdic:16968",
+    "bank:fdic:17073",
+    "bank:fdic:27398",
+    "bank:fdic:29523",
+    "bank:fdic:389",
+    "bank:fdic:57058",
+    "bank:fdic:5779",
+    "bank:fdic:5956",
+    "bank:fdic:6110",
+    "bank:fdic:6158",
+    "bank:fdic:6544",
+    "bank:fdic:9328",
+    "bank:fdic:9366",
+    "bank:fdic:9489"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "peoples bank and trust",
+   "keys": [
+    "bank:fdic:1365",
+    "bank:fdic:2331"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "peoples bank trust",
+   "keys": [
+    "bank:fdic:1475",
+    "bank:fdic:17320",
+    "bank:fdic:25795",
+    "bank:fdic:8903"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "peoples community bank",
+   "keys": [
+    "bank:fdic:15046",
+    "bank:fdic:22394"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "peoples exchange bank",
+   "keys": [
+    "bank:fdic:70",
+    "bank:fdic:8785"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "peoples savings and loan",
+   "keys": [
+    "bank:fdic:29813",
+    "bank:fdic:30889"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "peoples savings bank",
+   "keys": [
+    "bank:fdic:14868",
+    "bank:fdic:29975",
+    "bank:fdic:34973",
+    "bank:fdic:9439"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "peoples state bank",
+   "keys": [
+    "bank:fdic:10345",
+    "bank:fdic:12814",
+    "bank:fdic:13196",
+    "bank:fdic:14113",
+    "bank:fdic:15939",
+    "bank:fdic:16744",
+    "bank:fdic:17138",
+    "bank:fdic:18569",
+    "bank:fdic:6659"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "pinnacle bank",
+   "keys": [
+    "bank:fdic:10634",
+    "bank:fdic:20231",
+    "bank:fdic:22355",
+    "bank:fdic:252",
+    "bank:fdic:29548",
+    "bank:fdic:35583",
+    "bank:fdic:58297"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "pioneer bank",
+   "keys": [
+    "bank:fdic:19540",
+    "bank:fdic:27872",
+    "bank:fdic:5193",
+    "bank:fdic:6913"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "platte valley bank",
+   "keys": [
+    "bank:fdic:34211",
+    "bank:fdic:5442",
+    "bank:fdic:9818"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "preferred bank",
+   "keys": [
+    "bank:fdic:10628",
+    "bank:fdic:33539"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "premier bank",
+   "keys": [
+    "bank:fdic:21714",
+    "bank:fdic:34384",
+    "bank:fdic:34849"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "reit",
+   "keys": [
+    "cnstock:508021",
+    "cnstock:508089",
+    "cnstock:508609"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "river city bank",
+   "keys": [
+    "bank:fdic:18983",
+    "bank:fdic:26703",
+    "bank:fdic:58289"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "riverbank",
+   "keys": [
+    "bank:fdic:31711",
+    "bank:fdic:58322"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "riverhills bank",
+   "keys": [
+    "bank:fdic:6662",
+    "bank:fdic:8234"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "savings bank",
+   "keys": [
+    "bank:fdic:13216",
+    "bank:fdic:13735",
+    "bank:fdic:90291"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "security bank",
+   "keys": [
+    "bank:fdic:10015",
+    "bank:fdic:2391",
+    "bank:fdic:4178",
+    "bank:fdic:5424"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "security bank and trust",
+   "keys": [
+    "bank:fdic:8121",
+    "bank:fdic:9172",
+    "bank:fdic:9881"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "security savings bank",
+   "keys": [
+    "bank:fdic:14208",
+    "bank:fdic:15734",
+    "bank:fdic:28925"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "security state bank",
+   "keys": [
+    "bank:fdic:11907",
+    "bank:fdic:12422",
+    "bank:fdic:12592",
+    "bank:fdic:1497",
+    "bank:fdic:15749",
+    "bank:fdic:15839",
+    "bank:fdic:16448",
+    "bank:fdic:18374",
+    "bank:fdic:18448",
+    "bank:fdic:19680",
+    "bank:fdic:235",
+    "bank:fdic:421",
+    "bank:fdic:9036"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "shelby county state bank",
+   "keys": [
+    "bank:fdic:11702",
+    "bank:fdic:1553"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "southern bank",
+   "keys": [
+    "bank:fdic:16288",
+    "bank:fdic:28332",
+    "bank:fdic:29731"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "spring bank",
+   "keys": [
+    "bank:fdic:58668",
+    "bank:fdic:58780"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "ssb bank",
+   "keys": [
+    "bank:fdic:16908",
+    "bank:fdic:30431"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "st",
+   "keys": [
+    "cnstock:000010",
+    "cnstock:000610",
+    "cnstock:000838",
+    "cnstock:002021",
+    "cnstock:002667",
+    "cnstock:300010",
+    "cnstock:300477",
+    "cnstock:600537",
+    "cnstock:600568",
+    "cnstock:600734",
+    "cnstock:600745",
+    "cnstock:603359",
+    "cnstock:603378",
+    "cnstock:688066"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "state bank",
+   "keys": [
+    "bank:fdic:12706",
+    "bank:fdic:13715",
+    "bank:fdic:16151",
+    "bank:fdic:1833",
+    "bank:fdic:34441"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "state bank of india",
+   "keys": [
+    "bank:fdic:33664",
+    "bank:fdic:33682"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "state bank trust",
+   "keys": [
+    "bank:fdic:15651",
+    "bank:fdic:17169",
+    "bank:fdic:861"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "state exchange bank",
+   "keys": [
+    "bank:fdic:13551",
+    "bank:fdic:17375"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "state savings bank",
+   "keys": [
+    "bank:fdic:14773",
+    "bank:fdic:248",
+    "bank:fdic:8162"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "state street bank and trust",
+   "keys": [
+    "bank:fdic:14",
+    "bank:fdic:14857"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "sterling bank",
+   "keys": [
+    "bank:fdic:57813",
+    "bank:fdic:6195"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "summit bank",
+   "keys": [
+    "bank:fdic:23864",
+    "bank:fdic:57706"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "tcl",
+   "keys": [
+    "cnstock:000100",
+    "cnstock:002129"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "texas national bank",
+   "keys": [
+    "bank:fdic:3337",
+    "bank:fdic:34014"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "town country bank",
+   "keys": [
+    "bank:fdic:13071",
+    "bank:fdic:1434",
+    "bank:fdic:57312"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "tri county bank",
+   "keys": [
+    "bank:fdic:16339",
+    "bank:fdic:977"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "ubank",
+   "keys": [
+    "bank:fdic:1693",
+    "bank:fdic:18344"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "union bank",
+   "keys": [
+    "bank:fdic:12969",
+    "bank:fdic:14158",
+    "bank:fdic:14597",
+    "bank:fdic:14722",
+    "bank:fdic:6088",
+    "bank:fdic:9420"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "union bank and trust",
+   "keys": [
+    "bank:fdic:13421",
+    "bank:fdic:22242"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "union bank trust",
+   "keys": [
+    "bank:fdic:1753",
+    "bank:fdic:9179"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "union savings bank",
+   "keys": [
+    "bank:fdic:18190",
+    "bank:fdic:29121",
+    "bank:fdic:32296"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "union state bank",
+   "keys": [
+    "bank:fdic:14560",
+    "bank:fdic:14982",
+    "bank:fdic:15098",
+    "bank:fdic:15908",
+    "bank:fdic:16788",
+    "bank:fdic:1869",
+    "bank:fdic:5602",
+    "bank:fdic:8499"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "united bank",
+   "keys": [
+    "bank:fdic:172",
+    "bank:fdic:22858",
+    "bank:fdic:32025",
+    "bank:fdic:58"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "united bank trust",
+   "keys": [
+    "bank:fdic:17477",
+    "bank:fdic:57391"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "united community bank",
+   "keys": [
+    "bank:fdic:13656",
+    "bank:fdic:16889",
+    "bank:fdic:19143",
+    "bank:fdic:19459",
+    "bank:fdic:8544"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "united southern bank",
+   "keys": [
+    "bank:fdic:15465",
+    "bank:fdic:9309"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "unity bank",
+   "keys": [
+    "bank:fdic:33503",
+    "bank:fdic:8714"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "university of michigan",
+   "keys": [
+    "inst:https://ror.org/00jmfr291",
+    "org:university-of-michigan"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "va office of research and development",
+   "keys": [
+    "inst:https://ror.org/011qyt180",
+    "org:va-office-of-research-and-development"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "valley state bank",
+   "keys": [
+    "bank:fdic:15038",
+    "bank:fdic:26021"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "village bank",
+   "keys": [
+    "bank:fdic:26336",
+    "bank:fdic:33761"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "washington savings bank",
+   "keys": [
+    "bank:fdic:29227",
+    "bank:fdic:90229"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "washington state bank",
+   "keys": [
+    "bank:fdic:16667",
+    "bank:fdic:214",
+    "bank:fdic:9326"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "watertown savings bank",
+   "keys": [
+    "bank:fdic:15990",
+    "bank:fdic:23298"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "western bank",
+   "keys": [
+    "bank:fdic:16720",
+    "bank:fdic:1720",
+    "bank:fdic:2249"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "western national bank",
+   "keys": [
+    "bank:fdic:4778",
+    "bank:fdic:5110",
+    "bank:fdic:5131"
+   ]
+  },
+  {
+   "reason": "same normalised name under different keys; identifier join required",
+   "name": "western state bank",
+   "keys": [
+    "bank:fdic:21121",
+    "bank:fdic:9123"
+   ]
+  }
+ ]
+}

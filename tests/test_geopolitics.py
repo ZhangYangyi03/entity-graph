@@ -78,6 +78,36 @@ def test_empty_reporter_is_distinguished_from_unfetched():
     assert "verified_empty" in src
 
 
+def test_bis_aggregate_codes_are_not_countries():
+    # measured: BIS serves 5J ("All countries") and 5A ("All reporting countries") as ordinary
+    # members of their own dimensions, so a country's partner list contains the world total.
+    # Keeping it would link a country to a "country" called All countries and double every sum.
+    src = open(os.path.join(ROOT, "entitygraph", "geopolitics.py"), encoding="utf-8").read()
+    assert "_bis_country_codes" in src
+    assert "r not in allowed or c not in allowed" in src
+    assert "5J" in src
+
+
+def test_bis_nan_cells_are_dropped_not_carried():
+    # measured: some cells arrive as the literal string "NaN" (CA -> LS, and others).
+    # float() accepts it, so an edge would carry usd=nan and poison every sum downstream.
+    src = open(os.path.join(ROOT, "entitygraph", "geopolitics.py"), encoding="utf-8").read()
+    assert "f != f" in src and "NaN" in src
+
+
+def test_bis_iso_filter_refuses_a_thin_spine():
+    # the filter is the 249-row ISO spine; if the spine came back short the layer would drop
+    # real countries silently, so a short spine must raise instead of filtering
+    src = open(os.path.join(ROOT, "entitygraph", "geopolitics.py"), encoding="utf-8").read()
+    assert "refusing to filter BIS on it" in src
+
+
+def test_bis_claims_and_liabilities_stay_directed():
+    # a claim by banks in A on B is a different fact from the reverse; one symmetric
+    # "connected to" relation is exactly the mistake the BIS layer exists to stop making
+    assert "bank_claims_on" in G.GEO_RELS and "bank_liabilities_to" in G.GEO_RELS
+
+
 def test_country_and_theme_etfs_do_not_collide():
     assert not (set(G.COUNTRY_ETFS.values()) & set(G.THEME_ETFS))
     assert "XBI" in G.THEME_ETFS and "SPY" in G.COUNTRY_ETFS.values()

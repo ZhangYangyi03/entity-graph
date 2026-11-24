@@ -998,7 +998,7 @@ THEME_LEAD_COMPANIES = (
 
 
 # ------------------------------------------------------------------ driver
-LAYERS = ("trade", "diplomatic", "unvotes", "market", "gleif")
+LAYERS = ("trade", "diplomatic", "unvotes", "market", "gleif", "bis")
 
 # 这一层自己产出的关系。重复构建时必须先摘掉，否则每跑一次就在旧图上再叠一遍：
 # 实测中国建交度从 742 涨到 2968，看起来像数据变多了，其实是同一批边被加了四次。
@@ -1006,7 +1006,199 @@ GEO_RELS = (
     "bci_biopharma_exports_to", "bci_biopharma_imports_from", "registered_in",
     "consolidated_by", "has_diplomatic_relations_with", "votes_with",
     "market_comoves_with", "moves_with_bci_biopharma_sector",
+    "bank_claims_on", "bank_liabilities_to",
 )
+
+
+# ------------------------------------------------------- official cross-border bank flows
+# The layers around this one say "whose equity market moved with whose" (Yahoo index
+# co-movement). That is not capital flow and the README says so. This is the real thing:
+# BIS Locational Banking Statistics -- what banks in reporting country A actually have on
+# the books against counterparties resident in B, quarterly, USD millions.
+#
+# Why this source and not the obvious ones, every one measured 2026-11-24 from this host:
+#   IMF datamapper        403
+#   imf.org sdmxcentral   404
+#   api.imf.org           TLS certificate verify failed
+#   OECD sdmx.oecd.org    200 on the dataflow, 406 on the data endpoint
+#   Eurostat bop_fdi      404
+#   UNCTADstat api        404
+#   BIS stats.bis.org     200 on v1 AND v2, the entire matrix in one request   <- this
+#
+# The request that matters, one per leg:
+#   Q.S.C.A.TO1.A.5J.A..A..N   FREQ / measure=stocks / position=claims / instrument=All /
+#                              denom=All currencies / curr type=All / parent=All /
+#                              bank type=All / rep ctry=ALL / cp sector=All /
+#                              cp country=ALL / pos type=Cross-border
+# Measured: 8 s, 4411 observations = 47 reporting countries x 241 counterparties.
+# BIS keys both axes on ISO-2 natively, which is what country_index() already uses, so the
+# join is by code and not by name. Nothing here guesses a country out of a string.
+BIS_BASE = "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_LBS_D_PUB/1.0/"
+BIS_LEG = "Q.S.%s.A.TO1.A.5J.A..A..N"
+
+
+def _bis_country_codes() -> set:
+    """The ISO-3166 alpha-2 spine, and nothing else. 249 rows, the same list the world module
+    already stands on -- so "is this code a country" is answered by the spine rather than by
+    a blocklist of region codes somebody would have to maintain."""
+    c = _load("bis_country_codes.json", None)
+    if c:
+        return set(c)
+    try:
+        from .world import iso_countries
+        codes = {r["iso2"] for r in iso_countries()}
+    except Exception:                  # noqa: BLE001 - offline: fall back to the snapshot
+        import json as _j
+        snap = os.path.join(ROOT, "snapshots", "iso3166.json")
+        try:
+            with open(snap, encoding="utf-8") as f:
+                codes = {r["alpha-2"] for r in (_j.load(f).get("rows") or [])}
+        except Exception:              # noqa: BLE001
+            codes = set()
+    if len(codes) < 200:
+        raise FetchError("ISO spine holds %d codes, refusing to filter BIS on it" % len(codes))
+    _save("bis_country_codes.json", sorted(codes))
+    return codes
+
+
+def bis_positions(period: str | None = None) -> dict:
+    """The whole BIS cross-border claims/liabilities matrix, cached per quarter."""
+    cache = _load("bis_lbs.json", {})
+    if period is None:
+        period = _load("bis_period.json", None) or _bis_latest_period()
+    if cache.get(period, {}).get("legs"):
+        return cache[period]
+    allowed = _bis_country_codes()
+    out = {"period": period, "legs": {}, "non_country": {}}
+    for leg, name in (("C", "claims"), ("L", "liabilities")):
+        url = (BIS_BASE + (BIS_LEG % leg) + "?format=sdmx-json&startPeriod=%s&endPeriod=%s"
+               "&dimensionAtObservation=AllDimensions" % (period, period))
+        d = _json(url, timeout=180, accept="application/json")
+        ds = d["data"]["dataSets"][0]
+        dims = d["data"]["structure"]["dimensions"]["observation"]
+        code_rc = [v["id"] for v in dims[8]["values"]]
+        code_cp = [v["id"] for v in dims[10]["values"]]
+        table: dict[str, dict[str, float]] = {}
+        agg_rows: dict[str, int] = {}
+        for k, val in ds["observations"].items():
+            amt = val[0]
+            if amt is None:
+                continue
+            p_ = k.split(":")
+            r, c = code_rc[int(p_[8])], code_cp[int(p_[10])]
+            # Measured, and the reason this filter is here at all: BIS serves the code "5J"
+            # (All countries) and "5A" (All reporting countries) as ordinary members of their
+            # own dimensions, so a country's partner list contains the world-total row.
+            # Measured: CN's only partner entry was {"5J": 2144265.6} -- China's entire book
+            # is filed against "All countries" and never split by counterparty. Summing 5J
+            # into anything double-counts; keeping it as a partner links China to a country
+            # called "All countries". Both are wrong, so non-country codes are dropped here
+            # and their count is reported.
+            if r not in allowed or c not in allowed:
+                out["non_country"][r if r not in allowed else c] = True
+                if r in allowed:
+                    agg_rows[r] = agg_rows.get(r, 0) + 1
+                continue
+            # Measured: some cells come back as the literal string "NaN" (CA -> LS, GB -> ...).
+            # float() accepts it, so without this an edge would carry usd=nan and every sum
+            # downstream would be nan.
+            f = float(amt)
+            if f != f or f <= 0:      # NaN, or the absence of a book rather than a relation
+                continue
+            table.setdefault(r, {})[c] = round(f, 1)
+        out["legs"][name] = table
+        # Measured, and the reason this list is kept: BIS serves a row for each reporting
+        # country against counterparty code 5J ("All countries") IN ADDITION to its named
+        # partners. So "has an aggregate row" is true of almost everyone and means nothing.
+        # What means something is a country that has ONLY aggregate rows and no named partner
+        # at all -- there the data itself is not split by counterparty, and no country-level
+        # edge can honestly be drawn. Named in the report, so such a country reads as
+        # "reports only in aggregate" instead of "we did not fetch it".
+        out["aggregate_only_" + name] = sorted(r for r, n in agg_rows.items()
+                                               if not table.get(r))
+    out["reporters"] = len(out["legs"].get("claims") or {})
+    out["pairs"] = sum(len(v) for v in (out["legs"].get("claims") or {}).values())
+    cache[period] = out
+    _save("bis_lbs.json", cache)
+    return out
+
+
+def _bis_latest_period() -> str:
+    """The newest quarter BIS will actually serve: asked, not assumed, so this layer cannot
+    go quietly empty the day a hard-coded quarter ages out."""
+    import datetime as _d
+    today = _d.date.today()
+    for back in range(2, 10):
+        q, y = (today.month - 1) // 3 + 1 - back, today.year
+        while q <= 0:
+            q += 4
+            y -= 1
+        per = "%d-Q%d" % (y, q)
+        url = (BIS_BASE + (BIS_LEG % "C") + "?format=sdmx-json&startPeriod=%s&endPeriod=%s"
+               "&dimensionAtObservation=AllDimensions" % (per, per))
+        try:
+            d = _json(url, timeout=90, tries=1, accept="application/json")
+            if d["data"]["dataSets"][0].get("observations"):
+                _save("bis_period.json", per)
+                return per
+        except Exception:      # noqa: BLE001 - an empty quarter is a fact, not a failure
+            continue
+    raise FetchError("BIS: no quarter with data in the last two years")
+
+
+def attach_bis_flows(g: Graph, idx: dict[str, str] | None = None) -> dict:
+    """country -> country: `bank_claims_on` / `bank_liabilities_to`, USD millions.
+
+    Two directed relations, not one symmetric "connected to": a claim BY banks in A ON B is
+    a different fact from the reverse, and keeping them apart is the whole reason for
+    replacing equity co-movement with an actual capital measure.
+    """
+    idx = idx if idx is not None else country_index(g)
+    try:
+        bis = bis_positions()
+    except Exception as e:      # noqa: BLE001 - a dead source must not kill the build
+        return {"error": str(e)[:160], "edges": 0}
+    period = bis.get("period")
+    unmatched: set[str] = set()
+    edges = 0
+    totals: dict[str, float] = {}
+    for leg, rel, note in (("claims", "bank_claims_on", "银行对对方的跨境债权"),
+                           ("liabilities", "bank_liabilities_to", "银行对对方的跨境负债")):
+        for r, partners in (bis["legs"].get(leg) or {}).items():
+            src = idx.get(r)
+            if not src:
+                unmatched.add(r)
+                continue
+            for c, usd_m in partners.items():
+                dst = idx.get(c)
+                if not dst:
+                    unmatched.add(c)
+                    continue
+                g.add_edge(Edge(src=src, dst=dst, rel=rel,
+                                attrs={"usd_millions": usd_m, "usd": usd_m * 1e6,
+                                       "period": period, "leg": leg, "basis": note,
+                                       "scope": "跨境银行头寸（LBS），不是 FDI、不是证券投资、不是股指"},
+                                source="BIS Locational Banking Statistics", fetched_at=NOW(),
+                                url="https://data.bis.org/topics/LBS"))
+                edges += 1
+            if leg == "claims":
+                totals[r] = round(sum(partners.values()), 1)
+    for iso, tot in totals.items():
+        n = g.nodes.get(idx.get(iso))
+        if n:
+            n.attrs = dict(n.attrs or {}, bis_claims_usd_millions=tot, bis_period=period)
+    # BIS counterparty codes that are regions ("Advanced economies"), offshore catch-alls
+    # ("Unallocated offshore centres") or international organisations are NOT countries, and
+    # they are left out of the edge set on purpose: turning "Emerging Europe" into a country
+    # node is inventing one. The list is carried into the report so the omission stays visible
+    # instead of reading like a country BIS simply did not cover.
+    return {"edges": edges, "period": period, "reporters": bis.get("reporters"),
+            "unmatched_iso2": sorted(unmatched), "unmatched_n": len(unmatched),
+            "non_country_n": len(bis.get("non_country") or {}),
+            "non_country": sorted(bis.get("non_country") or {}),
+            "aggregate_only": (bis.get("aggregate_only_claims") or [])[:6],
+            "aggregate_only_n": len(bis.get("aggregate_only_claims") or []),
+            "top_claims": sorted(totals.items(), key=lambda x: -x[1])[:6]}
 
 
 def strip_geo(g: Graph) -> int:
@@ -1107,9 +1299,23 @@ def attach_all(g: Graph, layers=LAYERS) -> dict:
                                    % (gl["companies"], gl["theme_name_match"],
                                       gl["dropped_off_theme"], gl["registered_in"],
                                       gl["consolidated_by"])})
-    notes.append({"source": "BIS / IMF CDIS / OECD FDI", "what": "官方双边金融流量",
-                  "error": "三个源在本机全部不可达（BIS 406/404，IMF data 500，OECD 406），"
-                           "所以金融层用股指同步性代替，并标明它不是资本流"})
+    if "bis" in layers:
+        stats["bis"] = attach_bis_flows(g, idx)
+        b = stats["bis"]
+        notes.append({"source": "BIS Locational Banking Statistics", "what": "官方跨境银行头寸",
+                      "error": b.get("error") or
+                               "%s 季：%d 个申报国、%d 条有向边（债权+负债）；"
+                               "%d 个码不是国家（5J/5A 合计、地区、离岸合计、国际组织，"
+                               "按 ISO-3166 白名单剔除，"
+                               "不猜国名）；%d 个申报国只报合计、不按对手国拆分（如 %s），"
+                               "因此这些国家没有国家级边——是数据口径，不是没取到"
+                               % (b["period"], b["reporters"], b["edges"], b.get("non_country_n", 0),
+                                  b.get("aggregate_only_n", 0),
+                                  "、".join(b.get("aggregate_only") or []) or "无")})
+    # The equity co-movement layer is still carried, but no longer as a stand-in for capital:
+    # the real measure is above, and the label on market_comoves_with says so.
+    notes.append({"source": "Yahoo Finance", "what": "股指同步性（主题口径）",
+                  "error": "仅作市场共振，不是资本流动；官方资本流量已由 BIS LBS 层给出"})
     g._notes = notes  # type: ignore[attr-defined]
     g._geo_stats = stats  # type: ignore[attr-defined]
     return stats
@@ -1123,7 +1329,7 @@ def geo_report(g: Graph, top: int = 8) -> str:
         if k in ("bci_biopharma_exports_to", "bci_biopharma_imports_from",
                  "has_diplomatic_relations_with",
                  "votes_with", "market_comoves_with", "co_author_country",
-                 "trial_spans_country")),
+                 "trial_spans_country", "bank_claims_on", "bank_liabilities_to")),
          "  总图：%d 节点 / %d 边" % (len(g.nodes), len(g.edges))]
 
     def lab(k):
@@ -1138,6 +1344,14 @@ def geo_report(g: Graph, top: int = 8) -> str:
         for e in exp:
             L.append("    %-22s -> %-22s %8.1f 十亿" % (lab(e.src), lab(e.dst),
                                                         (e.attrs.get("usd") or 0) / 1e9))
+    cl = sorted([e for e in g.edges.values() if e.rel == "bank_claims_on"],
+                key=lambda e: -(e.attrs.get("usd_millions") or 0))[:top]
+    if cl:
+        per = cl[0].attrs.get("period")
+        L.append("  官方跨境银行债权最大的边（BIS LBS，%s 季，USD）：" % per)
+        for e in cl:
+            L.append("    %-22s -> %-22s %8.1f 十亿"
+                     % (lab(e.src), lab(e.dst), (e.attrs.get("usd_millions") or 0) / 1e3))
     dip = [e for e in g.edges.values() if e.rel == "has_diplomatic_relations_with"]
     if dip:
         deg = Counter()

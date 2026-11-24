@@ -438,7 +438,7 @@ def main(argv=None) -> int:
 
     gp = sub.add_parser("geo", help="商业/政治/金融三层国家间关系（并回 all.graph.json）")
     gp.add_argument("--into", default="all.graph.json", help="在这张图上叠加，缺就用 world")
-    gp.add_argument("--layers", default="trade,diplomatic,unvotes,market,gleif")
+    gp.add_argument("--layers", default="trade,diplomatic,unvotes,market,gleif,bis")
     gp.add_argument("--fetch-trade", action="store_true",
                     help="联网补取 Comtrade（限额内）；不加则只用缓存，避免整张图被限流卡死")
     gp.add_argument("--out", default="")
