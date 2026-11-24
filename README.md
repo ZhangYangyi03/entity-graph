@@ -1025,6 +1025,27 @@ address / status / category 这些字段，没有行业码。所以判据换成�
     对手国拆分，所以它们没有国家级边。这是 BIS 的口径，不是我们没取到——gaps 里点名，
     免得被读成"漏了中国"。
 
+专利层（2026-11-24 晚：本机全入口被挡，未接入）
+
+    今天早些时候 Google Patents 的 xhr 端点是通的，实测一次拿到 30187 件 BCI 专利，
+    字段有 title / assignee / inventor / filing_date / publication_date /
+    publication_number / family_metadata / pdf，头 100 件的受让方是天津大学 5、
+    华南理工大学 4、高丽大学 3、浙江大学 3、Neurable Inc.。那一次证明这条路的数据是对的，
+    只是没走完：publication_number 前缀解析成国别这一步没做，节点也就没进图。
+
+    之后同一台机器、同一个端点开始被拒，五个入口逐一实测：
+
+        Google Patents  xhr / html / 结果页   503（curl_cffi 伪装 Chrome 指纹同样 503）
+        PatentsView     search + data         TLS UNEXPECTED_EOF
+        EPO OPS         published-data / auth 403、404
+        Espacenet       搜索页、REST          403
+        Lens.org        api + 网页            401、403
+        WIPO PATENTSCOPE 结果页               200，但结果是 JS 渲染，HTML 里没有记录
+        USPTO            developer 门户、ppubs 200，返回前端空壳不是数据
+
+    也就是说这不是"没找到入口"，是"入口在这个 IP 上关窗了"。所以专利层保持 0 条，
+    并且不再把它写成"只差一步"——差的那一步不是解析，是可达性。
+
 还没接的（都是本机实测可达性，不是猜的）：
 
     Google Patents xhr 端点  可用。30187 件 BCI 专利可检索，字段有 title / assignee / inventor /
