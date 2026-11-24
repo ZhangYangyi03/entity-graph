@@ -1308,7 +1308,8 @@ def attach_all(g: Graph, layers=LAYERS) -> dict:
                                "%d 个码不是国家（5J/5A 合计、地区、离岸合计、国际组织，"
                                "按 ISO-3166 白名单剔除，"
                                "不猜国名）；%d 个申报国只报合计、不按对手国拆分（如 %s），"
-                               "因此这些国家没有国家级边——是数据口径，不是没取到"
+                               "所以它们没有「作为申报国」的出边——但作为对手方仍在别国的边里"
+                               "（实测中国作为对手方有 59 条入边、761.6 十亿），是口径不是没取到"
                                % (b["period"], b["reporters"], b["edges"], b.get("non_country_n", 0),
                                   b.get("aggregate_only_n", 0),
                                   "、".join(b.get("aggregate_only") or []) or "无")})
