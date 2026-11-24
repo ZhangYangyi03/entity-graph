@@ -884,6 +884,31 @@ OpenAlex 依然不可用：api.openalex.org 每次 429（带不带 polite-pool m
 
 这三列是三种不同的测量方法（论文按机构国名=下限、试验按地点字段=总数、企业按 GLEIF
 关键词命中），并列而不是相加——它们的证据强度不一样，加起来就是一个假精度。
+## 爬 -> 清洗 -> 地理补全，一条命令
+
+     $ python -m entitygraph.cli pipeline --urls https://celestrak.org/NORAD/elements/ --geotag
+
+爬取交给 autoforge 的爬虫（fast / stealth / render 三引擎），入图交给 `web.add_web`：
+页面成 `webpage` 节点、外链域名成 `website` 节点、`links_to` 连起来，每个节点每条边都带
+真的抓到的 URL 和时间戳。抓失败的 URL、返回 2xx 但其实是机器人验证页的 URL，都进
+`caveats` 并写明理由——「没覆盖」和「没抓到」是两件事，不合并。
+
+地理这一环分两块，说清楚哪块是模型、哪块不是：
+
+    星下点     TLE -> entitygraph.orbit.sgp4_eci -> GMST -> WGS84 大地纬度迭代
+               写 sub_lat / sub_lon / sub_alt_km / sub_at / sub_method
+    城市坐标   Natural Earth 50m 地名表；同名多地且行政区挑不出来的一律拒绝
+    最近景     --geotag 时，给已有坐标的节点查最近 Sentinel-2 景，
+               走 earthexplorer 专用服务，写 geo_scene / geo_scene_score / geo_scene_method
+
+`geo_scene` 是**景覆盖**，不是地表类型。这一点实测过：拿
+"satellite ground station with dish antennas in desert" 问那个服务，FarSLIP top1 得分
+0.3105，把瓦片调出来看，全是纯沙漠、一个碟都没有。所以这里不写任何 land-cover 属性——
+写了就是编的，这个仓不写编的东西。
+
+拒猜是规矩，不是保守：同名不同 key 的 230 组（同为 "Salem" 在四个州、两家都叫
+"University of Michigan"）一律留在 `clean_refused.json` 里，等一个标识符来 join。
+
 ## 商业 / 政治 / 金融三层，全部落在同两个主题上
 
 要求是"国家之间不仅学术联系，商业、政治、金融也要整合"，同时"针对脑机接口和生物医药那俩

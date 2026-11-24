@@ -448,6 +448,19 @@ def main(argv=None) -> int:
     mg.add_argument("--out", default="all.graph.json")
     mg.add_argument("--format", choices=["summary", "json", "lines"], default="summary")
 
+    pl = sub.add_parser("pipeline", help="爬 -> 清洗 -> 地理补全（一条命令；涉及坐标的走 earthexplorer 专用服务）")
+    pl.add_argument("--graphs", default="satcat,geo,cn_market,political_economy,industry,institutions,banking")
+    pl.add_argument("--urls", default="", help="要爬的网址，逗号分隔；交给 autoforge 爬虫")
+    pl.add_argument("--mode", default="fast", choices=["fast", "stealth", "render"])
+    pl.add_argument("--tle", default="https://celestrak.org/NORAD/elements/gp.php?GROUP=stations&FORMAT=tle",
+                    help="星下点用的 TLE；空字符串跳过")
+    pl.add_argument("--no-geocode", action="store_true")
+    pl.add_argument("--geotag", action="store_true",
+                    help="对已有坐标的节点查最近 Sentinel-2 景（走 earthexplorer，每点约 90 秒）")
+    pl.add_argument("--geotag-limit", type=int, default=25)
+    pl.add_argument("--out", default="clean/clean.graph.json")
+    pl.add_argument("--refused", default="clean/clean_refused.json")
+
     cl = sub.add_parser("clean", help="合并多图并做地理补全；宁缺勿猜，拒猜的写进 --refused")
     cl.add_argument("--graphs", default="satcat,geo,cn_market,political_economy,industry,institutions,banking",
                     help="要合并的图（逗号分隔，自动补 .graph.json）")
@@ -660,6 +673,43 @@ def main(argv=None) -> int:
             print(out)
         return 0
 
+
+    if args.cmd == "pipeline":
+        from .pipeline import run_clean
+        rep = run_clean(
+            graphs=[x.strip() for x in args.graphs.split(",") if x.strip()],
+            urls=[x.strip() for x in args.urls.split(",") if x.strip()],
+            tle=args.tle, geocode=not args.no_geocode, geotag=args.geotag,
+            out=args.out, refused=args.refused, geotag_limit=args.geotag_limit)
+        for src, c in rep["sources"].items():
+            print("  %-28s nodes %6d  edges %6d" % (src, c["nodes"], c["edges"]))
+        if rep["missing_graphs"]:
+            print("  缺图，跳过：" + ", ".join(rep["missing_graphs"]))
+        if rep.get("crawl"):
+            c = rep["crawl"]
+            print("  爬取（%s）：页面 %d，站点 %d，links_to 边 %d，失败 %d"
+                  % (c["engine"], c["pages"], c["hosts"], c["edges"], len(c["caveats"])))
+            for v in c["caveats"][:5]:
+                print("     ! %s  %s  %s" % (v["why"], v["url"][:70], v["detail"][:60]))
+        if rep.get("subpoints"):
+            s = rep["subpoints"]
+            print("  星下点：命中 %d 节点，TLE 未匹配 %d，传播失败 %d"
+                  % (s["matched_nodes"], s["tle_unmatched"], s["propagation_errors"]))
+        if rep.get("geocode"):
+            s = rep["geocode"]
+            print("  城市坐标：唯一命中 %d，按行政区 %d，拒猜 %d，地名表没有 %d"
+                  % (s["unique"], s["by_region"], s["refused_ambiguous"], s["not_in_gazetteer"]))
+        s = rep["geotag"]
+        if s["locator"] == "none":
+            print("  地理场景：未做（没接 earthexplorer；加 --geotag 且本机可 import autoforge）")
+        else:
+            print("  地理场景：%s 打标 %d 个点，候选 %d，失败 %d，已无坐标 %d，超出 --geotag-limit 跳过 %d"
+                  % (s["locator"], s["geotagged"], s["candidates"], s["failed"],
+                     s["no_coordinate"], s["skipped_by_limit"]))
+        print("  拒猜 %d 组 -> %s" % (rep["refusals"], rep["refused_out"]))
+        print("pipeline: nodes %d  edges %d" % (rep["nodes"], rep["edges"]))
+        print("wrote %s (%.1f MB, streamed)" % (rep["out"], rep["bytes_written"] / 1e6))
+        return 0
 
     if args.cmd == "clean":
         from . import clean as _clean
