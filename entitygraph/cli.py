@@ -448,6 +448,17 @@ def main(argv=None) -> int:
     mg.add_argument("--out", default="all.graph.json")
     mg.add_argument("--format", choices=["summary", "json", "lines"], default="summary")
 
+    cl = sub.add_parser("clean", help="合并多图并做地理补全；宁缺勿猜，拒猜的写进 --refused")
+    cl.add_argument("--graphs", default="satcat,geo,cn_market,political_economy,industry,institutions,banking",
+                    help="要合并的图（逗号分隔，自动补 .graph.json）")
+    cl.add_argument("--tle", default="https://celestrak.org/NORAD/elements/gp.php?GROUP=stations&FORMAT=tle",
+                    help="用于算星下点的 TLE 源（URL 或本地文件）；空则跳过")
+    cl.add_argument("--no-geocode", action="store_true", help="不给城市补坐标")
+    cl.add_argument("--gazetteer", default="", help="自然地球地名表 geojson 路径；空则用 .cache 或联网下载")
+    cl.add_argument("--refused", default="clean/clean_refused.json")
+    cl.add_argument("--out", default="clean/clean.graph.json")
+    cl.add_argument("--format", choices=["summary", "json", "lines"], default="summary")
+
     ig = sub.add_parser("institutions", help="机构（ROR）与跨国临床试验（字段级证据）")
     ig.add_argument("--term", default='"brain-computer interface"')
     ig.add_argument("--out", default="institutions.graph.json")
@@ -649,6 +660,56 @@ def main(argv=None) -> int:
             print(out)
         return 0
 
+
+    if args.cmd == "clean":
+        from . import clean as _clean
+        import os as _os
+        names = [x.strip() for x in args.graphs.split(",") if x.strip()]
+        paths, missing = [], []
+        for n in names:
+            q = n if n.endswith(".json") else n + ".graph.json"
+            (paths if _os.path.exists(q) else missing).append(q)
+        if missing:
+            print("  缺图，跳过：" + ", ".join(missing))
+        g, refused, per = _clean.merge_graphs(paths)
+        for src, c in per.items():
+            print("  %-28s nodes %6d  edges %6d" % (src, c["nodes"], c["edges"]))
+        dead = _clean.strip_symbol_labels(g)
+        if dead:
+            print("  剔除纯符号标签节点 %d 个" % len(dead))
+        if args.tle:
+            if "://" in args.tle:
+                import urllib.request
+                req = urllib.request.Request(args.tle, headers={"User-Agent": "entitygraph"})
+                txt = urllib.request.urlopen(req, timeout=60).read().decode("utf-8", "ignore")
+            else:
+                txt = open(args.tle, encoding="utf-8", errors="ignore").read()
+            st = _clean.attach_subpoints(g, txt)
+            print("  星下点：命中 %d 节点，TLE 未匹配 %d，传播失败 %d"
+                  % (st["matched_nodes"], st["tle_unmatched"], st["propagation_errors"]))
+        if not args.no_geocode:
+            gz = _clean.load_gazetteer(args.gazetteer or None)
+            st = _clean.geocode_cities(g, gz)
+            print("  城市坐标：唯一命中 %d，按行政区 %d，拒猜 %d，地名表没有 %d"
+                  % (st["unique"], st["by_region"], st["refused_ambiguous"],
+                     st["not_in_gazetteer"]))
+        for q in (args.refused, args.out):
+            d = _os.path.dirname(q)
+            if d:
+                _os.makedirs(d, exist_ok=True)
+        with open(args.refused, "w", encoding="utf-8") as f:
+            json.dump({"refusals": refused}, f, ensure_ascii=False, indent=1)
+        print("  拒猜 %d 组写入 %s" % (len(refused), args.refused))
+        st = g.stats()
+        print("clean: nodes %d  edges %d" % (st["nodes"], st["edges"]))
+        print("kinds: " + "  ".join("%s=%d" % kv for kv in sorted(st["by_kind"].items())))
+        print("rels: " + "  ".join("%s=%d" % kv for kv in sorted(st["by_rel"].items())))
+        for n in getattr(g, "_notes", []):
+            print("  ! %-24s %-16s %s" % (n.get("source", "?"), n.get("what", "?"),
+                                           (n.get("error") or "")[:90]))
+        size = _clean.dump_graph(g, args.out)
+        print("wrote %s (%.1f MB, streamed)" % (args.out, size / 1e6))
+        return 0
 
     if args.cmd == "banking":
         from .banking import build_currency_graph

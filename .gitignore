@@ -25,3 +25,6 @@ sync.log
 # 可重建的中间态，不进库
 shards/us_china_raw/_build_state.json
 shards/us_china_raw/_build_state.pkl
+
+# 清洗产物：30MB 级、可由 python -m entitygraph.cli clean 重建，不进库
+clean/*.graph.json
