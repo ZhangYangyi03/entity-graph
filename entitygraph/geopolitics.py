@@ -257,47 +257,63 @@ def trade_rows(iso2: str) -> dict:
         _save("trade_flows.json", cache)
         return res
     import time as _t
-    # One request per (HS code, flow direction). Measured: a reporter with 200 partners
-    # returns exactly 500 rows for the code alone -- the public preview caps the response at
-    # 500, so the exports and imports are cut off and the row set looks complete. Splitting
-    # by flowCode brings each response under the cap (202 and 130 rows for the same pair),
-    # and 500 rows arriving is treated as a truncated answer, not as data.
+    # Requests per HS code, both flow directions at once. Measured on this host
+    # 2026-11-24: the public preview caps a response at 500 rows, and the cap is silent --
+    # 500 arriving looks like a complete answer. Four codes in one request therefore
+    # truncates (DE 4-HS both-flows: exactly 500, some codes missing), while one code with
+    # both flows stays under it (DE 9018/9021/9027/3004 = 338/279/340/282). So the unit of
+    # request is one HS code; a 500 is treated as truncation and that code is re-fetched
+    # split by flow (US 9018 returns 500 with flows M/RX/X and must be split).
     by_code: dict[str, list] = {}
     quota = None
     for hs in THEME_HS:
-        for flow in ("X", "M"):
-            try:
-                d = _json(TRADE_URL % (code, TRADE_YEAR, hs) + "&flowCode=" + flow,
-                          timeout=60, tries=3)
-            except FetchError as e:
-                quota = str(e)
-                break
-            rows = d.get("data") or []
-            if not rows and res.get("reporter_code_from") is None:
-                alt = res.get("_alt_code")
-                if alt is None:
-                    par_codes = comtrade_reference()[1]
-                    alt = par_codes.get(iso2)
-                    res["_alt_code"] = alt or False
-                if alt and alt != code:
-                    try:
-                        d2 = _json(TRADE_URL % (alt, TRADE_YEAR, hs) + "&flowCode=" + flow,
-                                   timeout=60, tries=2)
-                        rows = d2.get("data") or []
-                        if rows:
-                            res["reporter_code_from"] = "partnerAreas 回退(%s)" % alt
-                            code = alt
-                    except FetchError:
-                        pass
-            if len(rows) >= 500:
-                res["truncated"] = (res.get("truncated") or []) + ["%s/%s" % (hs, flow)]
-            by_code["%s:%s" % (hs, flow)] = rows
-            _t.sleep(3)
-        if quota is not None:
+        rows: list = []
+        try:
+            d = _json(TRADE_URL % (code, TRADE_YEAR, hs), timeout=90, tries=3)
+        except FetchError as e:
+            quota = str(e)
             break
+        rows = d.get("data") or []
+        if len(rows) >= 500:
+            rows = []
+            split_failed = False
+            for flow in ("X", "M"):
+                try:
+                    d2 = _json(TRADE_URL % (code, TRADE_YEAR, hs) + "&flowCode=" + flow,
+                               timeout=90, tries=2)
+                except FetchError as e:
+                    quota = str(e)
+                    split_failed = True
+                    break
+                part = d2.get("data") or []
+                if len(part) >= 500:
+                    res["truncated"] = (res.get("truncated") or []) + ["%s/%s" % (hs, flow)]
+                rows.extend(part)
+                _t.sleep(2)
+            if split_failed:
+                break
+        if not rows and res.get("reporter_code_from") is None:
+            alt = res.get("_alt_code")
+            if alt is None:
+                par_codes = comtrade_reference()[1]
+                alt = par_codes.get(iso2)
+                res["_alt_code"] = alt or False
+            if alt and alt != code:
+                try:
+                    d3 = _json(TRADE_URL % (alt, TRADE_YEAR, hs), timeout=90, tries=2)
+                    rows = d3.get("data") or []
+                    if rows:
+                        res["reporter_code_from"] = "partnerAreas 回退(%s)" % alt
+                        code = alt
+                except FetchError:
+                    pass
+        by_code[hs] = rows
+        _t.sleep(3)
     if quota is not None:
         msg = quota
         if "429" in msg or "Quota" in msg or "403" in msg:
+            # Not cached: a quota answer is not "this country has no trade". Caching it would
+            # silently zero the reporter out on the next run.
             res["error"] = "限流（%s）——不计入结果，下次运行重试" % msg[:60]
             return res
         res["error"] = msg[:160]
