@@ -174,3 +174,46 @@ def test_rolling_store_keeps_provenance_and_a_url_survives_a_second_crawl(tmp_pa
     assert page.url == "https://a.example/x"
     assert page.source == "autoforge.crawler"
     assert len(g.nodes) == 3
+
+
+def test_an_explicit_clean_does_not_also_trigger_the_automatic_one(tmp_path, monkeypatch):
+    """fetch_web hands its result to add_web -- the caller IS the cleaner.
+
+    If the crawler's auto-clean hook also fired, the same pages would land in two stores
+    and the second copy would never be looked at. So fetch_web asks the hook to stand
+    aside, and this test asserts it actually does.
+    """
+    monkeypatch.setenv("ENTITYGRAPH_AUTO_STORE", str(tmp_path / "auto" / "web.graph.json"))
+    from entitygraph import web
+    seen = {}
+
+    class FakeCrawler:
+        @staticmethod
+        def crawl(urls, mode="fast", concurrency=20, timeout=8, with_text=False):
+            import os
+            seen["autoclean"] = os.environ.get("AUTOFORGE_AUTOCLEAN")
+            return {"mode": mode, "count": len(urls), "elapsed": 0.0, "rps": 0.0,
+                    "results": [{"url": u, "status": 200, "title": "T",
+                                 "text": "x" * 500, "links": [], "bytes": 500}
+                                for u in urls]}
+
+    res, engine = web.fetch_web(["https://a.example/1"], crawler=FakeCrawler)
+    assert seen["autoclean"] == "0"          # asked to stand aside
+    assert engine == "autoforge.crawler:fast"
+    assert res["count"] == 1
+    import os
+    assert os.environ.get("AUTOFORGE_AUTOCLEAN") != "0"   # and put back afterwards
+
+
+def test_fetch_web_restores_a_pre_existing_setting(monkeypatch):
+    from entitygraph import web
+    monkeypatch.setenv("AUTOFORGE_AUTOCLEAN", "0")
+
+    class FakeCrawler:
+        @staticmethod
+        def crawl(urls, **kw):
+            return {"mode": "fast", "count": 0, "elapsed": 0.0, "rps": 0.0, "results": []}
+
+    import os
+    web.fetch_web(["https://a.example/1"], crawler=FakeCrawler)
+    assert os.environ.get("AUTOFORGE_AUTOCLEAN") == "0"

@@ -22,6 +22,7 @@ from __future__ import annotations
 import datetime as _dt
 import hashlib
 import html as _html
+import os
 import re
 import urllib.parse
 from concurrent.futures import ThreadPoolExecutor
@@ -186,8 +187,22 @@ def fetch_web(urls: list[str], *, mode: str = "fast", concurrency: int = 12,
         except Exception:
             crawler = None
     if crawler is not None and hasattr(crawler, "crawl"):
-        res = crawler.crawl(urls, mode=mode, concurrency=concurrency,
-                            timeout=timeout, with_text=with_text)
+        # The crawler has a hook that offers a finished crawl to the rolling web store
+        # when it looks worth keeping. Here the caller IS the cleaner -- this function
+        # hands the result straight to add_web -- so the hook would ingest the same pages
+        # twice into two stores. It steps aside, and says so, rather than being silently
+        # duplicated. AUTOFORGE_AUTOCLEAN is process-wide, which is fine: this call is
+        # synchronous and nothing else is crawling while it runs.
+        prior = os.environ.get("AUTOFORGE_AUTOCLEAN")
+        os.environ["AUTOFORGE_AUTOCLEAN"] = "0"
+        try:
+            res = crawler.crawl(urls, mode=mode, concurrency=concurrency,
+                                timeout=timeout, with_text=with_text)
+        finally:
+            if prior is None:
+                os.environ.pop("AUTOFORGE_AUTOCLEAN", None)
+            else:
+                os.environ["AUTOFORGE_AUTOCLEAN"] = prior
         return res, "autoforge.crawler:" + mode
 
     import time
