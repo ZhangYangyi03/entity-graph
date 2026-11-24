@@ -56,6 +56,28 @@ def test_trade_quota_error_is_not_cached_as_an_answer():
     assert "return res" in src
 
 
+def test_a_500_row_answer_is_treated_as_truncation_not_data():
+    # measured 2026-11-24: four HS codes in one request come back as exactly 500 rows with
+    # no error, some codes silently missing (DE both-flows 4 codes: 500). The preview caps
+    # a response at 500, so a 500 is re-fetched split by flowCode instead of trusted.
+    src = open(os.path.join(ROOT, "entitygraph", "geopolitics.py"), encoding="utf-8").read()
+    assert "len(rows) >= 500" in src and "&flowCode=" in src
+
+
+def test_trade_requests_are_one_hs_code_each():
+    # the bug the 500 cap caused: four codes joined into cmdCode=9018,9021,9027,3004
+    src = open(os.path.join(ROOT, "entitygraph", "geopolitics.py"), encoding="utf-8").read()
+    assert 'TRADE_URL % (code, TRADE_YEAR, hs)' in src
+    assert '",".join' not in src.split("def trade_rows")[1].split("def attach_trade")[0]
+
+
+def test_empty_reporter_is_distinguished_from_unfetched():
+    # RU answers 0 rows for these HS codes in 2023 and 2024 (measured); that is a real empty
+    # answer and must be recorded as such, not left looking like a country nobody fetched.
+    src = open(os.path.join(ROOT, "entitygraph", "geopolitics.py"), encoding="utf-8").read()
+    assert "verified_empty" in src
+
+
 def test_country_and_theme_etfs_do_not_collide():
     assert not (set(G.COUNTRY_ETFS.values()) & set(G.THEME_ETFS))
     assert "XBI" in G.THEME_ETFS and "SPY" in G.COUNTRY_ETFS.values()

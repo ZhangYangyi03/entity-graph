@@ -323,6 +323,16 @@ def trade_rows(iso2: str) -> dict:
     if not by_code:
         res["error"] = "四个 HS 编码全部取数失败"
         return res
+    if not any(by_code.values()):
+        # A reporter that answers 200 with zero rows for every theme code is an EMPTY
+        # reporter, not an unfetched one -- RU does exactly this for 2023 and 2024. Recorded
+        # so the next run does not re-spend quota on it, and so nobody reads the silence as
+        # "we just have not got to Russia yet".
+        res["verified_empty"] = True
+        res["error"] = "Comtrade 该报告国对此四个 HS 编码返回 0 行（实测空，非限流、非解析失败）"
+        cache[key] = res
+        _save("trade_flows.json", cache)
+        return res
     d = {"data": [x for rows in by_code.values() for x in rows]}
     by_partner: dict[int, dict] = {}
     for r in d.get("data") or []:
