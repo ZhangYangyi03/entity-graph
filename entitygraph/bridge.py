@@ -141,7 +141,20 @@ def bridge_satellites_to_countries(graph, iso_names=None) -> dict:
     from .satcat import OWNER_ALPHA3
 
     canon = canonical_countries(graph, iso_names)
-    linked = unresolvable = 0
+    # The catalogue's own build already wrote owned_by_state edges onto the satcat
+    # spelling of the state (country:usa). Adding a second edge to country:US would
+    # state one fact twice and every "satellites per country" count would double.
+    # So: an alpha-3 the satellite is already attached to is left alone.
+    have: dict[str, set[str]] = {}
+    for e in graph.edges.values():
+        if e.rel != "owned_by_state":
+            continue
+        dst = graph.nodes.get(e.dst)
+        if dst is not None and dst.kind == "country":
+            a3 = iso3_of(dst, iso_names)
+            if a3:
+                have.setdefault(e.src, set()).add(a3)
+    linked = already = unresolvable = 0
     codes: dict[str, int] = {}
     for n in graph.nodes.values():
         if n.kind != "satellite":
@@ -149,6 +162,10 @@ def bridge_satellites_to_countries(graph, iso_names=None) -> dict:
         code = (n.attrs.get("owner_code") or "").strip().upper()
         a3 = (OWNER_ALPHA3.get(code) or "").strip().upper()
         tgt = canon.get(a3) if a3 else None
+        existing = have.get(n.key) or set()
+        if tgt and a3 in existing:
+            already += 1
+            continue
         if not tgt:
             unresolvable += 1
             codes[code or "?"] = codes.get(code or "?", 0) + 1
@@ -158,7 +175,8 @@ def bridge_satellites_to_countries(graph, iso_names=None) -> dict:
                        url="https://celestrak.org/satcat/records.php?GROUP=active&FORMAT=json",
                        basis=f"owner code {code} is mapped to {a3} by satcat.OWNER_ALPHA3; "
                              "state implied by the owner code, not by the satellite's operator")
-    return {"linked": linked, "unresolvable_satellites": unresolvable,
+    return {"linked": linked, "already_linked": already,
+            "unresolvable_satellites": unresolvable,
             "unresolvable_codes": dict(sorted(codes.items(), key=lambda kv: -kv[1]))}
 
 
@@ -279,6 +297,7 @@ def islands(graph) -> dict:
 
 def connect(graph, *, iso_names=None, satellites=True, operators=True,
             countries=True, listings=True) -> dict:
+    """listings 同时控制 A股->上市地 与 同代码发行人归一 两类桥。"""
     """Apply every bridge. Returns the stats, the island measurement before and after.
 
     Runs the measurement twice on purpose: a bridge set that does not move the largest
@@ -289,6 +308,8 @@ def connect(graph, *, iso_names=None, satellites=True, operators=True,
     out: dict = {"before": before, "edges_before": edges_before}
     if countries:
         out["country_identity"] = bridge_country_identity(graph, iso_names)
+    if listings:
+        out["issuer_identity"] = bridge_listing_identities(graph)
     if satellites:
         out["satellite_country"] = bridge_satellites_to_countries(graph, iso_names)
     if operators:
@@ -302,3 +323,61 @@ def connect(graph, *, iso_names=None, satellites=True, operators=True,
     n = after["nodes"]
     out["density_after"] = round(2.0 * len(graph.edges) / (n * (n - 1)), 12) if n > 1 else 0.0
     return out
+
+
+def bridge_listing_identities(graph, evidence_kinds=("disclosure", "listed_company")) -> dict:
+    """A 6-digit exchange code is the identifier the A-share layers never joined on.
+
+    Three builders wrote the same listed company three ways: `cnstock:300007` (the market
+    feed, with price/PE/margin), `listed_company` (the concept-board feed, with market cap
+    and board membership), and `disclosure` (the cninfo feed, with the announcements that
+    name the project). Nothing joined them, so an announcement could not be read against
+    the price of the company it was about.
+
+    The join is on the code, which the exchange assigns: one code, one issuer. A code that
+    appears under two spellings (600000 vs 000600) is not folded -- the code as written is
+    the whole test, and case-folding a numeric code would merge two different issuers.
+    """
+    EVIDENCE = ("巨潮资讯（标题索引） / 同花顺概念板块 / 东财-腾讯行情快照："
+                "证券代码为交易所分配的唯一标识")
+    def code_of(n):
+        for field in ("sec_code", "code"):
+            v = n.attrs.get(field)
+            if v is not None and str(v).strip():
+                return str(v).strip()
+        return ""
+
+    # Kind, not key prefix: the cninfo feed keys its nodes `announcement:cninfo:<code>:...`,
+    # and a prefix test written around the market feed's `cnstock:` missed every one of
+    # them the first time this ran. The identifier is the field, not the namespace.
+    KINDS = ("company", "listed_company", "disclosure")
+    canon: dict[str, str] = {}
+    for pref in ("cnstock:", "company:", "listed_company:", "announcement:"):
+        for n in graph.nodes.values():
+            if n.kind not in KINDS:
+                continue
+            code = code_of(n)
+            if code and n.key.startswith(pref):
+                canon.setdefault(code, n.key)
+    groups: dict[str, list[str]] = collections.defaultdict(list)
+    for n in graph.nodes.values():
+        if n.kind not in KINDS:
+            continue
+        code = code_of(n)
+        if not code:
+            continue
+        anchor = canon.get(code)
+        if anchor and anchor != n.key:
+            groups[anchor].append(n.key)
+    linked = 0
+    for anchor, others in groups.items():
+        for k in others:
+            linked += _add(graph, k, anchor, "same_issuer_as",
+                           source=EVIDENCE,
+                           url="https://push2.eastmoney.com/",
+                           basis="同一个交易所代码 %s；一个代码一个发行人"
+                                 % (graph.nodes[k].attrs.get("code")
+                                    or graph.nodes[k].attrs.get("sec_code")))
+    return {"codes_matched": len(groups), "issuer_identity_edges": linked,
+            "nodes_with_code": sum(1 for n in graph.nodes.values()
+                                   if (n.attrs.get("code") or n.attrs.get("sec_code")))}

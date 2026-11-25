@@ -54,8 +54,10 @@ def test_country_identity_joins_on_alpha3_only():
 def test_satellite_gets_its_state_but_an_operator_code_is_refused():
     g = _g()
     st = bridge.bridge_satellites_to_countries(g)
-    assert st["linked"] == 1
-    assert ("sat:1", "owned_by_state", "country:US") in g.edges
+    # sat:1 already states its state through the catalogue's own country:usa edge. The
+    # bridge must not state it twice -- that is the double-count this fixed.
+    assert st["linked"] == 0 and st["already_linked"] == 1
+    assert ("sat:1", "owned_by_state", "country:US") not in g.edges
     # SES is an operator, not a state: no edge, and the refusal is counted not hidden
     assert st["unresolvable_satellites"] == 1
     assert st["unresolvable_codes"]["SES"] == 1

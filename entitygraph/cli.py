@@ -472,6 +472,13 @@ def main(argv=None) -> int:
     cl.add_argument("--out", default="clean/clean.graph.json")
     cl.add_argument("--format", choices=["summary", "json", "lines"], default="summary")
 
+    ask = sub.add_parser("ask", help="问这张图一句话：按国家数卫星 / 板块成分 / 实体档案 / 两点路径")
+    ask.add_argument("what", choices=["per-country", "per-operator", "banks", "board", "profile", "path", "issuer"])
+    ask.add_argument("args", nargs="*", help="board/profile/path 的参数")
+    ask.add_argument("--graph", default="clean/clean.connected.graph.json")
+    ask.add_argument("--top", type=int, default=10)
+    ask.add_argument("--format", choices=["summary", "json"], default="summary")
+
     cn = sub.add_parser("connect", help="连岛：补上四个建造者已经写出事实、却没连的结构边")
     cn.add_argument("--graph", default="clean/clean.graph.json", help="要连的图")
     cn.add_argument("--out", default="", help="写回路径；空则就地覆盖 --graph")
@@ -770,6 +777,72 @@ def main(argv=None) -> int:
         print("wrote %s (%.1f MB, streamed)" % (args.out, size / 1e6))
         return 0
 
+    if args.cmd == "ask":
+        from . import clean as _clean
+        from . import query as _q
+        g = _clean.load_graph(args.graph)
+        a = args.args or []
+        if args.what == "per-country":
+            rep = _q.satellites_by_country(g, top=args.top)
+        elif args.what == "per-operator":
+            rep = _q.satellites_by_operator(g, top=args.top)
+        elif args.what == "banks":
+            rep = _q.banks_by_state(g, top=args.top)
+        elif args.what == "board":
+            rep = _q.board_members(g, a[0] if a else "脑机接口")
+        elif args.what == "issuer":
+            rep = _q.issuer_evidence(g, a[0] if a else "脑机接口", limit=args.top)
+        elif args.what == "profile":
+            rep = _q.profile(g, a[0] if a else "")
+        else:
+            rep = _q.path(g, a[0] if a else "", a[1] if len(a) > 1 else "",
+                          int(a[2]) if len(a) > 2 else 6)
+        if args.format == "json":
+            print(json.dumps(rep, ensure_ascii=False, indent=1, default=str))
+            return 0
+        if "error" in rep:
+            print(rep["error"]);
+            return 1
+        if "with_announcements" in rep:
+            print(rep["question"])
+            print("  成分 %d，有市值 %d，有公告证据 %d，合计市值 %.1f 亿"
+                  % (rep["population"], rep["with_figures"], rep["with_announcements"],
+                     rep["total_mcap_yi"]))
+            for r in rep["rows"]:
+                print("   %-14s %-7s 市值 %8s 亿 PE %8s 公告 %d 条"
+                      % (str(r["label"])[:14], r["code"], r["mcap_yi"], r["pe_ttm"],
+                         r["announcement_count"]))
+                for tx in r["announcements"]:
+                    print("        · " + str(tx)[:88])
+            print("  注：" + rep["note"])
+        elif "board" in rep:
+            print(rep["question"] + "：成分 %d，其中有市值 %d，合计 %.1f 亿"
+                  % (rep["population"], rep["with_figures"], rep["total_mcap_yi"]))
+            for lab, code, mcap, pe, flow in rep["rows"][:15]:
+                print("   %-16s %-8s 市值 %8s 亿  PE %7s  主力净流入 %s"
+                      % (str(lab)[:16], str(code), mcap, pe, flow if flow is not None else "-"))
+            print("  注：" + rep["note"])
+        elif "rows" in rep:
+            print(rep.get("question", ""))
+            print("  分母：%s 个实体，已归类 %s，未归类 %s"
+                  % (rep["population"], rep["classified"], rep["unclassified"]))
+            for row in rep["rows"]:
+                print("   " + "  ".join(str(x) for x in row))
+            for k in ("total_assets_thousand_usd", "total_mcap_yi", "note"):
+                if k in rep:
+                    print("  %s: %s" % (k, rep[k]))
+        elif rep.get("connected") is not None:
+            if not rep.get("connected"):
+                print("不连通（上限 %s 跳）：%s -> %s" % (rep["hop_limit"], rep["a"], rep["b"]))
+            else:
+                print("%d 跳：" % rep["hops"] + " -> ".join(rep["chain"]))
+        else:
+            print("[%s] %s  度数 %d" % (rep["kind"], rep["label"], rep["degree"]))
+            for grp, items in rep["groups"].items():
+                print("  %-26s %s" % (grp, ", ".join(str(x) for x in items[:8])))
+        return 0
+
+
     if args.cmd == "connect":
         from . import bridge as _bridge
         from . import clean as _clean
@@ -787,7 +860,7 @@ def main(argv=None) -> int:
         print("连岛前：分量 %d，最大分量 %d（%.1f%%），孤立点 %d，边 %d"
               % (b["components"], b["largest"], b["largest_share"], b["isolated"], rep["edges_before"]))
         for name, key in (("国家身份归一", "country_identity"), ("卫星->国家", "satellite_country"),
-                          ("卫星->运营商", "satellite_operator"), ("A股->上市地", "listed_country")):
+                          ("卫星->运营商", "satellite_operator"), ("A股->上市地", "listed_country"), ("同代码发行人归一", "issuer_identity")):
             if key in rep:
                 print("  %-14s %s" % (name, json.dumps(rep[key], ensure_ascii=False)))
         print("连岛后：分量 %d，最大分量 %d（%.1f%%），孤立点 %d"
