@@ -472,6 +472,15 @@ def main(argv=None) -> int:
     cl.add_argument("--out", default="clean/clean.graph.json")
     cl.add_argument("--format", choices=["summary", "json", "lines"], default="summary")
 
+    cn = sub.add_parser("connect", help="连岛：补上四个建造者已经写出事实、却没连的结构边")
+    cn.add_argument("--graph", default="clean/clean.graph.json", help="要连的图")
+    cn.add_argument("--out", default="", help="写回路径；空则就地覆盖 --graph")
+    cn.add_argument("--no-satellites", action="store_true", help="跳过 卫星->国家")
+    cn.add_argument("--no-operators", action="store_true", help="跳过 卫星->运营商")
+    cn.add_argument("--no-countries", action="store_true", help="跳过 国家身份归一")
+    cn.add_argument("--no-listings", action="store_true", help="跳过 A股->上市地国家")
+    cn.add_argument("--format", choices=["summary", "json"], default="summary")
+
     ig = sub.add_parser("institutions", help="机构（ROR）与跨国临床试验（字段级证据）")
     ig.add_argument("--term", default='"brain-computer interface"')
     ig.add_argument("--out", default="institutions.graph.json")
@@ -759,6 +768,36 @@ def main(argv=None) -> int:
                                            (n.get("error") or "")[:90]))
         size = _clean.dump_graph(g, args.out)
         print("wrote %s (%.1f MB, streamed)" % (args.out, size / 1e6))
+        return 0
+
+    if args.cmd == "connect":
+        from . import bridge as _bridge
+        from . import clean as _clean
+        g = _clean.load_graph(args.graph)
+        names = _bridge.iso_name_index(_bridge.load_iso_rows())
+        rep = _bridge.connect(g, iso_names=names,
+                              satellites=not args.no_satellites,
+                              operators=not args.no_operators,
+                              countries=not args.no_countries,
+                              listings=not args.no_listings)
+        if args.format == "json":
+            print(json.dumps(rep, ensure_ascii=False, indent=1, default=str))
+            return 0
+        b, a = rep["before"], rep["after"]
+        print("连岛前：分量 %d，最大分量 %d（%.1f%%），孤立点 %d，边 %d"
+              % (b["components"], b["largest"], b["largest_share"], b["isolated"], rep["edges_before"]))
+        for name, key in (("国家身份归一", "country_identity"), ("卫星->国家", "satellite_country"),
+                          ("卫星->运营商", "satellite_operator"), ("A股->上市地", "listed_country")):
+            if key in rep:
+                print("  %-14s %s" % (name, json.dumps(rep[key], ensure_ascii=False)))
+        print("连岛后：分量 %d，最大分量 %d（%.1f%%），孤立点 %d"
+              % (a["components"], a["largest"], a["largest_share"], a["isolated"]))
+        print("  最大分量构成 %s" % (a["top"],))
+        print("  新增边 %d（%d -> %d），密度 %.3e"
+              % (rep["edges_added"], rep["edges_before"], rep["edges_after"], rep["density_after"]))
+        out = args.out or args.graph
+        size = _clean.dump_graph(g, out)
+        print("wrote %s (%.1f MB, streamed)" % (out, size / 1e6))
         return 0
 
     if args.cmd == "banking":

@@ -163,7 +163,7 @@ def run_clean(*, graphs=(), urls=(), tle: str = "", geocode: bool = True,
               geotag: bool = False, out: str = "clean/clean.graph.json",
               refused: str = "clean/clean_refused.json", locator=None,
               crawler=None, mode: str = "fast", geotag_limit: int = 25,
-              gazetteer: str = "") -> dict:
+              gazetteer: str = "", bridges: bool = True) -> dict:
     """The whole pipeline in one call, and the only place the order is written down."""
     present, missing = exists(graphs)
     g, refusals, per_source = _clean.merge_graphs(present)
@@ -194,6 +194,11 @@ def run_clean(*, graphs=(), urls=(), tle: str = "", geocode: bool = True,
 
     report["geotag"] = geotag_locations(g, locator if geotag else None,
                                         top_permille=3, limit=geotag_limit)
+
+    if bridges:
+        from . import bridge as _bridge
+        report["bridges"] = _bridge.connect(
+            g, iso_names=_bridge.iso_name_index(_bridge.load_iso_rows()))
 
     for q in (refused, out):
         d = os.path.dirname(q)
